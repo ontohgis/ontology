@@ -1,0 +1,191 @@
+@prefix : <http://makolab.com/oc/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://makolab.com/oc/> a owl:Ontology ;
+	owl:versionInfo "varion 1.0"@en ;
+	rdfs:comment """Created by MakoLab S.A.
+
+Contact:
+Robert Trypuz (robert.trypuz@makolab.pl)"""@en ;
+	rdfs:label "Ontology of change with manifestations"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+
+skos:definition a owl:AnnotationProperty .
+# 
+# http://www.w3.org/2004/02/skos/core#scopeNote
+
+skos:scopeNote a owl:AnnotationProperty .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://makolab.com/oc/hasLastManifestation
+
+:hasLastManifestation a owl:ObjectProperty ;
+	rdfs:subPropertyOf :hasManifestation ;
+	owl:inverseOf :isLastManifestationOf ;
+	rdfs:label "has last manifestation"@en ;
+	skos:definition "The property assigns the last manifestation to a variable entity."@en .
+# 
+# http://makolab.com/oc/hasManifestation
+
+:hasManifestation a owl:ObjectProperty ;
+	owl:inverseOf :isManifestationOf ;
+	rdfs:domain :VariableEntity ;
+	rdfs:range :VariableEntityManifestation ;
+	rdfs:label "has manifestation"@en ;
+	skos:definition "The property assigns a manifestation to a variable entity."@en .
+# 
+# http://makolab.com/oc/hasPredecessorEntityManifestation
+
+:hasPredecessorEntityManifestation a owl:ObjectProperty ;
+	owl:inverseOf :isPredecessorEntityManifestationOf ;
+	rdfs:domain :VariableEntityManifestation ;
+	rdfs:range :VariableEntityManifestation ;
+	rdfs:label "has predecessor entity manifestation"@en ;
+	skos:definition "The property establishes the temporal linear order of the manifestations of an entity."@en .
+# 
+# http://makolab.com/oc/hasSuccessorEntity
+
+:hasSuccessorEntity a owl:ObjectProperty ;
+	rdfs:domain :VariableEntityManifestation ;
+	rdfs:range :VariableEntity ;
+	rdfs:label "has successor entity"@en ;
+	skos:definition "The property assigns to an entity other entity that supersedes or subsumes it."@en .
+# 
+# http://makolab.com/oc/isLastManifestationOf
+
+:isLastManifestationOf a owl:ObjectProperty ;
+	rdfs:subPropertyOf :isManifestationOf ;
+	rdfs:label "is last manifestation of"@en ;
+	skos:definition "The property indicates which manifestations of a variable entities are last."@en .
+# 
+# http://makolab.com/oc/isManifestationOf
+
+:isManifestationOf a owl:ObjectProperty ;
+	rdfs:domain :VariableEntityManifestation ;
+	rdfs:range :VariableEntity ;
+	rdfs:label "is manifestation of"@en ;
+	skos:definition "The property indicates to each manifestation the variable entity it is a manifestation of."@en .
+# 
+# http://makolab.com/oc/isPredecessorEntityManifestationOf
+
+:isPredecessorEntityManifestationOf a owl:ObjectProperty ;
+	rdfs:domain :VariableEntityManifestation ;
+	rdfs:range :VariableEntityManifestation ;
+	rdfs:label "is predecessor entity manifestation of"@en ;
+	skos:definition "The property establishes the temporal linear order of the manifestations of an entity."@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://makolab.com/oc/hasBeginning
+
+:hasBeginning a owl:DatatypeProperty ;
+	rdfs:subPropertyOf :hasDate ;
+	a owl:FunctionalProperty ;
+	rdfs:domain :VariableEntityManifestation ;
+	rdfs:range xsd:dateTime ;
+	rdfs:label "has beginning"@en ;
+	skos:definition "The property assigns to a variable entity manifestation date and time information about it was most recently updated."@en .
+# 
+# http://makolab.com/oc/hasDate
+
+:hasDate a owl:DatatypeProperty ;
+	rdfs:range xsd:dateTime ;
+	rdfs:label "has date"@en .
+# 
+# http://makolab.com/oc/hasEnd
+
+:hasEnd a owl:DatatypeProperty ;
+	rdfs:subPropertyOf :hasDate ;
+	a owl:FunctionalProperty ;
+	rdfs:domain :VariableEntityManifestation ;
+	rdfs:range xsd:dateTime ;
+	rdfs:label "has end"@en ;
+	skos:definition "The property assigns to a variable entity manifestation date and time information about it was most recently updated."@en .
+# 
+# http://makolab.com/oc/hasUpdateDate
+
+:hasUpdateDate a owl:DatatypeProperty ;
+	rdfs:subPropertyOf :hasDate ;
+	a owl:FunctionalProperty ;
+	rdfs:domain :VariableEntityManifestation ;
+	rdfs:range xsd:dateTime ;
+	rdfs:label "has update date"@en ;
+	skos:definition "The property assigns to a variable entity manifestation date and time information about it was most recently updated."@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://makolab.com/oc/NonVariableEntity
+
+:NonVariableEntity a owl:Class ;
+	owl:disjointWith :VariableEntity ;
+	rdfs:label "non-variable entity"@en ;
+	skos:definition "Non-variable entities are entities that do not have different manifestations as different objects at different times and in different worlds or situations."@en .
+# 
+# http://makolab.com/oc/VariableEntity
+
+:VariableEntity a owl:Class ;
+	rdfs:subClassOf _:genid1 .
+
+_:genid1 a owl:Restriction ;
+	owl:onProperty :hasLastManifestation ;
+	owl:someValuesFrom :VariableEntityManifestation .
+
+:VariableEntity rdfs:label "variable entity"@en ;
+	skos:definition "Variable entities are entities that have different manifestations as different objects at different times and in different worlds or situations. If a variable entity e is manifested at time t by some variable entity manifestation m, then e exists at t, takes a geographical location of m and has all qualities possessed by m in t. A variable entity possesses a quality q (without temporal reference) if all of its manifestations have this quality q."@en .
+# 
+# http://makolab.com/oc/VariableEntityManifestation
+
+:VariableEntityManifestation a owl:Class ;
+	rdfs:subClassOf :NonVariableEntity , _:genid2 .
+
+_:genid2 a owl:Restriction ;
+	owl:onProperty :isManifestationOf ;
+	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+	owl:onClass :VariableEntity .
+
+:VariableEntityManifestation rdfs:subClassOf _:genid3 .
+
+_:genid3 a owl:Restriction ;
+	owl:onProperty :hasUpdateDate ;
+	owl:someValuesFrom xsd:dateTime .
+
+:VariableEntityManifestation rdfs:label "variable entity manifestation"@en ;
+	skos:definition "A variable entity manifestation is a manifestation (in particular time and space with a particular collection of qualities) of a variable entity."@en .
+# 
+# Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi
