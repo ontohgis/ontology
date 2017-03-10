@@ -1366,3 +1366,1347 @@ Class: Związek chłopski  # Generated from value "Związek chłopski" located a
    Annotations: '(klasa) ma obcy identyfikator' "111"
 
 ===========================================================================================================
+Date: 2017-03-10 09:06:28
+Ontology source: /D:/Non-BORO/OntGeoHis/ontology/ontohgis.ttl
+Worksheet source: D:\Non-BORO\OntGeoHis\ontology\public_SettlementTypes_ontologyImport_v1_PGa.xlsx
+Transformation rules: D:\Non-BORO\OntGeoHis\ontology\Convert_NewSettlementUnits.json
+
+# Cell range: (Ontology_Import_Prep!A2:D112) Comment: ""
+# Class: @A*(rdfs:label=@B* rdf:ID=@A*)
+# Annotations: '(klasa) ma obcy identyfikator' @C* 
+# SubClassOf: @D*
+
+Class: przysiółek kolonii  # Generated from value "przysiółek kolonii" located at cell 'Ontology_Import_Prep'!A2.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "73"
+Class: przysiółek osady  # Generated from value "przysiółek osady" located at cell 'Ontology_Import_Prep'!A3.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "74"
+Class: przysiółek wsi  # Generated from value "przysiółek wsi" located at cell 'Ontology_Import_Prep'!A4.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "75"
+Class: schronisko turystyczne  # Generated from value "schronisko turystyczne" located at cell 'Ontology_Import_Prep'!A5.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "76"
+Class: inny obiekt  # Generated from value "inny obiekt" located at cell 'Ontology_Import_Prep'!A6.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "77"
+Class: odosobnione gospodarstwa  # Generated from value "odosobnione gospodarstwa" located at cell 'Ontology_Import_Prep'!A7.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "78"
+Class: pojedyncze domy  # Generated from value "pojedyncze domy" located at cell 'Ontology_Import_Prep'!A8.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "79"
+Class: holendry  # Generated from value "holendry" located at cell 'Ontology_Import_Prep'!A9.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "80"
+Class: zagroda  # Generated from value "zagroda" located at cell 'Ontology_Import_Prep'!A10.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "81"
+Class: port morski  # Generated from value "port morski" located at cell 'Ontology_Import_Prep'!A11.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "82"
+Class: wieś kościelna  # Generated from value "wieś kościelna" located at cell 'Ontology_Import_Prep'!A12.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "83"
+Class: miasto królewskie  # Generated from value "miasto królewskie" located at cell 'Ontology_Import_Prep'!A13.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "84"
+Class: miasto targowe  # Generated from value "miasto targowe" located at cell 'Ontology_Import_Prep'!A14.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "85"
+Class: miasto warowne  # Generated from value "miasto warowne" located at cell 'Ontology_Import_Prep'!A15.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "86"
+Class: miasto z murami  # Generated from value "miasto z murami" located at cell 'Ontology_Import_Prep'!A16.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "87"
+Class: miasto handlowe  # Generated from value "miasto handlowe" located at cell 'Ontology_Import_Prep'!A17.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "88"
+Class: miasto krajowe  # Generated from value "miasto krajowe" located at cell 'Ontology_Import_Prep'!A18.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "89"
+Class: miasto rządowe  # Generated from value "miasto rządowe" located at cell 'Ontology_Import_Prep'!A19.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "90"
+Class: miasto w landach  # Generated from value "miasto w landach" located at cell 'Ontology_Import_Prep'!A20.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "91"
+Class: targ  # Generated from value "targ" located at cell 'Ontology_Import_Prep'!A21.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "92"
+Class: obozowisko nomadów  # Generated from value "obozowisko nomadów" located at cell 'Ontology_Import_Prep'!A22.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "93"
+Class: odosobnione zagrody  # Generated from value "odosobnione zagrody" located at cell 'Ontology_Import_Prep'!A23.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "94"
+Class: osiedle przy mieście  # Generated from value "osiedle przy mieście" located at cell 'Ontology_Import_Prep'!A24.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "95"
+Class: pojedyncze zabudowania  # Generated from value "pojedyncze zabudowania" located at cell 'Ontology_Import_Prep'!A25.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "96"
+Class: posada  # Generated from value "posada" located at cell 'Ontology_Import_Prep'!A26.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "97"
+Class: schronisko górskie  # Generated from value "schronisko górskie" located at cell 'Ontology_Import_Prep'!A27.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "98"
+Class: karczma  # Generated from value "karczma" located at cell 'Ontology_Import_Prep'!A28.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "99"
+Class: kaplica  # Generated from value "kaplica" located at cell 'Ontology_Import_Prep'!A29.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "100"
+Class: szaniec polowy  # Generated from value "szaniec polowy" located at cell 'Ontology_Import_Prep'!A30.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "101"
+Class: grupa zabudowań  # Generated from value "grupa zabudowań" located at cell 'Ontology_Import_Prep'!A31.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "102"
+Class: kościół  # Generated from value "kościół" located at cell 'Ontology_Import_Prep'!A32.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "103"
+Class: fabryka  # Generated from value "fabryka" located at cell 'Ontology_Import_Prep'!A33.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "104"
+Class: przystanek  # Generated from value "przystanek" located at cell 'Ontology_Import_Prep'!A34.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "105"
+Class: rumunek  # Generated from value "rumunek" located at cell 'Ontology_Import_Prep'!A35.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "106"
+Class: targowica  # Generated from value "targowica" located at cell 'Ontology_Import_Prep'!A36.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "107"
+Class: wieś bez kościoła  # Generated from value "wieś bez kościoła" located at cell 'Ontology_Import_Prep'!A37.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "108"
+Class: wieś z folwarkiem  # Generated from value "wieś z folwarkiem" located at cell 'Ontology_Import_Prep'!A38.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "109"
+Class: wójtostwo  # Generated from value "wójtostwo" located at cell 'Ontology_Import_Prep'!A39.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "110"
+Class: związek chłopski  # Generated from value "związek chłopski" located at cell 'Ontology_Import_Prep'!A40.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "111"
+Class: zamek  # Generated from value "zamek" located at cell 'Ontology_Import_Prep'!A41.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "1"
+Class: wieś  # Generated from value "wieś" located at cell 'Ontology_Import_Prep'!A42.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "2"
+Class: miasto  # Generated from value "miasto" located at cell 'Ontology_Import_Prep'!A43.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "3"
+Class: ruiny zamku  # Generated from value "ruiny zamku" located at cell 'Ontology_Import_Prep'!A44.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "4"
+Class: dzielnica  # Generated from value "dzielnica" located at cell 'Ontology_Import_Prep'!A45.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "6"
+Class: targowisko  # Generated from value "targowisko" located at cell 'Ontology_Import_Prep'!A46.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "5"
+Class: dwór  # Generated from value "dwór" located at cell 'Ontology_Import_Prep'!A47.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "7"
+Class: folwark  # Generated from value "folwark" located at cell 'Ontology_Import_Prep'!A48.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "8"
+Class: borostwo  # Generated from value "borostwo" located at cell 'Ontology_Import_Prep'!A49.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "9"
+Class: browar  # Generated from value "browar" located at cell 'Ontology_Import_Prep'!A50.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "10"
+Class: cegielnia  # Generated from value "cegielnia" located at cell 'Ontology_Import_Prep'!A51.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "11"
+Class: cukrownia  # Generated from value "cukrownia" located at cell 'Ontology_Import_Prep'!A52.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "12"
+Class: domek łąkowy  # Generated from value "domek łąkowy" located at cell 'Ontology_Import_Prep'!A53.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "13"
+Class: domek przewozowy  # Generated from value "domek przewozowy" located at cell 'Ontology_Import_Prep'!A54.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "14"
+Class: domek szosowy  # Generated from value "domek szosowy" located at cell 'Ontology_Import_Prep'!A55.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "15"
+Class: futor  # Generated from value "futor" located at cell 'Ontology_Import_Prep'!A56.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "16"
+Class: gajówka  # Generated from value "gajówka" located at cell 'Ontology_Import_Prep'!A57.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "17"
+Class: gorzelnia  # Generated from value "gorzelnia" located at cell 'Ontology_Import_Prep'!A58.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "18"
+Class: klasztor  # Generated from value "klasztor" located at cell 'Ontology_Import_Prep'!A59.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "19"
+Class: kolonia  # Generated from value "kolonia" located at cell 'Ontology_Import_Prep'!A60.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "20"
+Class: kopalnia  # Generated from value "kopalnia" located at cell 'Ontology_Import_Prep'!A61.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "21"
+Class: koszary  # Generated from value "koszary" located at cell 'Ontology_Import_Prep'!A62.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "22"
+Class: latarnia morska  # Generated from value "latarnia morska" located at cell 'Ontology_Import_Prep'!A63.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "23"
+Class: lecznica  # Generated from value "lecznica" located at cell 'Ontology_Import_Prep'!A64.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "24"
+Class: letnisko  # Generated from value "letnisko" located at cell 'Ontology_Import_Prep'!A65.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "25"
+Class: leśnictwo  # Generated from value "leśnictwo" located at cell 'Ontology_Import_Prep'!A66.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "26"
+Class: leśniczówka  # Generated from value "leśniczówka" located at cell 'Ontology_Import_Prep'!A67.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "27"
+Class: miasteczko  # Generated from value "miasteczko" located at cell 'Ontology_Import_Prep'!A68.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "28"
+Class: nadleśnictwo  # Generated from value "nadleśnictwo" located at cell 'Ontology_Import_Prep'!A69.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "29"
+Class: obszar dworski  # Generated from value "obszar dworski" located at cell 'Ontology_Import_Prep'!A70.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "30"
+Class: okolica  # Generated from value "okolica" located at cell 'Ontology_Import_Prep'!A71.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "32"
+Class: obóz warowny  # Generated from value "obóz warowny" located at cell 'Ontology_Import_Prep'!A72.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "31"
+Class: osada  # Generated from value "osada" located at cell 'Ontology_Import_Prep'!A73.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "33"
+Class: osiedle  # Generated from value "osiedle" located at cell 'Ontology_Import_Prep'!A74.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "34"
+Class: osada fabryczna  # Generated from value "osada fabryczna" located at cell 'Ontology_Import_Prep'!A75.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "35"
+Class: osada leśna  # Generated from value "osada leśna" located at cell 'Ontology_Import_Prep'!A76.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "36"
+Class: osada miejska  # Generated from value "osada miejska" located at cell 'Ontology_Import_Prep'!A77.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "37"
+Class: osada młyńska  # Generated from value "osada młyńska" located at cell 'Ontology_Import_Prep'!A78.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "38"
+Class: osada pałacowa  # Generated from value "osada pałacowa" located at cell 'Ontology_Import_Prep'!A79.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "39"
+Class: osada wojskowa  # Generated from value "osada wojskowa" located at cell 'Ontology_Import_Prep'!A80.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "40"
+Class: plebania  # Generated from value "plebania" located at cell 'Ontology_Import_Prep'!A81.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "41"
+Class: probostwo  # Generated from value "probostwo" located at cell 'Ontology_Import_Prep'!A82.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "42"
+Class: przedmieście  # Generated from value "przedmieście" located at cell 'Ontology_Import_Prep'!A83.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "43"
+Class: przysiółek  # Generated from value "przysiółek" located at cell 'Ontology_Import_Prep'!A84.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "44"
+Class: przystanek kolejowy  # Generated from value "przystanek kolejowy" located at cell 'Ontology_Import_Prep'!A85.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "45"
+Class: pustkowie  # Generated from value "pustkowie" located at cell 'Ontology_Import_Prep'!A86.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "46"
+Class: smolarnia  # Generated from value "smolarnia" located at cell 'Ontology_Import_Prep'!A87.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "47"
+Class: stacja kolejowa  # Generated from value "stacja kolejowa" located at cell 'Ontology_Import_Prep'!A88.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "48"
+Class: szpital epidemiczny  # Generated from value "szpital epidemiczny" located at cell 'Ontology_Import_Prep'!A89.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "49"
+Class: tartak  # Generated from value "tartak" located at cell 'Ontology_Import_Prep'!A90.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "50"
+Class: torfiarnia  # Generated from value "torfiarnia" located at cell 'Ontology_Import_Prep'!A91.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "51"
+Class: twierdza  # Generated from value "twierdza" located at cell 'Ontology_Import_Prep'!A92.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "52"
+Class: uzdrowisko  # Generated from value "uzdrowisko" located at cell 'Ontology_Import_Prep'!A93.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "53"
+Class: uroczysko  # Generated from value "uroczysko" located at cell 'Ontology_Import_Prep'!A94.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "54"
+Class: więzienie  # Generated from value "więzienie" located at cell 'Ontology_Import_Prep'!A95.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "55"
+Class: zaścianek  # Generated from value "zaścianek" located at cell 'Ontology_Import_Prep'!A96.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "56"
+Class: zakład kąpielowy  # Generated from value "zakład kąpielowy" located at cell 'Ontology_Import_Prep'!A97.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "57"
+Class: zakład poprawczy  # Generated from value "zakład poprawczy" located at cell 'Ontology_Import_Prep'!A98.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "58"
+Class: zakład wychowawczy  # Generated from value "zakład wychowawczy" located at cell 'Ontology_Import_Prep'!A99.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "59"
+Class: część kolonii  # Generated from value "część kolonii" located at cell 'Ontology_Import_Prep'!A100.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "60"
+Class: część miasta  # Generated from value "część miasta" located at cell 'Ontology_Import_Prep'!A101.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "61"
+Class: część osady  # Generated from value "część osady" located at cell 'Ontology_Import_Prep'!A102.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "62"
+Class: część wsi  # Generated from value "część wsi" located at cell 'Ontology_Import_Prep'!A103.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "63"
+Class: kolonia kolonii  # Generated from value "kolonia kolonii" located at cell 'Ontology_Import_Prep'!A104.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "64"
+Class: kolonia osady  # Generated from value "kolonia osady" located at cell 'Ontology_Import_Prep'!A105.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "65"
+Class: kolonia wsi  # Generated from value "kolonia wsi" located at cell 'Ontology_Import_Prep'!A106.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "66"
+Class: osada kolejowa  # Generated from value "osada kolejowa" located at cell 'Ontology_Import_Prep'!A107.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "67"
+Class: osada kolonii  # Generated from value "osada kolonii" located at cell 'Ontology_Import_Prep'!A108.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "68"
+Class: osada leśna wsi  # Generated from value "osada leśna wsi" located at cell 'Ontology_Import_Prep'!A109.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "69"
+Class: osada osady  # Generated from value "osada osady" located at cell 'Ontology_Import_Prep'!A110.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "70"
+Class: osada wsi  # Generated from value "osada wsi" located at cell 'Ontology_Import_Prep'!A111.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "71"
+Class: osiedle wsi  # Generated from value "osiedle wsi" located at cell 'Ontology_Import_Prep'!A112.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "72"
+Class: przysiółek kolonii  # Generated from value "przysiółek kolonii" located at cell 'Ontology_Import_Prep'!A2.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "73"
+Class: przysiółek osady  # Generated from value "przysiółek osady" located at cell 'Ontology_Import_Prep'!A3.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "74"
+Class: przysiółek wsi  # Generated from value "przysiółek wsi" located at cell 'Ontology_Import_Prep'!A4.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "75"
+Class: schronisko turystyczne  # Generated from value "schronisko turystyczne" located at cell 'Ontology_Import_Prep'!A5.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "76"
+Class: inny obiekt  # Generated from value "inny obiekt" located at cell 'Ontology_Import_Prep'!A6.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "77"
+Class: odosobnione gospodarstwa  # Generated from value "odosobnione gospodarstwa" located at cell 'Ontology_Import_Prep'!A7.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "78"
+Class: pojedyncze domy  # Generated from value "pojedyncze domy" located at cell 'Ontology_Import_Prep'!A8.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "79"
+Class: holendry  # Generated from value "holendry" located at cell 'Ontology_Import_Prep'!A9.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "80"
+Class: zagroda  # Generated from value "zagroda" located at cell 'Ontology_Import_Prep'!A10.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "81"
+Class: port morski  # Generated from value "port morski" located at cell 'Ontology_Import_Prep'!A11.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "82"
+Class: wieś kościelna  # Generated from value "wieś kościelna" located at cell 'Ontology_Import_Prep'!A12.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "83"
+Class: miasto królewskie  # Generated from value "miasto królewskie" located at cell 'Ontology_Import_Prep'!A13.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "84"
+Class: miasto targowe  # Generated from value "miasto targowe" located at cell 'Ontology_Import_Prep'!A14.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "85"
+Class: miasto warowne  # Generated from value "miasto warowne" located at cell 'Ontology_Import_Prep'!A15.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "86"
+Class: miasto z murami  # Generated from value "miasto z murami" located at cell 'Ontology_Import_Prep'!A16.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "87"
+Class: miasto handlowe  # Generated from value "miasto handlowe" located at cell 'Ontology_Import_Prep'!A17.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "88"
+Class: miasto krajowe  # Generated from value "miasto krajowe" located at cell 'Ontology_Import_Prep'!A18.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "89"
+Class: miasto rządowe  # Generated from value "miasto rządowe" located at cell 'Ontology_Import_Prep'!A19.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "90"
+Class: miasto w landach  # Generated from value "miasto w landach" located at cell 'Ontology_Import_Prep'!A20.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "91"
+Class: targ  # Generated from value "targ" located at cell 'Ontology_Import_Prep'!A21.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "92"
+Class: obozowisko nomadów  # Generated from value "obozowisko nomadów" located at cell 'Ontology_Import_Prep'!A22.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "93"
+Class: odosobnione zagrody  # Generated from value "odosobnione zagrody" located at cell 'Ontology_Import_Prep'!A23.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "94"
+Class: osiedle przy mieście  # Generated from value "osiedle przy mieście" located at cell 'Ontology_Import_Prep'!A24.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "95"
+Class: pojedyncze zabudowania  # Generated from value "pojedyncze zabudowania" located at cell 'Ontology_Import_Prep'!A25.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "96"
+Class: posada  # Generated from value "posada" located at cell 'Ontology_Import_Prep'!A26.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "97"
+Class: schronisko górskie  # Generated from value "schronisko górskie" located at cell 'Ontology_Import_Prep'!A27.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "98"
+Class: karczma  # Generated from value "karczma" located at cell 'Ontology_Import_Prep'!A28.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "99"
+Class: kaplica  # Generated from value "kaplica" located at cell 'Ontology_Import_Prep'!A29.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "100"
+Class: szaniec polowy  # Generated from value "szaniec polowy" located at cell 'Ontology_Import_Prep'!A30.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "101"
+Class: grupa zabudowań  # Generated from value "grupa zabudowań" located at cell 'Ontology_Import_Prep'!A31.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "102"
+Class: kościół  # Generated from value "kościół" located at cell 'Ontology_Import_Prep'!A32.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "103"
+Class: fabryka  # Generated from value "fabryka" located at cell 'Ontology_Import_Prep'!A33.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "104"
+Class: przystanek  # Generated from value "przystanek" located at cell 'Ontology_Import_Prep'!A34.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "105"
+Class: rumunek  # Generated from value "rumunek" located at cell 'Ontology_Import_Prep'!A35.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "106"
+Class: targowica  # Generated from value "targowica" located at cell 'Ontology_Import_Prep'!A36.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "107"
+Class: wieś bez kościoła  # Generated from value "wieś bez kościoła" located at cell 'Ontology_Import_Prep'!A37.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "108"
+Class: wieś z folwarkiem  # Generated from value "wieś z folwarkiem" located at cell 'Ontology_Import_Prep'!A38.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "109"
+Class: wójtostwo  # Generated from value "wójtostwo" located at cell 'Ontology_Import_Prep'!A39.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "110"
+Class: związek chłopski  # Generated from value "związek chłopski" located at cell 'Ontology_Import_Prep'!A40.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "111"
+Class: zamek  # Generated from value "zamek" located at cell 'Ontology_Import_Prep'!A41.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "1"
+Class: wieś  # Generated from value "wieś" located at cell 'Ontology_Import_Prep'!A42.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "2"
+Class: miasto  # Generated from value "miasto" located at cell 'Ontology_Import_Prep'!A43.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "3"
+Class: ruiny zamku  # Generated from value "ruiny zamku" located at cell 'Ontology_Import_Prep'!A44.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "4"
+Class: dzielnica  # Generated from value "dzielnica" located at cell 'Ontology_Import_Prep'!A45.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "6"
+Class: targowisko  # Generated from value "targowisko" located at cell 'Ontology_Import_Prep'!A46.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "5"
+Class: dwór  # Generated from value "dwór" located at cell 'Ontology_Import_Prep'!A47.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "7"
+Class: folwark  # Generated from value "folwark" located at cell 'Ontology_Import_Prep'!A48.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "8"
+Class: borostwo  # Generated from value "borostwo" located at cell 'Ontology_Import_Prep'!A49.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "9"
+Class: browar  # Generated from value "browar" located at cell 'Ontology_Import_Prep'!A50.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "10"
+Class: cegielnia  # Generated from value "cegielnia" located at cell 'Ontology_Import_Prep'!A51.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "11"
+Class: cukrownia  # Generated from value "cukrownia" located at cell 'Ontology_Import_Prep'!A52.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "12"
+Class: domek łąkowy  # Generated from value "domek łąkowy" located at cell 'Ontology_Import_Prep'!A53.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "13"
+Class: domek przewozowy  # Generated from value "domek przewozowy" located at cell 'Ontology_Import_Prep'!A54.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "14"
+Class: domek szosowy  # Generated from value "domek szosowy" located at cell 'Ontology_Import_Prep'!A55.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "15"
+Class: futor  # Generated from value "futor" located at cell 'Ontology_Import_Prep'!A56.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "16"
+Class: gajówka  # Generated from value "gajówka" located at cell 'Ontology_Import_Prep'!A57.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "17"
+Class: gorzelnia  # Generated from value "gorzelnia" located at cell 'Ontology_Import_Prep'!A58.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "18"
+Class: klasztor  # Generated from value "klasztor" located at cell 'Ontology_Import_Prep'!A59.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "19"
+Class: kolonia  # Generated from value "kolonia" located at cell 'Ontology_Import_Prep'!A60.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "20"
+Class: kopalnia  # Generated from value "kopalnia" located at cell 'Ontology_Import_Prep'!A61.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "21"
+Class: koszary  # Generated from value "koszary" located at cell 'Ontology_Import_Prep'!A62.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "22"
+Class: latarnia morska  # Generated from value "latarnia morska" located at cell 'Ontology_Import_Prep'!A63.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "23"
+Class: lecznica  # Generated from value "lecznica" located at cell 'Ontology_Import_Prep'!A64.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "24"
+Class: letnisko  # Generated from value "letnisko" located at cell 'Ontology_Import_Prep'!A65.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "25"
+Class: leśnictwo  # Generated from value "leśnictwo" located at cell 'Ontology_Import_Prep'!A66.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "26"
+Class: leśniczówka  # Generated from value "leśniczówka" located at cell 'Ontology_Import_Prep'!A67.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "27"
+Class: miasteczko  # Generated from value "miasteczko" located at cell 'Ontology_Import_Prep'!A68.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "28"
+Class: nadleśnictwo  # Generated from value "nadleśnictwo" located at cell 'Ontology_Import_Prep'!A69.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "29"
+Class: obszar dworski  # Generated from value "obszar dworski" located at cell 'Ontology_Import_Prep'!A70.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "30"
+Class: okolica  # Generated from value "okolica" located at cell 'Ontology_Import_Prep'!A71.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "32"
+Class: obóz warowny  # Generated from value "obóz warowny" located at cell 'Ontology_Import_Prep'!A72.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "31"
+Class: osada  # Generated from value "osada" located at cell 'Ontology_Import_Prep'!A73.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "33"
+Class: osiedle  # Generated from value "osiedle" located at cell 'Ontology_Import_Prep'!A74.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "34"
+Class: osada fabryczna  # Generated from value "osada fabryczna" located at cell 'Ontology_Import_Prep'!A75.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "35"
+Class: osada leśna  # Generated from value "osada leśna" located at cell 'Ontology_Import_Prep'!A76.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "36"
+Class: osada miejska  # Generated from value "osada miejska" located at cell 'Ontology_Import_Prep'!A77.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "37"
+Class: osada młyńska  # Generated from value "osada młyńska" located at cell 'Ontology_Import_Prep'!A78.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "38"
+Class: osada pałacowa  # Generated from value "osada pałacowa" located at cell 'Ontology_Import_Prep'!A79.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "39"
+Class: osada wojskowa  # Generated from value "osada wojskowa" located at cell 'Ontology_Import_Prep'!A80.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "40"
+Class: plebania  # Generated from value "plebania" located at cell 'Ontology_Import_Prep'!A81.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "41"
+Class: probostwo  # Generated from value "probostwo" located at cell 'Ontology_Import_Prep'!A82.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "42"
+Class: przedmieście  # Generated from value "przedmieście" located at cell 'Ontology_Import_Prep'!A83.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "43"
+Class: przysiółek  # Generated from value "przysiółek" located at cell 'Ontology_Import_Prep'!A84.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "44"
+Class: przystanek kolejowy  # Generated from value "przystanek kolejowy" located at cell 'Ontology_Import_Prep'!A85.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "45"
+Class: pustkowie  # Generated from value "pustkowie" located at cell 'Ontology_Import_Prep'!A86.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "46"
+Class: smolarnia  # Generated from value "smolarnia" located at cell 'Ontology_Import_Prep'!A87.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "47"
+Class: stacja kolejowa  # Generated from value "stacja kolejowa" located at cell 'Ontology_Import_Prep'!A88.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "48"
+Class: szpital epidemiczny  # Generated from value "szpital epidemiczny" located at cell 'Ontology_Import_Prep'!A89.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "49"
+Class: tartak  # Generated from value "tartak" located at cell 'Ontology_Import_Prep'!A90.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "50"
+Class: torfiarnia  # Generated from value "torfiarnia" located at cell 'Ontology_Import_Prep'!A91.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "51"
+Class: twierdza  # Generated from value "twierdza" located at cell 'Ontology_Import_Prep'!A92.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "52"
+Class: uzdrowisko  # Generated from value "uzdrowisko" located at cell 'Ontology_Import_Prep'!A93.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "53"
+Class: uroczysko  # Generated from value "uroczysko" located at cell 'Ontology_Import_Prep'!A94.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "54"
+Class: więzienie  # Generated from value "więzienie" located at cell 'Ontology_Import_Prep'!A95.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "55"
+Class: zaścianek  # Generated from value "zaścianek" located at cell 'Ontology_Import_Prep'!A96.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "56"
+Class: zakład kąpielowy  # Generated from value "zakład kąpielowy" located at cell 'Ontology_Import_Prep'!A97.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "57"
+Class: zakład poprawczy  # Generated from value "zakład poprawczy" located at cell 'Ontology_Import_Prep'!A98.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "58"
+Class: zakład wychowawczy  # Generated from value "zakład wychowawczy" located at cell 'Ontology_Import_Prep'!A99.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "59"
+Class: część kolonii  # Generated from value "część kolonii" located at cell 'Ontology_Import_Prep'!A100.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "60"
+Class: część miasta  # Generated from value "część miasta" located at cell 'Ontology_Import_Prep'!A101.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "61"
+Class: część osady  # Generated from value "część osady" located at cell 'Ontology_Import_Prep'!A102.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "62"
+Class: część wsi  # Generated from value "część wsi" located at cell 'Ontology_Import_Prep'!A103.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "63"
+Class: kolonia kolonii  # Generated from value "kolonia kolonii" located at cell 'Ontology_Import_Prep'!A104.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "64"
+Class: kolonia osady  # Generated from value "kolonia osady" located at cell 'Ontology_Import_Prep'!A105.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "65"
+Class: kolonia wsi  # Generated from value "kolonia wsi" located at cell 'Ontology_Import_Prep'!A106.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "66"
+Class: osada kolejowa  # Generated from value "osada kolejowa" located at cell 'Ontology_Import_Prep'!A107.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "67"
+Class: osada kolonii  # Generated from value "osada kolonii" located at cell 'Ontology_Import_Prep'!A108.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "68"
+Class: osada leśna wsi  # Generated from value "osada leśna wsi" located at cell 'Ontology_Import_Prep'!A109.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "69"
+Class: osada osady  # Generated from value "osada osady" located at cell 'Ontology_Import_Prep'!A110.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "70"
+Class: osada wsi  # Generated from value "osada wsi" located at cell 'Ontology_Import_Prep'!A111.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "71"
+Class: osiedle wsi  # Generated from value "osiedle wsi" located at cell 'Ontology_Import_Prep'!A112.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "72"
+Class: przysiółek kolonii  # Generated from value "przysiółek kolonii" located at cell 'Ontology_Import_Prep'!A2.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "73"
+Class: przysiółek osady  # Generated from value "przysiółek osady" located at cell 'Ontology_Import_Prep'!A3.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "74"
+Class: przysiółek wsi  # Generated from value "przysiółek wsi" located at cell 'Ontology_Import_Prep'!A4.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "75"
+Class: schronisko turystyczne  # Generated from value "schronisko turystyczne" located at cell 'Ontology_Import_Prep'!A5.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "76"
+Class: inny obiekt  # Generated from value "inny obiekt" located at cell 'Ontology_Import_Prep'!A6.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "77"
+Class: odosobnione gospodarstwa  # Generated from value "odosobnione gospodarstwa" located at cell 'Ontology_Import_Prep'!A7.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "78"
+Class: pojedyncze domy  # Generated from value "pojedyncze domy" located at cell 'Ontology_Import_Prep'!A8.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "79"
+Class: holendry  # Generated from value "holendry" located at cell 'Ontology_Import_Prep'!A9.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "80"
+Class: zagroda  # Generated from value "zagroda" located at cell 'Ontology_Import_Prep'!A10.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "81"
+Class: port morski  # Generated from value "port morski" located at cell 'Ontology_Import_Prep'!A11.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "82"
+Class: wieś kościelna  # Generated from value "wieś kościelna" located at cell 'Ontology_Import_Prep'!A12.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "83"
+Class: miasto królewskie  # Generated from value "miasto królewskie" located at cell 'Ontology_Import_Prep'!A13.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "84"
+Class: miasto targowe  # Generated from value "miasto targowe" located at cell 'Ontology_Import_Prep'!A14.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "85"
+Class: miasto warowne  # Generated from value "miasto warowne" located at cell 'Ontology_Import_Prep'!A15.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "86"
+Class: miasto z murami  # Generated from value "miasto z murami" located at cell 'Ontology_Import_Prep'!A16.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "87"
+Class: miasto handlowe  # Generated from value "miasto handlowe" located at cell 'Ontology_Import_Prep'!A17.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "88"
+Class: miasto krajowe  # Generated from value "miasto krajowe" located at cell 'Ontology_Import_Prep'!A18.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "89"
+Class: miasto rządowe  # Generated from value "miasto rządowe" located at cell 'Ontology_Import_Prep'!A19.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "90"
+Class: miasto w landach  # Generated from value "miasto w landach" located at cell 'Ontology_Import_Prep'!A20.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "91"
+Class: targ  # Generated from value "targ" located at cell 'Ontology_Import_Prep'!A21.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "92"
+Class: obozowisko nomadów  # Generated from value "obozowisko nomadów" located at cell 'Ontology_Import_Prep'!A22.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "93"
+Class: odosobnione zagrody  # Generated from value "odosobnione zagrody" located at cell 'Ontology_Import_Prep'!A23.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "94"
+Class: osiedle przy mieście  # Generated from value "osiedle przy mieście" located at cell 'Ontology_Import_Prep'!A24.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "95"
+Class: pojedyncze zabudowania  # Generated from value "pojedyncze zabudowania" located at cell 'Ontology_Import_Prep'!A25.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "96"
+Class: posada  # Generated from value "posada" located at cell 'Ontology_Import_Prep'!A26.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "97"
+Class: schronisko górskie  # Generated from value "schronisko górskie" located at cell 'Ontology_Import_Prep'!A27.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "98"
+Class: karczma  # Generated from value "karczma" located at cell 'Ontology_Import_Prep'!A28.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "99"
+Class: kaplica  # Generated from value "kaplica" located at cell 'Ontology_Import_Prep'!A29.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "100"
+Class: szaniec polowy  # Generated from value "szaniec polowy" located at cell 'Ontology_Import_Prep'!A30.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "101"
+Class: grupa zabudowań  # Generated from value "grupa zabudowań" located at cell 'Ontology_Import_Prep'!A31.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "102"
+Class: kościół  # Generated from value "kościół" located at cell 'Ontology_Import_Prep'!A32.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "103"
+Class: fabryka  # Generated from value "fabryka" located at cell 'Ontology_Import_Prep'!A33.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "104"
+Class: przystanek  # Generated from value "przystanek" located at cell 'Ontology_Import_Prep'!A34.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "105"
+Class: rumunek  # Generated from value "rumunek" located at cell 'Ontology_Import_Prep'!A35.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "106"
+Class: targowica  # Generated from value "targowica" located at cell 'Ontology_Import_Prep'!A36.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "107"
+Class: wieś bez kościoła  # Generated from value "wieś bez kościoła" located at cell 'Ontology_Import_Prep'!A37.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "108"
+Class: wieś z folwarkiem  # Generated from value "wieś z folwarkiem" located at cell 'Ontology_Import_Prep'!A38.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "109"
+Class: wójtostwo  # Generated from value "wójtostwo" located at cell 'Ontology_Import_Prep'!A39.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "110"
+Class: związek chłopski  # Generated from value "związek chłopski" located at cell 'Ontology_Import_Prep'!A40.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "111"
+Class: zamek  # Generated from value "zamek" located at cell 'Ontology_Import_Prep'!A41.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "1"
+Class: wieś  # Generated from value "wieś" located at cell 'Ontology_Import_Prep'!A42.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "2"
+Class: miasto  # Generated from value "miasto" located at cell 'Ontology_Import_Prep'!A43.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "3"
+Class: ruiny zamku  # Generated from value "ruiny zamku" located at cell 'Ontology_Import_Prep'!A44.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "4"
+Class: dzielnica  # Generated from value "dzielnica" located at cell 'Ontology_Import_Prep'!A45.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "6"
+Class: targowisko  # Generated from value "targowisko" located at cell 'Ontology_Import_Prep'!A46.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "5"
+Class: dwór  # Generated from value "dwór" located at cell 'Ontology_Import_Prep'!A47.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "7"
+Class: folwark  # Generated from value "folwark" located at cell 'Ontology_Import_Prep'!A48.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "8"
+Class: borostwo  # Generated from value "borostwo" located at cell 'Ontology_Import_Prep'!A49.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "9"
+Class: browar  # Generated from value "browar" located at cell 'Ontology_Import_Prep'!A50.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "10"
+Class: cegielnia  # Generated from value "cegielnia" located at cell 'Ontology_Import_Prep'!A51.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "11"
+Class: cukrownia  # Generated from value "cukrownia" located at cell 'Ontology_Import_Prep'!A52.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "12"
+Class: domek łąkowy  # Generated from value "domek łąkowy" located at cell 'Ontology_Import_Prep'!A53.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "13"
+Class: domek przewozowy  # Generated from value "domek przewozowy" located at cell 'Ontology_Import_Prep'!A54.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "14"
+Class: domek szosowy  # Generated from value "domek szosowy" located at cell 'Ontology_Import_Prep'!A55.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "15"
+Class: futor  # Generated from value "futor" located at cell 'Ontology_Import_Prep'!A56.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "16"
+Class: gajówka  # Generated from value "gajówka" located at cell 'Ontology_Import_Prep'!A57.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "17"
+Class: gorzelnia  # Generated from value "gorzelnia" located at cell 'Ontology_Import_Prep'!A58.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "18"
+Class: klasztor  # Generated from value "klasztor" located at cell 'Ontology_Import_Prep'!A59.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "19"
+Class: kolonia  # Generated from value "kolonia" located at cell 'Ontology_Import_Prep'!A60.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "20"
+Class: kopalnia  # Generated from value "kopalnia" located at cell 'Ontology_Import_Prep'!A61.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "21"
+Class: koszary  # Generated from value "koszary" located at cell 'Ontology_Import_Prep'!A62.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "22"
+Class: latarnia morska  # Generated from value "latarnia morska" located at cell 'Ontology_Import_Prep'!A63.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "23"
+Class: lecznica  # Generated from value "lecznica" located at cell 'Ontology_Import_Prep'!A64.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "24"
+Class: letnisko  # Generated from value "letnisko" located at cell 'Ontology_Import_Prep'!A65.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "25"
+Class: leśnictwo  # Generated from value "leśnictwo" located at cell 'Ontology_Import_Prep'!A66.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "26"
+Class: leśniczówka  # Generated from value "leśniczówka" located at cell 'Ontology_Import_Prep'!A67.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "27"
+Class: miasteczko  # Generated from value "miasteczko" located at cell 'Ontology_Import_Prep'!A68.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "28"
+Class: nadleśnictwo  # Generated from value "nadleśnictwo" located at cell 'Ontology_Import_Prep'!A69.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "29"
+Class: obszar dworski  # Generated from value "obszar dworski" located at cell 'Ontology_Import_Prep'!A70.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "30"
+Class: okolica  # Generated from value "okolica" located at cell 'Ontology_Import_Prep'!A71.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "32"
+Class: obóz warowny  # Generated from value "obóz warowny" located at cell 'Ontology_Import_Prep'!A72.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "31"
+Class: osada  # Generated from value "osada" located at cell 'Ontology_Import_Prep'!A73.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "33"
+Class: osiedle  # Generated from value "osiedle" located at cell 'Ontology_Import_Prep'!A74.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "34"
+Class: osada fabryczna  # Generated from value "osada fabryczna" located at cell 'Ontology_Import_Prep'!A75.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "35"
+Class: osada leśna  # Generated from value "osada leśna" located at cell 'Ontology_Import_Prep'!A76.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "36"
+Class: osada miejska  # Generated from value "osada miejska" located at cell 'Ontology_Import_Prep'!A77.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "37"
+Class: osada młyńska  # Generated from value "osada młyńska" located at cell 'Ontology_Import_Prep'!A78.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "38"
+Class: osada pałacowa  # Generated from value "osada pałacowa" located at cell 'Ontology_Import_Prep'!A79.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "39"
+Class: osada wojskowa  # Generated from value "osada wojskowa" located at cell 'Ontology_Import_Prep'!A80.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "40"
+Class: plebania  # Generated from value "plebania" located at cell 'Ontology_Import_Prep'!A81.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "41"
+Class: probostwo  # Generated from value "probostwo" located at cell 'Ontology_Import_Prep'!A82.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "42"
+Class: przedmieście  # Generated from value "przedmieście" located at cell 'Ontology_Import_Prep'!A83.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "43"
+Class: przysiółek  # Generated from value "przysiółek" located at cell 'Ontology_Import_Prep'!A84.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "44"
+Class: przystanek kolejowy  # Generated from value "przystanek kolejowy" located at cell 'Ontology_Import_Prep'!A85.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "45"
+Class: pustkowie  # Generated from value "pustkowie" located at cell 'Ontology_Import_Prep'!A86.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "46"
+Class: smolarnia  # Generated from value "smolarnia" located at cell 'Ontology_Import_Prep'!A87.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "47"
+Class: stacja kolejowa  # Generated from value "stacja kolejowa" located at cell 'Ontology_Import_Prep'!A88.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "48"
+Class: szpital epidemiczny  # Generated from value "szpital epidemiczny" located at cell 'Ontology_Import_Prep'!A89.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "49"
+Class: tartak  # Generated from value "tartak" located at cell 'Ontology_Import_Prep'!A90.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "50"
+Class: torfiarnia  # Generated from value "torfiarnia" located at cell 'Ontology_Import_Prep'!A91.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "51"
+Class: twierdza  # Generated from value "twierdza" located at cell 'Ontology_Import_Prep'!A92.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "52"
+Class: uzdrowisko  # Generated from value "uzdrowisko" located at cell 'Ontology_Import_Prep'!A93.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "53"
+Class: uroczysko  # Generated from value "uroczysko" located at cell 'Ontology_Import_Prep'!A94.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "54"
+Class: więzienie  # Generated from value "więzienie" located at cell 'Ontology_Import_Prep'!A95.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "55"
+Class: zaścianek  # Generated from value "zaścianek" located at cell 'Ontology_Import_Prep'!A96.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "56"
+Class: zakład kąpielowy  # Generated from value "zakład kąpielowy" located at cell 'Ontology_Import_Prep'!A97.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "57"
+Class: zakład poprawczy  # Generated from value "zakład poprawczy" located at cell 'Ontology_Import_Prep'!A98.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "58"
+Class: zakład wychowawczy  # Generated from value "zakład wychowawczy" located at cell 'Ontology_Import_Prep'!A99.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "59"
+Class: część kolonii  # Generated from value "część kolonii" located at cell 'Ontology_Import_Prep'!A100.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "60"
+Class: część miasta  # Generated from value "część miasta" located at cell 'Ontology_Import_Prep'!A101.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "61"
+Class: część osady  # Generated from value "część osady" located at cell 'Ontology_Import_Prep'!A102.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "62"
+Class: część wsi  # Generated from value "część wsi" located at cell 'Ontology_Import_Prep'!A103.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "63"
+Class: kolonia kolonii  # Generated from value "kolonia kolonii" located at cell 'Ontology_Import_Prep'!A104.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "64"
+Class: kolonia osady  # Generated from value "kolonia osady" located at cell 'Ontology_Import_Prep'!A105.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "65"
+Class: kolonia wsi  # Generated from value "kolonia wsi" located at cell 'Ontology_Import_Prep'!A106.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "66"
+Class: osada kolejowa  # Generated from value "osada kolejowa" located at cell 'Ontology_Import_Prep'!A107.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "67"
+Class: osada kolonii  # Generated from value "osada kolonii" located at cell 'Ontology_Import_Prep'!A108.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "68"
+Class: osada leśna wsi  # Generated from value "osada leśna wsi" located at cell 'Ontology_Import_Prep'!A109.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "69"
+Class: osada osady  # Generated from value "osada osady" located at cell 'Ontology_Import_Prep'!A110.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "70"
+Class: osada wsi  # Generated from value "osada wsi" located at cell 'Ontology_Import_Prep'!A111.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "71"
+Class: osiedle wsi  # Generated from value "osiedle wsi" located at cell 'Ontology_Import_Prep'!A112.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "72"
+Class: przysiółek kolonii  # Generated from value "przysiółek kolonii" located at cell 'Ontology_Import_Prep'!A2.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "73"
+Class: przysiółek osady  # Generated from value "przysiółek osady" located at cell 'Ontology_Import_Prep'!A3.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "74"
+Class: przysiółek wsi  # Generated from value "przysiółek wsi" located at cell 'Ontology_Import_Prep'!A4.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "75"
+Class: schronisko turystyczne  # Generated from value "schronisko turystyczne" located at cell 'Ontology_Import_Prep'!A5.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "76"
+Class: inny obiekt  # Generated from value "inny obiekt" located at cell 'Ontology_Import_Prep'!A6.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "77"
+Class: odosobnione gospodarstwa  # Generated from value "odosobnione gospodarstwa" located at cell 'Ontology_Import_Prep'!A7.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "78"
+Class: pojedyncze domy  # Generated from value "pojedyncze domy" located at cell 'Ontology_Import_Prep'!A8.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "79"
+Class: holendry  # Generated from value "holendry" located at cell 'Ontology_Import_Prep'!A9.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "80"
+Class: zagroda  # Generated from value "zagroda" located at cell 'Ontology_Import_Prep'!A10.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "81"
+Class: port morski  # Generated from value "port morski" located at cell 'Ontology_Import_Prep'!A11.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "82"
+Class: wieś kościelna  # Generated from value "wieś kościelna" located at cell 'Ontology_Import_Prep'!A12.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "83"
+Class: miasto królewskie  # Generated from value "miasto królewskie" located at cell 'Ontology_Import_Prep'!A13.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "84"
+Class: miasto targowe  # Generated from value "miasto targowe" located at cell 'Ontology_Import_Prep'!A14.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "85"
+Class: miasto warowne  # Generated from value "miasto warowne" located at cell 'Ontology_Import_Prep'!A15.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "86"
+Class: miasto z murami  # Generated from value "miasto z murami" located at cell 'Ontology_Import_Prep'!A16.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "87"
+Class: miasto handlowe  # Generated from value "miasto handlowe" located at cell 'Ontology_Import_Prep'!A17.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "88"
+Class: miasto krajowe  # Generated from value "miasto krajowe" located at cell 'Ontology_Import_Prep'!A18.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "89"
+Class: miasto rządowe  # Generated from value "miasto rządowe" located at cell 'Ontology_Import_Prep'!A19.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "90"
+Class: miasto w landach  # Generated from value "miasto w landach" located at cell 'Ontology_Import_Prep'!A20.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "91"
+Class: targ  # Generated from value "targ" located at cell 'Ontology_Import_Prep'!A21.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "92"
+Class: obozowisko nomadów  # Generated from value "obozowisko nomadów" located at cell 'Ontology_Import_Prep'!A22.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "93"
+Class: odosobnione zagrody  # Generated from value "odosobnione zagrody" located at cell 'Ontology_Import_Prep'!A23.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "94"
+Class: osiedle przy mieście  # Generated from value "osiedle przy mieście" located at cell 'Ontology_Import_Prep'!A24.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "95"
+Class: pojedyncze zabudowania  # Generated from value "pojedyncze zabudowania" located at cell 'Ontology_Import_Prep'!A25.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "96"
+Class: posada  # Generated from value "posada" located at cell 'Ontology_Import_Prep'!A26.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "97"
+Class: schronisko górskie  # Generated from value "schronisko górskie" located at cell 'Ontology_Import_Prep'!A27.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "98"
+Class: karczma  # Generated from value "karczma" located at cell 'Ontology_Import_Prep'!A28.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "99"
+Class: kaplica  # Generated from value "kaplica" located at cell 'Ontology_Import_Prep'!A29.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "100"
+Class: szaniec polowy  # Generated from value "szaniec polowy" located at cell 'Ontology_Import_Prep'!A30.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "101"
+Class: grupa zabudowań  # Generated from value "grupa zabudowań" located at cell 'Ontology_Import_Prep'!A31.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "102"
+Class: kościół  # Generated from value "kościół" located at cell 'Ontology_Import_Prep'!A32.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "103"
+Class: fabryka  # Generated from value "fabryka" located at cell 'Ontology_Import_Prep'!A33.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "104"
+Class: przystanek  # Generated from value "przystanek" located at cell 'Ontology_Import_Prep'!A34.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "105"
+Class: rumunek  # Generated from value "rumunek" located at cell 'Ontology_Import_Prep'!A35.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "106"
+Class: targowica  # Generated from value "targowica" located at cell 'Ontology_Import_Prep'!A36.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "107"
+Class: wieś bez kościoła  # Generated from value "wieś bez kościoła" located at cell 'Ontology_Import_Prep'!A37.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "108"
+Class: wieś z folwarkiem  # Generated from value "wieś z folwarkiem" located at cell 'Ontology_Import_Prep'!A38.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "109"
+Class: wójtostwo  # Generated from value "wójtostwo" located at cell 'Ontology_Import_Prep'!A39.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "110"
+Class: związek chłopski  # Generated from value "związek chłopski" located at cell 'Ontology_Import_Prep'!A40.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "111"
+Class: zamek  # Generated from value "zamek" located at cell 'Ontology_Import_Prep'!A41.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "1"
+Class: wieś  # Generated from value "wieś" located at cell 'Ontology_Import_Prep'!A42.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "2"
+Class: miasto  # Generated from value "miasto" located at cell 'Ontology_Import_Prep'!A43.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "3"
+Class: ruiny zamku  # Generated from value "ruiny zamku" located at cell 'Ontology_Import_Prep'!A44.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "4"
+Class: dzielnica  # Generated from value "dzielnica" located at cell 'Ontology_Import_Prep'!A45.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "6"
+Class: targowisko  # Generated from value "targowisko" located at cell 'Ontology_Import_Prep'!A46.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "5"
+Class: dwór  # Generated from value "dwór" located at cell 'Ontology_Import_Prep'!A47.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "7"
+Class: folwark  # Generated from value "folwark" located at cell 'Ontology_Import_Prep'!A48.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "8"
+Class: borostwo  # Generated from value "borostwo" located at cell 'Ontology_Import_Prep'!A49.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "9"
+Class: browar  # Generated from value "browar" located at cell 'Ontology_Import_Prep'!A50.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "10"
+Class: cegielnia  # Generated from value "cegielnia" located at cell 'Ontology_Import_Prep'!A51.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "11"
+Class: cukrownia  # Generated from value "cukrownia" located at cell 'Ontology_Import_Prep'!A52.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "12"
+Class: domek łąkowy  # Generated from value "domek łąkowy" located at cell 'Ontology_Import_Prep'!A53.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "13"
+Class: domek przewozowy  # Generated from value "domek przewozowy" located at cell 'Ontology_Import_Prep'!A54.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "14"
+Class: domek szosowy  # Generated from value "domek szosowy" located at cell 'Ontology_Import_Prep'!A55.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "15"
+Class: futor  # Generated from value "futor" located at cell 'Ontology_Import_Prep'!A56.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "16"
+Class: gajówka  # Generated from value "gajówka" located at cell 'Ontology_Import_Prep'!A57.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "17"
+Class: gorzelnia  # Generated from value "gorzelnia" located at cell 'Ontology_Import_Prep'!A58.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "18"
+Class: klasztor  # Generated from value "klasztor" located at cell 'Ontology_Import_Prep'!A59.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "19"
+Class: kolonia  # Generated from value "kolonia" located at cell 'Ontology_Import_Prep'!A60.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "20"
+Class: kopalnia  # Generated from value "kopalnia" located at cell 'Ontology_Import_Prep'!A61.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "21"
+Class: koszary  # Generated from value "koszary" located at cell 'Ontology_Import_Prep'!A62.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "22"
+Class: latarnia morska  # Generated from value "latarnia morska" located at cell 'Ontology_Import_Prep'!A63.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "23"
+Class: lecznica  # Generated from value "lecznica" located at cell 'Ontology_Import_Prep'!A64.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "24"
+Class: letnisko  # Generated from value "letnisko" located at cell 'Ontology_Import_Prep'!A65.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "25"
+Class: leśnictwo  # Generated from value "leśnictwo" located at cell 'Ontology_Import_Prep'!A66.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "26"
+Class: leśniczówka  # Generated from value "leśniczówka" located at cell 'Ontology_Import_Prep'!A67.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "27"
+Class: miasteczko  # Generated from value "miasteczko" located at cell 'Ontology_Import_Prep'!A68.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "28"
+Class: nadleśnictwo  # Generated from value "nadleśnictwo" located at cell 'Ontology_Import_Prep'!A69.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "29"
+Class: obszar dworski  # Generated from value "obszar dworski" located at cell 'Ontology_Import_Prep'!A70.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "30"
+Class: okolica  # Generated from value "okolica" located at cell 'Ontology_Import_Prep'!A71.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "32"
+Class: obóz warowny  # Generated from value "obóz warowny" located at cell 'Ontology_Import_Prep'!A72.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "31"
+Class: osada  # Generated from value "osada" located at cell 'Ontology_Import_Prep'!A73.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "33"
+Class: osiedle  # Generated from value "osiedle" located at cell 'Ontology_Import_Prep'!A74.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "34"
+Class: osada fabryczna  # Generated from value "osada fabryczna" located at cell 'Ontology_Import_Prep'!A75.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "35"
+Class: osada leśna  # Generated from value "osada leśna" located at cell 'Ontology_Import_Prep'!A76.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "36"
+Class: osada miejska  # Generated from value "osada miejska" located at cell 'Ontology_Import_Prep'!A77.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "37"
+Class: osada młyńska  # Generated from value "osada młyńska" located at cell 'Ontology_Import_Prep'!A78.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "38"
+Class: osada pałacowa  # Generated from value "osada pałacowa" located at cell 'Ontology_Import_Prep'!A79.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "39"
+Class: osada wojskowa  # Generated from value "osada wojskowa" located at cell 'Ontology_Import_Prep'!A80.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "40"
+Class: plebania  # Generated from value "plebania" located at cell 'Ontology_Import_Prep'!A81.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "41"
+Class: probostwo  # Generated from value "probostwo" located at cell 'Ontology_Import_Prep'!A82.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "42"
+Class: przedmieście  # Generated from value "przedmieście" located at cell 'Ontology_Import_Prep'!A83.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "43"
+Class: przysiółek  # Generated from value "przysiółek" located at cell 'Ontology_Import_Prep'!A84.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "44"
+Class: przystanek kolejowy  # Generated from value "przystanek kolejowy" located at cell 'Ontology_Import_Prep'!A85.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "45"
+Class: pustkowie  # Generated from value "pustkowie" located at cell 'Ontology_Import_Prep'!A86.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "46"
+Class: smolarnia  # Generated from value "smolarnia" located at cell 'Ontology_Import_Prep'!A87.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "47"
+Class: stacja kolejowa  # Generated from value "stacja kolejowa" located at cell 'Ontology_Import_Prep'!A88.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "48"
+Class: szpital epidemiczny  # Generated from value "szpital epidemiczny" located at cell 'Ontology_Import_Prep'!A89.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "49"
+Class: tartak  # Generated from value "tartak" located at cell 'Ontology_Import_Prep'!A90.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "50"
+Class: torfiarnia  # Generated from value "torfiarnia" located at cell 'Ontology_Import_Prep'!A91.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "51"
+Class: twierdza  # Generated from value "twierdza" located at cell 'Ontology_Import_Prep'!A92.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "52"
+Class: uzdrowisko  # Generated from value "uzdrowisko" located at cell 'Ontology_Import_Prep'!A93.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "53"
+Class: uroczysko  # Generated from value "uroczysko" located at cell 'Ontology_Import_Prep'!A94.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "54"
+Class: więzienie  # Generated from value "więzienie" located at cell 'Ontology_Import_Prep'!A95.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "55"
+Class: zaścianek  # Generated from value "zaścianek" located at cell 'Ontology_Import_Prep'!A96.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "56"
+Class: zakład kąpielowy  # Generated from value "zakład kąpielowy" located at cell 'Ontology_Import_Prep'!A97.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "57"
+Class: zakład poprawczy  # Generated from value "zakład poprawczy" located at cell 'Ontology_Import_Prep'!A98.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "58"
+Class: zakład wychowawczy  # Generated from value "zakład wychowawczy" located at cell 'Ontology_Import_Prep'!A99.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "59"
+Class: część kolonii  # Generated from value "część kolonii" located at cell 'Ontology_Import_Prep'!A100.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "60"
+Class: część miasta  # Generated from value "część miasta" located at cell 'Ontology_Import_Prep'!A101.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "61"
+Class: część osady  # Generated from value "część osady" located at cell 'Ontology_Import_Prep'!A102.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "62"
+Class: część wsi  # Generated from value "część wsi" located at cell 'Ontology_Import_Prep'!A103.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "63"
+Class: kolonia kolonii  # Generated from value "kolonia kolonii" located at cell 'Ontology_Import_Prep'!A104.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "64"
+Class: kolonia osady  # Generated from value "kolonia osady" located at cell 'Ontology_Import_Prep'!A105.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "65"
+Class: kolonia wsi  # Generated from value "kolonia wsi" located at cell 'Ontology_Import_Prep'!A106.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "66"
+Class: osada kolejowa  # Generated from value "osada kolejowa" located at cell 'Ontology_Import_Prep'!A107.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "67"
+Class: osada kolonii  # Generated from value "osada kolonii" located at cell 'Ontology_Import_Prep'!A108.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "68"
+Class: osada leśna wsi  # Generated from value "osada leśna wsi" located at cell 'Ontology_Import_Prep'!A109.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "69"
+Class: osada osady  # Generated from value "osada osady" located at cell 'Ontology_Import_Prep'!A110.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "70"
+Class: osada wsi  # Generated from value "osada wsi" located at cell 'Ontology_Import_Prep'!A111.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "71"
+Class: osiedle wsi  # Generated from value "osiedle wsi" located at cell 'Ontology_Import_Prep'!A112.
+   SubClassOf: manifestacja jednostki osadniczej
+   Annotations: '(klasa) ma obcy identyfikator' "72"
+
+===========================================================================================================
