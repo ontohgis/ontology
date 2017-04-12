@@ -10,7 +10,7 @@
 
 <http://purl.org/ontohgis> a owl:Ontology ;
 	owl:imports <http://www.opengis.net/ont/geosparql> , <http://makolab.com/oc/> , <http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl> , <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> ;
-	owl:versionInfo "1.5"^^xsd:decimal ;
+	owl:versionInfo "2.0"^^xsd:decimal ;
 	rdfs:comment "Ontologia powstała w ramach projektu 'Ontologiczne podstawy budowy historycznych systemów informacji geograficznej' (2bH 15 0216 83) finansowanego przez Narodowy Programu Rozwoju Humanistyki 2015 r., IV edycja, moduł \"Rozwój\" 2 b."@pl .
 # 
 # 
@@ -331,7 +331,7 @@ _:genid2 a owl:Restriction ;
 _:genid3 owl:intersectionOf _:genid6 .
 
 _:genid6 a rdf:List ;
-	rdf:first :object_12 ;
+	rdf:first :object_40 ;
 	rdf:rest _:genid4 .
 
 _:genid4 a rdf:List ;
@@ -339,20 +339,19 @@ _:genid4 a rdf:List ;
 
 _:genid5 a owl:Restriction ;
 	owl:onProperty <http://makolab.com/oc/hasPredecessorEntityManifestation> ;
-	owl:someValuesFrom <http://purl.org/ontohgis/settlement_unit1000> .
+	owl:someValuesFrom :object_32 .
 
 _:genid4 rdf:rest rdf:nil .
 
 _:genid3 a owl:Class .
 
-:object_100 rdfs:subClassOf :object_12 ;
-	rdfs:comment "x jest następstwem właściwej jednostki osadniczej, gdy jest manifestacją niewłaściowej jednostki osadniczej oraz jest późniejszą manifestacją jakiejś manifestacji właściwej jednostki osadniczej."@pl ;
-	rdfs:label "następstwo właściwej manifestacji jednostki osadniczej"@pl .
+:object_100 rdfs:subClassOf :object_40 ;
+	rdfs:label "była miejscowość"@pl .
 # 
 # http://purl.org/ontohgis#object_12
 
 :object_12 a owl:Class ;
-	rdfs:subClassOf :object_40 , _:genid7 .
+	rdfs:subClassOf :object_32 , _:genid7 .
 
 _:genid7 a owl:Restriction ;
 	owl:onProperty :hasImproperFunction ;
@@ -525,114 +524,152 @@ _:genid25 a owl:Class .
 # http://purl.org/ontohgis#object_30
 
 :object_30 a owl:Class ;
-	owl:equivalentClass _:genid29 .
+	rdfs:subClassOf <http://makolab.com/oc/VariableEntity> , obo:BFO_0000029 , _:genid29 .
 
-_:genid29 owl:intersectionOf _:genid35 .
+_:genid29 a owl:Restriction ;
+	owl:onProperty <http://makolab.com/oc/hasManifestation> ;
+	owl:someValuesFrom :object_32 .
 
-_:genid35 a rdf:List ;
-	rdf:first <http://makolab.com/oc/VariableEntity> ;
-	rdf:rest _:genid30 .
-
-_:genid30 a rdf:List ;
-	rdf:first _:genid31 .
-
-_:genid31 a owl:Class ;
-	owl:unionOf _:genid34 .
-
-_:genid34 a rdf:List ;
-	rdf:first :object_23 ;
-	rdf:rest _:genid32 .
-
-_:genid32 a rdf:List ;
-	rdf:first _:genid33 .
-
-_:genid33 a owl:Restriction ;
-	owl:onProperty <http://purl.org/ontohgis/hasPart> ;
-	owl:someValuesFrom :object_23 .
-
-_:genid32 rdf:rest rdf:nil .
-
-_:genid30 rdf:rest rdf:nil .
-
-_:genid29 a owl:Class .
-
-:object_30 rdfs:subClassOf <http://makolab.com/oc/VariableEntity> ;
-	owl:disjointWith <http://purl.org/ontohgis/settlement_unit1001> ;
-	rdfs:label "(Właściwa) jednostka osadnicza to budynek mieszkalny lub zespół budynków mieszkalnych."@en , "human settlement"@en , "jednostka osadnicza"@pl ;
+:object_30 owl:disjointWith <http://purl.org/ontohgis/settlement_unit1001> ;
+	rdfs:isDefinedBy """Jednostka osadnicza:
+1. obszar posiadający nazwę własną i
+2. obszar, który jest lub był w przeszłości miejscowością"""@pl ;
+	rdfs:label "human settlement"@en , "jednostka osadnicza"@pl ;
 	rdfs:seeAlso "http://encyklopedia.pwn.pl/haslo/jednostka-osadnicza;3917491.html"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#object_31
 
 :object_31 a owl:Class ;
-	owl:equivalentClass _:genid36 .
+	owl:equivalentClass _:genid30 .
 
-_:genid36 owl:intersectionOf _:genid39 .
+_:genid30 owl:intersectionOf _:genid33 .
 
-_:genid39 a rdf:List ;
+_:genid33 a rdf:List ;
 	rdf:first obo:IAO_0000590 ;
-	rdf:rest _:genid37 .
+	rdf:rest _:genid31 .
 
-_:genid37 a rdf:List ;
-	rdf:first _:genid38 .
+_:genid31 a rdf:List ;
+	rdf:first _:genid32 .
 
-_:genid38 a owl:Restriction ;
+_:genid32 a owl:Restriction ;
 	owl:onProperty obo:IAO_0000219 ;
 	owl:someValuesFrom :object_40 .
 
-_:genid37 rdf:rest rdf:nil .
+_:genid31 rdf:rest rdf:nil .
 
-_:genid36 a owl:Class .
+_:genid30 a owl:Class .
 
-:object_31 rdfs:subClassOf obo:IAO_0000590 , _:genid40 .
+:object_31 rdfs:subClassOf obo:IAO_0000590 , _:genid34 .
 
-_:genid40 a owl:Restriction ;
+_:genid34 a owl:Restriction ;
 	owl:onProperty obo:IAO_0000219 ;
 	owl:maxCardinality "1"^^xsd:nonNegativeInteger .
 
 :object_31 rdfs:label "nazwa jednostki osadniczej"@pl .
 # 
+# http://purl.org/ontohgis#object_32
+
+:object_32 a owl:Class ;
+	owl:equivalentClass _:genid35 .
+
+_:genid35 owl:intersectionOf _:genid43 .
+
+_:genid43 a rdf:List ;
+	rdf:first :object_10 ;
+	rdf:rest _:genid42 .
+
+_:genid42 a rdf:List ;
+	rdf:first :object_40 ;
+	rdf:rest _:genid40 .
+
+_:genid40 a rdf:List ;
+	rdf:first _:genid41 .
+
+_:genid41 a owl:Restriction ;
+	owl:onProperty obo:BFO_0000051 ;
+	owl:someValuesFrom <http://purl.org/ontohgis/object_1> .
+
+_:genid40 rdf:rest _:genid38 .
+
+_:genid38 a rdf:List ;
+	rdf:first _:genid39 .
+
+_:genid39 a owl:Restriction ;
+	owl:onProperty :InverseIAO_0000136 ;
+	owl:someValuesFrom :object_31 .
+
+_:genid38 rdf:rest _:genid36 .
+
+_:genid36 a rdf:List ;
+	rdf:first _:genid37 .
+
+_:genid37 a owl:Restriction ;
+	owl:onProperty <http://purl.org/ontohgis/hasBoundary> ;
+	owl:someValuesFrom <http://purl.org/ontohgis/settlement_unit2001> .
+
+_:genid36 rdf:rest rdf:nil .
+
+_:genid35 a owl:Class .
+
+:object_32 rdfs:subClassOf :object_40 , _:genid44 .
+
+_:genid44 a owl:Restriction ;
+	owl:onProperty <http://purl.org/ontohgis/hasBoundary> ;
+	owl:allValuesFrom <http://purl.org/ontohgis/settlement_unit2001> .
+
+:object_32 rdfs:comment "Zakładamy, że każda podklasa miejscowości zawiera tylko zamieszkane jednostki osadnicze, np. klasa settlement_unit10 (rdfs:label='browar'@pl) obejmuje tylko zamieszkane browary."@pl ;
+	rdfs:isDefinedBy """Miejscowość jest to
+1. obszar zabudowany i
+2. obszar zamieszkany i
+3. obszar posiadający nazwę własną i
+4. obszar wyodrębniony:
+a. funkcjonalnie (ma funkcje, której żadna część nie ma, ani nie jest częścią czegoś co ma) lub 
+b. morfologicznie (ma wyraźne granice) lub 
+c. prawnie."""@pl ;
+	rdfs:label "miejscowość"@pl .
+# 
 # http://purl.org/ontohgis#object_40
 
 :object_40 a owl:Class ;
-	owl:equivalentClass _:genid41 .
+	owl:equivalentClass _:genid45 .
 
-_:genid41 a owl:Restriction ;
+_:genid45 a owl:Restriction ;
 	owl:onProperty <http://makolab.com/oc/isManifestationOf> ;
 	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
 	owl:onClass :object_30 .
 
-:object_40 rdfs:subClassOf <http://makolab.com/oc/VariableEntityManifestation> , :object_10 , _:genid42 .
+:object_40 rdfs:subClassOf <http://makolab.com/oc/VariableEntityManifestation> , _:genid46 .
 
-_:genid42 a owl:Restriction ;
+_:genid46 a owl:Restriction ;
 	owl:onProperty :InverseIAO_0000136 ;
 	owl:someValuesFrom :object_31 .
 
-:object_40 rdfs:subClassOf _:genid43 .
+:object_40 rdfs:subClassOf _:genid47 .
 
-_:genid43 a owl:Restriction ;
+_:genid47 a owl:Restriction ;
 	owl:onProperty :hasFunction ;
 	owl:hasValue :object_400 .
 
-:object_40 rdfs:subClassOf _:genid44 .
+:object_40 rdfs:subClassOf _:genid48 .
 
-_:genid44 a owl:Restriction ;
+_:genid48 a owl:Restriction ;
 	owl:onProperty <http://www.opengis.net/ont/geosparql#hasGeometry> ;
 	owl:maxCardinality "1"^^xsd:nonNegativeInteger .
 
-:object_40 rdfs:subClassOf _:genid45 .
+:object_40 rdfs:subClassOf _:genid49 .
 
-_:genid45 a owl:Restriction ;
+_:genid49 a owl:Restriction ;
 	owl:onProperty <http://makolab.com/oc/hasBeginning> ;
 	owl:someValuesFrom xsd:dateTime .
 
-:object_40 owl:disjointUnionOf _:genid47 .
+:object_40 owl:disjointUnionOf _:genid51 .
 
-_:genid47 a rdf:List ;
-	rdf:first :object_12 ;
-	rdf:rest _:genid46 .
+_:genid51 a rdf:List ;
+	rdf:first :object_100 ;
+	rdf:rest _:genid50 .
 
-_:genid46 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/settlement_unit1000> ;
+_:genid50 a rdf:List ;
+	rdf:first :object_32 ;
 	rdf:rest rdf:nil .
 
 :object_40 rdfs:comment "We assume that each settlement manifests itself as of a certain type, e.g., as a village."@en ;
@@ -641,24 +678,24 @@ _:genid46 a rdf:List ;
 # http://purl.org/ontohgis#object_50
 
 :object_50 a owl:Class ;
-	owl:equivalentClass _:genid48 .
+	owl:equivalentClass _:genid52 .
 
-_:genid48 owl:intersectionOf _:genid51 .
+_:genid52 owl:intersectionOf _:genid55 .
 
-_:genid51 a rdf:List ;
+_:genid55 a rdf:List ;
 	rdf:first :object_23 ;
-	rdf:rest _:genid49 .
+	rdf:rest _:genid53 .
 
-_:genid49 a rdf:List ;
-	rdf:first _:genid50 .
+_:genid53 a rdf:List ;
+	rdf:first _:genid54 .
 
-_:genid50 a owl:Restriction ;
+_:genid54 a owl:Restriction ;
 	owl:onProperty :hasProperFunction ;
 	owl:hasValue :object_400 .
 
-_:genid49 rdf:rest rdf:nil .
+_:genid53 rdf:rest rdf:nil .
 
-_:genid48 a owl:Class .
+_:genid52 a owl:Class .
 
 :object_50 rdfs:subClassOf :object_23 ;
 	rdfs:isDefinedBy "Budynek mieszkalny jest to budynek, w którym odgraniczona przestrzeń (“wewnątrz\") jest przeznaczona do przebywania ludzi."@pl ;
@@ -667,31 +704,6 @@ _:genid48 a owl:Class .
 # http://purl.org/ontohgis#object_500
 
 :object_500 a owl:Class ;
-	owl:equivalentClass _:genid52 .
-
-_:genid52 owl:intersectionOf _:genid55 .
-
-_:genid55 a rdf:List ;
-	rdf:first :object_12 ;
-	rdf:rest _:genid53 .
-
-_:genid53 a rdf:List ;
-	rdf:first _:genid54 .
-
-_:genid54 a owl:Restriction ;
-	owl:onProperty :hasProperFunction ;
-	owl:hasValue :object_404 .
-
-_:genid53 rdf:rest rdf:nil .
-
-_:genid52 a owl:Class .
-
-:object_500 rdfs:subClassOf :object_12 ;
-	rdfs:label "miejsce produkcji"@pl .
-# 
-# http://purl.org/ontohgis#object_501
-
-:object_501 a owl:Class ;
 	owl:equivalentClass _:genid56 .
 
 _:genid56 owl:intersectionOf _:genid59 .
@@ -705,18 +717,18 @@ _:genid57 a rdf:List ;
 
 _:genid58 a owl:Restriction ;
 	owl:onProperty :hasProperFunction ;
-	owl:hasValue :object_402 .
+	owl:hasValue :object_404 .
 
 _:genid57 rdf:rest rdf:nil .
 
 _:genid56 a owl:Class .
 
-:object_501 rdfs:subClassOf :object_12 ;
-	rdfs:label "miejsce wymiany handlowej"@pl .
+:object_500 rdfs:subClassOf :object_12 ;
+	rdfs:label "miejsce produkcji"@pl .
 # 
-# http://purl.org/ontohgis#object_502
+# http://purl.org/ontohgis#object_501
 
-:object_502 a owl:Class ;
+:object_501 a owl:Class ;
 	owl:equivalentClass _:genid60 .
 
 _:genid60 owl:intersectionOf _:genid63 .
@@ -730,11 +742,36 @@ _:genid61 a rdf:List ;
 
 _:genid62 a owl:Restriction ;
 	owl:onProperty :hasProperFunction ;
-	owl:hasValue :object_405 .
+	owl:hasValue :object_402 .
 
 _:genid61 rdf:rest rdf:nil .
 
 _:genid60 a owl:Class .
+
+:object_501 rdfs:subClassOf :object_12 ;
+	rdfs:label "miejsce wymiany handlowej"@pl .
+# 
+# http://purl.org/ontohgis#object_502
+
+:object_502 a owl:Class ;
+	owl:equivalentClass _:genid64 .
+
+_:genid64 owl:intersectionOf _:genid67 .
+
+_:genid67 a rdf:List ;
+	rdf:first :object_12 ;
+	rdf:rest _:genid65 .
+
+_:genid65 a rdf:List ;
+	rdf:first _:genid66 .
+
+_:genid66 a owl:Restriction ;
+	owl:onProperty :hasProperFunction ;
+	owl:hasValue :object_405 .
+
+_:genid65 rdf:rest rdf:nil .
+
+_:genid64 a owl:Class .
 
 :object_502 rdfs:subClassOf :object_12 ;
 	rdfs:label "miejsce transportu"@pl .
@@ -742,7 +779,7 @@ _:genid60 a owl:Class .
 # http://purl.org/ontohgis#object_600
 
 :object_600 a owl:Class ;
-	rdfs:subClassOf :object_40 ;
+	rdfs:subClassOf :object_32 ;
 	owl:disjointWith :object_601 ;
 	:isPartOfPartition "podział manifestacji jednostek osadniczych ze względu na związek z Ziemią"@pl ;
 	rdfs:comment "Manifestacja jednostki osadniczej jest osadzona jeżeli obejmuje manifestacje budynków i ziemi, na których są one posadowione."@pl ;
@@ -751,7 +788,7 @@ _:genid60 a owl:Class .
 # http://purl.org/ontohgis#object_601
 
 :object_601 a owl:Class ;
-	rdfs:subClassOf :object_40 ;
+	rdfs:subClassOf :object_32 ;
 	:isPartOfPartition "podział manifestacji jednostek osadniczych ze względu na związek z Ziemią"@pl ;
 	rdfs:comment "Manifestacja jednostki osadniczej jest nieosadzona jeżeli nie obejmuje manifestacji ziemi, na których są posadowione budynki wchodzące w skład tych manifestacji."@pl ;
 	rdfs:label "nieosadzona manifestacja jednostki osadniczej"@pl .
@@ -787,9 +824,9 @@ _:genid60 a owl:Class .
 # http://purl.org/ontohgis#settlement_unit102
 
 :settlement_unit102 a owl:Class ;
-	rdfs:subClassOf :object_601 , _:genid64 .
+	rdfs:subClassOf :object_601 , _:genid68 .
 
-_:genid64 a owl:Restriction ;
+_:genid68 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/hasPart> ;
 	owl:someValuesFrom <http://purl.org/ontohgis/object_1> .
 
@@ -834,33 +871,6 @@ _:genid64 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit108
 
 :settlement_unit108 a owl:Class ;
-	owl:equivalentClass _:genid65 .
-
-_:genid65 owl:intersectionOf _:genid68 .
-
-_:genid68 a rdf:List ;
-	rdf:first :settlement_unit2 ;
-	rdf:rest _:genid66 .
-
-_:genid66 a rdf:List ;
-	rdf:first _:genid67 .
-
-_:genid67 a owl:Restriction ;
-	owl:onProperty <http://purl.org/ontohgis/hasPart> ;
-	owl:maxQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-	owl:onClass :settlement_unit103 .
-
-_:genid66 rdf:rest rdf:nil .
-
-_:genid65 a owl:Class .
-
-:settlement_unit108 rdfs:subClassOf :settlement_unit2 ;
-	:hasExternalIdentifier "108"^^xsd:string ;
-	rdfs:label "wieś bez kościoła"^^xsd:string .
-# 
-# http://purl.org/ontohgis#settlement_unit109
-
-:settlement_unit109 a owl:Class ;
 	owl:equivalentClass _:genid69 .
 
 _:genid69 owl:intersectionOf _:genid72 .
@@ -874,11 +884,38 @@ _:genid70 a rdf:List ;
 
 _:genid71 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/hasPart> ;
-	owl:someValuesFrom :settlement_unit8 .
+	owl:maxQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+	owl:onClass :settlement_unit103 .
 
 _:genid70 rdf:rest rdf:nil .
 
 _:genid69 a owl:Class .
+
+:settlement_unit108 rdfs:subClassOf :settlement_unit2 ;
+	:hasExternalIdentifier "108"^^xsd:string ;
+	rdfs:label "wieś bez kościoła"^^xsd:string .
+# 
+# http://purl.org/ontohgis#settlement_unit109
+
+:settlement_unit109 a owl:Class ;
+	owl:equivalentClass _:genid73 .
+
+_:genid73 owl:intersectionOf _:genid76 .
+
+_:genid76 a rdf:List ;
+	rdf:first :settlement_unit2 ;
+	rdf:rest _:genid74 .
+
+_:genid74 a rdf:List ;
+	rdf:first _:genid75 .
+
+_:genid75 a owl:Restriction ;
+	owl:onProperty <http://purl.org/ontohgis/hasPart> ;
+	owl:someValuesFrom :settlement_unit8 .
+
+_:genid74 rdf:rest rdf:nil .
+
+_:genid73 a owl:Class .
 
 :settlement_unit109 rdfs:subClassOf :settlement_unit2 ;
 	:hasExternalIdentifier "109"^^xsd:string ;
@@ -908,24 +945,24 @@ _:genid69 a owl:Class .
 # http://purl.org/ontohgis#settlement_unit112
 
 :settlement_unit112 a owl:Class ;
-	owl:equivalentClass _:genid73 .
+	owl:equivalentClass _:genid77 .
 
-_:genid73 owl:intersectionOf _:genid76 .
+_:genid77 owl:intersectionOf _:genid80 .
 
-_:genid76 a rdf:List ;
+_:genid80 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis/settlement_unit3008> ;
-	rdf:rest _:genid74 .
+	rdf:rest _:genid78 .
 
-_:genid74 a rdf:List ;
-	rdf:first _:genid75 .
+_:genid78 a rdf:List ;
+	rdf:first _:genid79 .
 
-_:genid75 a owl:Restriction ;
+_:genid79 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
 	owl:someValuesFrom :settlement_unit44 .
 
-_:genid74 rdf:rest rdf:nil .
+_:genid78 rdf:rest rdf:nil .
 
-_:genid73 a owl:Class .
+_:genid77 a owl:Class .
 
 :settlement_unit112 rdfs:subClassOf :object_600 , <http://purl.org/ontohgis/settlement_unit3008> ;
 	:hasExternalIdentifier "112"^^xsd:integer ;
@@ -1100,7 +1137,7 @@ _:genid73 a owl:Class .
 # http://purl.org/ontohgis#settlement_unit32
 
 :settlement_unit32 a owl:Class ;
-	rdfs:subClassOf :object_100 , :object_600 ;
+	rdfs:subClassOf :object_100 ;
 	:hasExternalIdentifier "32"^^xsd:string ;
 	rdfs:label "okolica"^^xsd:string .
 # 
@@ -1156,9 +1193,9 @@ _:genid73 a owl:Class .
 # http://purl.org/ontohgis#settlement_unit4
 
 :settlement_unit4 a owl:Class ;
-	rdfs:subClassOf :object_100 , :object_600 , _:genid77 .
+	rdfs:subClassOf :object_100 , _:genid81 .
 
-_:genid77 a owl:Restriction ;
+_:genid81 a owl:Restriction ;
 	owl:onProperty <http://makolab.com/oc/hasPredecessorEntityManifestation> ;
 	owl:someValuesFrom :settlement_unit1 .
 
@@ -1183,43 +1220,43 @@ _:genid77 a owl:Restriction ;
 	rdfs:seeAlso "http://atlas.ihpan.edu.pl/skany/onto/plebania.pdf"^^xsd:anyURI ;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "dom plebański"@pl , "pastorówka"@pl , "popówka"@pl , "probostwo"@pl , "wikariatka"@pl .
 
-_:genid78 a owl:Axiom ;
+_:genid82 a owl:Axiom ;
 	owl:annotatedSource :settlement_unit41 ;
 	owl:annotatedProperty rdfs:label ;
 	owl:annotatedTarget "Pfarrhaus"@de ;
 	rdfs:isDefinedBy "plebania, dom plebański"@pl .
 
-_:genid79 a owl:Axiom ;
+_:genid83 a owl:Axiom ;
 	owl:annotatedSource :settlement_unit41 ;
 	owl:annotatedProperty rdfs:label ;
 	owl:annotatedTarget "Pfarrwohnung"@de ;
 	rdfs:isDefinedBy "plebania, dom plebański"@pl .
 
-_:genid80 a owl:Axiom ;
+_:genid84 a owl:Axiom ;
 	owl:annotatedSource :settlement_unit41 ;
 	owl:annotatedProperty rdfs:label ;
 	owl:annotatedTarget "plebania"^^xsd:string ;
 	rdfs:isDefinedBy "jednostka administracji kościelnej, ogół wiernych ją zamieszkujących"@pl .
 
-_:genid81 a owl:Axiom ;
+_:genid85 a owl:Axiom ;
 	owl:annotatedSource :settlement_unit41 ;
 	owl:annotatedProperty <http://www.w3.org/2004/02/skos/core#altLabel> ;
 	owl:annotatedTarget "pastorówka"@pl ;
 	rdfs:isDefinedBy "plebania w kościołach protestanckich"@pl .
 
-_:genid82 a owl:Axiom ;
+_:genid86 a owl:Axiom ;
 	owl:annotatedSource :settlement_unit41 ;
 	owl:annotatedProperty <http://www.w3.org/2004/02/skos/core#altLabel> ;
 	owl:annotatedTarget "popówka"@pl ;
 	rdfs:isDefinedBy "plebania w kościele prawosławnym lub unickim"@pl .
 
-_:genid83 a owl:Axiom ;
+_:genid87 a owl:Axiom ;
 	owl:annotatedSource :settlement_unit41 ;
 	owl:annotatedProperty <http://www.w3.org/2004/02/skos/core#altLabel> ;
 	owl:annotatedTarget "probostwo"@pl ;
 	rdfs:isDefinedBy "stanowisko lub siedziba proboszcza"@pl .
 
-_:genid84 a owl:Axiom ;
+_:genid88 a owl:Axiom ;
 	owl:annotatedSource :settlement_unit41 ;
 	owl:annotatedProperty <http://www.w3.org/2004/02/skos/core#altLabel> ;
 	owl:annotatedTarget "wikariatka"@pl ;
@@ -1256,7 +1293,7 @@ _:genid84 a owl:Axiom ;
 # http://purl.org/ontohgis#settlement_unit46
 
 :settlement_unit46 a owl:Class ;
-	rdfs:subClassOf :object_100 , :object_600 ;
+	rdfs:subClassOf :object_100 ;
 	:hasExternalIdentifier "46"^^xsd:string ;
 	rdfs:label "pustkowie"^^xsd:string .
 # 
@@ -1319,7 +1356,7 @@ _:genid84 a owl:Axiom ;
 # http://purl.org/ontohgis#settlement_unit54
 
 :settlement_unit54 a owl:Class ;
-	rdfs:subClassOf :object_100 , :object_600 ;
+	rdfs:subClassOf :object_100 ;
 	:hasExternalIdentifier "54"^^xsd:string ;
 	rdfs:label "uroczysko"^^xsd:string .
 # 
@@ -1368,32 +1405,6 @@ _:genid84 a owl:Axiom ;
 # http://purl.org/ontohgis#settlement_unit60
 
 :settlement_unit60 a owl:Class ;
-	owl:equivalentClass _:genid85 .
-
-_:genid85 owl:intersectionOf _:genid88 .
-
-_:genid88 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/settlement_unit3008> ;
-	rdf:rest _:genid86 .
-
-_:genid86 a rdf:List ;
-	rdf:first _:genid87 .
-
-_:genid87 a owl:Restriction ;
-	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
-	owl:someValuesFrom :settlement_unit20 .
-
-_:genid86 rdf:rest rdf:nil .
-
-_:genid85 a owl:Class .
-
-:settlement_unit60 rdfs:subClassOf :object_600 , <http://purl.org/ontohgis/settlement_unit3008> ;
-	:hasExternalIdentifier "60"^^xsd:string ;
-	rdfs:label "część kolonii"^^xsd:string .
-# 
-# http://purl.org/ontohgis#settlement_unit61
-
-:settlement_unit61 a owl:Class ;
 	owl:equivalentClass _:genid89 .
 
 _:genid89 owl:intersectionOf _:genid92 .
@@ -1407,19 +1418,19 @@ _:genid90 a rdf:List ;
 
 _:genid91 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
-	owl:someValuesFrom :settlement_unit3 .
+	owl:someValuesFrom :settlement_unit20 .
 
 _:genid90 rdf:rest rdf:nil .
 
 _:genid89 a owl:Class .
 
-:settlement_unit61 rdfs:subClassOf :object_600 , <http://purl.org/ontohgis/settlement_unit3008> ;
-	:hasExternalIdentifier "61"^^xsd:string ;
-	rdfs:label "część miasta"^^xsd:string .
+:settlement_unit60 rdfs:subClassOf :object_600 , <http://purl.org/ontohgis/settlement_unit3008> ;
+	:hasExternalIdentifier "60"^^xsd:string ;
+	rdfs:label "część kolonii"^^xsd:string .
 # 
-# http://purl.org/ontohgis#settlement_unit62
+# http://purl.org/ontohgis#settlement_unit61
 
-:settlement_unit62 a owl:Class ;
+:settlement_unit61 a owl:Class ;
 	owl:equivalentClass _:genid93 .
 
 _:genid93 owl:intersectionOf _:genid96 .
@@ -1433,19 +1444,19 @@ _:genid94 a rdf:List ;
 
 _:genid95 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
-	owl:someValuesFrom :settlement_unit33 .
+	owl:someValuesFrom :settlement_unit3 .
 
 _:genid94 rdf:rest rdf:nil .
 
 _:genid93 a owl:Class .
 
-:settlement_unit62 rdfs:subClassOf :object_600 , <http://purl.org/ontohgis/settlement_unit3008> ;
-	:hasExternalIdentifier "62"^^xsd:string ;
-	rdfs:label "część osady"^^xsd:string .
+:settlement_unit61 rdfs:subClassOf :object_600 , <http://purl.org/ontohgis/settlement_unit3008> ;
+	:hasExternalIdentifier "61"^^xsd:string ;
+	rdfs:label "część miasta"^^xsd:string .
 # 
-# http://purl.org/ontohgis#settlement_unit63
+# http://purl.org/ontohgis#settlement_unit62
 
-:settlement_unit63 a owl:Class ;
+:settlement_unit62 a owl:Class ;
 	owl:equivalentClass _:genid97 .
 
 _:genid97 owl:intersectionOf _:genid100 .
@@ -1459,11 +1470,37 @@ _:genid98 a rdf:List ;
 
 _:genid99 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
-	owl:someValuesFrom :settlement_unit2 .
+	owl:someValuesFrom :settlement_unit33 .
 
 _:genid98 rdf:rest rdf:nil .
 
 _:genid97 a owl:Class .
+
+:settlement_unit62 rdfs:subClassOf :object_600 , <http://purl.org/ontohgis/settlement_unit3008> ;
+	:hasExternalIdentifier "62"^^xsd:string ;
+	rdfs:label "część osady"^^xsd:string .
+# 
+# http://purl.org/ontohgis#settlement_unit63
+
+:settlement_unit63 a owl:Class ;
+	owl:equivalentClass _:genid101 .
+
+_:genid101 owl:intersectionOf _:genid104 .
+
+_:genid104 a rdf:List ;
+	rdf:first <http://purl.org/ontohgis/settlement_unit3008> ;
+	rdf:rest _:genid102 .
+
+_:genid102 a rdf:List ;
+	rdf:first _:genid103 .
+
+_:genid103 a owl:Restriction ;
+	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+	owl:someValuesFrom :settlement_unit2 .
+
+_:genid102 rdf:rest rdf:nil .
+
+_:genid101 a owl:Class .
 
 :settlement_unit63 rdfs:subClassOf :object_600 , <http://purl.org/ontohgis/settlement_unit3008> ;
 	:hasExternalIdentifier "63"^^xsd:string ;
@@ -1472,32 +1509,6 @@ _:genid97 a owl:Class .
 # http://purl.org/ontohgis#settlement_unit64
 
 :settlement_unit64 a owl:Class ;
-	owl:equivalentClass _:genid101 .
-
-_:genid101 owl:intersectionOf _:genid104 .
-
-_:genid104 a rdf:List ;
-	rdf:first :settlement_unit20 ;
-	rdf:rest _:genid102 .
-
-_:genid102 a rdf:List ;
-	rdf:first _:genid103 .
-
-_:genid103 a owl:Restriction ;
-	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
-	owl:someValuesFrom :settlement_unit20 .
-
-_:genid102 rdf:rest rdf:nil .
-
-_:genid101 a owl:Class .
-
-:settlement_unit64 rdfs:subClassOf :object_600 , :settlement_unit20 , <http://purl.org/ontohgis/settlement_unit3008> ;
-	:hasExternalIdentifier "64"^^xsd:string ;
-	rdfs:label "kolonia kolonii"^^xsd:string .
-# 
-# http://purl.org/ontohgis#settlement_unit65
-
-:settlement_unit65 a owl:Class ;
 	owl:equivalentClass _:genid105 .
 
 _:genid105 owl:intersectionOf _:genid108 .
@@ -1511,19 +1522,19 @@ _:genid106 a rdf:List ;
 
 _:genid107 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
-	owl:someValuesFrom :settlement_unit33 .
+	owl:someValuesFrom :settlement_unit20 .
 
 _:genid106 rdf:rest rdf:nil .
 
 _:genid105 a owl:Class .
 
-:settlement_unit65 rdfs:subClassOf :object_600 , :settlement_unit20 , <http://purl.org/ontohgis/settlement_unit3008> ;
-	:hasExternalIdentifier "65"^^xsd:string ;
-	rdfs:label "kolonia osady"^^xsd:string .
+:settlement_unit64 rdfs:subClassOf :object_600 , :settlement_unit20 , <http://purl.org/ontohgis/settlement_unit3008> ;
+	:hasExternalIdentifier "64"^^xsd:string ;
+	rdfs:label "kolonia kolonii"^^xsd:string .
 # 
-# http://purl.org/ontohgis#settlement_unit66
+# http://purl.org/ontohgis#settlement_unit65
 
-:settlement_unit66 a owl:Class ;
+:settlement_unit65 a owl:Class ;
 	owl:equivalentClass _:genid109 .
 
 _:genid109 owl:intersectionOf _:genid112 .
@@ -1537,11 +1548,37 @@ _:genid110 a rdf:List ;
 
 _:genid111 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
-	owl:someValuesFrom :settlement_unit2 .
+	owl:someValuesFrom :settlement_unit33 .
 
 _:genid110 rdf:rest rdf:nil .
 
 _:genid109 a owl:Class .
+
+:settlement_unit65 rdfs:subClassOf :object_600 , :settlement_unit20 , <http://purl.org/ontohgis/settlement_unit3008> ;
+	:hasExternalIdentifier "65"^^xsd:string ;
+	rdfs:label "kolonia osady"^^xsd:string .
+# 
+# http://purl.org/ontohgis#settlement_unit66
+
+:settlement_unit66 a owl:Class ;
+	owl:equivalentClass _:genid113 .
+
+_:genid113 owl:intersectionOf _:genid116 .
+
+_:genid116 a rdf:List ;
+	rdf:first :settlement_unit20 ;
+	rdf:rest _:genid114 .
+
+_:genid114 a rdf:List ;
+	rdf:first _:genid115 .
+
+_:genid115 a owl:Restriction ;
+	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+	owl:someValuesFrom :settlement_unit2 .
+
+_:genid114 rdf:rest rdf:nil .
+
+_:genid113 a owl:Class .
 
 :settlement_unit66 rdfs:subClassOf :object_600 , :settlement_unit20 , <http://purl.org/ontohgis/settlement_unit3008> ;
 	:hasExternalIdentifier "66"^^xsd:string ;
@@ -1557,32 +1594,6 @@ _:genid109 a owl:Class .
 # http://purl.org/ontohgis#settlement_unit68
 
 :settlement_unit68 a owl:Class ;
-	owl:equivalentClass _:genid113 .
-
-_:genid113 owl:intersectionOf _:genid116 .
-
-_:genid116 a rdf:List ;
-	rdf:first :settlement_unit33 ;
-	rdf:rest _:genid114 .
-
-_:genid114 a rdf:List ;
-	rdf:first _:genid115 .
-
-_:genid115 a owl:Restriction ;
-	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
-	owl:someValuesFrom :settlement_unit20 .
-
-_:genid114 rdf:rest rdf:nil .
-
-_:genid113 a owl:Class .
-
-:settlement_unit68 rdfs:subClassOf :object_600 , :settlement_unit33 , <http://purl.org/ontohgis/settlement_unit3008> ;
-	:hasExternalIdentifier "68"^^xsd:string ;
-	rdfs:label "osada kolonii"^^xsd:string .
-# 
-# http://purl.org/ontohgis#settlement_unit69
-
-:settlement_unit69 a owl:Class ;
 	owl:equivalentClass _:genid117 .
 
 _:genid117 owl:intersectionOf _:genid120 .
@@ -1596,11 +1607,37 @@ _:genid118 a rdf:List ;
 
 _:genid119 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
-	owl:someValuesFrom :settlement_unit2 .
+	owl:someValuesFrom :settlement_unit20 .
 
 _:genid118 rdf:rest rdf:nil .
 
 _:genid117 a owl:Class .
+
+:settlement_unit68 rdfs:subClassOf :object_600 , :settlement_unit33 , <http://purl.org/ontohgis/settlement_unit3008> ;
+	:hasExternalIdentifier "68"^^xsd:string ;
+	rdfs:label "osada kolonii"^^xsd:string .
+# 
+# http://purl.org/ontohgis#settlement_unit69
+
+:settlement_unit69 a owl:Class ;
+	owl:equivalentClass _:genid121 .
+
+_:genid121 owl:intersectionOf _:genid124 .
+
+_:genid124 a rdf:List ;
+	rdf:first :settlement_unit33 ;
+	rdf:rest _:genid122 .
+
+_:genid122 a rdf:List ;
+	rdf:first _:genid123 .
+
+_:genid123 a owl:Restriction ;
+	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+	owl:someValuesFrom :settlement_unit2 .
+
+_:genid122 rdf:rest rdf:nil .
+
+_:genid121 a owl:Class .
 
 :settlement_unit69 rdfs:subClassOf :settlement_unit36 , :settlement_unit71 ;
 	:hasExternalIdentifier "69"^^xsd:string ;
@@ -1616,32 +1653,6 @@ _:genid117 a owl:Class .
 # http://purl.org/ontohgis#settlement_unit70
 
 :settlement_unit70 a owl:Class ;
-	owl:equivalentClass _:genid121 .
-
-_:genid121 owl:intersectionOf _:genid124 .
-
-_:genid124 a rdf:List ;
-	rdf:first :settlement_unit33 ;
-	rdf:rest _:genid122 .
-
-_:genid122 a rdf:List ;
-	rdf:first _:genid123 .
-
-_:genid123 a owl:Restriction ;
-	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
-	owl:someValuesFrom :settlement_unit33 .
-
-_:genid122 rdf:rest rdf:nil .
-
-_:genid121 a owl:Class .
-
-:settlement_unit70 rdfs:subClassOf :object_600 , :settlement_unit33 , <http://purl.org/ontohgis/settlement_unit3008> ;
-	:hasExternalIdentifier "70"^^xsd:string ;
-	rdfs:label "osada osady"^^xsd:string .
-# 
-# http://purl.org/ontohgis#settlement_unit71
-
-:settlement_unit71 a owl:Class ;
 	owl:equivalentClass _:genid125 .
 
 _:genid125 owl:intersectionOf _:genid128 .
@@ -1655,25 +1666,25 @@ _:genid126 a rdf:List ;
 
 _:genid127 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
-	owl:someValuesFrom :settlement_unit2 .
+	owl:someValuesFrom :settlement_unit33 .
 
 _:genid126 rdf:rest rdf:nil .
 
 _:genid125 a owl:Class .
 
-:settlement_unit71 rdfs:subClassOf :object_600 , :settlement_unit33 , <http://purl.org/ontohgis/settlement_unit3008> ;
-	:hasExternalIdentifier "71"^^xsd:string ;
-	rdfs:label "osada wsi"^^xsd:string .
+:settlement_unit70 rdfs:subClassOf :object_600 , :settlement_unit33 , <http://purl.org/ontohgis/settlement_unit3008> ;
+	:hasExternalIdentifier "70"^^xsd:string ;
+	rdfs:label "osada osady"^^xsd:string .
 # 
-# http://purl.org/ontohgis#settlement_unit72
+# http://purl.org/ontohgis#settlement_unit71
 
-:settlement_unit72 a owl:Class ;
+:settlement_unit71 a owl:Class ;
 	owl:equivalentClass _:genid129 .
 
 _:genid129 owl:intersectionOf _:genid132 .
 
 _:genid132 a rdf:List ;
-	rdf:first :settlement_unit34 ;
+	rdf:first :settlement_unit33 ;
 	rdf:rest _:genid130 .
 
 _:genid130 a rdf:List ;
@@ -1687,19 +1698,19 @@ _:genid130 rdf:rest rdf:nil .
 
 _:genid129 a owl:Class .
 
-:settlement_unit72 rdfs:subClassOf :object_600 , :settlement_unit34 , <http://purl.org/ontohgis/settlement_unit3008> ;
-	:hasExternalIdentifier "72"^^xsd:string ;
-	rdfs:label "osiedle wsi"^^xsd:string .
+:settlement_unit71 rdfs:subClassOf :object_600 , :settlement_unit33 , <http://purl.org/ontohgis/settlement_unit3008> ;
+	:hasExternalIdentifier "71"^^xsd:string ;
+	rdfs:label "osada wsi"^^xsd:string .
 # 
-# http://purl.org/ontohgis#settlement_unit73
+# http://purl.org/ontohgis#settlement_unit72
 
-:settlement_unit73 a owl:Class ;
+:settlement_unit72 a owl:Class ;
 	owl:equivalentClass _:genid133 .
 
 _:genid133 owl:intersectionOf _:genid136 .
 
 _:genid136 a rdf:List ;
-	rdf:first :settlement_unit44 ;
+	rdf:first :settlement_unit34 ;
 	rdf:rest _:genid134 .
 
 _:genid134 a rdf:List ;
@@ -1707,19 +1718,19 @@ _:genid134 a rdf:List ;
 
 _:genid135 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
-	owl:someValuesFrom :settlement_unit20 .
+	owl:someValuesFrom :settlement_unit2 .
 
 _:genid134 rdf:rest rdf:nil .
 
 _:genid133 a owl:Class .
 
-:settlement_unit73 rdfs:subClassOf :object_600 , :settlement_unit44 , <http://purl.org/ontohgis/settlement_unit3008> ;
-	:hasExternalIdentifier "73"^^xsd:string ;
-	rdfs:label "przysiółek kolonii"^^xsd:string .
+:settlement_unit72 rdfs:subClassOf :object_600 , :settlement_unit34 , <http://purl.org/ontohgis/settlement_unit3008> ;
+	:hasExternalIdentifier "72"^^xsd:string ;
+	rdfs:label "osiedle wsi"^^xsd:string .
 # 
-# http://purl.org/ontohgis#settlement_unit74
+# http://purl.org/ontohgis#settlement_unit73
 
-:settlement_unit74 a owl:Class ;
+:settlement_unit73 a owl:Class ;
 	owl:equivalentClass _:genid137 .
 
 _:genid137 owl:intersectionOf _:genid140 .
@@ -1733,19 +1744,19 @@ _:genid138 a rdf:List ;
 
 _:genid139 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
-	owl:someValuesFrom :settlement_unit33 .
+	owl:someValuesFrom :settlement_unit20 .
 
 _:genid138 rdf:rest rdf:nil .
 
 _:genid137 a owl:Class .
 
-:settlement_unit74 rdfs:subClassOf :object_600 , :settlement_unit44 , <http://purl.org/ontohgis/settlement_unit3008> ;
-	:hasExternalIdentifier "74"^^xsd:string ;
-	rdfs:label "przysiółek osady"^^xsd:string .
+:settlement_unit73 rdfs:subClassOf :object_600 , :settlement_unit44 , <http://purl.org/ontohgis/settlement_unit3008> ;
+	:hasExternalIdentifier "73"^^xsd:string ;
+	rdfs:label "przysiółek kolonii"^^xsd:string .
 # 
-# http://purl.org/ontohgis#settlement_unit75
+# http://purl.org/ontohgis#settlement_unit74
 
-:settlement_unit75 a owl:Class ;
+:settlement_unit74 a owl:Class ;
 	owl:equivalentClass _:genid141 .
 
 _:genid141 owl:intersectionOf _:genid144 .
@@ -1759,11 +1770,37 @@ _:genid142 a rdf:List ;
 
 _:genid143 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
-	owl:someValuesFrom :settlement_unit2 .
+	owl:someValuesFrom :settlement_unit33 .
 
 _:genid142 rdf:rest rdf:nil .
 
 _:genid141 a owl:Class .
+
+:settlement_unit74 rdfs:subClassOf :object_600 , :settlement_unit44 , <http://purl.org/ontohgis/settlement_unit3008> ;
+	:hasExternalIdentifier "74"^^xsd:string ;
+	rdfs:label "przysiółek osady"^^xsd:string .
+# 
+# http://purl.org/ontohgis#settlement_unit75
+
+:settlement_unit75 a owl:Class ;
+	owl:equivalentClass _:genid145 .
+
+_:genid145 owl:intersectionOf _:genid148 .
+
+_:genid148 a rdf:List ;
+	rdf:first :settlement_unit44 ;
+	rdf:rest _:genid146 .
+
+_:genid146 a rdf:List ;
+	rdf:first _:genid147 .
+
+_:genid147 a owl:Restriction ;
+	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+	owl:someValuesFrom :settlement_unit2 .
+
+_:genid146 rdf:rest rdf:nil .
+
+_:genid145 a owl:Class .
 
 :settlement_unit75 rdfs:subClassOf :object_600 , :settlement_unit44 , <http://purl.org/ontohgis/settlement_unit3008> ;
 	:hasExternalIdentifier "75"^^xsd:string ;
@@ -1828,24 +1865,24 @@ _:genid141 a owl:Class .
 # http://purl.org/ontohgis#settlement_unit83
 
 :settlement_unit83 a owl:Class ;
-	owl:equivalentClass _:genid145 .
+	owl:equivalentClass _:genid149 .
 
-_:genid145 owl:intersectionOf _:genid148 .
+_:genid149 owl:intersectionOf _:genid152 .
 
-_:genid148 a rdf:List ;
+_:genid152 a rdf:List ;
 	rdf:first :settlement_unit2 ;
-	rdf:rest _:genid146 .
+	rdf:rest _:genid150 .
 
-_:genid146 a rdf:List ;
-	rdf:first _:genid147 .
+_:genid150 a rdf:List ;
+	rdf:first _:genid151 .
 
-_:genid147 a owl:Restriction ;
+_:genid151 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/hasPart> ;
 	owl:someValuesFrom :settlement_unit103 .
 
-_:genid146 rdf:rest rdf:nil .
+_:genid150 rdf:rest rdf:nil .
 
-_:genid145 a owl:Class .
+_:genid149 a owl:Class .
 
 :settlement_unit83 rdfs:subClassOf :settlement_unit2 ;
 	:hasExternalIdentifier "83"^^xsd:string ;
@@ -1979,21 +2016,9 @@ _:genid145 a owl:Class .
 # http://purl.org/ontohgis/settlement_unit1000
 
 <http://purl.org/ontohgis/settlement_unit1000> a owl:Class ;
-	rdfs:subClassOf :object_40 , _:genid149 .
+	rdfs:subClassOf :object_32 , _:genid153 .
 
-_:genid149 a owl:Restriction ;
-	owl:onProperty <http://purl.org/ontohgis/hasBoundary> ;
-	owl:someValuesFrom <http://purl.org/ontohgis/settlement_unit2001> .
-
-<http://purl.org/ontohgis/settlement_unit1000> rdfs:subClassOf _:genid150 .
-
-_:genid150 a owl:Restriction ;
-	owl:onProperty <http://purl.org/ontohgis/hasBoundary> ;
-	owl:allValuesFrom <http://purl.org/ontohgis/settlement_unit2001> .
-
-<http://purl.org/ontohgis/settlement_unit1000> rdfs:subClassOf _:genid151 .
-
-_:genid151 a owl:Restriction ;
+_:genid153 a owl:Restriction ;
 	owl:onProperty :hasProperFunction ;
 	owl:hasValue :object_400 .
 
@@ -2004,10 +2029,10 @@ _:genid151 a owl:Restriction ;
 # http://purl.org/ontohgis/settlement_unit1001
 
 <http://purl.org/ontohgis/settlement_unit1001> a owl:Class ;
-	rdfs:subClassOf <http://makolab.com/oc/VariableEntity> ;
-	owl:hasKey _:genid152 .
+	rdfs:subClassOf <http://makolab.com/oc/VariableEntity> , obo:BFO_0000029 ;
+	owl:hasKey _:genid154 .
 
-_:genid152 a rdf:List ;
+_:genid154 a rdf:List ;
 	rdf:first :individualHasExternalIdentifier ;
 	rdf:rest rdf:nil .
 
@@ -2017,15 +2042,15 @@ _:genid152 a rdf:List ;
 # http://purl.org/ontohgis/settlement_unit2000
 
 <http://purl.org/ontohgis/settlement_unit2000> a owl:Class ;
-	rdfs:subClassOf obo:BFO_0000142 , <http://www.opengis.net/ont/geosparql#Feature> , _:genid153 .
+	rdfs:subClassOf obo:BFO_0000142 , <http://www.opengis.net/ont/geosparql#Feature> , _:genid155 .
 
-_:genid153 a owl:Restriction ;
+_:genid155 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/isBoundaryOf> ;
 	owl:someValuesFrom <http://purl.org/ontohgis/settlement_unit1001> .
 
-<http://purl.org/ontohgis/settlement_unit2000> rdfs:subClassOf _:genid154 .
+<http://purl.org/ontohgis/settlement_unit2000> rdfs:subClassOf _:genid156 .
 
-_:genid154 a owl:Restriction ;
+_:genid156 a owl:Restriction ;
 	owl:onProperty <http://www.opengis.net/ont/geosparql#hasGeometry> ;
 	owl:someValuesFrom owl:Thing .
 
@@ -2034,15 +2059,15 @@ _:genid154 a owl:Restriction ;
 # http://purl.org/ontohgis/settlement_unit2001
 
 <http://purl.org/ontohgis/settlement_unit2001> a owl:Class ;
-	rdfs:subClassOf obo:BFO_0000142 , <http://www.opengis.net/ont/geosparql#Feature> , _:genid155 .
+	rdfs:subClassOf obo:BFO_0000142 , <http://www.opengis.net/ont/geosparql#Feature> , _:genid157 .
 
-_:genid155 a owl:Restriction ;
+_:genid157 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/isBoundaryOf> ;
-	owl:someValuesFrom <http://purl.org/ontohgis/settlement_unit1000> .
+	owl:someValuesFrom :object_32 .
 
-<http://purl.org/ontohgis/settlement_unit2001> rdfs:subClassOf _:genid156 .
+<http://purl.org/ontohgis/settlement_unit2001> rdfs:subClassOf _:genid158 .
 
-_:genid156 a owl:Restriction ;
+_:genid158 a owl:Restriction ;
 	owl:onProperty <http://www.opengis.net/ont/geosparql#hasGeometry> ;
 	owl:someValuesFrom owl:Thing .
 
@@ -2051,25 +2076,25 @@ _:genid156 a owl:Restriction ;
 # http://purl.org/ontohgis/settlement_unit3003
 
 <http://purl.org/ontohgis/settlement_unit3003> a owl:Class ;
-	owl:equivalentClass _:genid157 .
+	owl:equivalentClass _:genid159 .
 
-_:genid157 owl:intersectionOf _:genid160 .
+_:genid159 owl:intersectionOf _:genid162 .
+
+_:genid162 a rdf:List ;
+	rdf:first <http://purl.org/ontohgis/settlement_unit1000> ;
+	rdf:rest _:genid160 .
 
 _:genid160 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/settlement_unit1000> ;
-	rdf:rest _:genid158 .
+	rdf:first _:genid161 .
 
-_:genid158 a rdf:List ;
-	rdf:first _:genid159 .
-
-_:genid159 a owl:Restriction ;
+_:genid161 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/hasPart> ;
 	owl:maxQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
 	owl:onClass <http://purl.org/ontohgis/settlement_unit1000> .
 
-_:genid158 rdf:rest rdf:nil .
+_:genid160 rdf:rest rdf:nil .
 
-_:genid157 a owl:Class .
+_:genid159 a owl:Class .
 
 <http://purl.org/ontohgis/settlement_unit3003> rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
 	:isPartOfPartition "podział manifestacji jednostek osadniczych ze względu na mereologiczną złożoność"@pl ;
@@ -2079,25 +2104,25 @@ _:genid157 a owl:Class .
 # http://purl.org/ontohgis/settlement_unit3004
 
 <http://purl.org/ontohgis/settlement_unit3004> a owl:Class ;
-	owl:equivalentClass _:genid161 .
+	owl:equivalentClass _:genid163 .
 
-_:genid161 owl:intersectionOf _:genid164 .
+_:genid163 owl:intersectionOf _:genid166 .
+
+_:genid166 a rdf:List ;
+	rdf:first <http://purl.org/ontohgis/settlement_unit1000> ;
+	rdf:rest _:genid164 .
 
 _:genid164 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/settlement_unit1000> ;
-	rdf:rest _:genid162 .
+	rdf:first _:genid165 .
 
-_:genid162 a rdf:List ;
-	rdf:first _:genid163 .
-
-_:genid163 a owl:Restriction ;
+_:genid165 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/hasPart> ;
 	owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
 	owl:onClass <http://purl.org/ontohgis/settlement_unit1000> .
 
-_:genid162 rdf:rest rdf:nil .
+_:genid164 rdf:rest rdf:nil .
 
-_:genid161 a owl:Class .
+_:genid163 a owl:Class .
 
 <http://purl.org/ontohgis/settlement_unit3004> rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
 	:isPartOfPartition "podział manifestacji jednostek osadniczych ze względu na mereologiczną złożoność"@pl ;
@@ -2107,33 +2132,33 @@ _:genid161 a owl:Class .
 # http://purl.org/ontohgis/settlement_unit3005
 
 <http://purl.org/ontohgis/settlement_unit3005> a owl:Class ;
-	owl:equivalentClass _:genid165 .
+	owl:equivalentClass _:genid167 .
 
-_:genid165 a owl:Class ;
-	owl:unionOf _:genid167 .
+_:genid167 a owl:Class ;
+	owl:unionOf _:genid169 .
 
-_:genid167 a rdf:List ;
+_:genid169 a rdf:List ;
 	rdf:first :settlement_unit3020 ;
-	rdf:rest _:genid166 .
+	rdf:rest _:genid168 .
 
-_:genid166 a rdf:List ;
+_:genid168 a rdf:List ;
 	rdf:first :settlement_unit3021 ;
 	rdf:rest rdf:nil .
 
-<http://purl.org/ontohgis/settlement_unit3005> rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1001> , _:genid168 .
+<http://purl.org/ontohgis/settlement_unit3005> rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1001> , _:genid170 .
 
-_:genid168 a owl:Restriction ;
+_:genid170 a owl:Restriction ;
 	owl:onProperty :hasProperFunction ;
 	owl:hasValue :object_403 .
 
 <http://purl.org/ontohgis/settlement_unit3005> owl:disjointWith <http://purl.org/ontohgis/settlement_unit3006> ;
-	owl:disjointUnionOf _:genid170 .
+	owl:disjointUnionOf _:genid172 .
 
-_:genid170 a rdf:List ;
+_:genid172 a rdf:List ;
 	rdf:first :settlement_unit3020 ;
-	rdf:rest _:genid169 .
+	rdf:rest _:genid171 .
 
-_:genid169 a rdf:List ;
+_:genid171 a rdf:List ;
 	rdf:first :settlement_unit3021 ;
 	rdf:rest rdf:nil .
 
@@ -2143,16 +2168,16 @@ _:genid169 a rdf:List ;
 # http://purl.org/ontohgis/settlement_unit3006
 
 <http://purl.org/ontohgis/settlement_unit3006> a owl:Class ;
-	owl:equivalentClass _:genid171 .
+	owl:equivalentClass _:genid173 .
 
-_:genid171 a owl:Class ;
-	owl:unionOf _:genid173 .
+_:genid173 a owl:Class ;
+	owl:unionOf _:genid175 .
 
-_:genid173 a rdf:List ;
+_:genid175 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis/settlement_unit3012> ;
-	rdf:rest _:genid172 .
+	rdf:rest _:genid174 .
 
-_:genid172 a rdf:List ;
+_:genid174 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis/settlement_unit3014> ;
 	rdf:rest rdf:nil .
 
@@ -2162,25 +2187,25 @@ _:genid172 a rdf:List ;
 # http://purl.org/ontohgis/settlement_unit3007
 
 <http://purl.org/ontohgis/settlement_unit3007> a owl:Class ;
-	owl:equivalentClass _:genid174 .
+	owl:equivalentClass _:genid176 .
 
-_:genid174 owl:intersectionOf _:genid177 .
+_:genid176 owl:intersectionOf _:genid179 .
+
+_:genid179 a rdf:List ;
+	rdf:first <http://purl.org/ontohgis/settlement_unit1000> ;
+	rdf:rest _:genid177 .
 
 _:genid177 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/settlement_unit1000> ;
-	rdf:rest _:genid175 .
+	rdf:first _:genid178 .
 
-_:genid175 a rdf:List ;
-	rdf:first _:genid176 .
-
-_:genid176 a owl:Restriction ;
+_:genid178 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
 	owl:maxQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
 	owl:onClass <http://purl.org/ontohgis/settlement_unit1000> .
 
-_:genid175 rdf:rest rdf:nil .
+_:genid177 rdf:rest rdf:nil .
 
-_:genid174 a owl:Class .
+_:genid176 a owl:Class .
 
 <http://purl.org/ontohgis/settlement_unit3007> rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
 	:isPartOfPartition "podział manifestacji jednostek osadniczych ze względu na mereologiczną samodzielność"@pl ;
@@ -2190,24 +2215,24 @@ _:genid174 a owl:Class .
 # http://purl.org/ontohgis/settlement_unit3008
 
 <http://purl.org/ontohgis/settlement_unit3008> a owl:Class ;
-	owl:equivalentClass _:genid178 .
+	owl:equivalentClass _:genid180 .
 
-_:genid178 owl:intersectionOf _:genid181 .
+_:genid180 owl:intersectionOf _:genid183 .
+
+_:genid183 a rdf:List ;
+	rdf:first <http://purl.org/ontohgis/settlement_unit1000> ;
+	rdf:rest _:genid181 .
 
 _:genid181 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/settlement_unit1000> ;
-	rdf:rest _:genid179 .
+	rdf:first _:genid182 .
 
-_:genid179 a rdf:List ;
-	rdf:first _:genid180 .
-
-_:genid180 a owl:Restriction ;
+_:genid182 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
 	owl:someValuesFrom <http://purl.org/ontohgis/settlement_unit1000> .
 
-_:genid179 rdf:rest rdf:nil .
+_:genid181 rdf:rest rdf:nil .
 
-_:genid178 a owl:Class .
+_:genid180 a owl:Class .
 
 <http://purl.org/ontohgis/settlement_unit3008> rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
 	:isPartOfPartition "podział manifestacji jednostek osadniczych ze względu na mereologiczną samodzielność"@pl ;
@@ -2247,9 +2272,9 @@ _:genid178 a owl:Class .
 # http://purl.org/ontohgis/settlement_unit3016
 
 <http://purl.org/ontohgis/settlement_unit3016> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> , _:genid182 .
+	rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> , _:genid184 .
 
-_:genid182 a owl:Restriction ;
+_:genid184 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/isBoundaryOf> ;
 	owl:someValuesFrom <http://purl.org/ontohgis/settlement_unit3017> .
 
@@ -2264,9 +2289,9 @@ _:genid182 a owl:Restriction ;
 # http://purl.org/ontohgis/settlement_unit3018
 
 <http://purl.org/ontohgis/settlement_unit3018> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> , _:genid183 .
+	rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> , _:genid185 .
 
-_:genid183 a owl:Restriction ;
+_:genid185 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/isBoundaryOf> ;
 	owl:someValuesFrom <http://purl.org/ontohgis/settlement_unit3015> .
 
@@ -2281,9 +2306,9 @@ _:genid183 a owl:Restriction ;
 # http://purl.org/ontohgis/settlement_unit3020
 
 <http://purl.org/ontohgis/settlement_unit3020> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> , _:genid184 .
+	rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> , _:genid186 .
 
-_:genid184 a owl:Restriction ;
+_:genid186 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/isBoundaryOf> ;
 	owl:someValuesFrom <http://purl.org/ontohgis/settlement_unit3019> .
 
@@ -2292,15 +2317,15 @@ _:genid184 a owl:Restriction ;
 # http://purl.org/ontohgis/source
 
 <http://purl.org/ontohgis/source> a owl:Class ;
-	rdfs:subClassOf obo:IAO_0000310 , _:genid185 .
+	rdfs:subClassOf obo:IAO_0000310 , _:genid187 .
 
-_:genid185 a owl:Restriction ;
+_:genid187 a owl:Restriction ;
 	owl:onProperty :isPublishedAfter ;
 	owl:someValuesFrom xsd:dateTime .
 
-<http://purl.org/ontohgis/source> rdfs:subClassOf _:genid186 .
+<http://purl.org/ontohgis/source> rdfs:subClassOf _:genid188 .
 
-_:genid186 a owl:Restriction ;
+_:genid188 a owl:Restriction ;
 	owl:onProperty :isPublishedBefore ;
 	owl:someValuesFrom xsd:dateTime .
 
@@ -2308,16 +2333,16 @@ _:genid186 a owl:Restriction ;
 # 
 # http://www.opengis.net/ont/geosparql#Geometry
 
-<http://www.opengis.net/ont/geosparql#Geometry> rdfs:subClassOf _:genid187 .
+<http://www.opengis.net/ont/geosparql#Geometry> rdfs:subClassOf _:genid189 .
 
-_:genid187 a owl:Restriction ;
+_:genid189 a owl:Restriction ;
 	owl:onProperty :isGeometryOf ;
 	owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
 	owl:onClass :object_200 .
 
-<http://www.opengis.net/ont/geosparql#Geometry> rdfs:subClassOf _:genid188 .
+<http://www.opengis.net/ont/geosparql#Geometry> rdfs:subClassOf _:genid190 .
 
-_:genid188 a owl:Restriction ;
+_:genid190 a owl:Restriction ;
 	owl:onProperty :isGeometryOf ;
 	owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
 	owl:onClass :object_40 .
@@ -2328,15 +2353,15 @@ _:genid188 a owl:Restriction ;
 # 
 # http://www.opengis.net/ont/sf#Geometry
 
-<http://www.opengis.net/ont/sf#Geometry> rdfs:subClassOf _:genid189 .
+<http://www.opengis.net/ont/sf#Geometry> rdfs:subClassOf _:genid191 .
 
-_:genid189 a owl:Restriction ;
+_:genid191 a owl:Restriction ;
 	owl:onProperty :individualHasExternalIdentifier ;
 	owl:someValuesFrom xsd:integer .
 
-<http://www.opengis.net/ont/sf#Geometry> owl:hasKey _:genid190 .
+<http://www.opengis.net/ont/sf#Geometry> owl:hasKey _:genid192 .
 
-_:genid190 a rdf:List ;
+_:genid192 a rdf:List ;
 	rdf:first :individualHasExternalIdentifier ;
 	rdf:rest rdf:nil .
 # 
@@ -2506,7 +2531,7 @@ _:genid190 a rdf:List ;
 # 
 # http://purl.org/ontohgis#settlement_unit20006
 
-:settlement_unit20006 a owl:NamedIndividual ;
+:settlement_unit20006 a owl:NamedIndividual , :settlement_unit1 ;
 	<http://makolab.com/oc/isManifestationOf> :settlement_unit10005 ;
 	<http://makolab.com/oc/hasBeginning> "1425-01-01T00:00:00"^^xsd:dateTime ;
 	<http://makolab.com/oc/hasEnd> "1460-12-31T00:00:00"^^xsd:dateTime ;
@@ -2514,7 +2539,7 @@ _:genid190 a rdf:List ;
 # 
 # http://purl.org/ontohgis#settlement_unit20007
 
-:settlement_unit20007 a owl:NamedIndividual ;
+:settlement_unit20007 a owl:NamedIndividual , :settlement_unit4 ;
 	<http://makolab.com/oc/isManifestationOf> :settlement_unit10005 ;
 	<http://makolab.com/oc/hasEnd> "2016-12-31T00:00:00"^^xsd:dateTime ;
 	rdfs:label "Dybów"^^xsd:string .
@@ -2741,7 +2766,7 @@ _:genid190 a rdf:List ;
 	:isPublishedAfter "1838-12-31T23:59:59"^^xsd:dateTime ;
 	rdfs:label "REYMANN_MUSTERBLATT_1822-1838"^^xsd:string .
 
-_:genid191 a owl:NegativePropertyAssertion ;
+_:genid193 a owl:NegativePropertyAssertion ;
 	owl:sourceIndividual <http://purl.org/ontohgis/Source_35> ;
 	owl:assertionProperty :isPublishedBefore ;
 	owl:targetValue "1822-01-01T00:00:00"^^xsd:dateTime .
@@ -2946,701 +2971,4 @@ _:genid191 a owl:NegativePropertyAssertion ;
 <http://purl.org/ontohgis/Source_9> a owl:NamedIndividual , <http://purl.org/ontohgis/source> ;
 	rdfs:label "MSB_GASIEWICZ_1930"^^xsd:string .
 # 
-# 
-# 
-# #################################################################
-# #
-# #    General axioms
-# #
-# #################################################################
-# 
-# 
-
-_:genid192 a owl:AllDifferent ;
-	owl:distinctMembers _:genid293 .
-
-_:genid293 a rdf:List ;
-	rdf:first :area_1 ;
-	rdf:rest _:genid292 .
-
-_:genid292 a rdf:List ;
-	rdf:first :area_2 ;
-	rdf:rest _:genid291 .
-
-_:genid291 a rdf:List ;
-	rdf:first :area_3 ;
-	rdf:rest _:genid290 .
-
-_:genid290 a rdf:List ;
-	rdf:first :area_4 ;
-	rdf:rest _:genid289 .
-
-_:genid289 a rdf:List ;
-	rdf:first :area_5 ;
-	rdf:rest _:genid288 .
-
-_:genid288 a rdf:List ;
-	rdf:first :area_6 ;
-	rdf:rest _:genid287 .
-
-_:genid287 a rdf:List ;
-	rdf:first :area_7 ;
-	rdf:rest _:genid286 .
-
-_:genid286 a rdf:List ;
-	rdf:first :settlement_unit10000 ;
-	rdf:rest _:genid285 .
-
-_:genid285 a rdf:List ;
-	rdf:first :settlement_unit10001 ;
-	rdf:rest _:genid284 .
-
-_:genid284 a rdf:List ;
-	rdf:first :settlement_unit10002 ;
-	rdf:rest _:genid283 .
-
-_:genid283 a rdf:List ;
-	rdf:first :settlement_unit10003 ;
-	rdf:rest _:genid282 .
-
-_:genid282 a rdf:List ;
-	rdf:first :settlement_unit10004 ;
-	rdf:rest _:genid281 .
-
-_:genid281 a rdf:List ;
-	rdf:first :settlement_unit10005 ;
-	rdf:rest _:genid280 .
-
-_:genid280 a rdf:List ;
-	rdf:first :settlement_unit10006 ;
-	rdf:rest _:genid279 .
-
-_:genid279 a rdf:List ;
-	rdf:first :settlement_unit10007 ;
-	rdf:rest _:genid278 .
-
-_:genid278 a rdf:List ;
-	rdf:first :settlement_unit20000 ;
-	rdf:rest _:genid277 .
-
-_:genid277 a rdf:List ;
-	rdf:first :settlement_unit20001 ;
-	rdf:rest _:genid276 .
-
-_:genid276 a rdf:List ;
-	rdf:first :settlement_unit20002 ;
-	rdf:rest _:genid275 .
-
-_:genid275 a rdf:List ;
-	rdf:first :settlement_unit20003 ;
-	rdf:rest _:genid274 .
-
-_:genid274 a rdf:List ;
-	rdf:first :settlement_unit20004 ;
-	rdf:rest _:genid273 .
-
-_:genid273 a rdf:List ;
-	rdf:first :settlement_unit20005 ;
-	rdf:rest _:genid272 .
-
-_:genid272 a rdf:List ;
-	rdf:first :settlement_unit20006 ;
-	rdf:rest _:genid271 .
-
-_:genid271 a rdf:List ;
-	rdf:first :settlement_unit20007 ;
-	rdf:rest _:genid270 .
-
-_:genid270 a rdf:List ;
-	rdf:first :settlement_unit20008 ;
-	rdf:rest _:genid269 .
-
-_:genid269 a rdf:List ;
-	rdf:first :settlement_unit20009 ;
-	rdf:rest _:genid268 .
-
-_:genid268 a rdf:List ;
-	rdf:first :settlement_unit20010 ;
-	rdf:rest _:genid267 .
-
-_:genid267 a rdf:List ;
-	rdf:first :settlement_unit20011 ;
-	rdf:rest _:genid266 .
-
-_:genid266 a rdf:List ;
-	rdf:first :settlement_unit20012 ;
-	rdf:rest _:genid265 .
-
-_:genid265 a rdf:List ;
-	rdf:first :settlement_unit20013 ;
-	rdf:rest _:genid264 .
-
-_:genid264 a rdf:List ;
-	rdf:first :settlement_unit20014 ;
-	rdf:rest _:genid263 .
-
-_:genid263 a rdf:List ;
-	rdf:first :settlement_unit20015 ;
-	rdf:rest _:genid262 .
-
-_:genid262 a rdf:List ;
-	rdf:first :settlement_unit20016 ;
-	rdf:rest _:genid261 .
-
-_:genid261 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_1> ;
-	rdf:rest _:genid260 .
-
-_:genid260 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_10> ;
-	rdf:rest _:genid259 .
-
-_:genid259 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_11> ;
-	rdf:rest _:genid258 .
-
-_:genid258 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_12> ;
-	rdf:rest _:genid257 .
-
-_:genid257 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_13> ;
-	rdf:rest _:genid256 .
-
-_:genid256 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_14> ;
-	rdf:rest _:genid255 .
-
-_:genid255 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_15> ;
-	rdf:rest _:genid254 .
-
-_:genid254 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_16> ;
-	rdf:rest _:genid253 .
-
-_:genid253 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_17> ;
-	rdf:rest _:genid252 .
-
-_:genid252 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_18> ;
-	rdf:rest _:genid251 .
-
-_:genid251 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_19> ;
-	rdf:rest _:genid250 .
-
-_:genid250 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_2> ;
-	rdf:rest _:genid249 .
-
-_:genid249 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_20> ;
-	rdf:rest _:genid248 .
-
-_:genid248 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_21> ;
-	rdf:rest _:genid247 .
-
-_:genid247 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_22> ;
-	rdf:rest _:genid246 .
-
-_:genid246 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_23> ;
-	rdf:rest _:genid245 .
-
-_:genid245 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_24> ;
-	rdf:rest _:genid244 .
-
-_:genid244 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_25> ;
-	rdf:rest _:genid243 .
-
-_:genid243 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_26> ;
-	rdf:rest _:genid242 .
-
-_:genid242 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_27> ;
-	rdf:rest _:genid241 .
-
-_:genid241 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_28> ;
-	rdf:rest _:genid240 .
-
-_:genid240 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_29> ;
-	rdf:rest _:genid239 .
-
-_:genid239 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_3> ;
-	rdf:rest _:genid238 .
-
-_:genid238 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_30> ;
-	rdf:rest _:genid237 .
-
-_:genid237 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_31> ;
-	rdf:rest _:genid236 .
-
-_:genid236 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_32> ;
-	rdf:rest _:genid235 .
-
-_:genid235 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_33> ;
-	rdf:rest _:genid234 .
-
-_:genid234 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_34> ;
-	rdf:rest _:genid233 .
-
-_:genid233 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_35> ;
-	rdf:rest _:genid232 .
-
-_:genid232 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_36> ;
-	rdf:rest _:genid231 .
-
-_:genid231 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_37> ;
-	rdf:rest _:genid230 .
-
-_:genid230 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_38> ;
-	rdf:rest _:genid229 .
-
-_:genid229 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_39> ;
-	rdf:rest _:genid228 .
-
-_:genid228 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_4> ;
-	rdf:rest _:genid227 .
-
-_:genid227 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_40> ;
-	rdf:rest _:genid226 .
-
-_:genid226 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_41> ;
-	rdf:rest _:genid225 .
-
-_:genid225 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_42> ;
-	rdf:rest _:genid224 .
-
-_:genid224 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_43> ;
-	rdf:rest _:genid223 .
-
-_:genid223 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_44> ;
-	rdf:rest _:genid222 .
-
-_:genid222 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_45> ;
-	rdf:rest _:genid221 .
-
-_:genid221 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_46> ;
-	rdf:rest _:genid220 .
-
-_:genid220 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_47> ;
-	rdf:rest _:genid219 .
-
-_:genid219 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_48> ;
-	rdf:rest _:genid218 .
-
-_:genid218 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_49> ;
-	rdf:rest _:genid217 .
-
-_:genid217 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_5> ;
-	rdf:rest _:genid216 .
-
-_:genid216 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_50> ;
-	rdf:rest _:genid215 .
-
-_:genid215 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_51> ;
-	rdf:rest _:genid214 .
-
-_:genid214 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_52> ;
-	rdf:rest _:genid213 .
-
-_:genid213 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_53> ;
-	rdf:rest _:genid212 .
-
-_:genid212 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_54> ;
-	rdf:rest _:genid211 .
-
-_:genid211 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_55> ;
-	rdf:rest _:genid210 .
-
-_:genid210 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_56> ;
-	rdf:rest _:genid209 .
-
-_:genid209 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_57> ;
-	rdf:rest _:genid208 .
-
-_:genid208 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_58> ;
-	rdf:rest _:genid207 .
-
-_:genid207 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_59> ;
-	rdf:rest _:genid206 .
-
-_:genid206 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_6> ;
-	rdf:rest _:genid205 .
-
-_:genid205 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_60> ;
-	rdf:rest _:genid204 .
-
-_:genid204 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_61> ;
-	rdf:rest _:genid203 .
-
-_:genid203 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_62> ;
-	rdf:rest _:genid202 .
-
-_:genid202 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_63> ;
-	rdf:rest _:genid201 .
-
-_:genid201 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_64> ;
-	rdf:rest _:genid200 .
-
-_:genid200 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_65> ;
-	rdf:rest _:genid199 .
-
-_:genid199 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_66> ;
-	rdf:rest _:genid198 .
-
-_:genid198 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_67> ;
-	rdf:rest _:genid197 .
-
-_:genid197 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_68> ;
-	rdf:rest _:genid196 .
-
-_:genid196 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_69> ;
-	rdf:rest _:genid195 .
-
-_:genid195 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_7> ;
-	rdf:rest _:genid194 .
-
-_:genid194 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_8> ;
-	rdf:rest _:genid193 .
-
-_:genid193 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_9> ;
-	rdf:rest rdf:nil .
-# 
-
-_:genid294 a owl:AllDifferent ;
-	owl:distinctMembers _:genid363 .
-
-_:genid363 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_1> ;
-	rdf:rest _:genid362 .
-
-_:genid362 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_10> ;
-	rdf:rest _:genid361 .
-
-_:genid361 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_11> ;
-	rdf:rest _:genid360 .
-
-_:genid360 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_12> ;
-	rdf:rest _:genid359 .
-
-_:genid359 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_13> ;
-	rdf:rest _:genid358 .
-
-_:genid358 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_14> ;
-	rdf:rest _:genid357 .
-
-_:genid357 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_15> ;
-	rdf:rest _:genid356 .
-
-_:genid356 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_16> ;
-	rdf:rest _:genid355 .
-
-_:genid355 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_17> ;
-	rdf:rest _:genid354 .
-
-_:genid354 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_18> ;
-	rdf:rest _:genid353 .
-
-_:genid353 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_19> ;
-	rdf:rest _:genid352 .
-
-_:genid352 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_2> ;
-	rdf:rest _:genid351 .
-
-_:genid351 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_20> ;
-	rdf:rest _:genid350 .
-
-_:genid350 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_21> ;
-	rdf:rest _:genid349 .
-
-_:genid349 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_22> ;
-	rdf:rest _:genid348 .
-
-_:genid348 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_23> ;
-	rdf:rest _:genid347 .
-
-_:genid347 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_24> ;
-	rdf:rest _:genid346 .
-
-_:genid346 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_25> ;
-	rdf:rest _:genid345 .
-
-_:genid345 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_26> ;
-	rdf:rest _:genid344 .
-
-_:genid344 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_27> ;
-	rdf:rest _:genid343 .
-
-_:genid343 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_28> ;
-	rdf:rest _:genid342 .
-
-_:genid342 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_29> ;
-	rdf:rest _:genid341 .
-
-_:genid341 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_3> ;
-	rdf:rest _:genid340 .
-
-_:genid340 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_30> ;
-	rdf:rest _:genid339 .
-
-_:genid339 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_31> ;
-	rdf:rest _:genid338 .
-
-_:genid338 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_32> ;
-	rdf:rest _:genid337 .
-
-_:genid337 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_33> ;
-	rdf:rest _:genid336 .
-
-_:genid336 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_34> ;
-	rdf:rest _:genid335 .
-
-_:genid335 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_35> ;
-	rdf:rest _:genid334 .
-
-_:genid334 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_36> ;
-	rdf:rest _:genid333 .
-
-_:genid333 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_37> ;
-	rdf:rest _:genid332 .
-
-_:genid332 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_38> ;
-	rdf:rest _:genid331 .
-
-_:genid331 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_39> ;
-	rdf:rest _:genid330 .
-
-_:genid330 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_4> ;
-	rdf:rest _:genid329 .
-
-_:genid329 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_40> ;
-	rdf:rest _:genid328 .
-
-_:genid328 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_41> ;
-	rdf:rest _:genid327 .
-
-_:genid327 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_42> ;
-	rdf:rest _:genid326 .
-
-_:genid326 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_43> ;
-	rdf:rest _:genid325 .
-
-_:genid325 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_44> ;
-	rdf:rest _:genid324 .
-
-_:genid324 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_45> ;
-	rdf:rest _:genid323 .
-
-_:genid323 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_46> ;
-	rdf:rest _:genid322 .
-
-_:genid322 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_47> ;
-	rdf:rest _:genid321 .
-
-_:genid321 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_48> ;
-	rdf:rest _:genid320 .
-
-_:genid320 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_49> ;
-	rdf:rest _:genid319 .
-
-_:genid319 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_5> ;
-	rdf:rest _:genid318 .
-
-_:genid318 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_50> ;
-	rdf:rest _:genid317 .
-
-_:genid317 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_51> ;
-	rdf:rest _:genid316 .
-
-_:genid316 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_52> ;
-	rdf:rest _:genid315 .
-
-_:genid315 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_53> ;
-	rdf:rest _:genid314 .
-
-_:genid314 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_54> ;
-	rdf:rest _:genid313 .
-
-_:genid313 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_55> ;
-	rdf:rest _:genid312 .
-
-_:genid312 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_56> ;
-	rdf:rest _:genid311 .
-
-_:genid311 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_57> ;
-	rdf:rest _:genid310 .
-
-_:genid310 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_58> ;
-	rdf:rest _:genid309 .
-
-_:genid309 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_59> ;
-	rdf:rest _:genid308 .
-
-_:genid308 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_6> ;
-	rdf:rest _:genid307 .
-
-_:genid307 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_60> ;
-	rdf:rest _:genid306 .
-
-_:genid306 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_61> ;
-	rdf:rest _:genid305 .
-
-_:genid305 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_62> ;
-	rdf:rest _:genid304 .
-
-_:genid304 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_63> ;
-	rdf:rest _:genid303 .
-
-_:genid303 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_64> ;
-	rdf:rest _:genid302 .
-
-_:genid302 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_65> ;
-	rdf:rest _:genid301 .
-
-_:genid301 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_66> ;
-	rdf:rest _:genid300 .
-
-_:genid300 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_67> ;
-	rdf:rest _:genid299 .
-
-_:genid299 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_68> ;
-	rdf:rest _:genid298 .
-
-_:genid298 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_69> ;
-	rdf:rest _:genid297 .
-
-_:genid297 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_7> ;
-	rdf:rest _:genid296 .
-
-_:genid296 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_8> ;
-	rdf:rest _:genid295 .
-
-_:genid295 a rdf:List ;
-	rdf:first <http://purl.org/ontohgis/Source_9> ;
-	rdf:rest rdf:nil .
-# 
-# Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi
+# Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi
