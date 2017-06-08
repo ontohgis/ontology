@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"Ontology_Import_Prep","startColumn":"A","endColumn":"D","startRow":"2","endRow":"112","comment":"","rule":"Class: @A*(rdfs:label\u003d@B* rdf:ID\u003d@A*)\nAnnotations: \u0027(klasa) ma obcy identyfikator\u0027 @C* \nSubClassOf: @D*","active":true}]}
