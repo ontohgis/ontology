@@ -1,5 +1,6 @@
 @prefix : <http://purl.org/ontohgis#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix oc: <http://ontologies.makolab.com/oc/> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -9,7 +10,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <http://purl.org/ontohgis> a owl:Ontology ;
-	owl:imports <http://www.opengis.net/ont/geosparql> , <http://ontologies.makolab.com/oc/oc.ttl> , <http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl> , <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> ;
+	owl:imports <http://www.opengis.net/ont/geosparql> , <http://ontologies.makolab.com/oc/> , <http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl> , <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> ;
 	owl:versionInfo "2.0"^^xsd:decimal ;
 	rdfs:comment "Ontologia powstała w ramach projektu 'Ontologiczne podstawy budowy historycznych systemów informacji geograficznej' (2bH 15 0216 83) finansowanego przez Narodowy Programu Rozwoju Humanistyki 2015 r., IV edycja, moduł \"Rozwój\" 2 b."@pl .
 # 
@@ -120,19 +121,19 @@
 # 
 # http://ontologies.makolab.com/oc/hasManifestation
 
-<http://ontologies.makolab.com/oc/hasManifestation> a owl:ObjectProperty .
+oc:hasManifestation a owl:ObjectProperty .
 # 
 # http://ontologies.makolab.com/oc/hasPredecessorEntityManifestation
 
-<http://ontologies.makolab.com/oc/hasPredecessorEntityManifestation> a owl:ObjectProperty .
+oc:hasPredecessorEntityManifestation a owl:ObjectProperty .
 # 
 # http://ontologies.makolab.com/oc/isManifestationOf
 
-<http://ontologies.makolab.com/oc/isManifestationOf> a owl:ObjectProperty .
+oc:isManifestationOf a owl:ObjectProperty .
 # 
 # http://ontologies.makolab.com/oc/isPredecessorEntityManifestationOf
 
-<http://ontologies.makolab.com/oc/isPredecessorEntityManifestationOf> a owl:ObjectProperty , owl:TransitiveProperty .
+oc:isPredecessorEntityManifestationOf a owl:ObjectProperty , owl:TransitiveProperty .
 # 
 # http://purl.obolibrary.org/obo/IAO_0000136
 
@@ -243,11 +244,11 @@ obo:IAO_0000219 a owl:ObjectProperty .
 # 
 # http://ontologies.makolab.com/oc/hasBeginning
 
-<http://ontologies.makolab.com/oc/hasBeginning> a owl:DatatypeProperty .
+oc:hasBeginning a owl:DatatypeProperty .
 # 
 # http://ontologies.makolab.com/oc/hasEnd
 
-<http://ontologies.makolab.com/oc/hasEnd> a owl:DatatypeProperty .
+oc:hasEnd a owl:DatatypeProperty .
 # 
 # http://purl.org/ontohgis#individualHasExternalIdentifier
 
@@ -280,18 +281,18 @@ obo:IAO_0000219 a owl:ObjectProperty .
 # 
 # http://ontologies.makolab.com/oc/NonVariableEntity
 
-<http://ontologies.makolab.com/oc/NonVariableEntity> a owl:Class ;
+oc:NonVariableEntity a owl:Class ;
 	rdfs:subClassOf obo:BFO_0000002 .
 # 
 # http://ontologies.makolab.com/oc/VariableEntity
 
-<http://ontologies.makolab.com/oc/VariableEntity> a owl:Class ;
+oc:VariableEntity a owl:Class ;
 	rdfs:subClassOf obo:BFO_0000002 .
 # 
 # http://ontologies.makolab.com/oc/VariableEntityManifestation
 
-<http://ontologies.makolab.com/oc/VariableEntityManifestation> a owl:Class ;
-	rdfs:subClassOf <http://ontologies.makolab.com/oc/NonVariableEntity> .
+oc:VariableEntityManifestation a owl:Class ;
+	rdfs:subClassOf oc:NonVariableEntity .
 # 
 # http://purl.obolibrary.org/obo/BFO_0000002
 
@@ -353,7 +354,7 @@ _:genid4 a rdf:List ;
 	rdf:first _:genid5 .
 
 _:genid5 a owl:Restriction ;
-	owl:onProperty <http://ontologies.makolab.com/oc/hasPredecessorEntityManifestation> ;
+	owl:onProperty oc:hasPredecessorEntityManifestation ;
 	owl:someValuesFrom :object_32 .
 
 _:genid4 rdf:rest rdf:nil .
@@ -382,10 +383,10 @@ _:genid7 a owl:Restriction ;
 	owl:equivalentClass _:genid8 .
 
 _:genid8 a owl:Restriction ;
-	owl:onProperty <http://ontologies.makolab.com/oc/isManifestationOf> ;
+	owl:onProperty oc:isManifestationOf ;
 	owl:someValuesFrom <http://purl.org/ontohgis/settlement_unit1001> .
 
-:object_200 rdfs:subClassOf <http://ontologies.makolab.com/oc/VariableEntityManifestation> , _:genid9 .
+:object_200 rdfs:subClassOf oc:VariableEntityManifestation , _:genid9 .
 
 _:genid9 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis/hasBoundary> ;
@@ -406,7 +407,7 @@ _:genid11 a owl:Restriction ;
 :object_200 rdfs:subClassOf _:genid12 .
 
 _:genid12 a owl:Restriction ;
-	owl:onProperty <http://ontologies.makolab.com/oc/hasBeginning> ;
+	owl:onProperty oc:hasBeginning ;
 	owl:someValuesFrom xsd:dateTime .
 
 :object_200 owl:disjointWith :object_40 ;
@@ -453,7 +454,7 @@ _:genid16 a rdf:List ;
 :object_203 owl:equivalentClass _:genid18 .
 
 _:genid18 a owl:Restriction ;
-	owl:onProperty <http://ontologies.makolab.com/oc/isManifestationOf> ;
+	owl:onProperty oc:isManifestationOf ;
 	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
 	owl:onClass <http://purl.org/ontohgis/settlement_unit3005> .
 
@@ -485,7 +486,7 @@ _:genid21 a rdf:List ;
 :object_204 owl:equivalentClass _:genid23 .
 
 _:genid23 a owl:Restriction ;
-	owl:onProperty <http://ontologies.makolab.com/oc/isManifestationOf> ;
+	owl:onProperty oc:isManifestationOf ;
 	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
 	owl:onClass <http://purl.org/ontohgis/settlement_unit3006> .
 
@@ -539,10 +540,10 @@ _:genid25 a owl:Class .
 # http://purl.org/ontohgis#object_30
 
 :object_30 a owl:Class ;
-	rdfs:subClassOf <http://ontologies.makolab.com/oc/VariableEntity> , obo:BFO_0000029 , _:genid29 .
+	rdfs:subClassOf oc:VariableEntity , obo:BFO_0000029 , _:genid29 .
 
 _:genid29 a owl:Restriction ;
-	owl:onProperty <http://ontologies.makolab.com/oc/hasManifestation> ;
+	owl:onProperty oc:hasManifestation ;
 	owl:someValuesFrom :object_32 .
 
 :object_30 owl:disjointWith <http://purl.org/ontohgis/settlement_unit1001> ;
@@ -649,11 +650,11 @@ c. prawnie."""@pl ;
 	owl:equivalentClass _:genid45 .
 
 _:genid45 a owl:Restriction ;
-	owl:onProperty <http://ontologies.makolab.com/oc/isManifestationOf> ;
+	owl:onProperty oc:isManifestationOf ;
 	owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
 	owl:onClass :object_30 .
 
-:object_40 rdfs:subClassOf <http://ontologies.makolab.com/oc/VariableEntityManifestation> , _:genid46 .
+:object_40 rdfs:subClassOf oc:VariableEntityManifestation , _:genid46 .
 
 _:genid46 a owl:Restriction ;
 	owl:onProperty :InverseIAO_0000136 ;
@@ -674,7 +675,7 @@ _:genid48 a owl:Restriction ;
 :object_40 rdfs:subClassOf _:genid49 .
 
 _:genid49 a owl:Restriction ;
-	owl:onProperty <http://ontologies.makolab.com/oc/hasBeginning> ;
+	owl:onProperty oc:hasBeginning ;
 	owl:someValuesFrom xsd:dateTime .
 
 :object_40 owl:disjointUnionOf _:genid51 .
@@ -1211,7 +1212,7 @@ _:genid77 a owl:Class .
 	rdfs:subClassOf :object_100 , _:genid81 .
 
 _:genid81 a owl:Restriction ;
-	owl:onProperty <http://ontologies.makolab.com/oc/hasPredecessorEntityManifestation> ;
+	owl:onProperty oc:hasPredecessorEntityManifestation ;
 	owl:someValuesFrom :settlement_unit1 .
 
 :settlement_unit4 :hasExternalIdentifier "4"^^xsd:string ;
@@ -2020,7 +2021,7 @@ _:genid149 a owl:Restriction ;
 # http://purl.org/ontohgis/settlement_unit1001
 
 <http://purl.org/ontohgis/settlement_unit1001> a owl:Class ;
-	rdfs:subClassOf <http://ontologies.makolab.com/oc/VariableEntity> , obo:BFO_0000029 ;
+	rdfs:subClassOf oc:VariableEntity , obo:BFO_0000029 ;
 	owl:hasKey _:genid150 .
 
 _:genid150 a rdf:List ;
@@ -2491,142 +2492,142 @@ _:genid188 a rdf:List ;
 # http://purl.org/ontohgis#settlement_unit20000
 
 :settlement_unit20000 a owl:NamedIndividual ;
-	<http://ontologies.makolab.com/oc/isManifestationOf> :settlement_unit10000 ;
+	oc:isManifestationOf :settlement_unit10000 ;
 	<http://www.opengis.net/ont/geosparql#hasGeometry> :area_1 ;
-	<http://ontologies.makolab.com/oc/hasBeginning> "1460-01-01T00:00:00"^^xsd:dateTime ;
-	<http://ontologies.makolab.com/oc/hasEnd> "2016-12-31T00:00:00"^^xsd:dateTime ;
+	oc:hasBeginning "1460-01-01T00:00:00"^^xsd:dateTime ;
+	oc:hasEnd "2016-12-31T00:00:00"^^xsd:dateTime ;
 	rdfs:label "Nieszawa"^^xsd:string .
 # 
 # http://purl.org/ontohgis#settlement_unit20001
 
 :settlement_unit20001 a owl:NamedIndividual ;
-	<http://ontologies.makolab.com/oc/isManifestationOf> :settlement_unit10001 ;
-	<http://ontologies.makolab.com/oc/hasEnd> "1460-12-31T00:00:00"^^xsd:dateTime ;
+	oc:isManifestationOf :settlement_unit10001 ;
+	oc:hasEnd "1460-12-31T00:00:00"^^xsd:dateTime ;
 	rdfs:label "Roskydalino"^^xsd:string .
 # 
 # http://purl.org/ontohgis#settlement_unit20002
 
 :settlement_unit20002 a owl:NamedIndividual ;
-	<http://ontologies.makolab.com/oc/isManifestationOf> :settlement_unit10002 ;
-	<http://ontologies.makolab.com/oc/hasBeginning> "1230-01-01T00:00:00"^^xsd:dateTime ;
-	<http://ontologies.makolab.com/oc/hasEnd> "1424-12-31T00:00:00"^^xsd:dateTime ;
+	oc:isManifestationOf :settlement_unit10002 ;
+	oc:hasBeginning "1230-01-01T00:00:00"^^xsd:dateTime ;
+	oc:hasEnd "1424-12-31T00:00:00"^^xsd:dateTime ;
 	rdfs:label "Nieszawa"^^xsd:string .
 # 
 # http://purl.org/ontohgis#settlement_unit20003
 
 :settlement_unit20003 a owl:NamedIndividual ;
-	<http://ontologies.makolab.com/oc/isManifestationOf> :settlement_unit10002 ;
+	oc:isManifestationOf :settlement_unit10002 ;
 	<http://purl.org/ontohgis/isPartOf> :settlement_unit20015 ;
-	<http://ontologies.makolab.com/oc/hasEnd> "2016-12-31T00:00:00"^^xsd:dateTime ;
+	oc:hasEnd "2016-12-31T00:00:00"^^xsd:dateTime ;
 	rdfs:label "Nieszawa"^^xsd:string .
 # 
 # http://purl.org/ontohgis#settlement_unit20004
 
 :settlement_unit20004 a owl:NamedIndividual ;
-	<http://ontologies.makolab.com/oc/isManifestationOf> :settlement_unit10003 ;
+	oc:isManifestationOf :settlement_unit10003 ;
 	<http://www.opengis.net/ont/geosparql#hasGeometry> :area_2 ;
-	<http://ontologies.makolab.com/oc/hasBeginning> "1230-01-01T00:00:00"^^xsd:dateTime ;
-	<http://ontologies.makolab.com/oc/hasEnd> "1900-12-31T00:00:00"^^xsd:dateTime ;
+	oc:hasBeginning "1230-01-01T00:00:00"^^xsd:dateTime ;
+	oc:hasEnd "1900-12-31T00:00:00"^^xsd:dateTime ;
 	rdfs:label "Mała Nieszawka"^^xsd:string .
 # 
 # http://purl.org/ontohgis#settlement_unit20005
 
 :settlement_unit20005 a owl:NamedIndividual ;
-	<http://ontologies.makolab.com/oc/isManifestationOf> :settlement_unit10004 ;
+	oc:isManifestationOf :settlement_unit10004 ;
 	<http://www.opengis.net/ont/geosparql#hasGeometry> :area_4 ;
-	<http://ontologies.makolab.com/oc/hasBeginning> "1230-01-01T00:00:00"^^xsd:dateTime ;
-	<http://ontologies.makolab.com/oc/hasEnd> "2016-12-31T00:00:00"^^xsd:dateTime ;
+	oc:hasBeginning "1230-01-01T00:00:00"^^xsd:dateTime ;
+	oc:hasEnd "2016-12-31T00:00:00"^^xsd:dateTime ;
 	rdfs:label "Wielka Nieszawka"^^xsd:string .
 # 
 # http://purl.org/ontohgis#settlement_unit20006
 
 :settlement_unit20006 a owl:NamedIndividual , :settlement_unit1 ;
-	<http://ontologies.makolab.com/oc/isManifestationOf> :settlement_unit10005 ;
-	<http://ontologies.makolab.com/oc/hasBeginning> "1425-01-01T00:00:00"^^xsd:dateTime ;
-	<http://ontologies.makolab.com/oc/hasEnd> "1460-12-31T00:00:00"^^xsd:dateTime ;
+	oc:isManifestationOf :settlement_unit10005 ;
+	oc:hasBeginning "1425-01-01T00:00:00"^^xsd:dateTime ;
+	oc:hasEnd "1460-12-31T00:00:00"^^xsd:dateTime ;
 	rdfs:label "Dybów"^^xsd:string .
 # 
 # http://purl.org/ontohgis#settlement_unit20007
 
 :settlement_unit20007 a owl:NamedIndividual , :settlement_unit4 ;
-	<http://ontologies.makolab.com/oc/isManifestationOf> :settlement_unit10005 ;
-	<http://ontologies.makolab.com/oc/hasEnd> "2016-12-31T00:00:00"^^xsd:dateTime ;
+	oc:isManifestationOf :settlement_unit10005 ;
+	oc:hasEnd "2016-12-31T00:00:00"^^xsd:dateTime ;
 	rdfs:label "Dybów"^^xsd:string .
 # 
 # http://purl.org/ontohgis#settlement_unit20008
 
 :settlement_unit20008 a owl:NamedIndividual ;
-	<http://ontologies.makolab.com/oc/isManifestationOf> :settlement_unit10000 ;
-	<http://ontologies.makolab.com/oc/hasBeginning> "1425-01-01T00:00:00"^^xsd:dateTime ;
-	<http://ontologies.makolab.com/oc/hasEnd> "1462-12-31T00:00:00"^^xsd:dateTime ;
+	oc:isManifestationOf :settlement_unit10000 ;
+	oc:hasBeginning "1425-01-01T00:00:00"^^xsd:dateTime ;
+	oc:hasEnd "1462-12-31T00:00:00"^^xsd:dateTime ;
 	rdfs:label "Nieszawa"^^xsd:string .
 # 
 # http://purl.org/ontohgis#settlement_unit20009
 
 :settlement_unit20009 a owl:NamedIndividual ;
-	<http://ontologies.makolab.com/oc/isManifestationOf> :settlement_unit10006 ;
-	<http://ontologies.makolab.com/oc/hasBeginning> "1555-01-01T00:00:00"^^xsd:dateTime ;
-	<http://ontologies.makolab.com/oc/hasEnd> "1611-12-31T00:00:00"^^xsd:dateTime ;
+	oc:isManifestationOf :settlement_unit10006 ;
+	oc:hasBeginning "1555-01-01T00:00:00"^^xsd:dateTime ;
+	oc:hasEnd "1611-12-31T00:00:00"^^xsd:dateTime ;
 	rdfs:label "Podgórz"^^xsd:string .
 # 
 # http://purl.org/ontohgis#settlement_unit20010
 
 :settlement_unit20010 a owl:NamedIndividual ;
-	<http://ontologies.makolab.com/oc/isManifestationOf> :settlement_unit10006 ;
-	<http://ontologies.makolab.com/oc/hasBeginning> "1611-01-01T00:00:00"^^xsd:dateTime ;
-	<http://ontologies.makolab.com/oc/hasEnd> "1876-12-31T00:00:00"^^xsd:dateTime ;
+	oc:isManifestationOf :settlement_unit10006 ;
+	oc:hasBeginning "1611-01-01T00:00:00"^^xsd:dateTime ;
+	oc:hasEnd "1876-12-31T00:00:00"^^xsd:dateTime ;
 	rdfs:label "Podgórz"^^xsd:string .
 # 
 # http://purl.org/ontohgis#settlement_unit20011
 
 :settlement_unit20011 a owl:NamedIndividual ;
-	<http://ontologies.makolab.com/oc/isManifestationOf> :settlement_unit10006 ;
-	<http://ontologies.makolab.com/oc/hasBeginning> "1876-01-01T00:00:00"^^xsd:dateTime ;
-	<http://ontologies.makolab.com/oc/hasEnd> "1925-12-31T00:00:00"^^xsd:dateTime ;
+	oc:isManifestationOf :settlement_unit10006 ;
+	oc:hasBeginning "1876-01-01T00:00:00"^^xsd:dateTime ;
+	oc:hasEnd "1925-12-31T00:00:00"^^xsd:dateTime ;
 	rdfs:label "Podgórz"^^xsd:string .
 # 
 # http://purl.org/ontohgis#settlement_unit20012
 
 :settlement_unit20012 a owl:NamedIndividual ;
-	<http://ontologies.makolab.com/oc/isManifestationOf> :settlement_unit10006 ;
-	<http://ontologies.makolab.com/oc/hasBeginning> "1925-01-01T00:00:00"^^xsd:dateTime ;
-	<http://ontologies.makolab.com/oc/hasEnd> "1934-12-31T00:00:00"^^xsd:dateTime ;
+	oc:isManifestationOf :settlement_unit10006 ;
+	oc:hasBeginning "1925-01-01T00:00:00"^^xsd:dateTime ;
+	oc:hasEnd "1934-12-31T00:00:00"^^xsd:dateTime ;
 	rdfs:label "Podgórz"^^xsd:string .
 # 
 # http://purl.org/ontohgis#settlement_unit20013
 
 :settlement_unit20013 a owl:NamedIndividual ;
-	<http://ontologies.makolab.com/oc/isManifestationOf> :settlement_unit10006 ;
+	oc:isManifestationOf :settlement_unit10006 ;
 	<http://www.opengis.net/ont/geosparql#hasGeometry> :area_5 ;
-	<http://ontologies.makolab.com/oc/hasBeginning> "1934-01-01T00:00:00"^^xsd:dateTime ;
-	<http://ontologies.makolab.com/oc/hasEnd> "2016-12-31T00:00:00"^^xsd:dateTime ;
+	oc:hasBeginning "1934-01-01T00:00:00"^^xsd:dateTime ;
+	oc:hasEnd "2016-12-31T00:00:00"^^xsd:dateTime ;
 	rdfs:label "Podgórz"^^xsd:string .
 # 
 # http://purl.org/ontohgis#settlement_unit20014
 
 :settlement_unit20014 a owl:NamedIndividual ;
-	<http://ontologies.makolab.com/oc/isManifestationOf> :settlement_unit10007 ;
+	oc:isManifestationOf :settlement_unit10007 ;
 	<http://www.opengis.net/ont/geosparql#hasGeometry> :area_6 ;
-	<http://ontologies.makolab.com/oc/hasBeginning> "1233-01-01T00:00:00"^^xsd:dateTime ;
-	<http://ontologies.makolab.com/oc/hasEnd> "1934-12-31T00:00:00"^^xsd:dateTime ;
+	oc:hasBeginning "1233-01-01T00:00:00"^^xsd:dateTime ;
+	oc:hasEnd "1934-12-31T00:00:00"^^xsd:dateTime ;
 	rdfs:label "Toruń"^^xsd:string .
 # 
 # http://purl.org/ontohgis#settlement_unit20015
 
 :settlement_unit20015 a owl:NamedIndividual ;
-	<http://ontologies.makolab.com/oc/isManifestationOf> :settlement_unit10003 ;
+	oc:isManifestationOf :settlement_unit10003 ;
 	<http://www.opengis.net/ont/geosparql#hasGeometry> :area_3 ;
-	<http://ontologies.makolab.com/oc/hasBeginning> "1900-01-01T00:00:00"^^xsd:dateTime ;
-	<http://ontologies.makolab.com/oc/hasEnd> "2016-12-31T00:00:00"^^xsd:dateTime ;
+	oc:hasBeginning "1900-01-01T00:00:00"^^xsd:dateTime ;
+	oc:hasEnd "2016-12-31T00:00:00"^^xsd:dateTime ;
 	rdfs:label "Mała Nieszawka"^^xsd:string .
 # 
 # http://purl.org/ontohgis#settlement_unit20016
 
 :settlement_unit20016 a owl:NamedIndividual ;
-	<http://ontologies.makolab.com/oc/isManifestationOf> :settlement_unit10007 ;
+	oc:isManifestationOf :settlement_unit10007 ;
 	<http://www.opengis.net/ont/geosparql#hasGeometry> :area_7 ;
-	<http://ontologies.makolab.com/oc/hasBeginning> "1934-01-01T00:00:00"^^xsd:dateTime ;
-	<http://ontologies.makolab.com/oc/hasEnd> "2016-12-31T00:00:00"^^xsd:dateTime ;
+	oc:hasBeginning "1934-01-01T00:00:00"^^xsd:dateTime ;
+	oc:hasEnd "2016-12-31T00:00:00"^^xsd:dateTime ;
 	rdfs:label "Toruń"^^xsd:string .
 # 
 # http://purl.org/ontohgis/Source_1
