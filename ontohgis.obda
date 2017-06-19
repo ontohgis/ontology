@@ -1,0 +1,29 @@
+[PrefixDeclaration]
+:		http://purl.org/ontohgis#
+dc:		http://purl.org/dc/elements/1.1/
+oc:		http://ontologies.makolab.com/oc/
+obo:		http://purl.obolibrary.org/obo/
+owl:		http://www.w3.org/2002/07/owl#
+rdf:		http://www.w3.org/1999/02/22-rdf-syntax-ns#
+xml:		http://www.w3.org/XML/1998/namespace
+xsd:		http://www.w3.org/2001/XMLSchema#
+foaf:		http://xmlns.com/foaf/0.1/
+rdfs:		http://www.w3.org/2000/01/rdf-schema#
+
+[SourceDeclaration]
+sourceUri	datasource1
+connectionUrl	jdbc:postgresql://atlas.ihpan.edu.pl:5432/ontogeohist
+username	garbacz
+password	Mereolog13
+driverClass	org.postgresql.Driver
+
+[MappingDeclaration] @collection [[
+mappingId	mapping-2080214632
+target		<http://purl.org/ontohgis/SettlementManifestation_{id}> a :settlement_unit{type_id} ; rdfs:label {manifestation_name} ; oc:isManifestationOf <http://purl.org/ontohgis/VariableSettlement_{id}> ; oc:hasBeginning {starts_at} ; oc:hasEnd {ends_at} ; <http://www.opengis.net/ont/geosparql#asWKT> {WktGeom} . 
+source		SELECT *, ST_AsText("the_geom") As WktGeom FROM "ontology"."SettlementManifestationsFull" LIMIT 5
+
+mappingId	mapping-2112836008
+target		<http://purl.org/ontohgis/VariableSettlement_{id}> a :object_30 . 
+source		SELECT * FROM "ontology"."SettlementManifestationsFull" LIMIT 5
+]]
+
