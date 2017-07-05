@@ -163,6 +163,46 @@ obo:IAO_0000219 rdf:type owl:ObjectProperty .
                             "ma właściwość w obszarze"@pl .
 
 
+###  http://purl.org/ontohgis#administrativeUnitAdministerAdministrativeUnit
+:administrativeUnitAdministerAdministrativeUnit rdf:type owl:ObjectProperty ;
+                                                rdfs:subPropertyOf :featureContainsFeature ;
+                                                rdfs:domain :object_200 ;
+                                                rdfs:range :object_200 ;
+                                                rdfs:label "administrative unit administers administrative unit"@en .
+
+
+###  http://purl.org/ontohgis#administrativeUnitAdministerSettlementPart
+:administrativeUnitAdministerSettlementPart rdf:type owl:ObjectProperty ;
+                                            rdfs:subPropertyOf :featureContainsFeature ;
+                                            owl:inverseOf :settlementIsPartOfAdministrativeUnit ;
+                                            rdfs:domain :object_200 ;
+                                            rdfs:range :object_40 ;
+                                            rdfs:label "administrative unit administers settlement unit"@en .
+
+
+###  http://purl.org/ontohgis#administrativeUnitIsAdministeredByAdministrativeUnit
+:administrativeUnitIsAdministeredByAdministrativeUnit rdf:type owl:ObjectProperty ;
+                                                      rdfs:subPropertyOf :featureIsContainedInFeature ;
+                                                      owl:inverseOf :administrativeUnitIsAdministeredByAdministrativeUnit ;
+                                                      rdfs:label "administrative unit is administered by administrative unit"@en .
+
+
+###  http://purl.org/ontohgis#featureContainsFeature
+:featureContainsFeature rdf:type owl:ObjectProperty ;
+                        rdfs:domain <http://www.opengis.net/ont/geosparql#Feature> ;
+                        rdfs:range <http://www.opengis.net/ont/geosparql#Feature> ;
+                        owl:propertyChainAxiom ( <http://www.opengis.net/ont/geosparql#hasGeometry>
+                                                 <http://www.opengis.net/ont/geosparql#ehContains>
+                                                 :isGeometryOf
+                                               ) ;
+                        rdfs:label "feature contains feature"@en .
+
+
+###  http://purl.org/ontohgis#featureIsContainedInFeature
+:featureIsContainedInFeature rdf:type owl:ObjectProperty ;
+                             rdfs:label "feature is contained in feature"@en .
+
+
 ###  http://purl.org/ontohgis#hasFunction
 :hasFunction rdf:type owl:ObjectProperty ;
              owl:inverseOf <http://purl.org/ontohgis/isFunctionOf> ;
@@ -220,29 +260,25 @@ obo:IAO_0000219 rdf:type owl:ObjectProperty .
                     rdfs:label "jest funkcją właściwą"@pl .
 
 
+###  http://purl.org/ontohgis#settlementIsPartOfAdministrativeUnit
+:settlementIsPartOfAdministrativeUnit rdf:type owl:ObjectProperty ;
+                                      rdfs:subPropertyOf :featureIsContainedInFeature ;
+                                      rdf:type owl:FunctionalProperty ;
+                                      rdfs:label "settlement unit is administered by administrative unit"@en .
+
+
 ###  http://purl.org/ontohgis/hasBoundary
 <http://purl.org/ontohgis/hasBoundary> rdf:type owl:ObjectProperty ;
-                                       rdfs:subPropertyOf <http://purl.org/ontohgis/hasPart> ;
+                                       rdfs:subPropertyOf obo:BFO_0000051 ;
                                        owl:inverseOf <http://purl.org/ontohgis/isBoundaryOf> ;
                                        rdfs:range obo:BFO_0000140 ;
-                                       owl:propertyDisjointWith <http://purl.org/ontohgis/isBoundaryOf> ;
                                        rdfs:label "has boundary"@en ,
                                                   "ma granicę"@pl .
 
 
-###  http://purl.org/ontohgis/hasPart
-<http://purl.org/ontohgis/hasPart> rdf:type owl:ObjectProperty ;
-                                   owl:inverseOf <http://purl.org/ontohgis/isPartOf> ;
-                                   rdfs:domain obo:BFO_0000002 ;
-                                   rdfs:range obo:BFO_0000002 ;
-                                   owl:propertyDisjointWith <http://purl.org/ontohgis/isPartOf> ;
-                                   rdfs:label "has part"@en ,
-                                              "ma część"@pl .
-
-
 ###  http://purl.org/ontohgis/isBoundaryOf
 <http://purl.org/ontohgis/isBoundaryOf> rdf:type owl:ObjectProperty ;
-                                        rdfs:subPropertyOf <http://purl.org/ontohgis/isPartOf> ;
+                                        rdfs:subPropertyOf obo:BFO_0000050 ;
                                         rdfs:domain obo:BFO_0000140 ;
                                         rdfs:label "is boundary of"@en ,
                                                    "jest granicą"@pl .
@@ -255,10 +291,23 @@ obo:IAO_0000219 rdf:type owl:ObjectProperty .
                                                    "jest funkcją"@pl .
 
 
-###  http://purl.org/ontohgis/isPartOf
-<http://purl.org/ontohgis/isPartOf> rdf:type owl:ObjectProperty ;
-                                    rdfs:label "is part of"@en ,
-                                               "jest częścią"@pl .
+###  http://purl.org/ontohgis/settlementHasSettlementPart
+<http://purl.org/ontohgis/settlementHasSettlementPart> rdf:type owl:ObjectProperty ;
+                                                       rdfs:subPropertyOf :featureContainsFeature ;
+                                                       owl:inverseOf <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                       rdfs:domain :object_40 ;
+                                                       rdfs:range :object_40 ;
+                                                       owl:propertyDisjointWith <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                       rdfs:label "jednostka osadnicza ma część (jednostkę osadniczą)"@pl ,
+                                                                  "settlement unit has part (settlement unit)"@en .
+
+
+###  http://purl.org/ontohgis/settlementIsPartOfSettlement
+<http://purl.org/ontohgis/settlementIsPartOfSettlement> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :featureIsContainedInFeature ;
+                                                        rdf:type owl:FunctionalProperty ;
+                                                        rdfs:label "jednostka osadnicza jest częścią jednostki osadniczej"@pl ,
+                                                                   "settlement unit is part of settlement unit"@en .
 
 
 ###  http://www.opengis.net/ont/geosparql#hasGeometry
@@ -378,7 +427,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                                   rdf:type owl:Class
                                 ] ;
             rdfs:subClassOf :object_40 ;
-            rdfs:label "była miejscowość"@pl .
+            rdfs:label "była miejscowość"@pl ,
+                       "former dwelling"@en .
 
 
 ###  http://purl.org/ontohgis#object_12
@@ -418,7 +468,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                               owl:someValuesFrom xsd:dateTime
                             ] ;
             owl:disjointWith :object_40 ;
-            rdfs:label "manifestacja jednostki podziału adminstracyjnego"@pl .
+            rdfs:label "administrative unit manifestation"@en ,
+                       "manifestacja jednostki podziału adminstracyjnego"@pl .
 
 
 ###  http://purl.org/ontohgis#object_201
@@ -451,7 +502,7 @@ obo:IAO_0000590 rdf:type owl:Class .
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty oc:isManifestationOf ;
                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                  owl:onClass <http://purl.org/ontohgis/settlement_unit3005>
+                                  owl:onClass <http://purl.org/ontohgis/object_3005>
                                 ] ;
             rdfs:subClassOf :object_200 ,
                             [ rdf:type owl:Restriction ;
@@ -472,13 +523,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty oc:isManifestationOf ;
                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                  owl:onClass <http://purl.org/ontohgis/settlement_unit3006>
+                                  owl:onClass <http://purl.org/ontohgis/object_3006>
                                 ] ;
-            rdfs:subClassOf :object_200 ,
-                            [ rdf:type owl:Restriction ;
-                              owl:onProperty <http://purl.org/ontohgis/hasPart> ;
-                              owl:someValuesFrom <http://purl.org/ontohgis/settlement_unit1000>
-                            ] ;
+            rdfs:subClassOf :object_200 ;
             rdfs:label "manifestacja obszaru administracyjnego"@pl .
 
 
@@ -506,7 +553,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                                ] ;
            rdfs:subClassOf <http://purl.org/ontohgis/object_1> ;
            rdfs:isDefinedBy "Budynek jest to przedmiot trwający w czasie, który został wytworzony lub wykorzystany w celu odgraniczenia pewnej przestrzeni (“wewnątrz\") od innej przestrzeni (“zewnątrz”)."@pl ;
-           rdfs:label "budynek"@pl ;
+           rdfs:label "budynek"@pl ,
+                      "building"@en ;
            rdfs:seeAlso "http://encyklopedia.pwn.pl/szukaj/budynek.html" .
 
 
@@ -525,6 +573,48 @@ obo:IAO_0000590 rdf:type owl:Class .
            rdfs:label "human settlement"@en ,
                       "jednostka osadnicza"@pl ;
            rdfs:seeAlso "http://encyklopedia.pwn.pl/haslo/jednostka-osadnicza;3917491.html"^^xsd:anyURI .
+
+
+###  http://purl.org/ontohgis#object_3010
+:object_3010 rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis/object_3014>
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :administrativeUnitIsAdministeredByAdministrativeUnit ;
+                                                          owl:someValuesFrom <http://purl.org/ontohgis/object_3014>
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+             rdfs:label "subordinate civic administered region"@en .
+
+
+###  http://purl.org/ontohgis#object_3020
+:object_3020 rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis/object_3014>
+                                                        [ rdf:type owl:Restriction ;
+                                                          owl:onProperty :administrativeUnitIsAdministeredByAdministrativeUnit ;
+                                                          owl:maxCardinality "0"^^xsd:nonNegativeInteger
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+             rdfs:label "sovreign civic administered region"@en .
+
+
+###  http://purl.org/ontohgis#object_3030
+:object_3030 rdf:type owl:Class ;
+             rdfs:subClassOf <http://purl.org/ontohgis/object_3005> ;
+             rdfs:label "organ administracji religijnej"@pl ,
+                        "religious administration body"@en .
+
+
+###  http://purl.org/ontohgis#object_3041
+:object_3041 rdf:type owl:Class ;
+             rdfs:subClassOf <http://purl.org/ontohgis/object_3005> ;
+             rdfs:label "civic administration body"@en ,
+                        "organ administracji świeckiej"@pl .
 
 
 ###  http://purl.org/ontohgis#object_31
@@ -570,7 +660,7 @@ obo:IAO_0000590 rdf:type owl:Class .
                              owl:allValuesFrom <http://purl.org/ontohgis/settlement_unit2001>
                            ] ,
                            [ rdf:type owl:Restriction ;
-                             owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+                             owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                              owl:onClass :object_32
                            ] ;
@@ -615,7 +705,8 @@ c. prawnie."""@pl ;
                                  :object_32
                                ) ;
            rdfs:comment "We assume that each settlement manifests itself as of a certain type, e.g., as a village."@en ;
-           rdfs:label "manifestacja jednostki osadniczej"@pl .
+           rdfs:label "human settlement manifestation"@en ,
+                      "manifestacja jednostki osadniczej"@pl .
 
 
 ###  http://purl.org/ontohgis#object_50
@@ -726,7 +817,7 @@ c. prawnie."""@pl ;
 :settlement_unit102 rdf:type owl:Class ;
                     rdfs:subClassOf :object_601 ,
                                     [ rdf:type owl:Restriction ;
-                                      owl:onProperty <http://purl.org/ontohgis/hasPart> ;
+                                      owl:onProperty <http://purl.org/ontohgis/settlementHasSettlementPart> ;
                                       owl:someValuesFrom <http://purl.org/ontohgis/object_1>
                                     ] ;
                     :hasExternalIdentifier "102"^^xsd:string ;
@@ -774,7 +865,7 @@ c. prawnie."""@pl ;
 :settlement_unit108 rdf:type owl:Class ;
                     owl:equivalentClass [ owl:intersectionOf ( :settlement_unit2
                                                                [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://purl.org/ontohgis/hasPart> ;
+                                                                 owl:onProperty <http://purl.org/ontohgis/settlementHasSettlementPart> ;
                                                                  owl:maxQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
                                                                  owl:onClass :settlement_unit103
                                                                ]
@@ -790,7 +881,7 @@ c. prawnie."""@pl ;
 :settlement_unit109 rdf:type owl:Class ;
                     owl:equivalentClass [ owl:intersectionOf ( :settlement_unit2
                                                                [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://purl.org/ontohgis/hasPart> ;
+                                                                 owl:onProperty <http://purl.org/ontohgis/settlementHasSettlementPart> ;
                                                                  owl:someValuesFrom :settlement_unit8
                                                                ]
                                                              ) ;
@@ -827,7 +918,7 @@ c. prawnie."""@pl ;
 :settlement_unit112 rdf:type owl:Class ;
                     owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis/settlement_unit3008>
                                                                [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+                                                                 owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
                                                                  owl:someValuesFrom :settlement_unit44
                                                                ]
                                                              ) ;
@@ -996,18 +1087,6 @@ c. prawnie."""@pl ;
                    rdfs:subClassOf :object_600 ;
                    :hasExternalIdentifier "30"^^xsd:string ;
                    rdfs:label "obszar dworski"^^xsd:string .
-
-
-###  http://purl.org/ontohgis#settlement_unit3020
-:settlement_unit3020 rdf:type owl:Class ;
-                     rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3005> ;
-                     rdfs:label "organ administracji religijnej"@pl .
-
-
-###  http://purl.org/ontohgis#settlement_unit3021
-:settlement_unit3021 rdf:type owl:Class ;
-                     rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3005> ;
-                     rdfs:label "organ administracji świeckiej"@pl .
 
 
 ###  http://purl.org/ontohgis#settlement_unit31
@@ -1252,7 +1331,7 @@ c. prawnie."""@pl ;
 :settlement_unit60 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis/settlement_unit3008>
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit20
                                                               ]
                                                             ) ;
@@ -1268,7 +1347,7 @@ c. prawnie."""@pl ;
 :settlement_unit61 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis/settlement_unit3008>
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit3
                                                               ]
                                                             ) ;
@@ -1284,7 +1363,7 @@ c. prawnie."""@pl ;
 :settlement_unit62 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis/settlement_unit3008>
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit33
                                                               ]
                                                             ) ;
@@ -1300,7 +1379,7 @@ c. prawnie."""@pl ;
 :settlement_unit63 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis/settlement_unit3008>
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit2
                                                               ]
                                                             ) ;
@@ -1316,7 +1395,7 @@ c. prawnie."""@pl ;
 :settlement_unit64 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit20
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit20
                                                               ]
                                                             ) ;
@@ -1333,7 +1412,7 @@ c. prawnie."""@pl ;
 :settlement_unit65 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit20
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit33
                                                               ]
                                                             ) ;
@@ -1350,7 +1429,7 @@ c. prawnie."""@pl ;
 :settlement_unit66 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit20
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit2
                                                               ]
                                                             ) ;
@@ -1374,7 +1453,7 @@ c. prawnie."""@pl ;
 :settlement_unit68 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit33
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit20
                                                               ]
                                                             ) ;
@@ -1391,7 +1470,7 @@ c. prawnie."""@pl ;
 :settlement_unit69 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit33
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit2
                                                               ]
                                                             ) ;
@@ -1415,7 +1494,7 @@ c. prawnie."""@pl ;
 :settlement_unit70 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit33
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit33
                                                               ]
                                                             ) ;
@@ -1432,7 +1511,7 @@ c. prawnie."""@pl ;
 :settlement_unit71 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit33
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit2
                                                               ]
                                                             ) ;
@@ -1449,7 +1528,7 @@ c. prawnie."""@pl ;
 :settlement_unit72 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit34
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit2
                                                               ]
                                                             ) ;
@@ -1466,7 +1545,7 @@ c. prawnie."""@pl ;
 :settlement_unit73 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit44
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit20
                                                               ]
                                                             ) ;
@@ -1483,7 +1562,7 @@ c. prawnie."""@pl ;
 :settlement_unit74 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit44
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit33
                                                               ]
                                                             ) ;
@@ -1500,7 +1579,7 @@ c. prawnie."""@pl ;
 :settlement_unit75 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit44
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit2
                                                               ]
                                                             ) ;
@@ -1577,7 +1656,7 @@ c. prawnie."""@pl ;
 :settlement_unit83 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit2
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/hasPart> ;
+                                                                owl:onProperty <http://purl.org/ontohgis/settlementHasSettlementPart> ;
                                                                 owl:someValuesFrom :settlement_unit103
                                                               ]
                                                             ) ;
@@ -1714,7 +1793,118 @@ c. prawnie."""@pl ;
 ###  http://purl.org/ontohgis/object_1
 <http://purl.org/ontohgis/object_1> rdf:type owl:Class ;
                                     rdfs:subClassOf :object_10 ;
-                                    rdfs:label "budowla"@pl .
+                                    rdfs:label "budowla"@pl ,
+                                               "construction"@en .
+
+
+###  http://purl.org/ontohgis/object_3005
+<http://purl.org/ontohgis/object_3005> rdf:type owl:Class ;
+                                       owl:equivalentClass [ rdf:type owl:Class ;
+                                                             owl:unionOf ( :object_3030
+                                                                           :object_3041
+                                                                         )
+                                                           ] ;
+                                       rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1001> ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :hasProperFunction ;
+                                                         owl:hasValue :object_403
+                                                       ] ;
+                                       owl:disjointWith <http://purl.org/ontohgis/object_3006> ;
+                                       owl:disjointUnionOf ( :object_3030
+                                                             :object_3041
+                                                           ) ;
+                                       <http://purl.org/ontohgis/hasOntologyDevelopmentComment> "Czy to jest podklasa object_1?"@pl ;
+                                       rdfs:label "administration body"@en ,
+                                                  "organ administracji"@pl .
+
+
+###  http://purl.org/ontohgis/object_3006
+<http://purl.org/ontohgis/object_3006> rdf:type owl:Class ;
+                                       owl:equivalentClass [ rdf:type owl:Class ;
+                                                             owl:unionOf ( <http://purl.org/ontohgis/object_3012>
+                                                                           <http://purl.org/ontohgis/object_3014>
+                                                                         )
+                                                           ] ;
+                                       rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1001> ;
+                                       rdfs:label "administered region"@en ,
+                                                  "obszar adminstracyjny"@pl .
+
+
+###  http://purl.org/ontohgis/object_3012
+<http://purl.org/ontohgis/object_3012> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://purl.org/ontohgis/object_3006> ;
+                                       rdfs:label "obszar administracji religijnej"@pl ,
+                                                  "religious administered region"@en .
+
+
+###  http://purl.org/ontohgis/object_3013
+<http://purl.org/ontohgis/object_3013> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://purl.org/ontohgis/object_3012> ;
+                                       rdfs:label "parafia"@pl ,
+                                                  "parish"@en .
+
+
+###  http://purl.org/ontohgis/object_3014
+<http://purl.org/ontohgis/object_3014> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://purl.org/ontohgis/object_3006> ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :hasFunction ;
+                                                         owl:hasValue :object_406
+                                                       ] ;
+                                       owl:disjointUnionOf ( :object_3010
+                                                             :object_3020
+                                                           ) ;
+                                       rdfs:label "civic administered region"@en ,
+                                                  "obszar administracji świeckiej"@pl .
+
+
+###  http://purl.org/ontohgis/object_3015
+<http://purl.org/ontohgis/object_3015> rdf:type owl:Class ;
+                                       rdfs:subClassOf :object_3010 ;
+                                       rdfs:label "województwo"@pl .
+
+
+###  http://purl.org/ontohgis/object_3016
+<http://purl.org/ontohgis/object_3016> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty <http://purl.org/ontohgis/isBoundaryOf> ;
+                                                         owl:someValuesFrom <http://purl.org/ontohgis/object_3017>
+                                                       ] ;
+                                       rdfs:label "granica gminy"@pl .
+
+
+###  http://purl.org/ontohgis/object_3017
+<http://purl.org/ontohgis/object_3017> rdf:type owl:Class ;
+                                       rdfs:subClassOf :object_3010 ;
+                                       rdfs:label "gmina"@pl .
+
+
+###  http://purl.org/ontohgis/object_3018
+<http://purl.org/ontohgis/object_3018> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty <http://purl.org/ontohgis/isBoundaryOf> ;
+                                                         owl:someValuesFrom <http://purl.org/ontohgis/object_3015>
+                                                       ] ;
+                                       rdfs:label "granica województwa"@pl .
+
+
+###  http://purl.org/ontohgis/object_3019
+<http://purl.org/ontohgis/object_3019> rdf:type owl:Class ;
+                                       rdfs:subClassOf :object_3020 ;
+                                       rdfs:label "country"@en ,
+                                                  "państwo"@pl .
+
+
+###  http://purl.org/ontohgis/object_3021
+<http://purl.org/ontohgis/object_3021> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty <http://purl.org/ontohgis/isBoundaryOf> ;
+                                                         owl:someValuesFrom <http://purl.org/ontohgis/object_3019>
+                                                       ] ;
+                                       rdfs:label "granica państwa"@pl .
 
 
 ###  http://purl.org/ontohgis/settlement_unit1000
@@ -1733,7 +1923,12 @@ c. prawnie."""@pl ;
 ###  http://purl.org/ontohgis/settlement_unit1001
 <http://purl.org/ontohgis/settlement_unit1001> rdf:type owl:Class ;
                                                rdfs:subClassOf oc:VariableEntity ,
-                                                               obo:BFO_0000029 ;
+                                                               obo:BFO_0000029 ,
+                                                               <http://www.opengis.net/ont/geosparql#Feature> ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://www.opengis.net/ont/geosparql#hasGeometry> ;
+                                                                 owl:someValuesFrom owl:Thing
+                                                               ] ;
                                                owl:hasKey ( :individualHasExternalIdentifier
                                                           ) ;
                                                rdfs:comment "Typ jednostki administracyjnej pozostaje niezmienny w trakcie całego \"życia\" tej jednostki." ;
@@ -1777,7 +1972,7 @@ c. prawnie."""@pl ;
 <http://purl.org/ontohgis/settlement_unit3003> rdf:type owl:Class ;
                                                owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis/settlement_unit1000>
                                                                                           [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty <http://purl.org/ontohgis/hasPart> ;
+                                                                                            owl:onProperty <http://purl.org/ontohgis/settlementHasSettlementPart> ;
                                                                                             owl:maxQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
                                                                                             owl:onClass <http://purl.org/ontohgis/settlement_unit1000>
                                                                                           ]
@@ -1795,7 +1990,7 @@ c. prawnie."""@pl ;
 <http://purl.org/ontohgis/settlement_unit3004> rdf:type owl:Class ;
                                                owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis/settlement_unit1000>
                                                                                           [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty <http://purl.org/ontohgis/hasPart> ;
+                                                                                            owl:onProperty <http://purl.org/ontohgis/settlementHasSettlementPart> ;
                                                                                             owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                             owl:onClass <http://purl.org/ontohgis/settlement_unit1000>
                                                                                           ]
@@ -1809,42 +2004,11 @@ c. prawnie."""@pl ;
                                                           "(mereologicznie) złożona miejscowość"@pl .
 
 
-###  http://purl.org/ontohgis/settlement_unit3005
-<http://purl.org/ontohgis/settlement_unit3005> rdf:type owl:Class ;
-                                               owl:equivalentClass [ rdf:type owl:Class ;
-                                                                     owl:unionOf ( :settlement_unit3020
-                                                                                   :settlement_unit3021
-                                                                                 )
-                                                                   ] ;
-                                               rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1001> ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty :hasProperFunction ;
-                                                                 owl:hasValue :object_403
-                                                               ] ;
-                                               owl:disjointWith <http://purl.org/ontohgis/settlement_unit3006> ;
-                                               owl:disjointUnionOf ( :settlement_unit3020
-                                                                     :settlement_unit3021
-                                                                   ) ;
-                                               <http://purl.org/ontohgis/hasOntologyDevelopmentComment> "Czy to jest podklasa object_1?"@pl ;
-                                               rdfs:label "organ administracji"@pl .
-
-
-###  http://purl.org/ontohgis/settlement_unit3006
-<http://purl.org/ontohgis/settlement_unit3006> rdf:type owl:Class ;
-                                               owl:equivalentClass [ rdf:type owl:Class ;
-                                                                     owl:unionOf ( <http://purl.org/ontohgis/settlement_unit3012>
-                                                                                   <http://purl.org/ontohgis/settlement_unit3014>
-                                                                                 )
-                                                                   ] ;
-                                               rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1001> ;
-                                               rdfs:label "obszar adminstracyjny"@pl .
-
-
 ###  http://purl.org/ontohgis/settlement_unit3007
 <http://purl.org/ontohgis/settlement_unit3007> rdf:type owl:Class ;
                                                owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis/settlement_unit1000>
                                                                                           [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+                                                                                            owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
                                                                                             owl:maxQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
                                                                                             owl:onClass <http://purl.org/ontohgis/settlement_unit1000>
                                                                                           ]
@@ -1862,7 +2026,7 @@ c. prawnie."""@pl ;
 <http://purl.org/ontohgis/settlement_unit3008> rdf:type owl:Class ;
                                                owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis/settlement_unit1000>
                                                                                           [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty <http://purl.org/ontohgis/isPartOf> ;
+                                                                                            owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
                                                                                             owl:someValuesFrom <http://purl.org/ontohgis/settlement_unit1000>
                                                                                           ]
                                                                                         ) ;
@@ -1877,74 +2041,8 @@ c. prawnie."""@pl ;
 
 ###  http://purl.org/ontohgis/settlement_unit3011
 <http://purl.org/ontohgis/settlement_unit3011> rdf:type owl:Class ;
-                                               rdfs:subClassOf :settlement_unit3021 ;
+                                               rdfs:subClassOf :object_3041 ;
                                                rdfs:label "urząd gminy"@en .
-
-
-###  http://purl.org/ontohgis/settlement_unit3012
-<http://purl.org/ontohgis/settlement_unit3012> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3006> ;
-                                               rdfs:label "obszar administracji religijnej"@pl .
-
-
-###  http://purl.org/ontohgis/settlement_unit3013
-<http://purl.org/ontohgis/settlement_unit3013> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3012> ;
-                                               rdfs:label "parafia"@pl .
-
-
-###  http://purl.org/ontohgis/settlement_unit3014
-<http://purl.org/ontohgis/settlement_unit3014> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3006> ;
-                                               rdfs:label "obszar administracji świeckiej"@pl .
-
-
-###  http://purl.org/ontohgis/settlement_unit3015
-<http://purl.org/ontohgis/settlement_unit3015> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3014> ;
-                                               rdfs:label "województwo"@pl .
-
-
-###  http://purl.org/ontohgis/settlement_unit3016
-<http://purl.org/ontohgis/settlement_unit3016> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://purl.org/ontohgis/isBoundaryOf> ;
-                                                                 owl:someValuesFrom <http://purl.org/ontohgis/settlement_unit3017>
-                                                               ] ;
-                                               rdfs:label "granica gminy"@pl .
-
-
-###  http://purl.org/ontohgis/settlement_unit3017
-<http://purl.org/ontohgis/settlement_unit3017> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3014> ;
-                                               rdfs:label "gmina"@pl .
-
-
-###  http://purl.org/ontohgis/settlement_unit3018
-<http://purl.org/ontohgis/settlement_unit3018> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://purl.org/ontohgis/isBoundaryOf> ;
-                                                                 owl:someValuesFrom <http://purl.org/ontohgis/settlement_unit3015>
-                                                               ] ;
-                                               rdfs:label "granica województwa"@pl .
-
-
-###  http://purl.org/ontohgis/settlement_unit3019
-<http://purl.org/ontohgis/settlement_unit3019> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3014> ;
-                                               rdfs:label "państwo"@pl .
-
-
-###  http://purl.org/ontohgis/settlement_unit3020
-<http://purl.org/ontohgis/settlement_unit3020> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://purl.org/ontohgis/isBoundaryOf> ;
-                                                                 owl:someValuesFrom <http://purl.org/ontohgis/settlement_unit3019>
-                                                               ] ;
-                                               rdfs:label "granica państwa"@pl .
 
 
 ###  http://purl.org/ontohgis/source
@@ -2017,7 +2115,8 @@ c. prawnie."""@pl ;
 ###  http://purl.org/ontohgis#object_400
 :object_400 rdf:type owl:NamedIndividual ,
                      obo:BFO_0000034 ;
-            rdfs:label "bycie miejscem zamieszkania"@pl .
+            rdfs:label "bycie miejscem zamieszkania"@pl ,
+                       "playing the role of dwelling"@en .
 
 
 ###  http://purl.org/ontohgis#object_401
@@ -2029,25 +2128,35 @@ c. prawnie."""@pl ;
 ###  http://purl.org/ontohgis#object_402
 :object_402 rdf:type owl:NamedIndividual ,
                      obo:BFO_0000034 ;
-            rdfs:label "bycie miejscem wymiany handlowej"@pl .
+            rdfs:label "bycie miejscem wymiany handlowej"@pl ,
+                       "playing the role of commerce"@en .
 
 
 ###  http://purl.org/ontohgis#object_403
 :object_403 rdf:type owl:NamedIndividual ,
                      obo:BFO_0000034 ;
-            rdfs:label "bycie siedzibą urzędu"@pl .
+            rdfs:label "bycie siedzibą urzędu"@pl ,
+                       "playing role of administrative body location"@en .
 
 
 ###  http://purl.org/ontohgis#object_404
 :object_404 rdf:type owl:NamedIndividual ,
                      obo:BFO_0000034 ;
-            rdfs:label "produkcja"@pl .
+            rdfs:label "production"@en ,
+                       "produkcja"@pl .
 
 
 ###  http://purl.org/ontohgis#object_405
 :object_405 rdf:type owl:NamedIndividual ,
                      obo:BFO_0000034 ;
-            rdfs:label "transport"@pl .
+            rdfs:label "transport"@en ,
+                       "transport"@pl .
+
+
+###  http://purl.org/ontohgis#object_406
+:object_406 rdf:type owl:NamedIndividual ,
+                     obo:BFO_0000034 ;
+            rdfs:label "managing country's territory and dwellers"@en .
 
 
 ###  http://purl.org/ontohgis#settlement_unit41
