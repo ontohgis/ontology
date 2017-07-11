@@ -12,7 +12,7 @@
 <http://purl.org/ontohgis> a owl:Ontology ;
 	owl:imports <http://www.opengis.net/ont/geosparql> , oc:oc.ttl , <http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl> , <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> ;
 	owl:versionInfo "2.0"^^xsd:decimal ;
-	rdfs:comment "Mapped onto DBpedia ontology (2014)"@en , "Ontologia powstała w ramach projektu 'Ontologiczne podstawy budowy historycznych systemów informacji geograficznej' (2bH 15 0216 83) finansowanego przez Narodowy Programu Rozwoju Humanistyki 2015 r., IV edycja, moduł \"Rozwój\" 2 b."@pl , "Ontology was developed thanks to the Ontological Foundations for Building Historical Geoinformation Systems (2bH 15 0216 83) grant funded by National Programme for the Development of Humanities (http://nprh.org/)."@en , "Mapped onto types of GOV ontology (http://gov.genealogy.net/)"@en .
+	rdfs:comment "Mapped onto DBpedia ontology (2014)"@en , "Ontologia powstała w ramach projektu 'Ontologiczne podstawy budowy historycznych systemów informacji geograficznej' (2bH 15 0216 83) finansowanego przez Narodowy Programu Rozwoju Humanistyki 2015 r., IV edycja, moduł \"Rozwój\" 2 b."@pl , "Ontology was developed thanks to the Ontological Foundations for Building Historical Geoinformation Systems (2bH 15 0216 83) grant funded by National Programme for the Development of Humanities (http://nprh.org/)."@en , "Mapped onto types of GOV ontology (http://gov.genealogy.net/)"@en , "Mapped onto linkedgeodata.org ontology (2014-09-09)"@en .
 # 
 # 
 # #################################################################
@@ -854,7 +854,8 @@ _:genid63 a owl:Class .
 
 :object_50 rdfs:subClassOf :object_23 ;
 	rdfs:isDefinedBy "Budynek mieszkalny jest to budynek, w którym odgraniczona przestrzeń (“wewnątrz\") jest przeznaczona do przebywania ludzi."@pl ;
-	rdfs:label "budynek mieszkalny"@pl .
+	rdfs:label "budynek mieszkalny"@pl ;
+	rdfs:seeAlso "http://linkedgeodata.org/ontology/BuildingResidential"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#object_500
 
@@ -970,7 +971,7 @@ _:genid75 a owl:Class .
 	rdfs:subClassOf :object_12 , :object_601 ;
 	:hasExternalIdentifier "100"^^xsd:string ;
 	rdfs:label "kaplica"^^xsd:string ;
-	rdfs:seeAlso "http://gov.genealogy.net/types.owl#245"^^xsd:anyURI .
+	rdfs:seeAlso "http://gov.genealogy.net/types.owl#245"^^xsd:anyURI , "http://linkedgeodata.org/ontology/BuildingChapel"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#settlement_unit101
 
@@ -998,7 +999,7 @@ _:genid79 a owl:Restriction ;
 	rdfs:subClassOf :object_12 , :object_601 ;
 	:hasExternalIdentifier "103"^^xsd:string ;
 	rdfs:label "kościół"^^xsd:string ;
-	rdfs:seeAlso "http://dbpedia.org/ontology/Church"^^xsd:anyURI .
+	rdfs:seeAlso "http://dbpedia.org/ontology/Church"^^xsd:anyURI , "http://linkedgeodata.org/ontology/BuildingChurch"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#settlement_unit104
 
@@ -1006,7 +1007,7 @@ _:genid79 a owl:Restriction ;
 	rdfs:subClassOf :object_500 , :object_601 ;
 	:hasExternalIdentifier "104"^^xsd:string ;
 	rdfs:label "fabryka"^^xsd:string ;
-	rdfs:seeAlso "http://dbpedia.org/ontology/Factory"^^xsd:anyURI .
+	rdfs:seeAlso "http://dbpedia.org/ontology/Factory"^^xsd:anyURI , "http://linkedgeodata.org/ontology/Factory"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#settlement_unit105
 
@@ -1210,7 +1211,7 @@ _:genid89 a owl:Class .
 	rdfs:subClassOf :object_600 , <http://purl.org/ontohgis/settlement_unit3004> ;
 	:hasExternalIdentifier "2"^^xsd:string ;
 	rdfs:label "wieś"^^xsd:string ;
-	rdfs:seeAlso "http://dbpedia.org/page/Village"^^xsd:anyURI , "http://gov.genealogy.net/types.owl#55"^^xsd:anyURI .
+	rdfs:seeAlso "http://dbpedia.org/page/Village"^^xsd:anyURI , "http://gov.genealogy.net/types.owl#55"^^xsd:anyURI , "http://linkedgeodata.org/ontology/Village"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#settlement_unit20
 
@@ -1226,14 +1227,15 @@ _:genid89 a owl:Class .
 	rdfs:subClassOf :object_500 , :object_601 ;
 	:hasExternalIdentifier "21"^^xsd:string ;
 	rdfs:label "kopalnia"^^xsd:string ;
-	rdfs:seeAlso "http://dbpedia.org/ontology/Mine"^^xsd:anyURI .
+	rdfs:seeAlso "http://dbpedia.org/ontology/Mine"^^xsd:anyURI , "http://linkedgeodata.org/ontology/LanduseMine"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#settlement_unit22
 
 :settlement_unit22 a owl:Class ;
 	rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
 	:hasExternalIdentifier "22"^^xsd:string ;
-	rdfs:label "koszary"^^xsd:string .
+	rdfs:label "koszary"^^xsd:string ;
+	rdfs:seeAlso "http://linkedgeodata.org/ontology/Barracks"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#settlement_unit23
 
@@ -1241,7 +1243,7 @@ _:genid89 a owl:Class .
 	rdfs:subClassOf :object_601 , <http://purl.org/ontohgis/settlement_unit3003> ;
 	:hasExternalIdentifier "23"^^xsd:string ;
 	rdfs:label "latarnia morska"^^xsd:string ;
-	rdfs:seeAlso "http://dbpedia.org/ontology/Lighthouse"^^xsd:anyURI .
+	rdfs:seeAlso "http://dbpedia.org/ontology/Lighthouse"^^xsd:anyURI , "http://linkedgeodata.org/ontology/Lighthouse"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#settlement_unit24
 
@@ -1278,7 +1280,7 @@ _:genid89 a owl:Class .
 	rdfs:subClassOf :object_600 , <http://purl.org/ontohgis/settlement_unit3004> ;
 	:hasExternalIdentifier "28"^^xsd:string ;
 	rdfs:label "miasteczko"^^xsd:string ;
-	rdfs:seeAlso "http://dbpedia.org/ontology/Town"^^xsd:anyURI , "http://gov.genealogy.net/types.owl#51"^^xsd:anyURI .
+	rdfs:seeAlso "http://dbpedia.org/ontology/Town"^^xsd:anyURI , "http://gov.genealogy.net/types.owl#51"^^xsd:anyURI , "http://linkedgeodata.org/ontology/Town"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#settlement_unit29
 
@@ -1293,7 +1295,7 @@ _:genid89 a owl:Class .
 	rdfs:subClassOf :object_600 , <http://purl.org/ontohgis/settlement_unit3004> ;
 	:hasExternalIdentifier "3"^^xsd:string ;
 	rdfs:label "miasto"^^xsd:string ;
-	rdfs:seeAlso "http://dbpedia.org/ontology/City"^^xsd:anyURI .
+	rdfs:seeAlso "http://dbpedia.org/ontology/City"^^xsd:anyURI , "http://linkedgeodata.org/ontology/City"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#settlement_unit30
 
@@ -1322,14 +1324,15 @@ _:genid89 a owl:Class .
 	rdfs:subClassOf :object_600 , <http://purl.org/ontohgis/settlement_unit3004> ;
 	:hasExternalIdentifier "33"^^xsd:string ;
 	rdfs:label "osada"^^xsd:string ;
-	rdfs:seeAlso "http://gov.genealogy.net/types.owl#120"^^xsd:anyURI .
+	rdfs:seeAlso "http://gov.genealogy.net/types.owl#120"^^xsd:anyURI , "http://linkedgeodata.org/ontology/Hamlet"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#settlement_unit34
 
 :settlement_unit34 a owl:Class ;
 	rdfs:subClassOf :object_600 , <http://purl.org/ontohgis/settlement_unit3004> ;
 	:hasExternalIdentifier "34"^^xsd:string ;
-	rdfs:label "osiedle"^^xsd:string .
+	rdfs:label "osiedle"^^xsd:string ;
+	rdfs:seeAlso "http://linkedgeodata.org/ontology/Suburb"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#settlement_unit35
 
@@ -1439,7 +1442,7 @@ _:genid93 a owl:Restriction ;
 	rdfs:subClassOf :object_502 ;
 	:hasExternalIdentifier "48"^^xsd:string ;
 	rdfs:label "stacja kolejowa"^^xsd:string ;
-	rdfs:seeAlso "http://dbpedia.org/ontology/RailwayStation"^^xsd:anyURI , "http://gov.genealogy.net/types.owl#119"^^xsd:anyURI .
+	rdfs:seeAlso "http://dbpedia.org/ontology/RailwayStation"^^xsd:anyURI , "http://gov.genealogy.net/types.owl#119"^^xsd:anyURI , "http://linkedgeodata.org/ontology/RailwayStation"^^xsd:anyURI , "http://linkedgeodata.org/ontology/TrainStation"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#settlement_unit49
 
@@ -1474,7 +1477,8 @@ _:genid93 a owl:Restriction ;
 :settlement_unit52 a owl:Class ;
 	rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
 	:hasExternalIdentifier "52"^^xsd:string ;
-	rdfs:label "twierdza"^^xsd:string .
+	rdfs:label "twierdza"^^xsd:string ;
+	rdfs:seeAlso "http://linkedgeodata.org/ontology/Fortress"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#settlement_unit53
 
@@ -1496,7 +1500,7 @@ _:genid93 a owl:Restriction ;
 	rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
 	:hasExternalIdentifier "55"^^xsd:string ;
 	rdfs:label "więzienie"^^xsd:string ;
-	rdfs:seeAlso "http://dbpedia.org/ontology/Prison"^^xsd:anyURI .
+	rdfs:seeAlso "http://dbpedia.org/ontology/Prison"^^xsd:anyURI , "http://linkedgeodata.org/ontology/Prison"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#settlement_unit56
 
@@ -1532,7 +1536,7 @@ _:genid93 a owl:Restriction ;
 	rdfs:subClassOf :object_600 , <http://purl.org/ontohgis/settlement_unit3008> ;
 	:hasExternalIdentifier "6"^^xsd:string ;
 	rdfs:label "dzielnica"^^xsd:string ;
-	rdfs:seeAlso "http://dbpedia.org/ontology/CityDistrict"^^xsd:anyURI .
+	rdfs:seeAlso "http://dbpedia.org/ontology/CityDistrict"^^xsd:anyURI , "http://linkedgeodata.org/ontology/Subdivision"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#settlement_unit60
 
@@ -1781,7 +1785,7 @@ _:genid126 a owl:Class .
 	rdfs:subClassOf :object_601 , <http://purl.org/ontohgis/settlement_unit1000> ;
 	:hasExternalIdentifier "7"^^xsd:string ;
 	rdfs:label "dwór"^^xsd:string ;
-	rdfs:seeAlso "http://gov.genealogy.net/types.owl#24"^^xsd:anyURI .
+	rdfs:seeAlso "http://gov.genealogy.net/types.owl#24"^^xsd:anyURI , "http://linkedgeodata.org/ontology/Manor"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#settlement_unit70
 
@@ -1944,7 +1948,8 @@ _:genid150 a owl:Class .
 :settlement_unit76 a owl:Class ;
 	rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3003> ;
 	:hasExternalIdentifier "76"^^xsd:string ;
-	rdfs:label "schronisko turystyczne"^^xsd:string .
+	rdfs:label "schronisko turystyczne"^^xsd:string ;
+	rdfs:seeAlso "http://linkedgeodata.org/ontology/Shelter"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#settlement_unit77
 
@@ -2092,7 +2097,8 @@ _:genid154 a owl:Class .
 :settlement_unit92 a owl:Class ;
 	rdfs:subClassOf :object_501 ;
 	:hasExternalIdentifier "92"^^xsd:string ;
-	rdfs:label "targ"^^xsd:string .
+	rdfs:label "targ"^^xsd:string ;
+	rdfs:seeAlso "http://linkedgeodata.org/ontology/Marketplace"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis#settlement_unit93
 
