@@ -2272,25 +2272,22 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                              "źródło"@pl .
 
 
-###  http://www.opengis.net/ont/geosparql#Geometry
-<http://www.opengis.net/ont/geosparql#Geometry> rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                  owl:onProperty :isGeometryOf ;
-                                                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                  owl:onClass :object_200
-                                                                ] ,
-                                                                [ rdf:type owl:Restriction ;
-                                                                  owl:onProperty :isGeometryOf ;
-                                                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                  owl:onClass :object_40
-                                                                ] .
-
-
 ###  http://www.opengis.net/ont/geosparql#SpatialObject
 <http://www.opengis.net/ont/geosparql#SpatialObject> rdfs:subClassOf obo:BFO_0000002 .
 
 
 ###  http://www.opengis.net/ont/sf#Geometry
 <http://www.opengis.net/ont/sf#Geometry> rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                                           owl:onProperty :isGeometryOf ;
+                                                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                           owl:onClass :object_200
+                                                         ] ,
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty :isGeometryOf ;
+                                                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                           owl:onClass :object_40
+                                                         ] ,
+                                                         [ rdf:type owl:Restriction ;
                                                            owl:onProperty :individualHasExternalIdentifier ;
                                                            owl:someValuesFrom xsd:integer
                                                          ] ;
