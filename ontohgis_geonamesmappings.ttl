@@ -15,8 +15,9 @@
                                         oc:oc.ttl ,
                                         <http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl> ,
                                         <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> ;
-                            owl:versionInfo 2.0 ;
-                            rdfs:comment "Mapped onto DBpedia ontology (2014)"@en ,
+                            rdfs:comment "Mapped onto DBpedia ontology (2014)"@en ;
+                            owl:versionInfo 2.1 ;
+                            rdfs:comment "Mapped onto Geonames feature codes"@en ,
                                          "Ontologia powstała w ramach projektu 'Ontologiczne podstawy budowy historycznych systemów informacji geograficznej' (2bH 15 0216 83) finansowanego przez Narodowy Programu Rozwoju Humanistyki 2015 r., IV edycja, moduł \"Rozwój\" 2 b."@pl ,
                                          "Ontology was developed thanks to the Ontological Foundations for Building Historical Geoinformation Systems (2bH 15 0216 83) grant funded by National Programme for the Development of Humanities (http://nprh.org/)."@en ,
                                          "Mapped onto types of GOV ontology (http://gov.genealogy.net/)"@en ,
