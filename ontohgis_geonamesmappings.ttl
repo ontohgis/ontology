@@ -314,6 +314,10 @@ obo:IAO_0000219 rdf:type owl:ObjectProperty .
                                                                    "settlement unit is part of settlement unit"@en .
 
 
+###  http://www.geonames.org/ontology#featureCode
+<http://www.geonames.org/ontology#featureCode> rdf:type owl:ObjectProperty .
+
+
 ###  http://www.opengis.net/ont/geosparql#hasGeometry
 <http://www.opengis.net/ont/geosparql#hasGeometry> rdfs:label "ma charakterystykę przestrzenną"@pl .
 
@@ -430,7 +434,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                                      ) ;
                                   rdf:type owl:Class
                                 ] ;
-            rdfs:subClassOf :object_40 ;
+            rdfs:subClassOf :object_40 ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                              owl:hasValue <http://www.geonames.org/ontology#P.PPLQ>
+                            ] ;
             rdfs:label "była miejscowość"@pl ,
                        "former dwelling"@en ;
             rdfs:seeAlso "http://dbpedia.org/ontology/HistoricalSettlement"^^xsd:anyURI .
@@ -793,7 +801,11 @@ c. prawnie."""@pl ;
 
 ###  http://purl.org/ontohgis#settlement_unit1
 :settlement_unit1 rdf:type owl:Class ;
-                  rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
+                  rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                    owl:hasValue <http://www.geonames.org/ontology#S.CSTL>
+                                  ] ;
                   :hasExternalIdentifier "1"^^xsd:string ;
                   rdfs:label "zamek"^^xsd:string ;
                   rdfs:seeAlso "http://dbpedia.org/ontology/Castle"^^xsd:anyURI ,
@@ -803,7 +815,11 @@ c. prawnie."""@pl ;
 ###  http://purl.org/ontohgis#settlement_unit10
 :settlement_unit10 rdf:type owl:Class ;
                    rdfs:subClassOf :object_500 ,
-                                   :object_601 ;
+                                   :object_601 ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.MFGB>
+                                   ] ;
                    :hasExternalIdentifier "10"^^xsd:string ;
                    rdfs:label "browar"^^xsd:string ;
                    rdfs:seeAlso "http://dbpedia.org/ontology/Brewery"^^xsd:anyURI .
@@ -812,7 +828,11 @@ c. prawnie."""@pl ;
 ###  http://purl.org/ontohgis#settlement_unit100
 :settlement_unit100 rdf:type owl:Class ;
                     rdfs:subClassOf :object_12 ,
-                                    :object_601 ;
+                                    :object_601 ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                      owl:hasValue <http://www.geonames.org/ontology#S.CH>
+                                    ] ;
                     :hasExternalIdentifier "100"^^xsd:string ;
                     rdfs:label "kaplica"^^xsd:string ;
                     rdfs:seeAlso "http://gov.genealogy.net/types.owl#245"^^xsd:anyURI ,
@@ -821,7 +841,11 @@ c. prawnie."""@pl ;
 
 ###  http://purl.org/ontohgis#settlement_unit101
 :settlement_unit101 rdf:type owl:Class ;
-                    rdfs:subClassOf :object_12 ;
+                    rdfs:subClassOf :object_12 ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                      owl:hasValue <http://www.geonames.org/ontology#S.FT>
+                                    ] ;
                     :hasExternalIdentifier "101"^^xsd:string ;
                     rdfs:label "szaniec polowy"^^xsd:string .
 
@@ -841,7 +865,11 @@ c. prawnie."""@pl ;
 ###  http://purl.org/ontohgis#settlement_unit103
 :settlement_unit103 rdf:type owl:Class ;
                     rdfs:subClassOf :object_12 ,
-                                    :object_601 ;
+                                    :object_601 ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                      owl:hasValue <http://www.geonames.org/ontology#S.CH>
+                                    ] ;
                     :hasExternalIdentifier "103"^^xsd:string ;
                     rdfs:label "kościół"^^xsd:string ;
                     rdfs:seeAlso "http://dbpedia.org/ontology/Church"^^xsd:anyURI ,
@@ -851,7 +879,11 @@ c. prawnie."""@pl ;
 ###  http://purl.org/ontohgis#settlement_unit104
 :settlement_unit104 rdf:type owl:Class ;
                     rdfs:subClassOf :object_500 ,
-                                    :object_601 ;
+                                    :object_601 ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                      owl:hasValue <http://www.geonames.org/ontology#S.MFG>
+                                    ] ;
                     :hasExternalIdentifier "104"^^xsd:string ;
                     rdfs:label "fabryka"^^xsd:string ;
                     rdfs:seeAlso "http://dbpedia.org/ontology/Factory"^^xsd:anyURI ,
@@ -860,7 +892,11 @@ c. prawnie."""@pl ;
 
 ###  http://purl.org/ontohgis#settlement_unit105
 :settlement_unit105 rdf:type owl:Class ;
-                    rdfs:subClassOf :object_502 ;
+                    rdfs:subClassOf :object_502 ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                      owl:hasValue <http://www.geonames.org/ontology#S.BUSTP>
+                                    ] ;
                     :hasExternalIdentifier "105"^^xsd:string ;
                     rdfs:label "przystanek"^^xsd:string .
 
@@ -886,7 +922,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit107
 :settlement_unit107 rdf:type owl:Class ;
-                    rdfs:subClassOf :object_501 ;
+                    rdfs:subClassOf :object_501 ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                      owl:hasValue <http://www.geonames.org/ontology#S.MKT>
+                                    ] ;
                     :hasExternalIdentifier "107"^^xsd:string ;
                     rdfs:label "targowica"^^xsd:string .
 
@@ -970,7 +1010,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 ###  http://purl.org/ontohgis#settlement_unit12
 :settlement_unit12 rdf:type owl:Class ;
                    rdfs:subClassOf :object_500 ,
-                                   :object_601 ;
+                                   :object_601 ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.MFGSG>
+                                   ] ;
                    :hasExternalIdentifier "12"^^xsd:string ;
                    rdfs:label "cukrownia"^^xsd:string .
 
@@ -1023,7 +1067,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit19
 :settlement_unit19 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3003> ;
+                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.MSTY>
+                                   ] ;
                    :hasExternalIdentifier "19"^^xsd:string ;
                    rdfs:label "klasztor"^^xsd:string ;
                    rdfs:seeAlso "http://dbpedia.org/ontology/Monastery"^^xsd:anyURI ,
@@ -1033,7 +1081,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 ###  http://purl.org/ontohgis#settlement_unit2
 :settlement_unit2 rdf:type owl:Class ;
                   rdfs:subClassOf :object_600 ,
-                                  <http://purl.org/ontohgis/settlement_unit3004> ;
+                                  <http://purl.org/ontohgis/settlement_unit3004> ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                    owl:hasValue <http://www.geonames.org/ontology#P.PPLF>
+                                  ] ;
                   :hasExternalIdentifier "2"^^xsd:string ;
                   rdfs:label "wieś"^^xsd:string ;
                   rdfs:seeAlso "http://dbpedia.org/page/Village"^^xsd:anyURI ,
@@ -1052,7 +1104,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 ###  http://purl.org/ontohgis#settlement_unit21
 :settlement_unit21 rdf:type owl:Class ;
                    rdfs:subClassOf :object_500 ,
-                                   :object_601 ;
+                                   :object_601 ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.MN>
+                                   ] ;
                    :hasExternalIdentifier "21"^^xsd:string ;
                    rdfs:label "kopalnia"^^xsd:string ;
                    rdfs:seeAlso "http://dbpedia.org/ontology/Mine"^^xsd:anyURI ,
@@ -1061,7 +1117,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit22
 :settlement_unit22 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
+                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.BRKS>
+                                   ] ;
                    :hasExternalIdentifier "22"^^xsd:string ;
                    rdfs:label "koszary"^^xsd:string ;
                    rdfs:seeAlso "http://linkedgeodata.org/ontology/Barracks"^^xsd:anyURI .
@@ -1070,7 +1130,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 ###  http://purl.org/ontohgis#settlement_unit23
 :settlement_unit23 rdf:type owl:Class ;
                    rdfs:subClassOf :object_601 ,
-                                   <http://purl.org/ontohgis/settlement_unit3003> ;
+                                   <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.LTHSE>
+                                   ] ;
                    :hasExternalIdentifier "23"^^xsd:string ;
                    rdfs:label "latarnia morska"^^xsd:string ;
                    rdfs:seeAlso "http://dbpedia.org/ontology/Lighthouse"^^xsd:anyURI ,
@@ -1079,7 +1143,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit24
 :settlement_unit24 rdf:type owl:Class ;
-                   rdfs:subClassOf :object_601 ;
+                   rdfs:subClassOf :object_601 ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.HSP>
+                                   ] ;
                    :hasExternalIdentifier "24"^^xsd:string ;
                    rdfs:label "lecznica"^^xsd:string .
 
@@ -1101,7 +1169,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit27
 :settlement_unit27 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3003> ;
+                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.STNF>
+                                   ] ;
                    :hasExternalIdentifier "27"^^xsd:string ;
                    rdfs:label "leśniczówka"^^xsd:string ;
                    rdfs:seeAlso "http://gov.genealogy.net/types.owl#102"^^xsd:anyURI ,
@@ -1111,7 +1183,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 ###  http://purl.org/ontohgis#settlement_unit28
 :settlement_unit28 rdf:type owl:Class ;
                    rdfs:subClassOf :object_600 ,
-                                   <http://purl.org/ontohgis/settlement_unit3004> ;
+                                   <http://purl.org/ontohgis/settlement_unit3004> ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#P.PPL>
+                                   ] ;
                    :hasExternalIdentifier "28"^^xsd:string ;
                    rdfs:label "miasteczko"^^xsd:string ;
                    rdfs:seeAlso "http://dbpedia.org/ontology/Town"^^xsd:anyURI ,
@@ -1130,7 +1206,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 ###  http://purl.org/ontohgis#settlement_unit3
 :settlement_unit3 rdf:type owl:Class ;
                   rdfs:subClassOf :object_600 ,
-                                  <http://purl.org/ontohgis/settlement_unit3004> ;
+                                  <http://purl.org/ontohgis/settlement_unit3004> ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                    owl:hasValue <http://www.geonames.org/ontology#P.PPL>
+                                  ] ;
                   :hasExternalIdentifier "3"^^xsd:string ;
                   rdfs:label "miasto"^^xsd:string ;
                   rdfs:seeAlso "http://dbpedia.org/ontology/City"^^xsd:anyURI ,
@@ -1262,7 +1342,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit45
 :settlement_unit45 rdf:type owl:Class ;
-                   rdfs:subClassOf :object_502 ;
+                   rdfs:subClassOf :object_502 ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.RSTP>
+                                   ] ;
                    :hasExternalIdentifier "45"^^xsd:string ;
                    rdfs:label "przystanek kolejowy"^^xsd:string .
 
@@ -1285,7 +1369,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit48
 :settlement_unit48 rdf:type owl:Class ;
-                   rdfs:subClassOf :object_502 ;
+                   rdfs:subClassOf :object_502 ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.RSTN>
+                                   ] ;
                    :hasExternalIdentifier "48"^^xsd:string ;
                    rdfs:label "stacja kolejowa"^^xsd:string ;
                    rdfs:seeAlso "http://dbpedia.org/ontology/RailwayStation"^^xsd:anyURI ,
@@ -1303,7 +1391,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit5
 :settlement_unit5 rdf:type owl:Class ;
-                  rdfs:subClassOf :object_501 ;
+                  rdfs:subClassOf :object_501 ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                    owl:hasValue <http://www.geonames.org/ontology#S.MKT>
+                                  ] ;
                   :hasExternalIdentifier "5"^^xsd:string ;
                   rdfs:label "targowisko"^^xsd:string .
 
@@ -1311,7 +1403,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 ###  http://purl.org/ontohgis#settlement_unit50
 :settlement_unit50 rdf:type owl:Class ;
                    rdfs:subClassOf :object_500 ,
-                                   :object_601 ;
+                                   :object_601 ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.MLSW>
+                                   ] ;
                    :hasExternalIdentifier "50"^^xsd:string ;
                    rdfs:label "tartak"^^xsd:string .
 
@@ -1326,7 +1422,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit52
 :settlement_unit52 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
+                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.FT>
+                                   ] ;
                    :hasExternalIdentifier "52"^^xsd:string ;
                    rdfs:label "twierdza"^^xsd:string ;
                    rdfs:seeAlso "http://linkedgeodata.org/ontology/Fortress"^^xsd:anyURI .
@@ -1334,7 +1434,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit53
 :settlement_unit53 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
+                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.SPA>
+                                   ] ;
                    :hasExternalIdentifier "53"^^xsd:string ;
                    rdfs:label "uzdrowisko"^^xsd:string .
 
@@ -1348,7 +1452,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit55
 :settlement_unit55 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
+                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.PRN>
+                                   ] ;
                    :hasExternalIdentifier "55"^^xsd:string ;
                    rdfs:label "więzienie"^^xsd:string ;
                    rdfs:seeAlso "http://dbpedia.org/ontology/Prison"^^xsd:anyURI ,
@@ -1366,7 +1474,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 ###  http://purl.org/ontohgis#settlement_unit57
 :settlement_unit57 rdf:type owl:Class ;
                    rdfs:subClassOf :object_12 ,
-                                   :object_600 ;
+                                   :object_600 ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.SPA>
+                                   ] ;
                    :hasExternalIdentifier "57"^^xsd:string ;
                    rdfs:label "zakład kąpielowy"^^xsd:string .
 
@@ -1664,7 +1776,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit76
 :settlement_unit76 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3003> ;
+                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.RHSE>
+                                   ] ;
                    :hasExternalIdentifier "76"^^xsd:string ;
                    rdfs:label "schronisko turystyczne"^^xsd:string ;
                    rdfs:seeAlso "http://linkedgeodata.org/ontology/Shelter"^^xsd:anyURI .
@@ -1688,7 +1804,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 ###  http://purl.org/ontohgis#settlement_unit79
 :settlement_unit79 rdf:type owl:Class ;
                    rdfs:subClassOf :object_601 ,
-                                   <http://purl.org/ontohgis/settlement_unit3003> ;
+                                   <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.HSE>
+                                   ] ;
                    :hasExternalIdentifier "79"^^xsd:string ;
                    rdfs:label "pojedyncze domy"^^xsd:string .
 
@@ -1719,7 +1839,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit82
 :settlement_unit82 rdf:type owl:Class ;
-                   rdfs:subClassOf :object_502 ;
+                   rdfs:subClassOf :object_502 ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#L.PRT>
+                                   ] ;
                    :hasExternalIdentifier "82"^^xsd:string ;
                    rdfs:label "port morski"^^xsd:string ;
                    rdfs:seeAlso "http://dbpedia.org/ontology/Port"^^xsd:anyURI .
@@ -1806,7 +1930,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit92
 :settlement_unit92 rdf:type owl:Class ;
-                   rdfs:subClassOf :object_501 ;
+                   rdfs:subClassOf :object_501 ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.MKT>
+                                   ] ;
                    :hasExternalIdentifier "92"^^xsd:string ;
                    rdfs:label "targ"^^xsd:string ;
                    rdfs:seeAlso "http://linkedgeodata.org/ontology/Marketplace"^^xsd:anyURI .
@@ -1852,7 +1980,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit98
 :settlement_unit98 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3003> ;
+                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   [ rdf:type owl:Restriction ;
+                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                     owl:hasValue <http://www.geonames.org/ontology#S.RHSE>
+                                   ] ;
                    :hasExternalIdentifier "98"^^xsd:string ;
                    rdfs:label "schronisko górskie"^^xsd:string .
 
@@ -2054,7 +2186,11 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                                                                         ) ;
                                                                      rdf:type owl:Class
                                                                    ] ;
-                                               rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
+                                               rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                                                 owl:hasValue <http://www.geonames.org/ontology#S.HSP>
+                                                               ] ;
                                                :isPartOfPartition "podział manifestacji jednostek osadniczych ze względu na mereologiczną złożoność"@pl ;
                                                rdfs:comment "Miejscowość jest (mereologicznie) prosta, gdy żadna jej część nie jest miejscowością."@pl ;
                                                rdfs:label "(mereologically) simple human settlement"@en ,
@@ -2239,6 +2375,106 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 :settlement_unit41 rdf:type owl:NamedIndividual .
 
 
+###  http://www.geonames.org/ontology#L.PRT
+<http://www.geonames.org/ontology#L.PRT> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#P.PPL
+<http://www.geonames.org/ontology#P.PPL> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#P.PPLF
+<http://www.geonames.org/ontology#P.PPLF> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#P.PPLQ
+<http://www.geonames.org/ontology#P.PPLQ> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.BRKS
+<http://www.geonames.org/ontology#S.BRKS> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.BUSTP
+<http://www.geonames.org/ontology#S.BUSTP> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.CH
+<http://www.geonames.org/ontology#S.CH> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.CSTL
+<http://www.geonames.org/ontology#S.CSTL> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.FT
+<http://www.geonames.org/ontology#S.FT> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.HSE
+<http://www.geonames.org/ontology#S.HSE> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.HSP
+<http://www.geonames.org/ontology#S.HSP> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.LTHSE
+<http://www.geonames.org/ontology#S.LTHSE> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.MFG
+<http://www.geonames.org/ontology#S.MFG> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.MFGB
+<http://www.geonames.org/ontology#S.MFGB> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.MFGSG
+<http://www.geonames.org/ontology#S.MFGSG> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.MKT
+<http://www.geonames.org/ontology#S.MKT> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.MLSW
+<http://www.geonames.org/ontology#S.MLSW> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.MN
+<http://www.geonames.org/ontology#S.MN> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.MSTY
+<http://www.geonames.org/ontology#S.MSTY> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.PRN
+<http://www.geonames.org/ontology#S.PRN> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.RHSE
+<http://www.geonames.org/ontology#S.RHSE> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.RSTN
+<http://www.geonames.org/ontology#S.RSTN> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.RSTP
+<http://www.geonames.org/ontology#S.RSTP> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.SPA
+<http://www.geonames.org/ontology#S.SPA> rdf:type owl:NamedIndividual .
+
+
+###  http://www.geonames.org/ontology#S.STNF
+<http://www.geonames.org/ontology#S.STNF> rdf:type owl:NamedIndividual .
+
+
 #################################################################
 #    Annotations
 #################################################################
@@ -2247,10 +2483,10 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                    :hasExternalIdentifier "41"^^xsd:string ;
                    :isDefinedByInOntology "Plebania jest to zespół zabudowań przeznaczony do mieszkania dla plebana, podległych mu księży i innych osób zajmujących się jego obsługą."@pl ;
                    rdfs:label "plebania"@pl ;
-                   rdfs:comment "Plebania może być odrębną miejscowością (rzadko, przed II wojną światową) lub częścią  miejscowości."@pl ;
-                   <http://www.w3.org/2004/02/skos/core#altLabel> "die Pfarre"@de ;
-                   rdfs:comment "dom należący do parafii, przeznaczony na mieszkanie dla proboszcza"@pl ;
-                   <http://www.w3.org/2004/02/skos/core#altLabel> "wikariatka"@pl ,
+                   rdfs:comment "Plebania może być odrębną miejscowością (rzadko, przed II wojną światową) lub częścią  miejscowości."@pl ,
+                                "dom należący do parafii, przeznaczony na mieszkanie dla proboszcza"@pl ;
+                   <http://www.w3.org/2004/02/skos/core#altLabel> "die Pfarre"@de ,
+                                                                  "wikariatka"@pl ,
                                                                   "plebanatus"@la ,
                                                                   "probostwo"@pl ;
                    rdfs:isDefinedBy "#SPXVIw, t. 24, s. 326: 1. Domostwo plebana -- ; flaminia -- ; parochia, plebanatus -- ; curionis domus, curionium --; 2. Terytorium będące pod opieką plebana; także urząd i dochody z niego; parochia --; plebanatus --; curionatus, curionium -- ; 2a. Wierni należący do parafii --. Synonimy: probostwo, parafija."@pl ;
@@ -2280,4 +2516,4 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
  ] .
 
 
-###  Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
