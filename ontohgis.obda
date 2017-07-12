@@ -12,18 +12,11 @@ rdfs:		http://www.w3.org/2000/01/rdf-schema#
 
 [SourceDeclaration]
 sourceUri	datasource1
-connectionUrl	jdbc:postgresql://atlas.ihpan.edu.pl:5432/ontogeohist
-username	garbacz
-password	Mereolog13
-driverClass	org.postgresql.Driver
+connectionUrl	
+username	
+password	
+driverClass	
 
 [MappingDeclaration] @collection [[
-mappingId	urn:mapping-2080214632
-target		<http://purl.org/ontohgis/SettlementManifestation_{id}> a :settlement_unit{type_id} ; rdfs:label {manifestation_name} ; oc:isManifestationOf <http://purl.org/ontohgis/VariableSettlement_{id}> ; oc:hasBeginning {starts_at} ; oc:hasEnd {ends_at} ; <http://www.opengis.net/ont/geosparql#asWKT> {WktGeom} . 
-source		SELECT *, ST_AsText("the_geom") As WktGeom FROM "ontology"."SettlementManifestationsFull" LIMIT 5
-
-mappingId	urn:mapping-2112836008
-target		<http://purl.org/ontohgis/VariableSettlement_{id}> a :object_30 . 
-source		SELECT * FROM "ontology"."SettlementManifestationsFull" LIMIT 5
 ]]
 
