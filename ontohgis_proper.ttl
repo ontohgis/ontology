@@ -12,9 +12,7 @@
 
 <http://purl.org/ontohgis> rdf:type owl:Ontology ;
                             owl:imports <http://www.opengis.net/ont/geosparql> ,
-                                        oc:oc.ttl ,
-                                        <http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl> ,
-                                        <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> ;
+                                        oc:oc.ttl ;
                             rdfs:comment "Mapped onto DBpedia ontology (2014)"@en ;
                             owl:versionInfo 2.1 ;
                             rdfs:comment "Mapped onto Geonames feature codes"@en ,
@@ -26,6 +24,10 @@
 #################################################################
 #    Annotation properties
 #################################################################
+
+###  http://purl.org/dc/elements/1.1/title
+dc:title rdf:type owl:AnnotationProperty .
+
 
 ###  http://purl.org/ontohgis#hasExternalIdentifier
 :hasExternalIdentifier rdf:type owl:AnnotationProperty ;
@@ -141,15 +143,6 @@ oc:isManifestationOf rdf:type owl:ObjectProperty .
 ###  http://ontologies.makolab.com/oc/isPredecessorEntityManifestationOf
 oc:isPredecessorEntityManifestationOf rdf:type owl:ObjectProperty ,
                                                owl:TransitiveProperty .
-
-
-###  http://purl.obolibrary.org/obo/IAO_0000136
-obo:IAO_0000136 rdf:type owl:ObjectProperty ;
-                owl:inverseOf :InverseIAO_0000136 .
-
-
-###  http://purl.obolibrary.org/obo/IAO_0000219
-obo:IAO_0000219 rdf:type owl:ObjectProperty .
 
 
 ###  http://purl.org/ontohgis#InverseIAO_0000136
@@ -274,24 +267,19 @@ obo:IAO_0000219 rdf:type owl:ObjectProperty .
 
 ###  http://purl.org/ontohgis/hasBoundary
 <http://purl.org/ontohgis/hasBoundary> rdf:type owl:ObjectProperty ;
-                                       rdfs:subPropertyOf obo:BFO_0000051 ;
                                        owl:inverseOf <http://purl.org/ontohgis/isBoundaryOf> ;
-                                       rdfs:range obo:BFO_0000140 ;
                                        rdfs:label "has boundary"@en ,
                                                   "ma granicę"@pl .
 
 
 ###  http://purl.org/ontohgis/isBoundaryOf
 <http://purl.org/ontohgis/isBoundaryOf> rdf:type owl:ObjectProperty ;
-                                        rdfs:subPropertyOf obo:BFO_0000050 ;
-                                        rdfs:domain obo:BFO_0000140 ;
                                         rdfs:label "is boundary of"@en ,
                                                    "jest granicą"@pl .
 
 
 ###  http://purl.org/ontohgis/isFunctionOf
 <http://purl.org/ontohgis/isFunctionOf> rdf:type owl:ObjectProperty ;
-                                        rdfs:domain obo:BFO_0000034 ;
                                         rdfs:label "is function of"@en ,
                                                    "jest funkcją"@pl .
 
@@ -365,18 +353,11 @@ oc:hasEnd rdf:type owl:DatatypeProperty .
 #    Classes
 #################################################################
 
-###  http://ontologies.makolab.com/oc/NonVariableEntity
-oc:NonVariableEntity rdfs:subClassOf obo:BFO_0000002 .
-
-
-###  http://ontologies.makolab.com/oc/VariableEntity
-oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 
 ###  http://purl.org/ontohgis#object_10
 :object_10 rdf:type owl:Class ;
-           rdfs:subClassOf obo:BFO_0000040 ,
-                           <http://www.opengis.net/ont/geosparql#Feature> ,
+           rdfs:subClassOf <http://www.opengis.net/ont/geosparql#Feature> ,
                            [ rdf:type owl:Restriction ;
                              owl:onProperty :hasProperFunction ;
                              owl:someValuesFrom owl:Thing
@@ -541,7 +522,6 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#object_30
 :object_30 rdf:type owl:Class ;
            rdfs:subClassOf oc:VariableEntity ,
-                           obo:BFO_0000029 ,
                            [ rdf:type owl:Restriction ;
                              owl:onProperty oc:hasManifestation ;
                              owl:someValuesFrom :object_32
@@ -599,41 +579,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#object_31
 :object_31 rdf:type owl:Class ;
-           owl:equivalentClass [ owl:intersectionOf ( obo:IAO_0000590
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty obo:IAO_0000219 ;
-                                                        owl:someValuesFrom :object_40
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] ;
-           rdfs:subClassOf obo:IAO_0000590 ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty obo:IAO_0000219 ;
-                             owl:maxCardinality "1"^^xsd:nonNegativeInteger
-                           ] ;
            rdfs:label "nazwa jednostki osadniczej"@pl .
 
 
 ###  http://purl.org/ontohgis#object_32
 :object_32 rdf:type owl:Class ;
-           owl:equivalentClass [ owl:intersectionOf ( :object_10
-                                                      :object_40
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty obo:BFO_0000051 ;
-                                                        owl:someValuesFrom :object_23
-                                                      ]
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty :isDefinedBy ;
-                                                        owl:someValuesFrom :object_31
-                                                      ]
-                                                      [ rdf:type owl:Restriction ;
-                                                        owl:onProperty <http://purl.org/ontohgis/hasBoundary> ;
-                                                        owl:someValuesFrom <http://purl.org/ontohgis/settlement_unit2001>
-                                                      ]
-                                                    ) ;
-                                 rdf:type owl:Class
-                               ] ;
            rdfs:subClassOf :object_40 ,
                            [ rdf:type owl:Restriction ;
                              owl:onProperty <http://purl.org/ontohgis/hasBoundary> ;
@@ -1305,15 +1255,15 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit41 ;
    owl:annotatedProperty rdfs:isDefinedBy ;
-   owl:annotatedTarget "#Linde, t. 2, cz. 2, s. 732: Pleban -- Plebania, -ii, ż., urząd plebański abo beneficjum --; Dochód plebański, ut dobra --; plebaniia, dom plebański, die Pfarrwohnung, die Pfarre. J ksiądz widzimy, plebaniią rzadki Buduie, że kto inszy weźmie po nim spadki. Pot. Pocz. 475 (Slo. fara; Hg. plebania; Cro. plebania; Vd. faroush; Ross. приходъ  (cf. przychód)."@pl ;
-   rdfs:isDefinedBy :document_1
+   owl:annotatedTarget "#SPXVIw, t. 24, s. 326: 1. Domostwo plebana -- ; flaminia -- ; parochia, plebanatus -- ; curionis domus, curionium --; 2. Terytorium będące pod opieką plebana; także urząd i dochody z niego; parochia --; plebanatus --; curionatus, curionium -- ; 2a. Wierni należący do parafii --. Synonimy: probostwo, parafija."@pl ;
+   rdfs:isDefinedBy :document_2
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit41 ;
    owl:annotatedProperty rdfs:isDefinedBy ;
-   owl:annotatedTarget "#SPXVIw, t. 24, s. 326: 1. Domostwo plebana -- ; flaminia -- ; parochia, plebanatus -- ; curionis domus, curionium --; 2. Terytorium będące pod opieką plebana; także urząd i dochody z niego; parochia --; plebanatus --; curionatus, curionium -- ; 2a. Wierni należący do parafii --. Synonimy: probostwo, parafija."@pl ;
-   rdfs:isDefinedBy :document_2
+   owl:annotatedTarget "#Linde, t. 2, cz. 2, s. 732: Pleban -- Plebania, -ii, ż., urząd plebański abo beneficjum --; Dochód plebański, ut dobra --; plebaniia, dom plebański, die Pfarrwohnung, die Pfarre. J ksiądz widzimy, plebaniią rzadki Buduie, że kto inszy weźmie po nim spadki. Pot. Pocz. 475 (Slo. fara; Hg. plebania; Cro. plebania; Vd. faroush; Ross. приходъ  (cf. przychód)."@pl ;
+   rdfs:isDefinedBy :document_1
  ] .
 
 
@@ -2131,7 +2081,6 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 ###  http://purl.org/ontohgis/settlement_unit1001
 <http://purl.org/ontohgis/settlement_unit1001> rdf:type owl:Class ;
                                                rdfs:subClassOf oc:VariableEntity ,
-                                                               obo:BFO_0000029 ,
                                                                <http://www.opengis.net/ont/geosparql#Feature> ,
                                                                [ rdf:type owl:Restriction ;
                                                                  owl:onProperty <http://www.opengis.net/ont/geosparql#hasGeometry> ;
@@ -2146,8 +2095,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis/settlement_unit2000
 <http://purl.org/ontohgis/settlement_unit2000> rdf:type owl:Class ;
-                                               rdfs:subClassOf obo:BFO_0000142 ,
-                                                               <http://www.opengis.net/ont/geosparql#Feature> ,
+                                               rdfs:subClassOf <http://www.opengis.net/ont/geosparql#Feature> ,
                                                                [ rdf:type owl:Restriction ;
                                                                  owl:onProperty <http://purl.org/ontohgis/isBoundaryOf> ;
                                                                  owl:someValuesFrom <http://purl.org/ontohgis/settlement_unit1001>
@@ -2162,8 +2110,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis/settlement_unit2001
 <http://purl.org/ontohgis/settlement_unit2001> rdf:type owl:Class ;
-                                               rdfs:subClassOf obo:BFO_0000142 ,
-                                                               <http://www.opengis.net/ont/geosparql#Feature> ,
+                                               rdfs:subClassOf <http://www.opengis.net/ont/geosparql#Feature> ,
                                                                [ rdf:type owl:Restriction ;
                                                                  owl:onProperty <http://purl.org/ontohgis/isBoundaryOf> ;
                                                                  owl:someValuesFrom :object_32
@@ -2259,8 +2206,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis/source
 <http://purl.org/ontohgis/source> rdf:type owl:Class ;
-                                  rdfs:subClassOf obo:IAO_0000310 ,
-                                                  [ rdf:type owl:Restriction ;
+                                  rdfs:subClassOf [ rdf:type owl:Restriction ;
                                                     owl:onProperty :isPublishedAfter ;
                                                     owl:someValuesFrom xsd:dateTime
                                                   ] ,
@@ -2270,10 +2216,6 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                                   ] ;
                                   rdfs:label "source"@en ,
                                              "źródło"@pl .
-
-
-###  http://www.opengis.net/ont/geosparql#SpatialObject
-<http://www.opengis.net/ont/geosparql#SpatialObject> rdfs:subClassOf obo:BFO_0000002 .
 
 
 ###  http://www.opengis.net/ont/sf#Geometry
@@ -2300,8 +2242,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 #################################################################
 
 ###  http://purl.org/ontohgis#document_1
-:document_1 rdf:type owl:NamedIndividual ,
-                     obo:IAO_0000310 ;
+:document_1 rdf:type owl:NamedIndividual ;
             dc:creator "Samuel Bogumił Linde"@pl ;
             dc:date "1807-1814"@pl ;
             dc:title "Słownik języka polskiego"@pl ;
@@ -2310,8 +2251,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 
 ###  http://purl.org/ontohgis#document_2
-:document_2 rdf:type owl:NamedIndividual ,
-                     obo:IAO_0000310 ;
+:document_2 rdf:type owl:NamedIndividual ;
             dc:creator "Bąk, Stanisław"@pl ,
                        "Mayenowa, Maria Renata"@pl ,
                        "Pepłowski, Franciszek"@pl ;
@@ -2322,49 +2262,42 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 
 ###  http://purl.org/ontohgis#object_400
-:object_400 rdf:type owl:NamedIndividual ,
-                     obo:BFO_0000034 ;
+:object_400 rdf:type owl:NamedIndividual ;
             rdfs:label "bycie miejscem zamieszkania"@pl ,
                        "playing the role of dwelling"@en .
 
 
 ###  http://purl.org/ontohgis#object_401
-:object_401 rdf:type owl:NamedIndividual ,
-                     obo:BFO_0000034 ;
+:object_401 rdf:type owl:NamedIndividual ;
             rdfs:label "odgraniczenie przestrzeni wewnętrznej od przestrzeni zewnętrznej"@pl .
 
 
 ###  http://purl.org/ontohgis#object_402
-:object_402 rdf:type owl:NamedIndividual ,
-                     obo:BFO_0000034 ;
+:object_402 rdf:type owl:NamedIndividual ;
             rdfs:label "bycie miejscem wymiany handlowej"@pl ,
                        "playing the role of commerce"@en .
 
 
 ###  http://purl.org/ontohgis#object_403
-:object_403 rdf:type owl:NamedIndividual ,
-                     obo:BFO_0000034 ;
+:object_403 rdf:type owl:NamedIndividual ;
             rdfs:label "bycie siedzibą urzędu"@pl ,
                        "playing role of administrative body location"@en .
 
 
 ###  http://purl.org/ontohgis#object_404
-:object_404 rdf:type owl:NamedIndividual ,
-                     obo:BFO_0000034 ;
+:object_404 rdf:type owl:NamedIndividual ;
             rdfs:label "production"@en ,
                        "produkcja"@pl .
 
 
 ###  http://purl.org/ontohgis#object_405
-:object_405 rdf:type owl:NamedIndividual ,
-                     obo:BFO_0000034 ;
+:object_405 rdf:type owl:NamedIndividual ;
             rdfs:label "transport"@en ,
                        "transport"@pl .
 
 
 ###  http://purl.org/ontohgis#object_406
-:object_406 rdf:type owl:NamedIndividual ,
-                     obo:BFO_0000034 ;
+:object_406 rdf:type owl:NamedIndividual ;
             rdfs:label "managing country's territory and dwellers"@en ,
                        "zarządzanie terytorium państwa i jego obywatelami"@pl .
 
