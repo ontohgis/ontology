@@ -29,21 +29,23 @@
 
 ###  http://purl.org/ontohgis#hasExternalIdentifier
 :hasExternalIdentifier rdf:type owl:AnnotationProperty ;
-                       rdfs:label "(klasa) ma obcy identyfikator"@pl ;
+                       rdfs:label "(OWL) class has foreign identifier"@en ,
+                                  "(klasa OWL) ma obcy identyfikator"@pl ;
                        rdfs:range xsd:integer .
 
 
 ###  http://purl.org/ontohgis#isDefinedByInOntology
 :isDefinedByInOntology rdf:type owl:AnnotationProperty ;
-                       rdfs:label "is defined by in this ontology"@en ,
+                       rdfs:label "is defined by in this ontology as"@en ,
                                   "jest zdefiniowane w tej ontologii jako"@pl ;
                        rdfs:subPropertyOf rdfs:isDefinedBy .
 
 
 ###  http://purl.org/ontohgis#isPartOfPartition
 :isPartOfPartition rdf:type owl:AnnotationProperty ;
-                   rdfs:label "jest częścią podziału"@pl ;
-                   rdfs:range xsd:string .
+                   rdfs:label "is a member of logical partition"@en ,
+                              "jest częścią podziału"@pl ;
+                   rdfs:range <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
 
 
 ###  http://purl.org/ontohgis#isValidAfter
@@ -90,33 +92,8 @@
                                                          rdfs:subPropertyOf rdfs:comment .
 
 
-###  http://purl.org/ontohgis/has_abbreviation
-<http://purl.org/ontohgis/has_abbreviation> rdf:type owl:AnnotationProperty ;
-                                            <http://purl.org/ontohgis/has_source_name> "ANNOTATION"@pl ;
-                                            rdfs:label "has abbreviation"@en ,
-                                                       "ma skrót"@pl ;
-                                            rdfs:subPropertyOf rdfs:label .
-
-
-###  http://purl.org/ontohgis/has_indexed_name
-<http://purl.org/ontohgis/has_indexed_name> rdf:type owl:AnnotationProperty ;
-                                            <http://purl.org/ontohgis/has_source_name> "NazwaTypuObiektu_Index"@pl ;
-                                            rdfs:label "has indexed name"@en ,
-                                                       "ma indeksowaną nazwę"@pl ;
-                                            rdfs:subPropertyOf rdfs:label .
-
-
-###  http://purl.org/ontohgis/has_source_name
-<http://purl.org/ontohgis/has_source_name> rdf:type owl:AnnotationProperty ;
-                                           <http://purl.org/ontohgis/has_source_name> "NazwaTypuObiektu_Index"@pl ;
-                                           rdfs:label "has source name"@en ,
-                                                      "ma w źródle nazwę"@pl ;
-                                           rdfs:subPropertyOf rdfs:label .
-
-
 ###  http://purl.org/ontohgis/is_mentioned_in_source
 <http://purl.org/ontohgis/is_mentioned_in_source> rdf:type owl:AnnotationProperty ;
-                                                  <http://purl.org/ontohgis/has_source_name> "SOURCE_ID" ;
                                                   rdfs:label "is mentioned in source"@en ,
                                                              "jest wspomniany w źródle"@pl ;
                                                   rdfs:range <http://purl.org/ontohgis/source> .
@@ -410,17 +387,39 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
             rdfs:seeAlso "http://dbpedia.org/ontology/HistoricalSettlement"^^xsd:anyURI .
 
 
+###  http://purl.org/ontohgis#object_1000
+:object_1000 rdf:type owl:Class ;
+             rdfs:subClassOf :object_32 ;
+             :isPartOfPartition :object_704 ;
+             rdfs:comment "Miejscowość jest ogólnie dostępna jeżeli nie jest przeznaczona do zamieszkiwania przez określoną grupę osób."@pl ;
+             rdfs:label "ogólnie dostępna miejscowość"@pl ,
+                        "universal dwelling"@en .
+
+
+###  http://purl.org/ontohgis#object_1001
+:object_1001 rdf:type owl:Class ;
+             rdfs:subClassOf :object_32 ;
+             :isPartOfPartition :object_704 ;
+             rdfs:comment "Miejscowość jest dedykowana jeżeli jest przeznaczona do zamieszkiwania przez określoną grupę osób."@pl ;
+             rdfs:label "dedykowana miejscowość"@pl ,
+                        "special dwelling"@pl .
+
+
 ###  http://purl.org/ontohgis#object_12
 :object_12 rdf:type owl:Class ;
-           rdfs:subClassOf :object_32 ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasImproperFunction ;
-                             owl:hasValue :object_400
-                           ] ;
-           :isPartOfPartition "podział manifestacji jednostek osadniczych ze względu na funkcje"@pl ;
-           rdfs:comment "Manifestacja właściwej jednostki osadniczej jest taką manifestacją jednostki osadniczej, której funkcja podstawowa polega na byciu miejscem zamieszkania." ;
-           rdfs:label "improper human settlement manifestation"@en ,
-                      "niewłaściwa manifestacja jednostki osadniczej"@pl .
+           owl:equivalentClass [ owl:intersectionOf ( :object_32
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty :hasImproperFunction ;
+                                                        owl:hasValue :object_400
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:subClassOf :object_32 ;
+           :isPartOfPartition :object_702 ;
+           rdfs:comment "Miejscowość właściwa jest taką miejscowością, której funkcja podstawowa nie polega na byciu miejscem zamieszkania."@pl ;
+           rdfs:label "improper dwelling"@en ,
+                      "niewłaściwa miejscowość"@pl .
 
 
 ###  http://purl.org/ontohgis#object_200
@@ -545,6 +544,10 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                            [ rdf:type owl:Restriction ;
                              owl:onProperty oc:hasManifestation ;
                              owl:someValuesFrom :object_32
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :hasFunction ;
+                             owl:hasValue :object_400
                            ] ;
            owl:disjointWith <http://purl.org/ontohgis/settlement_unit1001> ;
            rdfs:isDefinedBy """Jednostka osadnicza:
@@ -644,6 +647,15 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                              owl:onClass :object_32
                            ] ;
+           owl:disjointUnionOf ( :object_1000
+                                 :object_1001
+                               ) ,
+                               ( :object_12
+                                 <http://purl.org/ontohgis/settlement_unit1000>
+                               ) ,
+                               ( :object_600
+                                 :object_601
+                               ) ;
            rdfs:comment "Zakładamy, że każda podklasa miejscowości zawiera tylko zamieszkane jednostki osadnicze, np. klasa settlement_unit10 (rdfs:label='browar'@pl) obejmuje tylko zamieszkane browary."@pl ;
            rdfs:isDefinedBy """Miejscowość jest to
 1. obszar zabudowany i
@@ -752,17 +764,26 @@ c. prawnie."""@pl ;
 :object_600 rdf:type owl:Class ;
             rdfs:subClassOf :object_32 ;
             owl:disjointWith :object_601 ;
-            :isPartOfPartition "podział manifestacji jednostek osadniczych ze względu na związek z Ziemią"@pl ;
+            :isPartOfPartition :object_703 ;
             rdfs:comment "Manifestacja jednostki osadniczej jest osadzona jeżeli obejmuje manifestacje budynków i ziemi, na których są one posadowione."@pl ;
-            rdfs:label "osadzona manifestacja jednostki osadniczej"@pl .
+            rdfs:label "grounded dwelling"@en ,
+                       "osadzona miejscowość"@pl .
 
 
 ###  http://purl.org/ontohgis#object_601
 :object_601 rdf:type owl:Class ;
             rdfs:subClassOf :object_32 ;
-            :isPartOfPartition "podział manifestacji jednostek osadniczych ze względu na związek z Ziemią"@pl ;
-            rdfs:comment "Manifestacja jednostki osadniczej jest nieosadzona jeżeli nie obejmuje manifestacji ziemi, na których są posadowione budynki wchodzące w skład tych manifestacji."@pl ;
-            rdfs:label "nieosadzona manifestacja jednostki osadniczej"@pl .
+            :isPartOfPartition :object_703 ;
+            rdfs:comment "Miejscowość jest nieosadzona jeżeli nie obejmuje manifestacji ziemi, na których są posadowione budynki wchodzące w skład tych manifestacji."@pl ;
+            rdfs:label "nieosadzona miejscowość"@pl ,
+                       "ungrounded dwelling"@en .
+
+
+###  http://purl.org/ontohgis#object_800
+:object_800 rdf:type owl:Class ;
+            rdfs:subClassOf <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+            rdfs:label "classification of settlement units"@en ,
+                       "podział jednostek osadniczych"@pl .
 
 
 ###  http://purl.org/ontohgis#settlement_unit1
@@ -818,7 +839,8 @@ c. prawnie."""@pl ;
 
 ###  http://purl.org/ontohgis#settlement_unit102
 :settlement_unit102 rdf:type owl:Class ;
-                    rdfs:subClassOf :object_601 ,
+                    rdfs:subClassOf :object_1000 ,
+                                    :object_601 ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty <http://purl.org/ontohgis/settlementHasSettlementPart> ;
                                       owl:someValuesFrom <http://purl.org/ontohgis/object_1>
@@ -858,7 +880,8 @@ c. prawnie."""@pl ;
 
 ###  http://purl.org/ontohgis#settlement_unit105
 :settlement_unit105 rdf:type owl:Class ;
-                    rdfs:subClassOf :object_502 ,
+                    rdfs:subClassOf :object_1000 ,
+                                    :object_502 ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                       owl:hasValue <http://www.geonames.org/ontology#S.BUSTP>
@@ -938,7 +961,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit110
 :settlement_unit110 rdf:type owl:Class ;
-                    rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3003> ;
+                    rdfs:subClassOf :object_1001 ,
+                                    <http://purl.org/ontohgis/settlement_unit3003> ;
                     :hasExternalIdentifier "110"^^xsd:string ;
                     rdfs:label "wójtostwo"^^xsd:string .
 
@@ -960,7 +984,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                                              ) ;
                                           rdf:type owl:Class
                                         ] ;
-                    rdfs:subClassOf :object_600 ,
+                    rdfs:subClassOf :object_1000 ,
+                                    :object_600 ,
                                     <http://purl.org/ontohgis/settlement_unit3008> ;
                     :hasExternalIdentifier 112 ;
                     rdfs:label "część przysiółka"@pl .
@@ -1018,7 +1043,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit17
 :settlement_unit17 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3003> ;
+                   rdfs:subClassOf :object_1001 ,
+                                   <http://purl.org/ontohgis/settlement_unit3003> ;
                    :hasExternalIdentifier "17"^^xsd:string ;
                    rdfs:label "gajówka"^^xsd:string .
 
@@ -1033,7 +1059,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit19
 :settlement_unit19 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3003> ,
+                   rdfs:subClassOf :object_1001 ,
+                                   <http://purl.org/ontohgis/settlement_unit3003> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                      owl:hasValue <http://www.geonames.org/ontology#S.MSTY>
@@ -1046,7 +1073,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit2
 :settlement_unit2 rdf:type owl:Class ;
-                  rdfs:subClassOf :object_600 ,
+                  rdfs:subClassOf :object_1000 ,
+                                  :object_600 ,
                                   <http://purl.org/ontohgis/settlement_unit3004> ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
@@ -1061,7 +1089,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit20
 :settlement_unit20 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3004> ;
+                   rdfs:subClassOf :object_1000 ,
+                                   <http://purl.org/ontohgis/settlement_unit3004> ;
                    :hasExternalIdentifier "20"^^xsd:string ;
                    rdfs:label "kolonia"^^xsd:string ;
                    rdfs:seeAlso "http://gov.genealogy.net/types.owl#121"^^xsd:anyURI .
@@ -1083,7 +1112,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit22
 :settlement_unit22 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ,
+                   rdfs:subClassOf :object_1001 ,
+                                   <http://purl.org/ontohgis/settlement_unit1000> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                      owl:hasValue <http://www.geonames.org/ontology#S.BRKS>
@@ -1095,7 +1125,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit23
 :settlement_unit23 rdf:type owl:Class ;
-                   rdfs:subClassOf :object_601 ,
+                   rdfs:subClassOf :object_1001 ,
+                                   :object_601 ,
                                    <http://purl.org/ontohgis/settlement_unit3003> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
@@ -1127,7 +1158,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit26
 :settlement_unit26 rdf:type owl:Class ;
-                   rdfs:subClassOf :object_600 ,
+                   rdfs:subClassOf :object_1001 ,
+                                   :object_600 ,
                                    <http://purl.org/ontohgis/settlement_unit1000> ;
                    :hasExternalIdentifier "26"^^xsd:string ;
                    rdfs:label "leśnictwo"^^xsd:string .
@@ -1135,7 +1167,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit27
 :settlement_unit27 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3003> ,
+                   rdfs:subClassOf :object_1001 ,
+                                   <http://purl.org/ontohgis/settlement_unit3003> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                      owl:hasValue <http://www.geonames.org/ontology#S.STNF>
@@ -1148,7 +1181,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit28
 :settlement_unit28 rdf:type owl:Class ;
-                   rdfs:subClassOf :object_600 ,
+                   rdfs:subClassOf :object_1000 ,
+                                   :object_600 ,
                                    <http://purl.org/ontohgis/settlement_unit3004> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
@@ -1163,7 +1197,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit29
 :settlement_unit29 rdf:type owl:Class ;
-                   rdfs:subClassOf :object_600 ,
+                   rdfs:subClassOf :object_1001 ,
+                                   :object_600 ,
                                    <http://purl.org/ontohgis/settlement_unit1000> ;
                    :hasExternalIdentifier "29"^^xsd:string ;
                    rdfs:label "nadleśnictwo"^^xsd:string .
@@ -1171,7 +1206,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit3
 :settlement_unit3 rdf:type owl:Class ;
-                  rdfs:subClassOf :object_600 ,
+                  rdfs:subClassOf :object_1000 ,
+                                  :object_600 ,
                                   <http://purl.org/ontohgis/settlement_unit3004> ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
@@ -1207,7 +1243,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit33
 :settlement_unit33 rdf:type owl:Class ;
-                   rdfs:subClassOf :object_600 ,
+                   rdfs:subClassOf :object_1000 ,
+                                   :object_600 ,
                                    <http://purl.org/ontohgis/settlement_unit3004> ;
                    :hasExternalIdentifier "33"^^xsd:string ;
                    rdfs:label "osada"^^xsd:string ;
@@ -1217,7 +1254,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit34
 :settlement_unit34 rdf:type owl:Class ;
-                   rdfs:subClassOf :object_600 ,
+                   rdfs:subClassOf :object_1000 ,
+                                   :object_600 ,
                                    <http://purl.org/ontohgis/settlement_unit3004> ;
                    :hasExternalIdentifier "34"^^xsd:string ;
                    rdfs:label "osiedle"^^xsd:string ;
@@ -1279,7 +1317,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit41
 :settlement_unit41 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
+                   rdfs:subClassOf :object_1001 ,
+                                   <http://purl.org/ontohgis/settlement_unit1000> ;
                    :hasExternalIdentifier "41"^^xsd:string ;
                    :isDefinedByInOntology "Plebania jest to zespół zabudowań przeznaczony do mieszkania dla plebana, podległych mu księży i innych osób zajmujących się jego obsługą."@pl ;
                    rdfs:comment "Plebania może być odrębną miejscowością (rzadko, przed II wojną światową) lub częścią  miejscowości."@pl ,
@@ -1319,14 +1358,16 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit42
 :settlement_unit42 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
+                   rdfs:subClassOf :object_1001 ,
+                                   <http://purl.org/ontohgis/settlement_unit1000> ;
                    :hasExternalIdentifier "42"^^xsd:string ;
                    rdfs:label "probostwo"^^xsd:string .
 
 
 ###  http://purl.org/ontohgis#settlement_unit43
 :settlement_unit43 rdf:type owl:Class ;
-                   rdfs:subClassOf :object_600 ,
+                   rdfs:subClassOf :object_1000 ,
+                                   :object_600 ,
                                    <http://purl.org/ontohgis/settlement_unit3008> ;
                    :hasExternalIdentifier "43"^^xsd:string ;
                    rdfs:label "przedmieście"^^xsd:string .
@@ -1334,7 +1375,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit44
 :settlement_unit44 rdf:type owl:Class ;
-                   rdfs:subClassOf :object_600 ,
+                   rdfs:subClassOf :object_1000 ,
+                                   :object_600 ,
                                    <http://purl.org/ontohgis/settlement_unit3004> ,
                                    <http://purl.org/ontohgis/settlement_unit3008> ;
                    :hasExternalIdentifier "44"^^xsd:string ;
@@ -1343,7 +1385,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit45
 :settlement_unit45 rdf:type owl:Class ;
-                   rdfs:subClassOf :object_502 ,
+                   rdfs:subClassOf :object_1000 ,
+                                   :object_502 ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                      owl:hasValue <http://www.geonames.org/ontology#S.RSTP>
@@ -1370,7 +1413,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit48
 :settlement_unit48 rdf:type owl:Class ;
-                   rdfs:subClassOf :object_502 ,
+                   rdfs:subClassOf :object_1000 ,
+                                   :object_502 ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                      owl:hasValue <http://www.geonames.org/ontology#S.RSTN>
@@ -1453,7 +1497,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit55
 :settlement_unit55 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ,
+                   rdfs:subClassOf :object_1001 ,
+                                   <http://purl.org/ontohgis/settlement_unit1000> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                      owl:hasValue <http://www.geonames.org/ontology#S.PRN>
@@ -1466,7 +1511,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit56
 :settlement_unit56 rdf:type owl:Class ;
-                   rdfs:subClassOf :object_600 ,
+                   rdfs:subClassOf :object_1000 ,
+                                   :object_600 ,
                                    <http://purl.org/ontohgis/settlement_unit3004> ;
                    :hasExternalIdentifier "56"^^xsd:string ;
                    rdfs:label "zaścianek"^^xsd:string .
@@ -1486,21 +1532,24 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit58
 :settlement_unit58 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3003> ;
+                   rdfs:subClassOf :object_1001 ,
+                                   <http://purl.org/ontohgis/settlement_unit3003> ;
                    :hasExternalIdentifier "58"^^xsd:string ;
                    rdfs:label "zakład poprawczy"^^xsd:string .
 
 
 ###  http://purl.org/ontohgis#settlement_unit59
 :settlement_unit59 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
+                   rdfs:subClassOf :object_1001 ,
+                                   <http://purl.org/ontohgis/settlement_unit1000> ;
                    :hasExternalIdentifier "59"^^xsd:string ;
                    rdfs:label "zakład wychowawczy"^^xsd:string .
 
 
 ###  http://purl.org/ontohgis#settlement_unit6
 :settlement_unit6 rdf:type owl:Class ;
-                  rdfs:subClassOf :object_600 ,
+                  rdfs:subClassOf :object_1000 ,
+                                  :object_600 ,
                                   <http://purl.org/ontohgis/settlement_unit3008> ;
                   :hasExternalIdentifier "6"^^xsd:string ;
                   rdfs:label "dzielnica"^^xsd:string ;
@@ -1518,7 +1567,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                                             ) ;
                                          rdf:type owl:Class
                                        ] ;
-                   rdfs:subClassOf :object_600 ,
+                   rdfs:subClassOf :object_1000 ,
+                                   :object_600 ,
                                    <http://purl.org/ontohgis/settlement_unit3008> ;
                    :hasExternalIdentifier "60"^^xsd:string ;
                    rdfs:label "część kolonii"^^xsd:string .
@@ -1534,7 +1584,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                                             ) ;
                                          rdf:type owl:Class
                                        ] ;
-                   rdfs:subClassOf :object_600 ,
+                   rdfs:subClassOf :object_1000 ,
+                                   :object_600 ,
                                    <http://purl.org/ontohgis/settlement_unit3008> ;
                    :hasExternalIdentifier "61"^^xsd:string ;
                    rdfs:label "część miasta"^^xsd:string .
@@ -1550,7 +1601,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                                             ) ;
                                          rdf:type owl:Class
                                        ] ;
-                   rdfs:subClassOf :object_600 ,
+                   rdfs:subClassOf :object_1000 ,
+                                   :object_600 ,
                                    <http://purl.org/ontohgis/settlement_unit3008> ;
                    :hasExternalIdentifier "62"^^xsd:string ;
                    rdfs:label "część osady"^^xsd:string .
@@ -1566,7 +1618,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                                             ) ;
                                          rdf:type owl:Class
                                        ] ;
-                   rdfs:subClassOf :object_600 ,
+                   rdfs:subClassOf :object_1000 ,
+                                   :object_600 ,
                                    <http://purl.org/ontohgis/settlement_unit3008> ;
                    :hasExternalIdentifier "63"^^xsd:string ;
                    rdfs:label "część wsi"^^xsd:string .
@@ -1584,6 +1637,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                        ] ;
                    rdfs:subClassOf :object_600 ,
                                    :settlement_unit20 ,
+                                   :settlement_unit60 ,
                                    <http://purl.org/ontohgis/settlement_unit3008> ;
                    :hasExternalIdentifier "64"^^xsd:string ;
                    rdfs:label "kolonia kolonii"^^xsd:string .
@@ -1601,6 +1655,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                        ] ;
                    rdfs:subClassOf :object_600 ,
                                    :settlement_unit20 ,
+                                   :settlement_unit62 ,
                                    <http://purl.org/ontohgis/settlement_unit3008> ;
                    :hasExternalIdentifier "65"^^xsd:string ;
                    rdfs:label "kolonia osady"^^xsd:string .
@@ -1618,6 +1673,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                        ] ;
                    rdfs:subClassOf :object_600 ,
                                    :settlement_unit20 ,
+                                   :settlement_unit63 ,
                                    <http://purl.org/ontohgis/settlement_unit3008> ;
                    :hasExternalIdentifier "66"^^xsd:string ;
                    rdfs:label "kolonia wsi"^^xsd:string .
@@ -1642,6 +1698,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                        ] ;
                    rdfs:subClassOf :object_600 ,
                                    :settlement_unit33 ,
+                                   :settlement_unit60 ,
                                    <http://purl.org/ontohgis/settlement_unit3008> ;
                    :hasExternalIdentifier "68"^^xsd:string ;
                    rdfs:label "osada kolonii"^^xsd:string .
@@ -1685,7 +1742,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                        ] ;
                    rdfs:subClassOf :object_600 ,
                                    :settlement_unit33 ,
-                                   <http://purl.org/ontohgis/settlement_unit3008> ;
+                                   :settlement_unit62 ;
                    :hasExternalIdentifier "70"^^xsd:string ;
                    rdfs:label "osada osady"^^xsd:string .
 
@@ -1702,6 +1759,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                        ] ;
                    rdfs:subClassOf :object_600 ,
                                    :settlement_unit33 ,
+                                   :settlement_unit63 ,
                                    <http://purl.org/ontohgis/settlement_unit3008> ;
                    :hasExternalIdentifier "71"^^xsd:string ;
                    rdfs:label "osada wsi"^^xsd:string .
@@ -1717,8 +1775,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                                             ) ;
                                          rdf:type owl:Class
                                        ] ;
-                   rdfs:subClassOf :object_600 ,
-                                   :settlement_unit34 ,
+                   rdfs:subClassOf :settlement_unit34 ,
                                    <http://purl.org/ontohgis/settlement_unit3008> ;
                    :hasExternalIdentifier "72"^^xsd:string ;
                    rdfs:label "osiedle wsi"^^xsd:string .
@@ -1734,9 +1791,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                                             ) ;
                                          rdf:type owl:Class
                                        ] ;
-                   rdfs:subClassOf :object_600 ,
-                                   :settlement_unit44 ,
-                                   <http://purl.org/ontohgis/settlement_unit3008> ;
+                   rdfs:subClassOf :settlement_unit44 ;
                    :hasExternalIdentifier "73"^^xsd:string ;
                    rdfs:label "przysiółek kolonii"^^xsd:string .
 
@@ -1751,9 +1806,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                                             ) ;
                                          rdf:type owl:Class
                                        ] ;
-                   rdfs:subClassOf :object_600 ,
-                                   :settlement_unit44 ,
-                                   <http://purl.org/ontohgis/settlement_unit3008> ;
+                   rdfs:subClassOf :settlement_unit44 ;
                    :hasExternalIdentifier "74"^^xsd:string ;
                    rdfs:label "przysiółek osady"^^xsd:string .
 
@@ -1768,9 +1821,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                                             ) ;
                                          rdf:type owl:Class
                                        ] ;
-                   rdfs:subClassOf :object_600 ,
-                                   :settlement_unit44 ,
-                                   <http://purl.org/ontohgis/settlement_unit3008> ;
+                   rdfs:subClassOf :settlement_unit44 ;
                    :hasExternalIdentifier "75"^^xsd:string ;
                    rdfs:label "przysiółek wsi"^^xsd:string .
 
@@ -1796,7 +1847,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit78
 :settlement_unit78 rdf:type owl:Class ;
-                   rdfs:subClassOf :object_600 ,
+                   rdfs:subClassOf :object_1000 ,
+                                   :object_600 ,
                                    <http://purl.org/ontohgis/settlement_unit3003> ;
                    :hasExternalIdentifier "78"^^xsd:string ;
                    rdfs:label "odosobnione gospodarstwa"^^xsd:string .
@@ -1804,7 +1856,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit79
 :settlement_unit79 rdf:type owl:Class ;
-                   rdfs:subClassOf :object_601 ,
+                   rdfs:subClassOf :object_1000 ,
+                                   :object_601 ,
                                    <http://purl.org/ontohgis/settlement_unit3003> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
@@ -1910,7 +1963,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit9
 :settlement_unit9 rdf:type owl:Class ;
-                  rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
+                  rdfs:subClassOf :object_1001 ,
+                                  <http://purl.org/ontohgis/settlement_unit1000> ;
                   :hasExternalIdentifier "9"^^xsd:string ;
                   rdfs:label "borostwo"^^xsd:string .
 
@@ -1958,8 +2012,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit95
 :settlement_unit95 rdf:type owl:Class ;
-                   rdfs:subClassOf :object_600 ,
-                                   :settlement_unit34 ,
+                   rdfs:subClassOf :settlement_unit34 ,
                                    <http://purl.org/ontohgis/settlement_unit3008> ;
                    :hasExternalIdentifier "95"^^xsd:string ;
                    rdfs:label "osiedle przy mieście"^^xsd:string .
@@ -1967,7 +2020,8 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis#settlement_unit96
 :settlement_unit96 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit3003> ;
+                   rdfs:subClassOf :object_1000 ,
+                                   <http://purl.org/ontohgis/settlement_unit3003> ;
                    :hasExternalIdentifier "96"^^xsd:string ;
                    rdfs:label "pojedyncze zabudowania"^^xsd:string .
 
@@ -2117,15 +2171,19 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
 
 ###  http://purl.org/ontohgis/settlement_unit1000
 <http://purl.org/ontohgis/settlement_unit1000> rdf:type owl:Class ;
-                                               rdfs:subClassOf :object_32 ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty :hasProperFunction ;
-                                                                 owl:hasValue :object_400
-                                                               ] ;
-                                               :isPartOfPartition "podział manifestacji jednostek osadniczych ze względu na funkcje"@pl ;
-                                               rdfs:comment "Manifestacja właściwej jednostki osadniczej jest taką manifestacją jednostki osadniczej, której funkcja podstawowa polega na byciu miejscem zamieszkania." ;
-                                               rdfs:label "proper human settlement manifestation"@en ,
-                                                          "właściwa manifestacja jednostki osadniczej"@pl .
+                                               owl:equivalentClass [ owl:intersectionOf ( :object_32
+                                                                                          [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty :hasProperFunction ;
+                                                                                            owl:hasValue :object_400
+                                                                                          ]
+                                                                                        ) ;
+                                                                     rdf:type owl:Class
+                                                                   ] ;
+                                               rdfs:subClassOf :object_32 ;
+                                               :isPartOfPartition :object_702 ;
+                                               rdfs:comment "Miejscowość właściwa jest taką miejscowością, której funkcja podstawowa polega na byciu miejscem zamieszkania."@pl ;
+                                               rdfs:label "proper dwelling"@en ,
+                                                          "właściwa miejscowość"@pl .
 
 
 ###  http://purl.org/ontohgis/settlement_unit1001
@@ -2192,7 +2250,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                                                  owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                                                  owl:hasValue <http://www.geonames.org/ontology#S.HSP>
                                                                ] ;
-                                               :isPartOfPartition "podział manifestacji jednostek osadniczych ze względu na mereologiczną złożoność"@pl ;
+                                               :isPartOfPartition :object_701 ;
                                                rdfs:comment "Miejscowość jest (mereologicznie) prosta, gdy żadna jej część nie jest miejscowością."@pl ;
                                                rdfs:label "(mereologically) simple human settlement"@en ,
                                                           "(mereologicznie) prosta miejscowość"@pl .
@@ -2210,7 +2268,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                                                      rdf:type owl:Class
                                                                    ] ;
                                                rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
-                                               :isPartOfPartition "podział manifestacji jednostek osadniczych ze względu na mereologiczną złożoność"@pl ;
+                                               :isPartOfPartition :object_701 ;
                                                rdfs:comment "Miejscowość jest (mereologicznie) prosta, gdy niektóre jej części są miejscowościami."@pl ;
                                                rdfs:label "(mereologically) complex human settlement"@en ,
                                                           "(mereologicznie) złożona miejscowość"@pl .
@@ -2228,7 +2286,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                                                      rdf:type owl:Class
                                                                    ] ;
                                                rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
-                                               :isPartOfPartition "podział manifestacji jednostek osadniczych ze względu na mereologiczną samodzielność"@pl ;
+                                               :isPartOfPartition :object_700 ;
                                                rdfs:comment "Miejscowość jest (mereologicznie) samodzielna, gdy nie jest częścią żadnej miejscowości." ;
                                                rdfs:label "(mereologically) complete human settlement"@en ,
                                                           "(mereologicznie) samodzielna miejscowość"@pl .
@@ -2245,7 +2303,7 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                                                                      rdf:type owl:Class
                                                                    ] ;
                                                rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ;
-                                               :isPartOfPartition "podział manifestacji jednostek osadniczych ze względu na mereologiczną samodzielność"@pl ;
+                                               :isPartOfPartition :object_700 ;
                                                rdfs:comment "Miejscowość jest (mereologicznie) niesamodzielna, gdy jest częścią pewnej miejscowości."@pl ;
                                                rdfs:label "(mereologically) incomplete human settlement"@en ,
                                                           "(mereologicznie) niesamodzielna miejscowość"@pl .
@@ -2367,6 +2425,41 @@ Postać romunek mogła powstać w wyniku typowych dla XIX wieku wahań fonetyczn
                      obo:BFO_0000034 ;
             rdfs:label "managing country's territory and dwellers"@en ,
                        "zarządzanie terytorium państwa i jego obywatelami"@pl .
+
+
+###  http://purl.org/ontohgis#object_700
+:object_700 rdf:type owl:NamedIndividual ,
+                     :object_800 ;
+            rdfs:label "classification of settlement units with respect to mereological independence"@en ,
+                       "podział manifestacji jednostek osadniczych ze względu na mereologiczną samodzielność"@pl .
+
+
+###  http://purl.org/ontohgis#object_701
+:object_701 rdf:type owl:NamedIndividual ,
+                     :object_800 ;
+            rdfs:label "classification of settlement units with respect to mereological complexity"@en ,
+                       "podział manifestacji jednostek osadniczych ze względu na mereologiczną złożoność"@pl .
+
+
+###  http://purl.org/ontohgis#object_702
+:object_702 rdf:type owl:NamedIndividual ,
+                     :object_800 ;
+            rdfs:label "classification of settlement units with respect to function"@en ,
+                       "podział manifestacji jednostek osadniczych ze względu na funkcje"@pl .
+
+
+###  http://purl.org/ontohgis#object_703
+:object_703 rdf:type owl:NamedIndividual ,
+                     :object_800 ;
+            rdfs:label "classification of settlement units with respect to Earth"@en ,
+                       "podział manifestacji jednostek osadniczych ze względu na związek z Ziemią"@pl .
+
+
+###  http://purl.org/ontohgis#object_704
+:object_704 rdf:type owl:NamedIndividual ,
+                     :object_800 ;
+            rdfs:label "classification of settlement units with respect to usage"@en ,
+                       "podział manifestacji jednostek osadniczych ze względu na przeznaczenie"@pl .
 
 
 ###  http://www.geonames.org/ontology#L.PRT
