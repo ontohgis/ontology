@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"Sheet1","startColumn":"A","endColumn":"I","startRow":"1","endRow":"+","comment":"","rule":"Class: @A*(ontohgis:hasExternalIdentifier)\nAnnotations: rdfs:label @B*","active":true}]}
