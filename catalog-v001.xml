@@ -2,6 +2,13 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="Imports Wizard Entry" name="http://makolab.com/oc/" uri="ontology-of-change.ttl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1513270379477" name="http://www.geonames.org/ontology" uri="ontology_v3.1.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1531465665785" name="http://ontologies.makolab.com/oc/" uri="oc.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1531465665785" name="http://purl.obolibrary.org/obo/bfo.owl" uri="bfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1531465665785" name="http://purl.obolibrary.org/obo/iao.owl" uri="iao.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1531465665785" name="http://www.geonames.org/ontology" uri="ontology_v3.1.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1531465665785" name="http://www.opengis.net/ont/geosparql" uri="geo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1531465665785" name="http://www.opengis.net/ont/gml" uri="gml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1531465665785" name="http://www.opengis.net/ont/sf" uri="sf.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1531465665785" name="http://www.w3.org/2004/02/skos/core" uri="test.owl"/>
     </group>
 </catalog>

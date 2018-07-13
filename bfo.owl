@@ -1,0 +1,442 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/bfo.owl#"
+     xml:base="http://purl.obolibrary.org/obo/bfo.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bfo.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/bfo/dev/owl"/>
+        <foaf:homepage rdf:resource="http://ifomis.org/bfo"/>
+        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-devel"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo/2014-05-03/ReleaseNotes"/>
+        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-owl-devel"/>
+        <rdfs:seeAlso rdf:resource="http://groups.google.com/group/bfo-discuss"/>
+        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+        <rdfs:comment xml:lang="en">This is an early version of BFO version 2 and has not yet been extensively reviewed by the project team members. Please see the project site http://code.google.com/p/bfo/ , the bfo2 owl discussion group http://groups.google.com/group/bfo-owl-devel , the bfo2 discussion group http://groups.google.com/group/bfo-devel, the tracking google doc http://goo.gl/IlrEE, and the current version of the bfo2 reference http://purl.obolibrary.org/obo/bfo/dev/bfo2-reference.docx . This ontology is generated from a specification at http://bfo.googlecode.com/svn/trunk/src/ontology/owl-group/specification/ and with the code that generates the OWL version in http://bfo.googlecode.com/svn/trunk/src/tools/. A very early version of BFO version 2 in CLIF is at http://purl.obolibrary.org/obo/bfo/dev/bfo.clif</rdfs:comment>
+        <rdfs:seeAlso rdf:resource="http://bfo.googlecode.com/svn/trunk/src/tools/"/>
+        <rdfs:comment xml:lang="en">The http://purl.obolibary.org/obo/bfo/classes-only.owl variant of BFO (&quot;bfo_classes_only.owl&quot;) includes only the class hierarchy and annotations from the full OWL version of BFO 2: http://purl.obolibary.org/obo/bfo.owl (&quot;bfo.owl&quot;). There are no object properties or logical axioms that use the object properties in bfo_classes_only.owl. As the logical axioms in the bfo_classes_only.owl variant are limited to subclass and disjoint assertions they are much weaker than the logical axioms in bfo.owl.
+ 
+If you plan to use the relations that define BFO 2, you should import bfo.owl instead of bfo_classes_only.owl. To the extent that the relations are used without importing bfo.owl, be mindful that they should be used in a manner consistent with their use in bfo.owl. Otherwise if your ontology is imported by a another ontology that imports bfo.owl there may be inconsistencies. 
+ 
+See the BFO 2 release notes for further information about BFO 2. Please note that the current release of bfo.owl uses temporal relations when the subject or object is a continuant, a major change from BFO 1.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://bfo.googlecode.com/svn/trunk/src/ontology/owl-group/specification/"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo/dev/bfo.clif"/>
+        <foaf:homepage rdf:resource="http://code.google.com/p/bfo/"/>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo/2012-07-20/Reference"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000179 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000179">
+        <rdfs:label xml:lang="en">BFO OWL specification label</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000180 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000180">
+        <rdfs:label xml:lang="en">BFO CLIF specification label</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/member -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/member"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/homepage"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+        <obo:BFO_0000179>entity</obo:BFO_0000179>
+        <obo:BFO_0000180>Entity</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <obo:BFO_0000179>occurrent</obo:BFO_0000179>
+        <obo:BFO_0000180>Occurrent</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">occurrent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <obo:BFO_0000179>ic</obo:BFO_0000179>
+        <obo:BFO_0000180>IndependentContinuant</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">independent continuant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000141"/>
+        <obo:BFO_0000179>s-region</obo:BFO_0000179>
+        <obo:BFO_0000180>SpatialRegion</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">spatial region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000011"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000035"/>
+        <obo:BFO_0000179>t-region</obo:BFO_0000179>
+        <obo:BFO_0000180>TemporalRegion</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">temporal region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000028"/>
+        <obo:BFO_0000179>2d-s-region</obo:BFO_0000179>
+        <obo:BFO_0000180>TwoDimensionalSpatialRegion</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">two-dimensional spatial region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <obo:BFO_0000179>st-region</obo:BFO_0000179>
+        <obo:BFO_0000180>SpatiotemporalRegion</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">spatiotemporal region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <obo:BFO_0000179>process</obo:BFO_0000179>
+        <obo:BFO_0000180>Process</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:BFO_0000179>disposition</obo:BFO_0000179>
+        <obo:BFO_0000180>Disposition</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">disposition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:BFO_0000179>realizable</obo:BFO_0000179>
+        <obo:BFO_0000180>RealizableEntity</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">realizable entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000028"/>
+        <obo:BFO_0000179>0d-s-region</obo:BFO_0000179>
+        <obo:BFO_0000180>ZeroDimensionalSpatialRegion</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">zero-dimensional spatial region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <obo:BFO_0000179>quality</obo:BFO_0000179>
+        <obo:BFO_0000180>Quality</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000020">
+        <obo:BFO_0000179>sdc</obo:BFO_0000179>
+        <obo:BFO_0000180>SpecificallyDependentContinuant</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">specifically dependent continuant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:BFO_0000179>role</obo:BFO_0000179>
+        <obo:BFO_0000180>Role</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000024">
+        <obo:BFO_0000179>fiat-object-part</obo:BFO_0000179>
+        <obo:BFO_0000180>FiatObjectPart</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">fiat object part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000028"/>
+        <obo:BFO_0000179>1d-s-region</obo:BFO_0000179>
+        <obo:BFO_0000180>OneDimensionalSpatialRegion</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">one-dimensional spatial region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000027">
+        <obo:BFO_0000179>object-aggregate</obo:BFO_0000179>
+        <obo:BFO_0000180>ObjectAggregate</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">object aggregate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>
+        <obo:BFO_0000179>3d-s-region</obo:BFO_0000179>
+        <obo:BFO_0000180>ThreeDimensionalSpatialRegion</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">three-dimensional spatial region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
+        <obo:BFO_0000179>gdc</obo:BFO_0000179>
+        <obo:BFO_0000180>GenericallyDependentContinuant</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">generically dependent continuant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <obo:BFO_0000179>p-boundary</obo:BFO_0000179>
+        <obo:BFO_0000180>ProcessBoundary</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">process boundary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000148"/>
+        <obo:BFO_0000179>1d-t-region</obo:BFO_0000179>
+        <obo:BFO_0000180>OneDimensionalTemporalRegion</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">one-dimensional temporal region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <obo:BFO_0000179>immaterial</obo:BFO_0000179>
+        <obo:BFO_0000180>ImmaterialEntity</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">immaterial entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/BFO_0000182"/>
+        <obo:BFO_0000179>process-profile</obo:BFO_0000179>
+        <obo:BFO_0000180>ProcessProfile</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">process profile</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:BFO_0000179>r-quality</obo:BFO_0000179>
+        <obo:BFO_0000180>RelationalQuality</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">relational quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000146">
+        <obo:BFO_0000179>2d-cf-boundary</obo:BFO_0000179>
+        <obo:BFO_0000180>TwoDimensionalContinuantFiatBoundary</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">two-dimensional continuant fiat boundary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000147">
+        <obo:BFO_0000179>0d-cf-boundary</obo:BFO_0000179>
+        <obo:BFO_0000180>ZeroDimensionalContinuantFiatBoundary</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">zero-dimensional continuant fiat boundary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
+        <obo:BFO_0000179>0d-t-region</obo:BFO_0000179>
+        <obo:BFO_0000180>ZeroDimensionalTemporalRegion</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">zero-dimensional temporal region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:BFO_0000179>history</obo:BFO_0000179>
+        <obo:BFO_0000180>History</obo:BFO_0000180>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">history</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

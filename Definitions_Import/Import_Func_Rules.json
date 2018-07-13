@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"Functions","startColumn":"A","endColumn":"C","startRow":"1","endRow":"+","comment":"","rule":"Individual: @A*\nTypes: function\nAnnotations: \nrdfs:label @B* (rdf:PlainLiteral mm:append(\"@pl\")),\nrdfs:label @C* (rdf:PlainLiteral mm:append(\"@en\"))","active":true}]}
