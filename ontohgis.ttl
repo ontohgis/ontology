@@ -1426,7 +1426,7 @@ _:genid122 a owl:Restriction ;
 	rdfs:comment "A church could be a separate unit (from adjacent settlements) distinguished by a particular name and morphology."@en , "W analizowanych przypadkach kościół mógł stanowić odrębną (od sąsiadujących) nazewniczo i morfologicznie jednostkę osadniczą."@pl ;
 	rdfs:isDefinedBy "A church (in architecture) is a building used by a religious community to meet and listen to the Word of God, for preaching, private prayers or to celebrate rituals."@en , "Kościół (w kontekście architektonicznym) jest to budynek, gdzie wspólnota religijna gromadzi się na słuchanie słowa Bożego, wspólną lub prywatną modlitwę oraz celebrację sakramentów."@pl ;
 	rdfs:label "church"@en , "kościół - obiekt"@pl ;
-	rdfs:seeAlso "#EK, t. 9, kol. 1025: budynek poświęcony (dedykacja lub benedykcja) w obrzędzie liturg. przez biskupa, gdzie wspólnota ochrzczonych (—> Kościół) gromadzi się na słuchanie słowa Bożego, wspólną i prywatną modlitwę oraz celebrację sakramentów, zwł. Eucharystii; miejsce przechowywania Najśw. Sakramentu, a także pochówku(—> krypta, —> konfesja); k. był określany także jako domus ecclesiae, domus orationis, Kyriakon, domus Dei, Dominicum; w kat. obrządkach wsch. nazywany jest —> cerkwią."@pl , "2. «budynek, miejsce modlitwy chrześcijan»"@pl , "http://linkedgeodata.org/ontology/BuildingChurch"^^xsd:anyURI , "t. 11, s. 57-68: II. Budowla sakralna; 1. Świątynia chrześcijańska, zwłaszcza katolicka; templum--; aedes, fanum--; ecclesia--; aedes sacra--; sacrum--; domus, sedes sacra--; delubrum, dominicum, domus Dei, martyrium, sacrarium ritus Christiani--. 3. Świątynia mahometańska; meczet--. 4. Świątynia pogańska, delubrum--; aedes, oraculum, templum--; templum idolorum--; idolium--; domus--; aedes sacra, fanum, penetralia, sessimonium deorum--. 6. n-loc [nazwa miejsca] : -- »Czerwony Kościoł«"@pl , "t. 3, s. 360-362: 1. Świątynia (nie tylko chrześcijańska), dom boży, templum, aedes sacra--. 2. swoista jednostka prawna związana z określonym kościołem (parafia, diecezja itd.), corpus paroeciae vel dioecesis (ad certam quandam ecclesiam pertinens)."@pl ;
+	rdfs:seeAlso "2. «budynek, miejsce modlitwy chrześcijan»"@pl , "http://linkedgeodata.org/ontology/BuildingChurch"^^xsd:anyURI , "t. 11, s. 57-68: II. Budowla sakralna; 1. Świątynia chrześcijańska, zwłaszcza katolicka; templum--; aedes, fanum--; ecclesia--; aedes sacra--; sacrum--; domus, sedes sacra--; delubrum, dominicum, domus Dei, martyrium, sacrarium ritus Christiani--. 3. Świątynia mahometańska; meczet--. 4. Świątynia pogańska, delubrum--; aedes, oraculum, templum--; templum idolorum--; idolium--; domus--; aedes sacra, fanum, penetralia, sessimonium deorum--. 6. n-loc [nazwa miejsca] : -- »Czerwony Kościoł«"@pl , "t. 3, s. 360-362: 1. Świątynia (nie tylko chrześcijańska), dom boży, templum, aedes sacra--. 2. swoista jednostka prawna związana z określonym kościołem (parafia, diecezja itd.), corpus paroeciae vel dioecesis (ad certam quandam ecclesiam pertinens)."@pl , "t. 9, kol. 1025: budynek poświęcony (dedykacja lub benedykcja) w obrzędzie liturg. przez biskupa, gdzie wspólnota ochrzczonych (—> Kościół) gromadzi się na słuchanie słowa Bożego, wspólną i prywatną modlitwę oraz celebrację sakramentów, zwł. Eucharystii; miejsce przechowywania Najśw. Sakramentu, a także pochówku(—> krypta, —> konfesja); k. był określany także jako domus ecclesiae, domus orationis, Kyriakon, domus Dei, Dominicum; w kat. obrządkach wsch. nazywany jest —> cerkwią."@pl ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel> "ecclesia (lat), templum (lat), fanum (lat), aedes (lat), domus Dei (lat), kaplica (pl), cerkiew (pl), świątynia (pl), die Kirche (de)" ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "church"@en , "kościół - obiekt"@pl .
 
@@ -1447,6 +1447,12 @@ _:genid125 a owl:Axiom ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 3, s. 360-362: 1. Świątynia (nie tylko chrześcijańska), dom boży, templum, aedes sacra--. 2. swoista jednostka prawna związana z określonym kościołem (parafia, diecezja itd.), corpus paroeciae vel dioecesis (ad certam quandam ecclesiam pertinens)."@pl ;
 	rdfs:isDefinedBy :document_6 .
+
+_:genid126 a owl:Axiom ;
+	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit120> ;
+	owl:annotatedProperty rdfs:seeAlso ;
+	owl:annotatedTarget "t. 9, kol. 1025: budynek poświęcony (dedykacja lub benedykcja) w obrzędzie liturg. przez biskupa, gdzie wspólnota ochrzczonych (—> Kościół) gromadzi się na słuchanie słowa Bożego, wspólną i prywatną modlitwę oraz celebrację sakramentów, zwł. Eucharystii; miejsce przechowywania Najśw. Sakramentu, a także pochówku(—> krypta, —> konfesja); k. był określany także jako domus ecclesiae, domus orationis, Kyriakon, domus Dei, Dominicum; w kat. obrządkach wsch. nazywany jest —> cerkwią."@pl ;
+	rdfs:isDefinedBy :document_7 .
 # 
 # http://purl.org/ontohgis#settlement_unit121
 
@@ -1464,19 +1470,19 @@ _:genid125 a owl:Axiom ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel> "probostwo (pl), parafia (pl), dom plebański (pl), wikariatka (pl), popówka (pl), pastorówka (pl), die Pfarrwohnung (de), die Pfarre (de), plebanatus (lat), curionis domus (lat), curionium (lat), parochia (lat), curionatus (lat)" ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "plebania - obiekt"@pl , "rectory"@en .
 
-_:genid126 a owl:Axiom ;
+_:genid127 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit121> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "dom należący do parafii, przeznaczony na mieszkanie dla proboszcza"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_3> , <http://sjp.pwn.pl/slowniki/plebania.html> .
 
-_:genid127 a owl:Axiom ;
+_:genid128 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit121> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 2, cz. 2, s. 732: Pleban -- Plebania, -ii, ż., urząd plebański abo beneficjum --; Dochód plebański, ut dobra --; plebaniia, dom plebański, die Pfarrwohnung, die Pfarre. J ksiądz widzimy, plebaniią rzadki Buduie, że kto inszy weźmie po nim spadki. Pot. Pocz. 475 (Slo. fara; Hg. plebania; Cro. plebania; Vd. faroush; Ross. приходъ (cf. przychód)."@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_1> .
 
-_:genid128 a owl:Axiom ;
+_:genid129 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit121> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 24, s. 326: 1. Domostwo plebana -- ; flaminia -- ; parochia, plebanatus -- ; curionis domus, curionium --; 2. Terytorium będące pod opieką plebana; także urząd i dochody z niego; parochia --; plebanatus --; curionatus, curionium -- ; 2a. Wierni należący do parafii --. Synonimy: probostwo, parafija."@pl ;
@@ -1494,28 +1500,34 @@ _:genid128 a owl:Axiom ;
 	rdfs:comment "Kryterium wyróżniającym kościół od kaplicy jest wielkość oraz znaczenie instytucjonalne. Kościół ma charakter świątyni głównej dla wspólnoty wiernych, natomiast kaplica ma znaczenie pomocnicze. Niewielkie wspólnoty wiernych mogły funkcjonować przy kaplicy, kiedy z różnych powodów (brak środków, ograniczenia prawne) nie mogły wybudować lub utrzymać kościoła."@pl , "The criterion that distinguishes the church from the chapel is its size and institutional significance. The church serves as a main temple for the community, while the chapel's role is rather auxiliary. Small communities could use a chapel, when for various reasons (lack of resources, legal restrictions) they could not build or afford a church."@en ;
 	rdfs:isDefinedBy "Chapel is a separate building (small church) or a separate room with an altar in a church or another building, devoted to religious worship (prayer, worship)."@en , "Kaplica jest to odrębny budynek (mały kościół) lub oddzielne pomieszczenie z ołtarzem w kościele lub innym budynku, przeznaczone do sprawowania kultu religijnego (modlitwy, nabożeństwa)."@pl ;
 	rdfs:label "chapel"@en , "kaplica - obiekt"@pl ;
-	rdfs:seeAlso "#EK, t. 8, kol. 676: niewielka budowla kultowa (najczęściej z ołtarzem), wolno stojąca lub związana z większym kompleksem archit., także pomieszczenie, czyli oratorium, miejsce modlitwy liturg. i prywatnej, przeznaczone przez ordynariusza do sprawowanie wszystkich lub niektórych funkcji liturg. dla niewielkiej grupy wiernych, do którego za zgodą kompetentnego przełożonego mogą przychodzić także in. wierni."@pl , "1. «niewielka budowla sakralna», 2. «oddzielne pomieszczenie z ołtarzem do odprawiania nabożeństw»"@pl , "http://linkedgeodata.org/ontology/BuildingChapel"^^xsd:anyURI , "t. 1, cz 2, s. 955: miejsce bogu poświęcone, w którym obowiązki kościelne za zezwoleniem zwierzchności odprawować się mogą."@pl , "t. 10, s. 81: Mały kościół lub nieduże pomieszczenie z ołtarzem, przeznaczone do uprawiania kultu religijnego; też wydzielona część kościoła (wyraz przeniesiony również na świątynie i pomieszczenia służące innym kultom); sacellum --; aedicula --; sacrarium--; oratorium--; aedes, fanum--; aedis sacrae appendix, augurale, auguratorium, fanulum (s. hanulum), lararium, parvum delubrum"@pl ;
+	rdfs:seeAlso "1. «niewielka budowla sakralna», 2. «oddzielne pomieszczenie z ołtarzem do odprawiania nabożeństw»"@pl , "http://linkedgeodata.org/ontology/BuildingChapel"^^xsd:anyURI , "t. 1, cz 2, s. 955: miejsce bogu poświęcone, w którym obowiązki kościelne za zezwoleniem zwierzchności odprawować się mogą."@pl , "t. 10, s. 81: Mały kościół lub nieduże pomieszczenie z ołtarzem, przeznaczone do uprawiania kultu religijnego; też wydzielona część kościoła (wyraz przeniesiony również na świątynie i pomieszczenia służące innym kultom); sacellum --; aedicula --; sacrarium--; oratorium--; aedes, fanum--; aedis sacrae appendix, augurale, auguratorium, fanulum (s. hanulum), lararium, parvum delubrum"@pl , "t. 8, kol. 676: niewielka budowla kultowa (najczęściej z ołtarzem), wolno stojąca lub związana z większym kompleksem archit., także pomieszczenie, czyli oratorium, miejsce modlitwy liturg. i prywatnej, przeznaczone przez ordynariusza do sprawowanie wszystkich lub niektórych funkcji liturg. dla niewielkiej grupy wiernych, do którego za zgodą kompetentnego przełożonego mogą przychodzić także in. wierni."@pl ;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "capella (lat)" ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel> "kościół (pl), oratorium (pl), świątynia (pl), sacellum (łac), oratorium (lat), aedicula (lat), sacrarium (lat), aedes (lat), fanum (lat), augurale (lat), augurale (lat), auguratorium (lat), fanulum (lat), lararium (lat), delubrum (lat), die Kapelle (de)" ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "chapel"@en , "kaplica - obiekt"@pl .
 
-_:genid129 a owl:Axiom ;
+_:genid130 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit122> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "1. «niewielka budowla sakralna», 2. «oddzielne pomieszczenie z ołtarzem do odprawiania nabożeństw»"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_3> , <https://sjp.pwn.pl/szukaj/kaplica.html> .
 
-_:genid130 a owl:Axiom ;
+_:genid131 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit122> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 1, cz 2, s. 955: miejsce bogu poświęcone, w którym obowiązki kościelne za zezwoleniem zwierzchności odprawować się mogą."@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_1> .
 
-_:genid131 a owl:Axiom ;
+_:genid132 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit122> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 10, s. 81: Mały kościół lub nieduże pomieszczenie z ołtarzem, przeznaczone do uprawiania kultu religijnego; też wydzielona część kościoła (wyraz przeniesiony również na świątynie i pomieszczenia służące innym kultom); sacellum --; aedicula --; sacrarium--; oratorium--; aedes, fanum--; aedis sacrae appendix, augurale, auguratorium, fanulum (s. hanulum), lararium, parvum delubrum"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_2> .
+
+_:genid133 a owl:Axiom ;
+	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit122> ;
+	owl:annotatedProperty rdfs:seeAlso ;
+	owl:annotatedTarget "t. 8, kol. 676: niewielka budowla kultowa (najczęściej z ołtarzem), wolno stojąca lub związana z większym kompleksem archit., także pomieszczenie, czyli oratorium, miejsce modlitwy liturg. i prywatnej, przeznaczone przez ordynariusza do sprawowanie wszystkich lub niektórych funkcji liturg. dla niewielkiej grupy wiernych, do którego za zgodą kompetentnego przełożonego mogą przychodzić także in. wierni."@pl ;
+	rdfs:isDefinedBy :document_7 .
 # 
 # http://purl.org/ontohgis#settlement_unit123
 
@@ -1534,19 +1546,19 @@ _:genid131 a owl:Axiom ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel> "terpentyniarnia (pl), osada leśna (pl), dziegciarnia (pl), huta (pl)" ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "smolarnia - obiekt"@pl , "tar pitch"@en .
 
-_:genid132 a owl:Axiom ;
+_:genid134 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit123> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "huta smolana, t. 3, s. 519:"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_1> .
 
-_:genid133 a owl:Axiom ;
+_:genid135 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit123> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "prymitywny zakład przemysłowy, gdzie wypraża się z drewna (tzw. karpowin) smołę i otrzymuje terpentynę, spirytus drzewny i inne chemikalia"@pl ;
 	rdfs:isDefinedBy :document_4 , <https://sjp.pwn.pl/doroszewski/smolarnia;5498496.html> .
 
-_:genid134 a owl:Axiom ;
+_:genid136 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit123> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "«dawny zakład, w którym się wyprażało z drewna smołę»"@pl ;
@@ -1564,35 +1576,51 @@ _:genid134 a owl:Axiom ;
 	rdfs:comment "Inns (localities) are distinguished on the old maps, which is mainly the result of their function. In the historiography, inns are distinguished from \"zajazd\" and \"gościniec\".The former usually served local customers - residents of the village or city, whereas the latter was supposed to serve supra-regional traffic. On the maps, inns are also distinguished by their proper names - e.g. Wygoda or Ostatni Grosz."@en , "Karczmy wyróżniane są na dawnej kartografii, co wynika głównie z pełnionej przez nie funkcji. Warto jednak pamiętać o tym, że w historiografii rozróżnia się pojęcie karczmy oraz zajazdu lub gościńca. Pierwszy obiekt zazwyczaj miał na celu obsługę lokalnych klientów – mieszkańców wsi lub miasta, drugi zaś miał obsługiwać ruch ponadregionalny. Na mapach karczmy wyróżniają także specyficzne nazwy – np. Wygoda lub Ostatni Grosz."@pl ;
 	rdfs:isDefinedBy "Budynek służący celom gastronomiczno-hotelarskim, zlokalizowany na przedmieściach miast, obrzeżach wsi lub ważnych szlakach komunikacyjnych."@pl , "Inn is a building serving catering and accomodation purposes, located in the suburbs, outskirts of villages, or on important communication routes."@en ;
 	rdfs:label "inn"@en , "karczma - obiekt"@pl ;
-	rdfs:seeAlso "#Sł. Warszawski, t. 2, s. 264‘1. dom szynkowy (Star.), szynk, szynkownia, gospoda; do na wsi albo przy drodze dla popasu podróżnych, austerja, oberża, dom zajezdny, zajazd’, por. t. 3, s. 453 hasło: oberża ‘dom gościnny, gospoda, zajazd, karczma, austerja’ i t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, dom gościnny’#Droszewski, t. 3, s. 564‘szynk na wsi, gospoda; dawniej również dom zajezdny, austeria, oberża’#Praktyczny słownik współczesnej polszczyzny, red. H. Zgłówkowa, t. 15, s. 403:‘budynek służący jako dom zajezdny dla podróżnych, a także miejsce wyszynku oraz spotkań i zabaw miejscowej ludności, wznoszony na przedmieściach większych miast, na rynkach miasteczek, przy uczęszczanych traktach, we wsiach w pobliżu kościoła lub dworu’#Encyklopedia historii gospodarczej Polski do 1945 r., t. 1, red. A. Mączak, s. 296–298‘budynek, w którym warzono, sprzedawano, później głównie szynkowano piwo, miód pitny, od XVI w. gorzałkę; niektóre karczmy, zwłaszcza przy ważniejszych drogach i w miastach, dawały posiłki i obrok dla koni oraz zapewniały nocleg podróżnym (zwano je gościńcami); sprzedawano w nich różne wyroby, głównie spożywcze, rzadziej odzieżowe. Dostarczały też karczmy różnego rodzaju rozrywek, często z muzyką, były miejscem tańców i zabaw. Niekiedy w karczmach odbywał sesje sąd (zwłaszcza wiejski), załatwiano tu sprawy urzędowe podczas popasu dostojników czy pobytu miejscowych oficjalistów [...]’."@pl , "dom szynkowy, t. 2, s. 318"@pl , "miejsce wyszynku alkoholu i spotkań okolicznej ludności, przede wszystkim chłopów, także gospoda, dom zajezdny; taberna, t. 10, s. 136"@pl ;
+	rdfs:seeAlso "#Praktyczny słownik współczesnej polszczyzny, red. H. Zgłówkowa, t. 15, s. 403:‘budynek służący jako dom zajezdny dla podróżnych, a także miejsce wyszynku oraz spotkań i zabaw miejscowej ludności, wznoszony na przedmieściach większych miast, na rynkach miasteczek, przy uczęszczanych traktach, we wsiach w pobliżu kościoła lub dworu’#Encyklopedia historii gospodarczej Polski do 1945 r., t. 1, red. A. Mączak, s. 296–298‘budynek, w którym warzono, sprzedawano, później głównie szynkowano piwo, miód pitny, od XVI w. gorzałkę; niektóre karczmy, zwłaszcza przy ważniejszych drogach i w miastach, dawały posiłki i obrok dla koni oraz zapewniały nocleg podróżnym (zwano je gościńcami); sprzedawano w nich różne wyroby, głównie spożywcze, rzadziej odzieżowe. Dostarczały też karczmy różnego rodzaju rozrywek, często z muzyką, były miejscem tańców i zabaw. Niekiedy w karczmach odbywał sesje sąd (zwłaszcza wiejski), załatwiano tu sprawy urzędowe podczas popasu dostojników czy pobytu miejscowych oficjalistów [...]’."@pl , "dom szynkowy, t. 2, s. 318"@pl , "miejsce wyszynku alkoholu i spotkań okolicznej ludności, przede wszystkim chłopów, także gospoda, dom zajezdny; taberna, t. 10, s. 136"@pl , """t. 2, s. 264: 1. dom szynkowy (Star.), szynk, szynkownia, gospoda; do na wsi albo przy drodze dla popasu podróżnych, austerja, oberża, dom zajezdny, zajazd’, 
+[por. t. 3, s. 453 hasło: oberża ‘dom gościnny, gospoda, zajazd, karczma, austerja’ i 
+t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, dom gościnny’]"""@pl , "t. 3, s. 564: szynk na wsi, gospoda; dawniej również dom zajezdny, austeria, oberża"@pl ;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "gospoda (pl), gościniec (pl), gościnny dom (pl), szynkowny dom (pl), oberża (pl), zajazd (pl), budynek (pl), taberna (lat), Wirthaus (de), Krug (de), Gasthof (de)" ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel> "restauracja (pl)" ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "inn"@en , "karczma - obiekt"@pl .
 
-_:genid135 a owl:Axiom ;
+_:genid137 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit124> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "dom szynkowy, t. 2, s. 318"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_1> .
 
-_:genid136 a owl:Axiom ;
+_:genid138 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit124> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "miejsce wyszynku alkoholu i spotkań okolicznej ludności, przede wszystkim chłopów, także gospoda, dom zajezdny; taberna, t. 10, s. 136"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_2> .
+
+_:genid139 a owl:Axiom ;
+	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit124> ;
+	owl:annotatedProperty rdfs:seeAlso ;
+	owl:annotatedTarget """t. 2, s. 264: 1. dom szynkowy (Star.), szynk, szynkownia, gospoda; do na wsi albo przy drodze dla popasu podróżnych, austerja, oberża, dom zajezdny, zajazd’, 
+[por. t. 3, s. 453 hasło: oberża ‘dom gościnny, gospoda, zajazd, karczma, austerja’ i 
+t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, dom gościnny’]"""@pl ;
+	rdfs:isDefinedBy :document_5 .
+
+_:genid140 a owl:Axiom ;
+	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit124> ;
+	owl:annotatedProperty rdfs:seeAlso ;
+	owl:annotatedTarget "t. 3, s. 564: szynk na wsi, gospoda; dawniej również dom zajezdny, austeria, oberża"@pl ;
+	rdfs:isDefinedBy :document_4 .
 # 
 # http://purl.org/ontohgis#settlement_unit125
 
 <http://purl.org/ontohgis#settlement_unit125> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_500> , <http://purl.org/ontohgis#settlement_unit33> , _:genid137 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_500> , <http://purl.org/ontohgis#settlement_unit33> , _:genid141 .
 
-_:genid137 a owl:Restriction ;
+_:genid141 a owl:Restriction ;
 	owl:onProperty obo:BFO_0000051 ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit126> .
 
-<http://purl.org/ontohgis#settlement_unit125> rdfs:subClassOf _:genid138 .
+<http://purl.org/ontohgis#settlement_unit125> rdfs:subClassOf _:genid142 .
 
-_:genid138 a owl:Restriction ;
+_:genid142 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function2> .
 
@@ -1623,31 +1651,31 @@ _:genid138 a owl:Restriction ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel> "kuźnia (pl), fryszerka (pl), huta żelaza (pl), zakład przemysłowy (pl), mennica (pl)" ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "ironworks"@en , "kuźnica - obiekt"@pl .
 
-_:genid139 a owl:Axiom ;
+_:genid143 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit126> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 11, s. 598: ‘zakład przetapiający i obrabiający żelazo’, ‘warsztat kowalski; miejsce, gdzie się kuje’"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_2> .
 
-_:genid140 a owl:Axiom ;
+_:genid144 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit126> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 2, s. 561: utożsamia pojęcia kuźnia i kuźnica, podaje też termin bliskoznaczny kowalnia"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_1> .
 
-_:genid141 a owl:Axiom ;
+_:genid145 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit126> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 2, s. 653: ‘zabudowanie mieszczące w sobie jedno albo kilka ognisk, miechy i młoty poruszane przez wodę, gdzie z surowizny przetopionej i oczyszczonej wykuwa się żelazo gotowe; fabryka topienia żelaza i urabiana go w sztaby"@pl ;
 	rdfs:isDefinedBy :document_5 .
 
-_:genid142 a owl:Axiom ;
+_:genid146 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit126> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 3, s. 1328: zakład przemysłowy, fabryka wyrobów z żelaza itp. metali; dawniej kuźnia"@pl ;
 	rdfs:isDefinedBy :document_4 .
 
-_:genid143 a owl:Axiom ;
+_:genid147 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit126> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 3, s.473–474: ‘warsztat wytopu i obróbki żelaza’"@pl ;
@@ -1656,15 +1684,15 @@ _:genid143 a owl:Axiom ;
 # http://purl.org/ontohgis#settlement_unit127
 
 <http://purl.org/ontohgis#settlement_unit127> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_500> , <http://purl.org/ontohgis#settlement_unit33> , _:genid144 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_500> , <http://purl.org/ontohgis#settlement_unit33> , _:genid148 .
 
-_:genid144 a owl:Restriction ;
+_:genid148 a owl:Restriction ;
 	owl:onProperty obo:BFO_0000051 ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit128> .
 
-<http://purl.org/ontohgis#settlement_unit127> rdfs:subClassOf _:genid145 .
+<http://purl.org/ontohgis#settlement_unit127> rdfs:subClassOf _:genid149 .
 
-_:genid145 a owl:Restriction ;
+_:genid149 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function2> .
 
@@ -1692,16 +1720,28 @@ _:genid145 a owl:Restriction ;
 	rdfs:comment "Legal status - ownership diveded between a land lord and a hereditary tenant or an annual tenant."@en , "Status prawny - własność podzielona między pana gruntowego a dzierżawcę dziedzicznego lub dzierżawcę rocznego."@pl ;
 	rdfs:isDefinedBy "Glassworks is an industrial facility, where major production was glasswork, and later mainly casting and manufacturing metals, e.g. lead, zinc, iron."@en , "Zakład przemysłowy, którego głównym celem była produkcja szkła, a w późniejszym okresie wytop i przetwórstwo rud metali np. ołowiu, cynku, żelaza."@pl ;
 	rdfs:label "glassworks"@en , "huta - obiekt"@pl ;
-	rdfs:seeAlso "#Sł. warsz., t. 2, s. 67‘zakład, gdzie robią szkło albo topią metale’#Droszewski‘zakład lub zespół zakładów przemysłowych produkujących metale z rud, szkło, siarkę i in.’, huty przerabiają nie tylko rudy na surówkę, lecz także surówkę na stal#J. Olczak, Późnośrednowieczne i nowożytne hutnictwo szkła w Polsce w perspektywie źródeł archeologicznych, „Archeologia Historia Polona”, t.1, 1995, s. 79-86#Wyrobisz A., Szkło w Polsce od XIV do XVII w., Warszawa 1968"@pl , "rozróżnia hutę i hutę szkła. Huta – ‘zakład metalurgiczny, w którym wytapia się metale z rud’, zaś Huta szkła – ‘zakład wytapiający szkło i wytwarzający produkty szklane’"@pl ;
+	rdfs:seeAlso "#J. Olczak, Późnośrednowieczne i nowożytne hutnictwo szkła w Polsce w perspektywie źródeł archeologicznych, „Archeologia Historia Polona”, t.1, 1995, s. 79-86#Wyrobisz A., Szkło w Polsce od XIV do XVII w., Warszawa 1968"@pl , "rozróżnia hutę i hutę szkła. Huta – ‘zakład metalurgiczny, w którym wytapia się metale z rud’, zaś Huta szkła – ‘zakład wytapiający szkło i wytwarzający produkty szklane’"@pl , "t. 2, s. 67: ‘zakład, gdzie robią szkło albo topią metale’"@pl , "zakład lub zespół zakładów przemysłowych produkujących metale z rud, szkło, siarkę i in.’, huty przerabiają nie tylko rudy na surówkę, lecz także surówkę na stal"@pl ;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "Hütte (de), Ofen (de), Schmelze (de), Hammer (de)" ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel> "kuźnica (pl), ruda (pl)" ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "glassworks"@en , "huta - obiekt"@pl .
 
-_:genid146 a owl:Axiom ;
+_:genid150 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit128> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "rozróżnia hutę i hutę szkła. Huta – ‘zakład metalurgiczny, w którym wytapia się metale z rud’, zaś Huta szkła – ‘zakład wytapiający szkło i wytwarzający produkty szklane’"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_3> .
+
+_:genid151 a owl:Axiom ;
+	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit128> ;
+	owl:annotatedProperty rdfs:seeAlso ;
+	owl:annotatedTarget "t. 2, s. 67: ‘zakład, gdzie robią szkło albo topią metale’"@pl ;
+	rdfs:isDefinedBy :document_5 .
+
+_:genid152 a owl:Axiom ;
+	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit128> ;
+	owl:annotatedProperty rdfs:seeAlso ;
+	owl:annotatedTarget "zakład lub zespół zakładów przemysłowych produkujących metale z rud, szkło, siarkę i in.’, huty przerabiają nie tylko rudy na surówkę, lecz także surówkę na stal"@pl ;
+	rdfs:isDefinedBy :document_4 .
 # 
 # http://purl.org/ontohgis#settlement_unit129
 
@@ -1719,13 +1759,13 @@ _:genid146 a owl:Axiom ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel> "gajówka (pl), nadleśnictwo (pl), osadą leśną (pl), Jagerhaus (de), Forestrey (de), Forst Amt (de)" ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "forester's lodge"@en , "leśniczówka - obiekt"@pl .
 
-_:genid147 a owl:Axiom ;
+_:genid153 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit129> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "Dom, zagroda w lesie stanowiąca mieszkanie; mieszkanie leśniczego (zarządca obszaru leśnego stanowiącego leśnictwo) wraz z zabudowaniami gospodarskimi"@pl ;
 	rdfs:isDefinedBy :document_4 .
 
-_:genid148 a owl:Axiom ;
+_:genid154 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit129> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 2, s. 721: domek w lesie, mieszkanie, zagroda leśniczego a. leśnika"@pl ;
@@ -1747,13 +1787,13 @@ _:genid148 a owl:Axiom ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel> "leśnictwo (pl), leśniczówka (pl), nadleśnictwo (pl), Jagerhaus (de), Forestrey (de), Forst Amt (de)" ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "forest-guard's lodge"@en , "gajówka - obiekt"@pl .
 
-_:genid149 a owl:Axiom ;
+_:genid155 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit130> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "Budynek w, którym mieszka gajowy (pracownik nadleśnictwa chroniący przydzieloną mu część lasu przed szkodami)"@pl ;
 	rdfs:isDefinedBy :document_4 .
 
-_:genid150 a owl:Axiom ;
+_:genid156 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit130> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 1, s. 793: chatka gajowego"@pl ;
@@ -1774,7 +1814,7 @@ _:genid150 a owl:Axiom ;
 	rdfs:seeAlso "wysoka, widoczna z morza wieża, służąca jako punkt orientacyjny dla statków"@pl ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "latarnia morska - obiekt"@pl , "lighthouse"@en .
 
-_:genid151 a owl:Axiom ;
+_:genid157 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit131> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "wysoka, widoczna z morza wieża, służąca jako punkt orientacyjny dla statków"@pl ;
@@ -1792,39 +1832,45 @@ _:genid151 a owl:Axiom ;
 	rdfs:comment "In the analysed cases, the monastery could have been a locality which was separate in terms of name and mophology from the neighbouring ones. The monastery could have been a beginning (a stem) of a larger locality, which would develop around it and transform into a monastery settlement, village, city etc."@en , "W analizowanych przypadkach klasztor mógł stanowić całkowicie odrębną (od sąsiadujących) nazewniczo i morfologicznie miejscowość. Klasztor mógł stanowić zalążek większej miejscowości, która rozwinęła się wokół niego i przekształciła się w osadę klasztorną, wieś, miasto etc."@pl ;
 	rdfs:isDefinedBy "Klasztor jest to budynek lub zespół budynków przeznaczony do mieszkania dla zakonników lub zakonnic."@pl , "Monastery is a building or a group of buildings where monks and nuns live"@en ;
 	rdfs:label "klasztor - obiekt"@pl , "monastery"@en ;
-	rdfs:seeAlso "#EK, t. 9, kol. 66-76: zespół budynków lub pomieszczeń mieszkalnych i gospodarczych o różnej strukturze, przeznaczonych do prowadzenia życia pustelniczego (->ławra) lub wspólnotowego życia ascetycznego (->asceza), występujący w religiach pozachrześcijańskich i chrześcijaństwie. -- Czasem rozbudowane założenia klasztorne tworzyły wręcz miasto, a nawet państwo mnichów (civitas monachorum)"@pl , "1. budynek lub kompleks budynków stanowiących wspólne miejsce zamieszkiwania zakonnic lub zakonników; 2. wspólnota zakonna o określonej regule"@pl , "1. zgromadzenie zakonne; zakon--; 2. budynek lub kompleks budynków zamieszkiwanych przez zakonników (zakonnice) danej reguły"@pl , "t. 1, cz. 2, s. 1010: pomieszkanie zakonnicze"@pl , "t. 10, s. 337: 1. Odosobnione i wyodrębnione spośród innych osiedli ludzkich miejsce zamieszkania zakonników i zakonnic (pojmowane jako budynek lub jego mieszkańcy); odosobnienie; tryb życia klasztornego; w wypadku niektórych zakonów także: szkoła, kolegium; coenobium, monasterium."@pl , "t. 3, s. 282: zabudowanie dla zgromadzenia zakonnego zwykle połączone z kościołem, coenobium, religiosorum domus."@pl ;
+	rdfs:seeAlso "1. budynek lub kompleks budynków stanowiących wspólne miejsce zamieszkiwania zakonnic lub zakonników; 2. wspólnota zakonna o określonej regule"@pl , "1. zgromadzenie zakonne; zakon--; 2. budynek lub kompleks budynków zamieszkiwanych przez zakonników (zakonnice) danej reguły"@pl , "t. 1, cz. 2, s. 1010: pomieszkanie zakonnicze"@pl , "t. 10, s. 337: 1. Odosobnione i wyodrębnione spośród innych osiedli ludzkich miejsce zamieszkania zakonników i zakonnic (pojmowane jako budynek lub jego mieszkańcy); odosobnienie; tryb życia klasztornego; w wypadku niektórych zakonów także: szkoła, kolegium; coenobium, monasterium."@pl , "t. 3, s. 282: zabudowanie dla zgromadzenia zakonnego zwykle połączone z kościołem, coenobium, religiosorum domus."@pl , "t. 9, kol. 66-76: zespół budynków lub pomieszczeń mieszkalnych i gospodarczych o różnej strukturze, przeznaczonych do prowadzenia życia pustelniczego (->ławra) lub wspólnotowego życia ascetycznego (->asceza), występujący w religiach pozachrześcijańskich i chrześcijaństwie. -- Czasem rozbudowane założenia klasztorne tworzyły wręcz miasto, a nawet państwo mnichów (civitas monachorum)"@pl ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel> "claustrum (lat), opactwo (pl), monaster (pl), ławra (pl), das Kloster (de)" ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "klasztor - obiekt"@pl , "monastery"@en .
 
-_:genid152 a owl:Axiom ;
+_:genid158 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit132> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "1. budynek lub kompleks budynków stanowiących wspólne miejsce zamieszkiwania zakonnic lub zakonników; 2. wspólnota zakonna o określonej regule"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_3> , <https://sjp.pwn.pl/slowniki/klasztor.html> .
 
-_:genid153 a owl:Axiom ;
+_:genid159 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit132> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "1. zgromadzenie zakonne; zakon--; 2. budynek lub kompleks budynków zamieszkiwanych przez zakonników (zakonnice) danej reguły"@pl ;
 	rdfs:isDefinedBy :document_4 .
 
-_:genid154 a owl:Axiom ;
+_:genid160 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit132> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 1, cz. 2, s. 1010: pomieszkanie zakonnicze"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_1> .
 
-_:genid155 a owl:Axiom ;
+_:genid161 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit132> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 10, s. 337: 1. Odosobnione i wyodrębnione spośród innych osiedli ludzkich miejsce zamieszkania zakonników i zakonnic (pojmowane jako budynek lub jego mieszkańcy); odosobnienie; tryb życia klasztornego; w wypadku niektórych zakonów także: szkoła, kolegium; coenobium, monasterium."@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_2> .
 
-_:genid156 a owl:Axiom ;
+_:genid162 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit132> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 3, s. 282: zabudowanie dla zgromadzenia zakonnego zwykle połączone z kościołem, coenobium, religiosorum domus."@pl ;
 	rdfs:isDefinedBy :document_6 .
+
+_:genid163 a owl:Axiom ;
+	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit132> ;
+	owl:annotatedProperty rdfs:seeAlso ;
+	owl:annotatedTarget "t. 9, kol. 66-76: zespół budynków lub pomieszczeń mieszkalnych i gospodarczych o różnej strukturze, przeznaczonych do prowadzenia życia pustelniczego (->ławra) lub wspólnotowego życia ascetycznego (->asceza), występujący w religiach pozachrześcijańskich i chrześcijaństwie. -- Czasem rozbudowane założenia klasztorne tworzyły wręcz miasto, a nawet państwo mnichów (civitas monachorum)"@pl ;
+	rdfs:isDefinedBy :document_7 .
 # 
 # http://purl.org/ontohgis#settlement_unit133
 
@@ -1843,25 +1889,25 @@ _:genid156 a owl:Axiom ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel> "młyn (pl), piła (pl),die Säge (de), osada młyńska (pl), osada leśna (pl)" ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "sawmill"@en , "tartak - obiekt"@pl .
 
-_:genid157 a owl:Axiom ;
+_:genid164 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit133> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 3, s. 607: młyn do tarcia drzew na tarcice, dyle"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_1> .
 
-_:genid158 a owl:Axiom ;
+_:genid165 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit133> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 7, s. 29: Pilarnia, młyn do tarcia drzewa na tarcice, dyle: Tartak wodny, parowy"@pl ;
 	rdfs:isDefinedBy :document_5 .
 
-_:genid159 a owl:Axiom ;
+_:genid166 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit133> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "zakład przemysłowy zajmujący się przecieraniem drewna na tarcicę"@pl ;
 	rdfs:isDefinedBy :document_4 , <https://sjp.pwn.pl/doroszewski/tartak;5506829.html> .
 
-_:genid160 a owl:Axiom ;
+_:genid167 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit133> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "«zakład zajmujący się rozpiłowywaniem kłód na tarcicę oraz przerobem tarcicy na różne elementy»"@pl ;
@@ -1883,13 +1929,13 @@ _:genid160 a owl:Axiom ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel> "torfowisko (pl)" ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "peat mine"@en , "torfiarnia - obiekt"@pl .
 
-_:genid161 a owl:Axiom ;
+_:genid168 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit134> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "kopalnia torfu"@pl ;
 	rdfs:isDefinedBy :document_4 , <https://sjp.pwn.pl/doroszewski/torfiarnia> .
 
-_:genid162 a owl:Axiom ;
+_:genid169 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit134> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 7, s. 85: kopalnia torfu, torfowisko eksploatowane"@pl ;
@@ -1912,25 +1958,25 @@ _:genid162 a owl:Axiom ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel> "die Brauerei (de), das Brauhaus (de), die Bierbrauerei (de), braxatorium (de), пивоварня (ru)" ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "brewery"@en , "browar - obiekt"@pl .
 
-_:genid163 a owl:Axiom ;
+_:genid170 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit135> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 1, cz.12, s. 272: Browar, budynek, gdzie się piwo warzy, piwowarnia, mielcuch"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_1> .
 
-_:genid164 a owl:Axiom ;
+_:genid171 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit135> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 2, s. 455-456: budynek, w którym się warzy piwo, piwowarnia."@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_2> .
 
-_:genid165 a owl:Axiom ;
+_:genid172 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit135> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "zakład produkujący piwo"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_3> , <http://sjp.pwn.pl/slowniki/browar.html> .
 
-_:genid166 a owl:Axiom ;
+_:genid173 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit135> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "zakład przemysłowy, w którym wyrabia się piwo; wytwórnia piwa"@pl ;
@@ -1953,25 +1999,25 @@ _:genid166 a owl:Axiom ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel> "die Ziegelei (de), die Ziegelscheune (de), кирпи́чный заво́д (ru)" ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "brickyard"@en , "cegielnia - obiekt"@pl .
 
-_:genid167 a owl:Axiom ;
+_:genid174 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit136> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 1, cz. 1, s. 221: Cegielnia, Cegielnica, budynek z piecem od palenia cegieł,die Ziegelscheune, der Ziegelofen."@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_1> .
 
-_:genid168 a owl:Axiom ;
+_:genid175 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit136> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 3, s. 142: cegielnia – miejsce wyrobu cegieł."@pl ;
 	rdfs:comment <http://purl.org/ontohgis#document_2> .
 
-_:genid169 a owl:Axiom ;
+_:genid176 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit136> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "wytwórnia cegly oraz innych materiałów budowlanych z gliny: dachówek, sączków (drenów), kafli, klinkierów, płytek itp."@pl ;
 	rdfs:isDefinedBy :document_4 .
 
-_:genid170 a owl:Axiom ;
+_:genid177 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit136> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "wytwórnia cegły oraz innych materiałów budowlanych z gliny"@pl ;
@@ -1994,19 +2040,19 @@ _:genid170 a owl:Axiom ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel> "das Bergwerk (de), der Bruch (de), die Binge (de), die Miene (de), die Schacht (de), рудни́к/ ру́́дник (ru), шахта (ru)" ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "kopalnia - obiekt"@pl , "mine"@en .
 
-_:genid171 a owl:Axiom ;
+_:genid178 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit137> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 1, cz. 2, s. 1077: Kopalnia, miejsce gdzie się iakowe rzeczy kopalne z ziemi dobywają"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_1> .
 
-_:genid172 a owl:Axiom ;
+_:genid179 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit137> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "zakład górniczy zajmujący się wydobywaniem z ziemi kopalin"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_3> , <https://sjp.pwn.pl/sjp/kopalnia;2473819.html> .
 
-_:genid173 a owl:Axiom ;
+_:genid180 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit137> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "zakład górniczy zajmujący się wydobywaniem z ziemi kopalin użytecznych"@pl ;
@@ -2028,19 +2074,19 @@ _:genid173 a owl:Axiom ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel> "die Zuckerfabrik (de), die Zuckersiederei (de) Сахарный завод (ru)" ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "cukrownia - obiekt"@pl , "sugar factory"@en .
 
-_:genid174 a owl:Axiom ;
+_:genid181 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit138> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "fabryka cukru"@pl ;
 	rdfs:isDefinedBy :document_4 .
 
-_:genid175 a owl:Axiom ;
+_:genid182 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit138> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 1, cz. 1, s. 327: [Brak hasła „cukrownia”.] Cukrowarz, fabrykant cukru, warzący sok na cukier, derZuckersieder, cf. Cukiernik."@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_1> .
 
-_:genid176 a owl:Axiom ;
+_:genid183 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit138> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "zakład przemysłowy produkujący cukier"@pl ;
@@ -2056,37 +2102,37 @@ _:genid176 a owl:Axiom ;
 	<http://purl.org/ontohgis#hasOntologicalVerificator> <http://purl.org/ontohgis#person_10> ;
 	<http://purl.org/ontohgis#hasTranslator> <http://purl.org/ontohgis#person_9> ;
 	rdfs:comment "Distillery may have its own name - usually related to the factory name or a trademark - however it is not nocessary. As a separate locality, it may - however it is not obligatory - be located near a village, a city or a town, or a settlement sharing the same name. One may not find a difference between brewery and distillery in historical sources."@en , "Gorzelnie znajdujące się w obrębie miast mogą, ale nie muszą mieć własnej nazwy, zazwyczaj nazwa ta powiązana jest z nazwą firmy, znakiem firmowym. Jeśli jest odrębną miejscowością to może ale nie musi znajdować się w pobliżu wsi, miasta lub osady o tej samej nazwie. Źródłowo zdarza się brak rozróżnienia gorzelni i browaru."@pl ;
-	rdfs:isDefinedBy "Distillery is a factory where alcohol and spirits requiring distillation whilst manufacturing are produced."@en ;
+	rdfs:isDefinedBy "Distillery is a factory where alcohol and spirits requiring distillation whilst manufacturing are produced."@en , "Gorzelnia jest to zakład wytwarzający spirytus oraz napoje alkoholowe o wysokiej zawartości alkoholu, wymagające w trakcie procesu produkcyjnego destylacji."@pl ;
 	rdfs:label "distillery"@en , "gorzelnia - obiekt"@pl ;
-	rdfs:seeAlso "Gorzelnia jest to zakład wytwarzający spirytus oraz napoje alkoholowe o wysokiej zawartości alkoholu, wymagające w trakcie procesu produkcyjnego destylacji."@pl , "t. 1, cz. 2, s. 54: Gorzalnia, gorzelnia, budowanie do palenia gorzałki (pospolicie zowią: browarem, ale borwar na piwo iest.)"@pl , "zakład przemysłowy produkujący alkohol etylowy"@pl , "zakład przemysłowy produkujący spirytus i wódki głównie z kartofli lub zboża"@pl ;
+	rdfs:seeAlso "t. 1, cz. 2, s. 54: Gorzalnia, gorzelnia, budowanie do palenia gorzałki (pospolicie zowią: browarem, ale borwar na piwo iest.)"@pl , "zakład przemysłowy produkujący alkohol etylowy"@pl , "zakład przemysłowy produkujący spirytus i wódki głównie z kartofli lub zboża"@pl ;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "gorzalnia (pl)" ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel> "browar (pl), Das Brennhaus (de), die Destillerie (de), die Brennerei (de), die Brantweinbrennerei (de), винокуренныйзавод (ru), винокурня (ru)" ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "distillery"@en , "gorzelnia - obiekt"@pl .
 
-_:genid177 a owl:Axiom ;
-	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit139> ;
-	owl:annotatedProperty rdfs:seeAlso ;
-	owl:annotatedTarget "Gorzelnia jest to zakład wytwarzający spirytus oraz napoje alkoholowe o wysokiej zawartości alkoholu, wymagające w trakcie procesu produkcyjnego destylacji."@pl ;
-	rdfs:isDefinedBy :document_4 .
-
-_:genid178 a owl:Axiom ;
+_:genid184 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit139> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "t. 1, cz. 2, s. 54: Gorzalnia, gorzelnia, budowanie do palenia gorzałki (pospolicie zowią: browarem, ale borwar na piwo iest.)"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_1> .
 
-_:genid179 a owl:Axiom ;
+_:genid185 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit139> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "zakład przemysłowy produkujący alkohol etylowy"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_3> , <http://sjp.pwn.pl/slowniki/gorzelnia.html> .
+
+_:genid186 a owl:Axiom ;
+	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit139> ;
+	owl:annotatedProperty rdfs:seeAlso ;
+	owl:annotatedTarget "zakład przemysłowy produkujący spirytus i wódki głównie z kartofli lub zboża"@pl ;
+	rdfs:isDefinedBy :document_4 .
 # 
 # http://purl.org/ontohgis#settlement_unit17
 
 <http://purl.org/ontohgis#settlement_unit17> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit27> , _:genid180 .
+	rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit27> , _:genid187 .
 
-_:genid180 a owl:Restriction ;
+_:genid187 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function4> .
 
@@ -2104,15 +2150,15 @@ _:genid180 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit18
 
 <http://purl.org/ontohgis#settlement_unit18> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_500> , :settlement_unit3003 , _:genid181 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_500> , :settlement_unit3003 , _:genid188 .
 
-_:genid181 a owl:Restriction ;
+_:genid188 a owl:Restriction ;
 	owl:onProperty obo:BFO_0000051 ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit139> .
 
-<http://purl.org/ontohgis#settlement_unit18> rdfs:subClassOf _:genid182 .
+<http://purl.org/ontohgis#settlement_unit18> rdfs:subClassOf _:genid189 .
 
-_:genid182 a owl:Restriction ;
+_:genid189 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function8> .
 
@@ -2130,21 +2176,21 @@ _:genid182 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit19
 
 <http://purl.org/ontohgis#settlement_unit19> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_1001> , <http://purl.org/ontohgis#settlement_unit33> , :settlement_unit1000 , :settlement_unit3003 , _:genid183 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_1001> , <http://purl.org/ontohgis#settlement_unit33> , :settlement_unit1000 , :settlement_unit3003 , _:genid190 .
 
-_:genid183 a owl:Restriction ;
+_:genid190 a owl:Restriction ;
 	owl:onProperty obo:BFO_0000050 ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit132> .
 
-<http://purl.org/ontohgis#settlement_unit19> rdfs:subClassOf _:genid184 .
+<http://purl.org/ontohgis#settlement_unit19> rdfs:subClassOf _:genid191 .
 
-_:genid184 a owl:Restriction ;
+_:genid191 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function3> .
 
-<http://purl.org/ontohgis#settlement_unit19> rdfs:subClassOf _:genid185 .
+<http://purl.org/ontohgis#settlement_unit19> rdfs:subClassOf _:genid192 .
 
-_:genid185 a owl:Restriction ;
+_:genid192 a owl:Restriction ;
 	owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
 	owl:hasValue <http://www.geonames.org/ontology#S.MSTY> .
 
@@ -2163,15 +2209,15 @@ _:genid185 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit2
 
 <http://purl.org/ontohgis#settlement_unit2> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , :settlement_unit1000 , _:genid186 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , :settlement_unit1000 , _:genid193 .
 
-_:genid186 a owl:Restriction ;
+_:genid193 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function1> .
 
-<http://purl.org/ontohgis#settlement_unit2> rdfs:subClassOf _:genid187 .
+<http://purl.org/ontohgis#settlement_unit2> rdfs:subClassOf _:genid194 .
 
-_:genid187 a owl:Restriction ;
+_:genid194 a owl:Restriction ;
 	owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
 	owl:hasValue <http://www.geonames.org/ontology#P.PPLF> .
 
@@ -2206,21 +2252,21 @@ _:genid187 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit21
 
 <http://purl.org/ontohgis#settlement_unit21> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_500> , <http://purl.org/ontohgis#settlement_unit33> , :settlement_unit3003 , _:genid188 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_500> , <http://purl.org/ontohgis#settlement_unit33> , :settlement_unit3003 , _:genid195 .
 
-_:genid188 a owl:Restriction ;
+_:genid195 a owl:Restriction ;
 	owl:onProperty obo:BFO_0000051 ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit137> .
 
-<http://purl.org/ontohgis#settlement_unit21> rdfs:subClassOf _:genid189 .
+<http://purl.org/ontohgis#settlement_unit21> rdfs:subClassOf _:genid196 .
 
-_:genid189 a owl:Restriction ;
+_:genid196 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function8> .
 
-<http://purl.org/ontohgis#settlement_unit21> rdfs:subClassOf _:genid190 .
+<http://purl.org/ontohgis#settlement_unit21> rdfs:subClassOf _:genid197 .
 
-_:genid190 a owl:Restriction ;
+_:genid197 a owl:Restriction ;
 	owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
 	owl:hasValue <http://www.geonames.org/ontology#S.MN> .
 
@@ -2240,9 +2286,9 @@ _:genid190 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit22
 
 <http://purl.org/ontohgis#settlement_unit22> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_1001> , :settlement_unit1000 , _:genid191 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_1001> , :settlement_unit1000 , _:genid198 .
 
-_:genid191 a owl:Restriction ;
+_:genid198 a owl:Restriction ;
 	owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
 	owl:hasValue <http://www.geonames.org/ontology#S.BRKS> .
 
@@ -2253,15 +2299,15 @@ _:genid191 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit23
 
 <http://purl.org/ontohgis#settlement_unit23> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_1001> , :settlement_unit3003 , _:genid192 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_1001> , :settlement_unit3003 , _:genid199 .
 
-_:genid192 a owl:Restriction ;
+_:genid199 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function9> .
 
-<http://purl.org/ontohgis#settlement_unit23> rdfs:subClassOf _:genid193 .
+<http://purl.org/ontohgis#settlement_unit23> rdfs:subClassOf _:genid200 .
 
-_:genid193 a owl:Restriction ;
+_:genid200 a owl:Restriction ;
 	owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
 	owl:hasValue <http://www.geonames.org/ontology#S.LTHSE> .
 
@@ -2279,9 +2325,9 @@ _:genid193 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit25
 
 <http://purl.org/ontohgis#settlement_unit25> a owl:Class ;
-	rdfs:subClassOf :settlement_unit1000 , _:genid194 .
+	rdfs:subClassOf :settlement_unit1000 , _:genid201 .
 
-_:genid194 a owl:Restriction ;
+_:genid201 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function7> .
 
@@ -2300,15 +2346,15 @@ _:genid194 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit27
 
 <http://purl.org/ontohgis#settlement_unit27> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_1001> , :settlement_unit1000 , :settlement_unit3003 , _:genid195 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_1001> , :settlement_unit1000 , :settlement_unit3003 , _:genid202 .
 
-_:genid195 a owl:Restriction ;
+_:genid202 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function4> .
 
-<http://purl.org/ontohgis#settlement_unit27> rdfs:subClassOf _:genid196 .
+<http://purl.org/ontohgis#settlement_unit27> rdfs:subClassOf _:genid203 .
 
-_:genid196 a owl:Restriction ;
+_:genid203 a owl:Restriction ;
 	owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
 	owl:hasValue <http://www.geonames.org/ontology#S.STNF> .
 
@@ -2327,9 +2373,9 @@ _:genid196 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit28
 
 <http://purl.org/ontohgis#settlement_unit28> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit3> , _:genid197 .
+	rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit3> , _:genid204 .
 
-_:genid197 a owl:Restriction ;
+_:genid204 a owl:Restriction ;
 	owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
 	owl:hasValue <http://www.geonames.org/ontology#P.PPL> .
 
@@ -2349,15 +2395,15 @@ _:genid197 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit3
 
 <http://purl.org/ontohgis#settlement_unit3> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , :settlement_unit1000 , :settlement_unit3004 , :settlement_unit3007 , _:genid198 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , :settlement_unit1000 , :settlement_unit3004 , :settlement_unit3007 , _:genid205 .
 
-_:genid198 a owl:Restriction ;
+_:genid205 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function3> .
 
-<http://purl.org/ontohgis#settlement_unit3> rdfs:subClassOf _:genid199 .
+<http://purl.org/ontohgis#settlement_unit3> rdfs:subClassOf _:genid206 .
 
-_:genid199 a owl:Restriction ;
+_:genid206 a owl:Restriction ;
 	owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
 	owl:hasValue <http://www.geonames.org/ontology#P.PPL> .
 
@@ -2377,9 +2423,9 @@ _:genid199 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit33
 
 <http://purl.org/ontohgis#settlement_unit33> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_32> , _:genid200 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_32> , _:genid207 .
 
-_:genid200 a owl:Restriction ;
+_:genid207 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function3> .
 
@@ -2398,26 +2444,26 @@ _:genid200 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit34
 
 <http://purl.org/ontohgis#settlement_unit34> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , :settlement_unit1000 , :settlement_unit3008 , _:genid201 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , :settlement_unit1000 , :settlement_unit3008 , _:genid208 .
 
-_:genid201 a owl:Restriction ;
+_:genid208 a owl:Restriction ;
 	owl:onProperty obo:BFO_0000050 ;
-	owl:someValuesFrom _:genid202 .
+	owl:someValuesFrom _:genid209 .
 
-_:genid202 a owl:Class ;
-	owl:unionOf _:genid204 .
+_:genid209 a owl:Class ;
+	owl:unionOf _:genid211 .
 
-_:genid204 a rdf:List ;
+_:genid211 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#settlement_unit2> ;
-	rdf:rest _:genid203 .
+	rdf:rest _:genid210 .
 
-_:genid203 a rdf:List ;
+_:genid210 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#settlement_unit3> ;
 	rdf:rest rdf:nil .
 
-<http://purl.org/ontohgis#settlement_unit34> rdfs:subClassOf _:genid205 .
+<http://purl.org/ontohgis#settlement_unit34> rdfs:subClassOf _:genid212 .
 
-_:genid205 a owl:Restriction ;
+_:genid212 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function3> .
 
@@ -2435,9 +2481,9 @@ _:genid205 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit35
 
 <http://purl.org/ontohgis#settlement_unit35> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit33> , _:genid206 .
+	rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit33> , _:genid213 .
 
-_:genid206 a owl:Restriction ;
+_:genid213 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function2> .
 
@@ -2456,9 +2502,9 @@ _:genid206 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit36
 
 <http://purl.org/ontohgis#settlement_unit36> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit33> , _:genid207 .
+	rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit33> , _:genid214 .
 
-_:genid207 a owl:Restriction ;
+_:genid214 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function4> .
 
@@ -2476,15 +2522,15 @@ _:genid207 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit37
 
 <http://purl.org/ontohgis#settlement_unit37> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit33> , _:genid208 .
+	rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit33> , _:genid215 .
 
-_:genid208 a owl:Restriction ;
+_:genid215 a owl:Restriction ;
 	owl:onProperty oc:hasPredecessorEntityManifestation ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit3> .
 
-<http://purl.org/ontohgis#settlement_unit37> rdfs:subClassOf _:genid209 .
+<http://purl.org/ontohgis#settlement_unit37> rdfs:subClassOf _:genid216 .
 
-_:genid209 a owl:Restriction ;
+_:genid216 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function3> .
 
@@ -2502,9 +2548,9 @@ _:genid209 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit38
 
 <http://purl.org/ontohgis#settlement_unit38> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit33> , _:genid210 .
+	rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit33> , _:genid217 .
 
-_:genid210 a owl:Restriction ;
+_:genid217 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function2> .
 
@@ -2522,9 +2568,9 @@ _:genid210 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit41
 
 <http://purl.org/ontohgis#settlement_unit41> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_1001> , :settlement_unit1000 , :settlement_unit3003 , _:genid211 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_1001> , :settlement_unit1000 , :settlement_unit3003 , _:genid218 .
 
-_:genid211 a owl:Restriction ;
+_:genid218 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function3> .
 
@@ -2543,9 +2589,9 @@ _:genid211 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit43
 
 <http://purl.org/ontohgis#settlement_unit43> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , :settlement_unit1000 , :settlement_unit3008 , _:genid212 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , :settlement_unit1000 , :settlement_unit3008 , _:genid219 .
 
-_:genid212 a owl:Restriction ;
+_:genid219 a owl:Restriction ;
 	owl:onProperty obo:BFO_0000050 ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit3> .
 
@@ -2581,21 +2627,21 @@ _:genid212 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit45
 
 <http://purl.org/ontohgis#settlement_unit45> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , <http://purl.org/ontohgis#object_502> , :settlement_unit3003 , _:genid213 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , <http://purl.org/ontohgis#object_502> , :settlement_unit3003 , _:genid220 .
 
-_:genid213 a owl:Restriction ;
+_:genid220 a owl:Restriction ;
 	owl:onProperty obo:BFO_0000051 ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit119> .
 
-<http://purl.org/ontohgis#settlement_unit45> rdfs:subClassOf _:genid214 .
+<http://purl.org/ontohgis#settlement_unit45> rdfs:subClassOf _:genid221 .
 
-_:genid214 a owl:Restriction ;
+_:genid221 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function8> .
 
-<http://purl.org/ontohgis#settlement_unit45> rdfs:subClassOf _:genid215 .
+<http://purl.org/ontohgis#settlement_unit45> rdfs:subClassOf _:genid222 .
 
-_:genid215 a owl:Restriction ;
+_:genid222 a owl:Restriction ;
 	owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
 	owl:hasValue <http://www.geonames.org/ontology#S.RSTP> .
 
@@ -2623,15 +2669,15 @@ _:genid215 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit47
 
 <http://purl.org/ontohgis#settlement_unit47> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_500> , <http://purl.org/ontohgis#settlement_unit33> , :settlement_unit3003 , _:genid216 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_500> , <http://purl.org/ontohgis#settlement_unit33> , :settlement_unit3003 , _:genid223 .
 
-_:genid216 a owl:Restriction ;
+_:genid223 a owl:Restriction ;
 	owl:onProperty obo:BFO_0000051 ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit123> .
 
-<http://purl.org/ontohgis#settlement_unit47> rdfs:subClassOf _:genid217 .
+<http://purl.org/ontohgis#settlement_unit47> rdfs:subClassOf _:genid224 .
 
-_:genid217 a owl:Restriction ;
+_:genid224 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function4> .
 
@@ -2650,21 +2696,21 @@ _:genid217 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit48
 
 <http://purl.org/ontohgis#settlement_unit48> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , <http://purl.org/ontohgis#object_502> , _:genid218 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , <http://purl.org/ontohgis#object_502> , _:genid225 .
 
-_:genid218 a owl:Restriction ;
+_:genid225 a owl:Restriction ;
 	owl:onProperty obo:BFO_0000051 ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit118> .
 
-<http://purl.org/ontohgis#settlement_unit48> rdfs:subClassOf _:genid219 .
+<http://purl.org/ontohgis#settlement_unit48> rdfs:subClassOf _:genid226 .
 
-_:genid219 a owl:Restriction ;
+_:genid226 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function8> .
 
-<http://purl.org/ontohgis#settlement_unit48> rdfs:subClassOf _:genid220 .
+<http://purl.org/ontohgis#settlement_unit48> rdfs:subClassOf _:genid227 .
 
-_:genid220 a owl:Restriction ;
+_:genid227 a owl:Restriction ;
 	owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
 	owl:hasValue <http://www.geonames.org/ontology#S.RSTN> .
 
@@ -2684,21 +2730,21 @@ _:genid220 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit50
 
 <http://purl.org/ontohgis#settlement_unit50> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_500> , :settlement_unit3003 , _:genid221 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_500> , :settlement_unit3003 , _:genid228 .
 
-_:genid221 a owl:Restriction ;
+_:genid228 a owl:Restriction ;
 	owl:onProperty obo:BFO_0000051 ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit133> .
 
-<http://purl.org/ontohgis#settlement_unit50> rdfs:subClassOf _:genid222 .
+<http://purl.org/ontohgis#settlement_unit50> rdfs:subClassOf _:genid229 .
 
-_:genid222 a owl:Restriction ;
+_:genid229 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function8> .
 
-<http://purl.org/ontohgis#settlement_unit50> rdfs:subClassOf _:genid223 .
+<http://purl.org/ontohgis#settlement_unit50> rdfs:subClassOf _:genid230 .
 
-_:genid223 a owl:Restriction ;
+_:genid230 a owl:Restriction ;
 	owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
 	owl:hasValue <http://www.geonames.org/ontology#S.MLSW> .
 
@@ -2717,15 +2763,15 @@ _:genid223 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit51
 
 <http://purl.org/ontohgis#settlement_unit51> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_500> , :settlement_unit3003 , _:genid224 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_500> , :settlement_unit3003 , _:genid231 .
 
-_:genid224 a owl:Restriction ;
+_:genid231 a owl:Restriction ;
 	owl:onProperty obo:BFO_0000051 ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit134> .
 
-<http://purl.org/ontohgis#settlement_unit51> rdfs:subClassOf _:genid225 .
+<http://purl.org/ontohgis#settlement_unit51> rdfs:subClassOf _:genid232 .
 
-_:genid225 a owl:Restriction ;
+_:genid232 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function8> .
 
@@ -2743,15 +2789,15 @@ _:genid225 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit52
 
 <http://purl.org/ontohgis#settlement_unit52> a owl:Class ;
-	rdfs:subClassOf :settlement_unit1000 , _:genid226 .
+	rdfs:subClassOf :settlement_unit1000 , _:genid233 .
 
-_:genid226 a owl:Restriction ;
+_:genid233 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function5> .
 
-<http://purl.org/ontohgis#settlement_unit52> rdfs:subClassOf _:genid227 .
+<http://purl.org/ontohgis#settlement_unit52> rdfs:subClassOf _:genid234 .
 
-_:genid227 a owl:Restriction ;
+_:genid234 a owl:Restriction ;
 	owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
 	owl:hasValue <http://www.geonames.org/ontology#S.FT> .
 
@@ -2771,15 +2817,15 @@ _:genid227 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit53
 
 <http://purl.org/ontohgis#settlement_unit53> a owl:Class ;
-	rdfs:subClassOf :settlement_unit1000 , _:genid228 .
+	rdfs:subClassOf :settlement_unit1000 , _:genid235 .
 
-_:genid228 a owl:Restriction ;
+_:genid235 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function10> .
 
-<http://purl.org/ontohgis#settlement_unit53> rdfs:subClassOf _:genid229 .
+<http://purl.org/ontohgis#settlement_unit53> rdfs:subClassOf _:genid236 .
 
-_:genid229 a owl:Restriction ;
+_:genid236 a owl:Restriction ;
 	owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
 	owl:hasValue <http://www.geonames.org/ontology#S.SPA> .
 
@@ -2797,9 +2843,9 @@ _:genid229 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit54
 
 <http://purl.org/ontohgis#settlement_unit54> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_100> , _:genid230 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_100> , _:genid237 .
 
-_:genid230 a owl:Restriction ;
+_:genid237 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function8> .
 
@@ -2818,9 +2864,9 @@ _:genid230 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit55
 
 <http://purl.org/ontohgis#settlement_unit55> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_1001> , :settlement_unit1000 , _:genid231 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_1001> , :settlement_unit1000 , _:genid238 .
 
-_:genid231 a owl:Restriction ;
+_:genid238 a owl:Restriction ;
 	owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
 	owl:hasValue <http://www.geonames.org/ontology#S.PRN> .
 
@@ -2831,9 +2877,9 @@ _:genid231 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit56
 
 <http://purl.org/ontohgis#settlement_unit56> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , :settlement_unit3003 , _:genid232 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , :settlement_unit3003 , _:genid239 .
 
-_:genid232 a owl:Restriction ;
+_:genid239 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function1> .
 
@@ -2860,24 +2906,24 @@ _:genid232 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit60
 
 <http://purl.org/ontohgis#settlement_unit60> a owl:Class ;
-	owl:equivalentClass _:genid233 .
+	owl:equivalentClass _:genid240 .
 
-_:genid233 owl:intersectionOf _:genid236 .
+_:genid240 owl:intersectionOf _:genid243 .
 
-_:genid236 a rdf:List ;
+_:genid243 a rdf:List ;
 	rdf:first :settlement_unit3008 ;
-	rdf:rest _:genid234 .
+	rdf:rest _:genid241 .
 
-_:genid234 a rdf:List ;
-	rdf:first _:genid235 .
+_:genid241 a rdf:List ;
+	rdf:first _:genid242 .
 
-_:genid235 a owl:Restriction ;
+_:genid242 a owl:Restriction ;
 	owl:onProperty :settlementIsPartOfSettlement ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit20> .
 
-_:genid234 rdf:rest rdf:nil .
+_:genid241 rdf:rest rdf:nil .
 
-_:genid233 a owl:Class .
+_:genid240 a owl:Class .
 
 <http://purl.org/ontohgis#settlement_unit60> rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , :settlement_unit1000 , :settlement_unit3008 ;
 	dc:creator <http://purl.org/ontohgis#person_7> , <http://purl.org/ontohgis#person_8> ;
@@ -2893,28 +2939,28 @@ _:genid233 a owl:Class .
 # http://purl.org/ontohgis#settlement_unit61
 
 <http://purl.org/ontohgis#settlement_unit61> a owl:Class ;
-	owl:equivalentClass _:genid237 .
+	owl:equivalentClass _:genid244 .
 
-_:genid237 owl:intersectionOf _:genid240 .
+_:genid244 owl:intersectionOf _:genid247 .
 
-_:genid240 a rdf:List ;
+_:genid247 a rdf:List ;
 	rdf:first :settlement_unit3008 ;
-	rdf:rest _:genid238 .
+	rdf:rest _:genid245 .
 
-_:genid238 a rdf:List ;
-	rdf:first _:genid239 .
+_:genid245 a rdf:List ;
+	rdf:first _:genid246 .
 
-_:genid239 a owl:Restriction ;
+_:genid246 a owl:Restriction ;
 	owl:onProperty :settlementIsPartOfSettlement ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit3> .
 
-_:genid238 rdf:rest rdf:nil .
+_:genid245 rdf:rest rdf:nil .
 
-_:genid237 a owl:Class .
+_:genid244 a owl:Class .
 
-<http://purl.org/ontohgis#settlement_unit61> rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , :settlement_unit1000 , :settlement_unit3008 , _:genid241 .
+<http://purl.org/ontohgis#settlement_unit61> rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , :settlement_unit1000 , :settlement_unit3008 , _:genid248 .
 
-_:genid241 a owl:Restriction ;
+_:genid248 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function3> .
 
@@ -2932,28 +2978,28 @@ _:genid241 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit62
 
 <http://purl.org/ontohgis#settlement_unit62> a owl:Class ;
-	owl:equivalentClass _:genid242 .
+	owl:equivalentClass _:genid249 .
 
-_:genid242 owl:intersectionOf _:genid245 .
+_:genid249 owl:intersectionOf _:genid252 .
 
-_:genid245 a rdf:List ;
+_:genid252 a rdf:List ;
 	rdf:first :settlement_unit3008 ;
-	rdf:rest _:genid243 .
+	rdf:rest _:genid250 .
 
-_:genid243 a rdf:List ;
-	rdf:first _:genid244 .
+_:genid250 a rdf:List ;
+	rdf:first _:genid251 .
 
-_:genid244 a owl:Restriction ;
+_:genid251 a owl:Restriction ;
 	owl:onProperty :settlementIsPartOfSettlement ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit33> .
 
-_:genid243 rdf:rest rdf:nil .
+_:genid250 rdf:rest rdf:nil .
 
-_:genid242 a owl:Class .
+_:genid249 a owl:Class .
 
-<http://purl.org/ontohgis#settlement_unit62> rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , :settlement_unit1000 , :settlement_unit3008 , _:genid246 .
+<http://purl.org/ontohgis#settlement_unit62> rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , :settlement_unit1000 , :settlement_unit3008 , _:genid253 .
 
-_:genid246 a owl:Restriction ;
+_:genid253 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function3> .
 
@@ -2971,28 +3017,28 @@ _:genid246 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit63
 
 <http://purl.org/ontohgis#settlement_unit63> a owl:Class ;
-	owl:equivalentClass _:genid247 .
+	owl:equivalentClass _:genid254 .
 
-_:genid247 owl:intersectionOf _:genid250 .
+_:genid254 owl:intersectionOf _:genid257 .
 
-_:genid250 a rdf:List ;
+_:genid257 a rdf:List ;
 	rdf:first :settlement_unit3008 ;
-	rdf:rest _:genid248 .
+	rdf:rest _:genid255 .
 
-_:genid248 a rdf:List ;
-	rdf:first _:genid249 .
+_:genid255 a rdf:List ;
+	rdf:first _:genid256 .
 
-_:genid249 a owl:Restriction ;
+_:genid256 a owl:Restriction ;
 	owl:onProperty :settlementIsPartOfSettlement ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit2> .
 
-_:genid248 rdf:rest rdf:nil .
+_:genid255 rdf:rest rdf:nil .
 
-_:genid247 a owl:Class .
+_:genid254 a owl:Class .
 
-<http://purl.org/ontohgis#settlement_unit63> rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , :settlement_unit1000 , :settlement_unit3008 , _:genid251 .
+<http://purl.org/ontohgis#settlement_unit63> rdfs:subClassOf <http://purl.org/ontohgis#object_1000> , :settlement_unit1000 , :settlement_unit3008 , _:genid258 .
 
-_:genid251 a owl:Restriction ;
+_:genid258 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function1> .
 
@@ -3010,24 +3056,24 @@ _:genid251 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit64
 
 <http://purl.org/ontohgis#settlement_unit64> a owl:Class ;
-	owl:equivalentClass _:genid252 .
+	owl:equivalentClass _:genid259 .
 
-_:genid252 owl:intersectionOf _:genid255 .
+_:genid259 owl:intersectionOf _:genid262 .
 
-_:genid255 a rdf:List ;
+_:genid262 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#settlement_unit20> ;
-	rdf:rest _:genid253 .
+	rdf:rest _:genid260 .
 
-_:genid253 a rdf:List ;
-	rdf:first _:genid254 .
+_:genid260 a rdf:List ;
+	rdf:first _:genid261 .
 
-_:genid254 a owl:Restriction ;
+_:genid261 a owl:Restriction ;
 	owl:onProperty :settlementIsPartOfSettlement ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit20> .
 
-_:genid253 rdf:rest rdf:nil .
+_:genid260 rdf:rest rdf:nil .
 
-_:genid252 a owl:Class .
+_:genid259 a owl:Class .
 
 <http://purl.org/ontohgis#settlement_unit64> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit20> , <http://purl.org/ontohgis#settlement_unit60> , :settlement_unit3008 ;
 	dc:creator <http://purl.org/ontohgis#person_7> , <http://purl.org/ontohgis#person_8> ;
@@ -3044,28 +3090,28 @@ _:genid252 a owl:Class .
 # http://purl.org/ontohgis#settlement_unit65
 
 <http://purl.org/ontohgis#settlement_unit65> a owl:Class ;
-	owl:equivalentClass _:genid256 .
+	owl:equivalentClass _:genid263 .
 
-_:genid256 owl:intersectionOf _:genid259 .
+_:genid263 owl:intersectionOf _:genid266 .
 
-_:genid259 a rdf:List ;
+_:genid266 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#settlement_unit20> ;
-	rdf:rest _:genid257 .
+	rdf:rest _:genid264 .
 
-_:genid257 a rdf:List ;
-	rdf:first _:genid258 .
+_:genid264 a rdf:List ;
+	rdf:first _:genid265 .
 
-_:genid258 a owl:Restriction ;
+_:genid265 a owl:Restriction ;
 	owl:onProperty :settlementIsPartOfSettlement ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit33> .
 
-_:genid257 rdf:rest rdf:nil .
+_:genid264 rdf:rest rdf:nil .
 
-_:genid256 a owl:Class .
+_:genid263 a owl:Class .
 
-<http://purl.org/ontohgis#settlement_unit65> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit20> , <http://purl.org/ontohgis#settlement_unit62> , :settlement_unit3008 , _:genid260 .
+<http://purl.org/ontohgis#settlement_unit65> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit20> , <http://purl.org/ontohgis#settlement_unit62> , :settlement_unit3008 , _:genid267 .
 
-_:genid260 a owl:Restriction ;
+_:genid267 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function3> .
 
@@ -3082,28 +3128,28 @@ _:genid260 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit66
 
 <http://purl.org/ontohgis#settlement_unit66> a owl:Class ;
-	owl:equivalentClass _:genid261 .
+	owl:equivalentClass _:genid268 .
 
-_:genid261 owl:intersectionOf _:genid264 .
+_:genid268 owl:intersectionOf _:genid271 .
 
-_:genid264 a rdf:List ;
+_:genid271 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#settlement_unit20> ;
-	rdf:rest _:genid262 .
+	rdf:rest _:genid269 .
 
-_:genid262 a rdf:List ;
-	rdf:first _:genid263 .
+_:genid269 a rdf:List ;
+	rdf:first _:genid270 .
 
-_:genid263 a owl:Restriction ;
+_:genid270 a owl:Restriction ;
 	owl:onProperty :settlementIsPartOfSettlement ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit2> .
 
-_:genid262 rdf:rest rdf:nil .
+_:genid269 rdf:rest rdf:nil .
 
-_:genid261 a owl:Class .
+_:genid268 a owl:Class .
 
-<http://purl.org/ontohgis#settlement_unit66> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit20> , <http://purl.org/ontohgis#settlement_unit63> , :settlement_unit3008 , _:genid265 .
+<http://purl.org/ontohgis#settlement_unit66> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit20> , <http://purl.org/ontohgis#settlement_unit63> , :settlement_unit3008 , _:genid272 .
 
-_:genid265 a owl:Restriction ;
+_:genid272 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function1> .
 
@@ -3121,28 +3167,28 @@ _:genid265 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit68
 
 <http://purl.org/ontohgis#settlement_unit68> a owl:Class ;
-	owl:equivalentClass _:genid266 .
+	owl:equivalentClass _:genid273 .
 
-_:genid266 owl:intersectionOf _:genid269 .
+_:genid273 owl:intersectionOf _:genid276 .
 
-_:genid269 a rdf:List ;
+_:genid276 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#settlement_unit33> ;
-	rdf:rest _:genid267 .
+	rdf:rest _:genid274 .
 
-_:genid267 a rdf:List ;
-	rdf:first _:genid268 .
+_:genid274 a rdf:List ;
+	rdf:first _:genid275 .
 
-_:genid268 a owl:Restriction ;
+_:genid275 a owl:Restriction ;
 	owl:onProperty :settlementIsPartOfSettlement ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit20> .
 
-_:genid267 rdf:rest rdf:nil .
+_:genid274 rdf:rest rdf:nil .
 
-_:genid266 a owl:Class .
+_:genid273 a owl:Class .
 
-<http://purl.org/ontohgis#settlement_unit68> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit33> , <http://purl.org/ontohgis#settlement_unit60> , :settlement_unit3008 , _:genid270 .
+<http://purl.org/ontohgis#settlement_unit68> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit33> , <http://purl.org/ontohgis#settlement_unit60> , :settlement_unit3008 , _:genid277 .
 
-_:genid270 a owl:Restriction ;
+_:genid277 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function3> .
 
@@ -3159,28 +3205,28 @@ _:genid270 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit69
 
 <http://purl.org/ontohgis#settlement_unit69> a owl:Class ;
-	owl:equivalentClass _:genid271 .
+	owl:equivalentClass _:genid278 .
 
-_:genid271 owl:intersectionOf _:genid274 .
+_:genid278 owl:intersectionOf _:genid281 .
 
-_:genid274 a rdf:List ;
+_:genid281 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#settlement_unit36> ;
-	rdf:rest _:genid272 .
+	rdf:rest _:genid279 .
 
-_:genid272 a rdf:List ;
-	rdf:first _:genid273 .
+_:genid279 a rdf:List ;
+	rdf:first _:genid280 .
 
-_:genid273 a owl:Restriction ;
+_:genid280 a owl:Restriction ;
 	owl:onProperty :settlementIsPartOfSettlement ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit2> .
 
-_:genid272 rdf:rest rdf:nil .
+_:genid279 rdf:rest rdf:nil .
 
-_:genid271 a owl:Class .
+_:genid278 a owl:Class .
 
-<http://purl.org/ontohgis#settlement_unit69> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit36> , <http://purl.org/ontohgis#settlement_unit71> , _:genid275 .
+<http://purl.org/ontohgis#settlement_unit69> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit36> , <http://purl.org/ontohgis#settlement_unit71> , _:genid282 .
 
-_:genid275 a owl:Restriction ;
+_:genid282 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function4> .
 
@@ -3212,25 +3258,25 @@ _:genid275 a owl:Restriction ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel> "folwark (pl), dom (pl), mieszkanie (pl), słup (pl), majątek (pl), majętność (pl), posiadłość ziemska (pl), pałac (pl), zamek (pl), rezydencja (pl), mons seu fortalicium (lat), curia (lat), dworzecz (określenie staropolskie), czwierdza (określenie staropolskie), curiaculum (lat), aula (lat), Hof (de), Herrenhof (de), Gutshof (de)" ;
 	<http://www.w3.org/2004/02/skos/core#prefLabel> "dwór - obiekt"@pl , "manor"@en .
 
-_:genid276 a owl:Axiom ;
+_:genid283 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit7> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "'miejsce pod niebem zagrodzone przy pomieszkanu, podworze (por. dziedziniec)’ ‘sądy za dworem królewskim, przy boku króla odprawujące się’ ‘w wiekach dawnych, zjazd króla na różne miejsca, gdzie święta uroczystsze odbywał, obywatelów zgromadzał, sprawy sądził, okoliczności powiatowe ułatwiał, igrzyska i uczty dawał’ ‘dwór królewski, zgromadzenie u króla, pokoje’"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_1> .
 
-_:genid277 a owl:Axiom ;
+_:genid284 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit7> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "'siedziba panującego lub księcia’ ‘ludzie otaczający panującego lub księcia’ ‘obszerny dom mieszkalny, charakterystyczny dla dawnych posiadłości ziemskich’ ‘majątek ziemski z domem i zabudowaniami’ ‘właściciele posiadłości ziemskiej, jej mieszkańcy, administracja’ ‘otwarta przestrzeń na zewnątrz domu’"@pl ;
 	rdfs:isDefinedBy :document_4 .
 
-_:genid278 a owl:Axiom ;
+_:genid285 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit7> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "‘dom mieszkalny, budynek; siedziba szlachcica, właściciela majątku ziemskiego; majętność, posiadłość ziemska’ ‘miejsce czasowego pobytu; lokal wynajęty (może dom zajezdny)’ ‘pałac, zamek, rezydencja; ewentualnie miejsce czasowego pobytu panującego; siedziba zwierzchnika (magnata) świeckiego lub duchownego’ ‘miejsce posiedzeń senatu lub sądu w starożytnym Rzymie; także sama rada senatu’ ‘otoczenie, środowisko skupiające się dokoła monarchy lub magnata, duchownego; dworzanie, urzędnicy, świta dworska, orszak; ogólnie: rząd danego państwa z panującym na czele’ ‘siły zbrojne nadworne, żołnierze straży przybocznej monarchy’ ‘praw. sąd królewski, w którym orzekał sam król osobiście przy asyście dygnitarzy królewskich lub zlecał rozpatrzenie sprawy i wydanie wyroku wyznaczonym dygnitarzom znajdującym się w danym momencie „na dworze”, to jest w miejscu pobytu władcy’ ‘miejsce na zewnątrz domu, otaczająca dom; podwórze, dziedziniec, przestrzeń pod gołym niebem’"@pl ;
 	rdfs:isDefinedBy <http://purl.org/ontohgis#document_2> .
 
-_:genid279 a owl:Axiom ;
+_:genid286 a owl:Axiom ;
 	owl:annotatedSource <http://purl.org/ontohgis#settlement_unit7> ;
 	owl:annotatedProperty rdfs:seeAlso ;
 	owl:annotatedTarget "‘przestrzeń otaczając dom, otwarte powietrze, miejsce pod gołym niebem’ ‘podwórze, dziedziniec’ ‘dom właściciela majątku ziemskiego, mieszkanie dziedzica’ ‘gospodarstwo dworskie, folwark’ (przenośnie) ‘mieszkańcy dworu wiejskiego, szczególnie dziedzic z rodziną, państwo’ ‘dom, mieszkanie’ ‘oficjaliści panów, szczególnie wyżsi, dworzanie’ ‘miejsce pobytu albo mieszkanie panującego albo magnata’ ‘panujący i jego otoczenie’ ‘służba dworska’ ‘zebranie u króla, sąd dworski, żołnierze nadworni’"@pl ;
@@ -3239,28 +3285,28 @@ _:genid279 a owl:Axiom ;
 # http://purl.org/ontohgis#settlement_unit70
 
 <http://purl.org/ontohgis#settlement_unit70> a owl:Class ;
-	owl:equivalentClass _:genid280 .
+	owl:equivalentClass _:genid287 .
 
-_:genid280 owl:intersectionOf _:genid283 .
+_:genid287 owl:intersectionOf _:genid290 .
 
-_:genid283 a rdf:List ;
+_:genid290 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#settlement_unit33> ;
-	rdf:rest _:genid281 .
+	rdf:rest _:genid288 .
 
-_:genid281 a rdf:List ;
-	rdf:first _:genid282 .
+_:genid288 a rdf:List ;
+	rdf:first _:genid289 .
 
-_:genid282 a owl:Restriction ;
+_:genid289 a owl:Restriction ;
 	owl:onProperty :settlementIsPartOfSettlement ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit33> .
 
-_:genid281 rdf:rest rdf:nil .
+_:genid288 rdf:rest rdf:nil .
 
-_:genid280 a owl:Class .
+_:genid287 a owl:Class .
 
-<http://purl.org/ontohgis#settlement_unit70> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit33> , <http://purl.org/ontohgis#settlement_unit62> , _:genid284 .
+<http://purl.org/ontohgis#settlement_unit70> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit33> , <http://purl.org/ontohgis#settlement_unit62> , _:genid291 .
 
-_:genid284 a owl:Restriction ;
+_:genid291 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function3> .
 
@@ -3278,28 +3324,28 @@ _:genid284 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit71
 
 <http://purl.org/ontohgis#settlement_unit71> a owl:Class ;
-	owl:equivalentClass _:genid285 .
+	owl:equivalentClass _:genid292 .
 
-_:genid285 owl:intersectionOf _:genid288 .
+_:genid292 owl:intersectionOf _:genid295 .
 
-_:genid288 a rdf:List ;
+_:genid295 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#settlement_unit33> ;
-	rdf:rest _:genid286 .
+	rdf:rest _:genid293 .
 
-_:genid286 a rdf:List ;
-	rdf:first _:genid287 .
+_:genid293 a rdf:List ;
+	rdf:first _:genid294 .
 
-_:genid287 a owl:Restriction ;
+_:genid294 a owl:Restriction ;
 	owl:onProperty :settlementIsPartOfSettlement ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit2> .
 
-_:genid286 rdf:rest rdf:nil .
+_:genid293 rdf:rest rdf:nil .
 
-_:genid285 a owl:Class .
+_:genid292 a owl:Class .
 
-<http://purl.org/ontohgis#settlement_unit71> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit33> , <http://purl.org/ontohgis#settlement_unit63> , :settlement_unit3008 , _:genid289 .
+<http://purl.org/ontohgis#settlement_unit71> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit33> , <http://purl.org/ontohgis#settlement_unit63> , :settlement_unit3008 , _:genid296 .
 
-_:genid289 a owl:Restriction ;
+_:genid296 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function3> .
 
@@ -3317,28 +3363,28 @@ _:genid289 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit72
 
 <http://purl.org/ontohgis#settlement_unit72> a owl:Class ;
-	owl:equivalentClass _:genid290 .
+	owl:equivalentClass _:genid297 .
 
-_:genid290 owl:intersectionOf _:genid293 .
+_:genid297 owl:intersectionOf _:genid300 .
 
-_:genid293 a rdf:List ;
+_:genid300 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#settlement_unit34> ;
-	rdf:rest _:genid291 .
+	rdf:rest _:genid298 .
 
-_:genid291 a rdf:List ;
-	rdf:first _:genid292 .
+_:genid298 a rdf:List ;
+	rdf:first _:genid299 .
 
-_:genid292 a owl:Restriction ;
+_:genid299 a owl:Restriction ;
 	owl:onProperty :settlementIsPartOfSettlement ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit2> .
 
-_:genid291 rdf:rest rdf:nil .
+_:genid298 rdf:rest rdf:nil .
 
-_:genid290 a owl:Class .
+_:genid297 a owl:Class .
 
-<http://purl.org/ontohgis#settlement_unit72> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit34> , :settlement_unit3008 , _:genid294 .
+<http://purl.org/ontohgis#settlement_unit72> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit34> , :settlement_unit3008 , _:genid301 .
 
-_:genid294 a owl:Restriction ;
+_:genid301 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function3> .
 
@@ -3356,28 +3402,28 @@ _:genid294 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit73
 
 <http://purl.org/ontohgis#settlement_unit73> a owl:Class ;
-	owl:equivalentClass _:genid295 .
+	owl:equivalentClass _:genid302 .
 
-_:genid295 owl:intersectionOf _:genid298 .
+_:genid302 owl:intersectionOf _:genid305 .
 
-_:genid298 a rdf:List ;
+_:genid305 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#settlement_unit44> ;
-	rdf:rest _:genid296 .
+	rdf:rest _:genid303 .
 
-_:genid296 a rdf:List ;
-	rdf:first _:genid297 .
+_:genid303 a rdf:List ;
+	rdf:first _:genid304 .
 
-_:genid297 a owl:Restriction ;
+_:genid304 a owl:Restriction ;
 	owl:onProperty :settlementIsPartOfSettlement ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit20> .
 
-_:genid296 rdf:rest rdf:nil .
+_:genid303 rdf:rest rdf:nil .
 
-_:genid295 a owl:Class .
+_:genid302 a owl:Class .
 
-<http://purl.org/ontohgis#settlement_unit73> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit44> , _:genid299 .
+<http://purl.org/ontohgis#settlement_unit73> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit44> , _:genid306 .
 
-_:genid299 a owl:Restriction ;
+_:genid306 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function1> .
 
@@ -3394,24 +3440,24 @@ _:genid299 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit74
 
 <http://purl.org/ontohgis#settlement_unit74> a owl:Class ;
-	owl:equivalentClass _:genid300 .
+	owl:equivalentClass _:genid307 .
 
-_:genid300 owl:intersectionOf _:genid303 .
+_:genid307 owl:intersectionOf _:genid310 .
 
-_:genid303 a rdf:List ;
+_:genid310 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#settlement_unit44> ;
-	rdf:rest _:genid301 .
+	rdf:rest _:genid308 .
 
-_:genid301 a rdf:List ;
-	rdf:first _:genid302 .
+_:genid308 a rdf:List ;
+	rdf:first _:genid309 .
 
-_:genid302 a owl:Restriction ;
+_:genid309 a owl:Restriction ;
 	owl:onProperty :settlementIsPartOfSettlement ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit33> .
 
-_:genid301 rdf:rest rdf:nil .
+_:genid308 rdf:rest rdf:nil .
 
-_:genid300 a owl:Class .
+_:genid307 a owl:Class .
 
 <http://purl.org/ontohgis#settlement_unit74> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit44> ;
 	dc:creator <http://purl.org/ontohgis#person_8> ;
@@ -3429,28 +3475,28 @@ _:genid300 a owl:Class .
 # http://purl.org/ontohgis#settlement_unit75
 
 <http://purl.org/ontohgis#settlement_unit75> a owl:Class ;
-	owl:equivalentClass _:genid304 .
+	owl:equivalentClass _:genid311 .
 
-_:genid304 owl:intersectionOf _:genid307 .
+_:genid311 owl:intersectionOf _:genid314 .
 
-_:genid307 a rdf:List ;
+_:genid314 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#settlement_unit44> ;
-	rdf:rest _:genid305 .
+	rdf:rest _:genid312 .
 
-_:genid305 a rdf:List ;
-	rdf:first _:genid306 .
+_:genid312 a rdf:List ;
+	rdf:first _:genid313 .
 
-_:genid306 a owl:Restriction ;
+_:genid313 a owl:Restriction ;
 	owl:onProperty :settlementIsPartOfSettlement ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit2> .
 
-_:genid305 rdf:rest rdf:nil .
+_:genid312 rdf:rest rdf:nil .
 
-_:genid304 a owl:Class .
+_:genid311 a owl:Class .
 
-<http://purl.org/ontohgis#settlement_unit75> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit44> , _:genid308 .
+<http://purl.org/ontohgis#settlement_unit75> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit44> , _:genid315 .
 
-_:genid308 a owl:Restriction ;
+_:genid315 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function1> .
 
@@ -3467,15 +3513,15 @@ _:genid308 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit76
 
 <http://purl.org/ontohgis#settlement_unit76> a owl:Class ;
-	rdfs:subClassOf :settlement_unit1000 , :settlement_unit3003 , _:genid309 .
+	rdfs:subClassOf :settlement_unit1000 , :settlement_unit3003 , _:genid316 .
 
-_:genid309 a owl:Restriction ;
+_:genid316 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function11> .
 
-<http://purl.org/ontohgis#settlement_unit76> rdfs:subClassOf _:genid310 .
+<http://purl.org/ontohgis#settlement_unit76> rdfs:subClassOf _:genid317 .
 
-_:genid310 a owl:Restriction ;
+_:genid317 a owl:Restriction ;
 	owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
 	owl:hasValue <http://www.geonames.org/ontology#S.RHSE> .
 
@@ -3494,9 +3540,9 @@ _:genid310 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit8
 
 <http://purl.org/ontohgis#settlement_unit8> a owl:Class ;
-	rdfs:subClassOf :settlement_unit1000 , _:genid311 .
+	rdfs:subClassOf :settlement_unit1000 , _:genid318 .
 
-_:genid311 a owl:Restriction ;
+_:genid318 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function3> .
 
@@ -3515,9 +3561,9 @@ _:genid311 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit80
 
 <http://purl.org/ontohgis#settlement_unit80> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit20> , _:genid312 .
+	rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit20> , _:genid319 .
 
-_:genid312 a owl:Restriction ;
+_:genid319 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function1> .
 
@@ -3534,21 +3580,21 @@ _:genid312 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit82
 
 <http://purl.org/ontohgis#settlement_unit82> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_502> , _:genid313 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_502> , _:genid320 .
 
-_:genid313 a owl:Restriction ;
+_:genid320 a owl:Restriction ;
 	owl:onProperty obo:BFO_0000051 ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit115> .
 
-<http://purl.org/ontohgis#settlement_unit82> rdfs:subClassOf _:genid314 .
+<http://purl.org/ontohgis#settlement_unit82> rdfs:subClassOf _:genid321 .
 
-_:genid314 a owl:Restriction ;
+_:genid321 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function8> .
 
-<http://purl.org/ontohgis#settlement_unit82> rdfs:subClassOf _:genid315 .
+<http://purl.org/ontohgis#settlement_unit82> rdfs:subClassOf _:genid322 .
 
-_:genid315 a owl:Restriction ;
+_:genid322 a owl:Restriction ;
 	owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
 	owl:hasValue <http://www.geonames.org/ontology#L.PRT> .
 
@@ -3566,24 +3612,24 @@ _:genid315 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit83
 
 <http://purl.org/ontohgis#settlement_unit83> a owl:Class ;
-	owl:equivalentClass _:genid316 .
+	owl:equivalentClass _:genid323 .
 
-_:genid316 owl:intersectionOf _:genid319 .
+_:genid323 owl:intersectionOf _:genid326 .
 
-_:genid319 a rdf:List ;
+_:genid326 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#settlement_unit2> ;
-	rdf:rest _:genid317 .
+	rdf:rest _:genid324 .
 
-_:genid317 a rdf:List ;
-	rdf:first _:genid318 .
+_:genid324 a rdf:List ;
+	rdf:first _:genid325 .
 
-_:genid318 a owl:Restriction ;
+_:genid325 a owl:Restriction ;
 	owl:onProperty obo:BFO_0000051 ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit120> .
 
-_:genid317 rdf:rest rdf:nil .
+_:genid324 rdf:rest rdf:nil .
 
-_:genid316 a owl:Class .
+_:genid323 a owl:Class .
 
 <http://purl.org/ontohgis#settlement_unit83> rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit2> ;
 	<http://purl.org/ontohgis#hasExternalIdentifier> "83"^^xsd:string ;
@@ -3593,9 +3639,9 @@ _:genid316 a owl:Class .
 # http://purl.org/ontohgis#settlement_unit92
 
 <http://purl.org/ontohgis#settlement_unit92> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_501> , _:genid320 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_501> , _:genid327 .
 
-_:genid320 a owl:Restriction ;
+_:genid327 a owl:Restriction ;
 	owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
 	owl:hasValue <http://www.geonames.org/ontology#S.MKT> .
 
@@ -3606,15 +3652,15 @@ _:genid320 a owl:Restriction ;
 # http://purl.org/ontohgis#settlement_unit99
 
 <http://purl.org/ontohgis#settlement_unit99> a owl:Class ;
-	rdfs:subClassOf <http://purl.org/ontohgis#object_12> , <http://purl.org/ontohgis#settlement_unit33> , _:genid321 .
+	rdfs:subClassOf <http://purl.org/ontohgis#object_12> , <http://purl.org/ontohgis#settlement_unit33> , _:genid328 .
 
-_:genid321 a owl:Restriction ;
+_:genid328 a owl:Restriction ;
 	owl:onProperty obo:BFO_0000051 ;
 	owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit124> .
 
-<http://purl.org/ontohgis#settlement_unit99> rdfs:subClassOf _:genid322 .
+<http://purl.org/ontohgis#settlement_unit99> rdfs:subClassOf _:genid329 .
 
-_:genid322 a owl:Restriction ;
+_:genid329 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function13> .
 
@@ -3638,33 +3684,33 @@ _:genid322 a owl:Restriction ;
 # http://purl.org/ontohgis/object_3005
 
 :object_3005 a owl:Class ;
-	owl:equivalentClass _:genid323 .
+	owl:equivalentClass _:genid330 .
 
-_:genid323 a owl:Class ;
-	owl:unionOf _:genid325 .
+_:genid330 a owl:Class ;
+	owl:unionOf _:genid332 .
 
-_:genid325 a rdf:List ;
+_:genid332 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#object_3030> ;
-	rdf:rest _:genid324 .
+	rdf:rest _:genid331 .
 
-_:genid324 a rdf:List ;
+_:genid331 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#object_3041> ;
 	rdf:rest rdf:nil .
 
-:object_3005 rdfs:subClassOf :settlement_unit1001 , _:genid326 .
+:object_3005 rdfs:subClassOf :settlement_unit1001 , _:genid333 .
 
-_:genid326 a owl:Restriction ;
+_:genid333 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#object_403> .
 
 :object_3005 owl:disjointWith :object_3006 ;
-	owl:disjointUnionOf _:genid328 .
+	owl:disjointUnionOf _:genid335 .
 
-_:genid328 a rdf:List ;
+_:genid335 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#object_3030> ;
-	rdf:rest _:genid327 .
+	rdf:rest _:genid334 .
 
-_:genid327 a rdf:List ;
+_:genid334 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#object_3041> ;
 	rdf:rest rdf:nil .
 
@@ -3674,16 +3720,16 @@ _:genid327 a rdf:List ;
 # http://purl.org/ontohgis/object_3006
 
 :object_3006 a owl:Class ;
-	owl:equivalentClass _:genid329 .
+	owl:equivalentClass _:genid336 .
 
-_:genid329 a owl:Class ;
-	owl:unionOf _:genid331 .
+_:genid336 a owl:Class ;
+	owl:unionOf _:genid338 .
 
-_:genid331 a rdf:List ;
+_:genid338 a rdf:List ;
 	rdf:first :object_3012 ;
-	rdf:rest _:genid330 .
+	rdf:rest _:genid337 .
 
-_:genid330 a rdf:List ;
+_:genid337 a rdf:List ;
 	rdf:first :object_3014 ;
 	rdf:rest rdf:nil .
 
@@ -3705,19 +3751,19 @@ _:genid330 a rdf:List ;
 # http://purl.org/ontohgis/object_3014
 
 :object_3014 a owl:Class ;
-	rdfs:subClassOf :object_3006 , _:genid332 .
+	rdfs:subClassOf :object_3006 , _:genid339 .
 
-_:genid332 a owl:Restriction ;
+_:genid339 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#object_406> .
 
-:object_3014 owl:disjointUnionOf _:genid334 .
+:object_3014 owl:disjointUnionOf _:genid341 .
 
-_:genid334 a rdf:List ;
+_:genid341 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#object_3010> ;
-	rdf:rest _:genid333 .
+	rdf:rest _:genid340 .
 
-_:genid333 a rdf:List ;
+_:genid340 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#object_3020> ;
 	rdf:rest rdf:nil .
 
@@ -3732,9 +3778,9 @@ _:genid333 a rdf:List ;
 # http://purl.org/ontohgis/object_3016
 
 :object_3016 a owl:Class ;
-	rdfs:subClassOf :settlement_unit2000 , _:genid335 .
+	rdfs:subClassOf :settlement_unit2000 , _:genid342 .
 
-_:genid335 a owl:Restriction ;
+_:genid342 a owl:Restriction ;
 	owl:onProperty :isBoundaryOf ;
 	owl:someValuesFrom :object_3017 .
 
@@ -3749,9 +3795,9 @@ _:genid335 a owl:Restriction ;
 # http://purl.org/ontohgis/object_3018
 
 :object_3018 a owl:Class ;
-	rdfs:subClassOf :settlement_unit2000 , _:genid336 .
+	rdfs:subClassOf :settlement_unit2000 , _:genid343 .
 
-_:genid336 a owl:Restriction ;
+_:genid343 a owl:Restriction ;
 	owl:onProperty :isBoundaryOf ;
 	owl:someValuesFrom :object_3015 .
 
@@ -3766,9 +3812,9 @@ _:genid336 a owl:Restriction ;
 # http://purl.org/ontohgis/object_3021
 
 :object_3021 a owl:Class ;
-	rdfs:subClassOf :settlement_unit2000 , _:genid337 .
+	rdfs:subClassOf :settlement_unit2000 , _:genid344 .
 
-_:genid337 a owl:Restriction ;
+_:genid344 a owl:Restriction ;
 	owl:onProperty :isBoundaryOf ;
 	owl:someValuesFrom :object_3019 .
 
@@ -3777,24 +3823,24 @@ _:genid337 a owl:Restriction ;
 # http://purl.org/ontohgis/settlement_unit1000
 
 :settlement_unit1000 a owl:Class ;
-	owl:equivalentClass _:genid338 .
+	owl:equivalentClass _:genid345 .
 
-_:genid338 owl:intersectionOf _:genid341 .
+_:genid345 owl:intersectionOf _:genid348 .
 
-_:genid341 a rdf:List ;
+_:genid348 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#object_32> ;
-	rdf:rest _:genid339 .
+	rdf:rest _:genid346 .
 
-_:genid339 a rdf:List ;
-	rdf:first _:genid340 .
+_:genid346 a rdf:List ;
+	rdf:first _:genid347 .
 
-_:genid340 a owl:Restriction ;
+_:genid347 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#hasProperFunction> ;
 	owl:hasValue <http://purl.org/ontohgis#function3> .
 
-_:genid339 rdf:rest rdf:nil .
+_:genid346 rdf:rest rdf:nil .
 
-_:genid338 a owl:Class .
+_:genid345 a owl:Class .
 
 :settlement_unit1000 rdfs:subClassOf <http://purl.org/ontohgis#object_32> ;
 	<http://purl.org/ontohgis#isPartOfPartition> <http://purl.org/ontohgis#object_702> ;
@@ -3804,15 +3850,15 @@ _:genid338 a owl:Class .
 # http://purl.org/ontohgis/settlement_unit1001
 
 :settlement_unit1001 a owl:Class ;
-	rdfs:subClassOf oc:VariableEntity , obo:BFO_0000029 , <http://www.opengis.net/ont/geosparql#Feature> , _:genid342 .
+	rdfs:subClassOf oc:VariableEntity , obo:BFO_0000029 , <http://www.opengis.net/ont/geosparql#Feature> , _:genid349 .
 
-_:genid342 a owl:Restriction ;
+_:genid349 a owl:Restriction ;
 	owl:onProperty <http://www.opengis.net/ont/geosparql#hasGeometry> ;
 	owl:someValuesFrom owl:Thing .
 
-:settlement_unit1001 owl:hasKey _:genid343 .
+:settlement_unit1001 owl:hasKey _:genid350 .
 
-_:genid343 a rdf:List ;
+_:genid350 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#individualHasExternalIdentifier> ;
 	rdf:rest rdf:nil .
 
@@ -3822,15 +3868,15 @@ _:genid343 a rdf:List ;
 # http://purl.org/ontohgis/settlement_unit2000
 
 :settlement_unit2000 a owl:Class ;
-	rdfs:subClassOf obo:BFO_0000142 , <http://www.opengis.net/ont/geosparql#Feature> , _:genid344 .
+	rdfs:subClassOf obo:BFO_0000142 , <http://www.opengis.net/ont/geosparql#Feature> , _:genid351 .
 
-_:genid344 a owl:Restriction ;
+_:genid351 a owl:Restriction ;
 	owl:onProperty :isBoundaryOf ;
 	owl:someValuesFrom :settlement_unit1001 .
 
-:settlement_unit2000 rdfs:subClassOf _:genid345 .
+:settlement_unit2000 rdfs:subClassOf _:genid352 .
 
-_:genid345 a owl:Restriction ;
+_:genid352 a owl:Restriction ;
 	owl:onProperty <http://www.opengis.net/ont/geosparql#hasGeometry> ;
 	owl:someValuesFrom owl:Thing .
 
@@ -3839,15 +3885,15 @@ _:genid345 a owl:Restriction ;
 # http://purl.org/ontohgis/settlement_unit2001
 
 :settlement_unit2001 a owl:Class ;
-	rdfs:subClassOf obo:BFO_0000142 , <http://www.opengis.net/ont/geosparql#Feature> , _:genid346 .
+	rdfs:subClassOf obo:BFO_0000142 , <http://www.opengis.net/ont/geosparql#Feature> , _:genid353 .
 
-_:genid346 a owl:Restriction ;
+_:genid353 a owl:Restriction ;
 	owl:onProperty :isBoundaryOf ;
 	owl:someValuesFrom <http://purl.org/ontohgis#object_32> .
 
-:settlement_unit2001 rdfs:subClassOf _:genid347 .
+:settlement_unit2001 rdfs:subClassOf _:genid354 .
 
-_:genid347 a owl:Restriction ;
+_:genid354 a owl:Restriction ;
 	owl:onProperty <http://www.opengis.net/ont/geosparql#hasGeometry> ;
 	owl:someValuesFrom owl:Thing .
 
@@ -3856,29 +3902,29 @@ _:genid347 a owl:Restriction ;
 # http://purl.org/ontohgis/settlement_unit3003
 
 :settlement_unit3003 a owl:Class ;
-	owl:equivalentClass _:genid348 .
+	owl:equivalentClass _:genid355 .
 
-_:genid348 owl:intersectionOf _:genid351 .
+_:genid355 owl:intersectionOf _:genid358 .
 
-_:genid351 a rdf:List ;
+_:genid358 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#object_32> ;
-	rdf:rest _:genid349 .
+	rdf:rest _:genid356 .
 
-_:genid349 a rdf:List ;
-	rdf:first _:genid350 .
+_:genid356 a rdf:List ;
+	rdf:first _:genid357 .
 
-_:genid350 a owl:Restriction ;
+_:genid357 a owl:Restriction ;
 	owl:onProperty :settlementHasSettlementPart ;
 	owl:maxQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
 	owl:onClass <http://purl.org/ontohgis#object_32> .
 
-_:genid349 rdf:rest rdf:nil .
+_:genid356 rdf:rest rdf:nil .
 
-_:genid348 a owl:Class .
+_:genid355 a owl:Class .
 
-:settlement_unit3003 rdfs:subClassOf <http://purl.org/ontohgis#object_32> , _:genid352 .
+:settlement_unit3003 rdfs:subClassOf <http://purl.org/ontohgis#object_32> , _:genid359 .
 
-_:genid352 a owl:Restriction ;
+_:genid359 a owl:Restriction ;
 	owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
 	owl:hasValue <http://www.geonames.org/ontology#S.HSP> .
 
@@ -3890,25 +3936,25 @@ _:genid352 a owl:Restriction ;
 # http://purl.org/ontohgis/settlement_unit3004
 
 :settlement_unit3004 a owl:Class ;
-	owl:equivalentClass _:genid353 .
+	owl:equivalentClass _:genid360 .
 
-_:genid353 owl:intersectionOf _:genid356 .
+_:genid360 owl:intersectionOf _:genid363 .
 
-_:genid356 a rdf:List ;
+_:genid363 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#object_32> ;
-	rdf:rest _:genid354 .
+	rdf:rest _:genid361 .
 
-_:genid354 a rdf:List ;
-	rdf:first _:genid355 .
+_:genid361 a rdf:List ;
+	rdf:first _:genid362 .
 
-_:genid355 a owl:Restriction ;
+_:genid362 a owl:Restriction ;
 	owl:onProperty :settlementHasSettlementPart ;
 	owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
 	owl:onClass <http://purl.org/ontohgis#object_32> .
 
-_:genid354 rdf:rest rdf:nil .
+_:genid361 rdf:rest rdf:nil .
 
-_:genid353 a owl:Class .
+_:genid360 a owl:Class .
 
 :settlement_unit3004 rdfs:subClassOf <http://purl.org/ontohgis#object_32> ;
 	<http://purl.org/ontohgis#isPartOfPartition> <http://purl.org/ontohgis#object_701> ;
@@ -3919,25 +3965,25 @@ _:genid353 a owl:Class .
 # http://purl.org/ontohgis/settlement_unit3007
 
 :settlement_unit3007 a owl:Class ;
-	owl:equivalentClass _:genid357 .
+	owl:equivalentClass _:genid364 .
 
-_:genid357 owl:intersectionOf _:genid360 .
+_:genid364 owl:intersectionOf _:genid367 .
 
-_:genid360 a rdf:List ;
+_:genid367 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#object_32> ;
-	rdf:rest _:genid358 .
+	rdf:rest _:genid365 .
 
-_:genid358 a rdf:List ;
-	rdf:first _:genid359 .
+_:genid365 a rdf:List ;
+	rdf:first _:genid366 .
 
-_:genid359 a owl:Restriction ;
+_:genid366 a owl:Restriction ;
 	owl:onProperty :settlementIsPartOfSettlement ;
 	owl:maxQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
 	owl:onClass <http://purl.org/ontohgis#object_32> .
 
-_:genid358 rdf:rest rdf:nil .
+_:genid365 rdf:rest rdf:nil .
 
-_:genid357 a owl:Class .
+_:genid364 a owl:Class .
 
 :settlement_unit3007 rdfs:subClassOf <http://purl.org/ontohgis#object_32> ;
 	<http://purl.org/ontohgis#isPartOfPartition> <http://purl.org/ontohgis#object_700> ;
@@ -3948,24 +3994,24 @@ _:genid357 a owl:Class .
 # http://purl.org/ontohgis/settlement_unit3008
 
 :settlement_unit3008 a owl:Class ;
-	owl:equivalentClass _:genid361 .
+	owl:equivalentClass _:genid368 .
 
-_:genid361 owl:intersectionOf _:genid364 .
+_:genid368 owl:intersectionOf _:genid371 .
 
-_:genid364 a rdf:List ;
+_:genid371 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#object_32> ;
-	rdf:rest _:genid362 .
+	rdf:rest _:genid369 .
 
-_:genid362 a rdf:List ;
-	rdf:first _:genid363 .
+_:genid369 a rdf:List ;
+	rdf:first _:genid370 .
 
-_:genid363 a owl:Restriction ;
+_:genid370 a owl:Restriction ;
 	owl:onProperty :settlementIsPartOfSettlement ;
 	owl:someValuesFrom <http://purl.org/ontohgis#object_32> .
 
-_:genid362 rdf:rest rdf:nil .
+_:genid369 rdf:rest rdf:nil .
 
-_:genid361 a owl:Class .
+_:genid368 a owl:Class .
 
 :settlement_unit3008 rdfs:subClassOf <http://purl.org/ontohgis#object_32> ;
 	<http://purl.org/ontohgis#isPartOfPartition> <http://purl.org/ontohgis#object_700> ;
@@ -3982,15 +4028,15 @@ _:genid361 a owl:Class .
 # http://purl.org/ontohgis/source
 
 :source a owl:Class ;
-	rdfs:subClassOf obo:IAO_0000310 , _:genid365 .
+	rdfs:subClassOf obo:IAO_0000310 , _:genid372 .
 
-_:genid365 a owl:Restriction ;
+_:genid372 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#isPublishedAfter> ;
 	owl:someValuesFrom xsd:dateTime .
 
-:source rdfs:subClassOf _:genid366 .
+:source rdfs:subClassOf _:genid373 .
 
-_:genid366 a owl:Restriction ;
+_:genid373 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#isPublishedBefore> ;
 	owl:someValuesFrom xsd:dateTime .
 
@@ -4002,29 +4048,29 @@ _:genid366 a owl:Restriction ;
 # 
 # http://www.opengis.net/ont/sf#Geometry
 
-<http://www.opengis.net/ont/sf#Geometry> rdfs:subClassOf _:genid367 .
+<http://www.opengis.net/ont/sf#Geometry> rdfs:subClassOf _:genid374 .
 
-_:genid367 a owl:Restriction ;
+_:genid374 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#isGeometryOf> ;
 	owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
 	owl:onClass <http://purl.org/ontohgis#object_200> .
 
-<http://www.opengis.net/ont/sf#Geometry> rdfs:subClassOf _:genid368 .
+<http://www.opengis.net/ont/sf#Geometry> rdfs:subClassOf _:genid375 .
 
-_:genid368 a owl:Restriction ;
+_:genid375 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#isGeometryOf> ;
 	owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
 	owl:onClass <http://purl.org/ontohgis#object_40> .
 
-<http://www.opengis.net/ont/sf#Geometry> rdfs:subClassOf _:genid369 .
+<http://www.opengis.net/ont/sf#Geometry> rdfs:subClassOf _:genid376 .
 
-_:genid369 a owl:Restriction ;
+_:genid376 a owl:Restriction ;
 	owl:onProperty <http://purl.org/ontohgis#individualHasExternalIdentifier> ;
 	owl:someValuesFrom xsd:integer .
 
-<http://www.opengis.net/ont/sf#Geometry> owl:hasKey _:genid370 .
+<http://www.opengis.net/ont/sf#Geometry> owl:hasKey _:genid377 .
 
-_:genid370 a rdf:List ;
+_:genid377 a rdf:List ;
 	rdf:first <http://purl.org/ontohgis#individualHasExternalIdentifier> ;
 	rdf:rest rdf:nil .
 # 
@@ -4271,6 +4317,13 @@ _:genid370 a rdf:List ;
 	dc:creator "S. Urbańczyk"^^xsd:anyURI ;
 	rdfs:label "Słownik staropolski"^^xsd:anyURI ;
 	rdfs:seeAlso "https://pjs.ijp.pan.pl/sstp.html"^^xsd:anyURI .
+# 
+# http://purl.org/ontohgis/document_7
+
+:document_7 a owl:NamedIndividual , obo:IAO_0000310 ;
+	dc:title "Encyklopedia Katolicka"@pl ;
+	rdfs:label "Encyklopedia Katolicka"@pl ;
+	rdfs:seeAlso "http://www.kul.pl/encyklopedia-katolicka,art_9929.html"^^xsd:anyURI .
 # 
 # http://purl.org/ontohgis/person_20
 
