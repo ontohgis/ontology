@@ -411,6 +411,899 @@ oc:NonVariableEntity rdfs:subClassOf obo:BFO_0000002 .
 oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 
+###  http://purl.org/ontohgis#administrative_type_1
+:administrative_type_1 rdf:type owl:Class ;
+                       rdfs:subClassOf :administrative_type_24 ,
+                                       <http://purl.org/ontohgis/object_3014> ;
+                       rdfs:isDefinedBy :administrative_system_4 .
+
+
+###  http://purl.org/ontohgis#administrative_type_10
+:administrative_type_10 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_1 .
+
+
+###  http://purl.org/ontohgis#administrative_type_100
+:administrative_type_100 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_10 .
+
+
+###  http://purl.org/ontohgis#administrative_type_101
+:administrative_type_101 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_7 .
+
+
+###  http://purl.org/ontohgis#administrative_type_102
+:administrative_type_102 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_12 .
+
+
+###  http://purl.org/ontohgis#administrative_type_103
+:administrative_type_103 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_10 .
+
+
+###  http://purl.org/ontohgis#administrative_type_104
+:administrative_type_104 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_18 .
+
+
+###  http://purl.org/ontohgis#administrative_type_105
+:administrative_type_105 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_18 .
+
+
+###  http://purl.org/ontohgis#administrative_type_106
+:administrative_type_106 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_9 .
+
+
+###  http://purl.org/ontohgis#administrative_type_107
+:administrative_type_107 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_9 .
+
+
+###  http://purl.org/ontohgis#administrative_type_108
+:administrative_type_108 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_15 .
+
+
+###  http://purl.org/ontohgis#administrative_type_109
+:administrative_type_109 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_16 .
+
+
+###  http://purl.org/ontohgis#administrative_type_11
+:administrative_type_11 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_1 .
+
+
+###  http://purl.org/ontohgis#administrative_type_110
+:administrative_type_110 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_13 .
+
+
+###  http://purl.org/ontohgis#administrative_type_111
+:administrative_type_111 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_19 .
+
+
+###  http://purl.org/ontohgis#administrative_type_112
+:administrative_type_112 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_19 .
+
+
+###  http://purl.org/ontohgis#administrative_type_113
+:administrative_type_113 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_19 .
+
+
+###  http://purl.org/ontohgis#administrative_type_114
+:administrative_type_114 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_19 .
+
+
+###  http://purl.org/ontohgis#administrative_type_115
+:administrative_type_115 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_20 .
+
+
+###  http://purl.org/ontohgis#administrative_type_116
+:administrative_type_116 rdf:type owl:Class ;
+                         rdfs:subClassOf :administrative_type_115 ,
+                                         <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_20 .
+
+
+###  http://purl.org/ontohgis#administrative_type_117
+:administrative_type_117 rdf:type owl:Class ;
+                         rdfs:subClassOf :administrative_type_115 ,
+                                         <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_20 .
+
+
+###  http://purl.org/ontohgis#administrative_type_118
+:administrative_type_118 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_20 .
+
+
+###  http://purl.org/ontohgis#administrative_type_119
+:administrative_type_119 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_20 .
+
+
+###  http://purl.org/ontohgis#administrative_type_12
+:administrative_type_12 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_1 .
+
+
+###  http://purl.org/ontohgis#administrative_type_120
+:administrative_type_120 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_20 .
+
+
+###  http://purl.org/ontohgis#administrative_type_121
+:administrative_type_121 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_21 .
+
+
+###  http://purl.org/ontohgis#administrative_type_122
+:administrative_type_122 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_21 .
+
+
+###  http://purl.org/ontohgis#administrative_type_123
+:administrative_type_123 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_21 .
+
+
+###  http://purl.org/ontohgis#administrative_type_124
+:administrative_type_124 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_21 .
+
+
+###  http://purl.org/ontohgis#administrative_type_125
+:administrative_type_125 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_21 .
+
+
+###  http://purl.org/ontohgis#administrative_type_126
+:administrative_type_126 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_22 .
+
+
+###  http://purl.org/ontohgis#administrative_type_127
+:administrative_type_127 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_23 .
+
+
+###  http://purl.org/ontohgis#administrative_type_128
+:administrative_type_128 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_23 .
+
+
+###  http://purl.org/ontohgis#administrative_type_129
+:administrative_type_129 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_23 .
+
+
+###  http://purl.org/ontohgis#administrative_type_13
+:administrative_type_13 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_24 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_4 .
+
+
+###  http://purl.org/ontohgis#administrative_type_130
+:administrative_type_130 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_23 .
+
+
+###  http://purl.org/ontohgis#administrative_type_131
+:administrative_type_131 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_23 .
+
+
+###  http://purl.org/ontohgis#administrative_type_132
+:administrative_type_132 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_24 .
+
+
+###  http://purl.org/ontohgis#administrative_type_133
+:administrative_type_133 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_24 .
+
+
+###  http://purl.org/ontohgis#administrative_type_134
+:administrative_type_134 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_24 .
+
+
+###  http://purl.org/ontohgis#administrative_type_135
+:administrative_type_135 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_24 .
+
+
+###  http://purl.org/ontohgis#administrative_type_136
+:administrative_type_136 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_25 .
+
+
+###  http://purl.org/ontohgis#administrative_type_137
+:administrative_type_137 rdf:type owl:Class ;
+                         rdfs:subClassOf :administrative_type_136 ,
+                                         <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_25 .
+
+
+###  http://purl.org/ontohgis#administrative_type_138
+:administrative_type_138 rdf:type owl:Class ;
+                         rdfs:subClassOf :administrative_type_136 ,
+                                         <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_25 .
+
+
+###  http://purl.org/ontohgis#administrative_type_139
+:administrative_type_139 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_25 .
+
+
+###  http://purl.org/ontohgis#administrative_type_14
+:administrative_type_14 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_24 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_4 .
+
+
+###  http://purl.org/ontohgis#administrative_type_140
+:administrative_type_140 rdf:type owl:Class ;
+                         rdfs:subClassOf :administrative_type_139 ,
+                                         <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_25 .
+
+
+###  http://purl.org/ontohgis#administrative_type_141
+:administrative_type_141 rdf:type owl:Class ;
+                         rdfs:subClassOf :administrative_type_139 ,
+                                         <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_25 .
+
+
+###  http://purl.org/ontohgis#administrative_type_142
+:administrative_type_142 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_25 .
+
+
+###  http://purl.org/ontohgis#administrative_type_143
+:administrative_type_143 rdf:type owl:Class ;
+                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:isDefinedBy :administrative_system_25 .
+
+
+###  http://purl.org/ontohgis#administrative_type_15
+:administrative_type_15 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_0 .
+
+
+###  http://purl.org/ontohgis#administrative_type_16
+:administrative_type_16 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_0 .
+
+
+###  http://purl.org/ontohgis#administrative_type_17
+:administrative_type_17 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_0 .
+
+
+###  http://purl.org/ontohgis#administrative_type_18
+:administrative_type_18 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_0 .
+
+
+###  http://purl.org/ontohgis#administrative_type_19
+:administrative_type_19 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_0 .
+
+
+###  http://purl.org/ontohgis#administrative_type_2
+:administrative_type_2 rdf:type owl:Class ;
+                       rdfs:subClassOf :administrative_type_9 ,
+                                       <http://purl.org/ontohgis/object_3014> ;
+                       rdfs:isDefinedBy :administrative_system_1 .
+
+
+###  http://purl.org/ontohgis#administrative_type_20
+:administrative_type_20 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_2 .
+
+
+###  http://purl.org/ontohgis#administrative_type_21
+:administrative_type_21 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_2 .
+
+
+###  http://purl.org/ontohgis#administrative_type_22
+:administrative_type_22 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_2 .
+
+
+###  http://purl.org/ontohgis#administrative_type_23
+:administrative_type_23 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_2 .
+
+
+###  http://purl.org/ontohgis#administrative_type_24
+:administrative_type_24 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_4 .
+
+
+###  http://purl.org/ontohgis#administrative_type_25
+:administrative_type_25 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_4 .
+
+
+###  http://purl.org/ontohgis#administrative_type_26
+:administrative_type_26 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_4 .
+
+
+###  http://purl.org/ontohgis#administrative_type_27
+:administrative_type_27 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_26 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_4 .
+
+
+###  http://purl.org/ontohgis#administrative_type_28
+:administrative_type_28 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_26 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_4 .
+
+
+###  http://purl.org/ontohgis#administrative_type_29
+:administrative_type_29 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_4 .
+
+
+###  http://purl.org/ontohgis#administrative_type_3
+:administrative_type_3 rdf:type owl:Class ;
+                       rdfs:subClassOf :administrative_type_9 ,
+                                       <http://purl.org/ontohgis/object_3014> ;
+                       rdfs:isDefinedBy :administrative_system_1 .
+
+
+###  http://purl.org/ontohgis#administrative_type_30
+:administrative_type_30 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_4 .
+
+
+###  http://purl.org/ontohgis#administrative_type_31
+:administrative_type_31 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_4 .
+
+
+###  http://purl.org/ontohgis#administrative_type_32
+:administrative_type_32 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_5 .
+
+
+###  http://purl.org/ontohgis#administrative_type_33
+:administrative_type_33 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_6 .
+
+
+###  http://purl.org/ontohgis#administrative_type_34
+:administrative_type_34 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_37 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_7 .
+
+
+###  http://purl.org/ontohgis#administrative_type_35
+:administrative_type_35 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_37 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_7 .
+
+
+###  http://purl.org/ontohgis#administrative_type_36
+:administrative_type_36 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_37 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_7 .
+
+
+###  http://purl.org/ontohgis#administrative_type_37
+:administrative_type_37 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_7 .
+
+
+###  http://purl.org/ontohgis#administrative_type_38
+:administrative_type_38 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_7 .
+
+
+###  http://purl.org/ontohgis#administrative_type_39
+:administrative_type_39 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_7 .
+
+
+###  http://purl.org/ontohgis#administrative_type_4
+:administrative_type_4 rdf:type owl:Class ;
+                       rdfs:subClassOf :administrative_type_9 ,
+                                       <http://purl.org/ontohgis/object_3014> ;
+                       rdfs:isDefinedBy :administrative_system_1 .
+
+
+###  http://purl.org/ontohgis#administrative_type_40
+:administrative_type_40 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_39 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_7 .
+
+
+###  http://purl.org/ontohgis#administrative_type_41
+:administrative_type_41 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_39 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_7 .
+
+
+###  http://purl.org/ontohgis#administrative_type_42
+:administrative_type_42 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_7 .
+
+
+###  http://purl.org/ontohgis#administrative_type_43
+:administrative_type_43 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_7 .
+
+
+###  http://purl.org/ontohgis#administrative_type_44
+:administrative_type_44 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_7 .
+
+
+###  http://purl.org/ontohgis#administrative_type_45
+:administrative_type_45 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_3 .
+
+
+###  http://purl.org/ontohgis#administrative_type_46
+:administrative_type_46 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_3 .
+
+
+###  http://purl.org/ontohgis#administrative_type_47
+:administrative_type_47 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_3 .
+
+
+###  http://purl.org/ontohgis#administrative_type_48
+:administrative_type_48 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_3 .
+
+
+###  http://purl.org/ontohgis#administrative_type_49
+:administrative_type_49 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_8 .
+
+
+###  http://purl.org/ontohgis#administrative_type_5
+:administrative_type_5 rdf:type owl:Class ;
+                       rdfs:subClassOf :administrative_type_10 ,
+                                       <http://purl.org/ontohgis/object_3014> ;
+                       rdfs:isDefinedBy :administrative_system_1 .
+
+
+###  http://purl.org/ontohgis#administrative_type_50
+:administrative_type_50 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_8 .
+
+
+###  http://purl.org/ontohgis#administrative_type_51
+:administrative_type_51 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_8 .
+
+
+###  http://purl.org/ontohgis#administrative_type_52
+:administrative_type_52 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_8 .
+
+
+###  http://purl.org/ontohgis#administrative_type_53
+:administrative_type_53 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_52 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_8 .
+
+
+###  http://purl.org/ontohgis#administrative_type_54
+:administrative_type_54 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_52 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_8 .
+
+
+###  http://purl.org/ontohgis#administrative_type_55
+:administrative_type_55 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_52 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_8 .
+
+
+###  http://purl.org/ontohgis#administrative_type_56
+:administrative_type_56 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_8 .
+
+
+###  http://purl.org/ontohgis#administrative_type_57
+:administrative_type_57 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_8 .
+
+
+###  http://purl.org/ontohgis#administrative_type_58
+:administrative_type_58 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_9 .
+
+
+###  http://purl.org/ontohgis#administrative_type_59
+:administrative_type_59 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_10 .
+
+
+###  http://purl.org/ontohgis#administrative_type_6
+:administrative_type_6 rdf:type owl:Class ;
+                       rdfs:subClassOf :administrative_type_10 ,
+                                       <http://purl.org/ontohgis/object_3014> ;
+                       rdfs:isDefinedBy :administrative_system_1 .
+
+
+###  http://purl.org/ontohgis#administrative_type_60
+:administrative_type_60 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_59 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_10 .
+
+
+###  http://purl.org/ontohgis#administrative_type_61
+:administrative_type_61 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_59 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_10 .
+
+
+###  http://purl.org/ontohgis#administrative_type_62
+:administrative_type_62 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_59 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_10 .
+
+
+###  http://purl.org/ontohgis#administrative_type_63
+:administrative_type_63 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_10 .
+
+
+###  http://purl.org/ontohgis#administrative_type_64
+:administrative_type_64 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_10 .
+
+
+###  http://purl.org/ontohgis#administrative_type_65
+:administrative_type_65 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_11 .
+
+
+###  http://purl.org/ontohgis#administrative_type_66
+:administrative_type_66 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_65 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_11 .
+
+
+###  http://purl.org/ontohgis#administrative_type_67
+:administrative_type_67 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_65 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_11 .
+
+
+###  http://purl.org/ontohgis#administrative_type_68
+:administrative_type_68 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_11 .
+
+
+###  http://purl.org/ontohgis#administrative_type_69
+:administrative_type_69 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_11 .
+
+
+###  http://purl.org/ontohgis#administrative_type_7
+:administrative_type_7 rdf:type owl:Class ;
+                       rdfs:subClassOf :administrative_type_11 ,
+                                       <http://purl.org/ontohgis/object_3014> ;
+                       rdfs:isDefinedBy :administrative_system_1 .
+
+
+###  http://purl.org/ontohgis#administrative_type_70
+:administrative_type_70 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_11 .
+
+
+###  http://purl.org/ontohgis#administrative_type_71
+:administrative_type_71 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_11 .
+
+
+###  http://purl.org/ontohgis#administrative_type_72
+:administrative_type_72 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_11 .
+
+
+###  http://purl.org/ontohgis#administrative_type_73
+:administrative_type_73 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_12 .
+
+
+###  http://purl.org/ontohgis#administrative_type_74
+:administrative_type_74 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_13 .
+
+
+###  http://purl.org/ontohgis#administrative_type_75
+:administrative_type_75 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_74 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_13 .
+
+
+###  http://purl.org/ontohgis#administrative_type_76
+:administrative_type_76 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_74 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_13 .
+
+
+###  http://purl.org/ontohgis#administrative_type_77
+:administrative_type_77 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_13 .
+
+
+###  http://purl.org/ontohgis#administrative_type_78
+:administrative_type_78 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_13 .
+
+
+###  http://purl.org/ontohgis#administrative_type_79
+:administrative_type_79 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_13 .
+
+
+###  http://purl.org/ontohgis#administrative_type_8
+:administrative_type_8 rdf:type owl:Class ;
+                       rdfs:subClassOf :administrative_type_11 ,
+                                       <http://purl.org/ontohgis/object_3014> ;
+                       rdfs:isDefinedBy :administrative_system_1 .
+
+
+###  http://purl.org/ontohgis#administrative_type_80
+:administrative_type_80 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_14 .
+
+
+###  http://purl.org/ontohgis#administrative_type_81
+:administrative_type_81 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_14 .
+
+
+###  http://purl.org/ontohgis#administrative_type_82
+:administrative_type_82 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_14 .
+
+
+###  http://purl.org/ontohgis#administrative_type_83
+:administrative_type_83 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_14 .
+
+
+###  http://purl.org/ontohgis#administrative_type_84
+:administrative_type_84 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_14 .
+
+
+###  http://purl.org/ontohgis#administrative_type_85
+:administrative_type_85 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_14 .
+
+
+###  http://purl.org/ontohgis#administrative_type_86
+:administrative_type_86 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_15 .
+
+
+###  http://purl.org/ontohgis#administrative_type_87
+:administrative_type_87 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_15 .
+
+
+###  http://purl.org/ontohgis#administrative_type_88
+:administrative_type_88 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_16 .
+
+
+###  http://purl.org/ontohgis#administrative_type_89
+:administrative_type_89 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_17 .
+
+
+###  http://purl.org/ontohgis#administrative_type_9
+:administrative_type_9 rdf:type owl:Class ;
+                       rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                       rdfs:isDefinedBy :administrative_system_1 .
+
+
+###  http://purl.org/ontohgis#administrative_type_90
+:administrative_type_90 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_89 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_17 .
+
+
+###  http://purl.org/ontohgis#administrative_type_91
+:administrative_type_91 rdf:type owl:Class ;
+                        rdfs:subClassOf :administrative_type_89 ,
+                                        <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_17 .
+
+
+###  http://purl.org/ontohgis#administrative_type_92
+:administrative_type_92 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_17 .
+
+
+###  http://purl.org/ontohgis#administrative_type_93
+:administrative_type_93 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_17 .
+
+
+###  http://purl.org/ontohgis#administrative_type_94
+:administrative_type_94 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_17 .
+
+
+###  http://purl.org/ontohgis#administrative_type_95
+:administrative_type_95 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_17 .
+
+
+###  http://purl.org/ontohgis#administrative_type_96
+:administrative_type_96 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_18 .
+
+
+###  http://purl.org/ontohgis#administrative_type_97
+:administrative_type_97 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_18 .
+
+
+###  http://purl.org/ontohgis#administrative_type_98
+:administrative_type_98 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_18 .
+
+
+###  http://purl.org/ontohgis#administrative_type_99
+:administrative_type_99 rdf:type owl:Class ;
+                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:isDefinedBy :administrative_system_17 .
+
+
 ###  http://purl.org/ontohgis#object_10
 :object_10 rdf:type owl:Class ;
            rdfs:subClassOf obo:BFO_0000040 ,
@@ -629,34 +1522,6 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
            rdfs:seeAlso "http://encyklopedia.pwn.pl/haslo/jednostka-osadnicza;3917491.html"^^xsd:anyURI .
 
 
-###  http://purl.org/ontohgis#object_3010
-:object_3010 rdf:type owl:Class ;
-             owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis/object_3014>
-                                                        [ rdf:type owl:Restriction ;
-                                                          owl:onProperty :administrativeUnitIsAdministeredByAdministrativeUnit ;
-                                                          owl:someValuesFrom <http://purl.org/ontohgis/object_3014>
-                                                        ]
-                                                      ) ;
-                                   rdf:type owl:Class
-                                 ] ;
-             rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
-             rdfs:label "subordinate civic administered region"@en .
-
-
-###  http://purl.org/ontohgis#object_3020
-:object_3020 rdf:type owl:Class ;
-             owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis/object_3014>
-                                                        [ rdf:type owl:Restriction ;
-                                                          owl:onProperty :administrativeUnitIsAdministeredByAdministrativeUnit ;
-                                                          owl:maxCardinality "0"^^xsd:nonNegativeInteger
-                                                        ]
-                                                      ) ;
-                                   rdf:type owl:Class
-                                 ] ;
-             rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
-             rdfs:label "sovreign civic administered region"@en .
-
-
 ###  http://purl.org/ontohgis#object_3030
 :object_3030 rdf:type owl:Class ;
              rdfs:subClassOf <http://purl.org/ontohgis/object_3005> ;
@@ -838,6 +1703,12 @@ c. prawnie."""@pl ;
             rdfs:subClassOf :object_12 ;
             rdfs:label "miejsce transportu"@pl ,
                        "transportation dwelling"@en .
+
+
+###  http://purl.org/ontohgis#object_60
+:object_60 rdf:type owl:Class ;
+           rdfs:subClassOf obo:IAO_0000030 ;
+           rdfs:label "map symbol"@en .
 
 
 ###  http://purl.org/ontohgis#object_800
@@ -3909,59 +4780,25 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                                          owl:onProperty :hasFunction ;
                                                          owl:hasValue :object_406
                                                        ] ;
-                                       owl:disjointUnionOf ( :object_3010
-                                                             :object_3020
-                                                           ) ;
                                        rdfs:label "civic administered region"@en ,
                                                   "obszar administracji świeckiej"@pl .
 
 
-###  http://purl.org/ontohgis/object_3015
-<http://purl.org/ontohgis/object_3015> rdf:type owl:Class ;
-                                       rdfs:subClassOf :object_3010 ;
-                                       rdfs:label "województwo"@pl .
-
-
 ###  http://purl.org/ontohgis/object_3016
 <http://purl.org/ontohgis/object_3016> rdf:type owl:Class ;
-                                       rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> ,
-                                                       [ rdf:type owl:Restriction ;
-                                                         owl:onProperty <http://purl.org/ontohgis/isBoundaryOf> ;
-                                                         owl:someValuesFrom <http://purl.org/ontohgis/object_3017>
-                                                       ] ;
+                                       rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> ;
                                        rdfs:label "granica gminy"@pl .
-
-
-###  http://purl.org/ontohgis/object_3017
-<http://purl.org/ontohgis/object_3017> rdf:type owl:Class ;
-                                       rdfs:subClassOf :object_3010 ;
-                                       rdfs:label "gmina"@pl .
 
 
 ###  http://purl.org/ontohgis/object_3018
 <http://purl.org/ontohgis/object_3018> rdf:type owl:Class ;
-                                       rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> ,
-                                                       [ rdf:type owl:Restriction ;
-                                                         owl:onProperty <http://purl.org/ontohgis/isBoundaryOf> ;
-                                                         owl:someValuesFrom <http://purl.org/ontohgis/object_3015>
-                                                       ] ;
+                                       rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> ;
                                        rdfs:label "granica województwa"@pl .
-
-
-###  http://purl.org/ontohgis/object_3019
-<http://purl.org/ontohgis/object_3019> rdf:type owl:Class ;
-                                       rdfs:subClassOf :object_3020 ;
-                                       rdfs:label "country"@en ,
-                                                  "państwo"@pl .
 
 
 ###  http://purl.org/ontohgis/object_3021
 <http://purl.org/ontohgis/object_3021> rdf:type owl:Class ;
-                                       rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> ,
-                                                       [ rdf:type owl:Restriction ;
-                                                         owl:onProperty <http://purl.org/ontohgis/isBoundaryOf> ;
-                                                         owl:someValuesFrom <http://purl.org/ontohgis/object_3019>
-                                                       ] ;
+                                       rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> ;
                                        rdfs:label "granica państwa"@pl .
 
 
