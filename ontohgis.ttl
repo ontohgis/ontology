@@ -1856,7 +1856,9 @@ c. prawnie."""@pl ;
                                "kościół"@pl ;
                     rdfs:seeAlso "http://dbpedia.org/ontology/Church"^^xsd:anyURI ;
                     <http://www.w3.org/2004/02/skos/core#altLabel> "ecclesia"@la ;
-                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "ecclesia (lat), templum (lat), fanum (lat), aedes (lat), domus Dei (lat), kaplica (pl), cerkiew (pl), świątynia (pl), die Kirche (de)" ,
+                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "aedes"@la ,
+                                                                      "domus Dei"@la ,
+                                                                      "ecclesia (lat), templum (lat), fanum (lat), aedes (lat), domus Dei (lat), kaplica (pl), cerkiew (pl), świątynia (pl), die Kirche (de)" ,
                                                                       "fanum"@la ,
                                                                       "templum"@la ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "church"@en ,
