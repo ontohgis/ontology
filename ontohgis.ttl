@@ -3372,7 +3372,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 :settlement_unit138 rdf:type owl:Class ;
                     rdfs:subClassOf :object_23 ;
                     dc:creator :person_4 ;
-                    :hasExternalIdentifier ""@138 ,
+                    :hasExternalIdentifier "138" ,
                                            "138"^^xsd:int ;
                     :hasLanguageVerificator :person_1 ;
                     :hasOntologicalVerificator :person_10 ;
