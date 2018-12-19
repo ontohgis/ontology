@@ -2904,6 +2904,7 @@ c. prawnie."""@pl ;
                     rdfs:label "plebania - obiekt"@pl ,
                                "rectory"@en ;
                     rdfs:seeAlso "dom należący do parafii, przeznaczony na mieszkanie dla proboszcza"@pl ,
+                                 "http://dbpedia.org/page/Clergy_house"^^xsd:anyURI ,
                                  "t. 2, cz. 2, s. 732: Pleban -- Plebania, -ii, ż., urząd plebański abo beneficjum --; Dochód plebański, ut dobra --; plebaniia, dom plebański, die Pfarrwohnung, die Pfarre. J ksiądz widzimy, plebaniią rzadki Buduie, że kto inszy weźmie po nim spadki. Pot. Pocz. 475 (Slo. fara; Hg. plebania; Cro. plebania; Vd. faroush; Ross. приходъ (cf. przychód)."@pl ,
                                  "t. 24, s. 326: 1. Domostwo plebana -- ; flaminia -- ; parochia, plebanatus -- ; curionis domus, curionium --; 2. Terytorium będące pod opieką plebana; także urząd i dochody z niego; parochia --; plebanatus --; curionatus, curionium -- ; 2a. Wierni należący do parafii --. Synonimy: probostwo, parafija."@pl ;
                     <http://www.w3.org/2004/02/skos/core#altLabel> "Pfarrwohnung"@de ,
