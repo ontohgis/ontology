@@ -2906,7 +2906,19 @@ c. prawnie."""@pl ;
                     rdfs:seeAlso "dom należący do parafii, przeznaczony na mieszkanie dla proboszcza"@pl ,
                                  "t. 2, cz. 2, s. 732: Pleban -- Plebania, -ii, ż., urząd plebański abo beneficjum --; Dochód plebański, ut dobra --; plebaniia, dom plebański, die Pfarrwohnung, die Pfarre. J ksiądz widzimy, plebaniią rzadki Buduie, że kto inszy weźmie po nim spadki. Pot. Pocz. 475 (Slo. fara; Hg. plebania; Cro. plebania; Vd. faroush; Ross. приходъ (cf. przychód)."@pl ,
                                  "t. 24, s. 326: 1. Domostwo plebana -- ; flaminia -- ; parochia, plebanatus -- ; curionis domus, curionium --; 2. Terytorium będące pod opieką plebana; także urząd i dochody z niego; parochia --; plebanatus --; curionatus, curionium -- ; 2a. Wierni należący do parafii --. Synonimy: probostwo, parafija."@pl ;
-                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "probostwo (pl), parafia (pl), dom plebański (pl), wikariatka (pl), popówka (pl), pastorówka (pl), die Pfarrwohnung (de), die Pfarre (de), plebanatus (lat), curionis domus (lat), curionium (lat), parochia (lat), curionatus (lat)" ;
+                    <http://www.w3.org/2004/02/skos/core#altLabel> "Pfarrwohnung"@de ,
+                                                                   "curionis domus"@la ,
+                                                                   "dom plebański"@pl ,
+                                                                   "pastorówka"@pl ,
+                                                                   "plebanatus"@la ,
+                                                                   "popówka"@pl ,
+                                                                   "probostwo"@pl ;
+                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Pfarre"@de ,
+                                                                      "curionatus"@la ,
+                                                                      "curionium"@la ,
+                                                                      "parafia"@pl ,
+                                                                      "parochia"@la ,
+                                                                      "wikariatka"@pl ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "plebania - obiekt"@pl ,
                                                                     "rectory"@en .
 
@@ -4259,24 +4271,24 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                    :hasLanguageVerificator :person_1 ;
                    :hasOntologicalVerificator :person_10 ;
                    :hasTranslator :person_9 ;
-                   rdfs:comment "We wszystkich analizowanych przypadkach jeżeli plebania jest odrębną miejscowością, to znajduje się w pobliżu wsi, miasta lub osady o tej samej nazwie. W ujęciu kartograficznym wyodrębniona przez nazwę własną, skrót kategorii (np. pleb.) oraz morfologicznie."@pl ;
+                   rdfs:comment "In each analysed case, a rectory being a separate settlement, lays in a vicinity of a village, or a town/city with the same name. In cartographical sources, one can find it presented separately, with its proper name, an abbreviation of a category (i.e. pol “pleb.”, which is “rect.”), and distinguished by its morphology. A rectory differs slightly from the house of a provost, but we leave this difference aside."@en ,
+                                "We wszystkich analizowanych przypadkach jeżeli plebania jest odrębną miejscowością, to znajduje się w pobliżu wsi, miasta lub osady o tej samej nazwie. W ujęciu kartograficznym wyodrębniona przez nazwę własną, skrót kategorii (np. pleb.) oraz morfologicznie. Plebania różni się nieco od probostwa, gdyż pleban nie jest tożsamy z proboszczem, ale różnicę tę pomijamy."@pl ;
                    rdfs:isDefinedBy "Plebania jest to miejscowość, w której główną rolę pełni plebania jako obiekt sakralny."@pl ,
                                     "Rectory is a locality, where the main role is played by a rectory, a home of a provost, as a sacral object."@en ;
                    rdfs:label "plebania"@pl ,
                               "rectory"@en ;
-                   <http://www.w3.org/2004/02/skos/core#altLabel> "curionis domus"@la ,
-                                                                  "die Pfarrwohnung"@de ,
-                                                                  "dom plebański"@pl ,
-                                                                  "pastorówka"@pl ,
-                                                                  "plebanatus"@la ,
-                                                                  "popówka"@pl ,
-                                                                  "probostwo"@pl ;
                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "curionatus"@la ,
+                                                                     "curionis domus"@la ,
                                                                      "curionium"@la ,
                                                                      "die Pfarre"@de ,
+                                                                     "die Pfarrwohnung"@de ,
+                                                                     "dom plebański"@pl ,
                                                                      "parafia"@pl ,
-                                                                     "parafia (pl), dom plebański (pl), wikariatka (pl), popówka (pl), pastorówka (pl), die Pfarrwohnung (de), die Pfarre (de), plebanatus (lat), curionis domus (lat), curionium (lat), parochia (lat), curionatus (lat)" ,
                                                                      "parochia"@la ,
+                                                                     "pastorówka"@pl ,
+                                                                     "plebanatus"@la ,
+                                                                     "popówka"@pl ,
+                                                                     "probostwo"@pl ,
                                                                      "wikariatka"@pl ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "plebania"@pl ,
                                                                    "rectory"@en .
