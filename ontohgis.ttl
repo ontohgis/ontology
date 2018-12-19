@@ -1191,7 +1191,8 @@ _:genid40 a owl:Restriction ;
 	owl:someValuesFrom <http://purl.org/ontohgis#administrative_type_46> .
 
 <http://purl.org/ontohgis#administrative_type_45> <http://purl.org/ontohgis#isSymbolisedByMeansOf> <http://purl.org/ontohgis#map_symbol_10> ;
-	rdfs:isDefinedBy <http://purl.org/ontohgis#administrative_system_3> .
+	rdfs:isDefinedBy <http://purl.org/ontohgis#administrative_system_3> ;
+	rdfs:label "gmina"@pl .
 # 
 # http://purl.org/ontohgis#administrative_type_46
 
@@ -1203,7 +1204,8 @@ _:genid41 a owl:Restriction ;
 	owl:someValuesFrom <http://purl.org/ontohgis#administrative_type_47> .
 
 <http://purl.org/ontohgis#administrative_type_46> <http://purl.org/ontohgis#isSymbolisedByMeansOf> <http://purl.org/ontohgis#map_symbol_30> ;
-	rdfs:isDefinedBy <http://purl.org/ontohgis#administrative_system_3> .
+	rdfs:isDefinedBy <http://purl.org/ontohgis#administrative_system_3> ;
+	rdfs:label "powiat"@pl .
 # 
 # http://purl.org/ontohgis#administrative_type_47
 
@@ -1215,14 +1217,16 @@ _:genid42 a owl:Restriction ;
 	owl:someValuesFrom <http://purl.org/ontohgis#administrative_type_48> .
 
 <http://purl.org/ontohgis#administrative_type_47> <http://purl.org/ontohgis#isSymbolisedByMeansOf> <http://purl.org/ontohgis#map_symbol_50> ;
-	rdfs:isDefinedBy <http://purl.org/ontohgis#administrative_system_3> .
+	rdfs:isDefinedBy <http://purl.org/ontohgis#administrative_system_3> ;
+	rdfs:label "województwo"@pl .
 # 
 # http://purl.org/ontohgis#administrative_type_48
 
 <http://purl.org/ontohgis#administrative_type_48> a owl:Class ;
 	rdfs:subClassOf :object_3014 ;
 	<http://purl.org/ontohgis#isSymbolisedByMeansOf> <http://purl.org/ontohgis#map_symbol_80> ;
-	rdfs:isDefinedBy <http://purl.org/ontohgis#administrative_system_3> .
+	rdfs:isDefinedBy <http://purl.org/ontohgis#administrative_system_3> ;
+	rdfs:label "państwo"@pl .
 # 
 # http://purl.org/ontohgis#administrative_type_49
 
