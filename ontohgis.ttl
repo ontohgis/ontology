@@ -1416,7 +1416,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_57
                                         ] ;
-                        :isSymbolisedByMeansOf :map_symbol_60 ;
+                        :isSymbolisedByMeansOf :map_symbol_70 ;
                         rdfs:isDefinedBy :administrative_system_8 ;
                         rdfs:label "generalne gubernatorstwo"@pl ,
                                    "генерал-губернаторство"@ru .
@@ -1441,7 +1441,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_106
                                         ] ;
-                        :isSymbolisedByMeansOf :map_symbol_80 ;
+                        :isSymbolisedByMeansOf :map_symbol_70 ;
                         rdfs:isDefinedBy :administrative_system_9 ;
                         rdfs:label "kraj koronny"@pl ,
                                    "księstwo"@pl .
@@ -1516,7 +1516,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_103
                                         ] ;
-                        :isSymbolisedByMeansOf :map_symbol_80 ;
+                        :isSymbolisedByMeansOf :map_symbol_70 ;
                         rdfs:isDefinedBy :administrative_system_10 ;
                         rdfs:label "kraj koronny"@pl ,
                                    "namiestnictwo"@pl .
@@ -1604,7 +1604,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_72
                                         ] ;
-                        :isSymbolisedByMeansOf :map_symbol_60 ;
+                        :isSymbolisedByMeansOf :map_symbol_70 ;
                         rdfs:isDefinedBy :administrative_system_11 ;
                         rdfs:label "generał-gubernatorstwo"@pl ,
                                    "kraj"@pl ,
