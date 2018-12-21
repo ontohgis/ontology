@@ -422,6 +422,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_1 rdf:type owl:Class ;
                        rdfs:subClassOf :administrative_type_24 ,
                                        <http://purl.org/ontohgis/object_3014> ;
+                       :hasExternalIdentifier 1 ;
                        :isSymbolisedByMeansOf :map_symbol_10 ;
                        rdfs:isDefinedBy :administrative_system_4 ;
                        rdfs:label "Stadtgemeinde"@de ,
@@ -435,6 +436,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_11
                                         ] ;
+                        :hasExternalIdentifier 10 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_1 ;
                         rdfs:label "powiat"@pl .
@@ -448,6 +450,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                              :administrative_type_114 ,
                                              :administrative_type_99 ;
                          rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 100 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_10 ;
                          rdfs:label "cesarstwo"@pl ,
@@ -458,6 +461,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_101
 :administrative_type_101 rdf:type owl:Class ;
                          rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 101 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_7 ;
                          rdfs:label "Kaiserreich"@de ,
@@ -469,6 +473,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_102
 :administrative_type_102 rdf:type owl:Class ;
                          rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 102 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_12 ;
                          rdfs:label "cesarstwo"@pl .
@@ -482,6 +487,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_100
                                          ] ;
+                         :hasExternalIdentifier 103 ;
                          :isSymbolisedByMeansOf :map_symbol_90 ;
                          rdfs:isDefinedBy :administrative_system_10 ;
                          rdfs:label "część (człon) państwa związkowego"@pl .
@@ -494,6 +500,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_105
                                          ] ;
+                         :hasExternalIdentifier 104 ;
                          :isSymbolisedByMeansOf :map_symbol_90 ;
                          rdfs:isDefinedBy :administrative_system_18 ;
                          rdfs:label "część (człon) państwa związkowego"@pl .
@@ -502,6 +509,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_105
 :administrative_type_105 rdf:type owl:Class ;
                          rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 105 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_18 ;
                          rdfs:label "cesarstwo"@pl ,
@@ -516,6 +524,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_107
                                          ] ;
+                         :hasExternalIdentifier 106 ;
                          :isSymbolisedByMeansOf :map_symbol_90 ;
                          rdfs:isDefinedBy :administrative_system_9 ;
                          rdfs:label "część (człon) państwa związkowego"@pl .
@@ -524,6 +533,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_107
 :administrative_type_107 rdf:type owl:Class ;
                          rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 107 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_9 ;
                          rdfs:label "cesarstwo"@pl ,
@@ -539,6 +549,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                              :administrative_type_131 ,
                                              :administrative_type_135 ;
                          rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 108 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_15 ;
                          rdfs:label "cesarstwo"@pl .
@@ -547,6 +558,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_109
 :administrative_type_109 rdf:type owl:Class ;
                          rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 109 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_16 ;
                          rdfs:label "cesarstwo"@pl ,
@@ -563,6 +575,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_12
                                         ] ;
+                        :hasExternalIdentifier 11 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_1 ;
                         rdfs:label "województwo"@pl .
@@ -571,6 +584,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_110
 :administrative_type_110 rdf:type owl:Class ;
                          rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 110 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_13 ;
                          rdfs:label "cesarstwo"@pl ,
@@ -584,6 +598,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_112
                                          ] ;
+                         :hasExternalIdentifier 111 ;
                          :isSymbolisedByMeansOf :map_symbol_30 ;
                          rdfs:isDefinedBy :administrative_system_19 ;
                          rdfs:label "Circul"@de ,
@@ -606,6 +621,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_113
                                          ] ;
+                         :hasExternalIdentifier 112 ;
                          :isSymbolisedByMeansOf :map_symbol_70 ;
                          rdfs:isDefinedBy :administrative_system_19 ;
                          rdfs:label "księstwo"@pl ,
@@ -621,6 +637,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_114
                                          ] ;
+                         :hasExternalIdentifier 113 ;
                          :isSymbolisedByMeansOf :map_symbol_80 ;
                          rdfs:isDefinedBy :administrative_system_19 ;
                          rdfs:label "królestwo"@pl ,
@@ -630,6 +647,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_114
 :administrative_type_114 rdf:type owl:Class ;
                          rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 114 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_19 ;
                          rdfs:label "cesarstwo"@pl ,
@@ -643,6 +661,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_118
                                          ] ;
+                         :hasExternalIdentifier 115 ;
                          :isSymbolisedByMeansOf :map_symbol_40 ;
                          rdfs:isDefinedBy :administrative_system_20 ;
                          rdfs:label "miasto-ziemia"@pl .
@@ -652,6 +671,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_116 rdf:type owl:Class ;
                          rdfs:subClassOf :administrative_type_115 ,
                                          <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 116 ;
                          :isSymbolisedByMeansOf :map_symbol_40 ;
                          rdfs:isDefinedBy :administrative_system_20 ;
                          rdfs:label "miasto polokacyjne"@pl .
@@ -661,6 +681,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_117 rdf:type owl:Class ;
                          rdfs:subClassOf :administrative_type_115 ,
                                          <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 117 ;
                          :isSymbolisedByMeansOf :map_symbol_40 ;
                          rdfs:isDefinedBy :administrative_system_20 ;
                          rdfs:label "Land"@de ,
@@ -674,6 +695,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_119
                                          ] ;
+                         :hasExternalIdentifier 118 ;
                          :isSymbolisedByMeansOf :map_symbol_50 ;
                          rdfs:isDefinedBy :administrative_system_20 ;
                          rdfs:label "landwójtostwo"@pl .
@@ -686,6 +708,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_120
                                          ] ;
+                         :hasExternalIdentifier 119 ;
                          :isSymbolisedByMeansOf :map_symbol_80 ;
                          rdfs:isDefinedBy :administrative_system_20 ;
                          rdfs:label "księstwo"@pl .
@@ -694,6 +717,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_12
 :administrative_type_12 rdf:type owl:Class ;
                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 12 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_1 ;
                         rdfs:label "państwo"@pl ,
@@ -703,6 +727,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_120
 :administrative_type_120 rdf:type owl:Class ;
                          rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 120 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_20 ;
                          rdfs:label "cesarstwo"@pl .
@@ -715,6 +740,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_122
                                          ] ;
+                         :hasExternalIdentifier 121 ;
                          :isSymbolisedByMeansOf :map_symbol_30 ;
                          rdfs:isDefinedBy :administrative_system_21 ;
                          rdfs:label "Amt"@de ,
@@ -732,6 +758,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_123
                                          ] ;
+                         :hasExternalIdentifier 122 ;
                          :isSymbolisedByMeansOf :map_symbol_50 ;
                          rdfs:isDefinedBy :administrative_system_21 ;
                          rdfs:label "landwójtostwo"@pl .
@@ -745,6 +772,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_124
                                          ] ;
+                         :hasExternalIdentifier 123 ;
                          :isSymbolisedByMeansOf :map_symbol_60 ;
                          rdfs:isDefinedBy :administrative_system_21 ;
                          rdfs:label "prowincja"@pl .
@@ -758,6 +786,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_125
                                          ] ;
+                         :hasExternalIdentifier 124 ;
                          :isSymbolisedByMeansOf :map_symbol_80 ;
                          rdfs:isDefinedBy :administrative_system_21 ;
                          rdfs:label "elektorat"@pl ,
@@ -768,6 +797,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_125
 :administrative_type_125 rdf:type owl:Class ;
                          rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 125 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_21 ;
                          rdfs:label "cesarstwo"@pl ,
@@ -777,6 +807,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_126
 :administrative_type_126 rdf:type owl:Class ;
                          rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 126 ;
                          :isSymbolisedByMeansOf :map_symbol_80 ;
                          rdfs:isDefinedBy :administrative_system_22 ;
                          rdfs:label "księstwo"@pl .
@@ -789,6 +820,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_128
                                          ] ;
+                         :hasExternalIdentifier 127 ;
                          :isSymbolisedByMeansOf :map_symbol_20 ;
                          rdfs:isDefinedBy :administrative_system_23 ;
                          rdfs:label "Vogtei"@de ,
@@ -802,6 +834,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_129
                                          ] ;
+                         :hasExternalIdentifier 128 ;
                          :isSymbolisedByMeansOf :map_symbol_50 ;
                          rdfs:isDefinedBy :administrative_system_23 ;
                          rdfs:label "Landvogtei"@de ,
@@ -816,6 +849,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_130
                                          ] ;
+                         :hasExternalIdentifier 129 ;
                          :isSymbolisedByMeansOf :map_symbol_60 ;
                          rdfs:isDefinedBy :administrative_system_23 ;
                          rdfs:label "prowincja"@pl ,
@@ -826,6 +860,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_13 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_24 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 13 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Landgemeinde"@de ,
@@ -839,6 +874,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_131
                                          ] ;
+                         :hasExternalIdentifier 130 ;
                          :isSymbolisedByMeansOf :map_symbol_80 ;
                          rdfs:isDefinedBy :administrative_system_23 ;
                          rdfs:label "elektorat"@pl ,
@@ -849,6 +885,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_131
 :administrative_type_131 rdf:type owl:Class ;
                          rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 131 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_23 ;
                          rdfs:label "cesarstwo"@pl ,
@@ -862,6 +899,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_133
                                          ] ;
+                         :hasExternalIdentifier 132 ;
                          :isSymbolisedByMeansOf :map_symbol_30 ;
                          rdfs:isDefinedBy :administrative_system_24 ;
                          rdfs:label "dzielnica"@pl .
@@ -875,6 +913,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_134
                                          ] ;
+                         :hasExternalIdentifier 133 ;
                          :isSymbolisedByMeansOf :map_symbol_70 ;
                          rdfs:isDefinedBy :administrative_system_24 ;
                          rdfs:label "księstwo"@pl ,
@@ -888,6 +927,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_135
                                          ] ;
+                         :hasExternalIdentifier 134 ;
                          :isSymbolisedByMeansOf :map_symbol_80 ;
                          rdfs:isDefinedBy :administrative_system_24 ;
                          rdfs:label "królestwo"@pl ,
@@ -898,6 +938,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_135
 :administrative_type_135 rdf:type owl:Class ;
                          rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 135 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_24 ;
                          rdfs:label "państwo złożone"@pl .
@@ -910,6 +951,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_139
                                          ] ;
+                         :hasExternalIdentifier 136 ;
                          :isSymbolisedByMeansOf :map_symbol_20 ;
                          rdfs:isDefinedBy :administrative_system_25 ;
                          rdfs:label "wójtostwo"@pl .
@@ -919,6 +961,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_137 rdf:type owl:Class ;
                          rdfs:subClassOf :administrative_type_136 ,
                                          <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 137 ;
                          :isSymbolisedByMeansOf :map_symbol_20 ;
                          rdfs:isDefinedBy :administrative_system_25 ;
                          rdfs:label "wójtostwo"@pl .
@@ -928,6 +971,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_138 rdf:type owl:Class ;
                          rdfs:subClassOf :administrative_type_136 ,
                                          <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 138 ;
                          :isSymbolisedByMeansOf :map_symbol_20 ;
                          rdfs:isDefinedBy :administrative_system_25 ;
                          rdfs:label "prokuratorstwo"@pl .
@@ -940,6 +984,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_142
                                          ] ;
+                         :hasExternalIdentifier 139 ;
                          :isSymbolisedByMeansOf :map_symbol_30 ;
                          rdfs:isDefinedBy :administrative_system_25 ;
                          rdfs:label "komturstwo"@pl .
@@ -949,6 +994,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_14 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_24 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 14 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Gutsbezirk"@de ,
@@ -959,6 +1005,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_140 rdf:type owl:Class ;
                          rdfs:subClassOf :administrative_type_139 ,
                                          <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 140 ;
                          :isSymbolisedByMeansOf :map_symbol_30 ;
                          rdfs:isDefinedBy :administrative_system_25 ;
                          rdfs:label "komturstwo"@pl .
@@ -968,6 +1015,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_141 rdf:type owl:Class ;
                          rdfs:subClassOf :administrative_type_139 ,
                                          <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 141 ;
                          :isSymbolisedByMeansOf :map_symbol_30 ;
                          rdfs:isDefinedBy :administrative_system_25 ;
                          rdfs:label "władztwo biskupa i kapituły"@pl .
@@ -980,6 +1028,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_143
                                          ] ;
+                         :hasExternalIdentifier 142 ;
                          :isSymbolisedByMeansOf :map_symbol_80 ;
                          rdfs:isDefinedBy :administrative_system_25 ;
                          rdfs:label "państwo zakonne"@pl .
@@ -988,6 +1037,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_143
 :administrative_type_143 rdf:type owl:Class ;
                          rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         :hasExternalIdentifier 143 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_25 ;
                          rdfs:label "państwo kościelne"@pl .
@@ -997,6 +1047,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_2 rdf:type owl:Class ;
                        rdfs:subClassOf :administrative_type_9 ,
                                        <http://purl.org/ontohgis/object_3014> ;
+                       :hasExternalIdentifier 2 ;
                        :isSymbolisedByMeansOf :map_symbol_10 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
                        rdfs:label "gmina miejska"@pl .
@@ -1009,6 +1060,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_25
                                         ] ;
+                        :hasExternalIdentifier 24 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Gemeinde"@de ,
@@ -1022,6 +1074,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_26
                                         ] ;
+                        :hasExternalIdentifier 25 ;
                         :isSymbolisedByMeansOf :map_symbol_20 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Amtsbezirk"@de ,
@@ -1035,6 +1088,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_29
                                         ] ;
+                        :hasExternalIdentifier 26 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Kreis"@de ,
@@ -1045,6 +1099,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_27 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_26 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 27 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Landkreis"@de ,
@@ -1055,6 +1110,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_28 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_26 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 28 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Stadtkreis"@de ,
@@ -1069,6 +1125,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                               owl:someValuesFrom :administrative_type_30
                                             ] ;
                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 29 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Regierung"@de ,
@@ -1081,6 +1138,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_3 rdf:type owl:Class ;
                        rdfs:subClassOf :administrative_type_9 ,
                                        <http://purl.org/ontohgis/object_3014> ;
+                       :hasExternalIdentifier 3 ;
                        :isSymbolisedByMeansOf :map_symbol_10 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
                        rdfs:label "gmina wiejska "@pl .
@@ -1095,6 +1153,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_31
                                         ] ;
+                        :hasExternalIdentifier 30 ;
                         :isSymbolisedByMeansOf :map_symbol_60 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Provinz"@de ,
@@ -1106,6 +1165,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                         owl:equivalentClass :administrative_type_44 ,
                                             :administrative_type_79 ;
                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 31 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Staat"@de ,
@@ -1115,6 +1175,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_32
 :administrative_type_32 rdf:type owl:Class ;
                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 32 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_5 ;
                         rdfs:label "Freie Stadt"@de ,
@@ -1126,6 +1187,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                         owl:equivalentClass :administrative_type_73 ,
                                             :administrative_type_87 ;
                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 33 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_6 ;
                         rdfs:label "Staat"@de ,
@@ -1136,6 +1198,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_34 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_37 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 34 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Stadtgemeinde"@de ,
@@ -1146,6 +1209,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_35 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_37 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 35 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Landgemeinde"@de ,
@@ -1156,6 +1220,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_36 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_37 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 36 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Gutsbezirk"@de ,
@@ -1169,6 +1234,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_38
                                         ] ;
+                        :hasExternalIdentifier 37 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Gemeinde"@de ,
@@ -1182,6 +1248,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_39
                                         ] ;
+                        :hasExternalIdentifier 38 ;
                         :isSymbolisedByMeansOf :map_symbol_20 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Amtsbezirk"@de ,
@@ -1195,6 +1262,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_42
                                         ] ;
+                        :hasExternalIdentifier 39 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Kreis"@de ,
@@ -1205,6 +1273,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_4 rdf:type owl:Class ;
                        rdfs:subClassOf :administrative_type_9 ,
                                        <http://purl.org/ontohgis/object_3014> ;
+                       :hasExternalIdentifier 4 ;
                        :isSymbolisedByMeansOf :map_symbol_10 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
                        rdfs:label "obszar dworski"@pl .
@@ -1214,6 +1283,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_40 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_39 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 40 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Landkreis"@de ,
@@ -1224,6 +1294,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_41 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_39 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 41 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Stadtkreis"@de ,
@@ -1237,6 +1308,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                               owl:someValuesFrom :administrative_type_43
                                             ] ;
                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 42 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Regierung"@de ,
@@ -1252,6 +1324,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_44
                                         ] ;
+                        :hasExternalIdentifier 43 ;
                         :isSymbolisedByMeansOf :map_symbol_60 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Provinz"@de ,
@@ -1265,6 +1338,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_101
                                         ] ;
+                        :hasExternalIdentifier 44 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Königreich"@de ,
@@ -1280,6 +1354,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_46
                                         ] ;
+                        :hasExternalIdentifier 45 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_3 ;
                         rdfs:label "gmina"@pl .
@@ -1292,6 +1367,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_47
                                         ] ;
+                        :hasExternalIdentifier 46 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_3 ;
                         rdfs:label "powiat"@pl .
@@ -1304,6 +1380,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_48
                                         ] ;
+                        :hasExternalIdentifier 47 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_3 ;
                         rdfs:label "województwo"@pl .
@@ -1312,6 +1389,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_48
 :administrative_type_48 rdf:type owl:Class ;
                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 48 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_3 ;
                         rdfs:label "państwo"@pl .
@@ -1324,6 +1402,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_50
                                         ] ;
+                        :hasExternalIdentifier 49 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_8 ;
                         rdfs:label "gmina"@pl ,
@@ -1334,6 +1413,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_5 rdf:type owl:Class ;
                        rdfs:subClassOf :administrative_type_10 ,
                                        <http://purl.org/ontohgis/object_3014> ;
+                       :hasExternalIdentifier 5 ;
                        :isSymbolisedByMeansOf :map_symbol_30 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
                        rdfs:label "powiat"@pl .
@@ -1346,6 +1426,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_51
                                         ] ;
+                        :hasExternalIdentifier 50 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_8 ;
                         rdfs:label "powiat"@pl ,
@@ -1360,6 +1441,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_52
                                         ] ;
+                        :hasExternalIdentifier 51 ;
                         :isSymbolisedByMeansOf :map_symbol_40 ;
                         rdfs:isDefinedBy :administrative_system_8 ;
                         rdfs:label "obwód"@pl ,
@@ -1373,6 +1455,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_56
                                         ] ;
+                        :hasExternalIdentifier 52 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_8 ;
                         rdfs:label "gubernia"@pl ,
@@ -1383,6 +1466,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_53 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_52 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 53 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_8 ;
                         rdfs:label "gubernia"@pl ,
@@ -1393,6 +1477,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_54 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_52 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 54 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_8 ;
                         rdfs:label "obwód"@pl ,
@@ -1403,6 +1488,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_55 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_52 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 55 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_8 ;
                         rdfs:label "namiestnictwo"@pl ,
@@ -1416,7 +1502,9 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_57
                                         ] ;
-                        :isSymbolisedByMeansOf :map_symbol_70 ;
+                        :hasExternalIdentifier 56 ;
+                        :isSymbolisedByMeansOf :map_symbol_60 ,
+                                               :map_symbol_70 ;
                         rdfs:isDefinedBy :administrative_system_8 ;
                         rdfs:label "generalne gubernatorstwo"@pl ,
                                    "генерал-губернаторство"@ru .
@@ -1426,6 +1514,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_57 rdf:type owl:Class ;
                         owl:equivalentClass :administrative_type_72 ;
                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 57 ;
                         :isSymbolisedByMeansOf :map_symbol_100 ;
                         rdfs:isDefinedBy :administrative_system_8 ;
                         rdfs:label "cesarstwo"@pl ,
@@ -1441,7 +1530,9 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_106
                                         ] ;
-                        :isSymbolisedByMeansOf :map_symbol_70 ;
+                        :hasExternalIdentifier 58 ;
+                        :isSymbolisedByMeansOf :map_symbol_70 ,
+                                               :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_9 ;
                         rdfs:label "kraj koronny"@pl ,
                                    "księstwo"@pl .
@@ -1454,6 +1545,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_63
                                         ] ;
+                        :hasExternalIdentifier 59 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_10 ;
                         rdfs:label "gmina"@pl .
@@ -1463,6 +1555,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_6 rdf:type owl:Class ;
                        rdfs:subClassOf :administrative_type_10 ,
                                        <http://purl.org/ontohgis/object_3014> ;
+                       :hasExternalIdentifier 6 ;
                        :isSymbolisedByMeansOf :map_symbol_30 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
                        rdfs:label "miasto na prawach powiatu"@pl .
@@ -1472,6 +1565,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_60 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_59 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 60 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_10 ;
                         rdfs:label "gmina wiejska"@pl .
@@ -1481,6 +1575,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_61 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_59 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 61 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_10 ;
                         rdfs:label "gmina miejska"@pl .
@@ -1490,6 +1585,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_62 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_59 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 62 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_10 ;
                         rdfs:label "obszar dworski"@pl .
@@ -1502,6 +1598,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_64
                                         ] ;
+                        :hasExternalIdentifier 63 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_10 ;
                         rdfs:label "Bezirk"@de ,
@@ -1516,7 +1613,9 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_103
                                         ] ;
-                        :isSymbolisedByMeansOf :map_symbol_70 ;
+                        :hasExternalIdentifier 64 ;
+                        :isSymbolisedByMeansOf :map_symbol_70 ,
+                                               :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_10 ;
                         rdfs:label "kraj koronny"@pl ,
                                    "namiestnictwo"@pl .
@@ -1529,6 +1628,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_68
                                         ] ;
+                        :hasExternalIdentifier 65 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_11 ;
                         rdfs:label "gmina"@pl .
@@ -1538,6 +1638,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_66 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_65 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 66 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_11 ;
                         rdfs:label "gmina miejska"@pl .
@@ -1547,6 +1648,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_67 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_65 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 67 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_11 ;
                         rdfs:label "gmina wiejska"@pl .
@@ -1559,6 +1661,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_69
                                         ] ;
+                        :hasExternalIdentifier 68 ;
                         :isSymbolisedByMeansOf :map_symbol_20 ;
                         rdfs:isDefinedBy :administrative_system_11 ;
                         rdfs:label "okręg"@pl .
@@ -1571,6 +1674,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_70
                                         ] ;
+                        :hasExternalIdentifier 69 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_11 ;
                         rdfs:label "powiat"@pl .
@@ -1580,6 +1684,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_7 rdf:type owl:Class ;
                        rdfs:subClassOf :administrative_type_11 ,
                                        <http://purl.org/ontohgis/object_3014> ;
+                       :hasExternalIdentifier 7 ;
                        :isSymbolisedByMeansOf :map_symbol_50 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
                        rdfs:label "miasto Warszawa"@pl .
@@ -1592,6 +1697,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_71
                                         ] ;
+                        :hasExternalIdentifier 70 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_11 ;
                         rdfs:label "gubernia"@pl .
@@ -1604,7 +1710,9 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_72
                                         ] ;
-                        :isSymbolisedByMeansOf :map_symbol_70 ;
+                        :hasExternalIdentifier 71 ;
+                        :isSymbolisedByMeansOf :map_symbol_60 ,
+                                               :map_symbol_70 ;
                         rdfs:isDefinedBy :administrative_system_11 ;
                         rdfs:label "generał-gubernatorstwo"@pl ,
                                    "kraj"@pl ,
@@ -1614,6 +1722,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_72
 :administrative_type_72 rdf:type owl:Class ;
                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 72 ;
                         :isSymbolisedByMeansOf :map_symbol_100 ;
                         rdfs:isDefinedBy :administrative_system_11 ;
                         rdfs:label "cesarstwo"@pl .
@@ -1626,6 +1735,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_102
                                         ] ;
+                        :hasExternalIdentifier 73 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_12 ;
                         rdfs:label "królestwo"@pl ,
@@ -1639,6 +1749,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_77
                                         ] ;
+                        :hasExternalIdentifier 74 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_13 ;
                         rdfs:label "powiat"@pl .
@@ -1648,6 +1759,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_75 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_74 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 75 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_13 ;
                         rdfs:label "Landkreis"@de ,
@@ -1658,6 +1770,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_76 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_74 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 76 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_13 ;
                         rdfs:label "miejski okręg inspekcji podatkowej"@pl .
@@ -1670,6 +1783,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_78
                                         ] ;
+                        :hasExternalIdentifier 77 ;
                         :isSymbolisedByMeansOf :map_symbol_40 ;
                         rdfs:isDefinedBy :administrative_system_13 ;
                         rdfs:label "departament kamery wojenno-skarbowej"@pl .
@@ -1678,6 +1792,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_78
 :administrative_type_78 rdf:type owl:Class ;
                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 78 ;
                         :isSymbolisedByMeansOf :map_symbol_60 ;
                         rdfs:isDefinedBy :administrative_system_13 ;
                         rdfs:label "prowincja"@pl .
@@ -1690,6 +1805,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_110
                                         ] ;
+                        :hasExternalIdentifier 79 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_13 ;
                         rdfs:label "królestwo"@pl ,
@@ -1700,6 +1816,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_8 rdf:type owl:Class ;
                        rdfs:subClassOf :administrative_type_11 ,
                                        <http://purl.org/ontohgis/object_3014> ;
+                       :hasExternalIdentifier 8 ;
                        :isSymbolisedByMeansOf :map_symbol_50 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
                        rdfs:label "województwo"@pl .
@@ -1712,6 +1829,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_81
                                         ] ;
+                        :hasExternalIdentifier 80 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_14 ;
                         rdfs:label "powiat"@pl .
@@ -1724,6 +1842,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_82
                                         ] ;
+                        :hasExternalIdentifier 81 ;
                         :isSymbolisedByMeansOf :map_symbol_40 ;
                         rdfs:isDefinedBy :administrative_system_14 ;
                         rdfs:label "ziemia"@pl .
@@ -1736,6 +1855,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_83
                                         ] ;
+                        :hasExternalIdentifier 82 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_14 ;
                         rdfs:label "województwo"@pl .
@@ -1748,6 +1868,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_84
                                         ] ;
+                        :hasExternalIdentifier 83 ;
                         :isSymbolisedByMeansOf :map_symbol_60 ;
                         rdfs:isDefinedBy :administrative_system_14 ;
                         rdfs:label "prowincja"@pl .
@@ -1760,6 +1881,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_85
                                         ] ;
+                        :hasExternalIdentifier 84 ;
                         :isSymbolisedByMeansOf :map_symbol_70 ;
                         rdfs:isDefinedBy :administrative_system_14 ;
                         rdfs:label "dzielnica"@pl .
@@ -1768,6 +1890,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_85
 :administrative_type_85 rdf:type owl:Class ;
                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 85 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_14 ;
                         rdfs:label "królestwo"@pl ,
@@ -1781,6 +1904,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_87
                                         ] ;
+                        :hasExternalIdentifier 86 ;
                         :isSymbolisedByMeansOf :map_symbol_70 ;
                         rdfs:isDefinedBy :administrative_system_15 ;
                         rdfs:label "Markgrafschaft"@de ,
@@ -1795,6 +1919,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_108
                                         ] ;
+                        :hasExternalIdentifier 87 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_15 ;
                         rdfs:label "Kurfürstentum"@de ,
@@ -1809,6 +1934,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_109
                                         ] ;
+                        :hasExternalIdentifier 88 ;
                         :isSymbolisedByMeansOf :map_symbol_70 ;
                         rdfs:isDefinedBy :administrative_system_16 ;
                         rdfs:label "gubernium"@pl .
@@ -1821,6 +1947,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_92
                                         ] ;
+                        :hasExternalIdentifier 89 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_17 ;
                         rdfs:label "dominium-magistrat"@pl .
@@ -1833,6 +1960,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                          owl:onProperty obo:BFO_0000050 ;
                                          owl:someValuesFrom :administrative_type_10
                                        ] ;
+                       :hasExternalIdentifier 9 ;
                        :isSymbolisedByMeansOf :map_symbol_10 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
                        rdfs:label "gmina"@pl .
@@ -1842,6 +1970,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_90 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_89 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 90 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_17 ;
                         rdfs:label "dominium"@pl .
@@ -1851,6 +1980,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_91 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_89 ,
                                         <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 91 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_17 ;
                         rdfs:label "magistrat"@pl .
@@ -1859,6 +1989,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_92
 :administrative_type_92 rdf:type owl:Class ;
                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 92 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_17 ;
                         rdfs:label "Bezirk"@de ,
@@ -1874,6 +2005,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_94
                                         ] ;
+                        :hasExternalIdentifier 93 ;
                         :isSymbolisedByMeansOf :map_symbol_40 ;
                         rdfs:isDefinedBy :administrative_system_17 ;
                         rdfs:label "Direktoriat"@de ,
@@ -1888,6 +2020,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_95
                                         ] ;
+                        :hasExternalIdentifier 94 ;
                         :isSymbolisedByMeansOf :map_symbol_70 ;
                         rdfs:isDefinedBy :administrative_system_17 ;
                         rdfs:label "Gubernium"@de ,
@@ -1901,6 +2034,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                               owl:someValuesFrom :administrative_type_96
                                             ] ;
                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 95 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_17 ;
                         rdfs:label "królestwo"@pl .
@@ -1909,6 +2043,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_96
 :administrative_type_96 rdf:type owl:Class ;
                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 96 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_18 ;
                         rdfs:label "powiat"@pl ,
@@ -1924,6 +2059,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_98
                                         ] ;
+                        :hasExternalIdentifier 97 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_18 ;
                         rdfs:label "komitat"@pl ,
@@ -1937,6 +2073,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_104
                                         ] ;
+                        :hasExternalIdentifier 98 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_18 ;
                         rdfs:label "kraj koronny"@pl ,
@@ -1947,6 +2084,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_99
 :administrative_type_99 rdf:type owl:Class ;
                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        :hasExternalIdentifier 99 ;
                         :isSymbolisedByMeansOf :map_symbol_100 ;
                         rdfs:isDefinedBy :administrative_system_17 ;
                         rdfs:label "Kaisertum"@de ,
@@ -5585,12 +5723,21 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 #    Individuals
 #################################################################
 
+###  http://purl.org/ontohgis#administrative_system_0
+:administrative_system_0 rdf:type owl:NamedIndividual ,
+                                  :object_21 ;
+                         :individualHasExternalIdentifier 0 ;
+                         <http://purl.org/ontohgis/hasBeginning> "1368-01-01"^^xsd:date ;
+                         <http://purl.org/ontohgis/hasEnd> "1933-12-31"^^xsd:date .
+
+
 ###  http://purl.org/ontohgis#administrative_system_1
 :administrative_system_1 rdf:type owl:NamedIndividual ,
                                   :object_21 ;
                          :endsDominationAt "1939-12-31"^^xsd:date ;
                          :hasLegalBasis "Konstytucja Rzeczypospolitej Polskie z 17 marca 1921 r.; Rozporządzenie Prezydenta Rzeczypospolitej z dnia 19 stycznia 1928 r. o organizacji i zakresie działania władz administracji ogólnej; Ustawa z dnia 23 marca 1933 r. o częściowej zmianie ustroju samorządu terytorjalnego. (tzw. ustawa scaleniowa)"^^xsd:string ;
                          :hasScope "terytorium II RP"^^xsd:string ;
+                         :individualHasExternalIdentifier 1 ;
                          :startsDominationAt "1918-01-01"^^xsd:date ;
                          <http://purl.org/ontohgis/hasBeginning> "1918-01-01"^^xsd:date ;
                          <http://purl.org/ontohgis/hasEnd> "1939-12-31"^^xsd:date ;
@@ -5603,6 +5750,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :endsDominationAt "1918-12-31"^^xsd:date ;
                           :hasLegalBasis "reforma administracyjna 1865-1867 (zniesienie cyrkułów, zniesienie rządu krajowego w Krakowie)"^^xsd:string ;
                           :hasScope "terytorium Galicji"^^xsd:string ;
+                          :individualHasExternalIdentifier 10 ;
                           :startsDominationAt "1867-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasBeginning> "1867-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasEnd> "1918-12-31"^^xsd:date ;
@@ -5615,6 +5763,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :endsDominationAt "1918-12-31"^^xsd:date ;
                           :hasLegalBasis "Ukaz carski z 11.10.1842 ( Dziennik Praw Królestwa Polskiego, nr 97. T. 30. Warszawa: 1842, s. 281-285)"^^xsd:string ;
                           :hasScope "terytorium Królestwa Polskiego"^^xsd:string ;
+                          :individualHasExternalIdentifier 11 ;
                           :startsDominationAt "1843-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasBeginning> "1843-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasEnd> "1918-12-31"^^xsd:date ;
@@ -5626,6 +5775,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                    :object_21 ;
                           :endsDominationAt "1918-12-31"^^xsd:date ;
                           :hasScope "terytorium Królestwa Saksonii, obejmuje część Łużyc leżących obecnie w Polsce (Bogatynia, Zgorzelec)"^^xsd:string ;
+                          :individualHasExternalIdentifier 12 ;
                           :startsDominationAt "1806-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasBeginning> "1806-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasEnd> "1918-12-31"^^xsd:date ;
@@ -5638,6 +5788,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :endsDominationAt "1806-12-31"^^xsd:date ;
                           :hasLegalBasis "Edykt królewski z 13.08.1713 o niepodzielności wszystkich terytoriów Hohenzollernów tworzących integralne terytorium Królestwa Prus. Instrukcja królewska z 19 stycznia 1723 r. o utworzeniu General- Ober- Finanz- Kriegs- und Domänen-Direktorium."^^xsd:string ;
                           :hasScope "terytorium Królestwa Prus, obejmuje obecne ziemie zachodniej i północnej Polski"^^xsd:string ;
+                          :individualHasExternalIdentifier 13 ;
                           :startsDominationAt "1723-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasBeginning> "1713-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasEnd> "1814-12-31"^^xsd:date ;
@@ -5650,6 +5801,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :endsDominationAt "1791-12-31"^^xsd:date ;
                           :hasLegalBasis "Akt unii lubelskiej z dnia 1 lipca 1569 r.; Konstytucja 3 maja 1791 r.; "^^xsd:string ;
                           :hasScope "terytorium Rzeczypospolitej Obojga Narodów"^^xsd:string ;
+                          :individualHasExternalIdentifier 14 ;
                           :startsDominationAt "1569-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasBeginning> "1569-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasEnd> "1795-12-31"^^xsd:date ;
@@ -5661,6 +5813,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                    :object_21 ;
                           :endsDominationAt "1805-12-31"^^xsd:date ;
                           :hasScope "terytorium Elektoratu Saksonii, obejmuje część Łużyc leżących obecnie w Polsce (Bogatynia, Zgorzelec)"^^xsd:string ;
+                          :individualHasExternalIdentifier 15 ;
                           :startsDominationAt "1545-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasBeginning> "1545-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasEnd> "1805-12-31"^^xsd:date ;
@@ -5672,6 +5825,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                    :object_21 ;
                           :endsDominationAt "1783-01-01"^^xsd:date ;
                           :hasScope "terytorium Gubernium Morawsko-Śląskiego, obejmuje obecną ziemię cieszyńską"^^xsd:string ;
+                          :individualHasExternalIdentifier 16 ;
                           :startsDominationAt "1783-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasBeginning> "1783-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasEnd> "1848-12-31"^^xsd:date ;
@@ -5684,6 +5838,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :endsDominationAt "1848-12-31"^^xsd:date ;
                           :hasLegalBasis "Edykt z 11 września 1772 r. o utworzeniu guberium we Lwowie; listopad-grudzień 1773 r: podział na 6 cyrkułów (Kreis) oraz 59 okręgów (Kreisdistricten); dekret z 22 marca 1782 r. o zniesieniu okręgów"^^xsd:string ;
                           :hasScope "terytorium Galicji, bez Wolnego Miasta Krakowa w latach 1815-1846"^^xsd:string ;
+                          :individualHasExternalIdentifier 17 ;
                           :startsDominationAt "1773-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasBeginning> "1772-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasEnd> "1848-12-31"^^xsd:date ;
@@ -5696,6 +5851,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :endsDominationAt "1918-12-31"^^xsd:date ;
                           :hasLegalBasis "Ustrój terytoriualny oparty o komitaty (megye) i powiaty (processus, reambulatio, węg. szolgabírói járás) ukształtował się w średniowieczu, od XI wieku, i mimo wielu prób reform administracyjnych obowiązuje zasadniczo po dzień dzisiejszy. Najważniejsze reformy miały miejsce w latach 1785-1790, 1849-1860 i były związane z próbą centralizacji administracyjnej w ramach monarchii austriackiej."^^xsd:string ;
                           :hasScope "terytorium Królestwa Węgier, obejmuje południowe skrawki obecnej Polski, okolice Orawy i Niedzicy (dawne komitaty Spisz i Orawa)"^^xsd:string ;
+                          :individualHasExternalIdentifier 18 ;
                           :startsDominationAt "1200-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasBeginning> "1200-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasEnd> "1918-12-31"^^xsd:date ;
@@ -5707,10 +5863,19 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                    :object_21 ;
                           :endsDominationAt "1742-12-31"^^xsd:date ;
                           :hasScope "terytorium Śląska"^^xsd:string ;
+                          :individualHasExternalIdentifier 19 ;
                           :startsDominationAt "1372-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasBeginning> "1372-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasEnd> "1742-12-31"^^xsd:date ;
                           rdfs:label "Śląsk (1372-1742)"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_system_2
+:administrative_system_2 rdf:type owl:NamedIndividual ,
+                                  :object_21 ;
+                         :individualHasExternalIdentifier 2 ;
+                         <http://purl.org/ontohgis/hasBeginning> "1600-01-01"^^xsd:date ;
+                         <http://purl.org/ontohgis/hasEnd> "1600-12-31"^^xsd:date .
 
 
 ###  http://purl.org/ontohgis#administrative_system_20
@@ -5718,6 +5883,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                    :object_21 ;
                           :endsDominationAt "1648-12-31"^^xsd:date ;
                           :hasScope "terytorium Księstwa Pomorskiego, obejmuje obecne obszary Pomorza Zachodniego"^^xsd:string ;
+                          :individualHasExternalIdentifier 20 ;
                           :startsDominationAt "1250-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasBeginning> "1230-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasEnd> "1648-12-31"^^xsd:date ;
@@ -5730,6 +5896,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :endsDominationAt "1713-12-31"^^xsd:date ;
                           :hasLegalBasis "Hofordnung 1537, Kanzleiordnungen 1537, 1562, 1577; Geheime-Rats-Ordnung 13.12.1604"^^xsd:string ;
                           :hasScope "terytorium Marchii Brandenburskiej, obejmuje obecne ziemie zachodniej Polski"^^xsd:string ;
+                          :individualHasExternalIdentifier 21 ;
                           :startsDominationAt "1550-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasBeginning> "1540-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasEnd> "1713-12-31"^^xsd:date ;
@@ -5741,6 +5908,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                    :object_21 ;
                           :endsDominationAt "1790-12-31"^^xsd:date ;
                           :hasScope "terytorium Księstwa Siewierskiego, obejmuje obecnie okolice miast Siewierz, Czeladź i Koziegłowy"^^xsd:string ;
+                          :individualHasExternalIdentifier 22 ;
                           :startsDominationAt "1443-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasBeginning> "1443-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasEnd> "1790-12-31"^^xsd:date ;
@@ -5753,6 +5921,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :endsDominationAt "1540-12-31"^^xsd:date ;
                           :hasLegalBasis "Landbuch der Mark Brandenburg 1375 i następne decyzje margrafów"^^xsd:string ;
                           :hasScope "terytorium Marchii Brandenburskiej, obejmuje obecne ziemie zachodniej Polski"^^xsd:string ;
+                          :individualHasExternalIdentifier 23 ;
                           :startsDominationAt "1350-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasBeginning> "1323-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasEnd> "1550-12-31"^^xsd:date ;
@@ -5764,6 +5933,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                    :object_21 ;
                           :endsDominationAt "1370-12-31"^^xsd:date ;
                           :hasScope "terytorium obecnej Polski"^^xsd:string ;
+                          :individualHasExternalIdentifier 24 ;
                           :startsDominationAt "1000-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasBeginning> "1000-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasEnd> "1370-12-31"^^xsd:date ;
@@ -5776,6 +5946,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :endsDominationAt "1466-12-31"^^xsd:date ;
                           :hasLegalBasis "Przywilej chełmiński 1233, statuty zakonu, akt inkorporacji ziem pruskich z 6 marca 1454; traktat toruński z 1466; traktat krakowski z 1525"^^xsd:string ;
                           :hasScope "terytorium państwa zakonnego, obejmuje obecne obszary północnej Polski (Pomorze, Warmia i Mazury)"^^xsd:string ;
+                          :individualHasExternalIdentifier 25 ;
                           :startsDominationAt "1309-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasBeginning> "1233-01-01"^^xsd:date ;
                           <http://purl.org/ontohgis/hasEnd> "1525-12-31"^^xsd:date ;
@@ -5788,6 +5959,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                          :endsDominationAt "2016-12-21"^^xsd:date ;
                          :hasLegalBasis "Ustawa z dnia 24 lipca 1998 r. o wprowadzeniu zasadniczego trójstopniowego podziału terytorialnego państwa (Dz.U. z 1998 r. Nr 96, poz. 603)"^^xsd:string ;
                          :hasScope "terytorium III RP"^^xsd:string ;
+                         :individualHasExternalIdentifier 3 ;
                          :startsDominationAt "1999-01-01"^^xsd:date ;
                          <http://purl.org/ontohgis/hasBeginning> "1999-01-01"^^xsd:date ;
                          <http://purl.org/ontohgis/hasEnd> "2016-12-31"^^xsd:date ;
@@ -5800,6 +5972,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                          :endsDominationAt "1945-12-31"^^xsd:date ;
                          :hasLegalBasis "Verordnung wegen verbesserter Einrichtung der Provinzial- Polizei- und Finanzbehörden vom 26. Dezember 1808 (GS S. 481); Städteordnung 1808, 1831, 1853; Verordnung wegen verbesserter Einrichtung der Provinzial-Behörden vom 30. April 1815 (GS S. 85); Gesetz über Verpflichtung zur Armenpflege vom 31. Dez. 1842; Kreisordnung für die östlichen 6 Provinzen vom 13. Dez. 1872."^^xsd:string ;
                          :hasScope "terytorium Wolnego Państwa Prus, obejmuje obecne ziemie zachodniej i północnej Polski"^^xsd:string ;
+                         :individualHasExternalIdentifier 4 ;
                          :startsDominationAt "1920-01-01"^^xsd:date ;
                          <http://purl.org/ontohgis/hasBeginning> "1920-01-01"^^xsd:date ;
                          <http://purl.org/ontohgis/hasEnd> "1945-12-31"^^xsd:date ;
@@ -5811,6 +5984,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                   :object_21 ;
                          :endsDominationAt "1939-12-31"^^xsd:date ;
                          :hasScope "terytorium Wolnego Miasta Gdańska"^^xsd:string ;
+                         :individualHasExternalIdentifier 5 ;
                          :startsDominationAt "1920-01-01"^^xsd:date ;
                          <http://purl.org/ontohgis/hasBeginning> "1920-01-01"^^xsd:date ;
                          <http://purl.org/ontohgis/hasEnd> "1939-12-31"^^xsd:date ;
@@ -5822,6 +5996,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                   :object_21 ;
                          :endsDominationAt "1945-12-31"^^xsd:date ;
                          :hasScope "terytorium Wolnego Państwa Saksonia, obejmuje część Łużyc leżących obecnie w Polsce (Bogatynia)"^^xsd:string ;
+                         :individualHasExternalIdentifier 6 ;
                          :startsDominationAt "1919-01-01"^^xsd:date ;
                          <http://purl.org/ontohgis/hasBeginning> "1919-01-01"^^xsd:date ;
                          <http://purl.org/ontohgis/hasEnd> "1945-12-31"^^xsd:date ;
@@ -5834,6 +6009,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                          :endsDominationAt "1945-12-31"^^xsd:date ;
                          :hasLegalBasis "Verordnung wegen verbesserter Einrichtung der Provinzial- Polizei- und Finanzbehörden vom 26. Dezember 1808 (GS S. 481); Städteordnung 1808, 1831, 1853; Verordnung wegen verbesserter Einrichtung der Provinzial-Behörden vom 30. April 1815 (GS S. 85); Gesetz über Verpflichtung zur Armenpflege vom 31. Dez. 1842; Kreisordnung für die östlichen 6 Provinzen vom 13. Dez. 1872."^^xsd:string ;
                          :hasScope "terytorium Królestwa Prus, obejmuje obecne ziemie zachodniej i północnej Polski"^^xsd:string ;
+                         :individualHasExternalIdentifier 7 ;
                          :startsDominationAt "1815-01-01"^^xsd:date ;
                          <http://purl.org/ontohgis/hasBeginning> "1806-01-01"^^xsd:date ;
                          <http://purl.org/ontohgis/hasEnd> "1919-12-31"^^xsd:date ;
@@ -5846,6 +6022,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                          :endsDominationAt "1917-12-31"^^xsd:date ;
                          :hasLegalBasis "Dekret Piotra I z dnia 18 grudnia 1708 r.; ukaz Piotra I z dnia 29 maja 1719 r.; dekret Katarzyny II z 7 listopada 1775 r.; dekret Pawa I z 12 grudnia 1796 r.; 1861: reforma uwłaszczeniowa i wprowadzenie gmin"^^xsd:string ;
                          :hasScope "terytorium Cesarstwa Rosyjskiego, obejmuje część obecnego Podlasia (Białowieża)"^^xsd:string ;
+                         :individualHasExternalIdentifier 8 ;
                          :startsDominationAt "1796-01-01"^^xsd:date ;
                          <http://purl.org/ontohgis/hasBeginning> "1775-01-01"^^xsd:date ;
                          <http://purl.org/ontohgis/hasEnd> "1917-12-31"^^xsd:date ;
@@ -5857,6 +6034,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                   :object_21 ;
                          :endsDominationAt "1918-12-31"^^xsd:date ;
                          :hasScope "terytorium kraju koronnego Śląsk Austriacki, obejmuje obecną ziemię cieszyńską"^^xsd:string ;
+                         :individualHasExternalIdentifier 9 ;
                          :startsDominationAt "1849-01-01"^^xsd:date ;
                          <http://purl.org/ontohgis/hasBeginning> "1849-01-01"^^xsd:date ;
                          <http://purl.org/ontohgis/hasEnd> "1918-12-31"^^xsd:date ;
