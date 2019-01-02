@@ -13,6 +13,8 @@
 <http://purl.org/ontohgis> rdf:type owl:Ontology ;
                             owl:imports <http://www.opengis.net/ont/geosparql> ,
                                         oc:oc.ttl ,
+                                        <http://purl.org/dc/terms/> ,
+                                        dc: ,
                                         <http://purl.obolibrary.org/obo/bfo/2.0/bfo.owl> ,
                                         <http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl> ;
                             rdfs:comment "Mapped onto DBpedia ontology (2014)"@en ;
@@ -113,8 +115,8 @@
                                                          rdfs:subPropertyOf rdfs:comment .
 
 
-###  http://purl.org/ontohgis/isNentionedInSource
-<http://purl.org/ontohgis/isNentionedInSource> rdf:type owl:AnnotationProperty ;
+###  http://purl.org/ontohgis/isMentionedInSource
+<http://purl.org/ontohgis/isMentionedInSource> rdf:type owl:AnnotationProperty ;
                                                rdfs:label "is mentioned in source"@en ,
                                                           "jest wspomniany w źródle"@pl ;
                                                rdfs:range <http://purl.org/ontohgis/source> .
