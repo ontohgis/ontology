@@ -108,18 +108,18 @@
                    rdfs:range :object_204 .
 
 
-###  http://purl.org/ontohgis/hasOntologyDevelopmentComment
-<http://purl.org/ontohgis/hasOntologyDevelopmentComment> rdf:type owl:AnnotationProperty ;
+###  http://purl.org/ontohgis#hasOntologyDevelopmentComment
+<http://purl.org/ontohgis#hasOntologyDevelopmentComment> rdf:type owl:AnnotationProperty ;
                                                          rdfs:label "has comment from ontology development team"@en ,
                                                                     "ma komentarz od zespołu tworzącego ontologię"@pl ;
                                                          rdfs:subPropertyOf rdfs:comment .
 
 
-###  http://purl.org/ontohgis/isMentionedInSource
-<http://purl.org/ontohgis/isMentionedInSource> rdf:type owl:AnnotationProperty ;
+###  http://purl.org/ontohgis#isMentionedInSource
+<http://purl.org/ontohgis#isMentionedInSource> rdf:type owl:AnnotationProperty ;
                                                rdfs:label "is mentioned in source"@en ,
                                                           "jest wspomniany w źródle"@pl ;
-                                               rdfs:range <http://purl.org/ontohgis/source> .
+                                               rdfs:range <http://purl.org/ontohgis#source> .
 
 
 ###  http://xmlns.com/foaf/0.1/mbox
@@ -167,7 +167,7 @@ obo:IAO_0000219 rdf:type owl:ObjectProperty .
                  rdf:type owl:FunctionalProperty ;
                  rdfs:domain :object_203 ;
                  rdfs:range :object_204 ;
-                 <http://purl.org/ontohgis/hasOntologyDevelopmentComment> "Jeżeli organ administracji musi być zlokalizowany na obszarze swojej właściwości, relacja ta jest podrelacją isPartOf."@en ;
+                 <http://purl.org/ontohgis#hasOntologyDevelopmentComment> "Jeżeli organ administracji musi być zlokalizowany na obszarze swojej właściwości, relacja ta jest podrelacją isPartOf."@en ;
                  rdfs:label "administers over"@en ,
                             "ma właściwość w obszarze"@pl .
 
@@ -214,7 +214,7 @@ obo:IAO_0000219 rdf:type owl:ObjectProperty .
 
 ###  http://purl.org/ontohgis#hasFunction
 :hasFunction rdf:type owl:ObjectProperty ;
-             owl:inverseOf <http://purl.org/ontohgis/isFunctionOf> ;
+             owl:inverseOf <http://purl.org/ontohgis#isFunctionOf> ;
              rdfs:label "has function"@en ,
                         "ma funkcję"@pl .
 
@@ -266,7 +266,7 @@ obo:IAO_0000219 rdf:type owl:ObjectProperty .
 
 ###  http://purl.org/ontohgis#isProperFunctionOf
 :isProperFunctionOf rdf:type owl:ObjectProperty ;
-                    rdfs:subPropertyOf <http://purl.org/ontohgis/isFunctionOf> ;
+                    rdfs:subPropertyOf <http://purl.org/ontohgis#isFunctionOf> ;
                     rdfs:label "jest funkcją właściwą"@pl .
 
 
@@ -277,44 +277,44 @@ obo:IAO_0000219 rdf:type owl:ObjectProperty .
                                       rdfs:label "settlement unit is administered by administrative unit"@en .
 
 
-###  http://purl.org/ontohgis/hasBoundary
-<http://purl.org/ontohgis/hasBoundary> rdf:type owl:ObjectProperty ;
+###  http://purl.org/ontohgis#hasBoundary
+<http://purl.org/ontohgis#hasBoundary> rdf:type owl:ObjectProperty ;
                                        rdfs:subPropertyOf obo:BFO_0000051 ;
-                                       owl:inverseOf <http://purl.org/ontohgis/isBoundaryOf> ;
+                                       owl:inverseOf <http://purl.org/ontohgis#isBoundaryOf> ;
                                        rdfs:range obo:BFO_0000140 ;
                                        rdfs:label "has boundary"@en ,
                                                   "ma granicę"@pl .
 
 
-###  http://purl.org/ontohgis/isBoundaryOf
-<http://purl.org/ontohgis/isBoundaryOf> rdf:type owl:ObjectProperty ;
+###  http://purl.org/ontohgis#isBoundaryOf
+<http://purl.org/ontohgis#isBoundaryOf> rdf:type owl:ObjectProperty ;
                                         rdfs:subPropertyOf obo:BFO_0000050 ;
                                         rdfs:domain obo:BFO_0000140 ;
                                         rdfs:label "is boundary of"@en ,
                                                    "jest granicą"@pl .
 
 
-###  http://purl.org/ontohgis/isFunctionOf
-<http://purl.org/ontohgis/isFunctionOf> rdf:type owl:ObjectProperty ;
+###  http://purl.org/ontohgis#isFunctionOf
+<http://purl.org/ontohgis#isFunctionOf> rdf:type owl:ObjectProperty ;
                                         rdfs:domain obo:BFO_0000034 ;
                                         rdfs:label "is function of"@en ,
                                                    "jest funkcją"@pl .
 
 
-###  http://purl.org/ontohgis/settlementHasSettlementPart
-<http://purl.org/ontohgis/settlementHasSettlementPart> rdf:type owl:ObjectProperty ;
+###  http://purl.org/ontohgis#settlementHasSettlementPart
+<http://purl.org/ontohgis#settlementHasSettlementPart> rdf:type owl:ObjectProperty ;
                                                        rdfs:subPropertyOf obo:BFO_0000051 ,
                                                                           :featureContainsFeature ;
-                                                       owl:inverseOf <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                       owl:inverseOf <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                        rdfs:domain :object_40 ;
                                                        rdfs:range :object_40 ;
-                                                       owl:propertyDisjointWith <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                       owl:propertyDisjointWith <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                        rdfs:label "has settlement part"@en ,
                                                                   "ma część (jednostkę osadniczą)"@pl .
 
 
-###  http://purl.org/ontohgis/settlementIsPartOfSettlement
-<http://purl.org/ontohgis/settlementIsPartOfSettlement> rdf:type owl:ObjectProperty ;
+###  http://purl.org/ontohgis#settlementIsPartOfSettlement
+<http://purl.org/ontohgis#settlementIsPartOfSettlement> rdf:type owl:ObjectProperty ;
                                                         rdfs:subPropertyOf obo:BFO_0000050 ,
                                                                            :featureIsContainedInFeature ;
                                                         rdf:type owl:FunctionalProperty ;
@@ -368,7 +368,7 @@ obo:IAO_0000219 rdf:type owl:ObjectProperty .
 ###  http://purl.org/ontohgis#isPublishedAfter
 :isPublishedAfter rdf:type owl:DatatypeProperty ,
                            owl:FunctionalProperty ;
-                  rdfs:domain <http://purl.org/ontohgis/source> ;
+                  rdfs:domain <http://purl.org/ontohgis#source> ;
                   rdfs:range xsd:dateTime ;
                   rdfs:label "is published after"@en ,
                              "jest opublikowane po"@pl .
@@ -377,7 +377,7 @@ obo:IAO_0000219 rdf:type owl:ObjectProperty .
 ###  http://purl.org/ontohgis#isPublishedBefore
 :isPublishedBefore rdf:type owl:DatatypeProperty ,
                             owl:FunctionalProperty ;
-                   rdfs:domain <http://purl.org/ontohgis/source> ;
+                   rdfs:domain <http://purl.org/ontohgis#source> ;
                    rdfs:range xsd:dateTime ;
                    rdfs:label "is published before"@en ,
                               "jest opublikowane przed"@pl .
@@ -392,16 +392,16 @@ obo:IAO_0000219 rdf:type owl:ObjectProperty .
                                "zaczyna obowiązywać od"@pl .
 
 
-###  http://purl.org/ontohgis/hasBeginning
-<http://purl.org/ontohgis/hasBeginning> rdf:type owl:DatatypeProperty ,
+###  http://purl.org/ontohgis#hasBeginning
+<http://purl.org/ontohgis#hasBeginning> rdf:type owl:DatatypeProperty ,
                                                  owl:FunctionalProperty ;
                                         rdfs:range xsd:date ;
                                         rdfs:label "has beginning"@en ,
                                                    "ma początek"@pl .
 
 
-###  http://purl.org/ontohgis/hasEnd
-<http://purl.org/ontohgis/hasEnd> rdf:type owl:DatatypeProperty ,
+###  http://purl.org/ontohgis#hasEnd
+<http://purl.org/ontohgis#hasEnd> rdf:type owl:DatatypeProperty ,
                                            owl:FunctionalProperty ;
                                   rdfs:range xsd:date ;
                                   rdfs:label "has end"@en ,
@@ -423,7 +423,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_1
 :administrative_type_1 rdf:type owl:Class ;
                        rdfs:subClassOf :administrative_type_24 ,
-                                       <http://purl.org/ontohgis/object_3014> ;
+                                       <http://purl.org/ontohgis#object_3014> ;
                        :hasExternalIdentifier 1 ;
                        :isSymbolisedByMeansOf :map_symbol_10 ;
                        rdfs:isDefinedBy :administrative_system_4 ;
@@ -433,7 +433,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_10
 :administrative_type_10 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_11
@@ -451,7 +451,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                              :administrative_type_109 ,
                                              :administrative_type_114 ,
                                              :administrative_type_99 ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 100 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_10 ;
@@ -462,7 +462,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_101
 :administrative_type_101 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 101 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_7 ;
@@ -474,7 +474,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_102
 :administrative_type_102 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 102 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_12 ;
@@ -484,7 +484,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_103
 :administrative_type_103 rdf:type owl:Class ;
                          owl:equivalentClass :administrative_type_106 ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_100
@@ -497,7 +497,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_104
 :administrative_type_104 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_105
@@ -510,7 +510,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_105
 :administrative_type_105 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 105 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_18 ;
@@ -521,7 +521,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_106
 :administrative_type_106 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_107
@@ -534,7 +534,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_107
 :administrative_type_107 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 107 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_9 ;
@@ -550,7 +550,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                              :administrative_type_125 ,
                                              :administrative_type_131 ,
                                              :administrative_type_135 ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 108 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_15 ;
@@ -559,7 +559,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_109
 :administrative_type_109 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 109 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_16 ;
@@ -572,7 +572,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_11
 :administrative_type_11 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_12
@@ -585,7 +585,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_110
 :administrative_type_110 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 110 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_13 ;
@@ -595,7 +595,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_111
 :administrative_type_111 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_112
@@ -618,7 +618,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_112
 :administrative_type_112 rdf:type owl:Class ;
                          owl:equivalentClass :administrative_type_86 ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_113
@@ -634,7 +634,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_113 rdf:type owl:Class ;
                          owl:equivalentClass :administrative_type_134 ,
                                              :administrative_type_84 ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_114
@@ -648,7 +648,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_114
 :administrative_type_114 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 114 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_19 ;
@@ -658,7 +658,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_115
 :administrative_type_115 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_118
@@ -672,7 +672,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_116
 :administrative_type_116 rdf:type owl:Class ;
                          rdfs:subClassOf :administrative_type_115 ,
-                                         <http://purl.org/ontohgis/object_3014> ;
+                                         <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 116 ;
                          :isSymbolisedByMeansOf :map_symbol_40 ;
                          rdfs:isDefinedBy :administrative_system_20 ;
@@ -682,7 +682,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_117
 :administrative_type_117 rdf:type owl:Class ;
                          rdfs:subClassOf :administrative_type_115 ,
-                                         <http://purl.org/ontohgis/object_3014> ;
+                                         <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 117 ;
                          :isSymbolisedByMeansOf :map_symbol_40 ;
                          rdfs:isDefinedBy :administrative_system_20 ;
@@ -692,7 +692,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_118
 :administrative_type_118 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_119
@@ -705,7 +705,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_119
 :administrative_type_119 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_120
@@ -718,7 +718,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_12
 :administrative_type_12 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 12 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_1 ;
@@ -728,7 +728,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_120
 :administrative_type_120 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 120 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_20 ;
@@ -737,7 +737,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_121
 :administrative_type_121 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_122
@@ -755,7 +755,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_122
 :administrative_type_122 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_123
@@ -769,7 +769,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_123
 :administrative_type_123 rdf:type owl:Class ;
                          owl:equivalentClass :administrative_type_30 ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_124
@@ -783,7 +783,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_124
 :administrative_type_124 rdf:type owl:Class ;
                          owl:equivalentClass :administrative_type_130 ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_125
@@ -798,7 +798,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_125
 :administrative_type_125 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 125 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_21 ;
@@ -808,7 +808,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_126
 :administrative_type_126 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 126 ;
                          :isSymbolisedByMeansOf :map_symbol_80 ;
                          rdfs:isDefinedBy :administrative_system_22 ;
@@ -817,7 +817,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_127
 :administrative_type_127 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_128
@@ -831,7 +831,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_128
 :administrative_type_128 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_129
@@ -846,7 +846,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_129
 :administrative_type_129 rdf:type owl:Class ;
                          owl:equivalentClass :administrative_type_30 ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_130
@@ -861,7 +861,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_13
 :administrative_type_13 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_24 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 13 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
@@ -871,7 +871,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_130
 :administrative_type_130 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_131
@@ -886,7 +886,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_131
 :administrative_type_131 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 131 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_23 ;
@@ -896,7 +896,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_132
 :administrative_type_132 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_133
@@ -910,7 +910,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_133
 :administrative_type_133 rdf:type owl:Class ;
                          owl:equivalentClass :administrative_type_86 ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_134
@@ -924,7 +924,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_134
 :administrative_type_134 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_135
@@ -939,7 +939,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_135
 :administrative_type_135 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 135 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_24 ;
@@ -948,7 +948,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_136
 :administrative_type_136 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_139
@@ -962,7 +962,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_137
 :administrative_type_137 rdf:type owl:Class ;
                          rdfs:subClassOf :administrative_type_136 ,
-                                         <http://purl.org/ontohgis/object_3014> ;
+                                         <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 137 ;
                          :isSymbolisedByMeansOf :map_symbol_20 ;
                          rdfs:isDefinedBy :administrative_system_25 ;
@@ -972,7 +972,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_138
 :administrative_type_138 rdf:type owl:Class ;
                          rdfs:subClassOf :administrative_type_136 ,
-                                         <http://purl.org/ontohgis/object_3014> ;
+                                         <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 138 ;
                          :isSymbolisedByMeansOf :map_symbol_20 ;
                          rdfs:isDefinedBy :administrative_system_25 ;
@@ -981,7 +981,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_139
 :administrative_type_139 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_142
@@ -995,7 +995,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_14
 :administrative_type_14 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_24 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 14 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
@@ -1006,7 +1006,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_140
 :administrative_type_140 rdf:type owl:Class ;
                          rdfs:subClassOf :administrative_type_139 ,
-                                         <http://purl.org/ontohgis/object_3014> ;
+                                         <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 140 ;
                          :isSymbolisedByMeansOf :map_symbol_30 ;
                          rdfs:isDefinedBy :administrative_system_25 ;
@@ -1016,7 +1016,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_141
 :administrative_type_141 rdf:type owl:Class ;
                          rdfs:subClassOf :administrative_type_139 ,
-                                         <http://purl.org/ontohgis/object_3014> ;
+                                         <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 141 ;
                          :isSymbolisedByMeansOf :map_symbol_30 ;
                          rdfs:isDefinedBy :administrative_system_25 ;
@@ -1025,7 +1025,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_142
 :administrative_type_142 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000050 ;
                                            owl:someValuesFrom :administrative_type_143
@@ -1038,7 +1038,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_143
 :administrative_type_143 rdf:type owl:Class ;
-                         rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                         rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                          :hasExternalIdentifier 143 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_25 ;
@@ -1048,7 +1048,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_2
 :administrative_type_2 rdf:type owl:Class ;
                        rdfs:subClassOf :administrative_type_9 ,
-                                       <http://purl.org/ontohgis/object_3014> ;
+                                       <http://purl.org/ontohgis#object_3014> ;
                        :hasExternalIdentifier 2 ;
                        :isSymbolisedByMeansOf :map_symbol_10 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
@@ -1057,7 +1057,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_24
 :administrative_type_24 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_25
@@ -1071,7 +1071,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_25
 :administrative_type_25 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_26
@@ -1085,7 +1085,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_26
 :administrative_type_26 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_29
@@ -1100,7 +1100,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_27
 :administrative_type_27 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_26 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 27 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
@@ -1111,7 +1111,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_28
 :administrative_type_28 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_26 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 28 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
@@ -1126,7 +1126,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                               owl:onProperty obo:BFO_0000050 ;
                                               owl:someValuesFrom :administrative_type_30
                                             ] ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 29 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
@@ -1139,7 +1139,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_3
 :administrative_type_3 rdf:type owl:Class ;
                        rdfs:subClassOf :administrative_type_9 ,
-                                       <http://purl.org/ontohgis/object_3014> ;
+                                       <http://purl.org/ontohgis#object_3014> ;
                        :hasExternalIdentifier 3 ;
                        :isSymbolisedByMeansOf :map_symbol_10 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
@@ -1150,7 +1150,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_30 rdf:type owl:Class ;
                         owl:equivalentClass :administrative_type_43 ,
                                             :administrative_type_78 ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_31
@@ -1166,7 +1166,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_31 rdf:type owl:Class ;
                         owl:equivalentClass :administrative_type_44 ,
                                             :administrative_type_79 ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 31 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
@@ -1176,7 +1176,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_32
 :administrative_type_32 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 32 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_5 ;
@@ -1188,7 +1188,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :administrative_type_33 rdf:type owl:Class ;
                         owl:equivalentClass :administrative_type_73 ,
                                             :administrative_type_87 ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 33 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_6 ;
@@ -1199,7 +1199,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_34
 :administrative_type_34 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_37 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 34 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
@@ -1210,7 +1210,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_35
 :administrative_type_35 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_37 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 35 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
@@ -1221,7 +1221,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_36
 :administrative_type_36 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_37 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 36 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
@@ -1231,7 +1231,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_37
 :administrative_type_37 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_38
@@ -1245,7 +1245,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_38
 :administrative_type_38 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_39
@@ -1259,7 +1259,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_39
 :administrative_type_39 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_42
@@ -1274,7 +1274,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_4
 :administrative_type_4 rdf:type owl:Class ;
                        rdfs:subClassOf :administrative_type_9 ,
-                                       <http://purl.org/ontohgis/object_3014> ;
+                                       <http://purl.org/ontohgis#object_3014> ;
                        :hasExternalIdentifier 4 ;
                        :isSymbolisedByMeansOf :map_symbol_10 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
@@ -1284,7 +1284,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_40
 :administrative_type_40 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_39 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 40 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
@@ -1295,7 +1295,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_41
 :administrative_type_41 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_39 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 41 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
@@ -1309,7 +1309,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                               owl:onProperty obo:BFO_0000050 ;
                                               owl:someValuesFrom :administrative_type_43
                                             ] ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 42 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
@@ -1321,7 +1321,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_43
 :administrative_type_43 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_44
@@ -1335,7 +1335,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_44
 :administrative_type_44 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_101
@@ -1351,7 +1351,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_45
 :administrative_type_45 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_46
@@ -1364,7 +1364,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_46
 :administrative_type_46 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_47
@@ -1377,7 +1377,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_47
 :administrative_type_47 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_48
@@ -1390,7 +1390,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_48
 :administrative_type_48 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 48 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_3 ;
@@ -1399,7 +1399,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_49
 :administrative_type_49 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_50
@@ -1414,7 +1414,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_5
 :administrative_type_5 rdf:type owl:Class ;
                        rdfs:subClassOf :administrative_type_10 ,
-                                       <http://purl.org/ontohgis/object_3014> ;
+                                       <http://purl.org/ontohgis#object_3014> ;
                        :hasExternalIdentifier 5 ;
                        :isSymbolisedByMeansOf :map_symbol_30 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
@@ -1423,7 +1423,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_50
 :administrative_type_50 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_51
@@ -1438,7 +1438,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_51
 :administrative_type_51 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_52
@@ -1452,7 +1452,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_52
 :administrative_type_52 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_56
@@ -1467,7 +1467,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_53
 :administrative_type_53 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_52 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 53 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_8 ;
@@ -1478,7 +1478,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_54
 :administrative_type_54 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_52 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 54 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_8 ;
@@ -1489,7 +1489,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_55
 :administrative_type_55 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_52 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 55 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_8 ;
@@ -1499,7 +1499,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_56
 :administrative_type_56 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_57
@@ -1515,7 +1515,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_57
 :administrative_type_57 rdf:type owl:Class ;
                         owl:equivalentClass :administrative_type_72 ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 57 ;
                         :isSymbolisedByMeansOf :map_symbol_100 ;
                         rdfs:isDefinedBy :administrative_system_8 ;
@@ -1527,7 +1527,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_58
 :administrative_type_58 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_106
@@ -1542,7 +1542,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_59
 :administrative_type_59 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_63
@@ -1556,7 +1556,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_6
 :administrative_type_6 rdf:type owl:Class ;
                        rdfs:subClassOf :administrative_type_10 ,
-                                       <http://purl.org/ontohgis/object_3014> ;
+                                       <http://purl.org/ontohgis#object_3014> ;
                        :hasExternalIdentifier 6 ;
                        :isSymbolisedByMeansOf :map_symbol_30 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
@@ -1566,7 +1566,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_60
 :administrative_type_60 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_59 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 60 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_10 ;
@@ -1576,7 +1576,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_61
 :administrative_type_61 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_59 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 61 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_10 ;
@@ -1586,7 +1586,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_62
 :administrative_type_62 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_59 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 62 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_10 ;
@@ -1595,7 +1595,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_63
 :administrative_type_63 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_64
@@ -1610,7 +1610,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_64
 :administrative_type_64 rdf:type owl:Class ;
                         owl:equivalentClass :administrative_type_95 ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_103
@@ -1625,7 +1625,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_65
 :administrative_type_65 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_68
@@ -1639,7 +1639,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_66
 :administrative_type_66 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_65 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 66 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_11 ;
@@ -1649,7 +1649,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_67
 :administrative_type_67 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_65 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 67 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_11 ;
@@ -1658,7 +1658,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_68
 :administrative_type_68 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_69
@@ -1671,7 +1671,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_69
 :administrative_type_69 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_70
@@ -1685,7 +1685,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_7
 :administrative_type_7 rdf:type owl:Class ;
                        rdfs:subClassOf :administrative_type_11 ,
-                                       <http://purl.org/ontohgis/object_3014> ;
+                                       <http://purl.org/ontohgis#object_3014> ;
                        :hasExternalIdentifier 7 ;
                        :isSymbolisedByMeansOf :map_symbol_50 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
@@ -1694,7 +1694,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_70
 :administrative_type_70 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_71
@@ -1707,7 +1707,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_71
 :administrative_type_71 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_72
@@ -1723,7 +1723,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_72
 :administrative_type_72 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 72 ;
                         :isSymbolisedByMeansOf :map_symbol_100 ;
                         rdfs:isDefinedBy :administrative_system_11 ;
@@ -1732,7 +1732,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_73
 :administrative_type_73 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_102
@@ -1746,7 +1746,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_74
 :administrative_type_74 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_77
@@ -1760,7 +1760,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_75
 :administrative_type_75 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_74 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 75 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_13 ;
@@ -1771,7 +1771,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_76
 :administrative_type_76 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_74 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 76 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_13 ;
@@ -1780,7 +1780,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_77
 :administrative_type_77 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_78
@@ -1793,7 +1793,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_78
 :administrative_type_78 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 78 ;
                         :isSymbolisedByMeansOf :map_symbol_60 ;
                         rdfs:isDefinedBy :administrative_system_13 ;
@@ -1802,7 +1802,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_79
 :administrative_type_79 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_110
@@ -1817,7 +1817,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_8
 :administrative_type_8 rdf:type owl:Class ;
                        rdfs:subClassOf :administrative_type_11 ,
-                                       <http://purl.org/ontohgis/object_3014> ;
+                                       <http://purl.org/ontohgis#object_3014> ;
                        :hasExternalIdentifier 8 ;
                        :isSymbolisedByMeansOf :map_symbol_50 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
@@ -1826,7 +1826,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_80
 :administrative_type_80 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_81
@@ -1839,7 +1839,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_81
 :administrative_type_81 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_82
@@ -1852,7 +1852,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_82
 :administrative_type_82 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_83
@@ -1865,7 +1865,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_83
 :administrative_type_83 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_84
@@ -1878,7 +1878,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_84
 :administrative_type_84 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_85
@@ -1891,7 +1891,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_85
 :administrative_type_85 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 85 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_14 ;
@@ -1901,7 +1901,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_86
 :administrative_type_86 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_87
@@ -1916,7 +1916,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_87
 :administrative_type_87 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_108
@@ -1931,7 +1931,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_88
 :administrative_type_88 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_109
@@ -1944,7 +1944,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_89
 :administrative_type_89 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_92
@@ -1957,7 +1957,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_9
 :administrative_type_9 rdf:type owl:Class ;
-                       rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                       rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                        [ rdf:type owl:Restriction ;
                                          owl:onProperty obo:BFO_0000050 ;
                                          owl:someValuesFrom :administrative_type_10
@@ -1971,7 +1971,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_90
 :administrative_type_90 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_89 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 90 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_17 ;
@@ -1981,7 +1981,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 ###  http://purl.org/ontohgis#administrative_type_91
 :administrative_type_91 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_89 ,
-                                        <http://purl.org/ontohgis/object_3014> ;
+                                        <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 91 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_17 ;
@@ -1990,7 +1990,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_92
 :administrative_type_92 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 92 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_17 ;
@@ -2002,7 +2002,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_93
 :administrative_type_93 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_94
@@ -2017,7 +2017,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_94
 :administrative_type_94 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_95
@@ -2035,7 +2035,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                               owl:onProperty obo:BFO_0000050 ;
                                               owl:someValuesFrom :administrative_type_96
                                             ] ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 95 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_17 ;
@@ -2044,7 +2044,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_96
 :administrative_type_96 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 96 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_18 ;
@@ -2056,7 +2056,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_97
 :administrative_type_97 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_98
@@ -2070,7 +2070,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_98
 :administrative_type_98 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ,
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty obo:BFO_0000050 ;
                                           owl:someValuesFrom :administrative_type_104
@@ -2085,7 +2085,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_99
 :administrative_type_99 rdf:type owl:Class ;
-                        rdfs:subClassOf <http://purl.org/ontohgis/object_3014> ;
+                        rdfs:subClassOf <http://purl.org/ontohgis#object_3014> ;
                         :hasExternalIdentifier 99 ;
                         :isSymbolisedByMeansOf :map_symbol_100 ;
                         rdfs:isDefinedBy :administrative_system_17 ;
@@ -2176,23 +2176,23 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 :object_200 rdf:type owl:Class ;
             owl:equivalentClass [ rdf:type owl:Restriction ;
                                   owl:onProperty oc:isManifestationOf ;
-                                  owl:someValuesFrom <http://purl.org/ontohgis/object_20>
+                                  owl:someValuesFrom <http://purl.org/ontohgis#object_20>
                                 ] ;
             rdfs:subClassOf oc:VariableEntityManifestation ,
                             [ rdf:type owl:Restriction ;
-                              owl:onProperty <http://purl.org/ontohgis/hasBoundary> ;
-                              owl:someValuesFrom <http://purl.org/ontohgis/settlement_unit2000>
+                              owl:onProperty <http://purl.org/ontohgis#hasBoundary> ;
+                              owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit2000>
                             ] ,
                             [ rdf:type owl:Restriction ;
-                              owl:onProperty <http://purl.org/ontohgis/hasBoundary> ;
-                              owl:allValuesFrom <http://purl.org/ontohgis/settlement_unit2000>
+                              owl:onProperty <http://purl.org/ontohgis#hasBoundary> ;
+                              owl:allValuesFrom <http://purl.org/ontohgis#settlement_unit2000>
                             ] ,
                             [ rdf:type owl:Restriction ;
                               owl:onProperty <http://www.opengis.net/ont/geosparql#hasGeometry> ;
                               owl:cardinality "1"^^xsd:nonNegativeInteger
                             ] ,
                             [ rdf:type owl:Restriction ;
-                              owl:onProperty <http://purl.org/ontohgis/hasBeginning> ;
+                              owl:onProperty <http://purl.org/ontohgis#hasBeginning> ;
                               owl:someValuesFrom xsd:date
                             ] ;
             owl:disjointWith :object_40 ;
@@ -2268,7 +2268,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#object_23
 :object_23 rdf:type owl:Class ;
-           owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis/object_1>
+           owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis#object_1>
                                                       [ rdf:type owl:Restriction ;
                                                         owl:onProperty :hasProperFunction ;
                                                         owl:hasValue :object_401
@@ -2276,7 +2276,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                                     ) ;
                                  rdf:type owl:Class
                                ] ;
-           rdfs:subClassOf <http://purl.org/ontohgis/object_1> ;
+           rdfs:subClassOf <http://purl.org/ontohgis#object_1> ;
            rdfs:isDefinedBy "Budynek jest to przedmiot trwający w czasie, który został wytworzony lub wykorzystany w celu odgraniczenia pewnej przestrzeni (“wewnątrz\") od innej przestrzeni (“zewnątrz”)."@pl ;
            rdfs:label "budynek"@pl ,
                       "building"@en ;
@@ -2296,7 +2296,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                              owl:onProperty :hasFunction ;
                              owl:hasValue :object_400
                            ] ;
-           owl:disjointWith <http://purl.org/ontohgis/object_20> ;
+           owl:disjointWith <http://purl.org/ontohgis#object_20> ;
            rdfs:isDefinedBy """Jednostka osadnicza:
 1. obszar posiadający nazwę własną i
 2. obszar, który jest lub był w przeszłości miejscowością"""@pl ;
@@ -2336,19 +2336,19 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                                         owl:someValuesFrom :object_31
                                                       ]
                                                       [ rdf:type owl:Restriction ;
-                                                        owl:onProperty <http://purl.org/ontohgis/hasBoundary> ;
-                                                        owl:someValuesFrom <http://purl.org/ontohgis/settlement_unit2001>
+                                                        owl:onProperty <http://purl.org/ontohgis#hasBoundary> ;
+                                                        owl:someValuesFrom <http://purl.org/ontohgis#settlement_unit2001>
                                                       ]
                                                     ) ;
                                  rdf:type owl:Class
                                ] ;
            rdfs:subClassOf :object_40 ,
                            [ rdf:type owl:Restriction ;
-                             owl:onProperty <http://purl.org/ontohgis/hasBoundary> ;
-                             owl:allValuesFrom <http://purl.org/ontohgis/settlement_unit2001>
+                             owl:onProperty <http://purl.org/ontohgis#hasBoundary> ;
+                             owl:allValuesFrom <http://purl.org/ontohgis#settlement_unit2001>
                            ] ,
                            [ rdf:type owl:Restriction ;
-                             owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                             owl:onProperty <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                              owl:onClass :object_32
                            ] ;
@@ -2356,7 +2356,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                  :object_1001
                                ) ,
                                ( :object_12
-                                 <http://purl.org/ontohgis/settlement_unit1000>
+                                 <http://purl.org/ontohgis#settlement_unit1000>
                                ) ;
            rdfs:comment "Zakładamy, że każda podklasa miejscowości zawiera tylko zamieszkane jednostki osadnicze, np. klasa settlement_unit10 (rdfs:label='browar'@pl) obejmuje tylko zamieszkane browary."@pl ;
            rdfs:isDefinedBy """A dwelling is an area such that:
@@ -2401,7 +2401,7 @@ c. prawnie."""@pl ;
                              owl:maxCardinality "1"^^xsd:nonNegativeInteger
                            ] ,
                            [ rdf:type owl:Restriction ;
-                             owl:onProperty <http://purl.org/ontohgis/hasBeginning> ;
+                             owl:onProperty <http://purl.org/ontohgis#hasBeginning> ;
                              owl:someValuesFrom xsd:date
                            ] ;
            owl:disjointUnionOf ( :object_100
@@ -2489,7 +2489,7 @@ c. prawnie."""@pl ;
 
 ###  http://purl.org/ontohgis#settlement_unit1
 :settlement_unit1 rdf:type owl:Class ;
-                  rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ,
+                  rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit1000> ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty :hasProperFunction ;
                                     owl:hasValue :function5
@@ -2519,7 +2519,7 @@ c. prawnie."""@pl ;
 ###  http://purl.org/ontohgis#settlement_unit10
 :settlement_unit10 rdf:type owl:Class ;
                    rdfs:subClassOf :object_500 ,
-                                   <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   <http://purl.org/ontohgis#settlement_unit3003> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty obo:BFO_0000051 ;
                                      owl:someValuesFrom :settlement_unit135
@@ -2588,7 +2588,7 @@ c. prawnie."""@pl ;
                     rdfs:subClassOf :object_1000 ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty obo:BFO_0000051 ;
-                                      owl:someValuesFrom <http://purl.org/ontohgis/object_1>
+                                      owl:someValuesFrom <http://purl.org/ontohgis#object_1>
                                     ] ;
                     :hasExternalIdentifier "102"^^xsd:string ;
                     rdfs:label "group of buildings"@en ,
@@ -2650,8 +2650,8 @@ c. prawnie."""@pl ;
 ###  http://purl.org/ontohgis#settlement_unit106
 :settlement_unit106 rdf:type owl:Class ;
                     rdfs:subClassOf :settlement_unit33 ,
-                                    <http://purl.org/ontohgis/settlement_unit1000> ,
-                                    <http://purl.org/ontohgis/settlement_unit3007> ,
+                                    <http://purl.org/ontohgis#settlement_unit1000> ,
+                                    <http://purl.org/ontohgis#settlement_unit3007> ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty :hasProperFunction ;
                                       owl:hasValue :function1
@@ -2676,7 +2676,7 @@ c. prawnie."""@pl ;
 ###  http://purl.org/ontohgis#settlement_unit11
 :settlement_unit11 rdf:type owl:Class ;
                    rdfs:subClassOf :object_500 ,
-                                   <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   <http://purl.org/ontohgis#settlement_unit3003> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty obo:BFO_0000051 ;
                                      owl:someValuesFrom :settlement_unit136
@@ -2705,7 +2705,7 @@ c. prawnie."""@pl ;
 ###  http://purl.org/ontohgis#settlement_unit110
 :settlement_unit110 rdf:type owl:Class ;
                     rdfs:subClassOf :object_1001 ,
-                                    <http://purl.org/ontohgis/settlement_unit3003> ,
+                                    <http://purl.org/ontohgis#settlement_unit3003> ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty :hasProperFunction ;
                                       owl:hasValue :function1
@@ -2729,17 +2729,17 @@ c. prawnie."""@pl ;
 
 ###  http://purl.org/ontohgis#settlement_unit112
 :settlement_unit112 rdf:type owl:Class ;
-                    owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis/settlement_unit3008>
+                    owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis#settlement_unit3008>
                                                                [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                                 owl:onProperty <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                                  owl:someValuesFrom :settlement_unit44
                                                                ]
                                                              ) ;
                                           rdf:type owl:Class
                                         ] ;
                     rdfs:subClassOf :object_1000 ,
-                                    <http://purl.org/ontohgis/settlement_unit1000> ,
-                                    <http://purl.org/ontohgis/settlement_unit3008> ;
+                                    <http://purl.org/ontohgis#settlement_unit1000> ,
+                                    <http://purl.org/ontohgis#settlement_unit3008> ;
                     dc:creator :person_8 ;
                     :hasExternalIdentifier 112 ;
                     :hasLanguageVerificator :person_1 ;
@@ -2757,7 +2757,7 @@ c. prawnie."""@pl ;
 
 ###  http://purl.org/ontohgis#settlement_unit113
 :settlement_unit113 rdf:type owl:Class ;
-                    rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ,
+                    rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit1000> ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty :hasProperFunction ;
                                       owl:hasValue :function3
@@ -2810,7 +2810,7 @@ c. prawnie."""@pl ;
    owl:annotatedSource :settlement_unit114 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "od średniowiecza do w. XVII obronna siedziba pana feudalnego, ośrodek władzy; w XVII w. i później królewska, książęca lub magnacka rezydencja miejska lub pozamiejska"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4>
  ] .
 
 
@@ -2838,7 +2838,7 @@ c. prawnie."""@pl ;
    owl:annotatedSource :settlement_unit115 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "przybrzeżny obszar wodny, odpowiednio pogłębiony, osłonięty przed wiatrem i falą, przeznaczony dla postoju statków, wyposażony w specjalne urządzenia służące do ich załadowywania, wyładowywania, zaopatrzenia i naprawy; miasto  nabrzeżne, w którym jest także miejsce postoju statków."@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4>
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -2874,7 +2874,7 @@ c. prawnie."""@pl ;
    owl:annotatedSource :settlement_unit117 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "1] miejsce, gdzie można się schronić, czuć bezpiecznie, schronienie; [2] budynek położony na szlaku turystycznym z dala od osiedli ludzkich, służący jako miejsce odpoczynku i noclegu dla turystów (podróżnych); [3] przytułek, zakład dla bezdomnych, starców"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4>
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -2910,7 +2910,7 @@ c. prawnie."""@pl ;
    owl:annotatedSource :settlement_unit118 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "miejsce, gdzie zatrzymują się pociągi"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4>
  ] .
 
 
@@ -2939,7 +2939,7 @@ c. prawnie."""@pl ;
    owl:annotatedSource :settlement_unit119 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "mała stacja kolejowa przeznaczona tylko dla ruchu pasażerskiego"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4>
  ] .
 
 
@@ -2947,7 +2947,7 @@ c. prawnie."""@pl ;
 :settlement_unit12 rdf:type owl:Class ;
                    rdfs:subClassOf :object_500 ,
                                    :settlement_unit33 ,
-                                   <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   <http://purl.org/ontohgis#settlement_unit3003> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty obo:BFO_0000051 ;
                                      owl:someValuesFrom :settlement_unit138
@@ -3018,14 +3018,14 @@ c. prawnie."""@pl ;
    owl:annotatedSource :settlement_unit120 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 3, s. 360-362: 1. Świątynia (nie tylko chrześcijańska), dom boży, templum, aedes sacra--. 2. swoista jednostka prawna związana z określonym kościołem (parafia, diecezja itd.), corpus paroeciae vel dioecesis (ad certam quandam ecclesiam pertinens)."@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_6>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_6>
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit120 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 9, kol. 1025: budynek poświęcony (dedykacja lub benedykcja) w obrzędzie liturg. przez biskupa, gdzie wspólnota ochrzczonych (—> Kościół) gromadzi się na słuchanie słowa Bożego, wspólną i prywatną modlitwę oraz celebrację sakramentów, zwł. Eucharystii; miejsce przechowywania Najśw. Sakramentu, a także pochówku(—> krypta, —> konfesja); k. był określany także jako domus ecclesiae, domus orationis, Kyriakon, domus Dei, Dominicum; w kat. obrządkach wsch. nazywany jest —> cerkwią."@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_7>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_7>
  ] .
 
 
@@ -3136,7 +3136,7 @@ c. prawnie."""@pl ;
    owl:annotatedSource :settlement_unit122 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 8, kol. 676: niewielka budowla kultowa (najczęściej z ołtarzem), wolno stojąca lub związana z większym kompleksem archit., także pomieszczenie, czyli oratorium, miejsce modlitwy liturg. i prywatnej, przeznaczone przez ordynariusza do sprawowanie wszystkich lub niektórych funkcji liturg. dla niewielkiej grupy wiernych, do którego za zgodą kompetentnego przełożonego mogą przychodzić także in. wierni."@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_7>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_7>
  ] .
 
 
@@ -3173,7 +3173,7 @@ c. prawnie."""@pl ;
    owl:annotatedSource :settlement_unit123 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "prymitywny zakład przemysłowy, gdzie wypraża się z drewna (tzw. karpowin) smołę i otrzymuje terpentynę, spirytus drzewny i inne chemikalia"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4> ,
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4> ,
                     <https://sjp.pwn.pl/doroszewski/smolarnia;5498496.html>
  ] .
 
@@ -3232,14 +3232,14 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
    owl:annotatedTarget """t. 2, s. 264: 1. dom szynkowy (Star.), szynk, szynkownia, gospoda; do na wsi albo przy drodze dla popasu podróżnych, austerja, oberża, dom zajezdny, zajazd’, 
 [por. t. 3, s. 453 hasło: oberża ‘dom gościnny, gospoda, zajazd, karczma, austerja’ i 
 t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, dom gościnny’]"""@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_5>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_5>
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit124 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 3, s. 564: szynk na wsi, gospoda; dawniej również dom zajezdny, austeria, oberża"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4>
  ] .
 
 
@@ -3311,21 +3311,21 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
    owl:annotatedSource :settlement_unit126 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 2, s. 653: ‘zabudowanie mieszczące w sobie jedno albo kilka ognisk, miechy i młoty poruszane przez wodę, gdzie z surowizny przetopionej i oczyszczonej wykuwa się żelazo gotowe; fabryka topienia żelaza i urabiana go w sztaby"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_5>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_5>
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit126 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 3, s. 1328: zakład przemysłowy, fabryka wyrobów z żelaza itp. metali; dawniej kuźnia"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4>
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit126 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 3, s.473–474: ‘warsztat wytopu i obróbki żelaza’"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_6>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_6>
  ] .
 
 
@@ -3392,14 +3392,14 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
    owl:annotatedSource :settlement_unit128 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 2, s. 67: ‘zakład, gdzie robią szkło albo topią metale’"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_5>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_5>
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit128 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "zakład lub zespół zakładów przemysłowych produkujących metale z rud, szkło, siarkę i in.’, huty przerabiają nie tylko rudy na surówkę, lecz także surówkę na stal"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4>
  ] .
 
 
@@ -3429,14 +3429,14 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
    owl:annotatedSource :settlement_unit129 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Dom, zagroda w lesie stanowiąca mieszkanie; mieszkanie leśniczego (zarządca obszaru leśnego stanowiącego leśnictwo) wraz z zabudowaniami gospodarskimi"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4>
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit129 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 2, s. 721: domek w lesie, mieszkanie, zagroda leśniczego a. leśnika"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_5>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_5>
  ] .
 
 
@@ -3465,14 +3465,14 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
    owl:annotatedSource :settlement_unit130 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Budynek w, którym mieszka gajowy (pracownik nadleśnictwa chroniący przydzieloną mu część lasu przed szkodami)"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4>
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit130 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 1, s. 793: chatka gajowego"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_5>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_5>
  ] .
 
 
@@ -3499,7 +3499,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
    owl:annotatedSource :settlement_unit131 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "wysoka, widoczna z morza wieża, służąca jako punkt orientacyjny dla statków"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4>
  ] .
 
 
@@ -3539,7 +3539,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
    owl:annotatedSource :settlement_unit132 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "1. zgromadzenie zakonne; zakon--; 2. budynek lub kompleks budynków zamieszkiwanych przez zakonników (zakonnice) danej reguły"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4>
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -3560,14 +3560,14 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
    owl:annotatedSource :settlement_unit132 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 3, s. 282: zabudowanie dla zgromadzenia zakonnego zwykle połączone z kościołem, coenobium, religiosorum domus."@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_6>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_6>
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit132 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 9, kol. 66-76: zespół budynków lub pomieszczeń mieszkalnych i gospodarczych o różnej strukturze, przeznaczonych do prowadzenia życia pustelniczego (->ławra) lub wspólnotowego życia ascetycznego (->asceza), występujący w religiach pozachrześcijańskich i chrześcijaństwie. -- Czasem rozbudowane założenia klasztorne tworzyły wręcz miasto, a nawet państwo mnichów (civitas monachorum)"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_7>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_7>
  ] .
 
 
@@ -3606,14 +3606,14 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
    owl:annotatedSource :settlement_unit133 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 7, s. 29: Pilarnia, młyn do tarcia drzewa na tarcice, dyle: Tartak wodny, parowy"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_5>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_5>
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit133 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "zakład przemysłowy zajmujący się przecieraniem drewna na tarcicę"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4> ,
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4> ,
                     <https://sjp.pwn.pl/doroszewski/tartak;5506829.html>
  ] .
 
@@ -3650,7 +3650,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
    owl:annotatedSource :settlement_unit134 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "kopalnia torfu"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4> ,
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4> ,
                     <https://sjp.pwn.pl/doroszewski/torfiarnia>
  ] .
 
@@ -3658,7 +3658,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
    owl:annotatedSource :settlement_unit134 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 7, s. 85: kopalnia torfu, torfowisko eksploatowane"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_5>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_5>
  ] .
 
 
@@ -3711,7 +3711,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
    owl:annotatedSource :settlement_unit135 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "zakład przemysłowy, w którym wyrabia się piwo; wytwórnia piwa"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4>
  ] .
 
 
@@ -3756,7 +3756,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
    owl:annotatedSource :settlement_unit136 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "wytwórnia cegly oraz innych materiałów budowlanych z gliny: dachówek, sączków (drenów), kafli, klinkierów, płytek itp."@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4>
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -3809,7 +3809,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
    owl:annotatedSource :settlement_unit137 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "zakład górniczy zajmujący się wydobywaniem z ziemi kopalin użytecznych"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4>
  ] .
 
 
@@ -3839,7 +3839,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
    owl:annotatedSource :settlement_unit138 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "fabryka cukru"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4>
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -3899,7 +3899,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
    owl:annotatedSource :settlement_unit139 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "zakład przemysłowy produkujący spirytus i wódki głównie z kartofli lub zboża"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4>
  ] .
 
 
@@ -3929,7 +3929,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 ###  http://purl.org/ontohgis#settlement_unit18
 :settlement_unit18 rdf:type owl:Class ;
                    rdfs:subClassOf :object_500 ,
-                                   <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   <http://purl.org/ontohgis#settlement_unit3003> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty obo:BFO_0000051 ;
                                      owl:someValuesFrom :settlement_unit139
@@ -3958,8 +3958,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 :settlement_unit19 rdf:type owl:Class ;
                    rdfs:subClassOf :object_1001 ,
                                    :settlement_unit33 ,
-                                   <http://purl.org/ontohgis/settlement_unit1000> ,
-                                   <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   <http://purl.org/ontohgis#settlement_unit1000> ,
+                                   <http://purl.org/ontohgis#settlement_unit3003> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty obo:BFO_0000050 ;
                                      owl:someValuesFrom :settlement_unit132
@@ -3993,7 +3993,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 ###  http://purl.org/ontohgis#settlement_unit2
 :settlement_unit2 rdf:type owl:Class ;
                   rdfs:subClassOf :object_1000 ,
-                                  <http://purl.org/ontohgis/settlement_unit1000> ,
+                                  <http://purl.org/ontohgis#settlement_unit1000> ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty :hasProperFunction ;
                                     owl:hasValue :function1
@@ -4023,7 +4023,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 ###  http://purl.org/ontohgis#settlement_unit20
 :settlement_unit20 rdf:type owl:Class ;
                    rdfs:subClassOf :object_1000 ,
-                                   <http://purl.org/ontohgis/settlement_unit1000> ;
+                                   <http://purl.org/ontohgis#settlement_unit1000> ;
                    dc:creator :person_7 ,
                               :person_8 ;
                    :hasExternalIdentifier "20"^^xsd:string ;
@@ -4046,7 +4046,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 :settlement_unit21 rdf:type owl:Class ;
                    rdfs:subClassOf :object_500 ,
                                    :settlement_unit33 ,
-                                   <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   <http://purl.org/ontohgis#settlement_unit3003> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty obo:BFO_0000051 ;
                                      owl:someValuesFrom :settlement_unit137
@@ -4081,7 +4081,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 ###  http://purl.org/ontohgis#settlement_unit22
 :settlement_unit22 rdf:type owl:Class ;
                    rdfs:subClassOf :object_1001 ,
-                                   <http://purl.org/ontohgis/settlement_unit1000> ,
+                                   <http://purl.org/ontohgis#settlement_unit1000> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                      owl:hasValue <http://www.geonames.org/ontology#S.BRKS>
@@ -4095,7 +4095,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 ###  http://purl.org/ontohgis#settlement_unit23
 :settlement_unit23 rdf:type owl:Class ;
                    rdfs:subClassOf :object_1001 ,
-                                   <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   <http://purl.org/ontohgis#settlement_unit3003> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty :hasProperFunction ;
                                      owl:hasValue :function9
@@ -4124,7 +4124,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 
 ###  http://purl.org/ontohgis#settlement_unit25
 :settlement_unit25 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ,
+                   rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit1000> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty :hasProperFunction ;
                                      owl:hasValue :function7
@@ -4150,8 +4150,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 ###  http://purl.org/ontohgis#settlement_unit27
 :settlement_unit27 rdf:type owl:Class ;
                    rdfs:subClassOf :object_1001 ,
-                                   <http://purl.org/ontohgis/settlement_unit1000> ,
-                                   <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   <http://purl.org/ontohgis#settlement_unit1000> ,
+                                   <http://purl.org/ontohgis#settlement_unit3003> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty :hasProperFunction ;
                                      owl:hasValue :function4
@@ -4207,9 +4207,9 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 ###  http://purl.org/ontohgis#settlement_unit3
 :settlement_unit3 rdf:type owl:Class ;
                   rdfs:subClassOf :object_1000 ,
-                                  <http://purl.org/ontohgis/settlement_unit1000> ,
-                                  <http://purl.org/ontohgis/settlement_unit3004> ,
-                                  <http://purl.org/ontohgis/settlement_unit3007> ,
+                                  <http://purl.org/ontohgis#settlement_unit1000> ,
+                                  <http://purl.org/ontohgis#settlement_unit3004> ,
+                                  <http://purl.org/ontohgis#settlement_unit3007> ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty :hasProperFunction ;
                                     owl:hasValue :function3
@@ -4265,8 +4265,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 ###  http://purl.org/ontohgis#settlement_unit34
 :settlement_unit34 rdf:type owl:Class ;
                    rdfs:subClassOf :object_1000 ,
-                                   <http://purl.org/ontohgis/settlement_unit1000> ,
-                                   <http://purl.org/ontohgis/settlement_unit3008> ,
+                                   <http://purl.org/ontohgis#settlement_unit1000> ,
+                                   <http://purl.org/ontohgis#settlement_unit3008> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty obo:BFO_0000050 ;
                                      owl:someValuesFrom [ rdf:type owl:Class ;
@@ -4401,8 +4401,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 ###  http://purl.org/ontohgis#settlement_unit41
 :settlement_unit41 rdf:type owl:Class ;
                    rdfs:subClassOf :object_1001 ,
-                                   <http://purl.org/ontohgis/settlement_unit1000> ,
-                                   <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   <http://purl.org/ontohgis#settlement_unit1000> ,
+                                   <http://purl.org/ontohgis#settlement_unit3003> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty :hasProperFunction ;
                                      owl:hasValue :function3
@@ -4438,8 +4438,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 ###  http://purl.org/ontohgis#settlement_unit43
 :settlement_unit43 rdf:type owl:Class ;
                    rdfs:subClassOf :object_1000 ,
-                                   <http://purl.org/ontohgis/settlement_unit1000> ,
-                                   <http://purl.org/ontohgis/settlement_unit3008> ,
+                                   <http://purl.org/ontohgis#settlement_unit1000> ,
+                                   <http://purl.org/ontohgis#settlement_unit3008> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty obo:BFO_0000050 ;
                                      owl:someValuesFrom :settlement_unit3
@@ -4465,8 +4465,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 ###  http://purl.org/ontohgis#settlement_unit44
 :settlement_unit44 rdf:type owl:Class ;
                    rdfs:subClassOf :object_1000 ,
-                                   <http://purl.org/ontohgis/settlement_unit1000> ,
-                                   <http://purl.org/ontohgis/settlement_unit3008> ;
+                                   <http://purl.org/ontohgis#settlement_unit1000> ,
+                                   <http://purl.org/ontohgis#settlement_unit3008> ;
                    dc:creator :person_3 ;
                    :hasExternalIdentifier "44"^^xsd:string ;
                    :hasLanguageVerificator :person_1 ;
@@ -4487,7 +4487,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 :settlement_unit45 rdf:type owl:Class ;
                    rdfs:subClassOf :object_1000 ,
                                    :object_502 ,
-                                   <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   <http://purl.org/ontohgis#settlement_unit3003> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty obo:BFO_0000051 ;
                                      owl:someValuesFrom :settlement_unit119
@@ -4530,7 +4530,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 :settlement_unit47 rdf:type owl:Class ;
                    rdfs:subClassOf :object_500 ,
                                    :settlement_unit33 ,
-                                   <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   <http://purl.org/ontohgis#settlement_unit3003> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty obo:BFO_0000051 ;
                                      owl:someValuesFrom :settlement_unit123
@@ -4596,7 +4596,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 ###  http://purl.org/ontohgis#settlement_unit50
 :settlement_unit50 rdf:type owl:Class ;
                    rdfs:subClassOf :object_500 ,
-                                   <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   <http://purl.org/ontohgis#settlement_unit3003> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty obo:BFO_0000051 ;
                                      owl:someValuesFrom :settlement_unit133
@@ -4629,7 +4629,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 ###  http://purl.org/ontohgis#settlement_unit51
 :settlement_unit51 rdf:type owl:Class ;
                    rdfs:subClassOf :object_500 ,
-                                   <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   <http://purl.org/ontohgis#settlement_unit3003> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty obo:BFO_0000051 ;
                                      owl:someValuesFrom :settlement_unit134
@@ -4656,7 +4656,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 
 ###  http://purl.org/ontohgis#settlement_unit52
 :settlement_unit52 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ,
+                   rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit1000> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty :hasProperFunction ;
                                      owl:hasValue :function5
@@ -4685,7 +4685,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 
 ###  http://purl.org/ontohgis#settlement_unit53
 :settlement_unit53 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ,
+                   rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit1000> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty :hasProperFunction ;
                                      owl:hasValue :function10
@@ -4738,7 +4738,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 ###  http://purl.org/ontohgis#settlement_unit55
 :settlement_unit55 rdf:type owl:Class ;
                    rdfs:subClassOf :object_1001 ,
-                                   <http://purl.org/ontohgis/settlement_unit1000> ,
+                                   <http://purl.org/ontohgis#settlement_unit1000> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                      owl:hasValue <http://www.geonames.org/ontology#S.PRN>
@@ -4753,7 +4753,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 ###  http://purl.org/ontohgis#settlement_unit56
 :settlement_unit56 rdf:type owl:Class ;
                    rdfs:subClassOf :object_1000 ,
-                                   <http://purl.org/ontohgis/settlement_unit3003> ,
+                                   <http://purl.org/ontohgis#settlement_unit3003> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty :hasProperFunction ;
                                      owl:hasValue :function1
@@ -4778,8 +4778,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 ###  http://purl.org/ontohgis#settlement_unit6
 :settlement_unit6 rdf:type owl:Class ;
                   rdfs:subClassOf :object_1000 ,
-                                  <http://purl.org/ontohgis/settlement_unit1000> ,
-                                  <http://purl.org/ontohgis/settlement_unit3008> ;
+                                  <http://purl.org/ontohgis#settlement_unit1000> ,
+                                  <http://purl.org/ontohgis#settlement_unit3008> ;
                   :hasExternalIdentifier "6"^^xsd:string ;
                   rdfs:label "district"@en ,
                              "dzielnica"@pl ;
@@ -4789,17 +4789,17 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 
 ###  http://purl.org/ontohgis#settlement_unit60
 :settlement_unit60 rdf:type owl:Class ;
-                   owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis/settlement_unit3008>
+                   owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis#settlement_unit3008>
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                                owl:onProperty <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit20
                                                               ]
                                                             ) ;
                                          rdf:type owl:Class
                                        ] ;
                    rdfs:subClassOf :object_1000 ,
-                                   <http://purl.org/ontohgis/settlement_unit1000> ,
-                                   <http://purl.org/ontohgis/settlement_unit3008> ;
+                                   <http://purl.org/ontohgis#settlement_unit1000> ,
+                                   <http://purl.org/ontohgis#settlement_unit3008> ;
                    dc:creator :person_7 ,
                               :person_8 ;
                    :hasExternalIdentifier "60"^^xsd:string ;
@@ -4818,17 +4818,17 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 
 ###  http://purl.org/ontohgis#settlement_unit61
 :settlement_unit61 rdf:type owl:Class ;
-                   owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis/settlement_unit3008>
+                   owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis#settlement_unit3008>
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                                owl:onProperty <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit3
                                                               ]
                                                             ) ;
                                          rdf:type owl:Class
                                        ] ;
                    rdfs:subClassOf :object_1000 ,
-                                   <http://purl.org/ontohgis/settlement_unit1000> ,
-                                   <http://purl.org/ontohgis/settlement_unit3008> ,
+                                   <http://purl.org/ontohgis#settlement_unit1000> ,
+                                   <http://purl.org/ontohgis#settlement_unit3008> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty :hasProperFunction ;
                                      owl:hasValue :function3
@@ -4852,17 +4852,17 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 
 ###  http://purl.org/ontohgis#settlement_unit62
 :settlement_unit62 rdf:type owl:Class ;
-                   owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis/settlement_unit3008>
+                   owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis#settlement_unit3008>
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                                owl:onProperty <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit33
                                                               ]
                                                             ) ;
                                          rdf:type owl:Class
                                        ] ;
                    rdfs:subClassOf :object_1000 ,
-                                   <http://purl.org/ontohgis/settlement_unit1000> ,
-                                   <http://purl.org/ontohgis/settlement_unit3008> ,
+                                   <http://purl.org/ontohgis#settlement_unit1000> ,
+                                   <http://purl.org/ontohgis#settlement_unit3008> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty :hasProperFunction ;
                                      owl:hasValue :function3
@@ -4886,17 +4886,17 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 
 ###  http://purl.org/ontohgis#settlement_unit63
 :settlement_unit63 rdf:type owl:Class ;
-                   owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis/settlement_unit3008>
+                   owl:equivalentClass [ owl:intersectionOf ( <http://purl.org/ontohgis#settlement_unit3008>
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                                owl:onProperty <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit2
                                                               ]
                                                             ) ;
                                          rdf:type owl:Class
                                        ] ;
                    rdfs:subClassOf :object_1000 ,
-                                   <http://purl.org/ontohgis/settlement_unit1000> ,
-                                   <http://purl.org/ontohgis/settlement_unit3008> ,
+                                   <http://purl.org/ontohgis#settlement_unit1000> ,
+                                   <http://purl.org/ontohgis#settlement_unit3008> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty :hasProperFunction ;
                                      owl:hasValue :function1
@@ -4923,7 +4923,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 :settlement_unit64 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit20
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                                owl:onProperty <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit20
                                                               ]
                                                             ) ;
@@ -4931,7 +4931,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                        ] ;
                    rdfs:subClassOf :settlement_unit20 ,
                                    :settlement_unit60 ,
-                                   <http://purl.org/ontohgis/settlement_unit3008> ;
+                                   <http://purl.org/ontohgis#settlement_unit3008> ;
                    dc:creator :person_7 ,
                               :person_8 ;
                    :hasExternalIdentifier "64"^^xsd:string ;
@@ -4953,7 +4953,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 :settlement_unit65 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit20
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                                owl:onProperty <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit33
                                                               ]
                                                             ) ;
@@ -4961,7 +4961,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                        ] ;
                    rdfs:subClassOf :settlement_unit20 ,
                                    :settlement_unit62 ,
-                                   <http://purl.org/ontohgis/settlement_unit3008> ,
+                                   <http://purl.org/ontohgis#settlement_unit3008> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty :hasProperFunction ;
                                      owl:hasValue :function3
@@ -4986,7 +4986,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 :settlement_unit66 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit20
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                                owl:onProperty <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit2
                                                               ]
                                                             ) ;
@@ -4994,7 +4994,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                        ] ;
                    rdfs:subClassOf :settlement_unit20 ,
                                    :settlement_unit63 ,
-                                   <http://purl.org/ontohgis/settlement_unit3008> ,
+                                   <http://purl.org/ontohgis#settlement_unit3008> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty :hasProperFunction ;
                                      owl:hasValue :function1
@@ -5020,7 +5020,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 :settlement_unit68 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit33
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                                owl:onProperty <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit20
                                                               ]
                                                             ) ;
@@ -5028,7 +5028,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                        ] ;
                    rdfs:subClassOf :settlement_unit33 ,
                                    :settlement_unit60 ,
-                                   <http://purl.org/ontohgis/settlement_unit3008> ,
+                                   <http://purl.org/ontohgis#settlement_unit3008> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty :hasProperFunction ;
                                      owl:hasValue :function3
@@ -5053,7 +5053,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 :settlement_unit69 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit36
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                                owl:onProperty <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit2
                                                               ]
                                                             ) ;
@@ -5119,7 +5119,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
    owl:annotatedSource :settlement_unit7 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "'siedziba panującego lub księcia’ ‘ludzie otaczający panującego lub księcia’ ‘obszerny dom mieszkalny, charakterystyczny dla dawnych posiadłości ziemskich’ ‘majątek ziemski z domem i zabudowaniami’ ‘właściciele posiadłości ziemskiej, jej mieszkańcy, administracja’ ‘otwarta przestrzeń na zewnątrz domu’"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_4>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_4>
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -5133,7 +5133,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
    owl:annotatedSource :settlement_unit7 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "‘przestrzeń otaczając dom, otwarte powietrze, miejsce pod gołym niebem’ ‘podwórze, dziedziniec’ ‘dom właściciela majątku ziemskiego, mieszkanie dziedzica’ ‘gospodarstwo dworskie, folwark’ (przenośnie) ‘mieszkańcy dworu wiejskiego, szczególnie dziedzic z rodziną, państwo’ ‘dom, mieszkanie’ ‘oficjaliści panów, szczególnie wyżsi, dworzanie’ ‘miejsce pobytu albo mieszkanie panującego albo magnata’ ‘panujący i jego otoczenie’ ‘służba dworska’ ‘zebranie u króla, sąd dworski, żołnierze nadworni’"@pl ;
-   rdfs:isDefinedBy <http://purl.org/ontohgis/document_5>
+   rdfs:isDefinedBy <http://purl.org/ontohgis#document_5>
  ] .
 
 
@@ -5141,7 +5141,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 :settlement_unit70 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit33
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                                owl:onProperty <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit33
                                                               ]
                                                             ) ;
@@ -5174,7 +5174,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 :settlement_unit71 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit33
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                                owl:onProperty <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit2
                                                               ]
                                                             ) ;
@@ -5182,7 +5182,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                        ] ;
                    rdfs:subClassOf :settlement_unit33 ,
                                    :settlement_unit63 ,
-                                   <http://purl.org/ontohgis/settlement_unit3008> ,
+                                   <http://purl.org/ontohgis#settlement_unit3008> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty :hasProperFunction ;
                                      owl:hasValue :function3
@@ -5208,14 +5208,14 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 :settlement_unit72 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit34
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                                owl:onProperty <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit2
                                                               ]
                                                             ) ;
                                          rdf:type owl:Class
                                        ] ;
                    rdfs:subClassOf :settlement_unit34 ,
-                                   <http://purl.org/ontohgis/settlement_unit3008> ,
+                                   <http://purl.org/ontohgis#settlement_unit3008> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty :hasProperFunction ;
                                      owl:hasValue :function3
@@ -5242,7 +5242,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 :settlement_unit73 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit44
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                                owl:onProperty <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit20
                                                               ]
                                                             ) ;
@@ -5272,7 +5272,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 :settlement_unit74 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit44
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                                owl:onProperty <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit33
                                                               ]
                                                             ) ;
@@ -5300,7 +5300,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 :settlement_unit75 rdf:type owl:Class ;
                    owl:equivalentClass [ owl:intersectionOf ( :settlement_unit44
                                                               [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                                owl:onProperty <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                                 owl:someValuesFrom :settlement_unit2
                                                               ]
                                                             ) ;
@@ -5328,8 +5328,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 
 ###  http://purl.org/ontohgis#settlement_unit76
 :settlement_unit76 rdf:type owl:Class ;
-                   rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ,
-                                   <http://purl.org/ontohgis/settlement_unit3003> ,
+                   rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit1000> ,
+                                   <http://purl.org/ontohgis#settlement_unit3003> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty :hasProperFunction ;
                                      owl:hasValue :function11
@@ -5358,7 +5358,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 
 ###  http://purl.org/ontohgis#settlement_unit8
 :settlement_unit8 rdf:type owl:Class ;
-                  rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit1000> ,
+                  rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit1000> ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty :hasProperFunction ;
                                     owl:hasValue :function3
@@ -5489,15 +5489,15 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                                                    "osada karczemna"@pl .
 
 
-###  http://purl.org/ontohgis/object_1
-<http://purl.org/ontohgis/object_1> rdf:type owl:Class ;
+###  http://purl.org/ontohgis#object_1
+<http://purl.org/ontohgis#object_1> rdf:type owl:Class ;
                                     rdfs:subClassOf :object_10 ;
                                     rdfs:label "budowla"@pl ,
                                                "construction"@en .
 
 
-###  http://purl.org/ontohgis/object_20
-<http://purl.org/ontohgis/object_20> rdf:type owl:Class ;
+###  http://purl.org/ontohgis#object_20
+<http://purl.org/ontohgis#object_20> rdf:type owl:Class ;
                                      rdfs:subClassOf oc:VariableEntity ,
                                                      obo:BFO_0000029 ,
                                                      <http://www.opengis.net/ont/geosparql#Feature> ,
@@ -5512,23 +5512,23 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                                 "jednostka podziału administracyjnego"@pl .
 
 
-###  http://purl.org/ontohgis/object_3012
-<http://purl.org/ontohgis/object_3012> rdf:type owl:Class ;
-                                       rdfs:subClassOf <http://purl.org/ontohgis/object_20> ;
+###  http://purl.org/ontohgis#object_3012
+<http://purl.org/ontohgis#object_3012> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://purl.org/ontohgis#object_20> ;
                                        rdfs:label "obszar administracji religijnej"@pl ,
                                                   "religious administered region"@en .
 
 
-###  http://purl.org/ontohgis/object_3013
-<http://purl.org/ontohgis/object_3013> rdf:type owl:Class ;
-                                       rdfs:subClassOf <http://purl.org/ontohgis/object_3012> ;
+###  http://purl.org/ontohgis#object_3013
+<http://purl.org/ontohgis#object_3013> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://purl.org/ontohgis#object_3012> ;
                                        rdfs:label "parafia"@pl ,
                                                   "parish"@en .
 
 
-###  http://purl.org/ontohgis/object_3014
-<http://purl.org/ontohgis/object_3014> rdf:type owl:Class ;
-                                       rdfs:subClassOf <http://purl.org/ontohgis/object_20> ,
+###  http://purl.org/ontohgis#object_3014
+<http://purl.org/ontohgis#object_3014> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://purl.org/ontohgis#object_20> ,
                                                        [ rdf:type owl:Restriction ;
                                                          owl:onProperty :hasFunction ;
                                                          owl:hasValue :object_406
@@ -5537,26 +5537,26 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                                   "obszar administracji świeckiej"@pl .
 
 
-###  http://purl.org/ontohgis/object_3016
-<http://purl.org/ontohgis/object_3016> rdf:type owl:Class ;
-                                       rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> ;
+###  http://purl.org/ontohgis#object_3016
+<http://purl.org/ontohgis#object_3016> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit2000> ;
                                        rdfs:label "granica gminy"@pl .
 
 
-###  http://purl.org/ontohgis/object_3018
-<http://purl.org/ontohgis/object_3018> rdf:type owl:Class ;
-                                       rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> ;
+###  http://purl.org/ontohgis#object_3018
+<http://purl.org/ontohgis#object_3018> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit2000> ;
                                        rdfs:label "granica województwa"@pl .
 
 
-###  http://purl.org/ontohgis/object_3021
-<http://purl.org/ontohgis/object_3021> rdf:type owl:Class ;
-                                       rdfs:subClassOf <http://purl.org/ontohgis/settlement_unit2000> ;
+###  http://purl.org/ontohgis#object_3021
+<http://purl.org/ontohgis#object_3021> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://purl.org/ontohgis#settlement_unit2000> ;
                                        rdfs:label "granica państwa"@pl .
 
 
-###  http://purl.org/ontohgis/settlement_unit1000
-<http://purl.org/ontohgis/settlement_unit1000> rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit1000
+<http://purl.org/ontohgis#settlement_unit1000> rdf:type owl:Class ;
                                                owl:equivalentClass [ owl:intersectionOf ( :object_32
                                                                                           [ rdf:type owl:Restriction ;
                                                                                             owl:onProperty :hasProperFunction ;
@@ -5572,13 +5572,13 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                                           "właściwa miejscowość"@pl .
 
 
-###  http://purl.org/ontohgis/settlement_unit2000
-<http://purl.org/ontohgis/settlement_unit2000> rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit2000
+<http://purl.org/ontohgis#settlement_unit2000> rdf:type owl:Class ;
                                                rdfs:subClassOf obo:BFO_0000142 ,
                                                                <http://www.opengis.net/ont/geosparql#Feature> ,
                                                                [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://purl.org/ontohgis/isBoundaryOf> ;
-                                                                 owl:someValuesFrom <http://purl.org/ontohgis/object_20>
+                                                                 owl:onProperty <http://purl.org/ontohgis#isBoundaryOf> ;
+                                                                 owl:someValuesFrom <http://purl.org/ontohgis#object_20>
                                                                ] ,
                                                                [ rdf:type owl:Restriction ;
                                                                  owl:onProperty <http://www.opengis.net/ont/geosparql#hasGeometry> ;
@@ -5588,12 +5588,12 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                                           "granica podziału administracyjnego"@pl .
 
 
-###  http://purl.org/ontohgis/settlement_unit2001
-<http://purl.org/ontohgis/settlement_unit2001> rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit2001
+<http://purl.org/ontohgis#settlement_unit2001> rdf:type owl:Class ;
                                                rdfs:subClassOf obo:BFO_0000142 ,
                                                                <http://www.opengis.net/ont/geosparql#Feature> ,
                                                                [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://purl.org/ontohgis/isBoundaryOf> ;
+                                                                 owl:onProperty <http://purl.org/ontohgis#isBoundaryOf> ;
                                                                  owl:someValuesFrom :object_32
                                                                ] ,
                                                                [ rdf:type owl:Restriction ;
@@ -5604,11 +5604,11 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                                           "settlement unit boundary"@en .
 
 
-###  http://purl.org/ontohgis/settlement_unit3003
-<http://purl.org/ontohgis/settlement_unit3003> rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit3003
+<http://purl.org/ontohgis#settlement_unit3003> rdf:type owl:Class ;
                                                owl:equivalentClass [ owl:intersectionOf ( :object_32
                                                                                           [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty <http://purl.org/ontohgis/settlementHasSettlementPart> ;
+                                                                                            owl:onProperty <http://purl.org/ontohgis#settlementHasSettlementPart> ;
                                                                                             owl:maxQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
                                                                                             owl:onClass :object_32
                                                                                           ]
@@ -5627,11 +5627,11 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                                           "(mereologicznie) prosta miejscowość"@pl .
 
 
-###  http://purl.org/ontohgis/settlement_unit3004
-<http://purl.org/ontohgis/settlement_unit3004> rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit3004
+<http://purl.org/ontohgis#settlement_unit3004> rdf:type owl:Class ;
                                                owl:equivalentClass [ owl:intersectionOf ( :object_32
                                                                                           [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty <http://purl.org/ontohgis/settlementHasSettlementPart> ;
+                                                                                            owl:onProperty <http://purl.org/ontohgis#settlementHasSettlementPart> ;
                                                                                             owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                                                             owl:onClass :object_32
                                                                                           ]
@@ -5646,11 +5646,11 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                                           "(mereologicznie) złożona miejscowość"@pl .
 
 
-###  http://purl.org/ontohgis/settlement_unit3007
-<http://purl.org/ontohgis/settlement_unit3007> rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit3007
+<http://purl.org/ontohgis#settlement_unit3007> rdf:type owl:Class ;
                                                owl:equivalentClass [ owl:intersectionOf ( :object_32
                                                                                           [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                                                            owl:onProperty <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                                                             owl:maxQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
                                                                                             owl:onClass :object_32
                                                                                           ]
@@ -5665,11 +5665,11 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                                           "(mereologicznie) samodzielna miejscowość"@pl .
 
 
-###  http://purl.org/ontohgis/settlement_unit3008
-<http://purl.org/ontohgis/settlement_unit3008> rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit3008
+<http://purl.org/ontohgis#settlement_unit3008> rdf:type owl:Class ;
                                                owl:equivalentClass [ owl:intersectionOf ( :object_32
                                                                                           [ rdf:type owl:Restriction ;
-                                                                                            owl:onProperty <http://purl.org/ontohgis/settlementIsPartOfSettlement> ;
+                                                                                            owl:onProperty <http://purl.org/ontohgis#settlementIsPartOfSettlement> ;
                                                                                             owl:someValuesFrom :object_32
                                                                                           ]
                                                                                         ) ;
@@ -5683,8 +5683,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                                           "(mereologicznie) niesamodzielna miejscowość"@pl .
 
 
-###  http://purl.org/ontohgis/source
-<http://purl.org/ontohgis/source> rdf:type owl:Class ;
+###  http://purl.org/ontohgis#source
+<http://purl.org/ontohgis#source> rdf:type owl:Class ;
                                   rdfs:subClassOf obo:IAO_0000310 ,
                                                   [ rdf:type owl:Restriction ;
                                                     owl:onProperty :isPublishedAfter ;
@@ -5729,8 +5729,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 :administrative_system_0 rdf:type owl:NamedIndividual ,
                                   :object_21 ;
                          :individualHasExternalIdentifier 0 ;
-                         <http://purl.org/ontohgis/hasBeginning> "1368-01-01"^^xsd:date ;
-                         <http://purl.org/ontohgis/hasEnd> "1933-12-31"^^xsd:date .
+                         <http://purl.org/ontohgis#hasBeginning> "1368-01-01"^^xsd:date ;
+                         <http://purl.org/ontohgis#hasEnd> "1933-12-31"^^xsd:date .
 
 
 ###  http://purl.org/ontohgis#administrative_system_1
@@ -5741,8 +5741,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                          :hasScope "terytorium II RP"^^xsd:string ;
                          :individualHasExternalIdentifier 1 ;
                          :startsDominationAt "1918-01-01"^^xsd:date ;
-                         <http://purl.org/ontohgis/hasBeginning> "1918-01-01"^^xsd:date ;
-                         <http://purl.org/ontohgis/hasEnd> "1939-12-31"^^xsd:date ;
+                         <http://purl.org/ontohgis#hasBeginning> "1918-01-01"^^xsd:date ;
+                         <http://purl.org/ontohgis#hasEnd> "1939-12-31"^^xsd:date ;
                          rdfs:label "Rzeczpospolita Polska (1918-1939)"@pl .
 
 
@@ -5754,8 +5754,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :hasScope "terytorium Galicji"^^xsd:string ;
                           :individualHasExternalIdentifier 10 ;
                           :startsDominationAt "1867-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasBeginning> "1867-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasEnd> "1918-12-31"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasBeginning> "1867-01-01"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasEnd> "1918-12-31"^^xsd:date ;
                           rdfs:label "Królestwo Galicji i Lodomerii (1867-1918)"@pl .
 
 
@@ -5767,8 +5767,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :hasScope "terytorium Królestwa Polskiego"^^xsd:string ;
                           :individualHasExternalIdentifier 11 ;
                           :startsDominationAt "1843-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasBeginning> "1843-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasEnd> "1918-12-31"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasBeginning> "1843-01-01"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasEnd> "1918-12-31"^^xsd:date ;
                           rdfs:label "Królestwo Polskie (1843-1918)"@pl .
 
 
@@ -5779,8 +5779,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :hasScope "terytorium Królestwa Saksonii, obejmuje część Łużyc leżących obecnie w Polsce (Bogatynia, Zgorzelec)"^^xsd:string ;
                           :individualHasExternalIdentifier 12 ;
                           :startsDominationAt "1806-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasBeginning> "1806-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasEnd> "1918-12-31"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasBeginning> "1806-01-01"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasEnd> "1918-12-31"^^xsd:date ;
                           rdfs:label "Królestwo Saksonii (1806-1918)"@pl .
 
 
@@ -5792,8 +5792,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :hasScope "terytorium Królestwa Prus, obejmuje obecne ziemie zachodniej i północnej Polski"^^xsd:string ;
                           :individualHasExternalIdentifier 13 ;
                           :startsDominationAt "1723-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasBeginning> "1713-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasEnd> "1814-12-31"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasBeginning> "1713-01-01"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasEnd> "1814-12-31"^^xsd:date ;
                           rdfs:label "Królestwo Prus (1713-1805)"@pl .
 
 
@@ -5805,8 +5805,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :hasScope "terytorium Rzeczypospolitej Obojga Narodów"^^xsd:string ;
                           :individualHasExternalIdentifier 14 ;
                           :startsDominationAt "1569-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasBeginning> "1569-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasEnd> "1795-12-31"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasBeginning> "1569-01-01"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasEnd> "1795-12-31"^^xsd:date ;
                           rdfs:label "Rzeczpospolita Obojga Narodów (1569-1795)"@pl .
 
 
@@ -5817,8 +5817,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :hasScope "terytorium Elektoratu Saksonii, obejmuje część Łużyc leżących obecnie w Polsce (Bogatynia, Zgorzelec)"^^xsd:string ;
                           :individualHasExternalIdentifier 15 ;
                           :startsDominationAt "1545-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasBeginning> "1545-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasEnd> "1805-12-31"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasBeginning> "1545-01-01"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasEnd> "1805-12-31"^^xsd:date ;
                           rdfs:label "Elektorat Saksonii (1545-1805)"@pl .
 
 
@@ -5829,8 +5829,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :hasScope "terytorium Gubernium Morawsko-Śląskiego, obejmuje obecną ziemię cieszyńską"^^xsd:string ;
                           :individualHasExternalIdentifier 16 ;
                           :startsDominationAt "1783-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasBeginning> "1783-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasEnd> "1848-12-31"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasBeginning> "1783-01-01"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasEnd> "1848-12-31"^^xsd:date ;
                           rdfs:label "Gubernium Morawsko-Śląskie (1783-1848)"@pl .
 
 
@@ -5842,8 +5842,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :hasScope "terytorium Galicji, bez Wolnego Miasta Krakowa w latach 1815-1846"^^xsd:string ;
                           :individualHasExternalIdentifier 17 ;
                           :startsDominationAt "1773-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasBeginning> "1772-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasEnd> "1848-12-31"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasBeginning> "1772-01-01"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasEnd> "1848-12-31"^^xsd:date ;
                           rdfs:label "Królestwo Galicji i Lodomerii (1772-1848)"@pl .
 
 
@@ -5855,8 +5855,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :hasScope "terytorium Królestwa Węgier, obejmuje południowe skrawki obecnej Polski, okolice Orawy i Niedzicy (dawne komitaty Spisz i Orawa)"^^xsd:string ;
                           :individualHasExternalIdentifier 18 ;
                           :startsDominationAt "1200-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasBeginning> "1200-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasEnd> "1918-12-31"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasBeginning> "1200-01-01"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasEnd> "1918-12-31"^^xsd:date ;
                           rdfs:label "Królestwo Węgier (1200-1918)"@pl .
 
 
@@ -5867,8 +5867,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :hasScope "terytorium Śląska"^^xsd:string ;
                           :individualHasExternalIdentifier 19 ;
                           :startsDominationAt "1372-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasBeginning> "1372-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasEnd> "1742-12-31"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasBeginning> "1372-01-01"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasEnd> "1742-12-31"^^xsd:date ;
                           rdfs:label "Śląsk (1372-1742)"@pl .
 
 
@@ -5876,8 +5876,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 :administrative_system_2 rdf:type owl:NamedIndividual ,
                                   :object_21 ;
                          :individualHasExternalIdentifier 2 ;
-                         <http://purl.org/ontohgis/hasBeginning> "1600-01-01"^^xsd:date ;
-                         <http://purl.org/ontohgis/hasEnd> "1600-12-31"^^xsd:date .
+                         <http://purl.org/ontohgis#hasBeginning> "1600-01-01"^^xsd:date ;
+                         <http://purl.org/ontohgis#hasEnd> "1600-12-31"^^xsd:date .
 
 
 ###  http://purl.org/ontohgis#administrative_system_20
@@ -5887,8 +5887,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :hasScope "terytorium Księstwa Pomorskiego, obejmuje obecne obszary Pomorza Zachodniego"^^xsd:string ;
                           :individualHasExternalIdentifier 20 ;
                           :startsDominationAt "1250-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasBeginning> "1230-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasEnd> "1648-12-31"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasBeginning> "1230-01-01"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasEnd> "1648-12-31"^^xsd:date ;
                           rdfs:label "Księstwo Pomorskie (1230-1648)"@pl .
 
 
@@ -5900,8 +5900,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :hasScope "terytorium Marchii Brandenburskiej, obejmuje obecne ziemie zachodniej Polski"^^xsd:string ;
                           :individualHasExternalIdentifier 21 ;
                           :startsDominationAt "1550-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasBeginning> "1540-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasEnd> "1713-12-31"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasBeginning> "1540-01-01"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasEnd> "1713-12-31"^^xsd:date ;
                           rdfs:label "Marchia Brandenburska (1540-1713)"@pl .
 
 
@@ -5912,8 +5912,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :hasScope "terytorium Księstwa Siewierskiego, obejmuje obecnie okolice miast Siewierz, Czeladź i Koziegłowy"^^xsd:string ;
                           :individualHasExternalIdentifier 22 ;
                           :startsDominationAt "1443-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasBeginning> "1443-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasEnd> "1790-12-31"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasBeginning> "1443-01-01"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasEnd> "1790-12-31"^^xsd:date ;
                           rdfs:label "Księstwo Siewierskie (1443-1790)"@pl .
 
 
@@ -5925,8 +5925,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :hasScope "terytorium Marchii Brandenburskiej, obejmuje obecne ziemie zachodniej Polski"^^xsd:string ;
                           :individualHasExternalIdentifier 23 ;
                           :startsDominationAt "1350-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasBeginning> "1323-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasEnd> "1550-12-31"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasBeginning> "1323-01-01"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasEnd> "1550-12-31"^^xsd:date ;
                           rdfs:label "Marchia Brandenburska (1323-1540)"@pl .
 
 
@@ -5937,8 +5937,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :hasScope "terytorium obecnej Polski"^^xsd:string ;
                           :individualHasExternalIdentifier 24 ;
                           :startsDominationAt "1000-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasBeginning> "1000-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasEnd> "1370-12-31"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasBeginning> "1000-01-01"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasEnd> "1370-12-31"^^xsd:date ;
                           rdfs:label "System średniowieczny (do XIV w.)"@pl .
 
 
@@ -5950,8 +5950,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                           :hasScope "terytorium państwa zakonnego, obejmuje obecne obszary północnej Polski (Pomorze, Warmia i Mazury)"^^xsd:string ;
                           :individualHasExternalIdentifier 25 ;
                           :startsDominationAt "1309-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasBeginning> "1233-01-01"^^xsd:date ;
-                          <http://purl.org/ontohgis/hasEnd> "1525-12-31"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasBeginning> "1233-01-01"^^xsd:date ;
+                          <http://purl.org/ontohgis#hasEnd> "1525-12-31"^^xsd:date ;
                           rdfs:label "Państwo Krzyżackie (1226-1525)"@pl .
 
 
@@ -5963,8 +5963,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                          :hasScope "terytorium III RP"^^xsd:string ;
                          :individualHasExternalIdentifier 3 ;
                          :startsDominationAt "1999-01-01"^^xsd:date ;
-                         <http://purl.org/ontohgis/hasBeginning> "1999-01-01"^^xsd:date ;
-                         <http://purl.org/ontohgis/hasEnd> "2016-12-31"^^xsd:date ;
+                         <http://purl.org/ontohgis#hasBeginning> "1999-01-01"^^xsd:date ;
+                         <http://purl.org/ontohgis#hasEnd> "2016-12-31"^^xsd:date ;
                          rdfs:label "Rzeczpospolita Polska (1999-2016)"@pl .
 
 
@@ -5976,8 +5976,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                          :hasScope "terytorium Wolnego Państwa Prus, obejmuje obecne ziemie zachodniej i północnej Polski"^^xsd:string ;
                          :individualHasExternalIdentifier 4 ;
                          :startsDominationAt "1920-01-01"^^xsd:date ;
-                         <http://purl.org/ontohgis/hasBeginning> "1920-01-01"^^xsd:date ;
-                         <http://purl.org/ontohgis/hasEnd> "1945-12-31"^^xsd:date ;
+                         <http://purl.org/ontohgis#hasBeginning> "1920-01-01"^^xsd:date ;
+                         <http://purl.org/ontohgis#hasEnd> "1945-12-31"^^xsd:date ;
                          rdfs:label "Wolne Państwo Prusy (1920-1945)"@pl .
 
 
@@ -5988,8 +5988,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                          :hasScope "terytorium Wolnego Miasta Gdańska"^^xsd:string ;
                          :individualHasExternalIdentifier 5 ;
                          :startsDominationAt "1920-01-01"^^xsd:date ;
-                         <http://purl.org/ontohgis/hasBeginning> "1920-01-01"^^xsd:date ;
-                         <http://purl.org/ontohgis/hasEnd> "1939-12-31"^^xsd:date ;
+                         <http://purl.org/ontohgis#hasBeginning> "1920-01-01"^^xsd:date ;
+                         <http://purl.org/ontohgis#hasEnd> "1939-12-31"^^xsd:date ;
                          rdfs:label "Wolne Miasto Gdańsk (1920-1939)"@pl .
 
 
@@ -6000,8 +6000,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                          :hasScope "terytorium Wolnego Państwa Saksonia, obejmuje część Łużyc leżących obecnie w Polsce (Bogatynia)"^^xsd:string ;
                          :individualHasExternalIdentifier 6 ;
                          :startsDominationAt "1919-01-01"^^xsd:date ;
-                         <http://purl.org/ontohgis/hasBeginning> "1919-01-01"^^xsd:date ;
-                         <http://purl.org/ontohgis/hasEnd> "1945-12-31"^^xsd:date ;
+                         <http://purl.org/ontohgis#hasBeginning> "1919-01-01"^^xsd:date ;
+                         <http://purl.org/ontohgis#hasEnd> "1945-12-31"^^xsd:date ;
                          rdfs:label "Wolne Państwo Saksonia (1919-1945)"@pl .
 
 
@@ -6013,8 +6013,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                          :hasScope "terytorium Królestwa Prus, obejmuje obecne ziemie zachodniej i północnej Polski"^^xsd:string ;
                          :individualHasExternalIdentifier 7 ;
                          :startsDominationAt "1815-01-01"^^xsd:date ;
-                         <http://purl.org/ontohgis/hasBeginning> "1806-01-01"^^xsd:date ;
-                         <http://purl.org/ontohgis/hasEnd> "1919-12-31"^^xsd:date ;
+                         <http://purl.org/ontohgis#hasBeginning> "1806-01-01"^^xsd:date ;
+                         <http://purl.org/ontohgis#hasEnd> "1919-12-31"^^xsd:date ;
                          rdfs:label "Królestwo Prus (1806-1919)"@pl .
 
 
@@ -6026,8 +6026,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                          :hasScope "terytorium Cesarstwa Rosyjskiego, obejmuje część obecnego Podlasia (Białowieża)"^^xsd:string ;
                          :individualHasExternalIdentifier 8 ;
                          :startsDominationAt "1796-01-01"^^xsd:date ;
-                         <http://purl.org/ontohgis/hasBeginning> "1775-01-01"^^xsd:date ;
-                         <http://purl.org/ontohgis/hasEnd> "1917-12-31"^^xsd:date ;
+                         <http://purl.org/ontohgis#hasBeginning> "1775-01-01"^^xsd:date ;
+                         <http://purl.org/ontohgis#hasEnd> "1917-12-31"^^xsd:date ;
                          rdfs:label "Cesarstwo Rosyjskie (1775-1917)"@pl .
 
 
@@ -6038,15 +6038,15 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                          :hasScope "terytorium kraju koronnego Śląsk Austriacki, obejmuje obecną ziemię cieszyńską"^^xsd:string ;
                          :individualHasExternalIdentifier 9 ;
                          :startsDominationAt "1849-01-01"^^xsd:date ;
-                         <http://purl.org/ontohgis/hasBeginning> "1849-01-01"^^xsd:date ;
-                         <http://purl.org/ontohgis/hasEnd> "1918-12-31"^^xsd:date ;
+                         <http://purl.org/ontohgis#hasBeginning> "1849-01-01"^^xsd:date ;
+                         <http://purl.org/ontohgis#hasEnd> "1918-12-31"^^xsd:date ;
                          rdfs:label "Księstwo Górnego i Dolnego Śląska (1849-1918)"@pl .
 
 
 ###  http://purl.org/ontohgis#document_1
 :document_1 rdf:type owl:NamedIndividual ,
                      obo:IAO_0000310 ;
-            dc:creator <http://purl.org/ontohgis/person_21> ;
+            dc:creator <http://purl.org/ontohgis#person_21> ;
             dc:date "1807-1814" ;
             dc:identifier "http://kpbc.umk.pl/dlibra/publication?id=8173"^^xsd:anyURI ;
             dc:title "Słownik języka polskiego"@pl ;
@@ -6384,47 +6384,47 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
           foaf:mbox "wieslawa_duzy@umk.pl" .
 
 
-###  http://purl.org/ontohgis/document_4
-<http://purl.org/ontohgis/document_4> rdf:type owl:NamedIndividual ,
+###  http://purl.org/ontohgis#document_4
+<http://purl.org/ontohgis#document_4> rdf:type owl:NamedIndividual ,
                                                obo:IAO_0000310 ;
-                                      dc:creator <http://purl.org/ontohgis/person_20> ;
+                                      dc:creator <http://purl.org/ontohgis#person_20> ;
                                       dc:title "Słownik języka polskiego"@pl ;
                                       rdfs:label "Słownik języka polskiego pod red. W. Doroszewskiego"@pl .
 
 
-###  http://purl.org/ontohgis/document_5
-<http://purl.org/ontohgis/document_5> rdf:type owl:NamedIndividual ,
+###  http://purl.org/ontohgis#document_5
+<http://purl.org/ontohgis#document_5> rdf:type owl:NamedIndividual ,
                                                obo:IAO_0000310 ;
                                       dc:title "Słownik języka  polskiego"@pl ;
                                       rdfs:label "Słownik  warszawski"@pl ;
                                       rdfs:seeAlso <http://ebuw.uw.edu.pl/publication/254> .
 
 
-###  http://purl.org/ontohgis/document_6
-<http://purl.org/ontohgis/document_6> rdf:type owl:NamedIndividual ,
+###  http://purl.org/ontohgis#document_6
+<http://purl.org/ontohgis#document_6> rdf:type owl:NamedIndividual ,
                                                obo:IAO_0000310 ;
                                       dc:creator "S. Urbańczyk"^^xsd:anyURI ;
                                       rdfs:label "Słownik staropolski"^^xsd:anyURI ;
                                       rdfs:seeAlso "https://pjs.ijp.pan.pl/sstp.html"^^xsd:anyURI .
 
 
-###  http://purl.org/ontohgis/document_7
-<http://purl.org/ontohgis/document_7> rdf:type owl:NamedIndividual ,
+###  http://purl.org/ontohgis#document_7
+<http://purl.org/ontohgis#document_7> rdf:type owl:NamedIndividual ,
                                                obo:IAO_0000310 ;
                                       dc:title "Encyklopedia Katolicka"@pl ;
                                       rdfs:label "Encyklopedia Katolicka"@pl ;
                                       rdfs:seeAlso "http://www.kul.pl/encyklopedia-katolicka,art_9929.html"^^xsd:anyURI .
 
 
-###  http://purl.org/ontohgis/person_20
-<http://purl.org/ontohgis/person_20> rdf:type owl:NamedIndividual ,
+###  http://purl.org/ontohgis#person_20
+<http://purl.org/ontohgis#person_20> rdf:type owl:NamedIndividual ,
                                               obo:BFO_0000030 ;
                                      rdfs:label "Witold Doroszewski"@pl ;
                                      rdfs:seeAlso "https://pl.wikipedia.org/wiki/Witold_Doroszewski"^^xsd:anyURI .
 
 
-###  http://purl.org/ontohgis/person_21
-<http://purl.org/ontohgis/person_21> rdf:type owl:NamedIndividual ,
+###  http://purl.org/ontohgis#person_21
+<http://purl.org/ontohgis#person_21> rdf:type owl:NamedIndividual ,
                                               obo:BFO_0000030 ;
                                      rdfs:label "Samuel Bogumił Linde"@pl ;
                                      rdfs:seeAlso "https://pl.wikipedia.org/wiki/Samuel_Linde"^^xsd:anyURI .
