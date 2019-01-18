@@ -5214,7 +5214,8 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                    "Miasto jest to miejscowość wyższego rzędu, odróżniająca się od otaczających je podstawowych wielkością (liczoną według miary właściwej dla danej epoki i regionu), stopniem złożoności i funkcjami centralnymi względem nich."@pl ;
                   rdfs:label "city / town"@en ,
                              "miasto"@pl ;
-                  rdfs:seeAlso "Skupisko ludności, odróżniające się od innych swymi głównie nierolniczymi funkcjami, znaczną wielkością oraz intensywnością zabudowy. Definicja ta musi być jednak interpretowana elastycznie i zawsze na tle aktualnej sieci osadniczej."@pl ,
+                  rdfs:seeAlso "Jednostka osadnicza (wyodrębniony przestrzennie obszar zabudowy mieszkaniowej wraz z obiektami infrastruktury technicznej zamieszkany przez ludzi) o przewadze zwartej zabudowy i funkcjach nierolniczych posiadająca prawa miejskie bądź status miasta nadany w trybie określonym odrębnymi przepisami."@pl ,
+                               "Skupisko ludności, odróżniające się od innych swymi głównie nierolniczymi funkcjami, znaczną wielkością oraz intensywnością zabudowy. Definicja ta musi być jednak interpretowana elastycznie i zawsze na tle aktualnej sieci osadniczej."@pl ,
                                "http://dbpedia.org/ontology/City"^^xsd:anyURI ,
                                "http://gov.genealogy.net/types.owl#51"@en ,
                                "http://linkedgeodata.org/ontology/City"^^xsd:anyURI ,
@@ -5230,6 +5231,13 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                                                     "osada miejska"@pl ;
                   <http://www.w3.org/2004/02/skos/core#prefLabel> "city / town"@en ,
                                                                   "miasto"@pl .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit3 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "Jednostka osadnicza (wyodrębniony przestrzennie obszar zabudowy mieszkaniowej wraz z obiektami infrastruktury technicznej zamieszkany przez ludzi) o przewadze zwartej zabudowy i funkcjach nierolniczych posiadająca prawa miejskie bądź status miasta nadany w trybie określonym odrębnymi przepisami."@pl ;
+   rdfs:isDefinedBy :document_9
+ ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit3 ;
@@ -6186,49 +6194,67 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                   :hasLanguageVerificator :person_1 ;
                   :hasOntologicalVerificator :person_10 ;
                   :hasTranslator :person_9 ;
-                  rdfs:comment "Usually, a manor (building) - \"dwór\" was located away from the main group of houses in a village, on the outskirts, or in a vicinity. A manor (building) - \"dwór\" is recognised in historiography as identical with a manor (farmstead) - \"folwark\", however a manor (building) - \"dwór\" appears in texts on culture, customs, legal issues, whereas a manor (farmstead) - \"folwark\" usually corresponds with economic matters."@en ,
+                  rdfs:comment "Usually, a manor (building) [dwór] was located away from the main group of houses in a village, on the outskirts, or in a vicinity. A manor (building) [dwór] is recognised in historiography as identical with a manor (farmstead) [folwark], however a manor (building) [dwór] appears in texts on culture, customs, legal issues, whereas a manor (farmstead) [folwark] usually corresponds with economic matters."@en ,
                                "Zazwyczaj dwór położony był poza głównym zbudową wsi, na jej obrzeżach lub w nieznacznym oddaleniu. Pojęcie często tożsame w literaturze z folwarkiem. Z czasem dwór pojawia się w kontekście pisania o życiu, kulturze, obyczajowości, a folwark dotyczy kwestii gospodarczych."@pl ;
                   rdfs:isDefinedBy "A manor (a notion with a multiple meaning) is a home or a temporary house of a land lord and the managment of different clusters of estates, including a house and a farmstead ( a manor). In High and Late Middle Ages it could be a defensive tower (conical gord or a manor built on a mound) or a castle. Most of these, however, were one-floor homes (i.e. nobleman manor), which later (in 16th-20th century) evolved into palaces."@en ,
                                    "Dwór (pojęcie wieloznaczne) jest to siedziba lub miejsce okresowego pobytu pana gruntowego oraz zarządu poszczególnych kluczy dóbr, składająca się z domu oraz zabudowań gospodarczych ( folwark). W pełnym i późnym średniowieczu mógł przyjmować charakter rezydencjonalno-obronnej wieży (tzw. grodzisko stożkowate, lub dworu na kopcu) ew. zamku. W większości były to jednak jednokondygnacyjne siedziby (tzw. dwór szlachecki) mogące później (XVI-XX w.) przybierać formę pałacową."@pl ;
                   rdfs:label "dwór - obiekt"@pl ,
                              "manor"@en ;
-                  rdfs:seeAlso "#Marciniak-Kajzer 2011 „[...] desygnatem dworu jest tzw. gródek stożkowaty, czyli stanowisko archeologiczne mające wyodrębnioną formę terenową, najczęściej w postaci kopca lub przestrzeni zamkniętej dookolnymi obronnymi wałami” (s. 9)"@pl ,
-                               "'miejsce pod niebem zagrodzone przy pomieszkanu, podworze (por. dziedziniec)’ ‘sądy za dworem królewskim, przy boku króla odprawujące się’ ‘w wiekach dawnych, zjazd króla na różne miejsca, gdzie święta uroczystsze odbywał, obywatelów zgromadzał, sprawy sądził, okoliczności powiatowe ułatwiał, igrzyska i uczty dawał’ ‘dwór królewski, zgromadzenie u króla, pokoje’"@pl ,
-                               "'siedziba panującego lub księcia’ ‘ludzie otaczający panującego lub księcia’ ‘obszerny dom mieszkalny, charakterystyczny dla dawnych posiadłości ziemskich’ ‘majątek ziemski z domem i zabudowaniami’ ‘właściciele posiadłości ziemskiej, jej mieszkańcy, administracja’ ‘otwarta przestrzeń na zewnątrz domu’"@pl ,
+                  rdfs:seeAlso "1. dom mieszkalny, budynek; siedziba szlachcica, właściciela majątku ziemskiego; majętność, posiadłość ziemska; 2. miejsce czasowego pobytu; lokal wynajęty (może dom zajezdny); 3. pałac, zamek, rezydencja; ewentualnie miejsce czasowego pobytu panującego; siedziba zwierzchnika (magnata) świeckiego lub duchownego; 4. miejsce posiedzeń senatu lub sądu w starożytnym Rzymie; także sama rada senatu; 5. otoczenie, środowisko skupiające się dokoła monarchy lub magnata, duchownego; dworzanie, urzędnicy, świta dworska, orszak; ogólnie: rząd danego państwa z panującym na czele; 6. siły zbrojne nadworne, żołnierze straży przybocznej monarchy; 7. praw. sąd królewski, w którym orzekał sam król osobiście przy asyście dygnitarzy królewskich lub zlecał rozpatrzenie sprawy i wydanie wyroku wyznaczonym dygnitarzom znajdującym się w danym momencie na dworze, to jest w miejscu pobytu władcy; 8. miejsce na zewnątrz domu, otaczająca dom; podwórze, dziedziniec, przestrzeń pod gołym niebem"@pl ,
+                               "1. miejsce pod niebem zagrodzone przy pomieszkanu, podworze (por. dziedziniec); 2. sądy za dworem królewskim, przy boku króla odprawujące się; 3. w wiekach dawnych, zjazd króla na różne miejsca, gdzie święta uroczystsze odbywał, obywatelów zgromadzał, sprawy sądził, okoliczności powiatowe ułatwiał, igrzyska i uczty dawał; 4. dwór królewski, zgromadzenie u króla, pokoje"@pl ,
+                               "1. przestrzeń otaczając dom, otwarte powietrze, miejsce pod gołym niebem; 2. podwórze, dziedziniec; 3. dom właściciela majątku ziemskiego, mieszkanie dziedzica; 4. gospodarstwo dworskie, folwark; 5. (przenośnie) mieszkańcy dworu wiejskiego, szczególnie dziedzic z rodziną, państwo; 6. dom, mieszkanie; 7. oficjaliści panów, szczególnie wyżsi, dworzanie; 8. miejsce pobytu albo mieszkanie panującego albo magnata; 9. panujący i jego otoczenie; 10. służba dworska; 11. zebranie u króla, sąd dworski, żołnierze nadworni"@pl ,
+                               "1. siedziba panującego lub księcia; 2. ludzie otaczający panującego lub księcia; 3. obszerny dom mieszkalny, charakterystyczny dla dawnych posiadłości ziemskich; 4. majątek ziemski z domem i zabudowaniami; 5. właściciele posiadłości ziemskiej, jej mieszkańcy, administracja; 6. otwarta przestrzeń na zewnątrz domu"@pl ,
                                "http://gov.genealogy.net/types.owl#24"^^xsd:anyURI ,
                                "http://linkedgeodata.org/ontology/Manor"^^xsd:anyURI ,
-                               "‘dom mieszkalny, budynek; siedziba szlachcica, właściciela majątku ziemskiego; majętność, posiadłość ziemska’ ‘miejsce czasowego pobytu; lokal wynajęty (może dom zajezdny)’ ‘pałac, zamek, rezydencja; ewentualnie miejsce czasowego pobytu panującego; siedziba zwierzchnika (magnata) świeckiego lub duchownego’ ‘miejsce posiedzeń senatu lub sądu w starożytnym Rzymie; także sama rada senatu’ ‘otoczenie, środowisko skupiające się dokoła monarchy lub magnata, duchownego; dworzanie, urzędnicy, świta dworska, orszak; ogólnie: rząd danego państwa z panującym na czele’ ‘siły zbrojne nadworne, żołnierze straży przybocznej monarchy’ ‘praw. sąd królewski, w którym orzekał sam król osobiście przy asyście dygnitarzy królewskich lub zlecał rozpatrzenie sprawy i wydanie wyroku wyznaczonym dygnitarzom znajdującym się w danym momencie „na dworze”, to jest w miejscu pobytu władcy’ ‘miejsce na zewnątrz domu, otaczająca dom; podwórze, dziedziniec, przestrzeń pod gołym niebem’"@pl ,
-                               "‘przestrzeń otaczając dom, otwarte powietrze, miejsce pod gołym niebem’ ‘podwórze, dziedziniec’ ‘dom właściciela majątku ziemskiego, mieszkanie dziedzica’ ‘gospodarstwo dworskie, folwark’ (przenośnie) ‘mieszkańcy dworu wiejskiego, szczególnie dziedzic z rodziną, państwo’ ‘dom, mieszkanie’ ‘oficjaliści panów, szczególnie wyżsi, dworzanie’ ‘miejsce pobytu albo mieszkanie panującego albo magnata’ ‘panujący i jego otoczenie’ ‘służba dworska’ ‘zebranie u króla, sąd dworski, żołnierze nadworni’"@pl ;
-                  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "folwark (pl), dom (pl), mieszkanie (pl), słup (pl), majątek (pl), majętność (pl), posiadłość ziemska (pl), pałac (pl), zamek (pl), rezydencja (pl), mons seu fortalicium (lat), curia (lat), dworzecz (określenie staropolskie), czwierdza (określenie staropolskie), curiaculum (lat), aula (lat), Hof (de), Herrenhof (de), Gutshof (de)" ;
+                               "http://vocab.getty.edu/page/aat/300005579"@pl ,
+                               "https://www.wikidata.org/wiki/Q879050"@pl ,
+                               "s. 9: -- desygnatem dworu jest tzw. gródek stożkowaty, czyli stanowisko archeologiczne mające wyodrębnioną formę terenową, najczęściej w postaci kopca lub przestrzeni zamkniętej dookolnymi obronnymi wałami"@pl ;
+                  <http://www.w3.org/2004/02/skos/core#altLabel> "Hof"@de ,
+                                                                 "curia"@la ,
+                                                                 "dworzecz (określenie staropolskie)"@pl ;
+                  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Gutshof"@de ,
+                                                                    "Herrenhof"@de ,
+                                                                    "aula"@la ,
+                                                                    "curiaculum"@la ,
+                                                                    "czwierdza (określenie staropolskie)"@pl ,
+                                                                    "mons seu fortalicium"@la ,
+                                                                    "rezydencja"@pl ;
                   <http://www.w3.org/2004/02/skos/core#prefLabel> "dwór - obiekt"@pl ,
                                                                   "manor"@en .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit7 ;
    owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "'miejsce pod niebem zagrodzone przy pomieszkanu, podworze (por. dziedziniec)’ ‘sądy za dworem królewskim, przy boku króla odprawujące się’ ‘w wiekach dawnych, zjazd króla na różne miejsca, gdzie święta uroczystsze odbywał, obywatelów zgromadzał, sprawy sądził, okoliczności powiatowe ułatwiał, igrzyska i uczty dawał’ ‘dwór królewski, zgromadzenie u króla, pokoje’"@pl ;
-   rdfs:isDefinedBy :document_1
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource :settlement_unit7 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "'siedziba panującego lub księcia’ ‘ludzie otaczający panującego lub księcia’ ‘obszerny dom mieszkalny, charakterystyczny dla dawnych posiadłości ziemskich’ ‘majątek ziemski z domem i zabudowaniami’ ‘właściciele posiadłości ziemskiej, jej mieszkańcy, administracja’ ‘otwarta przestrzeń na zewnątrz domu’"@pl ;
-   rdfs:isDefinedBy :document_4
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource :settlement_unit7 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "‘dom mieszkalny, budynek; siedziba szlachcica, właściciela majątku ziemskiego; majętność, posiadłość ziemska’ ‘miejsce czasowego pobytu; lokal wynajęty (może dom zajezdny)’ ‘pałac, zamek, rezydencja; ewentualnie miejsce czasowego pobytu panującego; siedziba zwierzchnika (magnata) świeckiego lub duchownego’ ‘miejsce posiedzeń senatu lub sądu w starożytnym Rzymie; także sama rada senatu’ ‘otoczenie, środowisko skupiające się dokoła monarchy lub magnata, duchownego; dworzanie, urzędnicy, świta dworska, orszak; ogólnie: rząd danego państwa z panującym na czele’ ‘siły zbrojne nadworne, żołnierze straży przybocznej monarchy’ ‘praw. sąd królewski, w którym orzekał sam król osobiście przy asyście dygnitarzy królewskich lub zlecał rozpatrzenie sprawy i wydanie wyroku wyznaczonym dygnitarzom znajdującym się w danym momencie „na dworze”, to jest w miejscu pobytu władcy’ ‘miejsce na zewnątrz domu, otaczająca dom; podwórze, dziedziniec, przestrzeń pod gołym niebem’"@pl ;
+   owl:annotatedTarget "1. dom mieszkalny, budynek; siedziba szlachcica, właściciela majątku ziemskiego; majętność, posiadłość ziemska; 2. miejsce czasowego pobytu; lokal wynajęty (może dom zajezdny); 3. pałac, zamek, rezydencja; ewentualnie miejsce czasowego pobytu panującego; siedziba zwierzchnika (magnata) świeckiego lub duchownego; 4. miejsce posiedzeń senatu lub sądu w starożytnym Rzymie; także sama rada senatu; 5. otoczenie, środowisko skupiające się dokoła monarchy lub magnata, duchownego; dworzanie, urzędnicy, świta dworska, orszak; ogólnie: rząd danego państwa z panującym na czele; 6. siły zbrojne nadworne, żołnierze straży przybocznej monarchy; 7. praw. sąd królewski, w którym orzekał sam król osobiście przy asyście dygnitarzy królewskich lub zlecał rozpatrzenie sprawy i wydanie wyroku wyznaczonym dygnitarzom znajdującym się w danym momencie na dworze, to jest w miejscu pobytu władcy; 8. miejsce na zewnątrz domu, otaczająca dom; podwórze, dziedziniec, przestrzeń pod gołym niebem"@pl ;
    rdfs:isDefinedBy :document_2
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit7 ;
    owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "‘przestrzeń otaczając dom, otwarte powietrze, miejsce pod gołym niebem’ ‘podwórze, dziedziniec’ ‘dom właściciela majątku ziemskiego, mieszkanie dziedzica’ ‘gospodarstwo dworskie, folwark’ (przenośnie) ‘mieszkańcy dworu wiejskiego, szczególnie dziedzic z rodziną, państwo’ ‘dom, mieszkanie’ ‘oficjaliści panów, szczególnie wyżsi, dworzanie’ ‘miejsce pobytu albo mieszkanie panującego albo magnata’ ‘panujący i jego otoczenie’ ‘służba dworska’ ‘zebranie u króla, sąd dworski, żołnierze nadworni’"@pl ;
+   owl:annotatedTarget "1. miejsce pod niebem zagrodzone przy pomieszkanu, podworze (por. dziedziniec); 2. sądy za dworem królewskim, przy boku króla odprawujące się; 3. w wiekach dawnych, zjazd króla na różne miejsca, gdzie święta uroczystsze odbywał, obywatelów zgromadzał, sprawy sądził, okoliczności powiatowe ułatwiał, igrzyska i uczty dawał; 4. dwór królewski, zgromadzenie u króla, pokoje"@pl ;
+   rdfs:isDefinedBy :document_1
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit7 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "1. przestrzeń otaczając dom, otwarte powietrze, miejsce pod gołym niebem; 2. podwórze, dziedziniec; 3. dom właściciela majątku ziemskiego, mieszkanie dziedzica; 4. gospodarstwo dworskie, folwark; 5. (przenośnie) mieszkańcy dworu wiejskiego, szczególnie dziedzic z rodziną, państwo; 6. dom, mieszkanie; 7. oficjaliści panów, szczególnie wyżsi, dworzanie; 8. miejsce pobytu albo mieszkanie panującego albo magnata; 9. panujący i jego otoczenie; 10. służba dworska; 11. zebranie u króla, sąd dworski, żołnierze nadworni"@pl ;
    rdfs:isDefinedBy :document_5
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit7 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "1. siedziba panującego lub księcia; 2. ludzie otaczający panującego lub księcia; 3. obszerny dom mieszkalny, charakterystyczny dla dawnych posiadłości ziemskich; 4. majątek ziemski z domem i zabudowaniami; 5. właściciele posiadłości ziemskiej, jej mieszkańcy, administracja; 6. otwarta przestrzeń na zewnątrz domu"@pl ;
+   rdfs:isDefinedBy :document_4
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit7 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "s. 9: -- desygnatem dworu jest tzw. gródek stożkowaty, czyli stanowisko archeologiczne mające wyodrębnioną formę terenową, najczęściej w postaci kopca lub przestrzeni zamkniętej dookolnymi obronnymi wałami"@pl ;
+   rdfs:comment :document_13
  ] .
 
 
@@ -7464,6 +7490,15 @@ rdfs:Class rdf:type owl:Class .
    owl:annotatedTarget "Goslar und die Stadtgeschichte. Forschungen und Perspektiven 1399–1999, hg. v. Carl-Hans Hauptmeyer/Jürgen Rund, Bielefeld 2001, s. 57–74"@de ;
    rdfs:seeAlso "http://www.uni-muenster.de/Staedtegeschichte/portal/einfuehrung/Definitionen.html"^^xsd:anyURI
  ] .
+
+
+###  http://purl.org/ontohgis#document_13
+:document_13 rdf:type owl:NamedIndividual ,
+                      obo:IAO_0000310 ;
+             <http://purl.org/dc/terms/creator> "Marciniak-Kajzer, Anna"@pl ;
+             <http://purl.org/dc/terms/date> 2011 ;
+             <http://purl.org/dc/terms/title> "Średniowieczny dwór rycerski w Polsce"@pl ;
+             rdfs:label "Marciniak-Kajzer, Średniowieczny dwór rycerski w Polsce"@pl .
 
 
 ###  http://purl.org/ontohgis#document_2
