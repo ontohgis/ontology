@@ -3386,9 +3386,14 @@ c. prawnie."""@pl ;
                                     "Browar (miejscowość) jest to osada, w której główna rolę pełni browar (obiekt)."@pl ;
                    rdfs:label "brewery"@en ,
                               "browar"@pl ;
-                   rdfs:seeAlso "http://dbpedia.org/ontology/Brewery"^^xsd:anyURI ;
-                   <http://www.w3.org/2004/02/skos/core#altLabel> "piwowarnia (pl), mielcuch (pl), warzelnia (pl)" ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "die Brauerei (de), das Brauhaus (de), die Bierbrauerei (de), braxatorium (lat), пивоварня (ru)" ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Bierbrauerei"@de ,
+                                                                     "Brauerei"@de ,
+                                                                     "Brauhaus"@de ,
+                                                                     "braxatorium"@la ,
+                                                                     "mielcuch"@pl ,
+                                                                     "piwowarnia"@pl ,
+                                                                     "warzelnia"@pl ,
+                                                                     "пивоварня"@ru ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "brewery"@en ,
                                                                    "browar"@pl .
 
@@ -3556,8 +3561,10 @@ c. prawnie."""@pl ;
                                     "Cegielnia (miejscowość) jest to osada, w której główną rolę odrywa cegielnia (obiekt)."@pl ;
                    rdfs:label "brickyard"@en ,
                               "cegielnia"@pl ;
-                   <http://www.w3.org/2004/02/skos/core#altLabel> "cegielnica (pl)" ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "die Ziegelei (de), die Ziegelscheune (de), кирпи́чный заво́д (ru)" ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Ziegelei"@de ,
+                                                                     "Ziegelscheune"@de ,
+                                                                     "cegielnica"@pl ,
+                                                                     "кирпичный завод"@ru ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "brickyard"@en ,
                                                                    "cegielnia"@pl .
 
@@ -4610,26 +4617,30 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                      "Cegielnia jest to zakład wytwarzający cegły oraz ew. inne ceramiczne elementy budowlane jak również zespół budynków przeznaczonych na cele produkcyjne i mieszkalne dla obsługi zakładu."@pl ;
                     rdfs:label "brickyard"@en ,
                                "cegielnia - obiekt"@pl ;
-                    rdfs:seeAlso "t. 1, cz. 1, s. 221: Cegielnia, Cegielnica, budynek z piecem od palenia cegieł,die Ziegelscheune, der Ziegelofen."@pl ,
-                                 "t. 3, s. 142: cegielnia – miejsce wyrobu cegieł."@pl ,
+                    rdfs:seeAlso "http://vocab.getty.edu/aat/300006278"^^xsd:anyURI ,
+                                 "https://www.wikidata.org/wiki/Q198632"^^xsd:anyURI ,
+                                 "t. 1, cz. 1, s. 221: Cegielnia, Cegielnica, budynek z piecem od palenia cegieł, die Ziegelscheune, der Ziegelofen"@pl ,
+                                 "t. 3, s. 142: cegielnia – miejsce wyrobu cegieł"@pl ,
                                  "wytwórnia cegly oraz innych materiałów budowlanych z gliny: dachówek, sączków (drenów), kafli, klinkierów, płytek itp."@pl ,
                                  "wytwórnia cegły oraz innych materiałów budowlanych z gliny"@pl ;
-                    <http://www.w3.org/2004/02/skos/core#altLabel> "cegielnica (pl)" ;
-                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "die Ziegelei (de), die Ziegelscheune (de), кирпи́чный заво́д (ru)" ;
+                    <http://www.w3.org/2004/02/skos/core#altLabel> "Ziegelei"@de ,
+                                                                   "cegielnica"@pl ,
+                                                                   "кирпичный завод"@ru ;
+                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Ziegelscheune"@de ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "brickyard"@en ,
                                                                     "cegielnia - obiekt"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit136 ;
    owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "t. 1, cz. 1, s. 221: Cegielnia, Cegielnica, budynek z piecem od palenia cegieł,die Ziegelscheune, der Ziegelofen."@pl ;
+   owl:annotatedTarget "t. 1, cz. 1, s. 221: Cegielnia, Cegielnica, budynek z piecem od palenia cegieł, die Ziegelscheune, der Ziegelofen"@pl ;
    rdfs:isDefinedBy :document_1
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit136 ;
    owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "t. 3, s. 142: cegielnia – miejsce wyrobu cegieł."@pl ;
+   owl:annotatedTarget "t. 3, s. 142: cegielnia – miejsce wyrobu cegieł"@pl ;
    rdfs:comment :document_2
  ] .
 
@@ -8683,8 +8694,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
 
 
-<http://purl.org/dc/terms/rights> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                  <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
+<http://purl.org/dc/terms/rights> <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
+                                  rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                   rdfs:label "Rights"@en ;
                                   rdfs:comment "Information about rights held in and over the resource."@en ;
                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -8692,8 +8703,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   <http://purl.org/dc/terms/description> "Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights."@en .
 
 
-<http://purl.org/dc/terms/rightsHolder> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#rightsHolder-002> ;
-                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/rightsHolder> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                        <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#rightsHolder-002> ;
                                         <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                         rdfs:comment "A person or organization owning or managing rights over the resource."@en ;
                                         <http://purl.org/dc/terms/issued> "2004-06-14"^^xsd:date ;
