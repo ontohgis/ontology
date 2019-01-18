@@ -3938,8 +3938,7 @@ c. prawnie."""@pl ;
    owl:annotatedSource :settlement_unit121 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "dom należący do parafii, przeznaczony na mieszkanie dla proboszcza"@pl ;
-   rdfs:isDefinedBy :document_3 ,
-                    <http://sjp.pwn.pl/slowniki/plebania.html>
+   rdfs:isDefinedBy :document_3
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -4882,13 +4881,92 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                    "Wieś jest to miejscowość składająca się z zabudowań mieszkalno-gospodarczych, niekiedy przemysłowych (np. kuźnia, młyn) wraz z przynależnymi do nich gruntami (rozłogi), zamieszkała przez ludność zajmującą się w większości zajęciami rolniczo-hodowlanymi oraz przemysłem wiejskim (np. kowalstwo, młynarstwo), nieposiadająca praw miejskich ani statusu miasta. Niekiedy we wczesnym średniowieczu posiadająca prawo odbywania targu."@pl ;
                   rdfs:label "village"@en ,
                              "wieś"@pl ;
-                  rdfs:seeAlso "http://dbpedia.org/page/Village"^^xsd:anyURI ,
+                  rdfs:seeAlso "1. miejscowość zamieszkała przez ludzi, którzy trudnią się pracą na roli, 2. mieszkańcy takiej miejscowości, 3. tereny pozamiejskie, rolnicze, letniskowe, 4. ludzie trudniący się pracą na roli"@pl ,
+                               "Jednostka osadnicza o zwartej lub rozproszonej zabudowie i istniejących funkcjach rolniczych lub związanych z nimi usługowych lub turystycznych, nieposiadająca praw miejskich lub statusu miasta"@pl ,
+                               "Kirchdorf: Dorf mit Kirche (I) und Pfarrer, rechtlicher und religiöser Mittelpunkt einer (eventuell aus mehreren Filialdörfern bestehenden) politischen oder Pfarr-Gemeinde [Wieś z kościołem i parafią, prawne i religijne centrum gminy politycznej albo parafialnej (ewentualnie składającej się z kilku wsi filialnych, wsi z kościołami filialnymi]"@de ,
+                               "Pfarrdorf: 1. Dorf, in dem die für die Pfarrgemeinde konstitutive Pfarrkirche (I) steht [wieś, w której stoi kościół parafialny właściwy dla całej parafii, gminy parafialnej]; 2. zu einer Pfarre (I) gehöriges Dorf [wieś należąca do parafii]"@de ,
+                               "http://dbpedia.org/page/Village"^^xsd:anyURI ,
                                "http://gov.genealogy.net/types.owl#55"^^xsd:anyURI ,
-                               "http://linkedgeodata.org/ontology/Village"^^xsd:anyURI ;
-                  <http://www.w3.org/2004/02/skos/core#altLabel> "sioło (pl), źreb (pl), osada (pl), osiedle wiejskie (pl), siedlisko wiejskie (pl), włość i klucz (pl)" ;
-                  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "vicus (lat), rus (lat), pagus (lat), das Dorf (de), sioło (ru), ager (lat), das Kirchdorf (de), das Pfarrdorf (de)" ;
+                               "http://linkedgeodata.org/ontology/Village"^^xsd:anyURI ,
+                               "http://pzgik.geoportal.gov.pl/ontologies/prng/wies"^^xsd:anyURI ,
+                               "http://vocab.getty.edu/aat/300008372"^^xsd:anyURI ,
+                               "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ,
+                               "t. 4, s. 365: wioska, imienie, dobro, grunt leżący; wieś targowa, wsie łowcze, osoczne, wołoskie."@pl ,
+                               "t. 7, s. 594–595: osada rolnicza, z pewnej liczby chat złożona, sioło"@pl ,
+                               "t. XX, s. 199–201: 1. osada, w której ludność zajmuje się głównie rolnictwem, 2. mieszkańcy wsi, ogół mieszkańców wsi."@pl ;
+                  <http://www.w3.org/2004/02/skos/core#altLabel> "Dorf"@de ,
+                                                                 "pagus"@la ,
+                                                                 "sioło"@pl ,
+                                                                 "villa"@la ,
+                                                                 "село"@ru ;
+                  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Kirchdorf"@de ,
+                                                                    "Pfarrdorf"@de ,
+                                                                    "ager"@la ,
+                                                                    "osada"@pl ,
+                                                                    "osiedle wiejskie"@pl ,
+                                                                    "rus"@la ,
+                                                                    "siedlisko wiejskie"@pl ,
+                                                                    "vicus"@la ,
+                                                                    "włość i klucz"@pl ,
+                                                                    "źreb"@pl ;
                   <http://www.w3.org/2004/02/skos/core#prefLabel> "village"@en ,
                                                                   "wieś"@pl .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "1. miejscowość zamieszkała przez ludzi, którzy trudnią się pracą na roli, 2. mieszkańcy takiej miejscowości, 3. tereny pozamiejskie, rolnicze, letniskowe, 4. ludzie trudniący się pracą na roli"@pl ;
+   rdfs:isDefinedBy :document_4
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "Jednostka osadnicza o zwartej lub rozproszonej zabudowie i istniejących funkcjach rolniczych lub związanych z nimi usługowych lub turystycznych, nieposiadająca praw miejskich lub statusu miasta"@pl ;
+   rdfs:isDefinedBy :document_9
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "Kirchdorf: Dorf mit Kirche (I) und Pfarrer, rechtlicher und religiöser Mittelpunkt einer (eventuell aus mehreren Filialdörfern bestehenden) politischen oder Pfarr-Gemeinde [Wieś z kościołem i parafią, prawne i religijne centrum gminy politycznej albo parafialnej (ewentualnie składającej się z kilku wsi filialnych, wsi z kościołami filialnymi]"@de ;
+   rdfs:isDefinedBy :document_10
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "Pfarrdorf: 1. Dorf, in dem die für die Pfarrgemeinde konstitutive Pfarrkirche (I) steht [wieś, w której stoi kościół parafialny właściwy dla całej parafii, gminy parafialnej]; 2. zu einer Pfarre (I) gehöriges Dorf [wieś należąca do parafii]"@de ;
+   rdfs:isDefinedBy :document_10
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ;
+   rdfs:isDefinedBy :document_8
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 4, s. 365: wioska, imienie, dobro, grunt leżący; wieś targowa, wsie łowcze, osoczne, wołoskie."@pl ;
+   rdfs:isDefinedBy :document_1
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 7, s. 594–595: osada rolnicza, z pewnej liczby chat złożona, sioło"@pl ;
+   rdfs:isDefinedBy :document_5
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. XX, s. 199–201: 1. osada, w której ludność zajmuje się głównie rolnictwem, 2. mieszkańcy wsi, ogół mieszkańców wsi."@pl ;
+   rdfs:isDefinedBy :document_6
+ ] .
 
 
 ###  http://purl.org/ontohgis#settlement_unit20
@@ -7320,6 +7398,14 @@ rdfs:Class rdf:type owl:Class .
             rdfs:label "Słownik języka polskiego (Linde)"@pl .
 
 
+###  http://purl.org/ontohgis#document_10
+:document_10 rdf:type owl:NamedIndividual ,
+                      obo:IAO_0000310 ;
+             rdfs:label "Deutsche Rechtswörterbuch"@pl ;
+             rdfs:seeAlso "http://drw-www.adw.uni-heidelberg.de/drw-cgi/zeige"@de ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Deutsche Rechtswörterbuch"@de .
+
+
 ###  http://purl.org/ontohgis#document_2
 :document_2 rdf:type owl:NamedIndividual ,
                      obo:IAO_0000310 ;
@@ -7336,7 +7422,7 @@ rdfs:Class rdf:type owl:Class .
 :document_3 rdf:type owl:NamedIndividual ,
                      obo:IAO_0000310 ;
             dc:identifier "https://sjp.pwn.pl/"^^xsd:anyURI ;
-            rdfs:label "Słownik języka polskiego"@pl .
+            rdfs:label "Słownik języka polskiego (PWN)"@pl .
 
 
 ###  http://purl.org/ontohgis#document_4
@@ -7346,7 +7432,7 @@ rdfs:Class rdf:type owl:Class .
             dc:title "Słownik języka polskiego"@pl ;
             <http://purl.org/dc/terms/date> "1958–1969" ;
             <http://purl.org/dc/terms/identifier> "http://doroszewski.pwn.pl/"^^xsd:anyURI ;
-            rdfs:label "Słownik języka polskiego pod red. W. Doroszewskiego"@pl .
+            rdfs:label "Słownik języka polskiego (Doroszewski)"@pl .
 
 
 ###  http://purl.org/ontohgis#document_5
@@ -7360,8 +7446,9 @@ rdfs:Class rdf:type owl:Class .
 ###  http://purl.org/ontohgis#document_6
 :document_6 rdf:type owl:NamedIndividual ,
                      obo:IAO_0000310 ;
-            dc:creator "S. Urbańczyk"^^xsd:anyURI ;
-            rdfs:label "Słownik staropolski"^^xsd:anyURI ;
+            dc:creator "Urbańczyk, Stanisław"@pl ;
+            <http://purl.org/dc/terms/date> "1953–2002" ;
+            rdfs:label "Słownik staropolski"@pl ;
             rdfs:seeAlso "https://pjs.ijp.pan.pl/sstp.html"^^xsd:anyURI .
 
 
@@ -7371,6 +7458,25 @@ rdfs:Class rdf:type owl:Class .
             dc:title "Encyklopedia Katolicka"@pl ;
             rdfs:label "Encyklopedia Katolicka"@pl ;
             rdfs:seeAlso "http://www.kul.pl/encyklopedia-katolicka,art_9929.html"^^xsd:anyURI .
+
+
+###  http://purl.org/ontohgis#document_8
+:document_8 rdf:type owl:NamedIndividual ,
+                     obo:IAO_0000310 ;
+            <http://purl.org/dc/terms/creator> "Tkocz, Jan"@pl ;
+            <http://purl.org/dc/terms/date> "1998"@pl ;
+            <http://purl.org/dc/terms/title> "Organizacja przestrzenna wsi w Polsce"@pl ;
+            rdfs:label "Tkocz, Organizacja przestrzenna wsi"@pl .
+
+
+###  http://purl.org/ontohgis#document_9
+:document_9 rdf:type owl:NamedIndividual ,
+                     obo:IAO_0000310 ;
+            <http://purl.org/dc/terms/creator> "Minister Spraw Wewnętrznych i Administracji"@pl ;
+            <http://purl.org/dc/terms/date> 2011 ;
+            <http://purl.org/dc/terms/title> "Rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 17 listopada 2011 r. w sprawie bazy danych obiektów topograficznych oraz bazy danych obiektów ogólnogeograficznych, a także standardowych opracowań kartograficznych"@pl ;
+            rdfs:label "Rozporządzenie BDOT10k"@pl ;
+            rdfs:seeAlso "http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20112791642"@pl .
 
 
 ###  http://purl.org/ontohgis#function1
@@ -7639,14 +7745,14 @@ rdfs:Class rdf:type owl:Class .
 ###  http://purl.org/ontohgis#person_20
 :person_20 rdf:type owl:NamedIndividual ,
                     obo:BFO_0000030 ;
-           rdfs:label "Witold Doroszewski"@pl ;
+           rdfs:label "Doroszewski, Witold"@pl ;
            rdfs:seeAlso "https://pl.wikipedia.org/wiki/Witold_Doroszewski"^^xsd:anyURI .
 
 
 ###  http://purl.org/ontohgis#person_21
 :person_21 rdf:type owl:NamedIndividual ,
                     obo:BFO_0000030 ;
-           rdfs:label "Samuel Bogumił Linde"@pl ;
+           rdfs:label "Linde, Samuel Bogumił"@pl ;
            rdfs:seeAlso "https://pl.wikipedia.org/wiki/Samuel_Linde"^^xsd:anyURI .
 
 
@@ -8469,8 +8575,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
 
 
-<http://purl.org/dc/terms/rights> <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                  rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/rights> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                  <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                   rdfs:label "Rights"@en ;
                                   rdfs:comment "Information about rights held in and over the resource."@en ;
                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -8478,8 +8584,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   <http://purl.org/dc/terms/description> "Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights."@en .
 
 
-<http://purl.org/dc/terms/rightsHolder> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                        <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#rightsHolder-002> ;
+<http://purl.org/dc/terms/rightsHolder> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#rightsHolder-002> ;
+                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                         <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                         rdfs:comment "A person or organization owning or managing rights over the resource."@en ;
                                         <http://purl.org/dc/terms/issued> "2004-06-14"^^xsd:date ;
