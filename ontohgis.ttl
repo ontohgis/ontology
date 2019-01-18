@@ -4877,6 +4877,10 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                   :hasLanguageVerificator :person_1 ;
                   :hasOntologicalVerificator :person_10 ;
                   :hasTranslator :person_9 ;
+                  rdfs:comment """A development in a village may be dense (i.e. villages established according to a German law introducing a linear development) or scattered (i.e. Hauländer colonies, Dutch settlement, from 18th century or early medieval single manor settlements). A village may preponderate (be a superior settlement) any other units, such as: a hamlet or a mill settlement; it is also dependent on a manor, which supervises a village in legal and administrative issues. Inhabitants from all units forming a village comprise a village community. Studies on this type of localities distinguish an abandoned village, a settlement that lost its functions due to environmental, political, or economic incidents. In historiography, one can find an expression a lost village, which stands for a village, where settlement was not re-established.
+In German language in the nineteenth century, two terms could coexist - Pfarrdorf and Kirchdorf. The first meant a larger village with a parish church, and a second smaller village with an auxiliary (filial) church, but these criteria of distinction were not strict and neither used consistently. For example on the Gilly map (1802-1803), only the following categories exist: Kirchdorf and Dorf ohne Kirche."""@en ,
+                               """Wieś może posiadać zwartą (np. wsie lokowane na prawie niemieckim np. ulicówki, łańcuchówki) lub rozproszoną zabudowę (często kolonie olęderskie w XVIII w. lub wczesnośredniowieczne osady jednodworcze). Wieś może dominować (być jednostką nadrzędną osadniczo) w stosunku do innych jednostek takich jak np. przysiółek, osada młyńska; jest także zależna od pana gruntowego, który sprawuje nad nią nadzór własnościowy. Mieszkańcy wszystkich jednostek składających się na wieś tworzą jedną wspólnotę wiejską. W badaniach nad wsią rozróżnia się także pojęcie wsi opustoszałej, czyli takiej, która fizycznie przestała pełnić swoje funkcje w wyniku zdarzeń o charakterze losowym, środowiskowym, politycznym lub gospodarczym. W literaturze przedmiotu funkcjonuje także określenie wieś zaginiona, które odnosi się do wsi, w których nie wznowiono osadnictwa.
+W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy – Pfarrdorf i Kirchdorf.  Pierwszy oznaczał raczej większą wieś z kościołem parafialnym, zaś drugi mniejszą wieś z kościołem pomocniczym. Terminy te nie były jednak ścisłe i używane konsekwentnie, np. na mapie Gilly’ego z lat 1802-1803 występują tylko kategorie: Kirchdorf oraz Dorf ohne Kirche."""@pl ;
                   rdfs:isDefinedBy "Village is a locality composed of a group of buildings, mostly of residential and economic character, but sometimes, also industrial ones (i.e. ironworks, mill) as well as a belonging land, inhabited by people involved particularly in agricultural and construction activities or in farming industry (i.e. blacksmith or mill work), and not having city rights nor a status of a city or a town. Some villages in Early Middle Ages had a right to organise a fair and a market."@en ,
                                    "Wieś jest to miejscowość składająca się z zabudowań mieszkalno-gospodarczych, niekiedy przemysłowych (np. kuźnia, młyn) wraz z przynależnymi do nich gruntami (rozłogi), zamieszkała przez ludność zajmującą się w większości zajęciami rolniczo-hodowlanymi oraz przemysłem wiejskim (np. kowalstwo, młynarstwo), nieposiadająca praw miejskich ani statusu miasta. Niekiedy we wczesnym średniowieczu posiadająca prawo odbywania targu."@pl ;
                   rdfs:label "village"@en ,
@@ -5204,18 +5208,49 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                   :hasLanguageVerificator :person_1 ;
                   :hasOntologicalVerificator :person_10 ;
                   :hasTranslator :person_9 ;
-                  rdfs:comment "A city/town may consists of other settlement units, like: a core city/town (a founded one), a district, a suburb, a castle, a gord."@en ,
-                               "W skład miasta mogą wchodzić inne jednostki osadnicze, jak miasto właściwe (lokacyjne), dzielnica, przedmieście, zamek, gród."@pl ;
+                  rdfs:comment "During those periods, when legal status of localities was established and defined, cities/towns were granted specific municipal rights (location bill), which should be considered as an auxiliary indicator for distinguishing cities/towns. A city/town may consists of other settlement units, like: a core city/town (a founded one), a district, a suburb, a castle, a gord. At least from the 13th to the 18th century, two parallel notions existed: general (meaning the whole settlement unit with its own society, economy, and urban structure, perceived mostly by intuition), and a city in its political and legal meaning, as a community with an extensive autonomy. As a consequence, cities within other city or units lying partly in and partly outside the city existed. For these complex structures, in this project, first explanations of the city should be applied."@en ,
+                               "W okresach, w których status prawny miejscowości był ukształtowany miasta posiadały szczególne prawa miejskie (lokacyjne), które stanowią postawowe kryterium pomocnicze odróżniania miast. W skład miasta mogą wchodzić inne jednostki osadnicze, jak miasto właściwe (lokacyjne), dzielnica, przedmieście, zamek, gród. Przynamniej w okresie od XIII do XVIII w. funkcjonowały równolegle dwa pojęcia miasta: ogólne, obejmujące cały zespół osadniczy o odrębności społecznej, gospodarczej i urbanistycznej, postrzegane przede wszystkim intuicyjnie oraz miasto w sensie polityczno-prawnym, obdarzona względnie szeroką autonomią gmina. W konsekwencji mogły istnieć miasta w mieście i obiekty leżące jednocześnie w mieście i poza nim. Dla takich złożonych struktur w niniejszym projekcie należy się posługiwać pierwszym znaczeniem miasta."@pl ;
                   rdfs:isDefinedBy "A city/town is a superior locality, distinguished from others, surrounding basic units by size (measured differently in different periods of time and regions), a level of complexity, and central functions provided for those units."@en ,
                                    "Miasto jest to miejscowość wyższego rzędu, odróżniająca się od otaczających je podstawowych wielkością (liczoną według miary właściwej dla danej epoki i regionu), stopniem złożoności i funkcjami centralnymi względem nich."@pl ;
                   rdfs:label "city / town"@en ,
                              "miasto"@pl ;
-                  rdfs:seeAlso "http://dbpedia.org/ontology/City"^^xsd:anyURI ,
-                               "http://linkedgeodata.org/ontology/City"^^xsd:anyURI ;
-                  <http://www.w3.org/2004/02/skos/core#altLabel> "civitas (lat), oppidum (lat), Stadt (de)" ;
-                  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "aglomeracja (pl), osada miejska (pl), miasteczko (pl)" ;
+                  rdfs:seeAlso "Skupisko ludności, odróżniające się od innych swymi głównie nierolniczymi funkcjami, znaczną wielkością oraz intensywnością zabudowy. Definicja ta musi być jednak interpretowana elastycznie i zawsze na tle aktualnej sieci osadniczej."@pl ,
+                               "http://dbpedia.org/ontology/City"^^xsd:anyURI ,
+                               "http://gov.genealogy.net/types.owl#51"@en ,
+                               "http://linkedgeodata.org/ontology/City"^^xsd:anyURI ,
+                               "http://vocab.getty.edu/aat/300008389"@en ,
+                               "https://pzgik.geoportal.gov.pl/ontologies/prng/miasto"@en ,
+                               "s. 63: Miasto jest osadą różniącą się od wsi i nierolniczych osad monofunkcyjnych względną wielkością z zagęszczoną i rozczłonkowaną zabudową, z ludnością wyspecjalizowaną zawodowo i rozwarstwioną społecznie oraz funkcjami centralnymi pełnionymi wobec określonego regionu lub lokalnej ludności w sferze polityki, panowania, obronności, gospodarki, kultu i kultury [Stadt ist eine vom Dorf und nichtagrarischen Einzwecksiedlungen unterschiedene Siedlung relativer Größe mit verdichteter, gegliederter Bebauung, beruflich spezialisierter und sozial geschichteter Bevölkerung und zentralen Funktionen politisch-herrschaftlich-militärischer, wirtschaftlicher und kultisch-kultureller Art für eine bestimmte Region oder regionale Bevölkerung]"@de ,
+                               "t. 13, s. 37: Wytyczony i najczęściej otoczony murem teren, pokryty gęstą i planową zabudową tworzącą place i ulice, stanowiący mniej lub więcej samodzielną jednostkę administracyjną, samorządową, a czasem polityczną."@pl ;
+                  <http://www.w3.org/2004/02/skos/core#altLabel> "Stadt"@de ,
+                                                                 "civitas"@la ,
+                                                                 "oppidum"@la ;
+                  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "aglomeracja"@pl ,
+                                                                    "miasteczko"@pl ,
+                                                                    "osada miejska"@pl ;
                   <http://www.w3.org/2004/02/skos/core#prefLabel> "city / town"@en ,
                                                                   "miasto"@pl .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit3 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "Skupisko ludności, odróżniające się od innych swymi głównie nierolniczymi funkcjami, znaczną wielkością oraz intensywnością zabudowy. Definicja ta musi być jednak interpretowana elastycznie i zawsze na tle aktualnej sieci osadniczej."@pl ;
+   rdfs:isDefinedBy :document_11
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit3 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "s. 63: Miasto jest osadą różniącą się od wsi i nierolniczych osad monofunkcyjnych względną wielkością z zagęszczoną i rozczłonkowaną zabudową, z ludnością wyspecjalizowaną zawodowo i rozwarstwioną społecznie oraz funkcjami centralnymi pełnionymi wobec określonego regionu lub lokalnej ludności w sferze polityki, panowania, obronności, gospodarki, kultu i kultury [Stadt ist eine vom Dorf und nichtagrarischen Einzwecksiedlungen unterschiedene Siedlung relativer Größe mit verdichteter, gegliederter Bebauung, beruflich spezialisierter und sozial geschichteter Bevölkerung und zentralen Funktionen politisch-herrschaftlich-militärischer, wirtschaftlicher und kultisch-kultureller Art für eine bestimmte Region oder regionale Bevölkerung]"@de ;
+   rdfs:isDefinedBy :document_12
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit3 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 13, s. 37: Wytyczony i najczęściej otoczony murem teren, pokryty gęstą i planową zabudową tworzącą place i ulice, stanowiący mniej lub więcej samodzielną jednostkę administracyjną, samorządową, a czasem polityczną."@pl ;
+   rdfs:isDefinedBy :document_2
+ ] .
 
 
 ###  http://purl.org/ontohgis#settlement_unit3003
@@ -7404,6 +7439,31 @@ rdfs:Class rdf:type owl:Class .
              rdfs:label "Deutsche Rechtswörterbuch"@pl ;
              rdfs:seeAlso "http://drw-www.adw.uni-heidelberg.de/drw-cgi/zeige"@de ;
              <http://www.w3.org/2004/02/skos/core#prefLabel> "Deutsche Rechtswörterbuch"@de .
+
+
+###  http://purl.org/ontohgis#document_11
+:document_11 rdf:type owl:NamedIndividual ,
+                      obo:IAO_0000310 ;
+             <http://purl.org/dc/terms/date> "1962-1970"@pl ;
+             rdfs:label "Wielka encyklopedia powszechna PWN"@pl .
+
+
+###  http://purl.org/ontohgis#document_12
+:document_12 rdf:type owl:NamedIndividual ,
+                      obo:IAO_0000310 ;
+             <http://purl.org/dc/terms/creator> "Irsigler, Franz" ;
+             <http://purl.org/dc/terms/date> 2001 ;
+             <http://purl.org/dc/terms/identifier> "Goslar und die Stadtgeschichte. Forschungen und Perspektiven 1399–1999, hg. v. Carl-Hans Hauptmeyer/Jürgen Rund, Bielefeld 2001, s. 57–74"@de ;
+             <http://purl.org/dc/terms/title> "Die Stadt im Mittelalter. Aktuelle Forschungstendenzen"@de ;
+             rdfs:label "Irsigler, Die Stadt im Mittelalter"@pl ;
+             <http://www.w3.org/2004/02/skos/core#prefLabel> "Irsigler, Franz: Die Stadt im Mittelalter"@de .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :document_12 ;
+   owl:annotatedProperty <http://purl.org/dc/terms/identifier> ;
+   owl:annotatedTarget "Goslar und die Stadtgeschichte. Forschungen und Perspektiven 1399–1999, hg. v. Carl-Hans Hauptmeyer/Jürgen Rund, Bielefeld 2001, s. 57–74"@de ;
+   rdfs:seeAlso "http://www.uni-muenster.de/Staedtegeschichte/portal/einfuehrung/Definitionen.html"^^xsd:anyURI
+ ] .
 
 
 ###  http://purl.org/ontohgis#document_2
