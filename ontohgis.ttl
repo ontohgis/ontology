@@ -3655,6 +3655,7 @@ c. prawnie."""@pl ;
                     rdfs:seeAlso "http://dbpedia.org/ontology/Castle"^^xsd:anyURI ,
                                  "http://linkedgeodata.org/page/ontology/Castle"^^xsd:anyURI ,
                                  "http://vocab.getty.edu/aat/300006891"^^xsd:anyURI ,
+                                 "https://www.wikidata.org/wiki/Q23413"@pl ,
                                  "miejsce obronne, twierdza"@pl ,
                                  "od średniowiecza do w. XVII obronna siedziba pana feudalnego, ośrodek władzy; w XVII w. i później królewska, książęca lub magnacka rezydencja miejska lub pozamiejska"@pl ;
                     <http://www.w3.org/2004/02/skos/core#altLabel> "Burg"@de ,
@@ -3916,6 +3917,7 @@ c. prawnie."""@pl ;
                     rdfs:seeAlso "dom należący do parafii, przeznaczony na mieszkanie dla proboszcza"@pl ,
                                  "http://dbpedia.org/page/Clergy_house"^^xsd:anyURI ,
                                  "http://vocab.getty.edu/aat/300005639"^^xsd:anyURI ,
+                                 "https://www.wikidata.org/wiki/Q607241"@pl ,
                                  "t. 2, cz. 2, s. 732: Pleban -- Plebania, -ii, ż., urząd plebański abo beneficjum --; Dochód plebański, ut dobra --; plebaniia, dom plebański, die Pfarrwohnung, die Pfarre. J ksiądz widzimy, plebaniią rzadki Buduie, że kto inszy weźmie po nim spadki. Pot. Pocz. 475 (Slo. fara; Hg. plebania; Cro. plebania; Vd. faroush; Ross. приходъ (cf. przychód)."@pl ,
                                  "t. 24, s. 326: 1. Domostwo plebana -- ; flaminia -- ; parochia, plebanatus -- ; curionis domus, curionium --; 2. Terytorium będące pod opieką plebana; także urząd i dochody z niego; parochia --; plebanatus --; curionatus, curionium -- ; 2a. Wierni należący do parafii --. Synonimy: probostwo, parafija."@pl ;
                     <http://www.w3.org/2004/02/skos/core#altLabel> "Pfarrwohnung"@de ,
@@ -4546,12 +4548,21 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                      "Browar jest to zakład wytwarzający piwo jak również zespół budynków przeznaczonych na cele produkcyjne i mieszkalne dla obsługi zakladu."@pl ;
                     rdfs:label "brewery"@en ,
                                "browar - obiekt"@pl ;
-                    rdfs:seeAlso "t. 1, cz.12, s. 272: Browar, budynek, gdzie się piwo warzy, piwowarnia, mielcuch"@pl ,
-                                 "t. 2, s. 455-456: budynek, w którym się warzy piwo, piwowarnia."@pl ,
+                    rdfs:seeAlso "http://dbpedia.org/ontology/Brewery"^^xsd:anyURI ,
+                                 "http://vocab.getty.edu/aat/300006341"^^xsd:anyURI ,
+                                 "https://www.wikidata.org/wiki/Q131734"^^xsd:anyURI ,
+                                 "t. 1, cz.12, s. 272: Browar, budynek, gdzie się piwo warzy, piwowarnia, mielcuch"@pl ,
+                                 "t. 2, s. 455-456: budynek, w którym się warzy piwo, piwowarnia"@pl ,
                                  "zakład produkujący piwo"@pl ,
                                  "zakład przemysłowy, w którym wyrabia się piwo; wytwórnia piwa"@pl ;
-                    <http://www.w3.org/2004/02/skos/core#altLabel> "piwowarnia (pl), mielcuch (pl), warzelnia (pl)" ;
-                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "die Brauerei (de), das Brauhaus (de), die Bierbrauerei (de), braxatorium (de), пивоварня (ru)" ;
+                    <http://www.w3.org/2004/02/skos/core#altLabel> "Bierbrauerei"@de ,
+                                                                   "Brauerei"@de ,
+                                                                   "Brauhaus"@de ,
+                                                                   "braxatorium"@la ,
+                                                                   "piwowarnia"@pl ,
+                                                                   "пивоварня"@ru ;
+                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "mielcuch"@pl ,
+                                                                      "warzelnia"@pl ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "brewery"@en ,
                                                                     "browar - obiekt"@pl .
 
@@ -4565,7 +4576,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit135 ;
    owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "t. 2, s. 455-456: budynek, w którym się warzy piwo, piwowarnia."@pl ;
+   owl:annotatedTarget "t. 2, s. 455-456: budynek, w którym się warzy piwo, piwowarnia"@pl ;
    rdfs:isDefinedBy :document_2
  ] .
 
@@ -4894,6 +4905,7 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                "http://linkedgeodata.org/ontology/Village"^^xsd:anyURI ,
                                "http://pzgik.geoportal.gov.pl/ontologies/prng/wies"^^xsd:anyURI ,
                                "http://vocab.getty.edu/aat/300008372"^^xsd:anyURI ,
+                               "https://www.wikidata.org/wiki/Q532"@pl ,
                                "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ,
                                "t. 4, s. 365: wioska, imienie, dobro, grunt leżący; wieś targowa, wsie łowcze, osoczne, wołoskie."@pl ,
                                "t. 7, s. 594–595: osada rolnicza, z pewnej liczby chat złożona, sioło"@pl ,
@@ -5221,6 +5233,7 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                "http://linkedgeodata.org/ontology/City"^^xsd:anyURI ,
                                "http://vocab.getty.edu/aat/300008389"@en ,
                                "https://pzgik.geoportal.gov.pl/ontologies/prng/miasto"@en ,
+                               "https://www.wikidata.org/wiki/Q515"@pl ,
                                "s. 63: Miasto jest osadą różniącą się od wsi i nierolniczych osad monofunkcyjnych względną wielkością z zagęszczoną i rozczłonkowaną zabudową, z ludnością wyspecjalizowaną zawodowo i rozwarstwioną społecznie oraz funkcjami centralnymi pełnionymi wobec określonego regionu lub lokalnej ludności w sferze polityki, panowania, obronności, gospodarki, kultu i kultury [Stadt ist eine vom Dorf und nichtagrarischen Einzwecksiedlungen unterschiedene Siedlung relativer Größe mit verdichteter, gegliederter Bebauung, beruflich spezialisierter und sozial geschichteter Bevölkerung und zentralen Funktionen politisch-herrschaftlich-militärischer, wirtschaftlicher und kultisch-kultureller Art für eine bestimmte Region oder regionale Bevölkerung]"@de ,
                                "t. 13, s. 37: Wytyczony i najczęściej otoczony murem teren, pokryty gęstą i planową zabudową tworzącą place i ulice, stanowiący mniej lub więcej samodzielną jednostkę administracyjną, samorządową, a czasem polityczną."@pl ;
                   <http://www.w3.org/2004/02/skos/core#altLabel> "Stadt"@de ,
