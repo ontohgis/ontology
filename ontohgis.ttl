@@ -4290,17 +4290,25 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                     :hasLanguageVerificator :person_1 ;
                     :hasOntologicalVerificator :person_10 ;
                     :hasTranslator :person_5 ;
-                    rdfs:comment "Morphological distinctiveness - usually clear (location in the forest), but there are lodges located in the immediate vicinity of some other localities.Naming distinctiveness - clear from the second half of the 19th c. (previously forester's lodges had no proper names, later not always).Functional distinctiveness - the forester's lodge plays a role in the economy and forest administration."@en ,
-                                 "Odrębność morfologiczna – przeważnie wyraźna (położenie w lesie), ale zdarzają się leśniczówki położone w bezpośrednim sąsiedztwie innych miejscowości.Odrębność nazewnicza – od drugiej połowy XIX wieku (wcześniej bez nazw; później nie zawsze).Odrębność funkcjonalna – leśniczówka pełni rolę związaną z gospodarką i administracją leśną."@pl ;
+                    rdfs:comment "Morphological distinctiveness - usually clear (location in the forest), but there are lodges located in the immediate vicinity of some other localities. Naming distinctiveness - clear from the second half of the 19th c. (previously forester's lodges had no proper names, later not always). Functional distinctiveness - the forester's lodge plays a role in the economy and forest administration."@en ,
+                                 "Odrębność morfologiczna – przeważnie wyraźna (położenie w lesie), ale zdarzają się leśniczówki położone w bezpośrednim sąsiedztwie innych miejscowości. Odrębność nazewnicza – od drugiej połowy XIX wieku (wcześniej bez nazw; później nie zawsze). Odrębność funkcjonalna – leśniczówka pełni rolę związaną z gospodarką i administracją leśną."@pl ;
                     rdfs:isDefinedBy "Forester's lodge is an area where there is a complex of buildings including a house in which a forester lives, which is the seat of the Forest District's authorities, located in a forest area. Apart from forest management, forester's lodge performs residential functions. Forester's lodge is a locality as long as it has a proper name and is not in the vicinity of another locality."@en ,
                                      "Leśniczówka (obiekt) to obszar, na którym znajduje się zespół zabudowań obejmujący dom, w którym mieszka leśniczy, stanowiący siedzibę leśnictwa, znajdujący się na terenie leśnym, pełniący oprócz mieszkalnych funkcje związane z gospodarką leśną. Leśniczówka jest miejscowością o ile posiada nazwę własną i nie znajduje się w bezpośrednim sąsiedztwie innej miejscowości."@pl ;
                     rdfs:label "forester's lodge"@en ,
                                "leśniczówka - obiekt"@pl ;
-                    rdfs:seeAlso "#BDOT10k, s. 163: „Pojedyncza zagroda służąca leśniczemu i będąca jednocześnie siedzibą leśnictwa\""@pl ,
-                                 "Dom, zagroda w lesie stanowiąca mieszkanie; mieszkanie leśniczego (zarządca obszaru leśnego stanowiącego leśnictwo) wraz z zabudowaniami gospodarskimi"@pl ,
+                    rdfs:seeAlso "Dom, zagroda w lesie stanowiąca mieszkanie; mieszkanie leśniczego (zarządca obszaru leśnego stanowiącego leśnictwo) wraz z zabudowaniami gospodarskimi"@pl ,
+                                 "Pojedyncza zagroda służąca leśniczemu i będąca jednocześnie siedzibą leśnictwa"@pl ,
                                  "http://gov.genealogy.net/types.owl#102"^^xsd:anyURI ,
+                                 "http://vocab.getty.edu/aat/300250342"@pl ,
+                                 "https://www.wikidata.org/wiki/Q1425352"@pl ,
                                  "t. 2, s. 721: domek w lesie, mieszkanie, zagroda leśniczego a. leśnika"@pl ;
-                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "gajówka (pl), nadleśnictwo (pl), osadą leśną (pl), Jagerhaus (de), Forestrey (de), Forst Amt (de)" ;
+                    <http://www.w3.org/2004/02/skos/core#altLabel> "Jägerhaus"@de ;
+                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Forestrey"@de ,
+                                                                      "Forst Amt"@de ,
+                                                                      "Hegerhaus"@de ,
+                                                                      "gajówka"@pl ,
+                                                                      "nadleśnictwo"@pl ,
+                                                                      "osada leśna"@pl ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "forester's lodge"@en ,
                                                                     "leśniczówka - obiekt"@pl .
 
@@ -4309,6 +4317,13 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Dom, zagroda w lesie stanowiąca mieszkanie; mieszkanie leśniczego (zarządca obszaru leśnego stanowiącego leśnictwo) wraz z zabudowaniami gospodarskimi"@pl ;
    rdfs:isDefinedBy :document_4
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit129 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "Pojedyncza zagroda służąca leśniczemu i będąca jednocześnie siedzibą leśnictwa"@pl ;
+   rdfs:isDefinedBy :document_9
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -5200,8 +5215,15 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                     "Leśniczówka (miejscowość) to miejscowość, w której główną rolę pełni leśniczówka (obiekt). Leśniczówka jest miejscowością jeżeli posiada nazwę własną i jest przestrzennie wyodrębniona od innej miejscowości."@pl ;
                    rdfs:label "forester's lodge"@en ,
                               "leśniczówka"@pl ;
-                   rdfs:seeAlso "http://gov.genealogy.net/types.owl#115"^^xsd:anyURI ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "gajówka (pl), nadleśnictwo (pl), osada leśna (pl), Jagerhaus (de), Forestrey (de), Forst Amt (de)" ;
+                   rdfs:seeAlso "http://gov.genealogy.net/types.owl#115"^^xsd:anyURI ,
+                                "https://pzgik.geoportal.gov.pl/ontologies/prng/lesniczowka"@pl ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Forestrey"@de ,
+                                                                     "Forst Amt"@de ,
+                                                                     "Hegerhaus"@de ,
+                                                                     "Jägerhaus"@de ,
+                                                                     "gajówka"@pl ,
+                                                                     "nadleśnictwo"@pl ,
+                                                                     "osada leśna"@pl ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "forester's lodge"@en ,
                                                                    "leśniczówka"@pl .
 
