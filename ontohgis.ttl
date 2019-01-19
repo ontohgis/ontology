@@ -4794,11 +4794,19 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                      "Gorzelnia jest to zakład wytwarzający spirytus oraz napoje alkoholowe o wysokiej zawartości alkoholu, wymagające w trakcie procesu produkcyjnego destylacji."@pl ;
                     rdfs:label "distillery"@en ,
                                "gorzelnia - obiekt"@pl ;
-                    rdfs:seeAlso "t. 1, cz. 2, s. 54: Gorzalnia, gorzelnia, budowanie do palenia gorzałki (pospolicie zowią: browarem, ale borwar na piwo iest.)"@pl ,
+                    rdfs:seeAlso "http://vocab.getty.edu/aat/300006346"@pl ,
+                                 "https://www.wikidata.org/wiki/Q1251750"@pl ,
+                                 "t. 1, cz. 2, s. 54: Gorzalnia, gorzelnia, budowanie do palenia gorzałki (pospolicie zowią: browarem, ale borwar na piwo iest.)"@pl ,
                                  "zakład przemysłowy produkujący alkohol etylowy"@pl ,
                                  "zakład przemysłowy produkujący spirytus i wódki głównie z kartofli lub zboża"@pl ;
-                    <http://www.w3.org/2004/02/skos/core#altLabel> "gorzalnia (pl)" ;
-                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "browar (pl), Das Brennhaus (de), die Destillerie (de), die Brennerei (de), die Brantweinbrennerei (de), винокуренныйзавод (ru), винокурня (ru)" ;
+                    <http://www.w3.org/2004/02/skos/core#altLabel> "Brantweinbrennerei"@de ,
+                                                                   "Brennerei"@de ,
+                                                                   "Brennhaus"@de ,
+                                                                   "Destillerie"@de ,
+                                                                   "gorzalnia"@pl ,
+                                                                   "винокуренныйзавод"@ru ,
+                                                                   "винокурня"@ru ;
+                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "browar"@pl ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "distillery"@en ,
                                                                     "gorzelnia - obiekt"@pl .
 
@@ -4877,7 +4885,13 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                     "Gorzelnia (miejscowość) jest to osada, w której główną role odgrywa gorzelnia (obiekt)."@pl ;
                    rdfs:label "distillery"@en ,
                               "gorzelnia"@pl ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "browar (pl), Das Brennhaus (de), die Destillerie (de), die Brennerei (de), die Brantweinbrennerei (de), винокуренныйзавод (ru), винокурня (ru)" ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Brantweinbrennerei"@de ,
+                                                                     "Brennerei"@de ,
+                                                                     "Brennhaus"@de ,
+                                                                     "Destillerie"@de ,
+                                                                     "browar"@pl ,
+                                                                     "винокуренныйзавод"@ru ,
+                                                                     "винокурня"@ru ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "distillery"@en ,
                                                                    "gorzelnia"@pl .
 
