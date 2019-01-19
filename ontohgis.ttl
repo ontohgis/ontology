@@ -5068,16 +5068,24 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                    :hasLanguageVerificator :person_1 ;
                    :hasOntologicalVerificator :person_10 ;
                    :hasTranslator :person_5 ;
-                   rdfs:comment "Colony is usually a part of another locality, more rarely, although these are not exceptional cases, it can have the status of a separate locality, usually a village."@en ,
-                                "Kolonia jest przeważnie częścią miejscowości, rzadziej, choć nie są to wyjątkowe przypadki, ma obecnie status odrębnej miejscowości, z reguły wsi."@pl ;
+                   rdfs:comment "Colony is usually a part of another locality, more rarely, although these are not exceptional cases, it can have the status of a separate locality, usually a village. Both in the case where the colony is a separate locality or it is apart of another one, it is always located near the village (village or - sometimes - small town) from which its name is derived. On topographic maps, a colony is distinguished mainly by the explanatory abbreviation (pol.: kol.), by its own name, and morphologically."@en ,
+                                "Kolonia jest przeważnie częścią miejscowości, rzadziej, choć nie są to wyjątkowe przypadki, ma obecnie status odrębnej miejscowości, z reguły wsi. Zarówno w przypadku, gdy kolonia jest odrębną miejscowością jak i częścią miejscowości, zawsze znajduje się w pobliżu miejscowości (wsi a wyjątkowo małego miasta) od której pochodzi jej nazwa. W ujęciu kartograficznym wyodrębniona przede wszystkim przez skrót kategorii (kol.), nazwę własną, oraz morfologicznie."@pl ;
                    rdfs:isDefinedBy "Colony (pol \"kolonia\") is a built-up area located away from previously existing buildings (locality) to which it is related. It is created on newly developed land allocated as a result of enfranchisement, parceling, consolidation, or internal migration."@en ,
                                     "Kolonia jest to obszar zabudowany oddalony od wcześniej istniejącej zabudowy, od której jest zależna, powstały na nowo zagospodarowanych gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji lub migracji wewnętrznej."@pl ;
                    rdfs:label "colony"@en ,
                               "kolonia"@pl ;
-                   rdfs:seeAlso "http://gov.genealogy.net/types.owl#121"^^xsd:anyURI ;
+                   rdfs:seeAlso "http://gov.genealogy.net/types.owl#121"^^xsd:anyURI ,
+                                "t. 2, s. 404: mała posiadłość ziemska należąca do przybysza z obcego kraju; osada włościańska po uwłaszczeniu włościan; osada, miejsce, gdzie koloniści osadnicy mieszkają, budy, szopy, majdan."@pl ;
                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "wybudowanie (pl), część wsi (pl), przysiółek (pl), kolonizacja (pl), sioło (pl), osiedle (pl), chutor (pl), stanica (pl) coloniam (lat), die Kolonie (de), housing estate (en), settlement (en), koloniya (ru)" ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "colony"@en ,
                                                                    "kolonia"@pl .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit20 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 2, s. 404: mała posiadłość ziemska należąca do przybysza z obcego kraju; osada włościańska po uwłaszczeniu włościan; osada, miejsce, gdzie koloniści osadnicy mieszkają, budy, szopy, majdan."@pl ;
+   rdfs:isDefinedBy :document_5
+ ] .
 
 
 ###  http://purl.org/ontohgis#settlement_unit2000
@@ -7627,6 +7635,10 @@ rdfs:Class rdf:type owl:Class .
 :document_5 rdf:type owl:NamedIndividual ,
                      obo:IAO_0000310 ;
             dc:title "Słownik języka  polskiego"@pl ;
+            <http://purl.org/dc/terms/creator> "Karłowicz, Jan" ,
+                                               "Kryński, Adam" ,
+                                               "Niedźwiedzki, Władysław" ;
+            <http://purl.org/dc/terms/date> "1900-1927" ;
             rdfs:label "Słownik  warszawski"@pl ;
             rdfs:seeAlso "http://ebuw.uw.edu.pl/publication/254"^^xsd:anyURI .
 
