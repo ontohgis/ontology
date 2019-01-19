@@ -4328,23 +4328,38 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                     :hasOntologicalVerificator :person_10 ;
                     :hasTranslator :person_5 ;
                     rdfs:comment "Morphological distinctiveness - usually clear (location in the forest), but there are lodges located in the immediate vicinity of some other localities.Naming distinctiveness - clear from the second half of the 19th century (previously forester's lodges had no proper names, later not always).Functional distinctiveness - the forester's lodge plays a role in the economy and forest administration."@en ,
-                                 "Odrębność morfologiczna – przeważnie wyraźna (położenie w lesie), ale zdarzają się gajówki położone w bezpośrednim sąsiedztwie innych miejscowości.Odrębność nazewnicza – od drugiej połowy XIX wieku (wcześniej bez nazw; później nie zawsze).Odrębność funkcjonalna – gajówka pełni rolę związaną z gospodarką leśną."@pl ;
+                                 "Odrębność morfologiczna – przeważnie wyraźna (położenie w lesie), ale zdarzają się gajówki położone w bezpośrednim sąsiedztwie innych miejscowości.Odrębność nazewnicza – od drugiej połowy XIX wieku (wcześniej bez nazw; później nie zawsze). Odrębność funkcjonalna – gajówka pełni rolę związaną z gospodarką leśną."@pl ;
                     rdfs:isDefinedBy "Forest-guard's lodge is an area comprising a set of buildings including a house in which a forest-guard lives, located in a forest area, performing residential as well as forest management functions. Forest-guard's lodge is a locality as long as it has its own name and is not located in the immediate vicinity of another locality."@en ,
                                      "Gajówka to obszar na którym znajduje się zespół zabudowań obejmujący dom, w którym mieszka gajowy, znajdujący się na terenie leśnym, pełniący oprócz mieszkalnych funkcje związane z gospodarką leśną. Gajówka jest miejscowością o ile posiada nazwę własną i nie znajduje się w bezpośrednim sąsiedztwie innej miejscowości."@pl ;
                     rdfs:label "forest-guard's lodge"@en ,
                                "gajówka - obiekt"@pl ;
-                    rdfs:seeAlso "#BDOT10k, s. 163: „Pojedyncza zagroda, zazwyczaj położona w lesie, pełniąca funkcję mieszkania służbowego dla funkcjonariuszy pomocniczej służy leśnej podleśniczych lub gajowych”"@pl ,
-                                 "Budynek w, którym mieszka gajowy (pracownik nadleśnictwa chroniący przydzieloną mu część lasu przed szkodami)"@pl ,
+                    rdfs:seeAlso "Budynek, w którym mieszka gajowy (pracownik nadleśnictwa chroniący przydzieloną mu część lasu przed szkodami)"@pl ,
+                                 "Pojedyncza zagroda, zazwyczaj położona w lesie, pełniąca funkcję mieszkania służbowego dla funkcjonariuszy pomocniczej służy leśnej podleśniczych lub gajowych"@pl ,
+                                 "http://vocab.getty.edu/aat/300250342"^^xsd:anyURI ,
+                                 "https://www.wikidata.org/wiki/Q17087359"^^xsd:anyURI ,
                                  "t. 1, s. 793: chatka gajowego"@pl ;
-                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "leśnictwo (pl), leśniczówka (pl), nadleśnictwo (pl), Jagerhaus (de), Forestrey (de), Forst Amt (de)" ;
+                    <http://www.w3.org/2004/02/skos/core#altLabel> "Hegerhaus"@de ;
+                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Forestrey"@de ,
+                                                                      "Forst Amt"@de ,
+                                                                      "Jägerhaus"@de ,
+                                                                      "leśnictwo"@pl ,
+                                                                      "leśniczówka"@pl ,
+                                                                      "nadleśnictwo"@pl ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "forest-guard's lodge"@en ,
                                                                     "gajówka - obiekt"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit130 ;
    owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "Budynek w, którym mieszka gajowy (pracownik nadleśnictwa chroniący przydzieloną mu część lasu przed szkodami)"@pl ;
+   owl:annotatedTarget "Budynek, w którym mieszka gajowy (pracownik nadleśnictwa chroniący przydzieloną mu część lasu przed szkodami)"@pl ;
    rdfs:isDefinedBy :document_4
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit130 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "Pojedyncza zagroda, zazwyczaj położona w lesie, pełniąca funkcję mieszkania służbowego dla funkcjonariuszy pomocniczej służy leśnej podleśniczych lub gajowych"@pl ;
+   rdfs:isDefinedBy :document_9
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -4807,13 +4822,19 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                    :hasLanguageVerificator :person_1 ;
                    :hasOntologicalVerificator :person_10 ;
                    :hasTranslator :person_5 ;
-                   rdfs:comment "Forest-guard's lodge is a kind of forester's lodge; criteria for distinguishing a forester's lodge, forestry and forest-guard's lodge are unknown (in the context of topographic maps); the term forest-guard's lodge is very rarely used in Bystrzycki's register (Forest-guard's lodges depicted on MGI maps are forester's lodges in Bystrzycki's register [1] or are not included in Bystrzycki's register whereas depicted on MGI maps [2])."@en ,
-                                "Gajówka jest rodzajem leśniczówki; kryteria odróżniania leśniczówki, leśnictwa i gajówki są nieznane (w świetle kartografii); termin bardzo rzadko stosowany u Bystrzyckiego ([1] gajówki na mapach WIG to często leśniczówki; [2] nie występują u Bystrzyckiego)."@pl ;
+                   rdfs:comment "Forest-guard's lodge is a kind of forester's lodge; criteria for distinguishing a forester's lodge, forestry and forest-guard's lodge are unknown (in the context of topographic maps); the term forest-guard's lodge is very rarely used in Bystrzycki's register 1931 (Forest-guard's lodges depicted on MGI maps are forester's lodges in Bystrzycki's register 1931 or are not included in Bystrzycki's register 1931 whereas depicted on MGI maps)."@en ,
+                                "Gajówka jest rodzajem leśniczówki; kryteria odróżniania leśniczówki, leśnictwa i gajówki są nieznane (w świetle kartografii); termin bardzo rzadko stosowany w skorowidzu Bystrzyckiego z 1931 r. (gajówki na mapach WIG to często leśniczówki w skorowidzu Bystrzyckiego z 1931 r.; gajówki nie ujęte w skorowidzu Bystrzyckiego z 1931 r. występują na mapach WIG)"@pl ;
                    rdfs:isDefinedBy "Forest-guard's lodge (a locality) is a settlement in which the main role is played by a forest-guard's lodge (a facility). Forest-guard's lodge is a locality as long as it has its own name and is not located in the immediate vicinity of another locality."@en ,
                                     "Gajówka (miejscowość) to miejscowość, w której główną rolę pełni gajówka (obiekt). Gajówka jest miejscowością jeżeli posiada nazwę własną i jest przestrzennie wyodrębniona od innej miejscowości."@pl ;
                    rdfs:label "forest-guard's lodge"@en ,
                               "gajówka"@pl ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "leśnictwo (pl), leśniczówka (pl), nadleśnictwo (pl), Jagerhaus (de), Forestrey (de), Forst Amt (de)" ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Forestrey"@de ,
+                                                                     "Forst Amt"@de ,
+                                                                     "Hegerhaus"@de ,
+                                                                     "Jägerhaus"@de ,
+                                                                     "leśnictwo"@pl ,
+                                                                     "leśniczówka"@pl ,
+                                                                     "nadleśnictwo"@pl ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "forest-guard's lodge"@en ,
                                                                    "gajówka"@pl .
 
@@ -4914,8 +4935,8 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                "http://dbpedia.org/page/Village"^^xsd:anyURI ,
                                "http://gov.genealogy.net/types.owl#55"^^xsd:anyURI ,
                                "http://linkedgeodata.org/ontology/Village"^^xsd:anyURI ,
-                               "http://pzgik.geoportal.gov.pl/ontologies/prng/wies"^^xsd:anyURI ,
                                "http://vocab.getty.edu/aat/300008372"^^xsd:anyURI ,
+                               "https://pzgik.geoportal.gov.pl/ontologies/prng/wies"^^xsd:anyURI ,
                                "https://www.wikidata.org/wiki/Q532"@pl ,
                                "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ,
                                "t. 4, s. 365: wioska, imienie, dobro, grunt leżący; wieś targowa, wsie łowcze, osoczne, wołoskie."@pl ,
@@ -8694,8 +8715,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
 
 
-<http://purl.org/dc/terms/rights> <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                  rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/rights> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                  <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                   rdfs:label "Rights"@en ;
                                   rdfs:comment "Information about rights held in and over the resource."@en ;
                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -8703,8 +8724,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   <http://purl.org/dc/terms/description> "Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights."@en .
 
 
-<http://purl.org/dc/terms/rightsHolder> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                        <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#rightsHolder-002> ;
+<http://purl.org/dc/terms/rightsHolder> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#rightsHolder-002> ;
+                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                         <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                         rdfs:comment "A person or organization owning or managing rights over the resource."@en ;
                                         <http://purl.org/dc/terms/issued> "2004-06-14"^^xsd:date ;
