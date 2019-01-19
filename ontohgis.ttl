@@ -3662,7 +3662,7 @@ c. prawnie."""@pl ;
                     rdfs:seeAlso "http://dbpedia.org/ontology/Castle"^^xsd:anyURI ,
                                  "http://linkedgeodata.org/page/ontology/Castle"^^xsd:anyURI ,
                                  "http://vocab.getty.edu/aat/300006891"^^xsd:anyURI ,
-                                 "https://www.wikidata.org/wiki/Q23413"@pl ,
+                                 "https://www.wikidata.org/wiki/Q23413"^^xsd:anyURI ,
                                  "miejsce obronne, twierdza"@pl ,
                                  "od średniowiecza do w. XVII obronna siedziba pana feudalnego, ośrodek władzy; w XVII w. i później królewska, książęca lub magnacka rezydencja miejska lub pozamiejska"@pl ;
                     <http://www.w3.org/2004/02/skos/core#altLabel> "Burg"@de ,
@@ -3924,7 +3924,7 @@ c. prawnie."""@pl ;
                     rdfs:seeAlso "dom należący do parafii, przeznaczony na mieszkanie dla proboszcza"@pl ,
                                  "http://dbpedia.org/page/Clergy_house"^^xsd:anyURI ,
                                  "http://vocab.getty.edu/aat/300005639"^^xsd:anyURI ,
-                                 "https://www.wikidata.org/wiki/Q607241"@pl ,
+                                 "https://www.wikidata.org/wiki/Q607241"^^xsd:anyURI ,
                                  "t. 2, cz. 2, s. 732: Pleban -- Plebania, -ii, ż., urząd plebański abo beneficjum --; Dochód plebański, ut dobra --; plebaniia, dom plebański, die Pfarrwohnung, die Pfarre. J ksiądz widzimy, plebaniią rzadki Buduie, że kto inszy weźmie po nim spadki. Pot. Pocz. 475 (Slo. fara; Hg. plebania; Cro. plebania; Vd. faroush; Ross. приходъ (cf. przychód)."@pl ,
                                  "t. 24, s. 326: 1. Domostwo plebana -- ; flaminia -- ; parochia, plebanatus -- ; curionis domus, curionium --; 2. Terytorium będące pod opieką plebana; także urząd i dochody z niego; parochia --; plebanatus --; curionatus, curionium -- ; 2a. Wierni należący do parafii --. Synonimy: probostwo, parafija."@pl ;
                     <http://www.w3.org/2004/02/skos/core#altLabel> "Pfarrwohnung"@de ,
@@ -4299,8 +4299,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                     rdfs:seeAlso "Dom, zagroda w lesie stanowiąca mieszkanie; mieszkanie leśniczego (zarządca obszaru leśnego stanowiącego leśnictwo) wraz z zabudowaniami gospodarskimi"@pl ,
                                  "Pojedyncza zagroda służąca leśniczemu i będąca jednocześnie siedzibą leśnictwa"@pl ,
                                  "http://gov.genealogy.net/types.owl#102"^^xsd:anyURI ,
-                                 "http://vocab.getty.edu/aat/300250342"@pl ,
-                                 "https://www.wikidata.org/wiki/Q1425352"@pl ,
+                                 "http://vocab.getty.edu/aat/300250342"^^xsd:anyURI ,
+                                 "https://www.wikidata.org/wiki/Q1425352"^^xsd:anyURI ,
                                  "t. 2, s. 721: domek w lesie, mieszkanie, zagroda leśniczego a. leśnika"@pl ;
                     <http://www.w3.org/2004/02/skos/core#altLabel> "Jägerhaus"@de ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Forestrey"@de ,
@@ -4428,11 +4428,20 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                "monastery"@en ;
                     rdfs:seeAlso "1. budynek lub kompleks budynków stanowiących wspólne miejsce zamieszkiwania zakonnic lub zakonników; 2. wspólnota zakonna o określonej regule"@pl ,
                                  "1. zgromadzenie zakonne; zakon--; 2. budynek lub kompleks budynków zamieszkiwanych przez zakonników (zakonnice) danej reguły"@pl ,
+                                 "http://dbpedia.org/ontology/Monastery"^^xsd:anyURI ,
+                                 "http://gov.genealogy.net/types.owl#30"^^xsd:anyURI ,
+                                 "http://vocab.getty.edu/aat/300000641"^^xsd:anyURI ,
+                                 "https://www.wikidata.org/wiki/Q44613"^^xsd:anyURI ,
                                  "t. 1, cz. 2, s. 1010: pomieszkanie zakonnicze"@pl ,
                                  "t. 10, s. 337: 1. Odosobnione i wyodrębnione spośród innych osiedli ludzkich miejsce zamieszkania zakonników i zakonnic (pojmowane jako budynek lub jego mieszkańcy); odosobnienie; tryb życia klasztornego; w wypadku niektórych zakonów także: szkoła, kolegium; coenobium, monasterium."@pl ,
                                  "t. 3, s. 282: zabudowanie dla zgromadzenia zakonnego zwykle połączone z kościołem, coenobium, religiosorum domus."@pl ,
-                                 "t. 9, kol. 66-76: zespół budynków lub pomieszczeń mieszkalnych i gospodarczych o różnej strukturze, przeznaczonych do prowadzenia życia pustelniczego (->ławra) lub wspólnotowego życia ascetycznego (->asceza), występujący w religiach pozachrześcijańskich i chrześcijaństwie. -- Czasem rozbudowane założenia klasztorne tworzyły wręcz miasto, a nawet państwo mnichów (civitas monachorum)"@pl ;
-                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "claustrum (lat), opactwo (pl), monaster (pl), ławra (pl), das Kloster (de)" ;
+                                 "t. 9, kol. 66-76: zespół budynków lub pomieszczeń mieszkalnych i gospodarczych o różnej strukturze, przeznaczonych do prowadzenia życia pustelniczego (zob. ławra) lub wspólnotowego życia ascetycznego (zob. asceza), występujący w religiach pozachrześcijańskich i chrześcijaństwie. -- Czasem rozbudowane założenia klasztorne tworzyły wręcz miasto, a nawet państwo mnichów (civitas monachorum)"@pl ;
+                    <http://www.w3.org/2004/02/skos/core#altLabel> "Kloster"@de ,
+                                                                   "claustrum"@la ,
+                                                                   "monaster"@pl ,
+                                                                   "monasterium"@la ;
+                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "opactwo"@pl ,
+                                                                      "ławra"@pl ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "klasztor - obiekt"@pl ,
                                                                     "monastery"@en .
 
@@ -4475,7 +4484,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit132 ;
    owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "t. 9, kol. 66-76: zespół budynków lub pomieszczeń mieszkalnych i gospodarczych o różnej strukturze, przeznaczonych do prowadzenia życia pustelniczego (->ławra) lub wspólnotowego życia ascetycznego (->asceza), występujący w religiach pozachrześcijańskich i chrześcijaństwie. -- Czasem rozbudowane założenia klasztorne tworzyły wręcz miasto, a nawet państwo mnichów (civitas monachorum)"@pl ;
+   owl:annotatedTarget "t. 9, kol. 66-76: zespół budynków lub pomieszczeń mieszkalnych i gospodarczych o różnej strukturze, przeznaczonych do prowadzenia życia pustelniczego (zob. ławra) lub wspólnotowego życia ascetycznego (zob. asceza), występujący w religiach pozachrześcijańskich i chrześcijaństwie. -- Czasem rozbudowane założenia klasztorne tworzyły wręcz miasto, a nawet państwo mnichów (civitas monachorum)"@pl ;
    rdfs:isDefinedBy :document_7
  ] .
 
@@ -4794,8 +4803,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                      "Gorzelnia jest to zakład wytwarzający spirytus oraz napoje alkoholowe o wysokiej zawartości alkoholu, wymagające w trakcie procesu produkcyjnego destylacji."@pl ;
                     rdfs:label "distillery"@en ,
                                "gorzelnia - obiekt"@pl ;
-                    rdfs:seeAlso "http://vocab.getty.edu/aat/300006346"@pl ,
-                                 "https://www.wikidata.org/wiki/Q1251750"@pl ,
+                    rdfs:seeAlso "http://vocab.getty.edu/aat/300006346"^^xsd:anyURI ,
+                                 "https://www.wikidata.org/wiki/Q1251750"^^xsd:anyURI ,
                                  "t. 1, cz. 2, s. 54: Gorzalnia, gorzelnia, budowanie do palenia gorzałki (pospolicie zowią: browarem, ale borwar na piwo iest.)"@pl ,
                                  "zakład przemysłowy produkujący alkohol etylowy"@pl ,
                                  "zakład przemysłowy produkujący spirytus i wódki głównie z kartofli lub zboża"@pl ;
@@ -4925,9 +4934,12 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                     "Osada klasztorna jest to osada, w której główą rolę odgrywa klasztor (obiekt)."@pl ;
                    rdfs:label "monastery"@en ,
                               "osada klasztorna"@pl ;
-                   rdfs:seeAlso "http://dbpedia.org/ontology/Monastery"^^xsd:anyURI ,
-                                "http://gov.genealogy.net/types.owl#30"^^xsd:anyURI ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "claustrum (lat), opactwo (pl), monaster (pl), ławra (pl), das Kloster (de)" ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Kloster"@de ,
+                                                                     "claustrum"@la ,
+                                                                     "monaster"@pl ,
+                                                                     "monasterium"@la ,
+                                                                     "opactwo"@pl ,
+                                                                     "ławra"@pl ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "monastery"@en ,
                                                                    "osada klasztorna"@pl .
 
@@ -4966,7 +4978,7 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                "http://linkedgeodata.org/ontology/Village"^^xsd:anyURI ,
                                "http://vocab.getty.edu/aat/300008372"^^xsd:anyURI ,
                                "https://pzgik.geoportal.gov.pl/ontologies/prng/wies"^^xsd:anyURI ,
-                               "https://www.wikidata.org/wiki/Q532"@pl ,
+                               "https://www.wikidata.org/wiki/Q532"^^xsd:anyURI ,
                                "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ,
                                "t. 4, s. 365: wioska, imienie, dobro, grunt leżący; wieś targowa, wsie łowcze, osoczne, wołoskie."@pl ,
                                "t. 7, s. 594–595: osada rolnicza, z pewnej liczby chat złożona, sioło"@pl ,
@@ -5230,7 +5242,7 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                    rdfs:label "forester's lodge"@en ,
                               "leśniczówka"@pl ;
                    rdfs:seeAlso "http://gov.genealogy.net/types.owl#115"^^xsd:anyURI ,
-                                "https://pzgik.geoportal.gov.pl/ontologies/prng/lesniczowka"@pl ;
+                                "https://pzgik.geoportal.gov.pl/ontologies/prng/lesniczowka"^^xsd:anyURI ;
                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Forestrey"@de ,
                                                                      "Forst Amt"@de ,
                                                                      "Hegerhaus"@de ,
@@ -5297,11 +5309,11 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                   rdfs:seeAlso "Jednostka osadnicza (wyodrębniony przestrzennie obszar zabudowy mieszkaniowej wraz z obiektami infrastruktury technicznej zamieszkany przez ludzi) o przewadze zwartej zabudowy i funkcjach nierolniczych posiadająca prawa miejskie bądź status miasta nadany w trybie określonym odrębnymi przepisami."@pl ,
                                "Skupisko ludności, odróżniające się od innych swymi głównie nierolniczymi funkcjami, znaczną wielkością oraz intensywnością zabudowy. Definicja ta musi być jednak interpretowana elastycznie i zawsze na tle aktualnej sieci osadniczej."@pl ,
                                "http://dbpedia.org/ontology/City"^^xsd:anyURI ,
-                               "http://gov.genealogy.net/types.owl#51"@en ,
+                               "http://gov.genealogy.net/types.owl#51"^^xsd:anyURI ,
                                "http://linkedgeodata.org/ontology/City"^^xsd:anyURI ,
-                               "http://vocab.getty.edu/aat/300008389"@en ,
-                               "https://pzgik.geoportal.gov.pl/ontologies/prng/miasto"@en ,
-                               "https://www.wikidata.org/wiki/Q515"@pl ,
+                               "http://vocab.getty.edu/aat/300008389"^^xsd:anyURI ,
+                               "https://pzgik.geoportal.gov.pl/ontologies/prng/miasto"^^xsd:anyURI ,
+                               "https://www.wikidata.org/wiki/Q515"^^xsd:anyURI ,
                                "s. 63: Miasto jest osadą różniącą się od wsi i nierolniczych osad monofunkcyjnych względną wielkością z zagęszczoną i rozczłonkowaną zabudową, z ludnością wyspecjalizowaną zawodowo i rozwarstwioną społecznie oraz funkcjami centralnymi pełnionymi wobec określonego regionu lub lokalnej ludności w sferze polityki, panowania, obronności, gospodarki, kultu i kultury [Stadt ist eine vom Dorf und nichtagrarischen Einzwecksiedlungen unterschiedene Siedlung relativer Größe mit verdichteter, gegliederter Bebauung, beruflich spezialisierter und sozial geschichteter Bevölkerung und zentralen Funktionen politisch-herrschaftlich-militärischer, wirtschaftlicher und kultisch-kultureller Art für eine bestimmte Region oder regionale Bevölkerung]"@de ,
                                "t. 13, s. 37: Wytyczony i najczęściej otoczony murem teren, pokryty gęstą i planową zabudową tworzącą place i ulice, stanowiący mniej lub więcej samodzielną jednostkę administracyjną, samorządową, a czasem polityczną."@pl ;
                   <http://www.w3.org/2004/02/skos/core#altLabel> "Stadt"@de ,
@@ -6287,8 +6299,8 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                "1. siedziba panującego lub księcia; 2. ludzie otaczający panującego lub księcia; 3. obszerny dom mieszkalny, charakterystyczny dla dawnych posiadłości ziemskich; 4. majątek ziemski z domem i zabudowaniami; 5. właściciele posiadłości ziemskiej, jej mieszkańcy, administracja; 6. otwarta przestrzeń na zewnątrz domu"@pl ,
                                "http://gov.genealogy.net/types.owl#24"^^xsd:anyURI ,
                                "http://linkedgeodata.org/ontology/Manor"^^xsd:anyURI ,
-                               "http://vocab.getty.edu/page/aat/300005579"@pl ,
-                               "https://www.wikidata.org/wiki/Q879050"@pl ,
+                               "http://vocab.getty.edu/aat/300005579"^^xsd:anyURI ,
+                               "https://www.wikidata.org/wiki/Q879050"^^xsd:anyURI ,
                                "s. 9: -- desygnatem dworu jest tzw. gródek stożkowaty, czyli stanowisko archeologiczne mające wyodrębnioną formę terenową, najczęściej w postaci kopca lub przestrzeni zamkniętej dookolnymi obronnymi wałami"@pl ;
                   <http://www.w3.org/2004/02/skos/core#altLabel> "Hof"@de ,
                                                                  "curia"@la ,
@@ -7544,7 +7556,7 @@ rdfs:Class rdf:type owl:Class .
 :document_10 rdf:type owl:NamedIndividual ,
                       obo:IAO_0000310 ;
              rdfs:label "Deutsche Rechtswörterbuch"@pl ;
-             rdfs:seeAlso "http://drw-www.adw.uni-heidelberg.de/drw-cgi/zeige"@de ;
+             rdfs:seeAlso "http://drw-www.adw.uni-heidelberg.de/drw-cgi/zeige"^^xsd:anyURI ;
              <http://www.w3.org/2004/02/skos/core#prefLabel> "Deutsche Rechtswörterbuch"@de .
 
 
@@ -7591,7 +7603,7 @@ rdfs:Class rdf:type owl:Class .
             dc:date "1956-" ;
             dc:title "Słownik polszczyzny XVI wieku"@pl ;
             rdfs:label "Słownik polszczyzny XVI wieku"@pl ;
-            rdfs:seeAlso "http://kpbc.umk.pl/dlibra/publication/17781?tab=1"@pl .
+            rdfs:seeAlso "http://kpbc.umk.pl/dlibra/publication/17781?tab=1"^^xsd:anyURI .
 
 
 ###  http://purl.org/ontohgis#document_3
@@ -7632,6 +7644,7 @@ rdfs:Class rdf:type owl:Class .
 :document_7 rdf:type owl:NamedIndividual ,
                      obo:IAO_0000310 ;
             dc:title "Encyklopedia Katolicka"@pl ;
+            <http://purl.org/dc/terms/date> "1973-2014" ;
             rdfs:label "Encyklopedia Katolicka"@pl ;
             rdfs:seeAlso "http://www.kul.pl/encyklopedia-katolicka,art_9929.html"^^xsd:anyURI .
 
@@ -7652,7 +7665,7 @@ rdfs:Class rdf:type owl:Class .
             <http://purl.org/dc/terms/date> 2011 ;
             <http://purl.org/dc/terms/title> "Rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 17 listopada 2011 r. w sprawie bazy danych obiektów topograficznych oraz bazy danych obiektów ogólnogeograficznych, a także standardowych opracowań kartograficznych"@pl ;
             rdfs:label "Rozporządzenie BDOT10k"@pl ;
-            rdfs:seeAlso "http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20112791642"@pl .
+            rdfs:seeAlso "http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20112791642"^^xsd:anyURI .
 
 
 ###  http://purl.org/ontohgis#function1
