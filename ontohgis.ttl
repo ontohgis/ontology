@@ -5338,10 +5338,12 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                "t. 13, s. 37: Wytyczony i najczęściej otoczony murem teren, pokryty gęstą i planową zabudową tworzącą place i ulice, stanowiący mniej lub więcej samodzielną jednostkę administracyjną, samorządową, a czasem polityczną."@pl ;
                   <http://www.w3.org/2004/02/skos/core#altLabel> "Stadt"@de ,
                                                                  "civitas"@la ,
-                                                                 "oppidum"@la ;
+                                                                 "oppidum"@la ,
+                                                                 "город"@ru ;
                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "aglomeracja"@pl ,
                                                                     "miasteczko"@pl ,
-                                                                    "osada miejska"@pl ;
+                                                                    "osada miejska"@pl ,
+                                                                    "месте́чко"@ru ;
                   <http://www.w3.org/2004/02/skos/core#prefLabel> "city / town"@en ,
                                                                   "miasto"@pl .
 
