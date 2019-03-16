@@ -2910,7 +2910,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                             ] ;
             rdfs:label "była miejscowość"@pl ,
                        "former dwelling"@en ;
-            rdfs:seeAlso "http://dbpedia.org/ontology/HistoricalSettlement"^^xsd:anyURI .
+            rdfs:seeAlso <http://dbpedia.org/ontology/HistoricalSettlement> .
 
 
 ###  http://purl.org/ontohgis#object_1000
@@ -3073,8 +3073,8 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
            rdfs:isDefinedBy "Budynek jest to przedmiot trwający w czasie, który został wytworzony lub wykorzystany w celu odgraniczenia pewnej przestrzeni (“wewnątrz\") od innej przestrzeni (“zewnątrz”)."@pl ;
            rdfs:label "budynek"@pl ,
                       "building"@en ;
-           rdfs:seeAlso "http://encyklopedia.pwn.pl/szukaj/budynek.html" ,
-                        "http://gov.genealogy.net/types.owl#17"^^xsd:anyURI .
+           rdfs:seeAlso <http://gov.genealogy.net/types.owl#17> ,
+                        "http://encyklopedia.pwn.pl/szukaj/budynek.html" .
 
 
 ###  http://purl.org/ontohgis#object_30
@@ -3094,7 +3094,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 2. obszar, który jest lub był w przeszłości miejscowością"""@pl ;
            rdfs:label "human settlement"@en ,
                       "jednostka osadnicza"@pl ;
-           rdfs:seeAlso "http://encyklopedia.pwn.pl/haslo/jednostka-osadnicza;3917491.html"^^xsd:anyURI .
+           rdfs:seeAlso <http://encyklopedia.pwn.pl/haslo/jednostka-osadnicza;3917491.html> .
 
 
 ###  http://purl.org/ontohgis#object_3012
@@ -3212,7 +3212,7 @@ b. morfologicznie (ma wyraźne granice) lub
 c. prawnie."""@pl ;
            rdfs:label "dwelling"@en ,
                       "miejscowość"@pl ;
-           rdfs:seeAlso "http://dbpedia.org/ontology/Settlement"^^xsd:anyURI .
+           rdfs:seeAlso <http://dbpedia.org/ontology/Settlement> .
 
 
 ###  http://purl.org/ontohgis#object_40
@@ -3261,7 +3261,7 @@ c. prawnie."""@pl ;
            rdfs:isDefinedBy "Budynek mieszkalny jest to budynek, w którym odgraniczona przestrzeń (“wewnątrz\") jest przeznaczona do przebywania ludzi."@pl ;
            rdfs:label "budynek mieszkalny"@pl ,
                       "housing building"@en ;
-           rdfs:seeAlso "http://linkedgeodata.org/ontology/BuildingResidential"^^xsd:anyURI .
+           rdfs:seeAlso <http://linkedgeodata.org/ontology/BuildingResidential> .
 
 
 ###  http://purl.org/ontohgis#object_500
@@ -3344,8 +3344,8 @@ c. prawnie."""@pl ;
                                    "Zamek (miejscowość) jest to miejscowość obejmująca zamek (obiekt), gdy nie jest on częścią innej miejscowości."@pl ;
                   rdfs:label "castle"@en ,
                              "zamek"@pl ;
-                  rdfs:seeAlso "http://gov.genealogy.net/types.owl#111"^^xsd:anyURI ,
-                               "http://linkedgeodata.org/page/ontology/Castle"^^xsd:anyURI ;
+                  rdfs:seeAlso <http://gov.genealogy.net/types.owl#111> ,
+                               <http://linkedgeodata.org/page/ontology/Castle> ;
                   <http://www.w3.org/2004/02/skos/core#altLabel> "Burg"@de ,
                                                                  "Schloß"@de ,
                                                                  "castellum"@la ,
@@ -3424,7 +3424,7 @@ c. prawnie."""@pl ;
                                      "Kaplica jest to miejscowość, w której główną rolę pełni kaplica jako obiekt sakralny."@pl ;
                     rdfs:label "chapel"@en ,
                                "kaplica"@pl ;
-                    rdfs:seeAlso "http://gov.genealogy.net/types.owl#245"^^xsd:anyURI ;
+                    rdfs:seeAlso <http://gov.genealogy.net/types.owl#245> ;
                     <http://www.w3.org/2004/02/skos/core#altLabel> "capella (lat)" ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "kościół (pl), oratorium (pl), świątynia (pl), sacellum (lat), oratorium (lat), aedicula (lat), sacrarium (lat), aedes (lat), fanum (lat), augurale (lat), augurale (lat), auguratorium (lat), fanulum (lat), lararium (lat), delubrum (lat), die Kapelle (de)" ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "chapel"@en ,
@@ -3458,7 +3458,7 @@ c. prawnie."""@pl ;
                     :hasExternalIdentifier "102"^^xsd:string ;
                     rdfs:label "group of buildings"@en ,
                                "grupa zabudowań"@pl ;
-                    rdfs:seeAlso "http://gov.genealogy.net/types.owl#229"^^xsd:anyURI .
+                    rdfs:seeAlso <http://gov.genealogy.net/types.owl#229> .
 
 
 ###  http://purl.org/ontohgis#settlement_unit103
@@ -3488,7 +3488,7 @@ c. prawnie."""@pl ;
                                      "Kościół jest to miejscowość, w której główną rolę pełni kościół jako obiekt sakralny."@pl ;
                     rdfs:label "church"@en ,
                                "kościół"@pl ;
-                    rdfs:seeAlso "http://dbpedia.org/ontology/Church"^^xsd:anyURI ;
+                    rdfs:seeAlso <http://dbpedia.org/ontology/Church> ;
                     <http://www.w3.org/2004/02/skos/core#altLabel> "ecclesia"@la ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "aedes"@la ,
                                                                       "domus Dei"@la ,
@@ -3508,8 +3508,8 @@ c. prawnie."""@pl ;
                                     ] ;
                     :hasExternalIdentifier "104"^^xsd:string ;
                     rdfs:label "fabryka"^^xsd:string ;
-                    rdfs:seeAlso "http://dbpedia.org/ontology/Factory"^^xsd:anyURI ,
-                                 "http://linkedgeodata.org/ontology/Factory"^^xsd:anyURI .
+                    rdfs:seeAlso <http://dbpedia.org/ontology/Factory> ,
+                                 <http://linkedgeodata.org/ontology/Factory> .
 
 
 ###  http://purl.org/ontohgis#settlement_unit106
@@ -3660,10 +3660,10 @@ c. prawnie."""@pl ;
                                      "Murowane, zwarte, zamknięte, zwykle wieloczłonowe założenie, w którym przynajmniej część budynków pełni funkcje zarazem obronne i rezydencjonalne; powstałe w średniowieczu lub nawiązujące formą do tej epoki."@pl ;
                     rdfs:label "castle"@en ,
                                "zamek - obiekt"@pl ;
-                    rdfs:seeAlso "http://dbpedia.org/ontology/Castle"^^xsd:anyURI ,
-                                 "http://linkedgeodata.org/page/ontology/Castle"^^xsd:anyURI ,
-                                 "http://vocab.getty.edu/aat/300006891"^^xsd:anyURI ,
-                                 "https://www.wikidata.org/wiki/Q23413"^^xsd:anyURI ,
+                    rdfs:seeAlso <http://dbpedia.org/ontology/Castle> ,
+                                 <http://linkedgeodata.org/page/ontology/Castle> ,
+                                 <http://vocab.getty.edu/aat/300006891> ,
+                                 <https://www.wikidata.org/wiki/Q23413> ,
                                  "miejsce obronne, twierdza"@pl ,
                                  "od średniowiecza do w. XVII obronna siedziba pana feudalnego, ośrodek władzy; w XVII w. i później królewska, książęca lub magnacka rezydencja miejska lub pozamiejska"@pl ;
                     <http://www.w3.org/2004/02/skos/core#altLabel> "Burg"@de ,
@@ -3869,8 +3869,8 @@ c. prawnie."""@pl ;
                                      "Kościół (w kontekście architektonicznym) jest to budynek, gdzie wspólnota religijna gromadzi się na słuchanie słowa Bożego, wspólną lub prywatną modlitwę oraz celebrację sakramentów."@pl ;
                     rdfs:label "church"@en ,
                                "kościół - obiekt"@pl ;
-                    rdfs:seeAlso "2. «budynek, miejsce modlitwy chrześcijan»"@pl ,
-                                 "http://linkedgeodata.org/ontology/BuildingChurch"^^xsd:anyURI ,
+                    rdfs:seeAlso <http://linkedgeodata.org/ontology/BuildingChurch> ,
+                                 "2. «budynek, miejsce modlitwy chrześcijan»"@pl ,
                                  "t. 11, s. 57-68: II. Budowla sakralna; 1. Świątynia chrześcijańska, zwłaszcza katolicka; templum--; aedes, fanum--; ecclesia--; aedes sacra--; sacrum--; domus, sedes sacra--; delubrum, dominicum, domus Dei, martyrium, sacrarium ritus Christiani--. 3. Świątynia mahometańska; meczet--. 4. Świątynia pogańska, delubrum--; aedes, oraculum, templum--; templum idolorum--; idolium--; domus--; aedes sacra, fanum, penetralia, sessimonium deorum--. 6. n-loc [nazwa miejsca] : -- »Czerwony Kościoł«"@pl ,
                                  "t. 3, s. 360-362: 1. Świątynia (nie tylko chrześcijańska), dom boży, templum, aedes sacra--. 2. swoista jednostka prawna związana z określonym kościołem (parafia, diecezja itd.), corpus paroeciae vel dioecesis (ad certam quandam ecclesiam pertinens)."@pl ,
                                  "t. 9, kol. 1025: budynek poświęcony (dedykacja lub benedykcja) w obrzędzie liturg. przez biskupa, gdzie wspólnota ochrzczonych (—> Kościół) gromadzi się na słuchanie słowa Bożego, wspólną i prywatną modlitwę oraz celebrację sakramentów, zwł. Eucharystii; miejsce przechowywania Najśw. Sakramentu, a także pochówku(—> krypta, —> konfesja); k. był określany także jako domus ecclesiae, domus orationis, Kyriakon, domus Dei, Dominicum; w kat. obrządkach wsch. nazywany jest —> cerkwią."@pl ;
@@ -3922,10 +3922,10 @@ c. prawnie."""@pl ;
                                      "Plebania jest to dom lub zespół zabudowań przeznaczony do mieszkania dla plebana, podległych mu księży i innych osób zajmujących się jego obsługą."@pl ;
                     rdfs:label "plebania - obiekt"@pl ,
                                "rectory"@en ;
-                    rdfs:seeAlso "dom należący do parafii, przeznaczony na mieszkanie dla proboszcza"@pl ,
-                                 "http://dbpedia.org/page/Clergy_house"^^xsd:anyURI ,
-                                 "http://vocab.getty.edu/aat/300005639"^^xsd:anyURI ,
-                                 "https://www.wikidata.org/wiki/Q607241"^^xsd:anyURI ,
+                    rdfs:seeAlso <http://dbpedia.org/page/Clergy_house> ,
+                                 <http://vocab.getty.edu/aat/300005639> ,
+                                 <https://www.wikidata.org/wiki/Q607241> ,
+                                 "dom należący do parafii, przeznaczony na mieszkanie dla proboszcza"@pl ,
                                  "t. 2, cz. 2, s. 732: Pleban -- Plebania, -ii, ż., urząd plebański abo beneficjum --; Dochód plebański, ut dobra --; plebaniia, dom plebański, die Pfarrwohnung, die Pfarre. J ksiądz widzimy, plebaniią rzadki Buduie, że kto inszy weźmie po nim spadki. Pot. Pocz. 475 (Slo. fara; Hg. plebania; Cro. plebania; Vd. faroush; Ross. приходъ (cf. przychód)."@pl ,
                                  "t. 24, s. 326: 1. Domostwo plebana -- ; flaminia -- ; parochia, plebanatus -- ; curionis domus, curionium --; 2. Terytorium będące pod opieką plebana; także urząd i dochody z niego; parochia --; plebanatus --; curionatus, curionium -- ; 2a. Wierni należący do parafii --. Synonimy: probostwo, parafija."@pl ;
                     <http://www.w3.org/2004/02/skos/core#altLabel> "Pfarrwohnung"@de ,
@@ -3980,8 +3980,8 @@ c. prawnie."""@pl ;
                                      "Kaplica jest to odrębny budynek (mały kościół) lub oddzielne pomieszczenie z ołtarzem w kościele lub innym budynku, przeznaczone do sprawowania kultu religijnego (modlitwy, nabożeństwa)."@pl ;
                     rdfs:label "chapel"@en ,
                                "kaplica - obiekt"@pl ;
-                    rdfs:seeAlso "1. «niewielka budowla sakralna», 2. «oddzielne pomieszczenie z ołtarzem do odprawiania nabożeństw»"@pl ,
-                                 "http://linkedgeodata.org/ontology/BuildingChapel"^^xsd:anyURI ,
+                    rdfs:seeAlso <http://linkedgeodata.org/ontology/BuildingChapel> ,
+                                 "1. «niewielka budowla sakralna», 2. «oddzielne pomieszczenie z ołtarzem do odprawiania nabożeństw»"@pl ,
                                  "t. 1, cz 2, s. 955: miejsce bogu poświęcone, w którym obowiązki kościelne za zezwoleniem zwierzchności odprawować się mogą."@pl ,
                                  "t. 10, s. 81: Mały kościół lub nieduże pomieszczenie z ołtarzem, przeznaczone do uprawiania kultu religijnego; też wydzielona część kościoła (wyraz przeniesiony również na świątynie i pomieszczenia służące innym kultom); sacellum --; aedicula --; sacrarium--; oratorium--; aedes, fanum--; aedis sacrae appendix, augurale, auguratorium, fanulum (s. hanulum), lararium, parvum delubrum"@pl ,
                                  "t. 8, kol. 676: niewielka budowla kultowa (najczęściej z ołtarzem), wolno stojąca lub związana z większym kompleksem archit., także pomieszczenie, czyli oratorium, miejsce modlitwy liturg. i prywatnej, przeznaczone przez ordynariusza do sprawowanie wszystkich lub niektórych funkcji liturg. dla niewielkiej grupy wiernych, do którego za zgodą kompetentnego przełożonego mogą przychodzić także in. wierni."@pl ;
@@ -4297,11 +4297,11 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                      "Leśniczówka (obiekt) to obszar, na którym znajduje się zespół zabudowań obejmujący dom, w którym mieszka leśniczy, stanowiący siedzibę leśnictwa, znajdujący się na terenie leśnym, pełniący oprócz mieszkalnych funkcje związane z gospodarką leśną. Leśniczówka jest miejscowością o ile posiada nazwę własną i nie znajduje się w bezpośrednim sąsiedztwie innej miejscowości."@pl ;
                     rdfs:label "forester's lodge"@en ,
                                "leśniczówka - obiekt"@pl ;
-                    rdfs:seeAlso "Dom, zagroda w lesie stanowiąca mieszkanie; mieszkanie leśniczego (zarządca obszaru leśnego stanowiącego leśnictwo) wraz z zabudowaniami gospodarskimi"@pl ,
+                    rdfs:seeAlso <http://gov.genealogy.net/types.owl#102> ,
+                                 <http://vocab.getty.edu/aat/300250342> ,
+                                 <https://www.wikidata.org/wiki/Q1425352> ,
+                                 "Dom, zagroda w lesie stanowiąca mieszkanie; mieszkanie leśniczego (zarządca obszaru leśnego stanowiącego leśnictwo) wraz z zabudowaniami gospodarskimi"@pl ,
                                  "Pojedyncza zagroda służąca leśniczemu i będąca jednocześnie siedzibą leśnictwa"@pl ,
-                                 "http://gov.genealogy.net/types.owl#102"^^xsd:anyURI ,
-                                 "http://vocab.getty.edu/aat/300250342"^^xsd:anyURI ,
-                                 "https://www.wikidata.org/wiki/Q1425352"^^xsd:anyURI ,
                                  "t. 2, s. 721: domek w lesie, mieszkanie, zagroda leśniczego a. leśnika"@pl ;
                     <http://www.w3.org/2004/02/skos/core#altLabel> "Jägerhaus"@de ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Forestrey"@de ,
@@ -4349,10 +4349,10 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                      "Gajówka to obszar na którym znajduje się zespół zabudowań obejmujący dom, w którym mieszka gajowy, znajdujący się na terenie leśnym, pełniący oprócz mieszkalnych funkcje związane z gospodarką leśną. Gajówka jest miejscowością o ile posiada nazwę własną i nie znajduje się w bezpośrednim sąsiedztwie innej miejscowości."@pl ;
                     rdfs:label "forest-guard's lodge"@en ,
                                "gajówka - obiekt"@pl ;
-                    rdfs:seeAlso "Budynek, w którym mieszka gajowy (pracownik nadleśnictwa chroniący przydzieloną mu część lasu przed szkodami)"@pl ,
+                    rdfs:seeAlso <http://vocab.getty.edu/aat/300250342> ,
+                                 <https://www.wikidata.org/wiki/Q17087359> ,
+                                 "Budynek, w którym mieszka gajowy (pracownik nadleśnictwa chroniący przydzieloną mu część lasu przed szkodami)"@pl ,
                                  "Pojedyncza zagroda, zazwyczaj położona w lesie, pełniąca funkcję mieszkania służbowego dla funkcjonariuszy pomocniczej służy leśnej podleśniczych lub gajowych"@pl ,
-                                 "http://vocab.getty.edu/aat/300250342"^^xsd:anyURI ,
-                                 "https://www.wikidata.org/wiki/Q17087359"^^xsd:anyURI ,
                                  "t. 1, s. 793: chatka gajowego"@pl ;
                     <http://www.w3.org/2004/02/skos/core#altLabel> "Hegerhaus"@de ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Forestrey"@de ,
@@ -4427,12 +4427,12 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                      "Monastery is a building or a group of buildings where monks and nuns live"@en ;
                     rdfs:label "klasztor - obiekt"@pl ,
                                "monastery"@en ;
-                    rdfs:seeAlso "1. budynek lub kompleks budynków stanowiących wspólne miejsce zamieszkiwania zakonnic lub zakonników; 2. wspólnota zakonna o określonej regule"@pl ,
+                    rdfs:seeAlso <http://dbpedia.org/ontology/Monastery> ,
+                                 <http://gov.genealogy.net/types.owl#30> ,
+                                 <http://vocab.getty.edu/aat/300000641> ,
+                                 <https://www.wikidata.org/wiki/Q44613> ,
+                                 "1. budynek lub kompleks budynków stanowiących wspólne miejsce zamieszkiwania zakonnic lub zakonników; 2. wspólnota zakonna o określonej regule"@pl ,
                                  "1. zgromadzenie zakonne; zakon--; 2. budynek lub kompleks budynków zamieszkiwanych przez zakonników (zakonnice) danej reguły"@pl ,
-                                 "http://dbpedia.org/ontology/Monastery"^^xsd:anyURI ,
-                                 "http://gov.genealogy.net/types.owl#30"^^xsd:anyURI ,
-                                 "http://vocab.getty.edu/aat/300000641"^^xsd:anyURI ,
-                                 "https://www.wikidata.org/wiki/Q44613"^^xsd:anyURI ,
                                  "t. 1, cz. 2, s. 1010: pomieszkanie zakonnicze"@pl ,
                                  "t. 10, s. 337: 1. Odosobnione i wyodrębnione spośród innych osiedli ludzkich miejsce zamieszkania zakonników i zakonnic (pojmowane jako budynek lub jego mieszkańcy); odosobnienie; tryb życia klasztornego; w wypadku niektórych zakonów także: szkoła, kolegium; coenobium, monasterium."@pl ,
                                  "t. 3, s. 282: zabudowanie dla zgromadzenia zakonnego zwykle połączone z kościołem, coenobium, religiosorum domus."@pl ,
@@ -4595,9 +4595,9 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                      "Browar jest to zakład wytwarzający piwo jak również zespół budynków przeznaczonych na cele produkcyjne i mieszkalne dla obsługi zakladu."@pl ;
                     rdfs:label "brewery"@en ,
                                "browar - obiekt"@pl ;
-                    rdfs:seeAlso "http://dbpedia.org/ontology/Brewery"^^xsd:anyURI ,
-                                 "http://vocab.getty.edu/aat/300006341"^^xsd:anyURI ,
-                                 "https://www.wikidata.org/wiki/Q131734"^^xsd:anyURI ,
+                    rdfs:seeAlso <http://dbpedia.org/ontology/Brewery> ,
+                                 <http://vocab.getty.edu/aat/300006341> ,
+                                 <https://www.wikidata.org/wiki/Q131734> ,
                                  "t. 1, cz.12, s. 272: Browar, budynek, gdzie się piwo warzy, piwowarnia, mielcuch"@pl ,
                                  "t. 2, s. 455-456: budynek, w którym się warzy piwo, piwowarnia"@pl ,
                                  "zakład produkujący piwo"@pl ,
@@ -4657,8 +4657,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                      "Cegielnia jest to zakład wytwarzający cegły oraz ew. inne ceramiczne elementy budowlane jak również zespół budynków przeznaczonych na cele produkcyjne i mieszkalne dla obsługi zakładu."@pl ;
                     rdfs:label "brickyard"@en ,
                                "cegielnia - obiekt"@pl ;
-                    rdfs:seeAlso "http://vocab.getty.edu/aat/300006278"^^xsd:anyURI ,
-                                 "https://www.wikidata.org/wiki/Q198632"^^xsd:anyURI ,
+                    rdfs:seeAlso <http://vocab.getty.edu/aat/300006278> ,
+                                 <https://www.wikidata.org/wiki/Q198632> ,
                                  "t. 1, cz. 1, s. 221: Cegielnia, Cegielnica, budynek z piecem od palenia cegieł, die Ziegelscheune, der Ziegelofen"@pl ,
                                  "t. 3, s. 142: cegielnia – miejsce wyrobu cegieł"@pl ,
                                  "wytwórnia cegly oraz innych materiałów budowlanych z gliny: dachówek, sączków (drenów), kafli, klinkierów, płytek itp."@pl ,
@@ -4804,8 +4804,8 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                      "Gorzelnia jest to zakład wytwarzający spirytus oraz napoje alkoholowe o wysokiej zawartości alkoholu, wymagające w trakcie procesu produkcyjnego destylacji."@pl ;
                     rdfs:label "distillery"@en ,
                                "gorzelnia - obiekt"@pl ;
-                    rdfs:seeAlso "http://vocab.getty.edu/aat/300006346"^^xsd:anyURI ,
-                                 "https://www.wikidata.org/wiki/Q1251750"^^xsd:anyURI ,
+                    rdfs:seeAlso <http://vocab.getty.edu/aat/300006346> ,
+                                 <https://www.wikidata.org/wiki/Q1251750> ,
                                  "t. 1, cz. 2, s. 54: Gorzalnia, gorzelnia, budowanie do palenia gorzałki (pospolicie zowią: browarem, ale borwar na piwo iest.)"@pl ,
                                  "zakład przemysłowy produkujący alkohol etylowy"@pl ,
                                  "zakład przemysłowy produkujący spirytus i wódki głównie z kartofli lub zboża"@pl ;
@@ -4970,16 +4970,16 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                    "Wieś jest to miejscowość składająca się z zabudowań mieszkalno-gospodarczych, niekiedy przemysłowych (np. kuźnia, młyn) wraz z przynależnymi do nich gruntami (rozłogi), zamieszkała przez ludność zajmującą się w większości zajęciami rolniczo-hodowlanymi oraz przemysłem wiejskim (np. kowalstwo, młynarstwo), nieposiadająca praw miejskich ani statusu miasta. Niekiedy we wczesnym średniowieczu posiadająca prawo odbywania targu."@pl ;
                   rdfs:label "village"@en ,
                              "wieś"@pl ;
-                  rdfs:seeAlso "1. miejscowość zamieszkała przez ludzi, którzy trudnią się pracą na roli, 2. mieszkańcy takiej miejscowości, 3. tereny pozamiejskie, rolnicze, letniskowe, 4. ludzie trudniący się pracą na roli"@pl ,
+                  rdfs:seeAlso <http://dbpedia.org/page/Village> ,
+                               <http://gov.genealogy.net/types.owl#55> ,
+                               <http://linkedgeodata.org/ontology/Village> ,
+                               <http://vocab.getty.edu/aat/300008372> ,
+                               <https://pzgik.geoportal.gov.pl/ontologies/prng/wies> ,
+                               <https://www.wikidata.org/wiki/Q532> ,
+                               "1. miejscowość zamieszkała przez ludzi, którzy trudnią się pracą na roli, 2. mieszkańcy takiej miejscowości, 3. tereny pozamiejskie, rolnicze, letniskowe, 4. ludzie trudniący się pracą na roli"@pl ,
                                "Jednostka osadnicza o zwartej lub rozproszonej zabudowie i istniejących funkcjach rolniczych lub związanych z nimi usługowych lub turystycznych, nieposiadająca praw miejskich lub statusu miasta"@pl ,
                                "Kirchdorf: Dorf mit Kirche (I) und Pfarrer, rechtlicher und religiöser Mittelpunkt einer (eventuell aus mehreren Filialdörfern bestehenden) politischen oder Pfarr-Gemeinde [Wieś z kościołem i parafią, prawne i religijne centrum gminy politycznej albo parafialnej (ewentualnie składającej się z kilku wsi filialnych, wsi z kościołami filialnymi]"@de ,
                                "Pfarrdorf: 1. Dorf, in dem die für die Pfarrgemeinde konstitutive Pfarrkirche (I) steht [wieś, w której stoi kościół parafialny właściwy dla całej parafii, gminy parafialnej]; 2. zu einer Pfarre (I) gehöriges Dorf [wieś należąca do parafii]"@de ,
-                               "http://dbpedia.org/page/Village"^^xsd:anyURI ,
-                               "http://gov.genealogy.net/types.owl#55"^^xsd:anyURI ,
-                               "http://linkedgeodata.org/ontology/Village"^^xsd:anyURI ,
-                               "http://vocab.getty.edu/aat/300008372"^^xsd:anyURI ,
-                               "https://pzgik.geoportal.gov.pl/ontologies/prng/wies"^^xsd:anyURI ,
-                               "https://www.wikidata.org/wiki/Q532"^^xsd:anyURI ,
                                "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ,
                                "t. 4, s. 365: wioska, imienie, dobro, grunt leżący; wieś targowa, wsie łowcze, osoczne, wołoskie."@pl ,
                                "t. 7, s. 594–595: osada rolnicza, z pewnej liczby chat złożona, sioło"@pl ,
@@ -5075,7 +5075,7 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                     "Kolonia jest to obszar zabudowany oddalony od wcześniej istniejącej zabudowy, od której jest zależna, powstały na nowo zagospodarowanych gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji lub migracji wewnętrznej."@pl ;
                    rdfs:label "colony"@en ,
                               "kolonia"@pl ;
-                   rdfs:seeAlso "http://gov.genealogy.net/types.owl#121"^^xsd:anyURI ,
+                   rdfs:seeAlso <http://gov.genealogy.net/types.owl#121> ,
                                 "t. 2, s. 404: mała posiadłość ziemska należąca do przybysza z obcego kraju; osada włościańska po uwłaszczeniu włościan; osada, miejsce, gdzie koloniści osadnicy mieszkają, budy, szopy, majdan."@pl ;
                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "wybudowanie (pl), część wsi (pl), przysiółek (pl), kolonizacja (pl), sioło (pl), osiedle (pl), chutor (pl), stanica (pl) coloniam (lat), die Kolonie (de), housing estate (en), settlement (en), koloniya (ru)" ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "colony"@en ,
@@ -5149,8 +5149,8 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                     "Kopalnia (miejscowość) jest to osada, w której główną rolę odgrywa kopalnia (obiekt)."@pl ;
                    rdfs:label "kopalnia"@pl ,
                               "mine"@en ;
-                   rdfs:seeAlso "http://dbpedia.org/ontology/Mine"^^xsd:anyURI ,
-                                "http://linkedgeodata.org/ontology/LanduseMine"^^xsd:anyURI ;
+                   rdfs:seeAlso <http://dbpedia.org/ontology/Mine> ,
+                                <http://linkedgeodata.org/ontology/LanduseMine> ;
                    <http://www.w3.org/2004/02/skos/core#altLabel> "gruba (pl)" ;
                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "das Bergwerk (de), der Bruch (de), die Binge (de), die Miene (de), die Schacht (de), рудни́к/ ру́́дник (ru), шахта (ru)" ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "kopalnia"@pl ,
@@ -5168,7 +5168,7 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                    :hasExternalIdentifier "22"^^xsd:string ;
                    rdfs:label "barracks"@en ,
                               "koszary"@pl ;
-                   rdfs:seeAlso "http://linkedgeodata.org/ontology/Barracks"^^xsd:anyURI .
+                   rdfs:seeAlso <http://linkedgeodata.org/ontology/Barracks> .
 
 
 ###  http://purl.org/ontohgis#settlement_unit23
@@ -5195,8 +5195,8 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                     "Latarnia morska (miejscowość) to osada obejmująca latarnię morską (obiekt)."@pl ;
                    rdfs:label "latarnia morska"@pl ,
                               "lighthouse"@en ;
-                   rdfs:seeAlso "http://dbpedia.org/ontology/Lighthouse"^^xsd:anyURI ,
-                                "http://linkedgeodata.org/ontology/Lighthouse"^^xsd:anyURI ;
+                   rdfs:seeAlso <http://dbpedia.org/ontology/Lighthouse> ,
+                                <http://linkedgeodata.org/ontology/Lighthouse> ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "latarnia morska"@pl ,
                                                                    "lighthouse"@en .
 
@@ -5250,8 +5250,8 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                     "Leśniczówka (miejscowość) to miejscowość, w której główną rolę pełni leśniczówka (obiekt). Leśniczówka jest miejscowością jeżeli posiada nazwę własną i jest przestrzennie wyodrębniona od innej miejscowości."@pl ;
                    rdfs:label "forester's lodge"@en ,
                               "leśniczówka"@pl ;
-                   rdfs:seeAlso "http://gov.genealogy.net/types.owl#115"^^xsd:anyURI ,
-                                "https://pzgik.geoportal.gov.pl/ontologies/prng/lesniczowka"^^xsd:anyURI ;
+                   rdfs:seeAlso <http://gov.genealogy.net/types.owl#115> ,
+                                <https://pzgik.geoportal.gov.pl/ontologies/prng/lesniczowka> ;
                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Forestrey"@de ,
                                                                      "Forst Amt"@de ,
                                                                      "Hegerhaus"@de ,
@@ -5281,9 +5281,9 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                     "Town (pol \"miasteczko\") is a small city, distniguished from larger cities by it size (estimated by standards appropriate for given period and region) and complexity."@en ;
                    rdfs:label "miasteczko"@pl ,
                               "town"@en ;
-                   rdfs:seeAlso "http://dbpedia.org/ontology/Town"^^xsd:anyURI ,
-                                "http://gov.genealogy.net/types.owl#51"^^xsd:anyURI ,
-                                "http://linkedgeodata.org/ontology/Town"^^xsd:anyURI ;
+                   rdfs:seeAlso <http://dbpedia.org/ontology/Town> ,
+                                <http://gov.genealogy.net/types.owl#51> ,
+                                <http://linkedgeodata.org/ontology/Town> ;
                    <http://www.w3.org/2004/02/skos/core#altLabel> "oppidum (lat), oppidulum (lat), Städtchen (de), Flecken (de)" ;
                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "miasto (pl), osada targowa (pl)" ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "miasteczko"@pl ,
@@ -5315,14 +5315,14 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                    "Miasto jest to miejscowość wyższego rzędu, odróżniająca się od otaczających je podstawowych wielkością (liczoną według miary właściwej dla danej epoki i regionu), stopniem złożoności i funkcjami centralnymi względem nich."@pl ;
                   rdfs:label "city / town"@en ,
                              "miasto"@pl ;
-                  rdfs:seeAlso "Jednostka osadnicza (wyodrębniony przestrzennie obszar zabudowy mieszkaniowej wraz z obiektami infrastruktury technicznej zamieszkany przez ludzi) o przewadze zwartej zabudowy i funkcjach nierolniczych posiadająca prawa miejskie bądź status miasta nadany w trybie określonym odrębnymi przepisami."@pl ,
+                  rdfs:seeAlso <http://dbpedia.org/ontology/City> ,
+                               <http://gov.genealogy.net/types.owl#51> ,
+                               <http://linkedgeodata.org/ontology/City> ,
+                               <http://vocab.getty.edu/aat/300008389> ,
+                               <https://pzgik.geoportal.gov.pl/ontologies/prng/miasto> ,
+                               <https://www.wikidata.org/wiki/Q515> ,
+                               "Jednostka osadnicza (wyodrębniony przestrzennie obszar zabudowy mieszkaniowej wraz z obiektami infrastruktury technicznej zamieszkany przez ludzi) o przewadze zwartej zabudowy i funkcjach nierolniczych posiadająca prawa miejskie bądź status miasta nadany w trybie określonym odrębnymi przepisami."@pl ,
                                "Skupisko ludności, odróżniające się od innych swymi głównie nierolniczymi funkcjami, znaczną wielkością oraz intensywnością zabudowy. Definicja ta musi być jednak interpretowana elastycznie i zawsze na tle aktualnej sieci osadniczej."@pl ,
-                               "http://dbpedia.org/ontology/City"^^xsd:anyURI ,
-                               "http://gov.genealogy.net/types.owl#51"^^xsd:anyURI ,
-                               "http://linkedgeodata.org/ontology/City"^^xsd:anyURI ,
-                               "http://vocab.getty.edu/aat/300008389"^^xsd:anyURI ,
-                               "https://pzgik.geoportal.gov.pl/ontologies/prng/miasto"^^xsd:anyURI ,
-                               "https://www.wikidata.org/wiki/Q515"^^xsd:anyURI ,
                                "s. 63: Miasto jest osadą różniącą się od wsi i nierolniczych osad monofunkcyjnych względną wielkością z zagęszczoną i rozczłonkowaną zabudową, z ludnością wyspecjalizowaną zawodowo i rozwarstwioną społecznie oraz funkcjami centralnymi pełnionymi wobec określonego regionu lub lokalnej ludności w sferze polityki, panowania, obronności, gospodarki, kultu i kultury [Stadt ist eine vom Dorf und nichtagrarischen Einzwecksiedlungen unterschiedene Siedlung relativer Größe mit verdichteter, gegliederter Bebauung, beruflich spezialisierter und sozial geschichteter Bevölkerung und zentralen Funktionen politisch-herrschaftlich-militärischer, wirtschaftlicher und kultisch-kultureller Art für eine bestimmte Region oder regionale Bevölkerung]"@de ,
                                "t. 13, s. 37: Wytyczony i najczęściej otoczony murem teren, pokryty gęstą i planową zabudową tworzącą place i ulice, stanowiący mniej lub więcej samodzielną jednostkę administracyjną, samorządową, a czasem polityczną."@pl ;
                   <http://www.w3.org/2004/02/skos/core#altLabel> "Stadt"@de ,
@@ -5461,7 +5461,7 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                     "Settlement is a small locality inhabited by people associated with a particular type of location or a type of a non-agricultural work and lying mostly in the vicinity of a workplace."@en ;
                    rdfs:label "osada"@pl ,
                               "settlement"@en ;
-                   rdfs:seeAlso "http://gov.genealogy.net/types.owl#120"^^xsd:anyURI ;
+                   rdfs:seeAlso <http://gov.genealogy.net/types.owl#120> ;
                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "miasteczko (pl), osiedle (pl), miejscowość (pl), kolonia (pl), sadyba (pl), zagroda włościańska (pl), conlocationen (lat), der Siedlung (de), die Ansiedlung (de), der Ortschaft (de), die Kolonie (de), settlement (en)" ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "osada"@pl ,
                                                                    "settlement"@en .
@@ -5660,7 +5660,7 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                     "Suburb is a peripheral part of the city, towards which the city performs central functions. A suburb is located outside its initial location city; distinguished spatially or morphologically and with its own (proper) name."@en ;
                    rdfs:label "przedmieście"@pl ,
                               "suburb"@en ;
-                   rdfs:seeAlso "http://linkedgeodata.org/ontology/Suburb"^^xsd:anyURI ;
+                   rdfs:seeAlso <http://linkedgeodata.org/ontology/Suburb> ;
                    <http://www.w3.org/2004/02/skos/core#altLabel> "suburbium (lat), Vorstadt (de)" ;
                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "osada przedmiejska (pl), osada podmiejska (pl), wieś podmiejska (pl)" ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "przedmieście"@pl ,
@@ -5681,7 +5681,7 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                     "Przysiółek to mała grupa zabudowań, należących do innej miejscowości, położona na jej gruntach, w oddaleniu od niej i prawnie z nią związana."@pl ;
                    rdfs:label "hamlet"@en ,
                               "przysiółek"@pl ;
-                   rdfs:seeAlso "http://linkedgeodata.org/ontology/Hamlet"^^xsd:anyURI ;
+                   rdfs:seeAlso <http://linkedgeodata.org/ontology/Hamlet> ;
                    <http://www.w3.org/2004/02/skos/core#altLabel> "mała wioska (pl), niesamodzielna osada (pl), skupisko gospodarstw (pl)" ;
                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "siedlisko (pl), siadło (pl), osada (pl), Unsiedlung (de), Colonie (de), kolonia (pl), Dorf (de), wieś (pl), wioska (pl), siedziba (pl), predium (lat.), przeszolek (pl)" ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "hamlet"@en ,
@@ -5728,7 +5728,7 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                    :hasExternalIdentifier "46"^^xsd:string ;
                    rdfs:isDefinedBy "abandoned place"@en ;
                    rdfs:label "pustkowie"^^xsd:string ;
-                   rdfs:seeAlso "http://gov.genealogy.net/types.owl#90"^^xsd:anyURI .
+                   rdfs:seeAlso <http://gov.genealogy.net/types.owl#90> .
 
 
 ###  http://purl.org/ontohgis#settlement_unit47
@@ -5788,10 +5788,10 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                     "Stacja kolejowa (miejscowość) jest to osada, w której główną rolę odgrywa stacja kolejowa (obiekt)."@pl ;
                    rdfs:label "railway station"@en ,
                               "stacja kolejowa"@pl ;
-                   rdfs:seeAlso "http://dbpedia.org/ontology/RailwayStation"^^xsd:anyURI ,
-                                "http://gov.genealogy.net/types.owl#119"^^xsd:anyURI ,
-                                "http://linkedgeodata.org/ontology/RailwayStation"^^xsd:anyURI ,
-                                "http://linkedgeodata.org/ontology/TrainStation"^^xsd:anyURI ;
+                   rdfs:seeAlso <http://dbpedia.org/ontology/RailwayStation> ,
+                                <http://gov.genealogy.net/types.owl#119> ,
+                                <http://linkedgeodata.org/ontology/RailwayStation> ,
+                                <http://linkedgeodata.org/ontology/TrainStation> ;
                    <http://www.w3.org/2004/02/skos/core#altLabel> "Haltestation (de)" ;
                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "przystanek kolejowy (pl), dworzec kolejowy (pl)" ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "railway station"@en ,
@@ -5881,7 +5881,7 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                     "Miejscowość, dla której dominująca jest funkcja obronna."@pl ;
                    rdfs:label "fortress"@en ,
                               "twierdza"@pl ;
-                   rdfs:seeAlso "http://linkedgeodata.org/ontology/Fortress"^^xsd:anyURI ;
+                   rdfs:seeAlso <http://linkedgeodata.org/ontology/Fortress> ;
                    <http://www.w3.org/2004/02/skos/core#altLabel> "forteca (pl)" ;
                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "zamek (pl), gród (pl), fortyfikacje (pl), umocnienia (pl)" ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "fortress"@en ,
@@ -5928,16 +5928,85 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                    :hasLanguageVerificator :person_1 ;
                    :hasOntologicalVerificator :person_10 ;
                    :hasTranslator :person_5 ;
-                   rdfs:comment "Forest distrct as it had a separate name and was spatially distinct, it could have been a locality (inhabited forest district) or a settlement unit (uninhabited, deserted forest district). This second category was dominant. As an inhabited forest district (next to the village, town, farm, etc.), it is mentioned in the registers concerning the eastern provinces of the former Polish-Lithuanian Commonwealth. The number of residents usually did not exceed a dozen or so people. Currently, a forest district is a type of physiographic object in the \"Other physiographic object\" class of objects in the State Register of Geographical Names."@en ,
-                                "Uroczysko, ponieważ posiadało odrębną nazwę i było wydzielone przestrzennie, mogło być miejscowością (uroczysko zamieszkane) lub jednostką osadniczą (uroczysko niezamieszkane, uroczysko opuszczone). Ta druga kategoria była dominująca. Jako kategoria miejscowości (obok wsi, miasta, folwarku etc.) wymieniane jest w rejestrach dotyczących wschodnich województw dawnej Rzeczypospolitej. Liczba mieszkańców nie przekraczała zazwyczaj kilkunastu osób. Obecnie uroczysko jest rodzajem obiektu fizjograficznego w klasie obiektów \"Inny obiekt fizjograficzny\" w Państwowym Rejestrze Nazw Geograficznych."@pl ;
+                   rdfs:comment """Forest distrct as it had a separate name and was spatially distinct, it could have been a locality (inhabited forest district) or a settlement unit (uninhabited, deserted forest district). This second category was dominant. As an inhabited forest district (next to the village, town, farm, etc.), it is mentioned in the registers concerning the eastern provinces of the former Polish-Lithuanian Commonwealth. The number of residents usually did not exceed a dozen or so people. Currently, a forest district is a type of physiographic object in the \"Other physiographic object\" class of objects in the State Register of Geographical Names.
+The basic criterion of distinguishing forest district from other localities or settlement units from the perspective of its functionality is its relation to the organization of forestry or agricultural production. Individual parts of forest or agricultural areas for a better understanding of space received their own names. It also did not exclude the forest settlement form the process of settling and thus the transformation to the kind of locality. The morphological distinctiveness of forest districts due to the nature of natural boundaries (swamps, glades, etc.) is fuzzy. From the legal point of view, the status of the forest district is rather unclear because this term was also used in relation to various types of forest settlements or parts of forests such as \"bór\" or \"ostęp\"."""@en ,
+                                """Uroczysko, ponieważ posiadało odrębną nazwę i było wydzielone przestrzennie, mogło być miejscowością (uroczysko zamieszkane) lub jednostką osadniczą (uroczysko niezamieszkane, uroczysko opuszczone). Ta druga kategoria była dominująca. Jako kategoria miejscowości (obok wsi, miasta, folwarku etc.) wymieniane jest w rejestrach dotyczących wschodnich województw dawnej Rzeczypospolitej. Liczba mieszkańców nie przekraczała zazwyczaj kilkunastu osób. Obecnie uroczysko jest rodzajem obiektu fizjograficznego w klasie obiektów \"Inny obiekt fizjograficzny\" w Państwowym Rejestrze Nazw Geograficznych.
+Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub jednostek osadniczych w aspekcie funkcjonalnym jest jego związek z organizacją produkcji leśnej lub rolniczej. Poszczególne części obszarów leśnych lub rolnych dla lepszej orientacji w przestrzeni otrzymywały swoje nazwy własne. Nie wykluczało to też procesu osiedlania się a tym samym przekształcania uroczyska w rodzaj miejscowości. Odrębność morfologiczna uroczysk ze względu na charakter granic naturalnych (bagna, polany etc.) jest rozmyta. Od strony prawnej status uroczyska jest dość niejasny, gdyż termin ten był używany także w odniesieniu do różnego typu osad leśnych lub części lasów takich jak bory czy ostępy."""@pl ;
                    rdfs:isDefinedBy "Forest distrct is a part of a forest, meadow or swampy area separated by natural borders and an own (proper) name for better organization of social and economic life. Built-up and inhabited forest district used to be a locality."@en ,
                                     "Uroczysko to obszar leśny, łąkowy lub bagnisty wyodrębniony naturalnymi granicami oraz nazwą własną w celu lepszej organizacji życia społecznego i gospodarczego. Uroczysko zabudowane i zamieszkane było miejscowością."@pl ;
                    rdfs:label "forest district"@en ,
                               "uroczysko"@pl ;
-                   <http://www.w3.org/2004/02/skos/core#altLabel> "urocziszcze (ru)" ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "łąka (pl), osada leśna (pl), bór (pl), ostęp (pl)" ;
+                   rdfs:seeAlso <http://vocab.getty.edu/aat/300379281> ,
+                                <https://pzgik.geoportal.gov.pl/ontologies/prng/uroczysko> ,
+                                <https://pzgik.geoportal.gov.pl/ontologies/prng/uroczysko-dawnaMiejsc> ,
+                                <https://www.wikidata.org/wiki/Q1434274> ,
+                                "1. teren trudno dostępny, najczęściej bagnisty, leśny; też: miejsce odludne, 2. część terenu otoczona naturalnymi granicami, wyodrębniona za pomocą nazwy topograficznej, 3. u dawnych Słowian: miejsce w głębi puszczy związane z kultem bóstwa, odbywaniem narad lub uważane za siedzibę złych duchów"@pl ,
+                                "s. 57-80: uroczyska to cała gama pojęć, stale łąki i lokacje straży leśnej, czasem synonimy borów i ostępów, zjawiska terenowe zasadniczo rozległe o wielce zróżniczkowanej, a raczej nieuchwytnej i zatraconej już, treści. Można tylko utrzymywać, że uroczyska to teren eksploatacji par excellence."@pl ,
+                                "t. 15, s. 34: nazwa kopca lub miejsca granicznego nieosiedlonego. Według Chodakowskiego, uroczyska, na Rusi horodyszczami zwane, były to w Słowiańszczyźnie przedchrześcijańskiej place, czyli świątyń posady, do sprawowania uroczystych pogańskich ofiar przeznaczone i nie mające śladu opisania wałami, byleby oddzielna, właściwe imię mająca, przywiązana do nich była jakaś pamiątka."@pl ,
+                                "t. 6, s. 80: uroczysko, uroczyszcze -- (Rs. urocziszcze, = powiat, kraina); kopiec, mieysce graniczne. Tr. Gränzstein, Mohlhausen."@pl ,
+                                "t. 7, s. 348: 1. starożytny , z czasów pogańskich nasyp ziemny w postaci mogiły a. okopu, kopiec, kurhan; miejsce graniczne. Troc. 2. miejsce odludne, tajemnicze – 3. miejscowość nie zamieszkana, nosząca jakie oddzielne charakterystyczne miano – 4. pewna część gruntu a. gruntów kilku posiadaczy w jednym miejscu, nosząca pewną nazwę – 5. miejsce w polu, składające się z gruntu i łąk, dawniej zarosłe lasem. 6. bart. okręg bartniczy --, 7. leśn. część lasu, oddzielona od innych części naturalnymi granicami, jako oto: wzgórzami, strumykami, łąkami, drogami i.t.p. albo też różniąca się drzewostanem"@pl ,
+                                "t. 9, s. 431: 1. miedza graniczna, granica, limes agrorum, finis -- 2. teren poza granicą posiadłości, ale do niej przynależny, z własnymi granicami naturalnymi, locus extra fines praedii situs, sed ad id praedium pertinens, proprios fines naturales habens."@pl ,
+                                "u dawnych Słowian: miejsce przed świątynią lub w głębi puszczy, związane z kultem jakiegoś bóstwa, z odbywaniem narad, sądów; ogólnie: miejsce odludne, tajemnicze; pustkowie -- 2. część terenu (zwykle lasu wyodrębniona za pomocą nazwy o charakterze topograficznym."@pl ;
+                   <http://www.w3.org/2004/02/skos/core#altLabel> "урочище"@ru ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "bór"@pl ,
+                                                                     "leśniczówka"@pl ,
+                                                                     "osada leśna"@pl ,
+                                                                     "ostęp"@pl ,
+                                                                     "strażnica leśna"@pl ,
+                                                                     "łąka"@pl ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "forest district"@en ,
                                                                    "uroczysko"@pl .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit54 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "1. teren trudno dostępny, najczęściej bagnisty, leśny; też: miejsce odludne, 2. część terenu otoczona naturalnymi granicami, wyodrębniona za pomocą nazwy topograficznej, 3. u dawnych Słowian: miejsce w głębi puszczy związane z kultem bóstwa, odbywaniem narad lub uważane za siedzibę złych duchów"@pl ;
+   rdfs:isDefinedBy :document_3 ,
+                    <http://sjp.pwn.pl/sjp/uroczysko;2533316.html>
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit54 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "s. 57-80: uroczyska to cała gama pojęć, stale łąki i lokacje straży leśnej, czasem synonimy borów i ostępów, zjawiska terenowe zasadniczo rozległe o wielce zróżniczkowanej, a raczej nieuchwytnej i zatraconej już, treści. Można tylko utrzymywać, że uroczyska to teren eksploatacji par excellence."@pl ;
+   rdfs:isDefinedBy :document_14
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit54 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 15, s. 34: nazwa kopca lub miejsca granicznego nieosiedlonego. Według Chodakowskiego, uroczyska, na Rusi horodyszczami zwane, były to w Słowiańszczyźnie przedchrześcijańskiej place, czyli świątyń posady, do sprawowania uroczystych pogańskich ofiar przeznaczone i nie mające śladu opisania wałami, byleby oddzielna, właściwe imię mająca, przywiązana do nich była jakaś pamiątka."@pl ;
+   rdfs:isDefinedBy :document_15
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit54 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 6, s. 80: uroczysko, uroczyszcze -- (Rs. urocziszcze, = powiat, kraina); kopiec, mieysce graniczne. Tr. Gränzstein, Mohlhausen."@pl ;
+   rdfs:isDefinedBy :person_21
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit54 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 7, s. 348: 1. starożytny , z czasów pogańskich nasyp ziemny w postaci mogiły a. okopu, kopiec, kurhan; miejsce graniczne. Troc. 2. miejsce odludne, tajemnicze – 3. miejscowość nie zamieszkana, nosząca jakie oddzielne charakterystyczne miano – 4. pewna część gruntu a. gruntów kilku posiadaczy w jednym miejscu, nosząca pewną nazwę – 5. miejsce w polu, składające się z gruntu i łąk, dawniej zarosłe lasem. 6. bart. okręg bartniczy --, 7. leśn. część lasu, oddzielona od innych części naturalnymi granicami, jako oto: wzgórzami, strumykami, łąkami, drogami i.t.p. albo też różniąca się drzewostanem"@pl ;
+   rdfs:isDefinedBy :document_5
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit54 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 9, s. 431: 1. miedza graniczna, granica, limes agrorum, finis -- 2. teren poza granicą posiadłości, ale do niej przynależny, z własnymi granicami naturalnymi, locus extra fines praedii situs, sed ad id praedium pertinens, proprios fines naturales habens."@pl ;
+   rdfs:isDefinedBy :document_6
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit54 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "u dawnych Słowian: miejsce przed świątynią lub w głębi puszczy, związane z kultem jakiegoś bóstwa, z odbywaniem narad, sądów; ogólnie: miejsce odludne, tajemnicze; pustkowie -- 2. część terenu (zwykle lasu wyodrębniona za pomocą nazwy o charakterze topograficznym."@pl ;
+   rdfs:isDefinedBy :document_4 ,
+                    <http://sjp.pwn.pl/doroszewski/uroczysko;5512266.html>
+ ] .
 
 
 ###  http://purl.org/ontohgis#settlement_unit55
@@ -5951,8 +6020,8 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                    :hasExternalIdentifier "55"^^xsd:string ;
                    rdfs:label "prison"@en ,
                               "więzienie"@pl ;
-                   rdfs:seeAlso "http://dbpedia.org/ontology/Prison"^^xsd:anyURI ,
-                                "http://linkedgeodata.org/ontology/Prison"^^xsd:anyURI .
+                   rdfs:seeAlso <http://dbpedia.org/ontology/Prison> ,
+                                <http://linkedgeodata.org/ontology/Prison> .
 
 
 ###  http://purl.org/ontohgis#settlement_unit56
@@ -5988,8 +6057,8 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                   :hasExternalIdentifier "6"^^xsd:string ;
                   rdfs:label "district"@en ,
                              "dzielnica"@pl ;
-                  rdfs:seeAlso "http://dbpedia.org/ontology/CityDistrict"^^xsd:anyURI ,
-                               "http://linkedgeodata.org/ontology/Subdivision"^^xsd:anyURI .
+                  rdfs:seeAlso <http://dbpedia.org/ontology/CityDistrict> ,
+                               <http://linkedgeodata.org/ontology/Subdivision> .
 
 
 ###  http://purl.org/ontohgis#settlement_unit60
@@ -6302,14 +6371,14 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                    "Dwór (pojęcie wieloznaczne) jest to siedziba lub miejsce okresowego pobytu pana gruntowego oraz zarządu poszczególnych kluczy dóbr, składająca się z domu oraz zabudowań gospodarczych ( folwark). W pełnym i późnym średniowieczu mógł przyjmować charakter rezydencjonalno-obronnej wieży (tzw. grodzisko stożkowate, lub dworu na kopcu) ew. zamku. W większości były to jednak jednokondygnacyjne siedziby (tzw. dwór szlachecki) mogące później (XVI-XX w.) przybierać formę pałacową."@pl ;
                   rdfs:label "dwór - obiekt"@pl ,
                              "manor"@en ;
-                  rdfs:seeAlso "1. dom mieszkalny, budynek; siedziba szlachcica, właściciela majątku ziemskiego; majętność, posiadłość ziemska; 2. miejsce czasowego pobytu; lokal wynajęty (może dom zajezdny); 3. pałac, zamek, rezydencja; ewentualnie miejsce czasowego pobytu panującego; siedziba zwierzchnika (magnata) świeckiego lub duchownego; 4. miejsce posiedzeń senatu lub sądu w starożytnym Rzymie; także sama rada senatu; 5. otoczenie, środowisko skupiające się dokoła monarchy lub magnata, duchownego; dworzanie, urzędnicy, świta dworska, orszak; ogólnie: rząd danego państwa z panującym na czele; 6. siły zbrojne nadworne, żołnierze straży przybocznej monarchy; 7. praw. sąd królewski, w którym orzekał sam król osobiście przy asyście dygnitarzy królewskich lub zlecał rozpatrzenie sprawy i wydanie wyroku wyznaczonym dygnitarzom znajdującym się w danym momencie na dworze, to jest w miejscu pobytu władcy; 8. miejsce na zewnątrz domu, otaczająca dom; podwórze, dziedziniec, przestrzeń pod gołym niebem"@pl ,
+                  rdfs:seeAlso <http://gov.genealogy.net/types.owl#24> ,
+                               <http://linkedgeodata.org/ontology/Manor> ,
+                               <http://vocab.getty.edu/aat/300005579> ,
+                               <https://www.wikidata.org/wiki/Q879050> ,
+                               "1. dom mieszkalny, budynek; siedziba szlachcica, właściciela majątku ziemskiego; majętność, posiadłość ziemska; 2. miejsce czasowego pobytu; lokal wynajęty (może dom zajezdny); 3. pałac, zamek, rezydencja; ewentualnie miejsce czasowego pobytu panującego; siedziba zwierzchnika (magnata) świeckiego lub duchownego; 4. miejsce posiedzeń senatu lub sądu w starożytnym Rzymie; także sama rada senatu; 5. otoczenie, środowisko skupiające się dokoła monarchy lub magnata, duchownego; dworzanie, urzędnicy, świta dworska, orszak; ogólnie: rząd danego państwa z panującym na czele; 6. siły zbrojne nadworne, żołnierze straży przybocznej monarchy; 7. praw. sąd królewski, w którym orzekał sam król osobiście przy asyście dygnitarzy królewskich lub zlecał rozpatrzenie sprawy i wydanie wyroku wyznaczonym dygnitarzom znajdującym się w danym momencie na dworze, to jest w miejscu pobytu władcy; 8. miejsce na zewnątrz domu, otaczająca dom; podwórze, dziedziniec, przestrzeń pod gołym niebem"@pl ,
                                "1. miejsce pod niebem zagrodzone przy pomieszkanu, podworze (por. dziedziniec); 2. sądy za dworem królewskim, przy boku króla odprawujące się; 3. w wiekach dawnych, zjazd króla na różne miejsca, gdzie święta uroczystsze odbywał, obywatelów zgromadzał, sprawy sądził, okoliczności powiatowe ułatwiał, igrzyska i uczty dawał; 4. dwór królewski, zgromadzenie u króla, pokoje"@pl ,
                                "1. przestrzeń otaczając dom, otwarte powietrze, miejsce pod gołym niebem; 2. podwórze, dziedziniec; 3. dom właściciela majątku ziemskiego, mieszkanie dziedzica; 4. gospodarstwo dworskie, folwark; 5. (przenośnie) mieszkańcy dworu wiejskiego, szczególnie dziedzic z rodziną, państwo; 6. dom, mieszkanie; 7. oficjaliści panów, szczególnie wyżsi, dworzanie; 8. miejsce pobytu albo mieszkanie panującego albo magnata; 9. panujący i jego otoczenie; 10. służba dworska; 11. zebranie u króla, sąd dworski, żołnierze nadworni"@pl ,
                                "1. siedziba panującego lub księcia; 2. ludzie otaczający panującego lub księcia; 3. obszerny dom mieszkalny, charakterystyczny dla dawnych posiadłości ziemskich; 4. majątek ziemski z domem i zabudowaniami; 5. właściciele posiadłości ziemskiej, jej mieszkańcy, administracja; 6. otwarta przestrzeń na zewnątrz domu"@pl ,
-                               "http://gov.genealogy.net/types.owl#24"^^xsd:anyURI ,
-                               "http://linkedgeodata.org/ontology/Manor"^^xsd:anyURI ,
-                               "http://vocab.getty.edu/aat/300005579"^^xsd:anyURI ,
-                               "https://www.wikidata.org/wiki/Q879050"^^xsd:anyURI ,
                                "s. 9: -- desygnatem dworu jest tzw. gródek stożkowaty, czyli stanowisko archeologiczne mające wyodrębnioną formę terenową, najczęściej w postaci kopca lub przestrzeni zamkniętej dookolnymi obronnymi wałami"@pl ;
                   <http://www.w3.org/2004/02/skos/core#altLabel> "Hof"@de ,
                                                                  "curia"@la ,
@@ -6573,7 +6642,7 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                    rdfs:label "schronisko turystyczne"@pl ,
                               "schronisko turystyczne"^^xsd:string ,
                               "tourist shelter"@en ;
-                   rdfs:seeAlso "http://linkedgeodata.org/ontology/Shelter"^^xsd:anyURI ;
+                   rdfs:seeAlso <http://linkedgeodata.org/ontology/Shelter> ;
                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "schronisko (pl), schronisko górskie (pl), stacja turystyczna (pl), szałas (pl), karczma (pl)" ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "schronisko turystyczne"@pl ,
                                                                    "tourist shelter"@en .
@@ -6597,7 +6666,7 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                    "Folwark (ger Volwerk) to miejscowość o charakterze gospodarczym, często funkcjonująca obok dworu lub osobno."@pl ;
                   rdfs:label "folwark"@pl ,
                              "manor"@en ;
-                  rdfs:seeAlso "http://gov.genealogy.net/types.owl#64"^^xsd:anyURI ;
+                  rdfs:seeAlso <http://gov.genealogy.net/types.owl#64> ;
                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "allodium (lat), praedium (lat), Vorwerk (de)" ;
                   <http://www.w3.org/2004/02/skos/core#prefLabel> "folwark"@pl ,
                                                                   "manor"@en .
@@ -6651,7 +6720,7 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                     "Sea harbour (locality) is a locality where the main role is played by a sea harbour (area)."@en ;
                    rdfs:label "port morski"@pl ,
                               "sea harbour"@en ;
-                   rdfs:seeAlso "http://dbpedia.org/ontology/Port"^^xsd:anyURI ;
+                   rdfs:seeAlso <http://dbpedia.org/ontology/Port> ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "port morski"@pl ,
                                                                    "sea harbour"@en .
 
@@ -6669,7 +6738,7 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                    rdfs:subClassOf :settlement_unit2 ;
                    :hasExternalIdentifier "83"^^xsd:string ;
                    rdfs:label "wieś kościelna"^^xsd:string ;
-                   rdfs:seeAlso "http://gov.genealogy.net/types.owl#66"^^xsd:anyURI .
+                   rdfs:seeAlso <http://gov.genealogy.net/types.owl#66> .
 
 
 ###  http://purl.org/ontohgis#settlement_unit92
@@ -6682,7 +6751,7 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                    :hasExternalIdentifier "92"^^xsd:string ;
                    rdfs:label "market place"@en ,
                               "targ"@pl ;
-                   rdfs:seeAlso "http://linkedgeodata.org/ontology/Marketplace"^^xsd:anyURI .
+                   rdfs:seeAlso <http://linkedgeodata.org/ontology/Marketplace> .
 
 
 ###  http://purl.org/ontohgis#settlement_unit99
@@ -7556,7 +7625,7 @@ rdfs:Class rdf:type owl:Class .
                      obo:IAO_0000310 ;
             dc:creator :person_21 ;
             dc:date "1807-1814" ;
-            dc:identifier "http://kpbc.umk.pl/dlibra/publication?id=8173"^^xsd:anyURI ;
+            dc:identifier <http://kpbc.umk.pl/dlibra/publication?id=8173> ;
             dc:title "Słownik języka polskiego"@pl ;
             rdfs:label "Słownik języka polskiego (Linde)"@pl .
 
@@ -7565,7 +7634,7 @@ rdfs:Class rdf:type owl:Class .
 :document_10 rdf:type owl:NamedIndividual ,
                       obo:IAO_0000310 ;
              rdfs:label "Deutsche Rechtswörterbuch"@pl ;
-             rdfs:seeAlso "http://drw-www.adw.uni-heidelberg.de/drw-cgi/zeige"^^xsd:anyURI ;
+             rdfs:seeAlso <http://drw-www.adw.uni-heidelberg.de/drw-cgi/zeige> ;
              <http://www.w3.org/2004/02/skos/core#prefLabel> "Deutsche Rechtswörterbuch"@de .
 
 
@@ -7590,35 +7659,55 @@ rdfs:Class rdf:type owl:Class .
    owl:annotatedSource :document_12 ;
    owl:annotatedProperty <http://purl.org/dc/terms/identifier> ;
    owl:annotatedTarget "Goslar und die Stadtgeschichte. Forschungen und Perspektiven 1399–1999, hg. v. Carl-Hans Hauptmeyer/Jürgen Rund, Bielefeld 2001, s. 57–74"@de ;
-   rdfs:seeAlso "http://www.uni-muenster.de/Staedtegeschichte/portal/einfuehrung/Definitionen.html"^^xsd:anyURI
+   rdfs:isDefinedBy <http://www.uni-muenster.de/Staedtegeschichte/portal/einfuehrung/Definitionen.html>
  ] .
 
 
 ###  http://purl.org/ontohgis#document_13
 :document_13 rdf:type owl:NamedIndividual ,
                       obo:IAO_0000310 ;
-             <http://purl.org/dc/terms/creator> "Marciniak-Kajzer, Anna"@pl ;
+             <http://purl.org/dc/terms/creator> "Marciniak-Kajzer, Anna" ;
              <http://purl.org/dc/terms/date> 2011 ;
              <http://purl.org/dc/terms/title> "Średniowieczny dwór rycerski w Polsce"@pl ;
              rdfs:label "Marciniak-Kajzer, Średniowieczny dwór rycerski w Polsce"@pl .
 
 
+###  http://purl.org/ontohgis#document_14
+:document_14 rdf:type owl:NamedIndividual ,
+                      obo:IAO_0000310 ;
+             dc:creator "Hedemann, Otton" ;
+             dc:date 1939 ;
+             dc:title "Dzieje Puszczy Białowieskiej w Polsce przedrozbiorowej (w okresie do 1798 roku)"@pl ;
+             rdfs:label "Hedemann, Dzieje Puszczy Białowieskiej"@pl ;
+             rdfs:seeAlso "http://pbc.biaman.pl/dlibra/doccontent?id=2318"@pl .
+
+
+###  http://purl.org/ontohgis#document_15
+:document_15 rdf:type owl:NamedIndividual ,
+                      obo:IAO_0000310 ;
+             dc:creator "Orgelbrand, Samuel" ;
+             dc:date "1898-1912" ;
+             dc:title "S. Orgelbranda Encyklopedja powszechna z ilustracjami i mapami. T. 1 - T. 18"@pl ;
+             rdfs:label "Orgelbrand, Encyklopedja powszechna"@pl ;
+             rdfs:seeAlso "http://cybra.lodz.pl/dlibra/publication/721"@pl .
+
+
 ###  http://purl.org/ontohgis#document_2
 :document_2 rdf:type owl:NamedIndividual ,
                      obo:IAO_0000310 ;
-            dc:creator "Bąk, Stanisław"@pl ,
-                       "Mayenowa, Maria Renata"@pl ,
-                       "Pepłowski, Franciszek"@pl ;
+            dc:creator "Bąk, Stanisław" ,
+                       "Mayenowa, Maria Renata" ,
+                       "Pepłowski, Franciszek" ;
             dc:date "1956-" ;
             dc:title "Słownik polszczyzny XVI wieku"@pl ;
             rdfs:label "Słownik polszczyzny XVI wieku"@pl ;
-            rdfs:seeAlso "http://kpbc.umk.pl/dlibra/publication/17781?tab=1"^^xsd:anyURI .
+            rdfs:seeAlso <http://kpbc.umk.pl/dlibra/publication/17781?tab=1> .
 
 
 ###  http://purl.org/ontohgis#document_3
 :document_3 rdf:type owl:NamedIndividual ,
                      obo:IAO_0000310 ;
-            dc:identifier "https://sjp.pwn.pl/"^^xsd:anyURI ;
+            dc:identifier <https://sjp.pwn.pl/> ;
             rdfs:label "Słownik języka polskiego (PWN)"@pl .
 
 
@@ -7628,7 +7717,7 @@ rdfs:Class rdf:type owl:Class .
             dc:creator :person_20 ;
             dc:title "Słownik języka polskiego"@pl ;
             <http://purl.org/dc/terms/date> "1958–1969" ;
-            <http://purl.org/dc/terms/identifier> "http://doroszewski.pwn.pl/"^^xsd:anyURI ;
+            <http://purl.org/dc/terms/identifier> <http://doroszewski.pwn.pl/> ;
             rdfs:label "Słownik języka polskiego (Doroszewski)"@pl .
 
 
@@ -7641,16 +7730,16 @@ rdfs:Class rdf:type owl:Class .
                                                "Niedźwiedzki, Władysław" ;
             <http://purl.org/dc/terms/date> "1900-1927" ;
             rdfs:label "Słownik  warszawski"@pl ;
-            rdfs:seeAlso "http://ebuw.uw.edu.pl/publication/254"^^xsd:anyURI .
+            rdfs:seeAlso <http://ebuw.uw.edu.pl/publication/254> .
 
 
 ###  http://purl.org/ontohgis#document_6
 :document_6 rdf:type owl:NamedIndividual ,
                      obo:IAO_0000310 ;
-            dc:creator "Urbańczyk, Stanisław"@pl ;
+            dc:creator "Urbańczyk, Stanisław" ;
             <http://purl.org/dc/terms/date> "1953–2002" ;
             rdfs:label "Słownik staropolski"@pl ;
-            rdfs:seeAlso "https://pjs.ijp.pan.pl/sstp.html"^^xsd:anyURI .
+            rdfs:seeAlso <https://pjs.ijp.pan.pl/sstp.html> .
 
 
 ###  http://purl.org/ontohgis#document_7
@@ -7659,13 +7748,13 @@ rdfs:Class rdf:type owl:Class .
             dc:title "Encyklopedia Katolicka"@pl ;
             <http://purl.org/dc/terms/date> "1973-2014" ;
             rdfs:label "Encyklopedia Katolicka"@pl ;
-            rdfs:seeAlso "http://www.kul.pl/encyklopedia-katolicka,art_9929.html"^^xsd:anyURI .
+            rdfs:seeAlso <http://www.kul.pl/encyklopedia-katolicka,art_9929.html> .
 
 
 ###  http://purl.org/ontohgis#document_8
 :document_8 rdf:type owl:NamedIndividual ,
                      obo:IAO_0000310 ;
-            <http://purl.org/dc/terms/creator> "Tkocz, Jan"@pl ;
+            <http://purl.org/dc/terms/creator> "Tkocz, Jan" ;
             <http://purl.org/dc/terms/date> "1998"@pl ;
             <http://purl.org/dc/terms/title> "Organizacja przestrzenna wsi w Polsce"@pl ;
             rdfs:label "Tkocz, Organizacja przestrzenna wsi"@pl .
@@ -7678,7 +7767,7 @@ rdfs:Class rdf:type owl:Class .
             <http://purl.org/dc/terms/date> 2011 ;
             <http://purl.org/dc/terms/title> "Rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 17 listopada 2011 r. w sprawie bazy danych obiektów topograficznych oraz bazy danych obiektów ogólnogeograficznych, a także standardowych opracowań kartograficznych"@pl ;
             rdfs:label "Rozporządzenie BDOT10k"@pl ;
-            rdfs:seeAlso "http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20112791642"^^xsd:anyURI .
+            rdfs:seeAlso <http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20112791642> .
 
 
 ###  http://purl.org/ontohgis#function1
@@ -7948,14 +8037,14 @@ rdfs:Class rdf:type owl:Class .
 :person_20 rdf:type owl:NamedIndividual ,
                     obo:BFO_0000030 ;
            rdfs:label "Doroszewski, Witold"@pl ;
-           rdfs:seeAlso "https://pl.wikipedia.org/wiki/Witold_Doroszewski"^^xsd:anyURI .
+           rdfs:seeAlso <https://pl.wikipedia.org/wiki/Witold_Doroszewski> .
 
 
 ###  http://purl.org/ontohgis#person_21
 :person_21 rdf:type owl:NamedIndividual ,
                     obo:BFO_0000030 ;
            rdfs:label "Linde, Samuel Bogumił"@pl ;
-           rdfs:seeAlso "https://pl.wikipedia.org/wiki/Samuel_Linde"^^xsd:anyURI .
+           rdfs:seeAlso <https://pl.wikipedia.org/wiki/Samuel_Linde> .
 
 
 ###  http://purl.org/ontohgis#person_3
@@ -8117,8 +8206,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/Agent> rdfs:label "Agent"@en ;
-                                 rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                  rdfs:comment "A resource that acts or has the power to act."@en ;
+                                 rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                  <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                  <http://purl.org/dc/terms/description> "Examples of Agent include person, organization, and software agent."@en ;
                                  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Agent-001> .
@@ -8151,10 +8240,10 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/FileFormat> <http://purl.org/dc/terms/description> "Examples include the formats defined by the list of Internet Media Types."@en ;
                                       <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#FileFormat-001> ;
-                                      rdfs:comment "A digital resource format."@en ;
                                       rdfs:label "File Format"@en ;
-                                      <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> .
+                                      rdfs:comment "A digital resource format."@en ;
+                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                      <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
 
 
 <http://purl.org/dc/terms/Frequency> rdfs:label "Frequency"@en ;
@@ -8164,8 +8253,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                      <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
 
 
-<http://purl.org/dc/terms/ISO3166> rdfs:comment "The set of codes listed in ISO 3166-1 for the representation of names of countries."@en ;
-                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+<http://purl.org/dc/terms/ISO3166> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                   rdfs:comment "The set of codes listed in ISO 3166-1 for the representation of names of countries."@en ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO3166-004> ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -8175,8 +8264,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/ISO639-2> rdfs:seeAlso <http://lcweb.loc.gov/standards/iso639-2/langhome.html> ;
                                     <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                     rdfs:comment "The three-letter alphabetic codes listed in ISO639-2 for the representation of names of languages."@en ;
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     rdfs:label "ISO 639-2"@en ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO639-2-003> .
@@ -8184,21 +8273,21 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/ISO639-3> rdfs:label "ISO 639-3"@en ;
                                     rdfs:comment "The set of three-letter codes listed in ISO 639-3 for the representation of names of languages."@en ;
-                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO639-3-001> ;
+                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                     rdfs:seeAlso <http://www.sil.org/iso639-3/> .
 
 
 <http://purl.org/dc/terms/Jurisdiction> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Jurisdiction-001> ;
                                         rdfs:label "Jurisdiction"@en ;
-                                        <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                         rdfs:comment "The extent or range of judicial, law enforcement, or other authority."@en ;
+                                        <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                         rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
-<http://purl.org/dc/terms/LicenseDocument> rdfs:label "License Document"@en ;
-                                           rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/LicenseDocument> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                           rdfs:label "License Document"@en ;
                                            <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                            rdfs:comment "A legal document giving official permission to do something with a Resource."@en ;
                                            <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#LicenseDocument-001> .
@@ -8229,8 +8318,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/MediaType> rdfs:comment "A file format or physical medium."@en ;
                                      rdfs:label "Media Type"@en ;
                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#MediaType-001> .
+                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#MediaType-001> ;
+                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
 
 
 <http://purl.org/dc/terms/MediaTypeOrExtent> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -8249,14 +8338,14 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/MethodOfInstruction> rdfs:label "Method of Instruction"@en ;
                                                rdfs:comment "A process that is used to engender knowledge, attitudes, and skills."@en ;
-                                               rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                                <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#MethodOfInstruction-001> ;
+                                               rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                                <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
 
 
-<http://purl.org/dc/terms/Period> rdfs:seeAlso <http://dublincore.org/documents/dcmi-period/> ;
+<http://purl.org/dc/terms/Period> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+                                  rdfs:seeAlso <http://dublincore.org/documents/dcmi-period/> ;
                                   rdfs:comment "The set of time intervals defined by their limits according to the DCMI Period Encoding Scheme."@en ;
-                                  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                   rdfs:label "DCMI Period"@en ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -8294,8 +8383,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                  rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
-<http://purl.org/dc/terms/Policy> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                  rdfs:label "Policy"@en ;
+<http://purl.org/dc/terms/Policy> rdfs:label "Policy"@en ;
+                                  rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                   rdfs:comment "A plan or course of action by an authority, intended to influence and determine decisions, actions, and other matters."@en ;
                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Policy-001> ;
                                   <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
@@ -8304,8 +8393,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/ProvenanceStatement> rdfs:label "Provenance Statement"@en ;
                                                rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                                <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                               rdfs:comment "A statement of any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation."@en ;
-                                               <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ProvenanceStatement-001> .
+                                               <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ProvenanceStatement-001> ;
+                                               rdfs:comment "A statement of any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation."@en .
 
 
 <http://purl.org/dc/terms/RFC1766> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -8332,8 +8421,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#RFC4646-001> ;
                                    rdfs:seeAlso <http://www.ietf.org/rfc/rfc4646.txt> ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                   rdfs:comment "The set of tags constructed according to RFC 4646 for the identification of languages."@en ;
-                                   rdfs:label "RFC 4646"@en .
+                                   rdfs:label "RFC 4646"@en ;
+                                   rdfs:comment "The set of tags constructed according to RFC 4646 for the identification of languages."@en .
 
 
 <http://purl.org/dc/terms/RFC5646> <http://purl.org/dc/terms/issued> "2010-10-11"^^xsd:date ;
@@ -8402,8 +8491,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                         rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
-<http://purl.org/dc/terms/accrualMethod> rdfs:label "Accrual Method"@en ;
-                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#accrualMethod-003> ;
+<http://purl.org/dc/terms/accrualMethod> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#accrualMethod-003> ;
+                                         rdfs:label "Accrual Method"@en ;
                                          <http://purl.org/dc/terms/modified> "2010-10-11"^^xsd:date ;
                                          rdfs:comment "The method by which items are added to a collection."@en ;
                                          rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -8411,8 +8500,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/accrualPeriodicity> <http://purl.org/dc/terms/modified> "2010-10-11"^^xsd:date ;
-                                              rdfs:label "Accrual Periodicity"@en ;
                                               <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#accrualPeriodicity-003> ;
+                                              rdfs:label "Accrual Periodicity"@en ;
                                               rdfs:comment "The frequency with which items are added to a collection."@en ;
                                               rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                               <http://purl.org/dc/terms/issued> "2005-06-13"^^xsd:date .
@@ -8444,8 +8533,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/available> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                     rdfs:label "Date Available"@en ;
                                      rdfs:comment "Date (often a range) that the resource became or will become available."@en ;
+                                     rdfs:label "Date Available"@en ;
                                      <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#available-003> ;
                                      <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                      <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
@@ -8507,8 +8596,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                 <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#dateT-001> ;
                                 rdfs:comment "A point or period of time associated with an event in the lifecycle of the resource."@en ;
                                 <http://purl.org/dc/terms/description> "Date may be used to express temporal information at any level of granularity.  Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF]."@en ;
-                                <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                 rdfs:label "Date"@en ;
+                                <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                 <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date .
 
 
@@ -8533,24 +8622,24 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                          rdfs:comment "Date of submission of the resource."@en ;
                                          <http://purl.org/dc/terms/description> "Examples of resources to which a Date Submitted may be relevant are a thesis (submitted to a university department) or an article (submitted to a journal)."@en ;
                                          <http://purl.org/dc/terms/issued> "2002-07-13"^^xsd:date ;
-                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#dateSubmitted-002> ;
                                          rdfs:label "Date Submitted"@en ;
+                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#dateSubmitted-002> ;
                                          rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
 <http://purl.org/dc/terms/description> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                        rdfs:label "Description"@en ;
                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                       <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#descriptionT-001> ;
                                        <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                        rdfs:comment "An account of the resource."@en ;
+                                       <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#descriptionT-001> ;
                                        <http://purl.org/dc/terms/description> "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource."@en .
 
 
 <http://purl.org/dc/terms/educationLevel> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                           rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                          <http://purl.org/dc/terms/issued> "2002-07-13"^^xsd:date ;
                                           rdfs:label "Audience Education Level"@en ;
+                                          <http://purl.org/dc/terms/issued> "2002-07-13"^^xsd:date ;
                                           rdfs:comment "A class of entity, defined in terms of progression through an educational or training context, for which the described resource is intended."@en ;
                                           <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#educationLevel-002> .
 
@@ -8559,13 +8648,13 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                   rdfs:comment "The size or duration of the resource."@en ;
-                                  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#extent-003> ;
-                                  rdfs:label "Extent"@en .
+                                  rdfs:label "Extent"@en ;
+                                  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#extent-003> .
 
 
 <http://purl.org/dc/terms/format> <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#formatT-001> ;
+                                  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   rdfs:comment "The file format, physical medium, or dimensions of the resource."@en ;
                                   <http://purl.org/dc/terms/description> "Examples of dimensions include size and duration. Recommended best practice is to use a controlled vocabulary such as the list of Internet Media Types [MIME]."@en ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -8577,8 +8666,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                      <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#hasFormat-003> ;
                                      <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                      rdfs:label "Has Format"@en ;
-                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
-                                     rdfs:comment "A related resource that is substantially the same as the pre-existing described resource, but in another format."@en .
+                                     rdfs:comment "A related resource that is substantially the same as the pre-existing described resource, but in another format."@en ;
+                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
 
 
 <http://purl.org/dc/terms/hasPart> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -8591,8 +8680,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/hasVersion> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#hasVersion-003> ;
-                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                       rdfs:comment "A related resource that is a version, edition, or adaptation of the described resource."@en ;
+                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                       <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                       rdfs:label "Has Version"@en ;
                                       <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
@@ -8608,8 +8697,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                       <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
 
 
-<http://purl.org/dc/terms/instructionalMethod> <http://purl.org/dc/terms/issued> "2005-06-13"^^xsd:date ;
-                                               <http://purl.org/dc/terms/description> "Instructional Method will typically include ways of presenting instructional materials or conducting instructional activities, patterns of learner-to-learner and learner-to-instructor interactions, and mechanisms by which group and individual levels of learning are measured.  Instructional methods include all aspects of the instruction and learning processes from planning and implementation through evaluation and feedback."@en ;
+<http://purl.org/dc/terms/instructionalMethod> <http://purl.org/dc/terms/description> "Instructional Method will typically include ways of presenting instructional materials or conducting instructional activities, patterns of learner-to-learner and learner-to-instructor interactions, and mechanisms by which group and individual levels of learning are measured.  Instructional methods include all aspects of the instruction and learning processes from planning and implementation through evaluation and feedback."@en ;
+                                               <http://purl.org/dc/terms/issued> "2005-06-13"^^xsd:date ;
                                                rdfs:label "Instructional Method"@en ;
                                                <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                                rdfs:comment "A process, used to engender knowledge, attitudes and skills, that the described resource is designed to support."@en ;
@@ -8622,8 +8711,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                       rdfs:comment "A related resource that is substantially the same as the described resource, but in another format."@en ;
                                       <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                       <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
-                                      rdfs:label "Is Format Of"@en ;
-                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> .
+                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                      rdfs:label "Is Format Of"@en .
 
 
 <http://purl.org/dc/terms/isPartOf> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -8653,8 +8742,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isReplacedBy-003> .
 
 
-<http://purl.org/dc/terms/isRequiredBy> <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
-                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/isRequiredBy> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                        <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                         <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                         rdfs:label "Is Required By"@en ;
                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isRequiredBy-003> ;
@@ -8674,18 +8763,18 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/issued> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   rdfs:comment "Date of formal issuance (e.g., publication) of the resource."@en ;
-                                  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#issued-003> ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#issued-003> ;
                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                   rdfs:label "Date Issued"@en .
 
 
 <http://purl.org/dc/terms/language> rdfs:label "Language"@en ;
-                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#languageT-001> ;
                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
+                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#languageT-001> ;
                                     <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     <http://purl.org/dc/terms/description> "Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646]."@en ;
+                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     rdfs:comment "A language of the resource."@en .
 
 
@@ -8727,8 +8816,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                       <http://purl.org/dc/terms/issued> "2004-09-20"^^xsd:date ;
                                       rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                       <http://purl.org/dc/terms/description> "The statement may include a description of any changes successive custodians made to the resource."@en ;
-                                      rdfs:label "Provenance"@en ;
-                                      <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#provenance-002> .
+                                      <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#provenance-002> ;
+                                      rdfs:label "Provenance"@en .
 
 
 <http://purl.org/dc/terms/publisher> <http://purl.org/dc/terms/modified> "2010-10-11"^^xsd:date ;
@@ -8753,8 +8842,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#relationT-001> ;
-                                    rdfs:label "Relation"@en ;
                                     <http://purl.org/dc/terms/description> "Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system. "@en ;
+                                    rdfs:label "Relation"@en ;
                                     rdfs:comment "A related resource."@en ;
                                     <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date .
 
@@ -8773,8 +8862,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     rdfs:label "Requires"@en ;
                                     rdfs:comment "A related resource that is required by the described resource to support its function, delivery, or coherence."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                    <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
-                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                    <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en .
 
 
 <http://purl.org/dc/terms/rights> <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
@@ -8800,8 +8889,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#sourceT-001> ;
-                                  rdfs:comment "A related resource from which the described resource is derived."@en ;
-                                  <http://purl.org/dc/terms/description> "The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system."@en .
+                                  <http://purl.org/dc/terms/description> "The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system."@en ;
+                                  rdfs:comment "A related resource from which the described resource is derived."@en .
 
 
 <http://purl.org/dc/terms/spatial> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
@@ -8863,4 +8952,4 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                  rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
-###  Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
