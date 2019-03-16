@@ -4981,6 +4981,7 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                "Kirchdorf: Dorf mit Kirche (I) und Pfarrer, rechtlicher und religiöser Mittelpunkt einer (eventuell aus mehreren Filialdörfern bestehenden) politischen oder Pfarr-Gemeinde [Wieś z kościołem i parafią, prawne i religijne centrum gminy politycznej albo parafialnej (ewentualnie składającej się z kilku wsi filialnych, wsi z kościołami filialnymi]"@de ,
                                "Pfarrdorf: 1. Dorf, in dem die für die Pfarrgemeinde konstitutive Pfarrkirche (I) steht [wieś, w której stoi kościół parafialny właściwy dla całej parafii, gminy parafialnej]; 2. zu einer Pfarre (I) gehöriges Dorf [wieś należąca do parafii]"@de ,
                                "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ,
+                               "s. 29: wsią nazywamy osiedle w zasadzie otwarte, której ludność zajmuje się produkcją śródków żywności oraz surowców technicznych (tj. rolnictwem, hodowlą bydła, rybołówstwem itd.)"@pl ,
                                "t. 4, s. 365: wioska, imienie, dobro, grunt leżący; wieś targowa, wsie łowcze, osoczne, wołoskie."@pl ,
                                "t. 7, s. 594–595: osada rolnicza, z pewnej liczby chat złożona, sioło"@pl ,
                                "t. XX, s. 199–201: 1. osada, w której ludność zajmuje się głównie rolnictwem, 2. mieszkańcy wsi, ogół mieszkańców wsi."@pl ;
@@ -5035,6 +5036,13 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ;
    rdfs:isDefinedBy :document_8
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "s. 29: wsią nazywamy osiedle w zasadzie otwarte, której ludność zajmuje się produkcją śródków żywności oraz surowców technicznych (tj. rolnictwem, hodowlą bydła, rybołówstwem itd.)"@pl ;
+   rdfs:isDefinedBy :document_16
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -7690,6 +7698,15 @@ rdfs:Class rdf:type owl:Class .
              dc:title "S. Orgelbranda Encyklopedja powszechna z ilustracjami i mapami. T. 1 - T. 18"@pl ;
              rdfs:label "Orgelbrand, Encyklopedja powszechna"@pl ;
              rdfs:seeAlso "http://cybra.lodz.pl/dlibra/publication/721"@pl .
+
+
+###  http://purl.org/ontohgis#document_16
+:document_16 rdf:type owl:NamedIndividual ,
+                      obo:IAO_0000310 ;
+             dc:creator "Arnold, Stanisław" ;
+             dc:date 1951 ;
+             dc:title "Geografia historyczna Polski"@pl ;
+             rdfs:label "Arnold, Geografia historyczna Polski"@pl .
 
 
 ###  http://purl.org/ontohgis#document_2
