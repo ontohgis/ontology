@@ -6378,12 +6378,12 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
                   :hasLanguageVerificator :person_1 ;
                   :hasOntologicalVerificator :person_10 ;
                   :hasTranslator :person_9 ;
-                  rdfs:comment "Usually, a manor (building) [dwór] was located away from the main group of houses in a village, on the outskirts, or in a vicinity. A manor (building) [dwór] is recognised in historiography as identical with a manor (farmstead) [folwark], however a manor (building) [dwór] appears in texts on culture, customs, legal issues, whereas a manor (farmstead) [folwark] usually corresponds with economic matters."@en ,
+                  rdfs:comment "Usually, a manor house was located away from the main group of houses in a village, on the outskirts, or in a vicinity. A manor house is recognised in historiography as identical with a manor (folwark, demesne), however a manor house appears in texts on culture, customs, legal issues, whereas a manor (folwark, demesne) usually corresponds with economic matters."@en ,
                                "Zazwyczaj dwór położony był poza głównym zbudową wsi, na jej obrzeżach lub w nieznacznym oddaleniu. Pojęcie często tożsame w literaturze z folwarkiem. Z czasem dwór pojawia się w kontekście pisania o życiu, kulturze, obyczajowości, a folwark dotyczy kwestii gospodarczych."@pl ;
                   rdfs:isDefinedBy "A manor (a notion with a multiple meaning) is a home or a temporary house of a land lord and the managment of different clusters of estates, including a house and a farmstead ( a manor). In High and Late Middle Ages it could be a defensive tower (conical gord or a manor built on a mound) or a castle. Most of these, however, were one-floor homes (i.e. nobleman manor), which later (in 16th-20th century) evolved into palaces."@en ,
                                    "Dwór (pojęcie wieloznaczne) jest to siedziba lub miejsce okresowego pobytu pana gruntowego oraz zarządu poszczególnych kluczy dóbr, składająca się z domu oraz zabudowań gospodarczych ( folwark). W pełnym i późnym średniowieczu mógł przyjmować charakter rezydencjonalno-obronnej wieży (tzw. grodzisko stożkowate, lub dworu na kopcu) ew. zamku. W większości były to jednak jednokondygnacyjne siedziby (tzw. dwór szlachecki) mogące później (XVI-XX w.) przybierać formę pałacową."@pl ;
-                  rdfs:label "dwór - obiekt"@pl ,
-                             "manor"@en ;
+                  rdfs:label "dwór"@pl ,
+                             "manor house"@en ;
                   rdfs:seeAlso <http://gov.genealogy.net/types.owl#24> ,
                                <http://linkedgeodata.org/ontology/Manor> ,
                                <http://vocab.getty.edu/aat/300005579> ,
@@ -6395,16 +6395,19 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
                                "s. 9: -- desygnatem dworu jest tzw. gródek stożkowaty, czyli stanowisko archeologiczne mające wyodrębnioną formę terenową, najczęściej w postaci kopca lub przestrzeni zamkniętej dookolnymi obronnymi wałami"@pl ;
                   <http://www.w3.org/2004/02/skos/core#altLabel> "Hof"@de ,
                                                                  "curia"@la ,
-                                                                 "dworzecz (określenie staropolskie)"@pl ;
+                                                                 "dworzecz (określenie staropolskie)"@pl ,
+                                                                 "двор"@ru ;
                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Gutshof"@de ,
                                                                     "Herrenhof"@de ,
                                                                     "aula"@la ,
                                                                     "curiaculum"@la ,
                                                                     "czwierdza (określenie staropolskie)"@pl ,
                                                                     "mons seu fortalicium"@la ,
-                                                                    "rezydencja"@pl ;
-                  <http://www.w3.org/2004/02/skos/core#prefLabel> "dwór - obiekt"@pl ,
-                                                                  "manor"@en .
+                                                                    "rezydencja"@pl ,
+                                                                    "господский двор"@ru ,
+                                                                    "усадьба"@ru ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "dwór"@pl ,
+                                                                  "manor house"@en .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit7 ;
@@ -6666,23 +6669,72 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
                   rdfs:subClassOf :settlement_unit1000 ,
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty :hasProperFunction ;
-                                    owl:hasValue :function3
+                                    owl:hasValue :function1
                                   ] ;
                   dc:creator :person_3 ;
                   :hasExternalIdentifier "8"^^xsd:string ;
                   :hasLanguageVerificator :person_1 ;
                   :hasOntologicalVerificator :person_10 ;
                   :hasTranslator :person_9 ;
-                  rdfs:comment "A manor (building) may be considered as an independent locality as long as it is distinguished by an individual name ( manor - locality). If there was no separate name, it was a manor - building. A manor has always been connected with a village."@en ,
-                               "Folwark może być traktowany jako miejscowość, o ile będzie posiadał własną nazwę ( folwark - miejscowość), jeżeli takowej nie posiada powinien być traktowany jako folwark - obiekt. Folwark zawsze był związany z  wsią."@pl ;
-                  rdfs:isDefinedBy "A manor (\"folwark\", ger Volwerk) is a locality with an industrial function, often located near the manor (a building) or separate."@en ,
-                                   "Folwark (ger Volwerk) to miejscowość o charakterze gospodarczym, często funkcjonująca obok dworu lub osobno."@pl ;
-                  rdfs:label "folwark"@pl ,
-                             "manor"@en ;
-                  rdfs:seeAlso <http://gov.genealogy.net/types.owl#64> ;
-                  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "allodium (lat), praedium (lat), Vorwerk (de)" ;
-                  <http://www.w3.org/2004/02/skos/core#prefLabel> "folwark"@pl ,
-                                                                  "manor"@en .
+                  rdfs:comment "A demesne (manor) may be considered as an independent locality as long as it is distinguished by an individual name. Usually, a demesne was located away from the main group of houses in a village, on the outskirts, or in its vicinity."@en ,
+                               "Folwark może być traktowany jako odrębna miejscowość, o ile posiadał własną nazwę. Zazwyczaj folwark położony był poza główną zabudową wsi, na jej obrzeżach lub w nieznacznym oddaleniu."@pl ;
+                  rdfs:isDefinedBy "A demesne (en: manor, pl: folwark, de: Volwerk) is a locality with an industrial function, often located near the manor (a building) or separate."@en ,
+                                   "Folwark (niem: Volwerk) to miejscowość o charakterze gospodarczym, często funkcjonująca obok dworu lub osobno."@pl ;
+                  rdfs:label "demesne"@en ,
+                             "folwark"@pl ;
+                  rdfs:seeAlso <http://dbpedia.org/page/Demesne> ,
+                               <http://dbpedia.org/page/Folwark> ,
+                               <http://dbpedia.org/page/Manor> ,
+                               <http://gov.genealogy.net/types.owl#64> ,
+                               <http://vocab.getty.edu/aat/300000238> ,
+                               <http://vocab.getty.edu/aat/300108235> ,
+                               "duże gospodarstwo rolne wraz z zabudowaniami."@pl ,
+                               "t. 1, s. 173: duże gospodarstwo rolne lub rolno-hodowlane, produkujące głównie na zbyt, posługujące się pracą chłopów pańszczyźnianych albo siłą najemną. Organizowane przez feudalnych właścicieli ziemskich już w XIV w., stanowiły kontynuację tzw. rezerwy pańskiej, czyli gruntów wyłączonych spod uprawy chłopskiej i przeznaczonych do zaspokajania bezpośrednich potrzeb dworu--’"@pl ,
+                               "t. 1, s. 759: 1. mała wioska, leżąca obok dużej, oddzielona część wsi; przysiółek; 2. majętność, grunt z zabudowaniem, ferma; 3. dwór we wsi, mieszkanie dziedzica albo dzierżawcy razem z zabudowaniami dworskimi."@pl ,
+                               "t. 7, s. 90–91: 1. ziemskie gospodarstwo, w przeciwieństwie do gospodarstwa chłopskiego, grunt z zabudowaniami gospodarskimi i mieszkalnymi, często będący częścią większej majętności; zazwyczaj wydzielona część wsi; 2. zabudowania gospodarcze; 3. ziemia orna, rola należąca do folwarku; 4. posiadłość ziemska, dworek z zabudowaniami gospodarskimi położony pod miastem; 5. wieś"@pl ;
+                  <http://www.w3.org/2004/02/skos/core#altLabel> "Vorwerk"@de ,
+                                                                 "praedium"@la ,
+                                                                 "фолварок"@ru ;
+                  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "allodium"@la ,
+                                                                    "dobra"@pl ,
+                                                                    "domena"@pl ,
+                                                                    "dwór"@pl ,
+                                                                    "majątek"@pl ,
+                                                                    "manor"@en ,
+                                                                    "имение"@ru ,
+                                                                    "усадьба"@ru ,
+                                                                    "хутор"@ru ;
+                  <http://www.w3.org/2004/02/skos/core#prefLabel> "demesne"@en ,
+                                                                  "folwark"@pl .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit8 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "duże gospodarstwo rolne wraz z zabudowaniami."@pl ;
+   rdfs:isDefinedBy :document_4 ,
+                    <https://sjp.pwn.pl/doroszewski/folwark;5428273.html>
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit8 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 1, s. 173: duże gospodarstwo rolne lub rolno-hodowlane, produkujące głównie na zbyt, posługujące się pracą chłopów pańszczyźnianych albo siłą najemną. Organizowane przez feudalnych właścicieli ziemskich już w XIV w., stanowiły kontynuację tzw. rezerwy pańskiej, czyli gruntów wyłączonych spod uprawy chłopskiej i przeznaczonych do zaspokajania bezpośrednich potrzeb dworu--’"@pl ;
+   rdfs:isDefinedBy :document_17
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit8 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 1, s. 759: 1. mała wioska, leżąca obok dużej, oddzielona część wsi; przysiółek; 2. majętność, grunt z zabudowaniem, ferma; 3. dwór we wsi, mieszkanie dziedzica albo dzierżawcy razem z zabudowaniami dworskimi."@pl ;
+   rdfs:isDefinedBy :document_5
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit8 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 7, s. 90–91: 1. ziemskie gospodarstwo, w przeciwieństwie do gospodarstwa chłopskiego, grunt z zabudowaniami gospodarskimi i mieszkalnymi, często będący częścią większej majętności; zazwyczaj wydzielona część wsi; 2. zabudowania gospodarcze; 3. ziemia orna, rola należąca do folwarku; 4. posiadłość ziemska, dworek z zabudowaniami gospodarskimi położony pod miastem; 5. wieś"@pl ;
+   rdfs:isDefinedBy :document_2
+ ] .
 
 
 ###  http://purl.org/ontohgis#settlement_unit80
@@ -7714,6 +7766,15 @@ rdfs:Class rdf:type owl:Class .
              rdfs:label "Arnold, Geografia historyczna Polski"@pl .
 
 
+###  http://purl.org/ontohgis#document_17
+:document_17 rdf:type owl:NamedIndividual ,
+                      obo:IAO_0000310 ;
+             dc:creator "Mączak, Antoni" ;
+             dc:date 1981 ;
+             dc:title "Encyklopedia historii gospodarczej Polski do 1945 roku"@pl ;
+             rdfs:label "Encyklopedia historii gospodarczej Polski do 1945 roku"@pl .
+
+
 ###  http://purl.org/ontohgis#document_2
 :document_2 rdf:type owl:NamedIndividual ,
                      obo:IAO_0000310 ;
@@ -8228,8 +8289,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/Agent> rdfs:label "Agent"@en ;
-                                 rdfs:comment "A resource that acts or has the power to act."@en ;
                                  <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
+                                 rdfs:comment "A resource that acts or has the power to act."@en ;
                                  rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                  <http://purl.org/dc/terms/description> "Examples of Agent include person, organization, and software agent."@en ;
                                  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Agent-001> .
@@ -8240,8 +8301,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                       rdfs:label "Agent Class"@en ;
                                       <http://purl.org/dc/terms/modified> "2012-06-14"^^xsd:date ;
                                       rdfs:comment "A group of agents."@en ;
-                                      <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#AgentClass-003> ;
-                                      <http://purl.org/dc/terms/description> "Examples of Agent Class include groups seen as classes, such as students, women, charities, lecturers."@en .
+                                      <http://purl.org/dc/terms/description> "Examples of Agent Class include groups seen as classes, such as students, women, charities, lecturers."@en ;
+                                      <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#AgentClass-003> .
 
 
 <http://purl.org/dc/terms/BibliographicResource> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -8254,18 +8315,18 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/Box> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                rdfs:comment "The set of regions in space defined by their geographic coordinates according to the DCMI Box Encoding Scheme."@en ;
                                rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                               <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                rdfs:label "DCMI Box"@en ;
+                               <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                rdfs:seeAlso <http://dublincore.org/documents/dcmi-box/> ;
                                <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Box-003> .
 
 
 <http://purl.org/dc/terms/FileFormat> <http://purl.org/dc/terms/description> "Examples include the formats defined by the list of Internet Media Types."@en ;
                                       <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#FileFormat-001> ;
-                                      rdfs:label "File Format"@en ;
                                       rdfs:comment "A digital resource format."@en ;
-                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                      <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
+                                      rdfs:label "File Format"@en ;
+                                      <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
+                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
 <http://purl.org/dc/terms/Frequency> rdfs:label "Frequency"@en ;
@@ -8275,8 +8336,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                      <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
 
 
-<http://purl.org/dc/terms/ISO3166> rdfs:comment "The set of codes listed in ISO 3166-1 for the representation of names of countries."@en ;
-                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+<http://purl.org/dc/terms/ISO3166> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                   rdfs:comment "The set of codes listed in ISO 3166-1 for the representation of names of countries."@en ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO3166-004> ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -8293,23 +8354,23 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO639-2-003> .
 
 
-<http://purl.org/dc/terms/ISO639-3> rdfs:label "ISO 639-3"@en ;
-                                    rdfs:comment "The set of three-letter codes listed in ISO 639-3 for the representation of names of languages."@en ;
-                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/ISO639-3> rdfs:comment "The set of three-letter codes listed in ISO 639-3 for the representation of names of languages."@en ;
+                                    rdfs:label "ISO 639-3"@en ;
                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO639-3-001> ;
+                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     rdfs:seeAlso <http://www.sil.org/iso639-3/> .
 
 
 <http://purl.org/dc/terms/Jurisdiction> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Jurisdiction-001> ;
                                         rdfs:label "Jurisdiction"@en ;
-                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                         <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                        rdfs:comment "The extent or range of judicial, law enforcement, or other authority."@en .
+                                        rdfs:comment "The extent or range of judicial, law enforcement, or other authority."@en ;
+                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
-<http://purl.org/dc/terms/LicenseDocument> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                           rdfs:label "License Document"@en ;
+<http://purl.org/dc/terms/LicenseDocument> rdfs:label "License Document"@en ;
+                                           rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                            <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                            rdfs:comment "A legal document giving official permission to do something with a Resource."@en ;
                                            <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#LicenseDocument-001> .
@@ -8338,8 +8399,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/MediaType> rdfs:comment "A file format or physical medium."@en ;
-                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                      rdfs:label "Media Type"@en ;
+                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                      <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                      <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#MediaType-001> .
 
@@ -8366,8 +8427,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/Period> rdfs:comment "The set of time intervals defined by their limits according to the DCMI Period Encoding Scheme."@en ;
-                                  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   rdfs:seeAlso <http://dublincore.org/documents/dcmi-period/> ;
+                                  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                   rdfs:label "DCMI Period"@en ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -8389,8 +8450,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                           rdfs:comment "A physical material or carrier."@en .
 
 
-<http://purl.org/dc/terms/PhysicalResource> <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                            rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/PhysicalResource> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                            <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                             rdfs:comment "A material thing."@en ;
                                             <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#PhysicalResource-001> ;
                                             rdfs:label "Physical Resource"@en .
@@ -8415,15 +8476,15 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/ProvenanceStatement> rdfs:label "Provenance Statement"@en ;
                                                rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                                <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                               rdfs:comment "A statement of any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation."@en ;
-                                               <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ProvenanceStatement-001> .
+                                               <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ProvenanceStatement-001> ;
+                                               rdfs:comment "A statement of any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation."@en .
 
 
 <http://purl.org/dc/terms/RFC1766> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                   rdfs:comment "The set of tags, constructed according to RFC 1766, for the identification of languages."@en ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#RFC1766-003> ;
+                                   rdfs:comment "The set of tags, constructed according to RFC 1766, for the identification of languages."@en ;
                                    rdfs:seeAlso <http://www.ietf.org/rfc/rfc1766.txt> ;
                                    rdfs:label "RFC 1766"@en .
 
@@ -8443,8 +8504,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#RFC4646-001> ;
                                    rdfs:seeAlso <http://www.ietf.org/rfc/rfc4646.txt> ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                   rdfs:label "RFC 4646"@en ;
-                                   rdfs:comment "The set of tags constructed according to RFC 4646 for the identification of languages."@en .
+                                   rdfs:comment "The set of tags constructed according to RFC 4646 for the identification of languages."@en ;
+                                   rdfs:label "RFC 4646"@en .
 
 
 <http://purl.org/dc/terms/RFC5646> <http://purl.org/dc/terms/issued> "2010-10-11"^^xsd:date ;
@@ -8467,8 +8528,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                           <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#SizeOrDuration-001> ;
                                           <http://purl.org/dc/terms/description> "Examples include a number of pages, a specification of length, width, and breadth, or a period in hours, minutes, and seconds."@en ;
                                           rdfs:comment "A dimension or extent, or a time taken to play or execute."@en ;
-                                          <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                          rdfs:isDefinedBy <http://purl.org/dc/terms/> .
+                                          rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                          <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
 
 
 <http://purl.org/dc/terms/Standard> rdfs:comment "A basis for comparison; a reference point against which other things can be evaluated."@en ;
@@ -8500,8 +8561,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#abstract-003> ;
                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
-                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                    rdfs:comment "A summary of the resource."@en .
+                                    rdfs:comment "A summary of the resource."@en ;
+                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
 <http://purl.org/dc/terms/accessRights> <http://purl.org/dc/terms/description> "Access Rights may include information regarding access or restrictions based on privacy, security, or other policies."@en ;
@@ -8522,8 +8583,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/accrualPeriodicity> <http://purl.org/dc/terms/modified> "2010-10-11"^^xsd:date ;
-                                              rdfs:label "Accrual Periodicity"@en ;
                                               <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#accrualPeriodicity-003> ;
+                                              rdfs:label "Accrual Periodicity"@en ;
                                               rdfs:comment "The frequency with which items are added to a collection."@en ;
                                               rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                               <http://purl.org/dc/terms/issued> "2005-06-13"^^xsd:date .
@@ -8532,8 +8593,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/accrualPolicy> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                          <http://purl.org/dc/terms/issued> "2005-06-13"^^xsd:date ;
                                          <http://purl.org/dc/terms/modified> "2010-10-11"^^xsd:date ;
-                                         rdfs:comment "The policy governing the addition of items to a collection."@en ;
                                          <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#accrualPolicy-003> ;
+                                         rdfs:comment "The policy governing the addition of items to a collection."@en ;
                                          rdfs:label "Accrual Policy"@en .
 
 
@@ -8546,8 +8607,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                        rdfs:label "Alternative Title"@en .
 
 
-<http://purl.org/dc/terms/audience> <http://purl.org/dc/terms/issued> "2001-05-21"^^xsd:date ;
-                                    rdfs:comment "A class of entity for whom the resource is intended or useful."@en ;
+<http://purl.org/dc/terms/audience> rdfs:comment "A class of entity for whom the resource is intended or useful."@en ;
+                                    <http://purl.org/dc/terms/issued> "2001-05-21"^^xsd:date ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#audience-003> ;
                                     rdfs:label "Audience"@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -8589,8 +8650,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/coverage> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                    rdfs:label "Coverage"@en ;
                                     <http://purl.org/dc/terms/description> "Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies. Recommended best practice is to use a controlled vocabulary such as the Thesaurus of Geographic Names [TGN]. Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges."@en ;
+                                    rdfs:label "Coverage"@en ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#coverageT-001> ;
                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                     rdfs:comment "The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant."@en ;
@@ -8600,8 +8661,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/created> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    rdfs:comment "Date of creation of the resource."@en ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#created-003> ;
-                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                    rdfs:label "Date Created"@en ;
+                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
 
 
@@ -8653,15 +8714,15 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                        rdfs:label "Description"@en ;
                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                        <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                       <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#descriptionT-001> ;
                                        rdfs:comment "An account of the resource."@en ;
+                                       <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#descriptionT-001> ;
                                        <http://purl.org/dc/terms/description> "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource."@en .
 
 
 <http://purl.org/dc/terms/educationLevel> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                           rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                          rdfs:label "Audience Education Level"@en ;
                                           <http://purl.org/dc/terms/issued> "2002-07-13"^^xsd:date ;
+                                          rdfs:label "Audience Education Level"@en ;
                                           rdfs:comment "A class of entity, defined in terms of progression through an educational or training context, for which the described resource is intended."@en ;
                                           <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#educationLevel-002> .
 
@@ -8764,8 +8825,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isReplacedBy-003> .
 
 
-<http://purl.org/dc/terms/isRequiredBy> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                        <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
+<http://purl.org/dc/terms/isRequiredBy> <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
+                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                         <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                         rdfs:label "Is Required By"@en ;
                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isRequiredBy-003> ;
@@ -8774,8 +8835,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/isVersionOf> rdfs:label "Is Version Of"@en ;
-                                       rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                        rdfs:comment "A related resource of which the described resource is a version, edition, or adaptation."@en ;
+                                       rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                        <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                        <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                        <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isVersionOf-003> ;
@@ -8785,8 +8846,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/issued> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   rdfs:comment "Date of formal issuance (e.g., publication) of the resource."@en ;
-                                  rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#issued-003> ;
+                                  rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                   rdfs:label "Date Issued"@en .
 
@@ -8795,16 +8856,16 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#languageT-001> ;
                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                     <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                    <http://purl.org/dc/terms/description> "Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646]."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                    <http://purl.org/dc/terms/description> "Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646]."@en ;
                                     rdfs:comment "A language of the resource."@en .
 
 
 <http://purl.org/dc/terms/license> <http://purl.org/dc/terms/issued> "2004-06-14"^^xsd:date ;
                                    rdfs:label "License"@en ;
                                    rdfs:comment "A legal document giving official permission to do something with the resource."@en ;
-                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#license-002> ;
+                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
@@ -8864,8 +8925,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#relationT-001> ;
-                                    rdfs:label "Relation"@en ;
                                     <http://purl.org/dc/terms/description> "Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system. "@en ;
+                                    rdfs:label "Relation"@en ;
                                     rdfs:comment "A related resource."@en ;
                                     <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date .
 
@@ -8888,8 +8949,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en .
 
 
-<http://purl.org/dc/terms/rights> <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                  rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/rights> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                  <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                   rdfs:label "Rights"@en ;
                                   rdfs:comment "Information about rights held in and over the resource."@en ;
                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -8897,8 +8958,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   <http://purl.org/dc/terms/description> "Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights."@en .
 
 
-<http://purl.org/dc/terms/rightsHolder> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                        <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#rightsHolder-002> ;
+<http://purl.org/dc/terms/rightsHolder> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#rightsHolder-002> ;
+                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                         rdfs:comment "A person or organization owning or managing rights over the resource."@en ;
                                         <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                         <http://purl.org/dc/terms/issued> "2004-06-14"^^xsd:date ;
@@ -8911,12 +8972,12 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#sourceT-001> ;
-                                  <http://purl.org/dc/terms/description> "The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system."@en ;
-                                  rdfs:comment "A related resource from which the described resource is derived."@en .
+                                  rdfs:comment "A related resource from which the described resource is derived."@en ;
+                                  <http://purl.org/dc/terms/description> "The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system."@en .
 
 
-<http://purl.org/dc/terms/spatial> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
-                                   rdfs:label "Spatial Coverage"@en ;
+<http://purl.org/dc/terms/spatial> rdfs:label "Spatial Coverage"@en ;
+                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    rdfs:comment "Spatial characteristics of the resource."@en ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -8944,8 +9005,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/temporal> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                     rdfs:label "Temporal Coverage"@en ;
-                                    rdfs:comment "Temporal characteristics of the resource."@en ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#temporal-003> ;
+                                    rdfs:comment "Temporal characteristics of the resource."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
@@ -8960,8 +9021,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/type> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                 <http://purl.org/dc/terms/description> "Recommended best practice is to use a controlled vocabulary such as the DCMI Type Vocabulary [DCMITYPE]. To describe the file format, physical medium, or dimensions of the resource, use the Format element."@en ;
                                 rdfs:comment "The nature or genre of the resource."@en ;
-                                <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                 rdfs:label "Type"@en ;
+                                <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                 <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#typeT-001> ;
                                 <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
 
