@@ -26,7 +26,8 @@
 #################################################################
 
 ###  http://purl.org/dc/elements/1.1/contributor
-dc:contributor <http://purl.org/dc/terms/description> "Examples of a Contributor include a person, an organization, or a service. Typically, the name of a Contributor should be used to indicate the entity."@en ;
+dc:contributor rdf:type owl:AnnotationProperty ;
+               <http://purl.org/dc/terms/description> "Examples of a Contributor include a person, an organization, or a service. Typically, the name of a Contributor should be used to indicate the entity."@en ;
                <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#contributor-006> ;
                <http://purl.org/dc/terms/issued> "1999-07-02"^^xsd:date ;
                <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -49,7 +50,8 @@ dc:coverage rdf:type owl:AnnotationProperty ;
 
 
 ###  http://purl.org/dc/elements/1.1/creator
-dc:creator <http://purl.org/dc/terms/description> "Examples of a Creator include a person, an organization, or a service. Typically, the name of a Creator should be used to indicate the entity."@en ;
+dc:creator rdf:type owl:AnnotationProperty ;
+           <http://purl.org/dc/terms/description> "Examples of a Creator include a person, an organization, or a service. Typically, the name of a Creator should be used to indicate the entity."@en ;
            <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#creator-006> ;
            <http://purl.org/dc/terms/issued> "1999-07-02"^^xsd:date ;
            <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -60,7 +62,8 @@ dc:creator <http://purl.org/dc/terms/description> "Examples of a Creator include
 
 
 ###  http://purl.org/dc/elements/1.1/date
-dc:date <http://purl.org/dc/terms/description> "Date may be used to express temporal information at any level of granularity.  Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF]."@en ;
+dc:date rdf:type owl:AnnotationProperty ;
+        <http://purl.org/dc/terms/description> "Date may be used to express temporal information at any level of granularity.  Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF]."@en ;
         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#date-006> ;
         <http://purl.org/dc/terms/issued> "1999-07-02"^^xsd:date ;
         <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -71,7 +74,8 @@ dc:date <http://purl.org/dc/terms/description> "Date may be used to express temp
 
 
 ###  http://purl.org/dc/elements/1.1/description
-dc:description <http://purl.org/dc/terms/description> "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource."@en ;
+dc:description rdf:type owl:AnnotationProperty ;
+               <http://purl.org/dc/terms/description> "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource."@en ;
                <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#description-006> ;
                <http://purl.org/dc/terms/issued> "1999-07-02"^^xsd:date ;
                <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -288,7 +292,8 @@ dc:type rdf:type owl:AnnotationProperty ;
 
 
 ###  http://purl.org/dc/terms/description
-<http://purl.org/dc/terms/description> rdfs:subPropertyOf dc:description .
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty ;
+                                       rdfs:subPropertyOf dc:description .
 
 
 ###  http://purl.org/dc/terms/extent
@@ -316,7 +321,8 @@ dc:type rdf:type owl:AnnotationProperty ;
 
 
 ###  http://purl.org/dc/terms/hasVersion
-<http://purl.org/dc/terms/hasVersion> rdfs:subPropertyOf dc:relation ,
+<http://purl.org/dc/terms/hasVersion> rdf:type owl:AnnotationProperty ;
+                                      rdfs:subPropertyOf dc:relation ,
                                                          <http://purl.org/dc/terms/relation> .
 
 
@@ -363,7 +369,8 @@ dc:type rdf:type owl:AnnotationProperty ;
 
 
 ###  http://purl.org/dc/terms/issued
-<http://purl.org/dc/terms/issued> rdfs:subPropertyOf dc:date ;
+<http://purl.org/dc/terms/issued> rdf:type owl:AnnotationProperty ;
+                                  rdfs:subPropertyOf dc:date ;
                                   rdfs:range rdfs:Literal .
 
 
@@ -386,12 +393,14 @@ dc:type rdf:type owl:AnnotationProperty ;
 
 
 ###  http://purl.org/dc/terms/modified
-<http://purl.org/dc/terms/modified> rdfs:subPropertyOf dc:date ;
+<http://purl.org/dc/terms/modified> rdf:type owl:AnnotationProperty ;
+                                    rdfs:subPropertyOf dc:date ;
                                     rdfs:range rdfs:Literal .
 
 
 ###  http://purl.org/dc/terms/publisher
-<http://purl.org/dc/terms/publisher> rdfs:subPropertyOf dc:publisher ;
+<http://purl.org/dc/terms/publisher> rdf:type owl:AnnotationProperty ;
+                                     rdfs:subPropertyOf dc:publisher ;
                                      rdfs:range <http://purl.org/dc/terms/Agent> .
 
 
@@ -454,7 +463,8 @@ dc:type rdf:type owl:AnnotationProperty ;
 
 
 ###  http://purl.org/dc/terms/title
-<http://purl.org/dc/terms/title> rdfs:subPropertyOf dc:title ;
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty ;
+                                 rdfs:subPropertyOf dc:title ;
                                  rdfs:range rdfs:Literal .
 
 
@@ -563,6 +573,22 @@ dc:type rdf:type owl:AnnotationProperty ;
                    rdfs:range :object_204 .
 
 
+###  http://www.w3.org/2004/02/skos/core#altLabel
+<http://www.w3.org/2004/02/skos/core#altLabel> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#hiddenLabel
+<http://www.w3.org/2004/02/skos/core#hiddenLabel> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#note
+<http://www.w3.org/2004/02/skos/core#note> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty .
+
+
 ###  http://xmlns.com/foaf/0.1/mbox
 foaf:mbox rdf:type owl:AnnotationProperty .
 
@@ -617,6 +643,10 @@ foaf:mbox rdf:type owl:AnnotationProperty .
 
 ###  http://purl.org/dc/terms/W3CDTF
 <http://purl.org/dc/terms/W3CDTF> rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
 
 
 #################################################################
@@ -758,11 +788,6 @@ oc:isPredecessorEntityManifestationOf rdf:type owl:ObjectProperty ,
 <http://purl.org/dc/terms/type> rdf:type owl:ObjectProperty .
 
 
-###  http://purl.org/ontohgis#InverseIAO_0000136
-:InverseIAO_0000136 rdf:type owl:ObjectProperty ;
-                    rdfs:label "about in"@en .
-
-
 ###  http://purl.org/ontohgis#administersOver
 :administersOver rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf owl:topObjectProperty ;
@@ -848,7 +873,6 @@ oc:isPredecessorEntityManifestationOf rdf:type owl:ObjectProperty ,
 
 ###  http://purl.org/ontohgis#isAdditionalyDenotedBy
 :isAdditionalyDenotedBy rdf:type owl:ObjectProperty ;
-                        rdfs:subPropertyOf :InverseIAO_0000136 ;
                         rdfs:domain :object_40 ;
                         rdfs:range :object_31 ;
                         owl:propertyDisjointWith :isDefinedBy ;
@@ -863,9 +887,8 @@ oc:isPredecessorEntityManifestationOf rdf:type owl:ObjectProperty ,
 
 
 ###  http://purl.org/ontohgis#isDefinedBy
-:isDefinedBy rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf :InverseIAO_0000136 ;
-             rdf:type owl:FunctionalProperty ;
+:isDefinedBy rdf:type owl:ObjectProperty ,
+                      owl:FunctionalProperty ;
              rdfs:domain :object_40 ;
              rdfs:range :object_31 ;
              rdfs:label "is defined by"@en ,
@@ -919,6 +942,10 @@ oc:isPredecessorEntityManifestationOf rdf:type owl:ObjectProperty ,
 
 ###  http://www.geonames.org/ontology#featureCode
 <http://www.geonames.org/ontology#featureCode> rdf:type owl:ObjectProperty .
+
+
+###  http://www.opengis.net/ont/geosparql#ehContains
+<http://www.opengis.net/ont/geosparql#ehContains> rdf:type owl:ObjectProperty .
 
 
 ###  http://www.opengis.net/ont/geosparql#hasGeometry
@@ -6429,8 +6456,13 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
                    "źródło"@pl .
 
 
+###  http://www.opengis.net/ont/geosparql#Feature
+<http://www.opengis.net/ont/geosparql#Feature> rdf:type owl:Class .
+
+
 ###  http://www.opengis.net/ont/sf#Geometry
-<http://www.opengis.net/ont/sf#Geometry> rdfs:subClassOf [ rdf:type owl:Restriction ;
+<http://www.opengis.net/ont/sf#Geometry> rdf:type owl:Class ;
+                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
                                                            owl:onProperty :isGeometryOf ;
                                                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                                            owl:onClass :object_200
@@ -6450,6 +6482,10 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
 
 ###  http://www.w3.org/2000/01/rdf-schema#Class
 rdfs:Class rdf:type owl:Class .
+
+
+###  http://www.w3.org/2004/02/skos/core#ConceptScheme
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> rdf:type owl:Class .
 
 
 #################################################################
@@ -8223,6 +8259,7 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                        <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                        <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#descriptionT-001> ;
                                        rdfs:comment "An account of the resource."@en ;
+                                       rdf:type owl:AnnotationProperty ;
                                        <http://purl.org/dc/terms/description> "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource."@en .
 
 
@@ -8269,7 +8306,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#hasPart-003> .
 
 
-<http://purl.org/dc/terms/hasVersion> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#hasVersion-003> ;
+<http://purl.org/dc/terms/hasVersion> rdf:type owl:AnnotationProperty ;
+                                      <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#hasVersion-003> ;
                                       rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                       rdfs:comment "A related resource that is a version, edition, or adaptation of the described resource."@en ;
                                       <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
@@ -8301,8 +8339,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                       rdfs:comment "A related resource that is substantially the same as the described resource, but in another format."@en ;
                                       <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                       <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
-                                      rdfs:label "Is Format Of"@en ;
-                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> .
+                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                      rdfs:label "Is Format Of"@en .
 
 
 <http://purl.org/dc/terms/isPartOf> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -8355,6 +8393,7 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   rdfs:comment "Date of formal issuance (e.g., publication) of the resource."@en ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#issued-003> ;
+                                  rdf:type owl:AnnotationProperty ;
                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                   rdfs:label "Date Issued"@en .
 
@@ -8396,6 +8435,7 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/modified> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     rdfs:label "Date Modified"@en ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#modified-003> ;
+                                    rdf:type owl:AnnotationProperty ;
                                     <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                     rdfs:comment "Date on which the resource was changed."@en ;
                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
@@ -8456,8 +8496,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
 
 
-<http://purl.org/dc/terms/rights> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                  <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
+<http://purl.org/dc/terms/rights> <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
+                                  rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                   rdfs:label "Rights"@en ;
                                   rdfs:comment "Information about rights held in and over the resource."@en ;
                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -8465,8 +8505,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   <http://purl.org/dc/terms/description> "Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights."@en .
 
 
-<http://purl.org/dc/terms/rightsHolder> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#rightsHolder-002> ;
-                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/rightsHolder> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                        <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#rightsHolder-002> ;
                                         <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                         rdfs:comment "A person or organization owning or managing rights over the resource."@en ;
                                         <http://purl.org/dc/terms/issued> "2004-06-14"^^xsd:date ;
