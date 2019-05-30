@@ -3680,7 +3680,7 @@ c. prawnie."""@pl ;
                                                                       "pałac"@pl ,
                                                                       "twierdza"@pl ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "castle"@en ,
-                                                                    "zamek - obiekt"@pl .
+                                                                    "zamek"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit114 ;
@@ -3714,7 +3714,7 @@ c. prawnie."""@pl ;
                                "sea harbour"@en ;
                     rdfs:seeAlso "przybrzeżny obszar wodny, odpowiednio pogłębiony, osłonięty przed wiatrem i falą, przeznaczony dla postoju statków, wyposażony w specjalne urządzenia służące do ich załadowywania, wyładowywania, zaopatrzenia i naprawy; miasto  nabrzeżne, w którym jest także miejsce postoju statków."@pl ,
                                  "t. 2, cz. 2. s. 929: część można między ziemią zamknięta, do którey okręty wchodzą o od burzy morskiey bezpieczeństwo znayduią"@pl ;
-                    <http://www.w3.org/2004/02/skos/core#prefLabel> "port morski - obiekt"@pl ,
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "port morski"@pl ,
                                                                     "sea harbour"@en .
 
 [ rdf:type owl:Axiom ;
@@ -3750,7 +3750,7 @@ c. prawnie."""@pl ;
                                  "1] miejsce, gdzie można się schronić, czuć bezpiecznie, schronienie; [2] budynek położony na szlaku turystycznym z dala od osiedli ludzkich, służący jako miejsce odpoczynku i noclegu dla turystów (podróżnych); [3] przytułek, zakład dla bezdomnych, starców"@pl ,
                                  "t. 5, s. 201 – mieysce do schronienia"@pl ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "schronisko (pl), schronisko górskie (pl), stacja turystyczna (pl), szałas (pl), karczma (pl)" ;
-                    <http://www.w3.org/2004/02/skos/core#prefLabel> "schronisko turystyczne - obiekt"@pl ,
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "schronisko turystyczne"@pl ,
                                                                     "tourist shelter"@en .
 
 [ rdf:type owl:Axiom ;
@@ -3787,7 +3787,7 @@ c. prawnie."""@pl ;
                     <http://www.w3.org/2004/02/skos/core#altLabel> "Haltestation (de)" ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "przystanek kolejowy (pl), dworzec kolejowy (pl)" ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "railway station"@en ,
-                                                                    "stacja kolejowa - obiekt"@pl .
+                                                                    "stacja kolejowa"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit118 ;
@@ -3815,7 +3815,7 @@ c. prawnie."""@pl ;
                                  "mała stacja kolejowa przeznaczona tylko dla ruchu pasażerskiego"@pl ;
                     <http://www.w3.org/2004/02/skos/core#altLabel> "Haltepunkt (de)" ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Stacja kolejowa (pl), dworzec kolejowy (pl)" ;
-                    <http://www.w3.org/2004/02/skos/core#prefLabel> "przystanek kolejowy - obiekt"@pl ,
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "przystanek kolejowy"@pl ,
                                                                     "train stop"@en .
 
 [ rdf:type owl:Axiom ;
@@ -3880,7 +3880,7 @@ c. prawnie."""@pl ;
                                  "t. 9, kol. 1025: budynek poświęcony (dedykacja lub benedykcja) w obrzędzie liturg. przez biskupa, gdzie wspólnota ochrzczonych (—> Kościół) gromadzi się na słuchanie słowa Bożego, wspólną i prywatną modlitwę oraz celebrację sakramentów, zwł. Eucharystii; miejsce przechowywania Najśw. Sakramentu, a także pochówku(—> krypta, —> konfesja); k. był określany także jako domus ecclesiae, domus orationis, Kyriakon, domus Dei, Dominicum; w kat. obrządkach wsch. nazywany jest —> cerkwią."@pl ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "ecclesia (lat), templum (lat), fanum (lat), aedes (lat), domus Dei (lat), kaplica (pl), cerkiew (pl), świątynia (pl), die Kirche (de)" ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "church"@en ,
-                                                                    "kościół - obiekt"@pl .
+                                                                    "kościół"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit120 ;
@@ -3945,7 +3945,7 @@ c. prawnie."""@pl ;
                                                                       "parafia"@pl ,
                                                                       "parochia"@la ,
                                                                       "wikariatka"@pl ;
-                    <http://www.w3.org/2004/02/skos/core#prefLabel> "plebania - obiekt"@pl ,
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "plebania"@pl ,
                                                                     "rectory"@en .
 
 [ rdf:type owl:Axiom ;
@@ -3992,7 +3992,7 @@ c. prawnie."""@pl ;
                     <http://www.w3.org/2004/02/skos/core#altLabel> "capella (lat)" ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "kościół (pl), oratorium (pl), świątynia (pl), sacellum (łac), oratorium (lat), aedicula (lat), sacrarium (lat), aedes (lat), fanum (lat), augurale (lat), augurale (lat), auguratorium (lat), fanulum (lat), lararium (lat), delubrum (lat), die Kapelle (de)" ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "chapel"@en ,
-                                                                    "kaplica - obiekt"@pl .
+                                                                    "kaplica"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit122 ;
@@ -4043,7 +4043,7 @@ c. prawnie."""@pl ;
                                  "«dawny zakład, w którym się wyprażało z drewna smołę»"@pl ;
                     <http://www.w3.org/2004/02/skos/core#altLabel> "der Teerofen (de), smolanoi zawod (ru)" ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "terpentyniarnia (pl), osada leśna (pl), dziegciarnia (pl), huta (pl)" ;
-                    <http://www.w3.org/2004/02/skos/core#prefLabel> "smolarnia - obiekt"@pl ,
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "smolarnia"@pl ,
                                                                     "tar pitch"@en .
 
 [ rdf:type owl:Axiom ;
@@ -4094,7 +4094,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                     <http://www.w3.org/2004/02/skos/core#altLabel> "gospoda (pl), gościniec (pl), gościnny dom (pl), szynkowny dom (pl), oberża (pl), zajazd (pl), budynek (pl), taberna (lat), Wirthaus (de), Krug (de), Gasthof (de)" ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "restauracja (pl)" ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "inn"@en ,
-                                                                    "karczma - obiekt"@pl .
+                                                                    "karczma"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit124 ;
@@ -4175,7 +4175,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                     <http://www.w3.org/2004/02/skos/core#altLabel> "Hütte (de), huta (pl), hamer (pl), Hammer (de), minera (lat), hamernia (pl), amernia (pl), oficina ferraria (lat), ferrifonda (lat), ruda (pl)" ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "kuźnia (pl), fryszerka (pl), huta żelaza (pl), zakład przemysłowy (pl), mennica (pl)" ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "ironworks"@en ,
-                                                                    "kuźnica - obiekt"@pl .
+                                                                    "kuźnica"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit126 ;
@@ -4263,7 +4263,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                     <http://www.w3.org/2004/02/skos/core#altLabel> "Hütte (de), Ofen (de), Schmelze (de), Hammer (de)" ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "kuźnica (pl), ruda (pl)" ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "glassworks"@en ,
-                                                                    "huta - obiekt"@pl .
+                                                                    "huta"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit128 ;
@@ -4315,7 +4315,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                                                       "nadleśnictwo"@pl ,
                                                                       "osada leśna"@pl ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "forester's lodge"@en ,
-                                                                    "leśniczówka - obiekt"@pl .
+                                                                    "leśniczówka"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit129 ;
@@ -4366,7 +4366,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                                                       "leśniczówka"@pl ,
                                                                       "nadleśnictwo"@pl ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "forest-guard's lodge"@en ,
-                                                                    "gajówka - obiekt"@pl .
+                                                                    "gajówka"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit130 ;
@@ -4399,14 +4399,21 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                     :hasOntologicalVerificator :person_10 ;
                     :hasTranslator :person_5 ,
                                    :person_9 ;
-                    rdfs:comment "Functional distinctivness - distinguished as a kind of locality in Bystrzycki's register, and on topographic maps as distinct symbol, sometimes with the proper name.Morphological and spatial distinctivness - usually a lightouse is a building (structure) within the area of the locality or in its vicinity. If it has its a particular (proper) name, it can be treated as a separate locality (interpretation of maps is necessary, see: Rozewie). Otherwise it is either part of another locality or an object (building/structure) in it (see: Hel, Jastarnia)."@en ,
+                    rdfs:comment """Functional distinctivness - distinguished as a kind of locality in Bystrzycki's register, and on topographic maps as distinct symbol, sometimes with the proper name.
+Morphological and spatial distinctivness - usually a lightouse is a building (structure) within the area of the locality or in its vicinity. 
+If it has its a particular (proper) name, it can be treated as a separate locality (interpretation of maps is necessary, see: Rozewie). Otherwise it is either part of another locality or an object (building/structure) in it (see: Hel, Jastarnia)."""@en ,
                                  "Odrębność funkcjonalna – wyróżniana jako rodzaj miejscowości u Bystrzyckiego, a na mapach topograficznych odrębnym znakiem, niekiedy z nazwą własną. Odrębność morfologiczna/przestrzenna – przeważnie jest obiektem na obszarze miejscowości lub w niewielkim od niej oddaleniu. Jeżeli posiada nazwę własną może być traktowana jako osobna miejscowość (konieczna interpretacja map; patrz: Rozewie). W przeciwnym razie jest albo częścią innej, większej miejscowości lub obiektem terenowym (budowlą) w niej (patrz: Hel, Jastarnia)."@pl ;
                     rdfs:isDefinedBy "A lighthouse (a facility) is a building, usually a high tower with a beacon light to guide ships."@en ,
                                      "Latarnia morska (obiekt) to budowla, najczęściej wysoka wieża służąca jako punkt orientacyjny dla statków."@pl ;
                     rdfs:label "latarnia morska - obiekt"@pl ,
                                "lighthouse"@en ;
-                    rdfs:seeAlso "wysoka, widoczna z morza wieża, służąca jako punkt orientacyjny dla statków"@pl ;
-                    <http://www.w3.org/2004/02/skos/core#prefLabel> "latarnia morska - obiekt"@pl ,
+                    rdfs:seeAlso <http://dbpedia.org/ontology/Lighthouse> ,
+                                 <http://linkedgeodata.org/ontology/Lighthouse> ,
+                                 <http://vocab.getty.edu/aat/300007741> ,
+                                 <https://www.wikidata.org/wiki/Q39715> ,
+                                 "wysoka, widoczna z morza wieża, służąca jako punkt orientacyjny dla statków"@pl ;
+                    <http://www.w3.org/2004/02/skos/core#altLabel> "Leuchtturm"@de ;
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "latarnia morska"@pl ,
                                                                     "lighthouse"@en .
 
 [ rdf:type owl:Axiom ;
@@ -4447,7 +4454,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                                                    "monasterium"@la ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "opactwo"@pl ,
                                                                       "ławra"@pl ;
-                    <http://www.w3.org/2004/02/skos/core#prefLabel> "klasztor - obiekt"@pl ,
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "klasztor"@pl ,
                                                                     "monastery"@en .
 
 [ rdf:type owl:Axiom ;
@@ -4516,7 +4523,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                     <http://www.w3.org/2004/02/skos/core#altLabel> "das Sägewerk (de), lesopilnyi zawod (ru)" ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "młyn (pl), piła (pl),die Säge (de), osada młyńska (pl), osada leśna (pl)" ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "sawmill"@en ,
-                                                                    "tartak - obiekt"@pl .
+                                                                    "tartak"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit133 ;
@@ -4567,7 +4574,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                  "t. 7, s. 85: kopalnia torfu, torfowisko eksploatowane"@pl ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "torfowisko (pl)" ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "peat mine"@en ,
-                                                                    "torfiarnia - obiekt"@pl .
+                                                                    "torfiarnia"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit134 ;
@@ -4672,7 +4679,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                                                    "кирпичный завод"@ru ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Ziegelscheune"@de ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "brickyard"@en ,
-                                                                    "cegielnia - obiekt"@pl .
+                                                                    "cegielnia"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit136 ;
@@ -4733,7 +4740,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                                                       "Miene"@de ,
                                                                       "Schacht"@de ,
                                                                       "шахта"@ru ;
-                    <http://www.w3.org/2004/02/skos/core#prefLabel> "kopalnia - obiekt"@pl ,
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "kopalnia"@pl ,
                                                                     "mine"@en .
 
 [ rdf:type owl:Axiom ;
@@ -4785,7 +4792,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                  "t. 1, cz. 1, s. 327: [Brak hasła „cukrownia”.] Cukrowarz, fabrykant cukru, warzący sok na cukier, derZuckersieder, cf. Cukiernik."@pl ,
                                  "zakład przemysłowy produkujący cukier"@pl ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "die Zuckerfabrik (de), die Zuckersiederei (de) Сахарный завод (ru)" ;
-                    <http://www.w3.org/2004/02/skos/core#prefLabel> "cukrownia - obiekt"@pl ,
+                    <http://www.w3.org/2004/02/skos/core#prefLabel> "cukrownia"@pl ,
                                                                     "sugar factory"@en .
 
 [ rdf:type owl:Axiom ;
@@ -4839,7 +4846,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                                                    "винокурня"@ru ;
                     <http://www.w3.org/2004/02/skos/core#hiddenLabel> "browar"@pl ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "distillery"@en ,
-                                                                    "gorzelnia - obiekt"@pl .
+                                                                    "gorzelnia"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit139 ;
@@ -5291,14 +5298,17 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                    :hasOntologicalVerificator :person_10 ;
                    :hasTranslator :person_5 ,
                                   :person_9 ;
-                   rdfs:comment "Included as a kind of locality in Bystrzycki's register as abbreviation (\"lat. mor.\"); dinstinct symbol on topographic maps;included in DBTO10k as a \"communication buildings, stations and terminals\" (BUBD feature class)."@en ,
-                                "Występuje jako rodzaj miejscowości u Bystrzyckiego w spisie (\"lat. mor.\"); na mapach osobna sygnatura. W BDOT10k jako budynek łączności, dworców i terminali."@pl ;
+                   rdfs:comment """Included as a kind of locality in Bystrzycki's register as abbreviation (\"lat. mor.\"); dinstinct symbol on topographic maps; included in DBTO10k as a \"communication buildings, stations and terminals\" (BUBD feature class).
+Functional distinctivness - distinguished as a kind of locality in Bystrzycki's register, and on topographic maps as distinct symbol, sometimes with the proper name.
+Morphological and spatial distinctivness - usually a lightouse is a building (structure) within the area of the locality or in its vicinity. 
+If it has its a particular (proper) name, it can be treated as a separate locality (interpretation of maps is necessary, see: Rozewie). Otherwise it is either part of another locality or an object (building/structure) in it (see: Hel, Jastarnia)."""@en ,
+                                """Występuje jako rodzaj miejscowości u Bystrzyckiego w spisie (\"lat. mor.\"); na mapach osobna sygnatura. W BDOT10k jako budynek łączności, dworców i terminali.
+Odrębność funkcjonalna – wyróżniana jako rodzaj miejscowości u Bystrzyckiego, a na mapach topograficznych odrębnym znakiem, niekiedy z nazwą własną. Odrębność morfologiczna/przestrzenna – przeważnie jest obiektem na obszarze miejscowości lub w niewielkim od niej oddaleniu. Jeżeli posiada nazwę własną może być traktowana jako osobna miejscowość (konieczna interpretacja map; patrz: Rozewie). W przeciwnym razie jest albo częścią innej, większej miejscowości lub obiektem terenowym (budowlą) w niej (patrz: Hel, Jastarnia)."""@pl ;
                    rdfs:isDefinedBy "A lighthouse (a locality) is a settlement in which a main role is played by a lighthouse (building)."@en ,
                                     "Latarnia morska (miejscowość) to osada obejmująca latarnię morską (obiekt)."@pl ;
                    rdfs:label "latarnia morska"@pl ,
                               "lighthouse"@en ;
-                   rdfs:seeAlso <http://dbpedia.org/ontology/Lighthouse> ,
-                                <http://linkedgeodata.org/ontology/Lighthouse> ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Leuchtturm"@de ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "latarnia morska"@pl ,
                                                                    "lighthouse"@en .
 
@@ -6481,7 +6491,7 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
                                "Zazwyczaj dwór położony był poza głównym zbudową wsi, na jej obrzeżach lub w nieznacznym oddaleniu. Pojęcie często tożsame w literaturze z folwarkiem. Z czasem dwór pojawia się w kontekście pisania o życiu, kulturze, obyczajowości, a folwark dotyczy kwestii gospodarczych."@pl ;
                   rdfs:isDefinedBy "A manor (a notion with a multiple meaning) is a home or a temporary house of a land lord and the managment of different clusters of estates, including a house and a farmstead ( a manor). In High and Late Middle Ages it could be a defensive tower (conical gord or a manor built on a mound) or a castle. Most of these, however, were one-floor homes (i.e. nobleman manor), which later (in 16th-20th century) evolved into palaces."@en ,
                                    "Dwór (pojęcie wieloznaczne) jest to siedziba lub miejsce okresowego pobytu pana gruntowego oraz zarządu poszczególnych kluczy dóbr, składająca się z domu oraz zabudowań gospodarczych ( folwark). W pełnym i późnym średniowieczu mógł przyjmować charakter rezydencjonalno-obronnej wieży (tzw. grodzisko stożkowate, lub dworu na kopcu) ew. zamku. W większości były to jednak jednokondygnacyjne siedziby (tzw. dwór szlachecki) mogące później (XVI-XX w.) przybierać formę pałacową."@pl ;
-                  rdfs:label "dwór"@pl ,
+                  rdfs:label "dwór - obiekt"@pl ,
                              "manor house"@en ;
                   rdfs:seeAlso <http://gov.genealogy.net/types.owl#24> ,
                                <http://linkedgeodata.org/ontology/Manor> ,
