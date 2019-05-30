@@ -4718,13 +4718,30 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                      "Kopalnia jest to zakład wydobywający z ziemi kopaliny. Może być połączony z osadą, miewa stale zamieszkujący personel."@pl ;
                     rdfs:label "kopalnia - obiekt"@pl ,
                                "mine"@en ;
-                    rdfs:seeAlso "t. 1, cz. 2, s. 1077: Kopalnia, miejsce gdzie się iakowe rzeczy kopalne z ziemi dobywają"@pl ,
+                    rdfs:seeAlso <http://dbpedia.org/ontology/Mine> ,
+                                 <http://vocab.getty.edu/aat/300000390> ,
+                                 <https://www.wikidata.org/wiki/Q820477> ,
+                                 "Teren zakładu górniczego, zajmującego się wydobywaniem z ziemi kopalin użytecznych. Ze względu na sposób wydobycia rozróżnia się kopalnie odkrywkowe (naziemne), głębinowe (podziemne) i otworowe."@pl ,
+                                 "t. 1, cz. 2, s. 1077: Kopalnia, miejsce gdzie się iakowe rzeczy kopalne z ziemi dobywają"@pl ,
                                  "zakład górniczy zajmujący się wydobywaniem z ziemi kopalin"@pl ,
                                  "zakład górniczy zajmujący się wydobywaniem z ziemi kopalin użytecznych"@pl ;
-                    <http://www.w3.org/2004/02/skos/core#altLabel> "gruba (pl)" ;
-                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "das Bergwerk (de), der Bruch (de), die Binge (de), die Miene (de), die Schacht (de), рудни́к/ ру́́дник (ru), шахта (ru)" ;
+                    <http://www.w3.org/2004/02/skos/core#altLabel> "Bergwerk"@de ,
+                                                                   "gruba"@pl ,
+                                                                   "рудник"@ru ;
+                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Binge"@de ,
+                                                                      "Bruch"@de ,
+                                                                      "Miene"@de ,
+                                                                      "Schacht"@de ,
+                                                                      "шахта"@ru ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "kopalnia - obiekt"@pl ,
                                                                     "mine"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit137 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "Teren zakładu górniczego, zajmującego się wydobywaniem z ziemi kopalin użytecznych. Ze względu na sposób wydobycia rozróżnia się kopalnie odkrywkowe (naziemne), głębinowe (podziemne) i otworowe."@pl ;
+   rdfs:comment :document_9
+ ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit137 ;
@@ -5219,14 +5236,27 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                 "Kopalnia może być odrębną miejscowością, zarówno samodzielną jak i częścią grupy miejscowości o tej samej nazwie, ale najczęściej, nawet jeśli znajduje się w obrębie większej miejscowości, ma własną nazwę."@pl ;
                    rdfs:isDefinedBy "A mine (a locality) is a settlement with a mine (a factory) as the most important element."@en ,
                                     "Kopalnia (miejscowość) jest to osada, w której główną rolę odgrywa kopalnia (obiekt)."@pl ;
-                   rdfs:label "kopalnia"@pl ,
-                              "mine"@en ;
-                   rdfs:seeAlso <http://dbpedia.org/ontology/Mine> ,
-                                <http://linkedgeodata.org/ontology/LanduseMine> ;
-                   <http://www.w3.org/2004/02/skos/core#altLabel> "gruba (pl)" ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "das Bergwerk (de), der Bruch (de), die Binge (de), die Miene (de), die Schacht (de), рудни́к/ ру́́дник (ru), шахта (ru)" ;
-                   <http://www.w3.org/2004/02/skos/core#prefLabel> "kopalnia"@pl ,
-                                                                   "mine"@en .
+                   rdfs:label "mining settlement"@en ,
+                              "osada górnicza"@pl ;
+                   rdfs:seeAlso <http://vocab.getty.edu/aat/300008464> ,
+                                <https://www.wikidata.org/wiki/Q820254> ;
+                   <http://www.w3.org/2004/02/skos/core#altLabel> "Bergwerksort"@de ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Bergwerk"@de ,
+                                                                     "Binge"@de ,
+                                                                     "Bruch"@de ,
+                                                                     "Miene"@de ,
+                                                                     "Schacht"@de ,
+                                                                     "gruba"@pl ,
+                                                                     "kopalnia"@pl ,
+                                                                     "mine"@en ,
+                                                                     "mining camp"@en ,
+                                                                     "mining community"@en ,
+                                                                     "mining town"@en ,
+                                                                     "рудник"@ru ,
+                                                                     "шахта"@ru ,
+                                                                     "шахтёрский город"@ru ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "mining settlement"@en ,
+                                                                   "osada górnicza"@pl .
 
 
 ###  http://purl.org/ontohgis#settlement_unit22
