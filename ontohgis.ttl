@@ -5629,16 +5629,86 @@ Występuje na mapach w nazwach miejscowości (letn.), ale nie w kluczach znaków
                    :hasLanguageVerificator :person_1 ;
                    :hasOntologicalVerificator :person_10 ;
                    :hasTranslator :person_9 ;
-                   rdfs:comment "Osada powstawała z reguły jako odrębna miejscowość, później, dość często, szczególnie w przypadku osad przemysłowych, rozwijała się do rangi miasta, łączyła się z inną osadą jako odrębna miejscowość, lub była włączana do innej miejscowości."@pl ,
-                                "Settlement had usually been established as a separate locality, later on – especially in case of industrial settlements – particular settlements could develop into a city, merge with other settlement to create a new locality, or it could be incorporated into another locality."@en ;
+                   rdfs:comment "A small locality organised in relation to a workplace or a particular occupation of its inhabitants. Settlement had usually been established as a separate locality, later on – especially in case of industrial settlements – particular settlements could develop into a city, merge with other settlement to create a new locality, or it could be incorporated into another locality. Depending on the type of inhabitants’ occupations one can, or could in the past, indicate a fair (market), craft, industrial, fishing, forestry, and railway settlements."@en ,
+                                "Niewielka miejscowość zorganizowana w związku z miejscem lub rodzajem pracy mieszkańców. Osada powstawała z reguły jako odrębna miejscowość, później, dość często, szczególnie w przypadku osad przemysłowych, rozwijała się do rangi miasta, łączyła się z inną osadą jako odrębna miejscowość, lub była włączana do innej miejscowości. W zależności od rodzaju wykonywanej pracy wyróżnia lub wyróżniało się osady targowe, rzemieślnicze, przemysłowe, rybackie, leśne, kolejowe."@pl ;
                    rdfs:isDefinedBy "Niewielka miejscowość zamieszkała przez ludność związaną z określonym typem lokalizacji lub rodzajem pracy nierolniczej i usytuowana z reguły w bezpośrednim sąsiedztwie miejsca pracy."@pl ,
                                     "Settlement is a small locality inhabited by people associated with a particular type of location or a type of a non-agricultural work and lying mostly in the vicinity of a workplace."@en ;
                    rdfs:label "osada"@pl ,
                               "settlement"@en ;
-                   rdfs:seeAlso <http://gov.genealogy.net/types.owl#120> ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "miasteczko (pl), osiedle (pl), miejscowość (pl), kolonia (pl), sadyba (pl), zagroda włościańska (pl), conlocationen (lat), der Siedlung (de), die Ansiedlung (de), der Ortschaft (de), die Kolonie (de), settlement (en)" ;
+                   rdfs:seeAlso <http://dbpedia.org/page/Hamlet_(place)> ,
+                                <http://gov.genealogy.net/types.owl#120> ,
+                                <http://vocab.getty.edu/aat/300008369> ,
+                                <https://pzgik.geoportal.gov.pl/ontologies/prng/osada> ,
+                                <https://www.wikidata.org/wiki/Q5084> ,
+                                "Niewielka jednostka osadnicza na terenie wiejskim o odmiennym (wyróżniającym się) charakterze zabudowy albo zamieszkana przez ludność związaną z miejscem lub rodzajem pracy, innymi niż wyżej wymienione [osada młyńska, osada leśna, osada rybacka, osada kolejowa, osada po byłem PGR]; źródło: ustawa z dnia 29 sierpnia 2003 r. o urzędowych nazwach miejscowości i obiektów fizjograficznych."@pl ,
+                                "Niewielka jednostka osadnicza na terenie wiejskim o odmiennym(wyróżniającym się) charakterze zabudowy albo zamieszkana przez ludność zwiazaną z określonym miejscem lub rodzajem pracy, w szczególności: osada młyńska, osada leśna, osada rybacka, osada kolejowa, osada po byłym państwowym gospodarstwie rolnym; osada może być samodzielna lub może stanowić część innej jednostki osadniczej."@pl ,
+                                "niewielka miejscowość, niemająca praw osiedla czy miasta; też: mieszkańcy takiej miejscowości"@pl ,
+                                "osiedle typu wiejskiego pośrednie między wsią a miasteczkiem; kolonia, mieszkańcy tego osiedla"@pl ,
+                                "t. 22, s. 99: 1. Osiedle, miejsce zamieszkałe przez osadzoną ludność, terytorium zamieszkałe, -- a. Siedlisko, mieszkanie --; 2. Mieszkańcy osiedla; ludność żyjąca na jakimś terenie --; 3. Miejsce zdatne, dogodne do osiedlenia się --; 4. Zasiedlenie pustego miejsca, colonia."@pl ,
+                                "t. 3, s. 547: osada, koloniia, mieysce, gdzie się nowi mieszkańcy sadowią, eine Kolonie (cf. wola), Pflanzstadt, Pflanzort, Ansiedlung; -- Vd. selizhzhe, preselishe, selitva, naselitva; Rs.  колонїя, селенїе (ob. sieło, sioło), поселенїе, селишьба."@pl ,
+                                "t. 3, s. 836-837: 1.a. miejsce, gdzie ś. nowi mieszkańcy usadowili, kolonja --; b. miejsce zajęte przez mieszkańców, większe od wsi a mniejsze do miasta --; c. [Osiedle] grunt, na którym osadzano chłopa; sadyba, zagroda włościańska"@pl ;
+                   <http://www.w3.org/2004/02/skos/core#altLabel> "посёлок"@ru ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Ansiedlung"@de ,
+                                                                     "Kolonie"@de ,
+                                                                     "Siedlung"@de ,
+                                                                     "kolonia"@pl ,
+                                                                     "miasteczko"@pl ,
+                                                                     "osiedle"@pl ,
+                                                                     "sadyba"@pl ,
+                                                                     "zagroda włościańska"@pl ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "osada"@pl ,
                                                                    "settlement"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit33 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "Niewielka jednostka osadnicza na terenie wiejskim o odmiennym (wyróżniającym się) charakterze zabudowy albo zamieszkana przez ludność związaną z miejscem lub rodzajem pracy, innymi niż wyżej wymienione [osada młyńska, osada leśna, osada rybacka, osada kolejowa, osada po byłem PGR]; źródło: ustawa z dnia 29 sierpnia 2003 r. o urzędowych nazwach miejscowości i obiektów fizjograficznych."@pl ;
+   rdfs:isDefinedBy :document_22
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit33 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "Niewielka jednostka osadnicza na terenie wiejskim o odmiennym(wyróżniającym się) charakterze zabudowy albo zamieszkana przez ludność zwiazaną z określonym miejscem lub rodzajem pracy, w szczególności: osada młyńska, osada leśna, osada rybacka, osada kolejowa, osada po byłym państwowym gospodarstwie rolnym; osada może być samodzielna lub może stanowić część innej jednostki osadniczej."@pl ;
+   rdfs:isDefinedBy :document_9
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit33 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "niewielka miejscowość, niemająca praw osiedla czy miasta; też: mieszkańcy takiej miejscowości"@pl ;
+   rdfs:isDefinedBy :document_3 ,
+                    <https://sjp.pwn.pl/sjp/osada;2496282.html>
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit33 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "osiedle typu wiejskiego pośrednie między wsią a miasteczkiem; kolonia, mieszkańcy tego osiedla"@pl ;
+   rdfs:isDefinedBy :document_4 ,
+                    <https://sjp.pwn.pl/doroszewski/osada;5467524.html>
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit33 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 22, s. 99: 1. Osiedle, miejsce zamieszkałe przez osadzoną ludność, terytorium zamieszkałe, -- a. Siedlisko, mieszkanie --; 2. Mieszkańcy osiedla; ludność żyjąca na jakimś terenie --; 3. Miejsce zdatne, dogodne do osiedlenia się --; 4. Zasiedlenie pustego miejsca, colonia."@pl ;
+   rdfs:isDefinedBy :document_2
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit33 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 3, s. 547: osada, koloniia, mieysce, gdzie się nowi mieszkańcy sadowią, eine Kolonie (cf. wola), Pflanzstadt, Pflanzort, Ansiedlung; -- Vd. selizhzhe, preselishe, selitva, naselitva; Rs.  колонїя, селенїе (ob. sieło, sioło), поселенїе, селишьба."@pl ;
+   rdfs:isDefinedBy :document_1
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit33 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 3, s. 836-837: 1.a. miejsce, gdzie ś. nowi mieszkańcy usadowili, kolonja --; b. miejsce zajęte przez mieszkańców, większe od wsi a mniejsze do miasta --; c. [Osiedle] grunt, na którym osadzano chłopa; sadyba, zagroda włościańska"@pl ;
+   rdfs:isDefinedBy :document_5
+ ] .
 
 
 ###  http://purl.org/ontohgis#settlement_unit34
