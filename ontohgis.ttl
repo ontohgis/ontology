@@ -5665,15 +5665,107 @@ Występuje na mapach w nazwach miejscowości (letn.), ale nie w kluczach znaków
                    :hasOntologicalVerificator :person_10 ;
                    :hasTranslator :person_5 ,
                                   :person_9 ;
-                   rdfs:comment "In a general meaning, currently obsolete, an expression for every settlement unit (urban or rural one). Understood as such,it had been considered a separate locality."@en ,
-                                "W znaczeniu ogólnym, rzadko obecnie stosowanym, określenie każdej jednostki osadniczej (osiedle miejskie, osiedle wiejskie). W tym znaczeniu jest to osobna miejscowość."@pl ;
+                   rdfs:comment """In a general meaning, currently obsolete, an expression for every settlement unit (urban or rural one). Understood as such, it had been considered a separate locality.
+In urban studies, this notion is derived from a \"neighbouring unit\" idea, covering a group of residential buildings with a service facilities and green areas. As a part of a locality, \"osiedle\" may be recognised by its particular name, physiognomy (i. e. a group of blocks of flats, detached houses), topography (occupied area), and a period, when it was established. 
+In cartography, it may be distinguished by its own name preceded by an abbreviation (i.e. Os. Zdobycz Robotnicza) as well as morphology."""@en ,
+                                """W znaczeniu ogólnym, rzadko obecnie stosowanym, określenie każdej jednostki osadniczej (osiedle miejskie, osiedle wiejskie). W tym znaczeniu jest to osobna miejscowość.
+W urbanistyce (planowaniu przestrzennym) pojęcie osiedla wywodzi się z koncepcji „jednostki sąsiedzkiej”, na którą składa się zespół budynków mieszkalnych wraz z zapleczem obiektów usługowych oraz terenów zielonych. Jako część miejscowości osiedle wyróżnia się poprzez nazwę, swoją fizjonomię (np. osiedle bloków mieszkalnych, domków jednorodzinnych), topografię (jest wyodrębnione przestrzennie), a także przez okres powstania.
+W ujęciu kartograficznym wyodrębnione przez nazwę własną, poprzedzoną  skrótem  kategorii (np. Os. Zdobycz Robotnicza) oraz morfologicznie."""@pl ;
                    rdfs:isDefinedBy "Housing estate is an area covering a group of residential buildings, being an integral part of a city ( a town), or - rarely - a village."@en ,
                                     "Obszar obejmujący zespół budynków mieszkalnych, stanowiący integralną część miasta, a niekiedy wsi."@pl ;
-                   rdfs:label "housting estate"@en ,
+                   rdfs:label "housing developments"@en ,
                               "osiedle"@pl ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "osada (pl), kolonia (pl), część miasta (pl), osiedle willowe (pl), dzielnica (pl), osiedlić (pl), osiedlisko (pl), conlocationen (lat.), die Ansiedlung (de), der Siedlung (de), die Wohnsiedlung (de), settlement (en), housing estate (en), hamlet (en), residential quarter (en)" ;
-                   <http://www.w3.org/2004/02/skos/core#prefLabel> "housting estate"@en ,
+                   rdfs:seeAlso <http://dbpedia.org/page/Housing_development> ,
+                                <http://vocab.getty.edu/aat/300000498> ,
+                                <https://pzgik.geoportal.gov.pl/ontologies/prng/osiedle> ,
+                                <https://www.wikidata.org/wiki/Q2282602> ,
+                                "10. Rodzaj miejscowości (Klasa: AD_RodzajMiejscowosciKod): Zespół mieszkaniowy stanowiący integralną część miasta lub wsi; źródło: ustawa z dnia 29 sierpnia 2003 r. o urzędowych nazwach miejscowości i obiektów fizjograficznych."@pl ,
+                                "12. Typ ciągu komunikacyjnego (Klasa: AD_TypUlicyKod): Część miasta, wsi lub osady, dla której utworzono odrębny spójny zbiór numerów porządkowych nieprzyporządkowanych do żadnej ulicy ani placu."@pl ,
+                                "Rodzaj jednostki pomocniczej (Klasa: AD_RodzajJednostkiPomocniczej): Część miasta lub wsi, której uchwałą rady gminy nadano status jednostki pomocniczej."@pl ,
+                                "t. 2, s. 526: nieduże skupisko budynków miejskich lub wiejskich, zespół bloków mieszkalnych, willowe, przyfabryczne, robotnicze, mieszkaniowe"@pl ,
+                                "t. 20, s. 56: osiedle mieszkaniowe – zespół  mieszkaniowy stanowiący strukturalną jednostkę mieszkaniową w mieście; pojęcie „osiedle mieszkaniowe” wywodzi się z koncepcji jednostki sąsiedzkiej; wielkość osiedla mieszkaniowego wynika z zasięgu pieszego dojścia (600–800 m) do ośrodka usługowego oraz gęstości zaludnienia (5–20 tys. mieszk.) obszaru obsługiwanego przez ten ośrodek. Stanowi zespół budynków mieszkalnych wraz z integralnym zapleczem obiektów usługowych oraz terenów zieleni; niekiedy są wydzielane części osiedli mieszkaniowych – kolonie, złożone z kilku bloków mieszkalnych; kilka osiedli mieszkaniowych tworzy dzielnicę."@pl ,
+                                "t. 22, s. 124: osiedla, osiedlisko – siedziba, gospodarstwo wraz z zabudowaniami"@pl ,
+                                "t. 3, s. 590: osiedlić, na osadzie czyli siedlisku postanowić kogoś, osadzić go; osiedlisko – miejsce osiedlenia, osada, osiadłość"@pl ,
+                                "t. 6, s. 1121: nieduże skupienie siedzib ludzkich (miejskich lub wiejskich); reg. na wsi: dom mieszkalny wraz z zabudowaniami gospodarczymi, zagroda, dostatnie osiedle bogatego chłopa, sołtysowe osiedle"@pl ,
+                                "zespół mieszkaniowy stanowiący integralną część miasta lub wsi"@pl ;
+                   <http://www.w3.org/2004/02/skos/core#altLabel> "Wohnsiedlung"@de ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Ansiedlung"@de ,
+                                                                     "Siedlung"@de ,
+                                                                     "część miasta"@pl ,
+                                                                     "dzielnica"@pl ,
+                                                                     "hamlet"@en ,
+                                                                     "housing estate"@en ,
+                                                                     "kolonia"@pl ,
+                                                                     "osada"@pl ,
+                                                                     "osiedle willowe"@pl ,
+                                                                     "osiedlisko"@pl ,
+                                                                     "residential quarter"@en ,
+                                                                     "settlement"@en ;
+                   <http://www.w3.org/2004/02/skos/core#prefLabel> "housing developments"@en ,
                                                                    "osiedle"@pl .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit34 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "10. Rodzaj miejscowości (Klasa: AD_RodzajMiejscowosciKod): Zespół mieszkaniowy stanowiący integralną część miasta lub wsi; źródło: ustawa z dnia 29 sierpnia 2003 r. o urzędowych nazwach miejscowości i obiektów fizjograficznych."@pl ;
+   rdfs:isDefinedBy :document_22
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit34 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "12. Typ ciągu komunikacyjnego (Klasa: AD_TypUlicyKod): Część miasta, wsi lub osady, dla której utworzono odrębny spójny zbiór numerów porządkowych nieprzyporządkowanych do żadnej ulicy ani placu."@pl ;
+   rdfs:isDefinedBy :document_22
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit34 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "Rodzaj jednostki pomocniczej (Klasa: AD_RodzajJednostkiPomocniczej): Część miasta lub wsi, której uchwałą rady gminy nadano status jednostki pomocniczej."@pl ;
+   rdfs:isDefinedBy :document_22
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit34 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 2, s. 526: nieduże skupisko budynków miejskich lub wiejskich, zespół bloków mieszkalnych, willowe, przyfabryczne, robotnicze, mieszkaniowe"@pl ;
+   rdfs:isDefinedBy :document_19
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit34 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 20, s. 56: osiedle mieszkaniowe – zespół  mieszkaniowy stanowiący strukturalną jednostkę mieszkaniową w mieście; pojęcie „osiedle mieszkaniowe” wywodzi się z koncepcji jednostki sąsiedzkiej; wielkość osiedla mieszkaniowego wynika z zasięgu pieszego dojścia (600–800 m) do ośrodka usługowego oraz gęstości zaludnienia (5–20 tys. mieszk.) obszaru obsługiwanego przez ten ośrodek. Stanowi zespół budynków mieszkalnych wraz z integralnym zapleczem obiektów usługowych oraz terenów zieleni; niekiedy są wydzielane części osiedli mieszkaniowych – kolonie, złożone z kilku bloków mieszkalnych; kilka osiedli mieszkaniowych tworzy dzielnicę."@pl ;
+   rdfs:isDefinedBy :document_21
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit34 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 22, s. 124: osiedla, osiedlisko – siedziba, gospodarstwo wraz z zabudowaniami"@pl ;
+   rdfs:isDefinedBy :document_2
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit34 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 3, s. 590: osiedlić, na osadzie czyli siedlisku postanowić kogoś, osadzić go; osiedlisko – miejsce osiedlenia, osada, osiadłość"@pl ;
+   rdfs:isDefinedBy :document_1
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit34 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 6, s. 1121: nieduże skupienie siedzib ludzkich (miejskich lub wiejskich); reg. na wsi: dom mieszkalny wraz z zabudowaniami gospodarczymi, zagroda, dostatnie osiedle bogatego chłopa, sołtysowe osiedle"@pl ;
+   rdfs:isDefinedBy :document_4
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit34 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "zespół mieszkaniowy stanowiący integralną część miasta lub wsi"@pl ;
+   rdfs:isDefinedBy :document_9
+ ] .
 
 
 ###  http://purl.org/ontohgis#settlement_unit35
@@ -7963,6 +8055,25 @@ rdfs:Class rdf:type owl:Class .
              dc:publisher "Wydawnictwo WILGA"@pl ;
              dc:title "Słownik współczesnego języka polskiego"@pl ;
              rdfs:label "Słownik współczesnego języka polskiego (Wilga)"@pl .
+
+
+###  http://purl.org/ontohgis#document_21
+:document_21 rdf:type owl:NamedIndividual ,
+                      obo:IAO_0000310 ;
+             dc:creator "Wojnowski, Jan" ;
+             dc:date "2001-2005" ;
+             dc:title "Wielka Encyklopedia PWN"@pl ;
+             rdfs:label "Wielka Encyklopedia PWN (2001-2005)"@pl .
+
+
+###  http://purl.org/ontohgis#document_22
+:document_22 rdf:type owl:NamedIndividual ,
+                      obo:IAO_0000310 ;
+             dc:creator "Minister Administracji i Cyfryzacji RP"@pl ;
+             dc:date "2.02.2012" ;
+             dc:title "Rozporządzenie Ministra Administracji i Cyfryzacji z dnia 9 stycznia 2012 r. w sprawie ewidencji miejscowości, ulic i adresów"@pl ;
+             rdfs:label "Rozporządzenie EMUiA (2012)"@pl ;
+             rdfs:seeAlso <http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20120000125> .
 
 
 ###  http://purl.org/ontohgis#document_3
