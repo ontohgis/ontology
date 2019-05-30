@@ -5326,16 +5326,40 @@ Odrębność funkcjonalna – wyróżniana jako rodzaj miejscowości u Bystrzyck
                    :hasOntologicalVerificator :person_10 ;
                    :hasTranslator :person_5 ,
                                   :person_9 ;
-                   rdfs:comment "Included as a kind of locality in Bystrzycki's register as explanatory abbreviation (\"letn.\"). Included on topographic maps as a part of a place name annotation (\"letn.\"), but not in symbology keys (legends); in DBTO10k as \"summer house\" (pol \"dom letniskowy\") in the feature class of single-family residential buildings (BUBD01)."@en ,
-                                "Występuje jako rodzaj miejscowości u Bystrzyckiego w spisie (\"letn.\").Występuje na mapach w nazwach miejscowości (letn.), ale nie w kluczach znaków.W BDOT10k („dom letniskowy”) w klasie budynki mieszkalne jednorodzinne (BUBD01)."@pl ;
+                   rdfs:comment """It can be either a separate locality (e.g. Celestynów) or a part of another locality, morphologically it is most often a complex of (summer) houses (Chylice, Skolimów), but also a typical (based on the interpretation of the topographic map drawing) non-urban built-up area (Choszczówka).
+Included as a kind of locality in Bystrzycki's register as explanatory abbreviation (\"letn.\"). All summer resorts in Bystrzycki's register are located near Warsaw. Exception: Wisła, Zełmianka (Stryj district).
+Included on topographic maps as a part of a place name annotation (\"letn.\"), but not in symbology keys (legends). On the MGI maps, summer resort is one of the types of localities. In DBTO10k as \"summer house\" (pol \"dom letniskowy\") in the feature class of single-family residential buildings (BUBD01)."""@en ,
+                                """Może być albo osobną miejscowością (Celestynów) albo częścią miejscowości. Morfologicznie jest to najczęściej zabudowa złożona z domków letniskowych (Chylice, Skolimów), ale również typowa (na podstawie interpretacji rysunku mapy) zabudowa zwarta niemiejska (Choszczówka). 
+Występuje jako rodzaj miejscowości u Bystrzyckiego w spisie (\"letn.\"). 
+Wszystkie letniska u Bystrzyckiego znajdują się w okolicach Warszawy. Wyjątek: Wisła, Zełmianka (pow. Stryj).
+Występuje na mapach w nazwach miejscowości (letn.), ale nie w kluczach znaków. W legendach map WIG jest to jeden z rodzajów osiedli. W BDOT10k („dom letniskowy”) w klasie budynki mieszkalne jednorodzinne (BUBD01)."""@pl ;
                    rdfs:isDefinedBy "Letnisko to miejscowość o charakterze wypoczynkowym, złożona z domków letniskowych lub posiadająca zwartą zabudowę"@pl ,
                                     "Summer resort is a holiday locality consisting of holiday houses or densely built-up"@en ;
                    rdfs:label "letnisko"@pl ,
                               "summer resort"@en ;
-                   <http://www.w3.org/2004/02/skos/core#altLabel> "osada letniskowa (pol), willa (pol)" ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "uzdrowisko (pl), sanatorium (pl), dom letniskowy (pl)" ;
+                   rdfs:seeAlso <http://vocab.getty.edu/aat/300000547> ,
+                                <http://vocab.getty.edu/aat/300000558> ,
+                                <https://www.wikidata.org/wiki/Q317548> ,
+                                <https://www.wikidata.org/wiki/Q875157> ,
+                                "miejscowość wypoczynkowa; letni pobyt poza miastem w celach wypoczynkowych"@pl ;
+                   <http://www.w3.org/2004/02/skos/core#altLabel> "osada letniskowa"@pl ,
+                                                                  "resort destination"@en ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Erholungsort"@de ,
+                                                                     "dom letniskowy"@pl ,
+                                                                     "resort town"@en ,
+                                                                     "sanatorium"@pl ,
+                                                                     "uzdrowisko"@pl ,
+                                                                     "willa"@pl ,
+                                                                     "курортный город"@ru ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "letnisko"@pl ,
                                                                    "summer resort"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit25 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "miejscowość wypoczynkowa; letni pobyt poza miastem w celach wypoczynkowych"@pl ;
+   rdfs:comment :document_4
+ ] .
 
 
 ###  http://purl.org/ontohgis#settlement_unit27
