@@ -4747,7 +4747,7 @@ If it has its a particular (proper) name, it can be treated as a separate locali
    owl:annotatedSource :settlement_unit137 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Teren zakładu górniczego, zajmującego się wydobywaniem z ziemi kopalin użytecznych. Ze względu na sposób wydobycia rozróżnia się kopalnie odkrywkowe (naziemne), głębinowe (podziemne) i otworowe."@pl ;
-   rdfs:comment :document_9
+   rdfs:isDefinedBy :document_9
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -5115,7 +5115,8 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                    rdfs:comment "Colony is usually a part of another locality, more rarely, although these are not exceptional cases, it can have the status of a separate locality, usually a village. Both in the case where the colony is a separate locality or it is apart of another one, it is always located near the village (village or - sometimes - small town) from which its name is derived. On topographic maps, a colony is distinguished mainly by the explanatory abbreviation (pol.: kol.), by its own name, and morphologically."@en ,
                                 "Kolonia jest przeważnie częścią miejscowości, rzadziej, choć nie są to wyjątkowe przypadki, ma obecnie status odrębnej miejscowości, z reguły wsi. Zarówno w przypadku, gdy kolonia jest odrębną miejscowością jak i częścią miejscowości, zawsze znajduje się w pobliżu miejscowości (wsi a wyjątkowo małego miasta) od której pochodzi jej nazwa. W ujęciu kartograficznym wyodrębniona przede wszystkim przez skrót kategorii (kol.), nazwę własną, oraz morfologicznie."@pl ;
                    rdfs:isDefinedBy "Colony (pol. kolonia) is a built-up area located away from previously existing buildings (locality) to which it is related. It is created on newly developed land allocated as a result of enfranchisement, parceling, consolidation, or internal migration."@en ,
-                                    "Kolonia jest to obszar zabudowany oddalony od wcześniej istniejącej zabudowy, od której jest zależna, powstały na nowo zagospodarowanych gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji lub migracji wewnętrznej."@pl ;
+                                    "Kolonia jest to obszar zabudowany oddalony od wcześniej istniejącej zabudowy, od której jest zależna, powstały na nowo zagospodarowanych gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji lub migracji wewnętrznej."@pl ,
+                                    "t. 2,  s. 240: zabudowa, osiedle, domy znajdujące się z dala od miasta, wsi, osady; kolonia mieszkaniowa na przedmieściach, kolonia położona daleko za wsią, gospodarstwo rolne położone za wsią, posiadłość ziemska z dala od innych."@pl ;
                    rdfs:label "colony"@en ,
                               "kolonia"@pl ;
                    rdfs:seeAlso <http://gov.genealogy.net/types.owl#121> ,
@@ -5124,7 +5125,6 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                 "Jednostka osadnicza powstała jako rezultat ekspansji miejscowości poza obszar wcześniej istniejącej zabudowy, w szczególności kolonia miasta, kolonia wsi."@pl ,
                                 "t. 1, s. 900: Osiedla mieszkaniowe położone z dala od centrum miasta, osady: niewielka posiadłość ziemska , nowa osada lub gospodarstwo rolne na gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji, migracji wewnętrznej itp."@pl ,
                                 "t. 1-2, s. 1566: część miejscowości, zwykle  z dale od jej centrum, składająca się z nowobudowanych domostw, will, itp."@pl ,
-                                "t. 2,  s. 240: zabudowa, osiedle, domy znajdujące się z dala od miasta, wsi, osady; kolonia mieszkaniowa na przedmieściach, kolonia położona daleko za wsią, gospodarstwo rolne położone za wsią, posiadłość ziemska z dala od innych."@pl ,
                                 "t. 2, s. 404: mała posiadłość ziemska należąca do przybysza z obcego kraju; osada włościańska po uwłaszczeniu włościan; osada, miejsce, gdzie koloniści osadnicy mieszkają, budy, szopy, majdan."@pl ,
                                 "t. 5, s. 720: kolonia rolna -- gospodarstwo rolne powstałe w oddaleniu od wsi na gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji, itp.; także kilka lub kilkanaście zagród w rozproszeniu -- osada na ziemiach nowo zagospodarowanych"@pl ;
                    <http://www.w3.org/2004/02/skos/core#altLabel> "Kolonie"@de ,
@@ -5144,16 +5144,23 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit20 ;
+   owl:annotatedProperty rdfs:isDefinedBy ;
+   owl:annotatedTarget "t. 2,  s. 240: zabudowa, osiedle, domy znajdujące się z dala od miasta, wsi, osady; kolonia mieszkaniowa na przedmieściach, kolonia położona daleko za wsią, gospodarstwo rolne położone za wsią, posiadłość ziemska z dala od innych."@pl ;
+   rdfs:comment :document_20
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit20 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Jednostka osadnicza powstała jako rezultat ekspansji miejscowości poza obszar wcześniej istniejącej zabudowy, w szczególności kolonia miasta, kolonia wsi."@pl ;
-   rdfs:comment :document_9
+   rdfs:isDefinedBy :document_9
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit20 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 1, s. 900: Osiedla mieszkaniowe położone z dala od centrum miasta, osady: niewielka posiadłość ziemska , nowa osada lub gospodarstwo rolne na gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji, migracji wewnętrznej itp."@pl ;
-   rdfs:comment :document_19
+   rdfs:isDefinedBy :document_19
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -5161,13 +5168,6 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 1-2, s. 1566: część miejscowości, zwykle  z dale od jej centrum, składająca się z nowobudowanych domostw, will, itp."@pl ;
    rdfs:isDefinedBy :document_18
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource :settlement_unit20 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "t. 2,  s. 240: zabudowa, osiedle, domy znajdujące się z dala od miasta, wsi, osady; kolonia mieszkaniowa na przedmieściach, kolonia położona daleko za wsią, gospodarstwo rolne położone za wsią, posiadłość ziemska z dala od innych."@pl ;
-   rdfs:comment :document_20
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -5358,7 +5358,7 @@ Występuje na mapach w nazwach miejscowości (letn.), ale nie w kluczach znaków
    owl:annotatedSource :settlement_unit25 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "miejscowość wypoczynkowa; letni pobyt poza miastem w celach wypoczynkowych"@pl ;
-   rdfs:comment :document_4
+   rdfs:isDefinedBy :document_4
  ] .
 
 
@@ -5415,19 +5415,51 @@ Występuje na mapach w nazwach miejscowości (letn.), ale nie w kluczach znaków
                    :hasLanguageVerificator :person_1 ;
                    :hasOntologicalVerificator :person_10 ;
                    :hasTranslator :person_5 ;
-                   rdfs:comment "Miasteczko z zasady jest odrębną miejscowością."@pl ,
-                                "Town is always (ex definitione) a separate locality."@en ;
+                   rdfs:comment "Miasteczko z zasady jest odrębną miejscowością. Na ziemiach polskich nie istniało rozróżnienie formalne między miastem i miasteczkiem, funkcjonowało ono natomiast na niektórych obszarach Rzeszy Niemieckiej (Flecken, Marktsiedlung - Stadt)."@pl ,
+                                "Town is always (ex definitione) a separate locality. On the Polish lands, there was no formal distinction between the city and the town, but such distinction was present in some areas of the German Reich (Flecken, Marktsiedlung - Stadt)."@en ;
                    rdfs:isDefinedBy "Miasteczko to małe miasto, odróżniające się od dużych miast wielkością (liczoną według miary właściwej dla danej epoki i regionu) i stopniem złożoności."@pl ,
-                                    "Town (pol \"miasteczko\") is a small city, distniguished from larger cities by it size (estimated by standards appropriate for given period and region) and complexity."@en ;
+                                    "Town (pol. miasteczko) is a small city, distniguished from larger cities by it size (estimated by standards appropriate for given period and region) and complexity."@en ;
                    rdfs:label "miasteczko"@pl ,
                               "town"@en ;
                    rdfs:seeAlso <http://dbpedia.org/ontology/Town> ,
                                 <http://gov.genealogy.net/types.owl#51> ,
-                                <http://linkedgeodata.org/ontology/Town> ;
-                   <http://www.w3.org/2004/02/skos/core#altLabel> "oppidum (lat), oppidulum (lat), Städtchen (de), Flecken (de)" ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "miasto (pl), osada targowa (pl)" ;
+                                <http://linkedgeodata.org/ontology/Town> ,
+                                <http://vocab.getty.edu/aat/300008375> ,
+                                <https://www.wikidata.org/wiki/Q3957> ,
+                                "małe miasto, -- przen. ludność małego miasta"@pl ,
+                                "małe miasto; pot. mieszkańcy małego miasta"@pl ,
+                                "t. 13, s. 369-372: 1. Od znacz. 'miejsce' --; 2. Od znacz. 'wytyczony i najczęściej otoczony murem teren pokryty gęstą i planową zabudową"@pl ;
+                   <http://www.w3.org/2004/02/skos/core#altLabel> "Städtchen"@de ,
+                                                                  "oppidulum"@la ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Flecken"@de ,
+                                                                     "miasto"@pl ,
+                                                                     "oppidum"@la ,
+                                                                     "osada targowa"@pl ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "miasteczko"@pl ,
                                                                    "town"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit28 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "małe miasto, -- przen. ludność małego miasta"@pl ;
+   rdfs:isDefinedBy :document_4 ,
+                    <https://sjp.pwn.pl/doroszewski/miasteczko;5451005.html>
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit28 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "małe miasto; pot. mieszkańcy małego miasta"@pl ;
+   rdfs:isDefinedBy :document_3 ,
+                    <https://sjp.pwn.pl/sjp/miasteczko;2482785.html>
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit28 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 13, s. 369-372: 1. Od znacz. 'miejsce' --; 2. Od znacz. 'wytyczony i najczęściej otoczony murem teren pokryty gęstą i planową zabudową"@pl ;
+   rdfs:isDefinedBy :document_2
+ ] .
 
 
 ###  http://purl.org/ontohgis#settlement_unit3
