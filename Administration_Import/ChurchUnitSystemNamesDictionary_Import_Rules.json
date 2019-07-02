@@ -1,1 +1,1 @@
-{"Collections":[{"sheetName":"Sheet1","startColumn":"A","endColumn":"+","startRow":"2","endRow":"+","comment":"","rule":"Individual: @A*(rdf:ID\u003dmm:prepend(\"administrative_system_\", @A*))\nAnnotations: rdfs:label @B*(rdf:PlainLiteral mm:append(\"@pl\"))","active":true}]}
+{"Collections":[{"sheetName":"SQLExport","startColumn":"A","endColumn":"+","startRow":"2","endRow":"+","comment":"","rule":"Individual: @A*(rdf:ID\u003dmm:prepend(\"administrative_system_\", @A*))\nAnnotations: rdfs:label @B*(rdf:PlainLiteral mm:append(\"@pl\"))","active":true}]}
