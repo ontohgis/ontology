@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"Sheet1","startColumn":"A","endColumn":"+","startRow":"2","endRow":"+","comment":"","rule":"Class: @A*(rdf:ID\u003dmm:prepend(\"administrative_type_\", @A*))\nAnnotations: rdfs:label @B*(rdf:PlainLiteral mm:append(\"@\",@C*))","active":true}]}

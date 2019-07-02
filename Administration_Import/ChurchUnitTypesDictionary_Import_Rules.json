@@ -1,0 +1,1 @@
+{"Collections":[{"sheetName":"SQLExport","startColumn":"A","endColumn":"+","startRow":"2","endRow":"+","comment":"","rule":"Class: @A*(rdf:ID\u003dmm:prepend(\"administrative_type_\", @A*))\nSubClassOf: object_3012\nAnnotations: \nrdfs:isDefinedBy @D*(mm:iri), \nisSymbolisedByMeansOf @G*(mm:iri),\nhasExternalIdentifier @A*(xsd:integer)","active":true}]}
