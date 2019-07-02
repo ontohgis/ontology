@@ -1829,7 +1829,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_144
 :administrative_type_144 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_145
+                                         ] ;
                          :hasExternalIdentifier 144 ;
                          :isSymbolisedByMeansOf :map_symbol_210 ;
                          rdfs:isDefinedBy :administrative_system_26 ;
@@ -1841,7 +1845,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_145
 :administrative_type_145 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_146
+                                         ] ;
                          :hasExternalIdentifier 145 ;
                          :isSymbolisedByMeansOf :map_symbol_230 ;
                          rdfs:isDefinedBy :administrative_system_26 ;
@@ -1850,7 +1858,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_146
 :administrative_type_146 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_147
+                                         ] ;
                          :hasExternalIdentifier 146 ;
                          :isSymbolisedByMeansOf :map_symbol_240 ;
                          rdfs:isDefinedBy :administrative_system_26 ;
@@ -1859,7 +1871,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_147
 :administrative_type_147 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_148
+                                         ] ;
                          :hasExternalIdentifier 147 ;
                          :isSymbolisedByMeansOf :map_symbol_200 ;
                          rdfs:isDefinedBy :administrative_system_26 ;
@@ -1872,7 +1888,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_148
 :administrative_type_148 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_149
+                                         ] ;
                          :hasExternalIdentifier 148 ;
                          :isSymbolisedByMeansOf :map_symbol_220 ;
                          rdfs:isDefinedBy :administrative_system_26 ;
@@ -1971,7 +1991,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_157
 :administrative_type_157 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_158
+                                         ] ;
                          :hasExternalIdentifier 157 ;
                          :isSymbolisedByMeansOf :map_symbol_210 ;
                          rdfs:isDefinedBy :administrative_system_27 ;
@@ -1982,7 +2006,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_158
 :administrative_type_158 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_159
+                                         ] ;
                          :hasExternalIdentifier 158 ;
                          :isSymbolisedByMeansOf :map_symbol_230 ;
                          rdfs:isDefinedBy :administrative_system_27 ;
@@ -1991,7 +2019,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_159
 :administrative_type_159 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_160
+                                         ] ;
                          :hasExternalIdentifier 159 ;
                          :isSymbolisedByMeansOf :map_symbol_240 ;
                          rdfs:isDefinedBy :administrative_system_27 ;
@@ -2000,7 +2032,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_160
 :administrative_type_160 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_161
+                                         ] ;
                          :hasExternalIdentifier 160 ;
                          :isSymbolisedByMeansOf :map_symbol_200 ;
                          rdfs:isDefinedBy :administrative_system_27 ;
@@ -2012,7 +2048,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_161
 :administrative_type_161 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_162
+                                         ] ;
                          :hasExternalIdentifier 161 ;
                          :isSymbolisedByMeansOf :map_symbol_220 ;
                          rdfs:isDefinedBy :administrative_system_27 ;
@@ -2098,7 +2138,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_169
 :administrative_type_169 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_170
+                                         ] ;
                          :hasExternalIdentifier 169 ;
                          :isSymbolisedByMeansOf :map_symbol_210 ;
                          rdfs:isDefinedBy :administrative_system_28 ;
@@ -2109,7 +2153,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_170
 :administrative_type_170 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_171
+                                         ] ;
                          :hasExternalIdentifier 170 ;
                          :isSymbolisedByMeansOf :map_symbol_230 ;
                          rdfs:isDefinedBy :administrative_system_28 ;
@@ -2118,7 +2166,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_171
 :administrative_type_171 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_172
+                                         ] ;
                          :hasExternalIdentifier 171 ;
                          :isSymbolisedByMeansOf :map_symbol_200 ;
                          rdfs:isDefinedBy :administrative_system_28 ;
@@ -2129,7 +2181,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_172
 :administrative_type_172 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_173
+                                         ] ;
                          :hasExternalIdentifier 172 ;
                          :isSymbolisedByMeansOf :map_symbol_220 ;
                          rdfs:isDefinedBy :administrative_system_28 ;
@@ -2184,7 +2240,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_177
 :administrative_type_177 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_178
+                                         ] ;
                          :hasExternalIdentifier 177 ;
                          :isSymbolisedByMeansOf :map_symbol_210 ;
                          rdfs:isDefinedBy :administrative_system_29 ;
@@ -2197,7 +2257,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_178
 :administrative_type_178 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_179
+                                         ] ;
                          :hasExternalIdentifier 178 ;
                          :isSymbolisedByMeansOf :map_symbol_230 ;
                          rdfs:isDefinedBy :administrative_system_29 ;
@@ -2224,7 +2288,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_180
 :administrative_type_180 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_181
+                                         ] ;
                          :hasExternalIdentifier 180 ;
                          :isSymbolisedByMeansOf :map_symbol_210 ;
                          rdfs:isDefinedBy :administrative_system_30 ;
@@ -2237,7 +2305,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_181
 :administrative_type_181 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_182
+                                         ] ;
                          :hasExternalIdentifier 181 ;
                          :isSymbolisedByMeansOf :map_symbol_230 ;
                          rdfs:isDefinedBy :administrative_system_30 ;
@@ -2264,7 +2336,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_183
 :administrative_type_183 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_184
+                                         ] ;
                          :hasExternalIdentifier 183 ;
                          :isSymbolisedByMeansOf :map_symbol_210 ;
                          rdfs:isDefinedBy :administrative_system_31 ;
@@ -2277,7 +2353,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_184
 :administrative_type_184 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_185
+                                         ] ;
                          :hasExternalIdentifier 184 ;
                          :isSymbolisedByMeansOf :map_symbol_230 ;
                          rdfs:isDefinedBy :administrative_system_31 ;
@@ -2304,7 +2384,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_186
 :administrative_type_186 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_187
+                                         ] ;
                          :hasExternalIdentifier 186 ;
                          :isSymbolisedByMeansOf :map_symbol_210 ;
                          rdfs:isDefinedBy :administrative_system_32 ;
@@ -2318,7 +2402,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_187
 :administrative_type_187 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_188
+                                         ] ;
                          :hasExternalIdentifier 187 ;
                          :isSymbolisedByMeansOf :map_symbol_270 ;
                          rdfs:isDefinedBy :administrative_system_32 ;
@@ -2328,7 +2416,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_188
 :administrative_type_188 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_189
+                                         ] ;
                          :hasExternalIdentifier 188 ;
                          :isSymbolisedByMeansOf :map_symbol_230 ;
                          rdfs:isDefinedBy :administrative_system_32 ;
@@ -2337,7 +2429,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_189
 :administrative_type_189 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_190
+                                         ] ;
                          :hasExternalIdentifier 189 ;
                          :isSymbolisedByMeansOf :map_symbol_200 ;
                          rdfs:isDefinedBy :administrative_system_32 ;
@@ -2393,7 +2489,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_194
 :administrative_type_194 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_195
+                                         ] ;
                          :hasExternalIdentifier 194 ;
                          :isSymbolisedByMeansOf :map_symbol_210 ;
                          rdfs:isDefinedBy :administrative_system_33 ;
@@ -2407,7 +2507,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_195
 :administrative_type_195 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_196
+                                         ] ;
                          :hasExternalIdentifier 195 ;
                          :isSymbolisedByMeansOf :map_symbol_230 ;
                          rdfs:isDefinedBy :administrative_system_33 ;
@@ -2431,7 +2535,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_197
 :administrative_type_197 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_198
+                                         ] ;
                          :hasExternalIdentifier 197 ;
                          :isSymbolisedByMeansOf :map_symbol_210 ;
                          rdfs:isDefinedBy :administrative_system_34 ;
@@ -2445,7 +2553,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_198
 :administrative_type_198 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_199
+                                         ] ;
                          :hasExternalIdentifier 198 ;
                          :isSymbolisedByMeansOf :map_symbol_270 ;
                          rdfs:isDefinedBy :administrative_system_34 ;
@@ -2456,7 +2568,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_199
 :administrative_type_199 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_200
+                                         ] ;
                          :hasExternalIdentifier 199 ;
                          :isSymbolisedByMeansOf :map_symbol_230 ;
                          rdfs:isDefinedBy :administrative_system_34 ;
@@ -2479,7 +2595,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_200
 :administrative_type_200 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_201
+                                         ] ;
                          :hasExternalIdentifier 200 ;
                          :isSymbolisedByMeansOf :map_symbol_200 ;
                          rdfs:isDefinedBy :administrative_system_34 ;
@@ -2491,7 +2611,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_201
 :administrative_type_201 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_202
+                                         ] ;
                          :hasExternalIdentifier 201 ;
                          :isSymbolisedByMeansOf :map_symbol_220 ;
                          rdfs:isDefinedBy :administrative_system_34 ;
@@ -2510,7 +2634,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_203
 :administrative_type_203 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_204
+                                         ] ;
                          :hasExternalIdentifier 203 ;
                          :isSymbolisedByMeansOf :map_symbol_210 ;
                          rdfs:isDefinedBy :administrative_system_35 ;
@@ -2524,7 +2652,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_204
 :administrative_type_204 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_205
+                                         ] ;
                          :hasExternalIdentifier 204 ;
                          :isSymbolisedByMeansOf :map_symbol_200 ;
                          rdfs:isDefinedBy :administrative_system_35 ;
@@ -2545,7 +2677,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_206
 :administrative_type_206 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_207
+                                         ] ;
                          :hasExternalIdentifier 206 ;
                          :isSymbolisedByMeansOf :map_symbol_210 ;
                          rdfs:isDefinedBy :administrative_system_36 ;
@@ -2556,7 +2692,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_207
 :administrative_type_207 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_208
+                                         ] ;
                          :hasExternalIdentifier 207 ;
                          :isSymbolisedByMeansOf :map_symbol_200 ;
                          rdfs:isDefinedBy :administrative_system_36 ;
@@ -2577,7 +2717,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_209
 :administrative_type_209 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_210
+                                         ] ;
                          :hasExternalIdentifier 209 ;
                          :isSymbolisedByMeansOf :map_symbol_210 ;
                          rdfs:isDefinedBy :administrative_system_37 ;
@@ -2588,7 +2732,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_210
 :administrative_type_210 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_211
+                                         ] ;
                          :hasExternalIdentifier 210 ;
                          :isSymbolisedByMeansOf :map_symbol_200 ;
                          rdfs:isDefinedBy :administrative_system_37 ;
@@ -2608,7 +2756,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_212
 :administrative_type_212 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_213
+                                         ] ;
                          :hasExternalIdentifier 212 ;
                          :isSymbolisedByMeansOf :map_symbol_210 ;
                          rdfs:isDefinedBy :administrative_system_38 ;
@@ -2623,7 +2775,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_213
 :administrative_type_213 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_214
+                                         ] ;
                          :hasExternalIdentifier 213 ;
                          :isSymbolisedByMeansOf :map_symbol_230 ;
                          rdfs:isDefinedBy :administrative_system_38 ;
@@ -2633,7 +2789,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_214
 :administrative_type_214 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_215
+                                         ] ;
                          :hasExternalIdentifier 214 ;
                          :isSymbolisedByMeansOf :map_symbol_200 ;
                          rdfs:isDefinedBy :administrative_system_38 ;
@@ -2654,7 +2814,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_216
 :administrative_type_216 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_217
+                                         ] ;
                          :hasExternalIdentifier 216 ;
                          :isSymbolisedByMeansOf :map_symbol_260 ;
                          rdfs:isDefinedBy :administrative_system_39 ;
@@ -2663,7 +2827,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_217
 :administrative_type_217 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_218
+                                         ] ;
                          :hasExternalIdentifier 217 ;
                          :isSymbolisedByMeansOf :map_symbol_210 ;
                          rdfs:isDefinedBy :administrative_system_39 ;
@@ -2673,7 +2841,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_218
 :administrative_type_218 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_219
+                                         ] ;
                          :hasExternalIdentifier 218 ;
                          :isSymbolisedByMeansOf :map_symbol_270 ;
                          rdfs:isDefinedBy :administrative_system_39 ;
@@ -2684,7 +2856,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_219
 :administrative_type_219 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_220
+                                         ] ;
                          :hasExternalIdentifier 219 ;
                          :isSymbolisedByMeansOf :map_symbol_230 ;
                          rdfs:isDefinedBy :administrative_system_39 ;
@@ -2695,7 +2871,11 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
 
 ###  http://purl.org/ontohgis#administrative_type_220
 :administrative_type_220 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ;
+                         rdfs:subClassOf :object_3012 ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty obo:BFO_0000051 ;
+                                           owl:someValuesFrom :administrative_type_221
+                                         ] ;
                          :hasExternalIdentifier 220 ;
                          :isSymbolisedByMeansOf :map_symbol_200 ;
                          rdfs:isDefinedBy :administrative_system_39 ;
