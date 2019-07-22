@@ -3228,6 +3228,7 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                         ] ;
                         :hasExternalIdentifier 46 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
+                        rdfs:comment "Do kategorii powiatów należą też miasta na prawach powiatu (66)"@pl ;
                         rdfs:isDefinedBy :administrative_system_3 ;
                         rdfs:label "district"@en ,
                                    "powiat"@pl ;
@@ -3279,9 +3280,15 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                         ] ;
                         :hasExternalIdentifier 49 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
+                        rdfs:comment "Jednostka najniższego rzędu wprowadzona na skutek reformy włościańskiej w 1861 r."@pl ,
+                                     "small rural district"@en ;
                         rdfs:isDefinedBy :administrative_system_8 ;
                         rdfs:label "gmina"@pl ,
-                                   "волость"@ru .
+                                   "volost"@en ,
+                                   "волость"@ru ;
+                        rdfs:seeAlso <http://dbpedia.org/page/Volost> ,
+                                     <http://gov.genealogy.net/types.owl#241> ,
+                                     <https://www.wikidata.org/wiki/Q687121> .
 
 
 ###  http://purl.org/ontohgis#administrative_type_5
@@ -3303,10 +3310,15 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                         ] ;
                         :hasExternalIdentifier 50 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
+                        rdfs:comment "Niekiedy zamiasto określenia powiat używano określenia okręg"@pl ;
                         rdfs:isDefinedBy :administrative_system_8 ;
                         rdfs:label "powiat"@pl ,
+                                   "uyezd"@en ,
                                    "округ"@ru ,
-                                   "уезд"@ru .
+                                   "уезд"@ru ;
+                        rdfs:seeAlso <http://dbpedia.org/page/Uyezd> ,
+                                     <http://gov.genealogy.net/types.owl#240> ,
+                                     <https://www.wikidata.org/wiki/Q1364324> .
 
 
 ###  http://purl.org/ontohgis#administrative_type_51
@@ -3318,9 +3330,16 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                         ] ;
                         :hasExternalIdentifier 51 ;
                         :isSymbolisedByMeansOf :map_symbol_40 ;
+                        rdfs:comment "Obwody występowały jako jednostka pośrednia między namiestnictwem lub gubernią a powiatem w przypadku rozległych jednostek terytorialnych"@pl ;
                         rdfs:isDefinedBy :administrative_system_8 ;
-                        rdfs:label "obwód"@pl ,
-                                   "область"@ru .
+                        rdfs:label "oblast"@en ,
+                                   "obwód"@pl ,
+                                   "область"@ru ;
+                        rdfs:seeAlso <http://dbpedia.org/page/Oblast> ,
+                                     <http://gov.genealogy.net/types.owl#38> ,
+                                     <https://www.wikidata.org/wiki/Q7075127> ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "county"@en ,
+                                                                       "region"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_52
@@ -3334,7 +3353,12 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_8 ;
                         rdfs:label "gubernia"@pl ,
-                                   "губерния"@ru .
+                                   "guberniya"@en ,
+                                   "губерния"@ru ;
+                        rdfs:seeAlso <http://dbpedia.org/page/Governorate_(Russia)> ,
+                                     <http://gov.genealogy.net/types.owl#157> ,
+                                     <https://www.wikidata.org/wiki/Q86622> ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "governorate"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_53
@@ -3345,7 +3369,12 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_8 ;
                         rdfs:label "gubernia"@pl ,
-                                   "губерния"@ru .
+                                   "guberniya"@en ,
+                                   "губерния"@ru ;
+                        rdfs:seeAlso <http://dbpedia.org/page/Governorate_(Russia)> ,
+                                     <http://gov.genealogy.net/types.owl#157> ,
+                                     <https://www.wikidata.org/wiki/Q86622> ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "governorate"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_54
@@ -3354,9 +3383,16 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                         :object_3014 ;
                         :hasExternalIdentifier 54 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
+                        rdfs:comment "Obwody na prawach guberni"@pl ;
                         rdfs:isDefinedBy :administrative_system_8 ;
-                        rdfs:label "obwód"@pl ,
-                                   "область"@ru .
+                        rdfs:label "oblast"@en ,
+                                   "obwód"@pl ,
+                                   "область"@ru ;
+                        rdfs:seeAlso <http://dbpedia.org/page/Oblast> ,
+                                     <http://gov.genealogy.net/types.owl#38> ,
+                                     <https://www.wikidata.org/wiki/Q7075127> ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "county"@en ,
+                                                                       "region"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_55
@@ -3365,9 +3401,14 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                                         :object_3014 ;
                         :hasExternalIdentifier 55 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
+                        rdfs:comment "Nazwa jednostki administracyjnej odpowiadającej guberni, która funkcjonowała głównie w latach 1775-1796"@pl ;
                         rdfs:isDefinedBy :administrative_system_8 ;
                         rdfs:label "namiestnictwo"@pl ,
-                                   "наместничество"@ru .
+                                   "vicegerency"@en ,
+                                   "наместничество"@ru ;
+                        rdfs:seeAlso <http://dbpedia.org/page/Category:Viceroyalties_of_the_Russian_Empire> ,
+                                     <https://www.wikidata.org/wiki/Q4312761> ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "viceroyalty"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_56
@@ -3380,9 +3421,13 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                         :hasExternalIdentifier 56 ;
                         :isSymbolisedByMeansOf :map_symbol_60 ,
                                                :map_symbol_70 ;
+                        rdfs:comment "Była to jednostka skupiająca kilka guberni. Poziom ten nie obejmował całego państwa, gdyż generalne gubernatorstwa były organizowane głównie na teranach przygranicznych; jednostką równoważną na tym poziomie było namiestnictwo kaukaskie"@pl ;
                         rdfs:isDefinedBy :administrative_system_8 ;
                         rdfs:label "generalne gubernatorstwo"@pl ,
-                                   "генерал-губернаторство"@ru .
+                                   "governorate-general"@en ,
+                                   "генерал-губернаторство"@ru ;
+                        rdfs:seeAlso <http://dbpedia.org/page/Governorate-General_(Russian_Empire)> ,
+                                     <https://www.wikidata.org/wiki/Q671370> .
 
 
 ###  http://purl.org/ontohgis#administrative_type_57
@@ -3393,9 +3438,13 @@ oc:VariableEntity rdfs:subClassOf obo:BFO_0000002 .
                         :isSymbolisedByMeansOf :map_symbol_100 ;
                         rdfs:isDefinedBy :administrative_system_8 ;
                         rdfs:label "cesarstwo"@pl ,
-                                   "państwo"@pl ,
-                                   "государство"@ru ,
-                                   "империя"@ru .
+                                   "empire"@en ,
+                                   "империя"@ru ;
+                        rdfs:seeAlso <http://dbpedia.org/page/Empire> ,
+                                     <https://www.wikidata.org/wiki/Q48349> ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "country"@en ,
+                                                                       "państwo"@pl ,
+                                                                       "государство"@ru .
 
 
 ###  http://purl.org/ontohgis#administrative_type_58
@@ -9215,7 +9264,8 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
                          dc:creator :person_6 ;
                          rdfs:comment "This administration system is introduced for the auxiliary purposes, has no historical value and is currently used."@en ,
                                       "Wprowadzenie tego systemu ma rolę pomocniczą, nie ma on charakteru historycznego i jest współcześnie obowiązujący"@pl ;
-                         rdfs:label "Rzeczpospolita Polska (1999-2016)"@pl ;
+                         rdfs:label "Rzeczpospolita Polska (1999-2016)"@pl ,
+                                    "The Republic of Poland (1999-2016)"@en ;
                          rdfs:seeAlso :document_71 ,
                                       :document_92 ,
                                       :document_93 ,
@@ -9455,6 +9505,7 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
                          :individualHasExternalIdentifier 8 ;
                          :startsDominationAt "1796-01-01"^^xsd:date ;
                          rdfs:comment "Dekret Piotra I z dnia 18 grudnia 1708 r.; ukaz Piotra I z dnia 29 maja 1719 r.; dekret Katarzyny II z 7 listopada 1775 r.; dekret Pawa I z 12 grudnia 1796 r.; 1861: reforma uwłaszczeniowa i wprowadzenie gmin"@pl ,
+                                      "The foundation of the administrative divisions were established by Peter the Great's  decree on 18th od December 1708. First, the governorates (gubernjas) were not divided into districts (uyezds). in 1710-1713 they were divided into dolas ( Ru. доля, Ger. Landratsamt). Another reform, so called the second reform of Peter the Great, following a decree of 29th of May 1719, waived the dolas, while the governorates were divided into provinces and consequently districts. In 1727, the districts were abolished, while governorates and provinces were divided into districts (uyezds). On the 7th of November 1775, Catherine the Great decreed an administrative division reform dividing the state into governorates-vicegerencies-circles operating as governorates. The units were divided into districts (uyezds). Some vast governorates were divided into circes (oblasti), which comprised an intermediary level between a vicegerency and district. The decree by Pawel I Romanov, on 12th of December 1796 abolished vicegerencies."@en ,
                                       "Zasadniczy system podziału na gubernie został zapoczątkowany dekretem Piotra I z 18 grudnia 1708 r. W pierwszym okresie gubernie nie dzieliły się na powiaty (ujezdy). W latach 1710-1713 zostały podzielone na dole landrackie (доля). Kolejna reforma, tzw. druga reforma Piotra I, na podstawie ukazu z 29 maja 1719 roku, zniosła dole landrackie, gubernie zostały podzielone na prowincje, zaś prowincje na dystrykty. W 1727 roku zostały zniesione dystrykty, a gubernie i prowincje podzielone na powiaty (ujezdy). 7 listopada 1775 r. Katarzyna II wydała dekret o reformie administracyjnej państwa wprowadzając system podziału na gubernie-namiestnictwa-obwody na prawach guberni. W ramach tych jednostek funkcjonowały powiaty (ujezdy). Niektóre rozległe namiestnictwa dzielone były na zwykłe obwody (obłasti), które tworzyły szczebel pośredni między namiestnictwem (lub gubernią) i powiatem (ujezdem). Ukaz Pawła I z 12 grudnia 1796 r. zamienił namiestnictwa, pozostawiając gubernie i obwody na prawach guberni."@pl ;
                          rdfs:label "Cesarstwo Rosyjskie (1775-1917)"@pl ,
                                     "Russian Empire (1775-1917)"@en ;
@@ -9463,7 +9514,8 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
                                       :document_25 ,
                                       :document_26 ,
                                       :document_27 ,
-                                      :document_28 .
+                                      :document_28 ,
+                                      :document_99 .
 
 
 ###  http://purl.org/ontohgis#administrative_system_9
@@ -9644,7 +9696,7 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
              dc:creator "Зайончковский П.А." ;
              dc:date 1978 ;
              dc:title "Правительственный аппарат самодержавной России"@ru ;
-             rdfs:label "Zayonchkovskiy P.A., Pravitel'stvennyy apparat samoderzhavnoy Rossii"@en ,
+             rdfs:label "Zajončkovskij P.A., Pravitelʹstvennyj apparat samoderžavnoj Rossii"@en ,
                         "Зайончковский П.А., Правительственный аппарат самодержавной России"@ru .
 
 
@@ -9654,7 +9706,7 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
              dc:creator "Рассолов Г.А."@ru ;
              dc:date 2005 ;
              dc:title "Институт генерал-губернаторства в Российской империи"@ru ;
-             rdfs:label "Rassolov G.A., Institut general-gubernatorstva v Rossiyskoy imperii"@en ,
+             rdfs:label "Rassolov G.A., Institut general-gubernatorstva v Rossijskoj imperii"@en ,
                         "Рассолов Г.А., Институт генерал-губернаторства в Российской империи"@ru ;
              rdfs:seeAlso "http://www.dissercat.com/content/institut-general-gubernatorstva-v-rossiiskoi-imperii-1775-g-konets-xix-v" .
 
@@ -9677,7 +9729,7 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
              dc:date 2005 ;
              dc:identifier "„Логос“, 1 (46), 2005, s. 65–101" ;
              dc:title "Изменение административно-территориального деления России в XIII—XX вв"@ru ;
-             rdfs:label "Tarkhov S.A., Izmeneniye administrativno-territorial'nogo deleniya Rossii v XIII—XX vv"@en ,
+             rdfs:label "Tarhov S.A., Izmenenie administrativno-territorialʹnogo deleniâ Rossii v XIII—XX vv"@en ,
                         "Тархов С.А., Изменение административно-территориального деления России в XIII—XX вв"@ru .
 
 
@@ -9687,8 +9739,8 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
              dc:creator "Peдин, Д." ;
              dc:identifier "Pедин, Дмитрий, Ландратура Санкт-Петербургской губернии, „Res Historica“, 44, 2017, s. 75–88."@ru ;
              dc:title "Ландратура Санкт-Петербургской губернии: штат, функции, место в системе управления (mатериалы к исследованию)"@ru ;
-             rdfs:label "Redin D., Landratura Sankt-Peterburgskoy gubernii..."@en ,
-                        "Редин Д., Ландратура Санкт-Петербургской губернии..."@ru .
+             rdfs:label "Redin D., Landratura Sankt-Peterburgskoj gubernii"@en ,
+                        "Редин Д., Ландратура Санкт-Петербургской губернии"@ru .
 
 
 ###  http://purl.org/ontohgis#document_29
@@ -10425,6 +10477,16 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
              dc:identifier "\"Europe-Asia Studies\", 55 (2), pp. 263-286."@en ;
              dc:title "Decentralisation and regionalisation after communism: administrative and territorial reform in Poland and the Czech Republic"@en ;
              rdfs:label "Yoder, Decentralisation and regionalisation after communism"@en .
+
+
+###  http://purl.org/ontohgis#document_99
+:document_99 rdf:type owl:NamedIndividual ,
+                      obo:IAO_0000310 ;
+             dc:creator "Egorova, Tatiana P." ;
+             dc:date 2018 ;
+             dc:identifier "\"Astra Salvensis\", Jan. 2018, pp. 593–602"@en ;
+             dc:title "Evolution of Administrative and Territorial Transformations in the XVIII Century Northeastern Asian Part of Russia"@en ;
+             rdfs:label "Egorova et al., Evolution of Administrative and Territorial Transformations"@en .
 
 
 ###  http://purl.org/ontohgis#function1
