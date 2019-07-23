@@ -1903,10 +1903,19 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 144 ;
                          :isSymbolisedByMeansOf :map_symbol_210 ;
                          rdfs:isDefinedBy :administrative_system_26 ;
-                         rdfs:label "parafia"@pl ,
+                         rdfs:label "Pfarre"@de ,
+                                    "parafia"@pl ,
+                                    "parish"@en ,
                                     "parochia"@la ,
                                     "парафия"@ru ,
-                                    "приход"@ru .
+                                    "приход"@ru ;
+                         rdfs:seeAlso <http://dbpedia.org/page/Parish_(Catholic_Church)> ,
+                                      <http://gov.genealogy.net/types.owl#29> ,
+                                      <http://gov.genealogy.net/types.owl#42> ,
+                                      <http://vocab.getty.edu/aat/300000773> ,
+                                      <https://www.wikidata.org/wiki/Q17143723> ;
+                         <http://www.w3.org/2004/02/skos/core#hiddenLabel> "community"@en ,
+                                                                           "gmina"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_145
@@ -1919,7 +1928,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 145 ;
                          :isSymbolisedByMeansOf :map_symbol_230 ;
                          rdfs:isDefinedBy :administrative_system_26 ;
-                         rdfs:label "dekanat-archiprezbiterat-wikariat okręgowy"@pl .
+                         rdfs:label "deanery-archpresbyterate-forane vicariate"@en ,
+                                    "dekanat-archiprezbiterat-wikariat okręgowy"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_146
@@ -1932,7 +1942,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 146 ;
                          :isSymbolisedByMeansOf :map_symbol_240 ;
                          rdfs:isDefinedBy :administrative_system_26 ;
-                         rdfs:label "archidiakonat-dziekania-prepozytura-terytorium"@pl .
+                         rdfs:label "archdeaconry-deaconry-provostship-territory"@en ,
+                                    "archidiakonat-dziekania-prepozytura-terytorium"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_147
@@ -1944,12 +1955,20 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          ] ;
                          :hasExternalIdentifier 147 ;
                          :isSymbolisedByMeansOf :map_symbol_200 ;
+                         rdfs:comment "szczególną kategorią diecezji, jest diecezja metropolitalna zwana inaczej archidiecezją, pozostałe diecezje w metropolii nazywane są sufraganiami"@pl ;
                          rdfs:isDefinedBy :administrative_system_26 ;
-                         rdfs:label "archidiecezja"@pl ,
-                                    "biskupstwo"@pl ,
+                         rdfs:label "Diözese"@de ,
                                     "diecezja"@pl ,
-                                    "dioecesis"@lt ,
-                                    "sufragania"@pl .
+                                    "diocese"@en ,
+                                    "dioecesis"@la ;
+                         rdfs:seeAlso <http://dbpedia.org/page/Diocese> ,
+                                      <http://gov.genealogy.net/types.owl#11> ,
+                                      <http://vocab.getty.edu/aat/300000799> ,
+                                      <https://www.wikidata.org/wiki/Q665487> ;
+                         <http://www.w3.org/2004/02/skos/core#hiddenLabel> "archidiecezja"@pl ,
+                                                                           "arcybiskupstwo"@pl ,
+                                                                           "biskupstwo"@pl ,
+                                                                           "sufragania"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_148
@@ -1964,7 +1983,12 @@ obo:IAO_0000590 rdf:type owl:Class .
                          rdfs:isDefinedBy :administrative_system_26 ;
                          rdfs:label "metropolia"@pl ,
                                     "metropolis"@la ,
-                                    "prowincja"@pl .
+                                    "metropoly"@en ;
+                         rdfs:seeAlso <http://dbpedia.org/page/Metropolis_(religious_jurisdiction)> ,
+                                      <https://www.wikidata.org/wiki/Q427961> ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "ecclesiastical province"@en ,
+                                                                        "metropolis"@en ,
+                                                                        "prowincja kościelna"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_149
@@ -1973,7 +1997,14 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 149 ;
                          :isSymbolisedByMeansOf :map_symbol_250 ;
                          rdfs:isDefinedBy :administrative_system_26 ;
-                         rdfs:label "państwo kościelne"@pl .
+                         rdfs:label "Holy See"@en ,
+                                    "Sancta Sedes"@la ,
+                                    "państwo kościelne"@pl ;
+                         rdfs:seeAlso <http://dbpedia.org/page/Holy_See> ,
+                                      <http://vocab.getty.edu/tgn/7001168> ,
+                                      <https://www.wikidata.org/wiki/Q159583> ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "Holy State"@en ;
+                         <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Stolica Apostolska"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_150
@@ -1982,10 +2013,21 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          :object_3012 ;
                          :hasExternalIdentifier 150 ;
                          :isSymbolisedByMeansOf :map_symbol_230 ;
+                         rdfs:comment "podział na dekanaty był wprowadzany od XII wieku"@pl ;
                          rdfs:isDefinedBy :administrative_system_26 ;
-                         rdfs:label "decanatus"@la ,
+                         rdfs:label "deanery"@en ,
+                                    "decanatus"@la ,
                                     "decanatus ruralis"@la ,
-                                    "dekanat"@pl .
+                                    "dekanat"@pl ;
+                         rdfs:seeAlso <http://dbpedia.org/page/Deanery> ,
+                                      <http://gov.genealogy.net/types.owl#9> ,
+                                      <https://www.wikidata.org/wiki/Q385337> ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "decanate"@en ;
+                         <http://www.w3.org/2004/02/skos/core#hiddenLabel> "archiprezbiterat"@pl ,
+                                                                           "archpresbyterate"@en ,
+                                                                           "deaconship"@en ,
+                                                                           "forane vicariate"@en ,
+                                                                           "wikariat okręgowy"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_151
@@ -1994,9 +2036,18 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          :object_3012 ;
                          :hasExternalIdentifier 151 ;
                          :isSymbolisedByMeansOf :map_symbol_230 ;
+                         rdfs:comment "dotyczy diecezji wrocławskiej oraz diecezji pruskich"@pl ;
                          rdfs:isDefinedBy :administrative_system_26 ;
                          rdfs:label "archipresbyteratus"@la ,
-                                    "archiprezbiterat"@pl .
+                                    "archiprezbiterat"@pl ,
+                                    "archpresbyterate"@en ;
+                         rdfs:seeAlso <http://dbpedia.org/page/Archpriest> ,
+                                      <https://www.merriam-webster.com/dictionary/archpresbyterate> ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "archpresbiteriate"@en ;
+                         <http://www.w3.org/2004/02/skos/core#hiddenLabel> "deanery"@en ,
+                                                                           "dekanat"@pl ,
+                                                                           "forane vicariate"@en ,
+                                                                           "wikariat okręgowy"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_152
@@ -2006,9 +2057,18 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 152 ;
                          :isSymbolisedByMeansOf :map_symbol_230 ;
                          rdfs:isDefinedBy :administrative_system_26 ;
-                         rdfs:label "vicariatus foraneus"@la ,
+                         rdfs:label "forane vicariate"@en ,
+                                    "vicariatus foraneus"@la ,
                                     "wikariat okręgowy"@pl ,
-                                    "wikariat rejonowy"@pl .
+                                    "wikariat rejonowy"@pl ;
+                         rdfs:seeAlso <http://dbpedia.org/page/Archpriest> ,
+                                      <http://dbpedia.org/page/Dean_(Christianity)> ,
+                                      <https://www.britannica.com/topic/vicar-forane> ,
+                                      <https://www.wikidata.org/wiki/Q17632590> ;
+                         <http://www.w3.org/2004/02/skos/core#hiddenLabel> "archiprezbiterat"@pl ,
+                                                                           "archpresbyterate"@en ,
+                                                                           "deanery"@en ,
+                                                                           "dekanat"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_153
@@ -2017,9 +2077,21 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          :object_3012 ;
                          :hasExternalIdentifier 153 ;
                          :isSymbolisedByMeansOf :map_symbol_240 ;
+                         rdfs:comment "podział na archidiakonaty był wprowadzany od XII wieku; archdiakonaty zostały zlikwidowane w II połowie XVIII i początku XIX wieku (zabór austriacki - 1782, 1805, zabór rosyjski - 1818, zabór pruski - 1821)"@pl ;
                          rdfs:isDefinedBy :administrative_system_26 ;
-                         rdfs:label "archidiaconatus"@la ,
-                                    "archidiakonat"@pl .
+                         rdfs:label "archdeaconry"@en ,
+                                    "archidiaconatus"@la ,
+                                    "archidiakonat"@pl ;
+                         rdfs:seeAlso <http://dbpedia.org/page/Archdeacon> ,
+                                      <http://vocab.getty.edu/aat/300387197> ,
+                                      <https://www.wikidata.org/wiki/Q16528361> ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "archdeaconship"@en ;
+                         <http://www.w3.org/2004/02/skos/core#hiddenLabel> "deaconry"@en ,
+                                                                           "dziekania"@pl ,
+                                                                           "prepozytura"@pl ,
+                                                                           "provostship"@en ,
+                                                                           "territory"@en ,
+                                                                           "terytorium"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_154
@@ -2029,8 +2101,16 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 154 ;
                          :isSymbolisedByMeansOf :map_symbol_240 ;
                          rdfs:isDefinedBy :administrative_system_26 ;
-                         rdfs:label "decanatus"@la ,
-                                    "dziekania"@pl .
+                         rdfs:label "deaconry"@en ,
+                                    "decanatus"@la ,
+                                    "dziekania"@pl ;
+                         rdfs:seeAlso <http://vocab.getty.edu/aat/300387196> ;
+                         <http://www.w3.org/2004/02/skos/core#hiddenLabel> "archdeaconry"@en ,
+                                                                           "archidiakonat"@pl ,
+                                                                           "prepozytura"@pl ,
+                                                                           "provostship"@en ,
+                                                                           "territory"@en ,
+                                                                           "terytorium"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_155
@@ -2041,7 +2121,15 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :isSymbolisedByMeansOf :map_symbol_240 ;
                          rdfs:isDefinedBy :administrative_system_26 ;
                          rdfs:label "praepositura"@la ,
-                                    "prepozytura"@pl .
+                                    "prepozytura"@pl ,
+                                    "provostship"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "praeposite"@en ;
+                         <http://www.w3.org/2004/02/skos/core#hiddenLabel> "archdeaconry"@en ,
+                                                                           "archidiakonat"@pl ,
+                                                                           "deaconry"@en ,
+                                                                           "dziekania"@pl ,
+                                                                           "territory"@en ,
+                                                                           "terytorium"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_156
@@ -2052,7 +2140,14 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :isSymbolisedByMeansOf :map_symbol_240 ;
                          rdfs:isDefinedBy :administrative_system_26 ;
                          rdfs:label "territorium"@la ,
-                                    "terytorium"@pl .
+                                    "territory"@en ,
+                                    "terytorium"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#hiddenLabel> "archdeaconry"@en ,
+                                                                           "archidiakonat"@pl ,
+                                                                           "deaconry"@en ,
+                                                                           "dziekania"@pl ,
+                                                                           "prepozytura"@pl ,
+                                                                           "provostship"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_157
@@ -2414,6 +2509,7 @@ obo:IAO_0000590 rdf:type owl:Class .
                                     "Pfarre"@de ,
                                     "gmina"@pl ,
                                     "parafia"@pl ,
+                                    "parish"@en ,
                                     "zbór"@pl .
 
 
@@ -9269,7 +9365,23 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
                           :hasScope "terytorium Polski"^^xsd:string ;
                           :individualHasExternalIdentifier 26 ;
                           :startsDominationAt "1000-01-01"^^xsd:date ;
-                          rdfs:label "Kościół katolicki ob. łacińskiego"@pl .
+                          rdfs:label "Kościół katolicki ob. łacińskiego"@pl ,
+                                     "Latin Church"@en ;
+                          rdfs:seeAlso <http://dbpedia.org/page/Latin_Church> ,
+                                       :document_100 ,
+                                       :document_101 ,
+                                       :document_102 ,
+                                       :document_103 ,
+                                       :document_104 ,
+                                       :document_105 ,
+                                       :document_106 ,
+                                       :document_107 ,
+                                       :document_108 ,
+                                       :document_109 ,
+                                       :document_110 ,
+                                       <https://www.wikidata.org/wiki/Q597526> ;
+                          <http://www.w3.org/2004/02/skos/core#altLabel> "Kościół rzymskokatolicki"@pl ,
+                                                                         "Roman Catholic Church"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_system_27
@@ -9614,11 +9726,119 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
              <http://www.w3.org/2004/02/skos/core#prefLabel> "Deutsche Rechtswörterbuch"@de .
 
 
+###  http://purl.org/ontohgis#document_100
+:document_100 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Pawluk, T." ;
+              dc:date "1973-2014" ;
+              dc:identifier "Encyklopedia katolicka, t. 3, Lublin 1973-2014, s. 1114–1115"@pl ;
+              dc:title "Dekanat"@pl ;
+              rdfs:label "Pawluk, Dekanat"@pl .
+
+
+###  http://purl.org/ontohgis#document_101
+:document_101 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Kumor, B." ;
+              dc:date "1973-2014" ;
+              dc:identifier "Encyklopedia katolicka, t. 1, Lublin 1973-2014, s. 869–873"@pl ;
+              dc:title "Archidiakonat"@pl ;
+              rdfs:label "Kumor, Archidiakonat"@pl .
+
+
+###  http://purl.org/ontohgis#document_102
+:document_102 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Rybczyński, H." ;
+              dc:date "1973-2014" ;
+              dc:identifier "Encyklopedia katolicka, t. 3, Lublin 1973-2014, s. 1307–1309" ;
+              dc:title "Diecezja"@pl ;
+              rdfs:label "Rybczyński, Diecezja"@pl .
+
+
+###  http://purl.org/ontohgis#document_103
+:document_103 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Sitarz, M." ;
+              dc:date "1973-2014" ,
+                      "Encyklopedia katolicka, t. 14, Lublin 1973-2014, s. 1324–1326"@pl ;
+              dc:title "Parafia"@pl ;
+              rdfs:label "Sitarz, Parafia"@pl .
+
+
+###  http://purl.org/ontohgis#document_104
+:document_104 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Kumor, B." ;
+              dc:date 1972 ;
+              dc:title "Granice metropolii i diecezji polskich 966-1939"@pl ;
+              rdfs:label "Kumor, Granice metropolii i diecezji polskich 966-1939"@pl .
+
+
+###  http://purl.org/ontohgis#document_105
+:document_105 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Kumor, B." ;
+              dc:date 1980 ;
+              dc:title "Ustrój i organizacja Kościoła polskiego w okresie niewoli narodowej: (1772-1918)"@pl ;
+              rdfs:label "Kumor, Ustrój i organizacja Kościoła polskiego w okresie niewoli narodowe"@pl .
+
+
+###  http://purl.org/ontohgis#document_106
+:document_106 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Litak, S." ;
+              dc:date "2006"@pl ;
+              dc:title "Atlas Kościoła łacińskiego w Rzeczypospolitej Obojga Narodów w XVIII wieku"@pl ;
+              rdfs:label "Litak, Atlas Kościoła łacińskiego w Rzeczypospolitej Obojga Narodów"@pl .
+
+
+###  http://purl.org/ontohgis#document_107
+:document_107 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Litak, S." ;
+              dc:date 1996 ;
+              dc:identifier "Wspólnoty religijne i narodowe w Rzeczypospolitej w drugiej połowie XVIII wieku, 1" ;
+              dc:title "Kościół łaciński w Rzeczypospolitej około 1772 roku: Struktury administracyjne"@pl ;
+              rdfs:label "Litak, Kościół łaciński w Rzeczypospolitej około 1772 roku: Struktury administracyjne"@pl .
+
+
+###  http://purl.org/ontohgis#document_108
+:document_108 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Szady, B." ;
+              dc:date 2015 ;
+              dc:identifier "„Studia Geohistorica“, 3, 2015, s. 243–257"@pl ;
+              dc:title "Struktury religijne na przykładzie „Atlasu wyznań i religii w Rzeczypospolitej w drugiej połowie XVIII w."@pl ;
+              rdfs:label "Szady, Struktury religijne"@pl .
+
+
+###  http://purl.org/ontohgis#document_109
+:document_109 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Szady, B." ;
+              dc:date 2010 ;
+              dc:title "Geografia struktur religijnych i wyznaniowych w Koronie w II połowie XVIII wieku"@pl ;
+              rdfs:label "Szady, Geografia struktur religijnych i wyznaniowych"@pl .
+
+
 ###  http://purl.org/ontohgis#document_11
 :document_11 rdf:type owl:NamedIndividual ,
                       obo:IAO_0000310 ;
              <http://purl.org/dc/terms/date> "1962-1970"@pl ;
              rdfs:label "Wielka encyklopedia powszechna PWN"@pl .
+
+
+###  http://purl.org/ontohgis#document_110
+:document_110 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Boudinhon, A." ,
+                         "Fanning, W." ;
+              dc:date 1911 ;
+              dc:identifier <http://www.newadvent.org/cathen/11499b.htm> ,
+                            "The Catholic Encyclopedia. New York: Robert Appleton Company. Retrieved June 21, 2019"@en ;
+              dc:title "Parish"@en ;
+              rdfs:label "Boudinhon, Fanning, Parish"@en .
 
 
 ###  http://purl.org/ontohgis#document_12
@@ -10805,8 +11025,10 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
 :object_105 rdf:type owl:NamedIndividual ,
                      :object_92 ;
             obo:BFO_0000050 :object_98 ;
-            rdfs:label "Roman Catholicism"@en ,
-                       "obrządek rzymski"@pl .
+            rdfs:label "Latin (Roman Catholic)"@en ,
+                       "obrządek łaciński"@pl ;
+            <http://www.w3.org/2004/02/skos/core#altLabel> "Latin Rite Catholicism"@en ,
+                                                           "Latin Rite Roman Catholicism"@en .
 
 
 ###  http://purl.org/ontohgis#object_106
@@ -10896,21 +11118,25 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
 ###  http://purl.org/ontohgis#object_95
 :object_95 rdf:type owl:NamedIndividual ,
                     :object_90 ;
-           rdfs:label "Christianity"@en ,
+           rdfs:label "Christian"@en ,
                       "religia chrześcijańska"@pl ;
            rdfs:seeAlso <http://dbpedia.org/page/Christianity> ,
                         <http://vocab.getty.edu/aat/300073711> ,
-                        <https://www.wikidata.org/wiki/Q5043> .
+                        <https://www.wikidata.org/wiki/Q5043> ;
+           <http://www.w3.org/2004/02/skos/core#altLabel> "Christianity"@en ,
+                                                          "chrześcijaństwo"@pl .
 
 
 ###  http://purl.org/ontohgis#object_96
 :object_96 rdf:type owl:NamedIndividual ,
                     :object_90 ;
-           rdfs:label "Judaism"@en ,
+           rdfs:label "Jewish"@en ,
                       "religia mojżeszowa"@pl ;
            rdfs:seeAlso <http://dbpedia.org/page/Judaism> ,
                         <http://vocab.getty.edu/aat/300073723> ,
-                        <https://www.wikidata.org/wiki/Q9268> .
+                        <https://www.wikidata.org/wiki/Q9268> ;
+           <http://www.w3.org/2004/02/skos/core#altLabel> "Judaism"@en ,
+                                                          "Judaizm"@pl .
 
 
 ###  http://purl.org/ontohgis#object_97
@@ -10927,9 +11153,12 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
            obo:BFO_0000050 :object_95 ;
            rdfs:label "Catholicism"@en ,
                       "wyznanie katolickie"@pl ;
-           rdfs:seeAlso <http://dbpedia.org/page/Catholicism> ,
+           rdfs:seeAlso <http://dbpedia.org/page/Catholic_Church> ,
+                        <http://dbpedia.org/page/Catholicism> ,
                         <http://vocab.getty.edu/aat/300073730> ,
-                        <https://www.wikidata.org/wiki/Q1841> .
+                        <https://www.wikidata.org/wiki/Q1841> ,
+                        <https://www.wikidata.org/wiki/Q9592> ;
+           <http://www.w3.org/2004/02/skos/core#altLabel> "Roman Catholicism"@en .
 
 
 ###  http://purl.org/ontohgis#object_99
