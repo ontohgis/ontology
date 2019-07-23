@@ -10897,7 +10897,10 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
 :object_95 rdf:type owl:NamedIndividual ,
                     :object_90 ;
            rdfs:label "Christianity"@en ,
-                      "religia chrześcijańska"@pl .
+                      "religia chrześcijańska"@pl ;
+           rdfs:seeAlso <http://dbpedia.org/page/Christianity> ,
+                        <http://vocab.getty.edu/aat/300073711> ,
+                        <https://www.wikidata.org/wiki/Q5043> .
 
 
 ###  http://purl.org/ontohgis#object_96
@@ -10923,7 +10926,10 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
                     :object_91 ;
            obo:BFO_0000050 :object_95 ;
            rdfs:label "Catholicism"@en ,
-                      "wyznanie katolickie"@pl .
+                      "wyznanie katolickie"@pl ;
+           rdfs:seeAlso <http://dbpedia.org/page/Catholicism> ,
+                        <http://vocab.getty.edu/aat/300073730> ,
+                        <https://www.wikidata.org/wiki/Q1841> .
 
 
 ###  http://purl.org/ontohgis#object_99
