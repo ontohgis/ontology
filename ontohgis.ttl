@@ -1656,7 +1656,7 @@ obo:IAO_0000590 rdf:type owl:Class .
 :administrative_type_126 rdf:type owl:Class ;
                          rdfs:subClassOf :object_3014 ;
                          :hasExternalIdentifier 126 ;
-                         :isSymbolisedByMeansOf :map_symbol_80 ;
+                         :isSymbolisedByMeansOf :map_symbol_70 ;
                          rdfs:isDefinedBy :administrative_system_22 ;
                          rdfs:label "księstwo"@pl .
 
