@@ -9192,15 +9192,16 @@ rdfs:Class rdf:type owl:Class .
 ###  http://purl.org/ontohgis#administrative_system_11
 :administrative_system_11 rdf:type owl:NamedIndividual ,
                                    :object_21 ;
-                          :endsDominationAt "1918-12-31"^^xsd:date ;
-                          :hasBeginning "1843-01-01"^^xsd:date ;
-                          :hasEnd "1918-12-31"^^xsd:date ;
-                          :hasLegalBasis "Ukaz carski z 11.10.1842 ( Dziennik Praw Królestwa Polskiego, nr 97. T. 30. Warszawa: 1842, s. 281-285)"^^xsd:string ;
+                          :endsDominationAt "1866-12-31"^^xsd:date ;
+                          :hasBeginning "1837-01-01"^^xsd:date ;
+                          :hasEnd "1866-12-31"^^xsd:date ;
+                          :hasLegalBasis """Ukaz carski z 7.3.1837 (Dziennik Praw Królestwa Polskiego, nr 68-70, t. 20, Warszawa 1836-1837, s. 412);
+Ukaz carski z 11.10.1842 (Dziennik Praw Królestwa Polskiego, nr 97, t. 30, Warszawa: 1842, s. 281-285)"""^^xsd:string ;
                           :hasScope "terytorium Królestwa Polskiego"^^xsd:string ;
                           :individualHasExternalIdentifier 11 ;
-                          :startsDominationAt "1866-01-01"^^xsd:date ;
+                          :startsDominationAt "1842-01-01"^^xsd:date ;
                           dc:creator :person_5 ;
-                          rdfs:label "Królestwo Polskie (1843-1918)"@pl ;
+                          rdfs:label "Królestwo Polskie (1837-1866)"@pl ;
                           rdfs:seeAlso :document_44 ,
                                        :document_90 .
 
