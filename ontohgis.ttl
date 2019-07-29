@@ -2485,10 +2485,16 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :isSymbolisedByMeansOf :map_symbol_210 ;
                          rdfs:isDefinedBy :administrative_system_29 ;
                          rdfs:label "Gemeinde"@de ,
-                                    "Pfarre"@de ,
-                                    "gmina"@pl ,
-                                    "parafia"@pl ,
-                                    "zbór"@pl .
+                                    "community"@en ,
+                                    "gmina"@pl ;
+                         rdfs:seeAlso <http://dbpedia.org/page/Parish> ,
+                                      <http://gov.genealogy.net/types.owl#29> ,
+                                      <http://vocab.getty.edu/aat/300000773> ,
+                                      <https://www.wikidata.org/wiki/Q102496> ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "Pfarre"@de ,
+                                                                        "parafia"@pl ,
+                                                                        "parish"@en ,
+                                                                        "zbór"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_178
@@ -2502,11 +2508,12 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :isSymbolisedByMeansOf :map_symbol_230 ;
                          rdfs:isDefinedBy :administrative_system_29 ;
                          rdfs:label "Distrikt"@de ,
-                                    "Seniorat"@de ,
                                     "Superintendentur"@de ,
-                                    "dystrykt"@pl ,
-                                    "seniorat okręgowy"@pl ,
-                                    "superintendentura"@pl .
+                                    "district"@en ,
+                                    "dystrykt"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "Seniorat"@de ,
+                                                                        "seniorat okręgowy"@pl ,
+                                                                        "superintendentura"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_179
@@ -2516,10 +2523,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :isSymbolisedByMeansOf :map_symbol_200 ;
                          rdfs:isDefinedBy :administrative_system_29 ;
                          rdfs:label "Kirchenverband"@de ,
-                                    "jednota"@pl ,
-                                    "konsystorz"@pl ,
-                                    "seniorat generalny"@pl ,
-                                    "superintendentura generalna"@pl .
+                                    "Union"@en ,
+                                    "jednota"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "seniorat generalny"@pl ,
+                                                                        "superintendentura generalna"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#hiddenLabel> "konsystorz"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_180
@@ -9556,7 +9564,19 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
                           :hasScope "Wielkopolska i Litwa, luteranie w Małopolsce i w Prusach Królewskich nie wytworzyli własnej struktury organizacyjnej"^^xsd:string ;
                           :individualHasExternalIdentifier 29 ;
                           :startsDominationAt "1565-01-01"^^xsd:date ;
-                          rdfs:label "Kościół luterański w Rzeczypospolitej Obojga Narodów"@pl .
+                          rdfs:label "Evangelical Augsburg Church in the Polish-Lithuanian Commonwealth"@en ,
+                                     "Kościół ewangelicko-augsburski w Rzeczypospolitej Obojga Narodów"@pl ;
+                          rdfs:seeAlso <http://dbpedia.org/page/Evangelical_Church_of_the_Augsburg_Confession_in_Poland> ,
+                                       :document_108 ,
+                                       :document_109 ,
+                                       :document_120 ,
+                                       :document_121 ,
+                                       :document_127 ,
+                                       :document_128 ,
+                                       :document_129 ,
+                                       <https://www.wikidata.org/wiki/Q1379796> ;
+                          <http://www.w3.org/2004/02/skos/core#altLabel> "Kościół luterański w Rzeczypospolitej Obojga Narodów"@pl ,
+                                                                         "Lutheran Church in the Polish-Lithuanian Commonwealth"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_system_3
@@ -10166,6 +10186,36 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
               dc:description "Studia i Monografie / Wyższa Szkoła Pedagogiczna im. Powstańców Śląskich w Opolu, nr 121"@pl ;
               dc:title "Litewska jednota ewangelicko-reformowana od połowy XVII w. do 1939 r."@pl ;
               rdfs:label "Kosman, Litewska jednota ewangelicko-reformowana"@pl .
+
+
+###  http://purl.org/ontohgis#document_127
+:document_127 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Kłaczkow, J." ;
+              dc:date 2012 ;
+              dc:description "t. 1-3"@pl ;
+              dc:title "Kościoły luterańskie na ziemiach polskich (XVI - XX w.)"@pl ;
+              rdfs:label "Kościoły luterańskie na ziemiach polskich (XVI - XX w.)"@pl .
+
+
+###  http://purl.org/ontohgis#document_128
+:document_128 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:date 1964 ;
+              dc:title "Geschichte der Evangelisch-Augsburgischen Kirche in Polen"@de ,
+                       "Kneifel, E." ;
+              rdfs:label "Kneifel, Geschichte der Evangelisch-Augsburgischen Kirche in Polen"@de ,
+                         "Kneifel, Geschichte der Evangelisch-Augsburgischen Kirche in Polen"@en .
+
+
+###  http://purl.org/ontohgis#document_129
+:document_129 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Kneifel, E." ;
+              dc:date 1971 ;
+              dc:title "Die evangelisch-augsburgischen Gemeinden in Polen 1555-1939: Eine Parochialgeschichte in Einzeldarstellungen"@de ;
+              rdfs:label "Kneifel, Die evangelisch-augsburgischen Gemeinden in Polen 1555-1939"@de ,
+                         "Kneifel, Die evangelisch-augsburgischen Gemeinden in Polen 1555-1939"@en .
 
 
 ###  http://purl.org/ontohgis#document_13
