@@ -5143,14 +5143,49 @@ c. prawnie."""@pl ;
                     :hasOntologicalVerificator :person_10 ;
                     :hasTranslator :person_9 ;
                     rdfs:comment "At least untill the 13th century, a gord was a central and usually the only element of a city or town indicated in written historical sources, which is why these may be considered as identical for this period; after location, the gord became one of many facilities in a city or a town, usually situated on peripheries, sometimes converted into a castle."@en ,
+                                 "Gords are characteristic mostly for the High Middle Ages, when documents were written in Latin, despite the fact that Latin does not know a proper notion for this kind of settlement unit. Expressions with a different, relatively similar, meaning had been used to describe the gord, i.e. a city (lat civitas), or a castle (lat arx, castrum). In younger historical German sources “gród” was called Burg, the expression meaning both a gord and a castle. Researchers consider “gord” as an endemic and specifically Slavic phenomenon."@en ,
+                                 "Grody są charakterystyczne przede wszystkim dla pełnego średniowiecza, gdy językiem źródeł była łacina - a w niej nie wykształcił się w ogóle termin odpowiadający tej jednostce osadniczej. Określano ją więc za pomocą pojęć o odmiennym, względnie podobnym znaczeniu, jak miasto (civitas), zamek (arx, castrum). Z kolei w późniejszych źródłach niemieckich odpowiadał mu termin Burg, oznaczający zarówno gród, jak również zamek. W literaturze przedmiotu gród jest traktowany jako zjawisko specyficznie słowiańskie."@pl ,
                                  "Przynamniej do XIII w. gród stanowił centralną i zwykle jedyną uchwytną źródłowo część miasta, więc dla tego okresu może być z nim utożsamiany; po lokacji stawał się jednym z obiektów w mieście, zwykle peryferyjnym, niejednokrotnie zamienianym w zamek."@pl ;
                     rdfs:isDefinedBy "Gord is a medieval or – in eastern territories – early modern settlement with revetments and stockades."@en ,
                                      "Średniowieczna lub, na terenach wschodnich, wczesnonowożytna osada z obwarowaniami drewniano-ziemnymi."@pl ;
                     rdfs:label "gord"@en ,
                                "gród"@pl ;
-                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "grodzisko (pol, zamek (pl), Burg (de), gorod (ru), civitas (lat), arx (lat), castrum (lat)" ;
+                    rdfs:seeAlso <http://dbpedia.org/page/Gord_(archaeology)> ,
+                                 <https://www.wikidata.org/wiki/Q88598> ,
+                                 "t. 2, s. 168 (hasło \"Grodzisko\"): \"Grody to obiekty sztucznie ogrodzone w celach obronnych. Pojęcie to obejmuje wszelkiego rodzaju miejsca obronne, jak wsie, miasta, ośrodki administracyjne, wojskowe i inne schronienia przygotowane do obrony. W średniowieczu grodami nazywano też miasta\"."@pl ,
+                                 "t. 2, s. 637: \"pierwotnie osada obronna, ogrodzona palisadą lub obwałowana\""@pl ,
+                                 "t. 6, s. 22: \"miejsce obronne w znaczeniu późniejszym tyle co \"zamek\", \"miasto\"\""@pl ;
+                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Burg"@de ,
+                                                                      "arx"@la ,
+                                                                      "castrum"@la ,
+                                                                      "civitas"@la ,
+                                                                      "gorod"@ru ,
+                                                                      "grodzisko"@pl ,
+                                                                      "grodzisko (pol, zamek (pl), Burg (de), gorod (ru), civitas (lat), arx (lat), castrum (lat)" ,
+                                                                      "zamek"@pl ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "gord"@en ,
                                                                     "gród"@pl .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit113 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 2, s. 168 (hasło \"Grodzisko\"): \"Grody to obiekty sztucznie ogrodzone w celach obronnych. Pojęcie to obejmuje wszelkiego rodzaju miejsca obronne, jak wsie, miasta, ośrodki administracyjne, wojskowe i inne schronienia przygotowane do obrony. W średniowieczu grodami nazywano też miasta\"."@pl ;
+   rdfs:isDefinedBy :document_139
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit113 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 2, s. 637: \"pierwotnie osada obronna, ogrodzona palisadą lub obwałowana\""@pl ;
+   rdfs:isDefinedBy :document_138
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit113 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 6, s. 22: \"miejsce obronne w znaczeniu późniejszym tyle co \"zamek\", \"miasto\"\""@pl ;
+   rdfs:isDefinedBy :document_140
+ ] .
 
 
 ###  http://purl.org/ontohgis#settlement_unit114
@@ -5215,7 +5250,9 @@ c. prawnie."""@pl ;
                                      "Sea harbour is an area consisting of coastal waters together with artificial structures designed for the ship service."@en ;
                     rdfs:label "port morski - obiekt"@pl ,
                                "sea harbour"@en ;
-                    rdfs:seeAlso "przybrzeżny obszar wodny, odpowiednio pogłębiony, osłonięty przed wiatrem i falą, przeznaczony dla postoju statków, wyposażony w specjalne urządzenia służące do ich załadowywania, wyładowywania, zaopatrzenia i naprawy; miasto  nabrzeżne, w którym jest także miejsce postoju statków."@pl ,
+                    rdfs:seeAlso <http://dbpedia.org/ontology/Port> ,
+                                 <https://www.wikidata.org/wiki/Q15310171> ,
+                                 "przybrzeżny obszar wodny, odpowiednio pogłębiony, osłonięty przed wiatrem i falą, przeznaczony dla postoju statków, wyposażony w specjalne urządzenia służące do ich załadowywania, wyładowywania, zaopatrzenia i naprawy; miasto  nabrzeżne, w którym jest także miejsce postoju statków."@pl ,
                                  "t. 2, cz. 2. s. 929: część można między ziemią zamknięta, do którey okręty wchodzą o od burzy morskiey bezpieczeństwo znayduią"@pl ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "port morski"@pl ,
                                                                     "sea harbour"@en .
@@ -5587,30 +5624,50 @@ c. prawnie."""@pl ;
                                      "Inn is a building serving catering and accomodation purposes, located in the suburbs, outskirts of villages, or on important communication routes."@en ;
                     rdfs:label "inn"@en ,
                                "karczma - obiekt"@pl ;
-                    rdfs:seeAlso "#Praktyczny słownik współczesnej polszczyzny, red. H. Zgłówkowa, t. 15, s. 403:‘budynek służący jako dom zajezdny dla podróżnych, a także miejsce wyszynku oraz spotkań i zabaw miejscowej ludności, wznoszony na przedmieściach większych miast, na rynkach miasteczek, przy uczęszczanych traktach, we wsiach w pobliżu kościoła lub dworu’#Encyklopedia historii gospodarczej Polski do 1945 r., t. 1, red. A. Mączak, s. 296–298‘budynek, w którym warzono, sprzedawano, później głównie szynkowano piwo, miód pitny, od XVI w. gorzałkę; niektóre karczmy, zwłaszcza przy ważniejszych drogach i w miastach, dawały posiłki i obrok dla koni oraz zapewniały nocleg podróżnym (zwano je gościńcami); sprzedawano w nich różne wyroby, głównie spożywcze, rzadziej odzieżowe. Dostarczały też karczmy różnego rodzaju rozrywek, często z muzyką, były miejscem tańców i zabaw. Niekiedy w karczmach odbywał sesje sąd (zwłaszcza wiejski), załatwiano tu sprawy urzędowe podczas popasu dostojników czy pobytu miejscowych oficjalistów [...]’."@pl ,
-                                 "dom szynkowy, t. 2, s. 318"@pl ,
-                                 "miejsce wyszynku alkoholu i spotkań okolicznej ludności, przede wszystkim chłopów, także gospoda, dom zajezdny; taberna, t. 10, s. 136"@pl ,
+                    rdfs:seeAlso <http://dbpedia.org/page/Inn> ,
+                                 <https://www.wikidata.org/wiki/Q32860419> ,
+                                 "t. 1, s. 296–298: ‘budynek, w którym warzono, sprzedawano, później głównie szynkowano piwo, miód pitny, od XVI w. gorzałkę; niektóre karczmy, zwłaszcza przy ważniejszych drogach i w miastach, dawały posiłki i obrok dla koni oraz zapewniały nocleg podróżnym (zwano je gościńcami); sprzedawano w nich różne wyroby, głównie spożywcze, rzadziej odzieżowe. Dostarczały też karczmy różnego rodzaju rozrywek, często z muzyką, były miejscem tańców i zabaw. Niekiedy w karczmach odbywał sesje sąd (zwłaszcza wiejski), załatwiano tu sprawy urzędowe podczas popasu dostojników czy pobytu miejscowych oficjalistów [...]’."@pl ,
+                                 "t. 10, s. 136: miejsce wyszynku alkoholu i spotkań okolicznej ludności, przede wszystkim chłopów, także gospoda, dom zajezdny; taberna"@pl ,
+                                 "t. 15, s. 403: ‘budynek służący jako dom zajezdny dla podróżnych, a także miejsce wyszynku oraz spotkań i zabaw miejscowej ludności, wznoszony na przedmieściach większych miast, na rynkach miasteczek, przy uczęszczanych traktach, we wsiach w pobliżu kościoła lub dworu’"@de ,
                                  """t. 2, s. 264: 1. dom szynkowy (Star.), szynk, szynkownia, gospoda; do na wsi albo przy drodze dla popasu podróżnych, austerja, oberża, dom zajezdny, zajazd’, 
 [por. t. 3, s. 453 hasło: oberża ‘dom gościnny, gospoda, zajazd, karczma, austerja’ i 
 t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, dom gościnny’]"""@pl ,
+                                 "t. 2, s. 318: dom szynkowy"@pl ,
                                  "t. 3, s. 564: szynk na wsi, gospoda; dawniej również dom zajezdny, austeria, oberża"@pl ;
-                    <http://www.w3.org/2004/02/skos/core#altLabel> "gospoda (pl), gościniec (pl), gościnny dom (pl), szynkowny dom (pl), oberża (pl), zajazd (pl), budynek (pl), taberna (lat), Wirthaus (de), Krug (de), Gasthof (de)" ;
-                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "restauracja (pl)" ;
+                    <http://www.w3.org/2004/02/skos/core#altLabel> "Gasthof"@de ,
+                                                                   "Krug"@de ,
+                                                                   "Wirthaus"@de ,
+                                                                   "gospoda"@pl ,
+                                                                   "taberna"@la ;
+                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "budynek"@pl ,
+                                                                      "gościniec"@pl ,
+                                                                      "gościnny dom"@pl ,
+                                                                      "oberża"@pl ,
+                                                                      "restauracja"@pl ,
+                                                                      "szynkowny dom"@pl ,
+                                                                      "zajazd"@pl ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "inn"@en ,
                                                                     "karczma"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit124 ;
    owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "dom szynkowy, t. 2, s. 318"@pl ;
-   rdfs:isDefinedBy :document_1
+   owl:annotatedTarget "t. 1, s. 296–298: ‘budynek, w którym warzono, sprzedawano, później głównie szynkowano piwo, miód pitny, od XVI w. gorzałkę; niektóre karczmy, zwłaszcza przy ważniejszych drogach i w miastach, dawały posiłki i obrok dla koni oraz zapewniały nocleg podróżnym (zwano je gościńcami); sprzedawano w nich różne wyroby, głównie spożywcze, rzadziej odzieżowe. Dostarczały też karczmy różnego rodzaju rozrywek, często z muzyką, były miejscem tańców i zabaw. Niekiedy w karczmach odbywał sesje sąd (zwłaszcza wiejski), załatwiano tu sprawy urzędowe podczas popasu dostojników czy pobytu miejscowych oficjalistów [...]’."@pl ;
+   rdfs:isDefinedBy :document_17
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource :settlement_unit124 ;
    owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "miejsce wyszynku alkoholu i spotkań okolicznej ludności, przede wszystkim chłopów, także gospoda, dom zajezdny; taberna, t. 10, s. 136"@pl ;
+   owl:annotatedTarget "t. 10, s. 136: miejsce wyszynku alkoholu i spotkań okolicznej ludności, przede wszystkim chłopów, także gospoda, dom zajezdny; taberna"@pl ;
    rdfs:isDefinedBy :document_2
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit124 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 15, s. 403: ‘budynek służący jako dom zajezdny dla podróżnych, a także miejsce wyszynku oraz spotkań i zabaw miejscowej ludności, wznoszony na przedmieściach większych miast, na rynkach miasteczek, przy uczęszczanych traktach, we wsiach w pobliżu kościoła lub dworu’"@de ;
+   rdfs:isDefinedBy :document_137
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -5620,6 +5677,13 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 [por. t. 3, s. 453 hasło: oberża ‘dom gościnny, gospoda, zajazd, karczma, austerja’ i 
 t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, dom gościnny’]"""@pl ;
    rdfs:isDefinedBy :document_5
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit124 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 2, s. 318: dom szynkowy"@pl ;
+   rdfs:isDefinedBy :document_1
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -8633,7 +8697,8 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
                                     "Sea harbour (locality) is a locality where the main role is played by a sea harbour (area)."@en ;
                    rdfs:label "port morski"@pl ,
                               "sea harbour"@en ;
-                   rdfs:seeAlso <http://dbpedia.org/ontology/Port> ;
+                   rdfs:seeAlso <http://dbpedia.org/ontology/Port> ,
+                                <https://www.wikidata.org/wiki/Q15310171> ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "port morski"@pl ,
                                                                    "sea harbour"@en .
 
@@ -8688,8 +8753,21 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
                                     "Osada karczemna to osada, w której główną rolę pełni karczma (obiekt)."@pl ;
                    rdfs:label "inn"@en ,
                               "osada karczemna"@pl ;
-                   <http://www.w3.org/2004/02/skos/core#altLabel> "gospoda (pl), gościniec (pl), gościnny dom (pl), szynkowny dom (pl), oberża (pl), zajazd (pl), budynek (pl), taberna (lat), Wirthaus (de), Krug (de), Gasthof (de)" ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "restauracja (pl)" ;
+                   rdfs:seeAlso <http://dbpedia.org/page/Hamlet_(place)> ,
+                                <http://gov.genealogy.net/types.owl#120> ,
+                                <https://www.wikidata.org/wiki/Q5084> ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Gasthof"@de ,
+                                                                     "Krug"@de ,
+                                                                     "Wirthaus"@de ,
+                                                                     "budynek"@pl ,
+                                                                     "gospoda"@pl ,
+                                                                     "gościniec"@pl ,
+                                                                     "gościnny dom"@pl ,
+                                                                     "oberża"@pl ,
+                                                                     "restauracja"@pl ,
+                                                                     "szynkowny dom"@pl ,
+                                                                     "taberna"@la ,
+                                                                     "zajazd"@pl ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "inn"@en ,
                                                                    "osada karczemna"@pl .
 
@@ -10378,6 +10456,32 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
                          "Gresch, Im Blickpunkt der Geschichte der Reformation"@en .
 
 
+###  http://purl.org/ontohgis#document_137
+:document_137 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Zgółkowa, H." ;
+              dc:date "1994–2005" ;
+              dc:description "t. 1–50, Wydawnictwo Kurpisz, Poznań"@pl ;
+              dc:title "Praktyczny słownik współczesnej polszczyzny"@pl ;
+              rdfs:label "Praktyczny słownik współczesnej polszczyzny"@pl .
+
+
+###  http://purl.org/ontohgis#document_138
+:document_138 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:date "1995-1996"@pl ;
+              dc:title "Nowa encyklopedia powszechna PWN"@pl ;
+              rdfs:label "Nowa encyklopedia powszechna PWN"@pl .
+
+
+###  http://purl.org/ontohgis#document_139
+:document_139 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:date "1961-1996" ;
+              dc:title "Słownik starożytności słowiańskich: encyklopedyczny zarys kultury Słowian od czasów najdawniejszych"@pl ;
+              rdfs:label "Słownik starożytności słowiańskich"@pl .
+
+
 ###  http://purl.org/ontohgis#document_14
 :document_14 rdf:type owl:NamedIndividual ,
                       obo:IAO_0000310 ;
@@ -10386,6 +10490,14 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
              dc:title "Dzieje Puszczy Białowieskiej w Polsce przedrozbiorowej (w okresie do 1798 roku)"@pl ;
              rdfs:label "Hedemann, Dzieje Puszczy Białowieskiej"@pl ;
              rdfs:seeAlso "http://pbc.biaman.pl/dlibra/doccontent?id=2318"@pl .
+
+
+###  http://purl.org/ontohgis#document_140
+:document_140 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:date "1929-1938" ;
+              dc:title "Wielka ilustrowana encyklopedia powszechna (Wydawnictwa Gutenberga)"@pl ;
+              rdfs:label "Wielka ilustrowana encyklopedia powszechna (Wydawnictwa Gutenberga)"@pl .
 
 
 ###  http://purl.org/ontohgis#document_15
