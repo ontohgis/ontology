@@ -5389,10 +5389,17 @@ c. prawnie."""@pl ;
                                      "Tourist shelter is a building on the tourist trail that serves as a place of rest and accommodation for tourists."@en ;
                     rdfs:label "schronisko turystyczne - obiekt"@pl ,
                                "tourist shelter"@en ;
-                    rdfs:seeAlso "#BDOT10k - budynek na szlaku turystycznym służący jako miejsce odpoczynku i noclegu dla turystów (kategorie: budynki, budowle i urządzenia; kompleksu użytkowania terenu, miejscowości)"@pl ,
+                    rdfs:seeAlso <http://dbpedia.org/page/Mountain_hut> ,
+                                 <https://pzgik.geoportal.gov.pl/ontologies/prng/schroniskoTurystyczne> ,
+                                 <https://www.wikidata.org/wiki/Q182676> ,
                                  "1] miejsce, gdzie można się schronić, czuć bezpiecznie, schronienie; [2] budynek położony na szlaku turystycznym z dala od osiedli ludzkich, służący jako miejsce odpoczynku i noclegu dla turystów (podróżnych); [3] przytułek, zakład dla bezdomnych, starców"@pl ,
+                                 "budynek na szlaku turystycznym służący jako miejsce odpoczynku i noclegu dla turystów (kategorie: budynki, budowle i urządzenia; kompleksu użytkowania terenu, miejscowości)"@pl ,
                                  "t. 5, s. 201 – mieysce do schronienia"@pl ;
-                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "schronisko (pl), schronisko górskie (pl), stacja turystyczna (pl), szałas (pl), karczma (pl)" ;
+                    <http://www.w3.org/2004/02/skos/core#hiddenLabel> "karczma"@pl ,
+                                                                      "schronisko"@pl ,
+                                                                      "schronisko górskie"@pl ,
+                                                                      "stacja turystyczna"@pl ,
+                                                                      "szałas"@pl ;
                     <http://www.w3.org/2004/02/skos/core#prefLabel> "schronisko turystyczne"@pl ,
                                                                     "tourist shelter"@en .
 
@@ -5401,6 +5408,13 @@ c. prawnie."""@pl ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "1] miejsce, gdzie można się schronić, czuć bezpiecznie, schronienie; [2] budynek położony na szlaku turystycznym z dala od osiedli ludzkich, służący jako miejsce odpoczynku i noclegu dla turystów (podróżnych); [3] przytułek, zakład dla bezdomnych, starców"@pl ;
    rdfs:isDefinedBy :document_4
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit117 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "budynek na szlaku turystycznym służący jako miejsce odpoczynku i noclegu dla turystów (kategorie: budynki, budowle i urządzenia; kompleksu użytkowania terenu, miejscowości)"@pl ;
+   rdfs:comment :document_9
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -7594,14 +7608,27 @@ W ujęciu kartograficznym wyodrębnione przez nazwę własną, poprzedzoną  skr
                    :hasOntologicalVerificator :person_10 ;
                    :hasTranslator :person_5 ;
                    rdfs:comment "Osada miejska to miejscowość."@pl ,
+                                "Termin był stosowany dla oznaczenia ośrodków, które utraciły prawa miejskie po powstaniu styczniowym. Osada miejska mogła być stosowana także sensie szerszym, obejmującym wszystkie jednostki osadnicze o charakterze miejskim, np. duże miasto, przedmieścia itp."@pl ,
+                                "This notion was used to mark localites that lost their city rights after the \"January Uprising\". The urban settlement could also be used in a broader sense, encompassing all settlement units of urban character, e.g. a big city, suburbs, etc."@en ,
                                 "Urban settlement is a locality."@en ;
                    rdfs:isDefinedBy "Osada miejska to miejscowość posiadająca wcześniej prawa miejskie i aktualnie ich pozbawiona."@pl ,
                                     "Urban settlement is a locality which used to have city rights, but currently without them."@en ;
                    rdfs:label "osada miejska"@pl ,
                               "urban settlement"@en ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "miasteczko (pl)" ;
+                   rdfs:seeAlso <http://dbpedia.org/page/Urban-type_settlement> ,
+                                <https://www.wikidata.org/wiki/Q18432972> ,
+                                <https://www.wikidata.org/wiki/Q2989457> ,
+                                "t. 20. s.47: od 1867 nazwa „osada miejska” jest używana dla niewielkich osiedli pozbawionych praw miejskich, które nie są wsiami."@enpl ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "miasteczko"@pl ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "osada miejska"@pl ,
                                                                    "urban settlement"@en .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit37 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 20. s.47: od 1867 nazwa „osada miejska” jest używana dla niewielkich osiedli pozbawionych praw miejskich, które nie są wsiami."@enpl ;
+   rdfs:comment :document_21
+ ] .
 
 
 ###  http://purl.org/ontohgis#settlement_unit38
@@ -7682,17 +7709,48 @@ W ujęciu kartograficznym wyodrębnione przez nazwę własną, poprzedzoną  skr
                    :hasLanguageVerificator :person_1 ;
                    :hasOntologicalVerificator :person_10 ;
                    :hasTranslator :person_5 ;
-                   rdfs:comment "Przedmieście z zasady jest częścią miejscowości: miasta."@pl ,
-                                "Suburb is always (ex definitione) a part of a locality ( a city)."@en ;
+                   rdfs:comment """Przedmieście z zasady jest częścią miejscowości: miasta. 
+W miastach obwarowanych obrębem miasta była linia fortyfikacji, szczególnie murów.
+Przedmieście mogło mieć różny stopień odrębności prawnej względem miasta. Jest fenomenem charakterystycznym raczej dla epoki przedprzemysłowej. Większość przedmieść, szczególnie od schyłku XVIII w., była wcielana prawnie i następnie funkcjonalnie i morfologicznie do miasta; nazwa zazwyczaj zanikała lub nabierała innego znaczenia.
+Należy odróżnić od przedmieścia osady przedmiejskie, które były w znacznym stopniu niezależne od miasta właściwego lub wręcz sprawowały funkcje centralne względem niego, np. ze względu na siedzibę władz. Taka sytuacja była częsta w okresie lokacyjnym w przypadku większych ośrodków (gród książęcy i katedra poza gminą lokacyjną)."""@pl ,
+                                """Suburb is always (ex definitione) a part of a locality (city, town).
+In the fortified cities, the area of the core city was limted by the fortifications, especially by the walls.
+The suburb could have a different degree of legal separation from the city. It is an entity typical rather for the pre-industrial era. Most of the suburbs, especially from the end of the 18th c., were incorporated legally and then functionally as well as morphologically into the city. The particular name of the suburb usually disappeared or obtained a different meaning.
+It is necessary to distinguish  suburbs from the suburban settlements which were largely independent of the neighboring city or even held central functions to it, e.g. due to the location of the seats of the authorities. Such a situation was common during the first stages of cities establishment, especially for larger centers (prince's stronghold and the cathedral outside the main municipality)."""@en ;
                    rdfs:isDefinedBy "Przedmieście to peryferyjna część miasta, tj. położona poza obrębem miasta właściwego (lokacyjnego), wyodrębniona przestrzennie lub morfologicznie i z własną nazwą, wobec której miasto pełni funkcje centralne."@pl ,
                                     "Suburb is a peripheral part of the city, towards which the city performs central functions. A suburb is located outside its initial location city; distinguished spatially or morphologically and with its own (proper) name."@en ;
-                   rdfs:label "przedmieście"@pl ,
-                              "suburb"@en ;
-                   rdfs:seeAlso <http://linkedgeodata.org/ontology/Suburb> ;
-                   <http://www.w3.org/2004/02/skos/core#altLabel> "suburbium (lat), Vorstadt (de)" ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "osada przedmiejska (pl), osada podmiejska (pl), wieś podmiejska (pl)" ;
-                   <http://www.w3.org/2004/02/skos/core#prefLabel> "przedmieście"@pl ,
-                                                                   "suburb"@en .
+                   rdfs:label "Vorstadt"@de ,
+                              "przedmieście"@pl ,
+                              "suburb"@en ,
+                              "suburbium"@la ;
+                   rdfs:seeAlso <http://linkedgeodata.org/ontology/Suburb> ,
+                                "Obszar wokół miasta, w ówczesnej Polsce i Europie uzależniony od niego prawnie i gospodarczo"@pl ,
+                                "osada, teren, posiadłość poza obrębem murów miejskich"@pl ,
+                                "peryferyjna dzielnica miasta"@pl ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "osada podmiejska"@pl ,
+                                                                     "osada przedmiejska"@pl ,
+                                                                     "wieś podmiejska"@pl .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit43 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "Obszar wokół miasta, w ówczesnej Polsce i Europie uzależniony od niego prawnie i gospodarczo"@pl ;
+   rdfs:isDefinedBy :document_2
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit43 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "osada, teren, posiadłość poza obrębem murów miejskich"@pl ;
+   rdfs:isDefinedBy :document_6
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit43 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "peryferyjna dzielnica miasta"@pl ;
+   rdfs:isDefinedBy :document_3
+ ] .
 
 
 ###  http://purl.org/ontohgis#settlement_unit44
@@ -8274,12 +8332,14 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
                    :hasLanguageVerificator :person_1 ;
                    :hasOntologicalVerificator :person_10 ;
                    :hasTranslator :person_5 ;
-                   rdfs:comment "Colony of a settlement is a separate settlement unit, a kind of locality, always with its particular name. Colonies of settlements occur mainly in Zachodniopomorskie, Warmińsko-mazurskie and Podlaskie voivodships. In total, there are 17 colonies of settlements in Poland."@en ,
-                                "Kolonia osady jest odrębną jednostką osadniczą, rodzajem miejscowości, zawsze ma swoją nazwę własną. Kolonie osady występują w większości w woj. zachodniopomorskim, warmińsko-mazurskim i woj. podlaskim. W sumie jest ich w Polsce 17."@pl ;
+                   rdfs:comment "A built-up area located away from previously existing buildings (locality) to which it is related. Colony of a settlement is a separate settlement unit, a kind of locality, always with its particular name. Colonies of settlements occur mainly in Zachodniopomorskie, Warmińsko-mazurskie and Podlaskie voivodships. In total, there are 17 colonies of settlements in Poland."@en ,
+                                "Obszar zabudowany oddalony od wczesniejszej zabudowy, od której jest zależny. Kolonia osady jest odrębną jednostką osadniczą, rodzajem miejscowości, zawsze ma swoją nazwę własną. Kolonie osady występują w większości w woj. zachodniopomorskim, warmińsko-mazurskim i woj. podlaskim. W sumie jest ich w Polsce 17."@pl ;
                    rdfs:isDefinedBy "Colony of a settlement is a colony related to a settlement."@en ,
                                     "Kolonia osady to kolonia zależna od osady."@pl ;
                    rdfs:label "colony of a settlement"@en ,
                               "kolonia osady"@pl ;
+                   rdfs:seeAlso <https://pzgik.geoportal.gov.pl/ontologies/prng/koloniaOsady> ,
+                                <https://www.wikidata.org/wiki/Q41970180> ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "colony of a settlement"@en ,
                                                                    "kolonia osady"@pl .
 
@@ -8488,7 +8548,19 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
                                     "Settlement of a settlement is a settlement which is an integral part of a settlement."@en ;
                    rdfs:label "osada osady"@pl ,
                               "settlement of a settlement"@en ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "osiedle (pl), miejscowość (pl), kolonia (pl), sadyba (pl), zagroda włościańska (pl), conlocationen (lat), der Siedlung (de), die Ansiedlung (de), der Ortschaft (de), die Kolonie (de), settlement (en)" ;
+                   rdfs:seeAlso <https://pzgik.geoportal.gov.pl/ontologies/prng/osadaOsady> ,
+                                <https://www.wikidata.org/wiki/Q41970180> ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Ansiedlung"@de ,
+                                                                     "Kolonie"@de ,
+                                                                     "Ortschaft"@de ,
+                                                                     "Siedlung"@de ,
+                                                                     "conlocationen"@la ,
+                                                                     "kolonia"@pl ,
+                                                                     "miejscowość"@pl ,
+                                                                     "osiedle"@pl ,
+                                                                     "sadyba"@pl ,
+                                                                     "settlement"@en ,
+                                                                     "zagroda włościańska"@pl ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "osada osady"@pl ,
                                                                    "settlement of a settlement"@en .
 
@@ -8674,7 +8746,11 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
                               "schronisko turystyczne"^^xsd:string ,
                               "tourist shelter"@en ;
                    rdfs:seeAlso <http://linkedgeodata.org/ontology/Shelter> ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "schronisko (pl), schronisko górskie (pl), stacja turystyczna (pl), szałas (pl), karczma (pl)" ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "karczma"@pl ,
+                                                                     "schronisko"@pl ,
+                                                                     "schronisko górskie"@pl ,
+                                                                     "stacja turystyczna"@pl ,
+                                                                     "szałas"@pl ;
                    <http://www.w3.org/2004/02/skos/core#prefLabel> "schronisko turystyczne"@pl ,
                                                                    "tourist shelter"@en .
 
