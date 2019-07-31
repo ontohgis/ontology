@@ -3028,12 +3028,18 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 203 ;
                          :isSymbolisedByMeansOf :map_symbol_210 ;
                          rdfs:isDefinedBy :administrative_system_35 ;
-                         rdfs:label "Gemeinde"@de ,
-                                    "Kirchspiel"@de ,
-                                    "Pfarre"@de ,
+                         rdfs:label "Pfarre"@de ,
                                     "parafia"@pl ,
-                                    "zbór"@pl ;
-                         <http://www.w3.org/2004/02/skos/core#altLabel> "gmina"@pl .
+                                    "parish"@en ;
+                         rdfs:seeAlso <http://dbpedia.org/page/Parish> ,
+                                      <http://gov.genealogy.net/types.owl#29> ,
+                                      <http://vocab.getty.edu/aat/300000773> ,
+                                      <https://www.wikidata.org/wiki/Q102496> ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "Gemeinde"@de ,
+                                                                        "Kirchspiel"@de ,
+                                                                        "community"@en ,
+                                                                        "gmina"@pl ,
+                                                                        "zbór"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_204
@@ -3048,7 +3054,13 @@ obo:IAO_0000590 rdf:type owl:Class .
                          rdfs:isDefinedBy :administrative_system_35 ;
                          rdfs:label "Diözese"@de ,
                                     "diecezja"@pl ,
-                                    "superintendentura"@pl .
+                                    "diocese"@en ;
+                         rdfs:seeAlso <http://dbpedia.org/page/Diocese> ,
+                                      <http://dbpedia.org/page/Superintendent_(ecclesiastical)> ,
+                                      <http://vocab.getty.edu/aat/300000799> ,
+                                      <https://www.wikidata.org/wiki/Q665487> ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "Superintendentur"@de ,
+                                                                        "superintendentura"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_205
@@ -3056,9 +3068,28 @@ obo:IAO_0000590 rdf:type owl:Class .
                          rdfs:subClassOf :object_3012 ;
                          :hasExternalIdentifier 205 ;
                          :isSymbolisedByMeansOf :map_symbol_220 ;
+                         rdfs:comment "s. 15: Warszawski Okręg Konsystorski nie został włączony do konsystorza generalnego w Petersburgu po 1832 roku, nie wykonano też żadnych ruchów w tym kiierunku po 1849 r. Wg. autora byłoby to korzystne i część duchownych to dostrzegała"@pl ,
+                                      "s. 29: Komisja Rządowa Wyznań Religijnych i Oświecenia publicznego zlikwidowała istniejące luterańskie konsystorze departamentowe utworzone po 1807 r."@pl ;
                          rdfs:isDefinedBy :administrative_system_35 ;
                          rdfs:label "General Konsistorium"@de ,
-                                    "konsystorz generalny"@pl .
+                                    "general consistory"@en ,
+                                    "konsystorz generalny"@pl ;
+                         rdfs:seeAlso <http://dbpedia.org/page/Consistory_(Protestantism)> ,
+                                      <https://www.wikidata.org/wiki/Q1381335> .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :administrative_type_205 ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "s. 15: Warszawski Okręg Konsystorski nie został włączony do konsystorza generalnego w Petersburgu po 1832 roku, nie wykonano też żadnych ruchów w tym kiierunku po 1849 r. Wg. autora byłoby to korzystne i część duchownych to dostrzegała"@pl ;
+   rdfs:isDefinedBy :document_129
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :administrative_type_205 ;
+   owl:annotatedProperty rdfs:comment ;
+   owl:annotatedTarget "s. 29: Komisja Rządowa Wyznań Religijnych i Oświecenia publicznego zlikwidowała istniejące luterańskie konsystorze departamentowe utworzone po 1807 r."@pl ;
+   rdfs:isDefinedBy :document_143
+ ] .
 
 
 ###  http://purl.org/ontohgis#administrative_type_206
@@ -9961,7 +9992,14 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
                           :hasScope "Królestwo Polskie"^^xsd:string ;
                           :individualHasExternalIdentifier 35 ;
                           :startsDominationAt "1828-01-01"^^xsd:date ;
-                          rdfs:label "Kościół ewangelicki w Królestwie Polskim 1828-1849"@pl .
+                          rdfs:comment "Pominięte zostały dość dynamiczne zmiany dotyczące rozwoju struktur luterańskich na ziemiach polskich w latach 1772-1828 (w tym na obszarze Księstwa Warszawskiego), związane z włączaniem ich do systemu państw zaborczych oraz tendencjami unijnymi (próby powołania wspólnego konsystorza dla luteran i reformowanych)."@pl ;
+                          rdfs:label "Evangelical Church in Kingdom of Poland 1828-1849"@en ,
+                                     "Kościół ewangelicki w Królestwie Polskim 1828-1849"@pl ;
+                          rdfs:seeAlso :document_125 ,
+                                       :document_128 ,
+                                       :document_129 ,
+                                       :document_135 ,
+                                       :document_143 .
 
 
 ###  http://purl.org/ontohgis#administrative_system_36
@@ -10605,6 +10643,16 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
               dc:date 2001 ;
               dc:title "Protestantyzm w Poznańskiem 1815-1918"@pl ;
               rdfs:label "Kiec, Protestantyzm w Poznańskiem"@pl .
+
+
+###  http://purl.org/ontohgis#document_143
+:document_143 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Stegner, T." ;
+              dc:date 1992 ;
+              dc:description "Rozprawy i monografie / Uniwersytet Gdański, 174"@pl ;
+              dc:title "Polacy-ewangelicy w Królestwie Polskim 1815-1914: Kształtowanie sie środowisk ich działalność społeczna i narodowa"@pl ;
+              rdfs:label "Stegner, Polacy-ewangelicy w Królestwie Polskim 1815-1914"@pl .
 
 
 ###  http://purl.org/ontohgis#document_15
