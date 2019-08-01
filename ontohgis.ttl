@@ -8053,15 +8053,41 @@ It is necessary to distinguish  suburbs from the suburban settlements which were
                    :hasOntologicalVerificator :person_10 ;
                    :hasTranslator :person_5 ,
                                   :person_9 ;
-                   rdfs:comment "Included as a kind of locality in Bystrzycki's register in the abbreviations as \"spa\" (pol \"uzdrow.\").Included on MGI maps where spas are annotated in the same manner as localites (e.g. Czarniecka Góra, Nałęczów) or buildings/field objects (Miłowody); there is no distinct symbol/abbreviation explained in maps' key to symbols (legends)."@en ,
+                   rdfs:comment """Functional distinctivness - clearly defined function, a locality connected with the service of bathers/visitors; it seems this is not the most important criterion of defining a type of locality (e.g. Ciechocinek in Bystrzycki's register is a city, not a spa).
+Morphological distinctiness - loose built-up area (spa-type), mostly in the woods (e.g. Czarniecka Góra, Miłowody); Nałęczów in Bystrzycki's register is also referred to as a health resort, and is characterized as densely built-up area (see: MGI maps).
+Spatial distinctiveness - clear, as far as Czarniecka Góra and Miłowody (spas located among the forest) are concerned."""@en ,
+                                "Included as a kind of locality in Bystrzycki's register in the abbreviations as \"spa\" (pol \"uzdrow.\").Included on MGI maps where spas are annotated in the same manner as localites (e.g. Czarniecka Góra, Nałęczów) or buildings/field objects (Miłowody); there is no distinct symbol/abbreviation explained in maps' key to symbols (legends)."@en ,
+                                """Odrębność funkcjonalna – jasno zdefiniowana funkcja, miejscowość związana z obsługa kuracjuszy; wydaje się, że nie jest to najistotniejsze kryterium (np. Ciechocinek u Bystrzyckiego jest miastem, a nie uzdrowiskiem).
+Odrębność morfologiczna – luźna zabudowa (uzdrowiskowa), najczęściej pośród lasu (Czarniecka Góra, Miłowody); Nałęczów u Bystrzyckiego również jest określany jako uzdrowisko, a cechuje się zabudową zwartą (patrz: mapy WIG).
+Odrębność przestrzenna – wyraźna w przy Czarnieckiej Górze i Miłowodach (uzdrowiska położone pośród lasu)."""@pl ,
                                 "Występuje jako rodzaj miejscowości u Bystrzyckiego w spisie (uzdrow.).Na mapach WIG oznaczane krojem pisma charakterystycznym dla miejscowości (Czarniecka Góra, Nałęczów) lub budynków/obiektów terenowych (Miłowody); brak odrębnej sygnatury/skrótu objaśniające w legendach."@pl ;
                    rdfs:isDefinedBy "A spa is a locality, where climate enhances treatment, and a main function of which is to serve bathers and visitors."@en ,
                                     "Uzdrowisko jest miejscowością, w której warunki klimatyczne sprzyjają leczeniu chorób i której główną funkcją jest obsługa kuracjuszy"@pl ;
                    rdfs:label "spa"@en ,
                               "uzdrowisko"@pl ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "letnisko (pl), lecznica (pl), sanatorium (pl)" ;
-                   <http://www.w3.org/2004/02/skos/core#prefLabel> "spa"@en ,
-                                                                   "uzdrowisko"@pl .
+                   rdfs:seeAlso <http://dbpedia.org/page/Spa_town> ,
+                                <https://www.wikidata.org/wiki/Q4946461> ,
+                                <https://www.wikidata.org/wiki/Q6882870> ,
+                                "miejscowość, która ze względu na warunki klimatyczne, źródła lecznicze, pokłady borowiny, itp. sprzyja leczeniu chorób i służy jako ośrodek leczniczy i wypoczynkowy"@pl ,
+                                "t. 7, s. 424 – zakład leczniczy, lecznisko, leczysko, sanatorium"@pl ;
+                   <http://www.w3.org/2004/02/skos/core#altLabel> "spa town"@en ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "lecznica"@pl ,
+                                                                     "letnisko"@pl ,
+                                                                     "sanatorium"@pl .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit53 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "miejscowość, która ze względu na warunki klimatyczne, źródła lecznicze, pokłady borowiny, itp. sprzyja leczeniu chorób i służy jako ośrodek leczniczy i wypoczynkowy"@pl ;
+   rdfs:isDefinedBy :document_4
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit53 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 7, s. 424 – zakład leczniczy, lecznisko, leczysko, sanatorium"@pl ;
+   rdfs:isDefinedBy :document_5
+ ] .
 
 
 ###  http://purl.org/ontohgis#settlement_unit54
@@ -8335,10 +8361,17 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
                                     "Część wsi to miejscowość stanowiąca integralną część miejscowości podstawowej wsi, jest wydzielona administracyjnie, ale przynależy do jednostki nadrzędnej."@pl ;
                    rdfs:label "część wsi"@pl ,
                               "part of a village"@en ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "wioska (pl), sioło (pl), rus (lat), pagus (lat), Dorf (de), Land (de), derewnia (ru), seło (ru), village (en), country (en)" ,
-                                                                     "wioska (pl), sioło (pl), rus (lat), pagus (lat), Dorf (de), Land (de), derewnia (ru), seło (ru), village (en), country (en) (dotyczy również definicji kolonii wsi, osady leśnej wsi, osady wsi, osiedla wsi)" ;
-                   <http://www.w3.org/2004/02/skos/core#prefLabel> "część wsi"@pl ,
-                                                                   "part of a village"@en .
+                   rdfs:seeAlso <https://pzgik.geoportal.gov.pl/ontologies/prng/czescWsi> ,
+                                <https://www.wikidata.org/wiki/Q41970180> ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Dorf"@de ,
+                                                                     "Land"@de ,
+                                                                     "country"@en ,
+                                                                     "derewnia"@ru ,
+                                                                     "pagus"@la ,
+                                                                     "seło"@ru ,
+                                                                     "sioło"@pl ,
+                                                                     "village"@en ,
+                                                                     "wioska"@pl .
 
 
 ###  http://purl.org/ontohgis#settlement_unit64
@@ -8463,14 +8496,16 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
                    :hasLanguageVerificator :person_1 ;
                    :hasOntologicalVerificator :person_10 ;
                    :hasTranslator :person_5 ;
-                   rdfs:comment "Są cztery takie obiekty w Polsce, wszystkie w woj. lubelskim."@pl ,
+                   rdfs:comment "Brak oficjalnej definicji w \"Ustawie o nazwach urzędowych miejscowości i jednostek fizjograficznych\"."@pl ,
+                                "No official definition in the \"Act on official names of localities and physiographic units\"."@en ,
+                                "Są cztery takie obiekty w Polsce, wszystkie w woj. lubelskim."@pl ,
                                 "There are 4 such a settlements is contemporary Poland: all in Lubelskie voivodship."@en ;
                    rdfs:isDefinedBy "Osada kolonii jest to osada stanowiąca integralną część kolonii."@pl ,
                                     "Settlement of a colony is a settlement which is an integral part of a colony."@en ;
                    rdfs:label "osada kolonii"@pl ,
                               "settlement of a colony"@en ;
-                   <http://www.w3.org/2004/02/skos/core#prefLabel> "osada kolonii"@pl ,
-                                                                   "settlement of a colony"@en .
+                   rdfs:seeAlso <https://pzgik.geoportal.gov.pl/ontologies/prng/osadaKolonii> ,
+                                <https://www.wikidata.org/wiki/Q41970180> .
 
 
 ###  http://purl.org/ontohgis#settlement_unit69
@@ -8495,16 +8530,38 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
                    :hasLanguageVerificator :person_1 ;
                    :hasOntologicalVerificator :person_10 ;
                    :hasTranslator :person_5 ;
-                   rdfs:comment "Są 233 takie obiekty w Polsce, świętokrzyskie, północnym lubelskim, północnym lubuskim, Borach Tucholskich."@pl ,
+                   rdfs:comment "Brak oficjalnej definicji w \"Ustawie o nazwach urzędowych miejscowości i jednostek fizjograficznych\"."@pl ,
+                                "No official definition in the \"Act on official names of localities and physiographic units\"."@en ,
+                                "Są 233 takie obiekty w Polsce, świętokrzyskie, północnym lubelskim, północnym lubuskim, Borach Tucholskich."@pl ,
                                 "There are 233 forest settlements of a village in Poland, mainly in Świętokrzyskie northern part of Lubelskie, northern part of Lubuskie voivodships as well as in \"Bory Tuchulskie\" (Pomorskie voivodship)."@en ;
                    rdfs:isDefinedBy "Forest settlement of a village is a forest settlement which is an integral part of  a village."@en ,
                                     "Osada leśna wsi to osada leśna stanowiąca integralną część wsi."@pl ;
                    rdfs:label "forest settlement of a village"@en ,
                               "osada leśna wsi"@pl ;
+                   rdfs:seeAlso <https://pzgik.geoportal.gov.pl/ontologies/prng/osadaLesnaWsi> ,
+                                <https://www.wikidata.org/wiki/Q41970180> ,
+                                "t. 20. s.47: Osady przemysłowe - osiedla dla robotników i rzemieślników zakładane XVIII – XIX w. w związku z dokonującym się procesem uprzemysłowienia, niekiedy zwane osadami fabrycznymi; zwykle osady przemysłowe obejmowały zarówno zakłady przemysłowe jak i związane z nimi kolonie domów mieszkalnych. Na ziemiach polskich powstawały od końca XVIII wieku jako osady prywatne bądź rządowe i stopniowo uzyskiwały prawa miejskie;  w drugiej połowie XIX wieku termin „osady przemysłowe” zaczęto używać do wszelkich osiedli rozwijających się wokół zakładów przemysłowych; dzielnice mieszkaniowe, zwane koloniami lub domami fabrycznymi wznoszono w drugiej połowie XIX i w XX wieku przez wielkie zakłady przemysłowe w już istniejących miejscowościach dla robotników i urzędników niższego szczebla, zwykle o niskim standardzie i niewysokich czynszach."@pl ;
                    <http://www.w3.org/2004/02/skos/core#altLabel> "osada przemysłowa (pl)" ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "miasteczko (pl), osiedle (pl), miejscowość (pl), kolonia (pl), sadyba (pl), zagroda włościańska (pl), conlocationen (lat), der Siedlung (de), die Ansiedlung (de), der Ortschaft (de), die Kolonie (de), settlement (en)" ;
-                   <http://www.w3.org/2004/02/skos/core#prefLabel> "forest settlement of a village"@en ,
-                                                                   "osada leśna wsi"@pl .
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Ansiedlung"@de ,
+                                                                     "Kolonie"@de ,
+                                                                     "Ortschaft"@de ,
+                                                                     "Siedlung"@de ,
+                                                                     "conlocationen"@la ,
+                                                                     "kolonia"@pl ,
+                                                                     "miasteczko"@pl ,
+                                                                     "miasteczko (pl), osiedle (pl), miejscowość (pl), kolonia (pl), sadyba (pl), zagroda włościańska (pl), conlocationen (lat), der Siedlung (de), die Ansiedlung (de), der Ortschaft (de), die Kolonie (de), settlement (en)" ,
+                                                                     "miejscowość"@pl ,
+                                                                     "osiedle"@pl ,
+                                                                     "sadyba"@pl ,
+                                                                     "settlement"@en ,
+                                                                     "zagroda włościańska"@pl .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource :settlement_unit69 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 20. s.47: Osady przemysłowe - osiedla dla robotników i rzemieślników zakładane XVIII – XIX w. w związku z dokonującym się procesem uprzemysłowienia, niekiedy zwane osadami fabrycznymi; zwykle osady przemysłowe obejmowały zarówno zakłady przemysłowe jak i związane z nimi kolonie domów mieszkalnych. Na ziemiach polskich powstawały od końca XVIII wieku jako osady prywatne bądź rządowe i stopniowo uzyskiwały prawa miejskie;  w drugiej połowie XIX wieku termin „osady przemysłowe” zaczęto używać do wszelkich osiedli rozwijających się wokół zakładów przemysłowych; dzielnice mieszkaniowe, zwane koloniami lub domami fabrycznymi wznoszono w drugiej połowie XIX i w XX wieku przez wielkie zakłady przemysłowe w już istniejących miejscowościach dla robotników i urzędników niższego szczebla, zwykle o niskim standardzie i niewysokich czynszach."@pl ;
+   rdfs:isDefinedBy :document_21
+ ] .
 
 
 ###  http://purl.org/ontohgis#settlement_unit7
@@ -8684,15 +8741,30 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
                    :hasOntologicalVerificator :person_10 ;
                    :hasTranslator :person_5 ,
                                   :person_9 ;
-                   rdfs:comment "Jest 11 takich obiektów w Polsce, są one rozmieszczone w północno-zachodniej Polsce."@pl ,
-                                "There are 11 housing estates of a village which are located in NW Poland."@en ;
+                   rdfs:comment "In urban studies, this notion is derived from a \"neighbouring unit\" idea, which denotes a group of residential buildings with service facilities and green areas."@en ,
+                                "Jest 11 takich obiektów w Polsce, są one rozmieszczone w północno-zachodniej Polsce."@pl ,
+                                "There are 11 housing estates of a village which are located in NW Poland."@en ,
+                                "W urbanistyce (planowaniu przestrzennym) pojęcie osiedla wywodzi się z koncepcji „jednostki sąsiedzkiej”, na którą składa się zespół budynków mieszkalnych wraz z zapleczem obiektów usługowych oraz terenów zielonych."@pl ;
                    rdfs:isDefinedBy "Housing estate of a village is a housing estate which is an integral part of a village."@en ,
                                     "Osiedle wsi jest to osiedle stanowiące integralną część wsi."@pl ;
                    rdfs:label "housing estate of a village"@en ,
                               "osiedle wsi"@pl ;
-                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "osada (pl), kolonia (pl), część miasta (pl), osiedle willowe (pl), dzielnica (pl), osiedlić (pl), osiedlisko (pl), conlocationen (lat), die Ansiedlung (de), der Siedlung (de), die Wohnsiedlung (de), settlement (en), housing estate (en), hamlet (en), residential quarter (en)" ;
-                   <http://www.w3.org/2004/02/skos/core#prefLabel> "housing estate of a village"@en ,
-                                                                   "osiedle wsi"@pl .
+                   rdfs:seeAlso <https://pzgik.geoportal.gov.pl/ontologies/prng/osiedleWsi> ,
+                                <https://www.wikidata.org/wiki/Q41970180> ;
+                   <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Ansiedlung"@de ,
+                                                                     "Siedlung"@de ,
+                                                                     "Wohnsiedlung"@de ,
+                                                                     "conlocationen"@la ,
+                                                                     "część miasta"@pl ,
+                                                                     "dzielnica"@pl ,
+                                                                     "hamlet"@en ,
+                                                                     "housing estate"@en ,
+                                                                     "kolonia"@pl ,
+                                                                     "osada"@pl ,
+                                                                     "osiedle willowe"@pl ,
+                                                                     "osiedlisko"@pl ,
+                                                                     "residential quarter"@en ,
+                                                                     "settlement"@en .
 
 
 ###  http://purl.org/ontohgis#settlement_unit73
@@ -8773,14 +8845,16 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
                    :hasLanguageVerificator :person_1 ;
                    :hasOntologicalVerificator :person_10 ;
                    :hasTranslator :person_5 ;
-                   rdfs:comment "Przysiółek wsi jest odrębną jednostką osadniczą, rodzajem miejscowości, zawsze ma swoją nazwę własną. Przysiółki wsi występują głównie w woj. podkarpackim, małopolskim oraz w świętokrzyskim. W sumie jest ich 11580."@pl ,
+                   rdfs:comment "Brak oficjalnej definicji w \"Ustawie o nazwach urzędowych miejscowości i jednostek fizjograficznych\"."@pl ,
+                                "No official definition in the \"Act on official names of localities and physiographic units\"."@en ,
+                                "Przysiółek wsi jest odrębną jednostką osadniczą, rodzajem miejscowości, zawsze ma swoją nazwę własną. Przysiółki wsi występują głównie w woj. podkarpackim, małopolskim oraz w świętokrzyskim. W sumie jest ich 11580."@pl ,
                                 "The hamlet of a village is a separate settlement unit, a kind of locality, always has its particular name. Hamlets of villages occur mainly in Podkarpackie, Małopolskie, and Świętokrzyskie voivodships. In total, there are 11 580 hamlets of villages in Poland. "@en ;
                    rdfs:isDefinedBy "Hamlet of a village is a hamlet, for which a superior unit is a village."@en ,
                                     "Przysiółek wsi jest to przysiółek, dla którego jednostką nadrzędną jest wieś."@pl ;
                    rdfs:label "hamlet of a village"@en ,
                               "przysiółek wsi"@pl ;
-                   <http://www.w3.org/2004/02/skos/core#prefLabel> "hamlet of a village"@en ,
-                                                                   "przysiółek wsi"@pl .
+                   rdfs:seeAlso <https://pzgik.geoportal.gov.pl/ontologies/prng/przysiolekWsi> ,
+                                <https://www.wikidata.org/wiki/Q41970180> .
 
 
 ###  http://purl.org/ontohgis#settlement_unit76
