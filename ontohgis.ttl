@@ -1310,6 +1310,7 @@ obo:IAO_0000590 rdf:type owl:Class .
 
 ###  http://purl.org/ontohgis#administrative_type_101
 :administrative_type_101 rdf:type owl:Class ;
+                         owl:equivalentClass :administrative_type_102 ;
                          rdfs:subClassOf :object_3014 ;
                          :hasExternalIdentifier 101 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
@@ -1324,7 +1325,8 @@ obo:IAO_0000590 rdf:type owl:Class .
 :administrative_type_102 rdf:type owl:Class ;
                          rdfs:subClassOf :object_3014 ;
                          :hasExternalIdentifier 102 ;
-                         :isSymbolisedByMeansOf :map_symbol_100 ;
+                         :isSymbolisedByMeansOf :administrative_system_12 ,
+                                                :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_12 ;
                          rdfs:label "cesarstwo"@pl .
 
@@ -1375,7 +1377,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                                            owl:someValuesFrom :administrative_type_107
                                          ] ;
                          :hasExternalIdentifier 106 ;
-                         :isSymbolisedByMeansOf :map_symbol_90 ;
+                         :isSymbolisedByMeansOf :administrative_system_9 ,
+                                                :map_symbol_90 ;
                          rdfs:isDefinedBy :administrative_system_9 ;
                          rdfs:label "część (człon) państwa związkowego"@pl .
 
@@ -1384,7 +1387,8 @@ obo:IAO_0000590 rdf:type owl:Class .
 :administrative_type_107 rdf:type owl:Class ;
                          rdfs:subClassOf :object_3014 ;
                          :hasExternalIdentifier 107 ;
-                         :isSymbolisedByMeansOf :map_symbol_100 ;
+                         :isSymbolisedByMeansOf :administrative_system_9 ,
+                                                :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_9 ;
                          rdfs:label "cesarstwo"@pl ,
                                     "monarchia"@pl ,
@@ -1409,7 +1413,8 @@ obo:IAO_0000590 rdf:type owl:Class .
 :administrative_type_109 rdf:type owl:Class ;
                          rdfs:subClassOf :object_3014 ;
                          :hasExternalIdentifier 109 ;
-                         :isSymbolisedByMeansOf :map_symbol_100 ;
+                         :isSymbolisedByMeansOf :administrative_system_16 ,
+                                                :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_16 ;
                          rdfs:label "cesarstwo"@pl ,
                                     "composite monarchy"@en ,
@@ -1658,7 +1663,8 @@ obo:IAO_0000590 rdf:type owl:Class .
 :administrative_type_126 rdf:type owl:Class ;
                          rdfs:subClassOf :object_3014 ;
                          :hasExternalIdentifier 126 ;
-                         :isSymbolisedByMeansOf :map_symbol_70 ;
+                         :isSymbolisedByMeansOf :administrative_system_22 ,
+                                                :map_symbol_70 ;
                          rdfs:isDefinedBy :administrative_system_22 ;
                          rdfs:label "księstwo"@pl .
 
@@ -1887,7 +1893,8 @@ obo:IAO_0000590 rdf:type owl:Class .
 ###  http://purl.org/ontohgis#administrative_type_143
 :administrative_type_143 rdf:type owl:Class ;
                          owl:equivalentClass :administrative_type_149 ,
-                                             :administrative_type_162 ;
+                                             :administrative_type_162 ,
+                                             :administrative_type_238 ;
                          rdfs:subClassOf :object_3014 ;
                          :hasExternalIdentifier 143 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
@@ -3378,6 +3385,172 @@ obo:IAO_0000590 rdf:type owl:Class .
                                     "waad"@he .
 
 
+###  http://purl.org/ontohgis#administrative_type_222
+:administrative_type_222 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 222 ;
+                         :isSymbolisedByMeansOf :administrative_system_40 ;
+                         rdfs:isDefinedBy :administrative_system_40 ;
+                         rdfs:label "wołość"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_223
+:administrative_type_223 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 223 ;
+                         :isSymbolisedByMeansOf :administrative_system_40 ;
+                         rdfs:isDefinedBy :administrative_system_40 ;
+                         rdfs:label "ziemia"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_224
+:administrative_type_224 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 224 ;
+                         :isSymbolisedByMeansOf :administrative_system_40 ;
+                         rdfs:isDefinedBy :administrative_system_40 ;
+                         rdfs:label "księstwo"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_225
+:administrative_type_225 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 225 ;
+                         :isSymbolisedByMeansOf :administrative_system_40 ;
+                         rdfs:isDefinedBy :administrative_system_40 ;
+                         rdfs:label "wielkie księstwo"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_226
+:administrative_type_226 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 226 ;
+                         :isSymbolisedByMeansOf :administrative_system_12 ;
+                         rdfs:isDefinedBy :administrative_system_12 ;
+                         rdfs:label "powiat"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_227
+:administrative_type_227 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 227 ;
+                         :isSymbolisedByMeansOf :administrative_system_12 ;
+                         rdfs:isDefinedBy :administrative_system_12 ;
+                         rdfs:label "okręg"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_228
+:administrative_type_228 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 228 ;
+                         :isSymbolisedByMeansOf :administrative_system_12 ;
+                         rdfs:isDefinedBy :administrative_system_12 ;
+                         rdfs:label "gmina"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_229
+:administrative_type_229 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 229 ;
+                         :isSymbolisedByMeansOf :administrative_system_42 ;
+                         rdfs:isDefinedBy :administrative_system_42 ;
+                         rdfs:label "gmina"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_230
+:administrative_type_230 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 230 ;
+                         :isSymbolisedByMeansOf :administrative_system_42 ;
+                         rdfs:isDefinedBy :administrative_system_42 ;
+                         rdfs:label "powiat"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_231
+:administrative_type_231 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 231 ;
+                         :isSymbolisedByMeansOf :administrative_system_42 ;
+                         rdfs:isDefinedBy :administrative_system_42 ;
+                         rdfs:label "departament"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_232
+:administrative_type_232 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 232 ;
+                         :isSymbolisedByMeansOf :administrative_system_42 ;
+                         rdfs:isDefinedBy :administrative_system_42 ;
+                         rdfs:label "księstwo"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_233
+:administrative_type_233 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 233 ;
+                         :isSymbolisedByMeansOf :administrative_system_42 ;
+                         rdfs:isDefinedBy :administrative_system_42 ;
+                         rdfs:label "cesarstwo"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_234
+:administrative_type_234 rdf:type owl:Class ;
+                         rdfs:subClassOf :administrative_type_229 ,
+                                         :object_3014 ;
+                         :hasExternalIdentifier 234 ;
+                         :isSymbolisedByMeansOf :administrative_system_42 ;
+                         rdfs:isDefinedBy :administrative_system_42 ;
+                         rdfs:label "municypalność"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_235
+:administrative_type_235 rdf:type owl:Class ;
+                         rdfs:subClassOf :administrative_type_229 ,
+                                         :object_3014 ;
+                         :hasExternalIdentifier 235 ;
+                         :isSymbolisedByMeansOf :administrative_system_42 ;
+                         rdfs:isDefinedBy :administrative_system_42 ;
+                         rdfs:label "zgromadzenie gminne"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_236
+:administrative_type_236 rdf:type owl:Class ;
+                         rdfs:subClassOf :administrative_type_229 ,
+                                         :object_3014 ;
+                         :hasExternalIdentifier 236 ;
+                         :isSymbolisedByMeansOf :administrative_system_42 ;
+                         rdfs:isDefinedBy :administrative_system_42 ;
+                         rdfs:label "gmina wiejska"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_237
+:administrative_type_237 rdf:type owl:Class ;
+                         rdfs:subClassOf :administrative_type_229 ,
+                                         :object_3014 ;
+                         :hasExternalIdentifier 237 ;
+                         :isSymbolisedByMeansOf :administrative_system_42 ;
+                         rdfs:isDefinedBy :administrative_system_42 ;
+                         rdfs:label "gmina miejska"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_238
+:administrative_type_238 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 238 ;
+                         :isSymbolisedByMeansOf :administrative_system_46 ;
+                         rdfs:isDefinedBy :administrative_system_46 ;
+                         rdfs:label "państwo kościelne"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_239
+:administrative_type_239 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 239 ;
+                         :isSymbolisedByMeansOf :administrative_system_46 ;
+                         rdfs:isDefinedBy :administrative_system_46 ;
+                         rdfs:label "metropolia"@pl .
+
+
 ###  http://purl.org/ontohgis#administrative_type_24
 :administrative_type_24 rdf:type owl:Class ;
                         rdfs:subClassOf :object_3014 ,
@@ -3390,6 +3563,99 @@ obo:IAO_0000590 rdf:type owl:Class .
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Gemeinde"@de ,
                                    "gmina"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_240
+:administrative_type_240 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 240 ;
+                         :isSymbolisedByMeansOf :administrative_system_46 ;
+                         rdfs:isDefinedBy :administrative_system_46 ;
+                         rdfs:label "diecezja"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_241
+:administrative_type_241 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 241 ;
+                         :isSymbolisedByMeansOf :administrative_system_46 ;
+                         rdfs:isDefinedBy :administrative_system_46 ;
+                         rdfs:label "parafia"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_242
+:administrative_type_242 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 242 ;
+                         :isSymbolisedByMeansOf :administrative_system_43 ;
+                         rdfs:isDefinedBy :administrative_system_43 ;
+                         rdfs:label "gmina"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_243
+:administrative_type_243 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 243 ;
+                         :isSymbolisedByMeansOf :administrative_system_43 ;
+                         rdfs:isDefinedBy :administrative_system_43 ;
+                         rdfs:label "powiat"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_244
+:administrative_type_244 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 244 ;
+                         :isSymbolisedByMeansOf :administrative_system_43 ;
+                         rdfs:isDefinedBy :administrative_system_43 ;
+                         rdfs:label "obwód"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_245
+:administrative_type_245 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 245 ;
+                         :isSymbolisedByMeansOf :administrative_system_43 ;
+                         rdfs:isDefinedBy :administrative_system_43 ;
+                         rdfs:label "województwo"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_246
+:administrative_type_246 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 246 ;
+                         :isSymbolisedByMeansOf :administrative_system_43 ;
+                         rdfs:isDefinedBy :administrative_system_43 ;
+                         rdfs:label "królestwo"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_247
+:administrative_type_247 rdf:type owl:Class ;
+                         rdfs:subClassOf :administrative_type_242 ,
+                                         :object_3014 ;
+                         :hasExternalIdentifier 247 ;
+                         :isSymbolisedByMeansOf :administrative_system_43 ;
+                         rdfs:isDefinedBy :administrative_system_43 ;
+                         rdfs:label "gmina miejska"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_248
+:administrative_type_248 rdf:type owl:Class ;
+                         rdfs:subClassOf :administrative_type_242 ,
+                                         :object_3014 ;
+                         :hasExternalIdentifier 248 ;
+                         :isSymbolisedByMeansOf :administrative_system_43 ;
+                         rdfs:isDefinedBy :administrative_system_43 ;
+                         rdfs:label "gmina wiejska"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_249
+:administrative_type_249 rdf:type owl:Class ;
+                         owl:equivalentClass :administrative_type_57 ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 249 ;
+                         :isSymbolisedByMeansOf :administrative_system_43 ;
+                         rdfs:isDefinedBy :administrative_system_43 ;
+                         rdfs:label "cesarstwo"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_25
@@ -3406,6 +3672,101 @@ obo:IAO_0000590 rdf:type owl:Class .
                                    "wójtostwo"@pl .
 
 
+###  http://purl.org/ontohgis#administrative_type_250
+:administrative_type_250 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 250 ;
+                         :isSymbolisedByMeansOf :administrative_system_47 ;
+                         rdfs:isDefinedBy :administrative_system_47 ;
+                         rdfs:label "gmina"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_251
+:administrative_type_251 rdf:type owl:Class ;
+                         rdfs:subClassOf :administrative_type_250 ,
+                                         :object_3014 ;
+                         :hasExternalIdentifier 251 ;
+                         :isSymbolisedByMeansOf :administrative_system_47 ;
+                         rdfs:isDefinedBy :administrative_system_47 ;
+                         rdfs:label "gmina miejska"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_252
+:administrative_type_252 rdf:type owl:Class ;
+                         rdfs:subClassOf :administrative_type_250 ,
+                                         :object_3014 ;
+                         :hasExternalIdentifier 252 ;
+                         :isSymbolisedByMeansOf :administrative_system_47 ;
+                         rdfs:isDefinedBy :administrative_system_47 ;
+                         rdfs:label "gmina wiejska"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_253
+:administrative_type_253 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 253 ;
+                         :isSymbolisedByMeansOf :administrative_system_47 ;
+                         rdfs:isDefinedBy :administrative_system_47 ;
+                         rdfs:label "powiat"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_254
+:administrative_type_254 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 254 ;
+                         :isSymbolisedByMeansOf :administrative_system_47 ;
+                         rdfs:isDefinedBy :administrative_system_47 ;
+                         rdfs:label "gubernia"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_255
+:administrative_type_255 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 255 ;
+                         :isSymbolisedByMeansOf :administrative_system_47 ;
+                         rdfs:isDefinedBy :administrative_system_47 ;
+                         rdfs:label "generał-gubernatorstwo"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_256
+:administrative_type_256 rdf:type owl:Class ;
+                         owl:equivalentClass :administrative_type_57 ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 256 ;
+                         :isSymbolisedByMeansOf :administrative_system_47 ;
+                         rdfs:isDefinedBy :administrative_system_47 ;
+                         rdfs:label "cesarstwo"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_257
+:administrative_type_257 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 257 ;
+                         :isSymbolisedByMeansOf :administrative_system_5 ;
+                         rdfs:isDefinedBy :administrative_system_5 ;
+                         rdfs:label "gmina"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_258
+:administrative_type_258 rdf:type owl:Class ;
+                         rdfs:subClassOf :administrative_type_257 ,
+                                         :object_3014 ;
+                         :hasExternalIdentifier 258 ;
+                         :isSymbolisedByMeansOf :administrative_system_5 ;
+                         rdfs:isDefinedBy :administrative_system_5 ;
+                         rdfs:label "gmina miejska"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_259
+:administrative_type_259 rdf:type owl:Class ;
+                         rdfs:subClassOf :administrative_type_257 ,
+                                         :object_3014 ;
+                         :hasExternalIdentifier 259 ;
+                         :isSymbolisedByMeansOf :administrative_system_5 ;
+                         rdfs:isDefinedBy :administrative_system_5 ;
+                         rdfs:label "gmina wiejska"@pl .
+
+
 ###  http://purl.org/ontohgis#administrative_type_26
 :administrative_type_26 rdf:type owl:Class ;
                         rdfs:subClassOf :object_3014 ,
@@ -3420,6 +3781,99 @@ obo:IAO_0000590 rdf:type owl:Class .
                                    "powiat"@pl .
 
 
+###  http://purl.org/ontohgis#administrative_type_260
+:administrative_type_260 rdf:type owl:Class ;
+                         rdfs:subClassOf :administrative_type_257 ,
+                                         :object_3014 ;
+                         :hasExternalIdentifier 260 ;
+                         :isSymbolisedByMeansOf :administrative_system_5 ;
+                         rdfs:isDefinedBy :administrative_system_5 ;
+                         rdfs:label "obszar dworski"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_261
+:administrative_type_261 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 261 ;
+                         :isSymbolisedByMeansOf :administrative_system_5 ;
+                         rdfs:isDefinedBy :administrative_system_5 ;
+                         rdfs:label "powiat"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_262
+:administrative_type_262 rdf:type owl:Class ;
+                         rdfs:subClassOf :administrative_type_261 ,
+                                         :object_3014 ;
+                         :hasExternalIdentifier 262 ;
+                         :isSymbolisedByMeansOf :administrative_system_5 ;
+                         rdfs:isDefinedBy :administrative_system_5 ;
+                         rdfs:label "powiat miejski"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_263
+:administrative_type_263 rdf:type owl:Class ;
+                         rdfs:subClassOf :administrative_type_261 ,
+                                         :object_3014 ;
+                         :hasExternalIdentifier 263 ;
+                         :isSymbolisedByMeansOf :administrative_system_5 ;
+                         rdfs:isDefinedBy :administrative_system_5 ;
+                         rdfs:label "powiat wiejski"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_264
+:administrative_type_264 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 264 ;
+                         :isSymbolisedByMeansOf :administrative_system_44 ;
+                         rdfs:isDefinedBy :administrative_system_44 ;
+                         rdfs:label "powiat"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_265
+:administrative_type_265 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 265 ;
+                         :isSymbolisedByMeansOf :administrative_system_44 ;
+                         rdfs:isDefinedBy :administrative_system_44 ;
+                         rdfs:label "ziemia"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_266
+:administrative_type_266 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 266 ;
+                         :isSymbolisedByMeansOf :administrative_system_44 ;
+                         rdfs:isDefinedBy :administrative_system_44 ;
+                         rdfs:label "województwo"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_267
+:administrative_type_267 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 267 ;
+                         :isSymbolisedByMeansOf :administrative_system_44 ;
+                         rdfs:isDefinedBy :administrative_system_44 ;
+                         rdfs:label "prowincja"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_268
+:administrative_type_268 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 268 ;
+                         :isSymbolisedByMeansOf :administrative_system_44 ;
+                         rdfs:isDefinedBy :administrative_system_44 ;
+                         rdfs:label "państwo"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_269
+:administrative_type_269 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 269 ;
+                         :isSymbolisedByMeansOf :administrative_system_45 ;
+                         rdfs:isDefinedBy :administrative_system_45 ;
+                         rdfs:label "komornictwo"@pl .
+
+
 ###  http://purl.org/ontohgis#administrative_type_27
 :administrative_type_27 rdf:type owl:Class ;
                         rdfs:subClassOf :administrative_type_26 ,
@@ -3429,6 +3883,87 @@ obo:IAO_0000590 rdf:type owl:Class .
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Landkreis"@de ,
                                    "powiat ziemski"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_270
+:administrative_type_270 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 270 ;
+                         :isSymbolisedByMeansOf :administrative_system_45 ;
+                         rdfs:isDefinedBy :administrative_system_45 ;
+                         rdfs:label "starostwo"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_271
+:administrative_type_271 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 271 ;
+                         :isSymbolisedByMeansOf :administrative_system_45 ;
+                         rdfs:isDefinedBy :administrative_system_45 ;
+                         rdfs:label "okręg"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_272
+:administrative_type_272 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 272 ;
+                         :isSymbolisedByMeansOf :administrative_system_45 ;
+                         rdfs:isDefinedBy :administrative_system_45 ;
+                         rdfs:label "księstwo lenne"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_273
+:administrative_type_273 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 273 ;
+                         :isSymbolisedByMeansOf :administrative_system_45 ;
+                         rdfs:isDefinedBy :administrative_system_45 ;
+                         rdfs:label "państwo"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_274
+:administrative_type_274 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 274 ;
+                         :isSymbolisedByMeansOf :administrative_system_16 ;
+                         rdfs:isDefinedBy :administrative_system_16 ;
+                         rdfs:label "cyrkuł"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_275
+:administrative_type_275 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 275 ;
+                         :isSymbolisedByMeansOf :administrative_system_9 ;
+                         rdfs:isDefinedBy :administrative_system_9 ;
+                         rdfs:label "gmina"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_276
+:administrative_type_276 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 276 ;
+                         :isSymbolisedByMeansOf :administrative_system_9 ;
+                         rdfs:isDefinedBy :administrative_system_9 ;
+                         rdfs:label "powiat sądowy"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_277
+:administrative_type_277 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 277 ;
+                         :isSymbolisedByMeansOf :administrative_system_9 ;
+                         rdfs:isDefinedBy :administrative_system_9 ;
+                         rdfs:label "powiat polityczny"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_type_278
+:administrative_type_278 rdf:type owl:Class ;
+                         rdfs:subClassOf :object_3014 ;
+                         :hasExternalIdentifier 278 ;
+                         :isSymbolisedByMeansOf :administrative_system_22 ;
+                         rdfs:isDefinedBy :administrative_system_22 ;
+                         rdfs:label "starostwo"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_28
@@ -3501,7 +4036,8 @@ obo:IAO_0000590 rdf:type owl:Class .
 :administrative_type_32 rdf:type owl:Class ;
                         rdfs:subClassOf :object_3014 ;
                         :hasExternalIdentifier 32 ;
-                        :isSymbolisedByMeansOf :map_symbol_80 ;
+                        :isSymbolisedByMeansOf :administrative_system_5 ,
+                                               :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_5 ;
                         rdfs:label "Freie Stadt"@de ,
                                    "wolne miasto"@pl .
@@ -3636,7 +4172,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 42 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
-                        rdfs:label "Regierungsbezirk"@de ,
+                        rdfs:label "Księstwo Warszawskie"@pl ,
+                                   "Regierungsbezirk"@de ,
                                    "okręg rejencyjny"@pl ,
                                    "rejencja"@pl ;
                         <http://www.w3.org/2004/02/skos/core#altLabel> "Regierung"@de ,
@@ -3653,7 +4190,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 43 ;
                         :isSymbolisedByMeansOf :map_symbol_60 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
-                        rdfs:label "Provinz"@de ,
+                        rdfs:label "Królestwo Polskie (1815-1836)"@pl ,
+                                   "Provinz"@de ,
                                    "prowincja"@pl .
 
 
@@ -3683,7 +4221,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 45 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_3 ;
-                        rdfs:label "commune"@en ,
+                        rdfs:label "Prusy Książęce (1525-1701)"@pl ,
+                                   "commune"@en ,
                                    "gmina"@pl ;
                         rdfs:seeAlso <http://dbpedia.org/page/Gmina> ,
                                      <http://gov.genealogy.net/types.owl#18> ,
@@ -3936,7 +4475,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                                           owl:someValuesFrom :administrative_type_106
                                         ] ;
                         :hasExternalIdentifier 58 ;
-                        :isSymbolisedByMeansOf :map_symbol_70 ,
+                        :isSymbolisedByMeansOf :administrative_system_9 ,
+                                               :map_symbol_70 ,
                                                :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_9 ;
                         rdfs:label "kraj koronny"@pl ,
@@ -4141,7 +4681,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                                           owl:someValuesFrom :administrative_type_102
                                         ] ;
                         :hasExternalIdentifier 73 ;
-                        :isSymbolisedByMeansOf :map_symbol_80 ;
+                        :isSymbolisedByMeansOf :administrative_system_12 ,
+                                               :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_12 ;
                         rdfs:label "królestwo"@pl ,
                                    "państwo"@pl .
@@ -4340,7 +4881,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                                           owl:someValuesFrom :administrative_type_109
                                         ] ;
                         :hasExternalIdentifier 88 ;
-                        :isSymbolisedByMeansOf :map_symbol_70 ;
+                        :isSymbolisedByMeansOf :administrative_system_16 ,
+                                               :map_symbol_70 ;
                         rdfs:isDefinedBy :administrative_system_16 ;
                         rdfs:label "gubernium"@pl .
 
@@ -10312,6 +10854,95 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
                                       :document_52 ,
                                       :document_53 ,
                                       :document_54 .
+
+
+###  http://purl.org/ontohgis#administrative_system_40
+:administrative_system_40 rdf:type owl:NamedIndividual ,
+                                   :object_21 ;
+                          :endsDominationAt "1569-12-31"^^xsd:date ;
+                          :hasBeginning "1385-01-01"^^xsd:date ;
+                          :hasEnd "1569-12-31"^^xsd:date ;
+                          :hasScope "terytorium Wielkiego Księstwa Litewskiego, przede wszystkich teren historycznego Podlasia i Suwalszczyzny"^^xsd:string ;
+                          :individualHasExternalIdentifier 40 ;
+                          :startsDominationAt "1385-01-01"^^xsd:date ;
+                          rdfs:label "Wielkie Księstwo Litewskie (1385-1569)"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_system_42
+:administrative_system_42 rdf:type owl:NamedIndividual ,
+                                   :object_21 ;
+                          :endsDominationAt "1814-12-31"^^xsd:date ;
+                          :hasBeginning "1807-01-01"^^xsd:date ;
+                          :hasEnd "1814-12-31"^^xsd:date ;
+                          :hasLegalBasis "Dziennik Praw [Księstwa Warszawskiego], t. 1, s. XXXIV"^^xsd:string ;
+                          :hasScope "terytorium Księstwa Warszawskiego"^^xsd:string ;
+                          :individualHasExternalIdentifier 42 ;
+                          :startsDominationAt "1807-01-01"^^xsd:date ;
+                          rdfs:label "Księstwo Warszawskie"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_system_43
+:administrative_system_43 rdf:type owl:NamedIndividual ,
+                                   :object_21 ;
+                          :endsDominationAt "1837-12-31"^^xsd:date ;
+                          :hasBeginning "1815-01-01"^^xsd:date ;
+                          :hasEnd "1842-12-31"^^xsd:date ;
+                          :hasLegalBasis "Dekret Namiestnika Królestwa Polskiego gen. Józefa Zajączka z dn. 16 stycznia 1816 r. (Dziennik Praw, T. 1, s. 115)"^^xsd:string ;
+                          :hasScope "terytorium Królestwa Polskiego"^^xsd:string ;
+                          :individualHasExternalIdentifier 43 ;
+                          :startsDominationAt "1815-01-01"^^xsd:date ;
+                          rdfs:label "Królestwo Polskie (1815-1836)"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_system_44
+:administrative_system_44 rdf:type owl:NamedIndividual ,
+                                   :object_21 ;
+                          :endsDominationAt "1568-12-31"^^xsd:date ;
+                          :hasBeginning "1370-01-01"^^xsd:date ;
+                          :hasEnd "1568-12-31"^^xsd:date ;
+                          :hasLegalBasis "reformy ustrojowe XIV w.; statuty wiślicko-piotrowskie (1356-1362 r.)"^^xsd:string ;
+                          :hasScope "terytorium Królestwa Polskiego"^^xsd:string ;
+                          :individualHasExternalIdentifier 44 ;
+                          :startsDominationAt "1370-01-01"^^xsd:date ;
+                          rdfs:label "Królestwo Polskie (1370-1568)"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_system_45
+:administrative_system_45 rdf:type owl:NamedIndividual ,
+                                   :object_21 ;
+                          :endsDominationAt "1701-12-31"^^xsd:date ;
+                          :hasBeginning "1525-01-01"^^xsd:date ;
+                          :hasEnd "1701-12-31"^^xsd:date ;
+                          :hasScope "terytorium Prus Książęcych"^^xsd:string ;
+                          :individualHasExternalIdentifier 45 ;
+                          :startsDominationAt "1525-01-01"^^xsd:date ;
+                          rdfs:label "Prusy Książęce (1525-1701)"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_system_46
+:administrative_system_46 rdf:type owl:NamedIndividual ,
+                                   :object_21 ;
+                          :endsDominationAt "1939-12-31"^^xsd:date ;
+                          :hasBeginning "1632-01-01"^^xsd:date ;
+                          :hasEnd "1939-12-31"^^xsd:date ;
+                          :hasLegalBasis "1632, unia kościoła ormiańskiego z Rzymem"^^xsd:string ;
+                          :hasScope "terytorium Polski, zwłaszcza wschodniej"^^xsd:string ;
+                          :individualHasExternalIdentifier 46 ;
+                          :startsDominationAt "1632-01-01"^^xsd:date ;
+                          rdfs:label "Kościół katolicki ob. ormiańskiego"@pl .
+
+
+###  http://purl.org/ontohgis#administrative_system_47
+:administrative_system_47 rdf:type owl:NamedIndividual ,
+                                   :object_21 ;
+                          :endsDominationAt "1918-12-31"^^xsd:date ;
+                          :hasBeginning "1867-01-01"^^xsd:date ;
+                          :hasEnd "1918-12-31"^^xsd:date ;
+                          :hasLegalBasis "Ukaz carski z 13.01.1867 (Dziennik Praw Królestwa Polskiego), nr 66, Warszawa 1866, s. 115-243."^^xsd:string ;
+                          :hasScope "terytorium Królestwa Polskiego"^^xsd:string ;
+                          :individualHasExternalIdentifier 47 ;
+                          :startsDominationAt "1867-01-01"^^xsd:date ;
+                          rdfs:label "Królestwo Polskie (1867-1918)"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_system_5
