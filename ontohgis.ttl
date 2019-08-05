@@ -1274,9 +1274,12 @@ obo:IAO_0000590 rdf:type owl:Class .
                                        :object_3014 ;
                        :hasExternalIdentifier 1 ;
                        :isSymbolisedByMeansOf :map_symbol_10 ;
+                       rdfs:comment """\"1808: Städte-Ordnung.
+Gminy miejskie i gminy wiejskie były jednostkami organizacji samorządowej (komunalnej), ale równocześnie pełniły funkcje podstawowych jednostek administracji terytorialnej. M. Bär, s. 228: „Die Landgemeinde ist außer einem Kommunalverband auch ein Bezirk der allgemeinen Landesverwaltung für die mannigfachen Geschäfte des staatlichen Polizei- und Finanzwesens, insbesondere für die Handhabung der Ortspolizei, und der Gemeindevorsteher ist das Organ des Amtsvorstehers für die örtliche Polizeiverwaltung“. W. Roger W.Frotscher, „Überblick über die Verwaltungsorganisation in den Bundesstaaten, w: Deutsche Verwaltungsgeschichte, Bd. 3 hrsg. von K.G.A. Jeserich, H. Pohl und G. Ch. v. Unruh, Stuttgart 1984, S. 417: „Der preußische Staat endete beim Landrat. In diesem oft zitierten Satz kommt zum Ausdruck, dass Gemeindeorgane, auch soweit sie staatliche Angelegenheiten wahrnahmen, nicht als staatliche, sondern als kommunale Behörden tätig wurden. Sie handelten, etwa als Ortspolizei `für den Staat` in einem ihnen übertragenen Wirkungskreis.\""""@de ;
                        rdfs:isDefinedBy :administrative_system_4 ;
                        rdfs:label "Stadtgemeinde"@de ,
-                                  "gmina miejska"@pl .
+                                  "gmina miejska"@pl ,
+                                  "town commune"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_10
@@ -1289,7 +1292,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 10 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_1 ;
-                        rdfs:label "powiat"@pl .
+                        rdfs:label "land district"@en ,
+                                   "powiat"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_100
@@ -1314,11 +1318,20 @@ obo:IAO_0000590 rdf:type owl:Class .
                          rdfs:subClassOf :object_3014 ;
                          :hasExternalIdentifier 101 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
+                         rdfs:comment """\"Władza króla nad całym terytorium państwa sprawowana osobiście i na czele rządu centralnego do 1850. Od 1850 ustrój parlamentarno-konstytucyjny.
+Królestwo Prus nominalnie wchodzące w skład Cesarstwa Niemieckiego do 1806 r.
+1807-1815 Królestwo Prus jako państwo członkowskie Związku Reńskiego
+1815-1867. Królestwo Prus Jako państwo członkowskie Związku Niemieckiego.
+1867-1871 Królestwo Prus jako państwo członkowskie Związku Północnoniemieckiego.
+1871-1919 Królestwo Prus jako państwo członkowskie Cesarstwa Niemieckiego.\""""@pl ;
                          rdfs:isDefinedBy :administrative_system_7 ;
                          rdfs:label "Kaiserreich"@de ,
-                                    "cesarstwo"@pl ,
-                                    "monarchia"@pl ,
-                                    "państwo złożone"@pl .
+                                    "composite state"@en ,
+                                    "państwo złożone"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "cesarstwo"@pl ,
+                                                                        "empire"@en ,
+                                                                        "monarchia"@pl ,
+                                                                        "monarchy"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_102
@@ -1327,8 +1340,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 102 ;
                          :isSymbolisedByMeansOf :administrative_system_12 ,
                                                 :map_symbol_100 ;
+                         rdfs:comment "Od 1871 jako część Cesarstwa Niemieckiego."@pl ;
                          rdfs:isDefinedBy :administrative_system_12 ;
-                         rdfs:label "cesarstwo"@pl .
+                         rdfs:label "cesarstwo"@pl ,
+                                    "empire"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_103
@@ -1341,8 +1356,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          ] ;
                          :hasExternalIdentifier 103 ;
                          :isSymbolisedByMeansOf :map_symbol_90 ;
+                         rdfs:comment "Po przekształceniu w 1867 r. Cesarstwa Austriackiego w monarchię dualistyczną jego terytorium zostało podzielone na dwa człony-części: tzw. Zalitawię i Przedlitawię"@pl ;
                          rdfs:isDefinedBy :administrative_system_10 ;
-                         rdfs:label "część (człon) państwa związkowego"@pl .
+                         rdfs:label "część (człon) państwa związkowego"@pl ,
+                                    "part"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "polity"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_104
@@ -1354,8 +1372,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          ] ;
                          :hasExternalIdentifier 104 ;
                          :isSymbolisedByMeansOf :map_symbol_90 ;
+                         rdfs:comment "Po przekształceniu w 1867 r. Cesarstwa Austriackiego w monarchię dualistyczną jego terytorium zostało podzielone na dwa człony-części: tzw. Zalitawię i Przedlitawię"@pl ;
                          rdfs:isDefinedBy :administrative_system_18 ;
-                         rdfs:label "część (człon) państwa związkowego"@pl .
+                         rdfs:label "część (człon) państwa związkowego"@pl ,
+                                    "part"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "polity"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_105
@@ -1365,8 +1386,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_18 ;
                          rdfs:label "cesarstwo"@pl ,
-                                    "monarchia"@pl ,
-                                    "państwo związkowe"@pl .
+                                    "federation"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "dualist state"@en ,
+                                                                        "monarchia"@pl ,
+                                                                        "monarchy"@en ,
+                                                                        "państwo związkowe"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_106
@@ -1379,8 +1403,12 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 106 ;
                          :isSymbolisedByMeansOf :administrative_system_9 ,
                                                 :map_symbol_90 ;
+                         rdfs:comment "Po przekształceniu w 1867 r. Cesarstwa Austriackiego w monarchię dualistyczną jego terytorium zostało podzielone na dwa człony-części: tzw. Zalitawię i Przedlitawię; Śląsk Cieszyński znalazł się w Przedlitawii"@pl ,
+                                      "after the transformation of the Austrian Empire into dual monarchy in 1867, its territory was divided in to two parts: so-called Zalitawia and Przedlitawia. Cieszyn land was in Przedlitavia"@en ;
                          rdfs:isDefinedBy :administrative_system_9 ;
-                         rdfs:label "część (człon) państwa związkowego"@pl .
+                         rdfs:label "część (człon) państwa związkowego"@pl ,
+                                    "state"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "land"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_107
@@ -1391,8 +1419,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                                 :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_9 ;
                          rdfs:label "cesarstwo"@pl ,
-                                    "monarchia"@pl ,
-                                    "państwo związkowe"@pl .
+                                    "empire"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "federal state"@en ,
+                                                                        "monarchia"@pl ,
+                                                                        "monarchy"@en ,
+                                                                        "państwo związkowe"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_108
@@ -1415,12 +1446,14 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 109 ;
                          :isSymbolisedByMeansOf :administrative_system_16 ,
                                                 :map_symbol_100 ;
+                         rdfs:comment "Część Monarchii Habsburgów. Od 1804 r. w ramach Cesarstwa Austriackiego"@pl ,
+                                      "Part of Habsburgs' monarchy. Since 1804, in the Austrian Empire"@en ;
                          rdfs:isDefinedBy :administrative_system_16 ;
                          rdfs:label "cesarstwo"@pl ,
                                     "composite monarchy"@en ,
-                                    "composite state"@en ,
-                                    "monarchia złożona"@pl ,
-                                    "państwo złożone"@pl .
+                                    "composite state"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "monarchia złożona"@pl ,
+                                                                        "państwo złożone"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_11
@@ -1432,8 +1465,12 @@ obo:IAO_0000590 rdf:type owl:Class .
                                         ] ;
                         :hasExternalIdentifier 11 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
+                        rdfs:comment "Ustawy z lat 1919-1925 decydowały o utworzeniu poszczególnych województw (jako ostatnie zostało utworzone woj. wileńskie); na poziomie województwa (III stopień) klasyfikowane było także w ramach podziału terytorialnego administracji zespolonej miasto Warszawa, Mielcarek, s. 52."@pl ;
                         rdfs:isDefinedBy :administrative_system_1 ;
-                        rdfs:label "województwo"@pl .
+                        rdfs:label "voivodeship"@en ,
+                                   "województwo"@pl ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "province"@en ,
+                                                                       "vojvodship"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_110
@@ -1442,8 +1479,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 110 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_13 ;
-                         rdfs:label "cesarstwo"@pl ,
-                                    "państwo złożone"@pl .
+                         rdfs:label "Kaiserreich"@de ,
+                                    "composite state"@en ,
+                                    "państwo złożone"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "cesarstwo"@pl ,
+                                                                        "empire"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_111
@@ -1456,16 +1496,17 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 111 ;
                          :isSymbolisedByMeansOf :map_symbol_30 ;
                          rdfs:isDefinedBy :administrative_system_19 ;
-                         rdfs:label "Circul"@de ,
-                                    "Kreis"@de ,
-                                    "Weichbild"@de ,
-                                    "dystrykt"@pl ,
-                                    "hrabstwo"@pl ,
-                                    "księstwo"@pl ,
-                                    "okręg"@pl ,
+                         rdfs:label "Kreis"@de ,
+                                    "district"@en ,
                                     "powiat"@pl ,
-                                    "terra"@la ,
-                                    "ziemia"@pl .
+                                    "terra"@la ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "Circul"@de ,
+                                                                        "Weichbild"@de ,
+                                                                        "dystrykt"@pl ,
+                                                                        "hrabstwo"@pl ,
+                                                                        "księstwo"@pl ,
+                                                                        "okręg"@pl ,
+                                                                        "ziemia"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_112
@@ -1478,9 +1519,14 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          ] ;
                          :hasExternalIdentifier 112 ;
                          :isSymbolisedByMeansOf :map_symbol_70 ;
+                         rdfs:comment "księstwo (lenne i dziedziczne)"@pl ;
                          rdfs:isDefinedBy :administrative_system_19 ;
                          rdfs:label "księstwo"@pl ,
-                                    "wolne państwo stanowe"@pl .
+                                    "principalit"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "free state"@en ,
+                                                                        "march"@en ,
+                                                                        "marchia"@pl ,
+                                                                        "wolne państwo stanowe"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_113
@@ -1495,8 +1541,12 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 113 ;
                          :isSymbolisedByMeansOf :map_symbol_80 ;
                          rdfs:isDefinedBy :administrative_system_19 ;
-                         rdfs:label "królestwo"@pl ,
-                                    "państwo"@pl .
+                         rdfs:label "kingdom"@en ,
+                                    "królestwo"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "electorate"@en ,
+                                                                        "elektorat"@pl ,
+                                                                        "państwo"@pl ,
+                                                                        "state"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_114
@@ -1506,7 +1556,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_19 ;
                          rdfs:label "cesarstwo"@pl ,
-                                    "państwo złożone"@pl .
+                                    "empire"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "composite state"@en ,
+                                                                        "państwo złożone"@pl ,
+                                                                        "reich"@en ,
+                                                                        "rzesza"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_115
@@ -1519,7 +1573,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 115 ;
                          :isSymbolisedByMeansOf :map_symbol_40 ;
                          rdfs:isDefinedBy :administrative_system_20 ;
-                         rdfs:label "miasto-ziemia"@pl .
+                         rdfs:label "miasto-ziemia"@pl ,
+                                    "town"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_116
@@ -1528,8 +1583,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          :object_3014 ;
                          :hasExternalIdentifier 116 ;
                          :isSymbolisedByMeansOf :map_symbol_40 ;
+                         rdfs:comment "Miasta pokolokacyjne zastąpiły wcześniejszy, rodzimy (słowiański) system grodów kasztelańskich. Władzę sprawowali w nich w imieniu księcia mianowani spośród mieszczan sołtysi (sculteti) zwani również wójtami lub podwójtami (advocati minores, subadvocati)."@pl ;
                          rdfs:isDefinedBy :administrative_system_20 ;
-                         rdfs:label "miasto polokacyjne"@pl .
+                         rdfs:label "charter town"@en ,
+                                    "miasto polokacyjne"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_117
@@ -1538,8 +1595,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          :object_3014 ;
                          :hasExternalIdentifier 117 ;
                          :isSymbolisedByMeansOf :map_symbol_40 ;
+                         rdfs:comment "Dawne opola przekształcono w niewielkie jednostki terytorialne (Land), stanowiące zespół dóbr panującego, lub obszary będące lennami wielkich feudałów. Władzę sprawują wójtowie."@pl ;
                          rdfs:isDefinedBy :administrative_system_20 ;
                          rdfs:label "Land"@de ,
+                                    "land"@en ,
                                     "ziemia"@pl .
 
 
@@ -1552,8 +1611,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          ] ;
                          :hasExternalIdentifier 118 ;
                          :isSymbolisedByMeansOf :map_symbol_50 ;
+                         rdfs:comment """\"Powstały przeważnie z dawnych kasztelanii, zarządzane przez landwójtów (advocatus maior, Grosswogt, Landwogt). Zakres władzy: sądy nad rycerstwem, sądy odwoławcze w sprawach miejskich i chłopów z domen panujących; zarząd domen książęcych i egzekucja powinności; nadzór nad zamkami książęcymi i miastami.
+Od poł. XVI wieku równolegle powstają okręgi zarządów domen. Okręgi zarządów domen powstawały w wyniku sekularyzacji i przejmowania przez książąt pomorskich dóbr kościelnych, jednak nie objęły terytorium całego kraju i „nie były jeszcze w pełnym tego słowa znaczeniu okręgami administracji państwowej” (Historia Pomorza, II, 1, s. 842).\""""@pl ;
                          rdfs:isDefinedBy :administrative_system_20 ;
-                         rdfs:label "landwójtostwo"@pl .
+                         rdfs:label "landwójtostwo"@pl ,
+                                    "rural bailiwick"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_119
@@ -1565,8 +1627,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          ] ;
                          :hasExternalIdentifier 119 ;
                          :isSymbolisedByMeansOf :map_symbol_80 ;
+                         rdfs:comment "Osobista władza księcia w zakresie podległego mu terytorium, stopniowo delegowana na centralne organy władzy."@pl ;
                          rdfs:isDefinedBy :administrative_system_20 ;
-                         rdfs:label "księstwo"@pl .
+                         rdfs:label "duchy"@en ,
+                                    "księstwo"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "principality"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_12
@@ -1576,7 +1641,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_1 ;
                         rdfs:label "państwo"@pl ,
-                                   "republika"@pl .
+                                   "state"@en ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "republic"@en ,
+                                                                       "republika"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_120
@@ -1584,8 +1651,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                          rdfs:subClassOf :object_3014 ;
                          :hasExternalIdentifier 120 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
+                         rdfs:comment "Cesarz jako suzeren wszystkich księstw lennych"@pl ;
                          rdfs:isDefinedBy :administrative_system_20 ;
-                         rdfs:label "cesarstwo"@pl .
+                         rdfs:label "cesarstwo"@pl ,
+                                    "empire"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_121
@@ -1615,8 +1684,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          ] ;
                          :hasExternalIdentifier 122 ;
                          :isSymbolisedByMeansOf :map_symbol_50 ;
+                         rdfs:comment "Landvogtei (landwójtostwo) (zwane również okręgiem, w którym władzę sprawuje Landeshauptmann). Powstało w XIV w. w wyniku zmian politycznych (zmiana dynastii) oraz osłabienia dawnego systemu wójtostw, spowodowanego obficie udzielanymi przez margrafów przywilejami ekonomicznymi i sądowniczymi dla miast, klasztorów i dóbr rycerskich. Ponadto kolonizacja pustek, zmuszała do tworzenia znacznie większych obszarów administracji lokalnej niż poprzednie wójtostwa."@pl ;
                          rdfs:isDefinedBy :administrative_system_21 ;
-                         rdfs:label "landwójtostwo"@pl .
+                         rdfs:label "landwójtostwo"@pl ,
+                                    "rural bailiwick"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "voyt's rural dominion"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_123
@@ -1666,7 +1738,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :isSymbolisedByMeansOf :administrative_system_22 ,
                                                 :map_symbol_70 ;
                          rdfs:isDefinedBy :administrative_system_22 ;
-                         rdfs:label "księstwo"@pl .
+                         rdfs:label "duchy"@en ,
+                                    "księstwo"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_127
@@ -1678,8 +1751,12 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          ] ;
                          :hasExternalIdentifier 127 ;
                          :isSymbolisedByMeansOf :map_symbol_20 ;
+                         rdfs:comment "Vogtei (wójtostwo) i równolegle lub na ich bazie powstający Kreis (powiat) ziemski oraz Amt zwany również Domänenamt (okręg, urząd dominialny)"@pl ;
                          rdfs:isDefinedBy :administrative_system_23 ;
                          rdfs:label "Vogtei"@de ,
+                                    "bailiwick"@en ,
+                                    "voyt's dominion,"@en ,
+                                    "wójtostwo"@en ,
                                     "wójtostwo"@pl .
 
 
@@ -1707,9 +1784,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          ] ;
                          :hasExternalIdentifier 129 ;
                          :isSymbolisedByMeansOf :map_symbol_60 ;
+                         rdfs:comment "W Nowej Marchii był także starosta generalny dla całej prowincji, stojący ponad landwójtami (Walachowicz, Advocatia, s. 195)."@pl ;
                          rdfs:isDefinedBy :administrative_system_23 ;
-                         rdfs:label "prowincja"@pl ,
-                                    "starostwo generalne"@pl .
+                         rdfs:label "province"@en ,
+                                    "prowincja"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "starostwo generalne"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_13
@@ -1718,9 +1797,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                         :object_3014 ;
                         :hasExternalIdentifier 13 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
+                        rdfs:comment "1818: Edykt o urzędach sołtysów w gminach wiejskich i obszarach dworskich."@pl ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Landgemeinde"@de ,
-                                   "gmina wiejska"@pl .
+                                   "gmina wiejska"@pl ,
+                                   "rural commune"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_130
@@ -1733,9 +1814,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 130 ;
                          :isSymbolisedByMeansOf :map_symbol_80 ;
                          rdfs:isDefinedBy :administrative_system_23 ;
-                         rdfs:label "elektorat"@pl ,
-                                    "księstwo"@pl ,
-                                    "marchia"@pl .
+                         rdfs:label "księstwo"@pl ,
+                                    "marchia"@pl ,
+                                    "margraviate"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "elektorat"@pl ,
+                                                                        "principality"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_131
@@ -1744,8 +1827,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 131 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_23 ;
-                         rdfs:label "cesarstwo"@pl ,
-                                    "państwo złożone"@pl .
+                         rdfs:label "federal state"@en ,
+                                    "państwo złożone"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "cesarstwo"@pl ,
+                                                                        "empire"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_132
@@ -1757,6 +1842,7 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          ] ;
                          :hasExternalIdentifier 132 ;
                          :isSymbolisedByMeansOf :map_symbol_30 ;
+                         rdfs:comment "Kasztelania, opole, żupa, pagast; tutaj należy szukać genezy polskich powiatów; inne terytoria zależne nie posiadające statusu księstwa czy marchii (ziemie, miasta, część księstw, regiony)"@pl ;
                          rdfs:isDefinedBy :administrative_system_24 ;
                          rdfs:label "dzielnica"@pl .
 
@@ -1771,9 +1857,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          ] ;
                          :hasExternalIdentifier 133 ;
                          :isSymbolisedByMeansOf :map_symbol_70 ;
+                         rdfs:comment "Tutaj należy szukać genezy polskich województw"@pl ;
                          rdfs:isDefinedBy :administrative_system_24 ;
-                         rdfs:label "księstwo"@pl ,
-                                    "marchia"@pl .
+                         rdfs:label "duchy"@en ,
+                                    "księstwo zależne"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "marchia"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_134
@@ -1796,8 +1884,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                          rdfs:subClassOf :object_3014 ;
                          :hasExternalIdentifier 135 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
+                         rdfs:comment "Głównie dla obszarów należących do Świętego Cesarstwa Rzymskiego"@pl ;
                          rdfs:isDefinedBy :administrative_system_24 ;
-                         rdfs:label "państwo złożone"@pl .
+                         rdfs:label "composite state"@en ,
+                                    "państwo złożone"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_136
@@ -1809,8 +1899,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          ] ;
                          :hasExternalIdentifier 136 ;
                          :isSymbolisedByMeansOf :map_symbol_20 ;
+                         rdfs:comment "Od XIV w. J. Tandecki, Struktury i podziały administracyjne w zakonie krzyżackim w Inflantach, [w:] Zakon Krzyżacki w Prusach i Inflantach. Podziały admiinistracyjne i kościelne w XIII-XVI wieku, red. R. Czaja, A. Radzimiński, Toruń 2013, s. 171: \"Od samego początku istnienia terytorium zakonnego w Inflantach podstawowymi jednostkami jego ustroju administracyjnego były wójtostwa (Vogtei) i komturstwa (Komturei), będące zarazem siedzibami krzyżackich konwentów zakonnych\""@pl ;
                          rdfs:isDefinedBy :administrative_system_25 ;
-                         rdfs:label "wójtostwo"@pl .
+                         rdfs:label "bailiwick"@en ,
+                                    "wójtostwo"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "district"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_137
@@ -1820,7 +1913,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 137 ;
                          :isSymbolisedByMeansOf :map_symbol_20 ;
                          rdfs:isDefinedBy :administrative_system_25 ;
-                         rdfs:label "wójtostwo"@pl .
+                         rdfs:label "bailiwick"@en ,
+                                    "wójtostwo"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "district"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_138
@@ -1842,8 +1937,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          ] ;
                          :hasExternalIdentifier 139 ;
                          :isSymbolisedByMeansOf :map_symbol_30 ;
+                         rdfs:comment "Do 1309 roku właściwie jedyny podział terytorialny; w latach 20. i 30. XIV w. - w wyniku likwidacji komturstwa ziemi chełmińskiej - powstały wójtostwo lipienieckie i nowomiejskie (potem bratiańskie), zaś w wyniku likwidacji komturstw unisławskiego i rogozińskiego powstały prokuratorstwo unisławskie i wójtostwo rogozińskie; wójtostwa istniały też na innych obszarach państwa. J. Tandecki, Podziały administracyjne państwa zakonnego w Prusach, [w:] Zakon Krzyżacki w Prusach i Inflantach. Podziały admiinistracyjne i kościelne w XIII-XVI wieku, red. R. Czaja, A. Radzimiński, Toruń 2013, s. 30: \"Od początku istnienia państwa zakonnego w Prusach podstawowymi jednostkami ustroju terytorialnego były komturstwa (Komturei), będące jednocześnie siedzibami krzyżackich konwentów zakonnych\"."@pl ;
                          rdfs:isDefinedBy :administrative_system_25 ;
-                         rdfs:label "komturstwo"@pl .
+                         rdfs:label "commandery"@en ,
+                                    "komturstwo"@pl ;
+                         rdfs:seeAlso "https://www.wikidata.org/wiki/Q1434544" .
 
 
 ###  http://purl.org/ontohgis#administrative_type_14
@@ -1852,8 +1950,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                         :object_3014 ;
                         :hasExternalIdentifier 14 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
+                        rdfs:comment """1818: Edykt o urzędach sołtysów w gminach wiejskich i obszarach dworskich.
+31.12.1842: Terytorialne rozgraniczenie gmin wiejskich i obszarów dworskich w prowincjach wschodnich"""@pl ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Gutsbezirk"@de ,
+                                   "estate district"@en ,
                                    "obszar dworski"@pl .
 
 
@@ -1864,7 +1965,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 140 ;
                          :isSymbolisedByMeansOf :map_symbol_30 ;
                          rdfs:isDefinedBy :administrative_system_25 ;
-                         rdfs:label "komturstwo"@pl .
+                         rdfs:label "commandery"@en ,
+                                    "komturstwo"@pl ;
+                         rdfs:seeAlso "https://www.wikidata.org/wiki/Q1434544" .
 
 
 ###  http://purl.org/ontohgis#administrative_type_141
@@ -1874,7 +1977,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 141 ;
                          :isSymbolisedByMeansOf :map_symbol_30 ;
                          rdfs:isDefinedBy :administrative_system_25 ;
-                         rdfs:label "władztwo biskupa i kapituły"@pl .
+                         rdfs:label "chapter lands"@en ,
+                                    "władztwo biskupa i kapituły"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "bishop's lands"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_142
@@ -1887,7 +1992,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 142 ;
                          :isSymbolisedByMeansOf :map_symbol_80 ;
                          rdfs:isDefinedBy :administrative_system_25 ;
-                         rdfs:label "państwo zakonne"@pl .
+                         rdfs:label "monastic state"@en ,
+                                    "państwo zakonne"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_143
@@ -1898,8 +2004,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                          rdfs:subClassOf :object_3014 ;
                          :hasExternalIdentifier 143 ;
                          :isSymbolisedByMeansOf :map_symbol_100 ;
+                         rdfs:comment "Częściowo, w sprawach związanych z działalnością zakonną, podległość Stolicy Apostolskiej"@pl ;
                          rdfs:isDefinedBy :administrative_system_25 ;
-                         rdfs:label "państwo kościelne"@pl .
+                         rdfs:label "papal state"@en ,
+                                    "państwo kościelne"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_144
@@ -2948,8 +3056,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                                        :object_3014 ;
                        :hasExternalIdentifier 2 ;
                        :isSymbolisedByMeansOf :map_symbol_10 ;
+                       rdfs:comment "Zgodnie z treścią konstytucji marcowej (1921) \"Dla celów administracyjnych Państwo Polskie podzielone będzie w drodze ustawodawczej na województwa, powiaty i gminy miejskie i wiejskie, które będą równocześnie jednostkami samorządu terytorjalnego\". Faktycznie cały okres międzywojenny charakteryzuje proces unifikacji terytorialnej administracji ogólnej, której celem jest likwidacja różnic między byłymi zaborami. Ostatnim ważnym aktem była likwidacja obszarów dworskich na terenie woj. poznańskiego oraz pomorskiego na mocy tzw. ustawy scaleniowej z 1933 r."@pl ;
                        rdfs:isDefinedBy :administrative_system_1 ;
-                       rdfs:label "gmina miejska"@pl .
+                       rdfs:label "gmina miejska"@pl ,
+                                  "urban municipality"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_200
@@ -3359,7 +3469,7 @@ obo:IAO_0000590 rdf:type owl:Class .
 
 ###  http://purl.org/ontohgis#administrative_type_220
 :administrative_type_220 rdf:type owl:Class ;
-                         rdfs:subClassOf :object_3012 ,
+                         rdfs:subClassOf :object_3014 ,
                                          [ rdf:type owl:Restriction ;
                                            owl:onProperty obo:BFO_0000051 ;
                                            owl:someValuesFrom :administrative_type_221
@@ -3395,7 +3505,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 222 ;
                          :isSymbolisedByMeansOf :administrative_system_40 ;
                          rdfs:isDefinedBy :administrative_system_40 ;
-                         rdfs:label "wołość"@pl .
+                         rdfs:label "wolost"@en ,
+                                    "wołość"@pl ;
+                         rdfs:seeAlso "http://dbpedia.org/page/Volost" ,
+                                      "https://www.wikidata.org/wiki/Q687121" .
 
 
 ###  http://purl.org/ontohgis#administrative_type_223
@@ -3408,7 +3521,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 223 ;
                          :isSymbolisedByMeansOf :administrative_system_40 ;
                          rdfs:isDefinedBy :administrative_system_40 ;
-                         rdfs:label "ziemia"@pl .
+                         rdfs:label "land"@en ,
+                                    "ziemia"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_224
@@ -3421,7 +3535,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 224 ;
                          :isSymbolisedByMeansOf :administrative_system_40 ;
                          rdfs:isDefinedBy :administrative_system_40 ;
-                         rdfs:label "księstwo"@pl .
+                         rdfs:label "księstwo"@pl ,
+                                    "principality"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_225
@@ -3430,7 +3545,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 225 ;
                          :isSymbolisedByMeansOf :administrative_system_40 ;
                          rdfs:isDefinedBy :administrative_system_40 ;
-                         rdfs:label "wielkie księstwo"@pl .
+                         rdfs:label "Grand Duchy"@en ,
+                                    "wielkie księstwo"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_226
@@ -3443,7 +3559,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 226 ;
                          :isSymbolisedByMeansOf :administrative_system_12 ;
                          rdfs:isDefinedBy :administrative_system_12 ;
-                         rdfs:label "powiat"@pl .
+                         rdfs:label "Kreis"@de ,
+                                    "district"@en ,
+                                    "powiat"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_227
@@ -3456,7 +3574,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 227 ;
                          :isSymbolisedByMeansOf :administrative_system_12 ;
                          rdfs:isDefinedBy :administrative_system_12 ;
-                         rdfs:label "okręg"@pl .
+                         rdfs:label "Amt"@de ,
+                                    "okręg"@pl ,
+                                    "shire district"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "county"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_228
@@ -3469,7 +3590,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 228 ;
                          :isSymbolisedByMeansOf :administrative_system_12 ;
                          rdfs:isDefinedBy :administrative_system_12 ;
-                         rdfs:label "gmina"@pl .
+                         rdfs:label "Gemeinde"@de ,
+                                    "gmina"@pl ,
+                                    "municipality"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "commume"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_229
@@ -3482,7 +3606,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 229 ;
                          :isSymbolisedByMeansOf :administrative_system_42 ;
                          rdfs:isDefinedBy :administrative_system_42 ;
-                         rdfs:label "gmina"@pl .
+                         rdfs:label "commune"@en ,
+                                    "gmina"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_230
@@ -3495,7 +3620,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 230 ;
                          :isSymbolisedByMeansOf :administrative_system_42 ;
                          rdfs:isDefinedBy :administrative_system_42 ;
-                         rdfs:label "powiat"@pl .
+                         rdfs:label "district"@en ,
+                                    "powiat"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_231
@@ -3508,7 +3634,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 231 ;
                          :isSymbolisedByMeansOf :administrative_system_42 ;
                          rdfs:isDefinedBy :administrative_system_42 ;
-                         rdfs:label "departament"@pl .
+                         rdfs:label "departament"@pl ,
+                                    "department"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_232
@@ -3521,7 +3648,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 232 ;
                          :isSymbolisedByMeansOf :administrative_system_42 ;
                          rdfs:isDefinedBy :administrative_system_42 ;
-                         rdfs:label "księstwo"@pl .
+                         rdfs:label "Duchy"@en ,
+                                    "księstwo"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_233
@@ -3530,7 +3658,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 233 ;
                          :isSymbolisedByMeansOf :administrative_system_42 ;
                          rdfs:isDefinedBy :administrative_system_42 ;
-                         rdfs:label "cesarstwo"@pl .
+                         rdfs:label "cesarstwo"@pl ,
+                                    "empire"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_234
@@ -3539,8 +3668,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          :object_3014 ;
                          :hasExternalIdentifier 234 ;
                          :isSymbolisedByMeansOf :administrative_system_42 ;
+                         rdfs:comment "najniższa jednostka administracyjna, bez rozróżnienia na miejską i wiejską (niewprowadzone w życie) (M. Kallas, s. 212)"@pl ;
                          rdfs:isDefinedBy :administrative_system_42 ;
-                         rdfs:label "municypalność"@pl .
+                         rdfs:label "municipality"@en ,
+                                    "municypalność"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_235
@@ -3549,8 +3680,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          :object_3014 ;
                          :hasExternalIdentifier 235 ;
                          :isSymbolisedByMeansOf :administrative_system_42 ;
+                         rdfs:comment "dekret królewski z 19.12.1807 (J. Goclon, s. 107)"@pl ;
                          rdfs:isDefinedBy :administrative_system_42 ;
-                         rdfs:label "zgromadzenie gminne"@pl .
+                         rdfs:label "communal assembly"@en ,
+                                    "zgromadzenie gminne"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_236
@@ -3559,8 +3692,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          :object_3014 ;
                          :hasExternalIdentifier 236 ;
                          :isSymbolisedByMeansOf :administrative_system_42 ;
+                         rdfs:comment "od 23.02.1809 (M. Kallas, s. 212)"@pl ;
                          rdfs:isDefinedBy :administrative_system_42 ;
-                         rdfs:label "gmina wiejska"@pl .
+                         rdfs:label ""@en ,
+                                    "gmina wiejska"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_237
@@ -3569,8 +3704,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          :object_3014 ;
                          :hasExternalIdentifier 237 ;
                          :isSymbolisedByMeansOf :administrative_system_42 ;
+                         rdfs:comment "od 23.02.1809 (M. Kallas, s. 212)"@pl ;
                          rdfs:isDefinedBy :administrative_system_42 ;
-                         rdfs:label "gmina miejska"@pl .
+                         rdfs:label "gmina miejska"@pl ,
+                                    "town commune"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_238
@@ -3606,7 +3743,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Gemeinde"@de ,
-                                   "gmina"@pl .
+                                   "gmina"@pl ,
+                                   "municipality"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_240
@@ -3645,7 +3783,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 242 ;
                          :isSymbolisedByMeansOf :administrative_system_43 ;
                          rdfs:isDefinedBy :administrative_system_43 ;
-                         rdfs:label "gmina"@pl .
+                         rdfs:label "commune"@en ,
+                                    "gmina"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "municipality"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_243
@@ -3654,7 +3794,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 243 ;
                          :isSymbolisedByMeansOf :administrative_system_43 ;
                          rdfs:isDefinedBy :administrative_system_43 ;
-                         rdfs:label "powiat"@pl .
+                         rdfs:label "district"@en ,
+                                    "powiat"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_244
@@ -3667,7 +3808,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 244 ;
                          :isSymbolisedByMeansOf :administrative_system_43 ;
                          rdfs:isDefinedBy :administrative_system_43 ;
-                         rdfs:label "obwód"@pl .
+                         rdfs:label "district"@en ,
+                                    "obwód"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_245
@@ -3679,8 +3821,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          ] ;
                          :hasExternalIdentifier 245 ;
                          :isSymbolisedByMeansOf :administrative_system_43 ;
+                         rdfs:comment "W 1815 wprowadzono podział na województwa, który pokrywał się z Departamentami z Księstwa Warszawskiego (M. Kallas, s. 238). W 1837 na mocy ukazu carskiego wprowadzono gubernie w miejsce województw."@pl ;
                          rdfs:isDefinedBy :administrative_system_43 ;
-                         rdfs:label "województwo"@pl .
+                         rdfs:label "voivodeship"@en ,
+                                    "województwo"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "province"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_246
@@ -3693,7 +3838,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 246 ;
                          :isSymbolisedByMeansOf :administrative_system_43 ;
                          rdfs:isDefinedBy :administrative_system_43 ;
-                         rdfs:label "królestwo"@pl .
+                         rdfs:label "kingdom"@en ,
+                                    "królestwo"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_247
@@ -3703,7 +3849,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 247 ;
                          :isSymbolisedByMeansOf :administrative_system_43 ;
                          rdfs:isDefinedBy :administrative_system_43 ;
-                         rdfs:label "gmina miejska"@pl .
+                         rdfs:label "gmina miejska"@pl ,
+                                    "town commune"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_248
@@ -3713,7 +3860,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 248 ;
                          :isSymbolisedByMeansOf :administrative_system_43 ;
                          rdfs:isDefinedBy :administrative_system_43 ;
-                         rdfs:label "gmina wiejska"@pl .
+                         rdfs:label "gmina wiejska"@pl ,
+                                    "rural commune"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_249
@@ -3723,7 +3871,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 249 ;
                          :isSymbolisedByMeansOf :administrative_system_43 ;
                          rdfs:isDefinedBy :administrative_system_43 ;
-                         rdfs:label "cesarstwo"@pl .
+                         rdfs:label "cesarstwo"@pl ,
+                                    "empire"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_25
@@ -3735,9 +3884,13 @@ obo:IAO_0000590 rdf:type owl:Class .
                                         ] ;
                         :hasExternalIdentifier 25 ;
                         :isSymbolisedByMeansOf :map_symbol_20 ;
+                        rdfs:comment """\"Od 1.01. 1873 z wyłączeniem Prowincji Poznańskiej.
+W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączących kilka gmin, władzę wójtowską sprawowali właściciele dóbr ziemskich. Od 1833 roku do 1918 pełnili te funkcje okręgowi komisarze policji.\""""@pl ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Amtsbezirk"@de ,
-                                   "wójtostwo"@pl .
+                                   "administrative district"@en ,
+                                   "wójtostwo"@pl ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "bailwick"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_250
@@ -3750,7 +3903,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 250 ;
                          :isSymbolisedByMeansOf :administrative_system_47 ;
                          rdfs:isDefinedBy :administrative_system_47 ;
-                         rdfs:label "gmina"@pl .
+                         rdfs:label "commune"@en ,
+                                    "gmina"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "municipality"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_251
@@ -3760,7 +3915,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 251 ;
                          :isSymbolisedByMeansOf :administrative_system_47 ;
                          rdfs:isDefinedBy :administrative_system_47 ;
-                         rdfs:label "gmina miejska"@pl .
+                         rdfs:label "gmina miejska"@pl ,
+                                    "town commune"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_252
@@ -3770,7 +3926,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 252 ;
                          :isSymbolisedByMeansOf :administrative_system_47 ;
                          rdfs:isDefinedBy :administrative_system_47 ;
-                         rdfs:label "gmina wiejska"@pl .
+                         rdfs:label "gmina wiejska"@pl ,
+                                    "rural commune"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_253
@@ -3783,7 +3940,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 253 ;
                          :isSymbolisedByMeansOf :administrative_system_47 ;
                          rdfs:isDefinedBy :administrative_system_47 ;
-                         rdfs:label "powiat"@pl .
+                         rdfs:label "district"@en ,
+                                    "powiat"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_254
@@ -3796,7 +3954,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 254 ;
                          :isSymbolisedByMeansOf :administrative_system_47 ;
                          rdfs:isDefinedBy :administrative_system_47 ;
-                         rdfs:label "gubernia"@pl .
+                         rdfs:label "gubernia"@pl ,
+                                    "province"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_255
@@ -3809,7 +3968,12 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 255 ;
                          :isSymbolisedByMeansOf :administrative_system_47 ;
                          rdfs:isDefinedBy :administrative_system_47 ;
-                         rdfs:label "generał-gubernatorstwo"@pl .
+                         rdfs:label "general-governorate"@en ,
+                                    "generał-gubernatorstwo"@pl ,
+                                    "land"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "kingdom"@en ,
+                                                                        "kraj"@pl ,
+                                                                        "królestwo"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_256
@@ -3819,7 +3983,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 256 ;
                          :isSymbolisedByMeansOf :administrative_system_47 ;
                          rdfs:isDefinedBy :administrative_system_47 ;
-                         rdfs:label "cesarstwo"@pl .
+                         rdfs:label "cesarstwo"@pl ,
+                                    "empire"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_257
@@ -3832,7 +3997,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 257 ;
                          :isSymbolisedByMeansOf :administrative_system_5 ;
                          rdfs:isDefinedBy :administrative_system_5 ;
-                         rdfs:label "gmina"@pl .
+                         rdfs:label "commune"@en ,
+                                    "gmina"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_258
@@ -3842,7 +4008,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 258 ;
                          :isSymbolisedByMeansOf :administrative_system_5 ;
                          rdfs:isDefinedBy :administrative_system_5 ;
-                         rdfs:label "gmina miejska"@pl .
+                         rdfs:label "gmina miejska"@pl ,
+                                    "municipality"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "commune"@en ,
+                                                                        "town"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_259
@@ -3852,7 +4021,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 259 ;
                          :isSymbolisedByMeansOf :administrative_system_5 ;
                          rdfs:isDefinedBy :administrative_system_5 ;
-                         rdfs:label "gmina wiejska"@pl .
+                         rdfs:label "gmina wiejska"@pl ,
+                                    "rural municipality"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "rural commune"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_26
@@ -3866,6 +4037,7 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Kreis"@de ,
+                                   "district"@en ,
                                    "powiat"@pl .
 
 
@@ -3876,7 +4048,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 260 ;
                          :isSymbolisedByMeansOf :administrative_system_5 ;
                          rdfs:isDefinedBy :administrative_system_5 ;
-                         rdfs:label "obszar dworski"@pl .
+                         rdfs:label "manorial district"@en ,
+                                    "obszar dworski"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_261
@@ -3899,7 +4072,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 262 ;
                          :isSymbolisedByMeansOf :administrative_system_5 ;
                          rdfs:isDefinedBy :administrative_system_5 ;
-                         rdfs:label "powiat miejski"@pl .
+                         rdfs:label "powiat miejski"@pl ,
+                                    "town district"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_263
@@ -3909,7 +4083,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 263 ;
                          :isSymbolisedByMeansOf :administrative_system_5 ;
                          rdfs:isDefinedBy :administrative_system_5 ;
-                         rdfs:label "powiat wiejski"@pl .
+                         rdfs:label "land district"@en ,
+                                    "powiat wiejski"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_264
@@ -3994,6 +4169,7 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Landkreis"@de ,
+                                   "land district"@en ,
                                    "powiat ziemski"@pl .
 
 
@@ -4006,8 +4182,13 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          ] ;
                          :hasExternalIdentifier 270 ;
                          :isSymbolisedByMeansOf :administrative_system_45 ;
+                         rdfs:comment """\"Ujednolicone (po 1499) wcześniejsze komturstwa, prokuratorie, wójtostwa; na ich czele stali starostowie (na czele starostwa Szaki stał tradycyjnie wójt krajowy Sambii (Landvogt von Samland), a starosta
+Rybaków nosił tytuł wójta Sambii (Vogt von Samland). Niektóre starostwa dzieliły się na komornictwa: komornictwo Dolno w starostwie Przezmark, komornictwo Orzysz w starostwie Ryn, komornictwo Laptau (i inne) w starostwie Rybaki. Wg ustaleń J. Skibińskiego \"\"Najniższymi ogniwami pruskiej administracji terenowej w pierwszej połowie XVII wieku były komornictwa (urzędy kameralne), zwane w późniejszym okresie urzędami domenalnymi (Domänenämter)\"\". Starostwo Wystruć ze względu na dużą powierzchnię i brak wielkiej własności ziemskiej podzielono na 13 starostw sołtysich (Schulzenämter). Liczba starostw nie była stała: Jerzy Skibiński wylicza, że wg recesu sejmu krajowego z 1566 roku było ich łącznie 39, dane z diariuszy sejmowych z 1663 roku wskazują 47 starostw, na początku XVIII wieku z kolei doliczono się 45 starostw.\""""@pl ;
                          rdfs:isDefinedBy :administrative_system_45 ;
-                         rdfs:label "starostwo"@pl .
+                         rdfs:label "Hauptamt"@de ,
+                                    "county"@en ,
+                                    "starostwo"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "Amt"@de .
 
 
 ###  http://purl.org/ontohgis#administrative_type_271
@@ -4019,8 +4200,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          ] ;
                          :hasExternalIdentifier 271 ;
                          :isSymbolisedByMeansOf :administrative_system_45 ;
+                         rdfs:comment "Sambia, Natangia, Górne Prusy; podział ten miał charakter głównie polityczny, związany z organizacją zjazdów okręgu i wysyłaniem poselstw"@pl ;
                          rdfs:isDefinedBy :administrative_system_45 ;
-                         rdfs:label "okręg"@pl .
+                         rdfs:label "Kreis"@de ,
+                                    "district"@en ,
+                                    "okręg"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_272
@@ -4032,8 +4216,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          ] ;
                          :hasExternalIdentifier 272 ;
                          :isSymbolisedByMeansOf :administrative_system_45 ;
+                         rdfs:comment "lenno do 1657 - traktaty welawsko-bydgoskie zrywały stosunki lenne między Koroną i Prusami Książęcymi"@pl ;
                          rdfs:isDefinedBy :administrative_system_45 ;
-                         rdfs:label "księstwo lenne"@pl .
+                         rdfs:label "Herzogtum"@de ,
+                                    "fiefdom"@en ,
+                                    "księstwo lenne"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_273
@@ -4041,8 +4228,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                          rdfs:subClassOf :object_3014 ;
                          :hasExternalIdentifier 273 ;
                          :isSymbolisedByMeansOf :administrative_system_45 ;
+                         rdfs:comment "do 1657"@pl ;
                          rdfs:isDefinedBy :administrative_system_45 ;
-                         rdfs:label "państwo"@pl .
+                         rdfs:label "państwo"@pl ,
+                                    "the Crown"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_274
@@ -4055,7 +4244,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 274 ;
                          :isSymbolisedByMeansOf :administrative_system_16 ;
                          rdfs:isDefinedBy :administrative_system_16 ;
-                         rdfs:label "cyrkuł"@pl .
+                         rdfs:label "circle"@en ,
+                                    "cyrkuł"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "tsyrkul"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_275
@@ -4068,7 +4259,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 275 ;
                          :isSymbolisedByMeansOf :administrative_system_9 ;
                          rdfs:isDefinedBy :administrative_system_9 ;
-                         rdfs:label "gmina"@pl .
+                         rdfs:label "gmina"@pl ,
+                                    "municipality"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "commune"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_276
@@ -4081,7 +4274,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                          :hasExternalIdentifier 276 ;
                          :isSymbolisedByMeansOf :administrative_system_9 ;
                          rdfs:isDefinedBy :administrative_system_9 ;
-                         rdfs:label "powiat sądowy"@pl .
+                         rdfs:label "district"@en ,
+                                    "powiat sądowy"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_277
@@ -4093,8 +4287,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                          ] ;
                          :hasExternalIdentifier 277 ;
                          :isSymbolisedByMeansOf :administrative_system_9 ;
+                         rdfs:comment "chodzi o miasta, które wcześniej, jeszcze w XIX wieku, miały samorząd miejski; na interesującym nas obszarze było to Bielsko"@pl ,
+                                      "it pertains to the towns, which previously, as early as the 19th c., had a town council. In the area in question such city was Bielsko"@en ;
                          rdfs:isDefinedBy :administrative_system_9 ;
-                         rdfs:label "powiat polityczny"@pl .
+                         rdfs:label "political district"@en ,
+                                    "powiat polityczny"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_278
@@ -4116,9 +4313,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                         :object_3014 ;
                         :hasExternalIdentifier 28 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
+                        rdfs:comment "Równorzędny z powiatem ziemskim ale nie dzielił się już na mniejsze wójtostwa"@pl ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Stadtkreis"@de ,
-                                   "powiat miejski"@pl .
+                                   "powiat miejski"@pl ,
+                                   "urban district"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_29
@@ -4131,11 +4330,13 @@ obo:IAO_0000590 rdf:type owl:Class .
                         rdfs:subClassOf :object_3014 ;
                         :hasExternalIdentifier 29 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
+                        rdfs:comment "Utworzona w 1808 roku jako pierwszy stopień reform administracyjnych państwa wprowadzonych przez Steina i Hardenberga"@pl ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Regierung"@de ,
-                                   "okręg rejencyjny"@pl ,
-                                   "regencja"@pl ,
-                                   "rejencja"@pl .
+                                   "district government"@en ,
+                                   "rejencja"@pl ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "okręg rejencyjny"@pl ,
+                                                                       "regencja"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_3
@@ -4144,8 +4345,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                                        :object_3014 ;
                        :hasExternalIdentifier 3 ;
                        :isSymbolisedByMeansOf :map_symbol_10 ;
+                       rdfs:comment "Zgodnie z treścią konstytucji marcowej (1921) \"Dla celów administracyjnych Państwo Polskie podzielone będzie w drodze ustawodawczej na województwa, powiaty i gminy miejskie i wiejskie, które będą równocześnie jednostkami samorządu terytorjalnego\". Faktycznie cały okres międzywojenny charakteryzuje proces unifikacji terytorialnej administracji ogólnej, której celem jest likwidacja różnic między byłymi zaborami. Ostatnim ważnym aktem była likwidacja obszarów dworskich na terenie woj. poznańskiego oraz pomorskiego na mocy tzw. ustawy scaleniowej z 1933 r."@pl ;
                        rdfs:isDefinedBy :administrative_system_1 ;
-                       rdfs:label "gmina wiejska "@pl .
+                       rdfs:label "gmina wiejska "@pl ,
+                                  "rural municipality"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_30
@@ -4161,6 +4364,7 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :isSymbolisedByMeansOf :map_symbol_60 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Provinz"@de ,
+                                   "province"@en ,
                                    "prowincja"@pl .
 
 
@@ -4171,8 +4375,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                         rdfs:subClassOf :object_3014 ;
                         :hasExternalIdentifier 31 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
+                        rdfs:comment """1920-1933 Wolne Państwo Prusy jako państwo członkowskie Republiki Związkowej.
+1933-1945  Wolne Państwo Prusy jako państwo członkowskie III Rzeszy."""@pl ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Staat"@de ,
+                                   "State"@en ,
                                    "państwo"@pl .
 
 
@@ -4184,6 +4391,7 @@ obo:IAO_0000590 rdf:type owl:Class .
                                                :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_5 ;
                         rdfs:label "Freie Stadt"@de ,
+                                   "free city"@en ,
                                    "wolne miasto"@pl .
 
 
@@ -4196,7 +4404,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_6 ;
                         rdfs:label "Staat"@de ,
-                                   "państwo"@pl .
+                                   "państwo"@pl ,
+                                   "state"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_34
@@ -4207,7 +4416,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Stadtgemeinde"@de ,
-                                   "gmina miejska"@pl .
+                                   "gmina miejska"@pl ,
+                                   "town community"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_35
@@ -4216,9 +4426,12 @@ obo:IAO_0000590 rdf:type owl:Class .
                                         :object_3014 ;
                         :hasExternalIdentifier 35 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
+                        rdfs:comment "1818: Edykt o urzędach sołtysów w gminach wiejskich i obszarach dworskich."@pl ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Landgemeinde"@de ,
-                                   "gmina wiejska"@pl .
+                                   "gmina wiejska"@pl ,
+                                   "rural commune"@en ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "village community"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_36
@@ -4227,9 +4440,15 @@ obo:IAO_0000590 rdf:type owl:Class .
                                         :object_3014 ;
                         :hasExternalIdentifier 36 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
+                        rdfs:comment """1818: Edykt o urzędach sołtysów w gminach wiejskich i obszarach dworskich.
+31.12.1842: Terytorialne rozgraniczenie gmin wiejskich i obszarów dworskich w prowincjach wschodnich"""@pl ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Gutsbezirk"@de ,
-                                   "obszar dworski"@pl .
+                                   "landlord's estate"@en ,
+                                   "obszar dworski"@pl ;
+                        rdfs:seeAlso "https://www.wikidata.org/wiki/Q451019" ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "independent estate"@en ,
+                                                                       "manorial land"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_37
@@ -4243,7 +4462,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Gemeinde"@de ,
-                                   "gmina"@pl .
+                                   "commune"@en ,
+                                   "gmina"@pl ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "municipality"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_38
@@ -4255,9 +4476,13 @@ obo:IAO_0000590 rdf:type owl:Class .
                                         ] ;
                         :hasExternalIdentifier 38 ;
                         :isSymbolisedByMeansOf :map_symbol_20 ;
+                        rdfs:comment """Od 1.01. 1873 z wyłączeniem Prowincji Poznańskiej.
+W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączących kilka gmin, władzę wójtowską sprawowali właściciele dóbr ziemskich. Od 1833 roku do 1918 pełnili te funkcje okręgowi komisarze policji."""@pl ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Amtsbezirk"@de ,
-                                   "wójtostwo"@pl .
+                                   "division"@en ,
+                                   "wójtostwo"@pl ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "communal union"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_39
@@ -4271,7 +4496,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Kreis"@de ,
-                                   "powiat"@pl .
+                                   "district"@en ,
+                                   "powiat"@pl ;
+                        rdfs:seeAlso "https://www.wikidata.org/wiki/Q106658" ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "county"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_4
@@ -4280,8 +4508,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                                        :object_3014 ;
                        :hasExternalIdentifier 4 ;
                        :isSymbolisedByMeansOf :map_symbol_10 ;
+                       rdfs:comment "Obszary dworskie utrzymały się najdłużej na Śląsku oraz w województwach zachodnich, pomorskim i poznańskim, gdzie zostały zniesione na podstawie tzw. ustawy scaleniowej z 1933 r. oraz rozporządzeń wykonawczych z 1934 r."@pl ;
                        rdfs:isDefinedBy :administrative_system_1 ;
-                       rdfs:label "obszar dworski"@pl .
+                       rdfs:label "manorial demesne"@en ,
+                                  "obszar dworski"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_40
@@ -4292,6 +4522,7 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Landkreis"@de ,
+                                   "land district"@en ,
                                    "powiat ziemski"@pl .
 
 
@@ -4301,8 +4532,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                                         :object_3014 ;
                         :hasExternalIdentifier 41 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
+                        rdfs:comment "Równorzędny z powiatem ziemskim ale nie dzielił się już na mniejsze wójtostwa"@pl ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Stadtkreis"@de ,
+                                   "district"@en ,
                                    "powiat miejski"@pl .
 
 
@@ -4315,12 +4548,13 @@ obo:IAO_0000590 rdf:type owl:Class .
                         rdfs:subClassOf :object_3014 ;
                         :hasExternalIdentifier 42 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
+                        rdfs:comment "Utworzona w 1808 roku jako pierwszy stopień reform administracyjnych państwa wprowadzonych przez Steina i Hardenberga"@pl ;
                         rdfs:isDefinedBy :administrative_system_7 ;
-                        rdfs:label "Księstwo Warszawskie"@pl ,
-                                   "Regierungsbezirk"@de ,
-                                   "okręg rejencyjny"@pl ,
+                        rdfs:label "Regierungsbezirk"@de ,
+                                   "district (government)"@en ,
                                    "rejencja"@pl ;
                         <http://www.w3.org/2004/02/skos/core#altLabel> "Regierung"@de ,
+                                                                       "okręg rejencyjny"@pl ,
                                                                        "regencja"@pl .
 
 
@@ -4334,8 +4568,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 43 ;
                         :isSymbolisedByMeansOf :map_symbol_60 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
-                        rdfs:label "Królestwo Polskie (1815-1836)"@pl ,
-                                   "Provinz"@de ,
+                        rdfs:label "Provinz"@de ,
+                                   "province"@en ,
                                    "prowincja"@pl .
 
 
@@ -4349,10 +4583,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 44 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
-                        rdfs:label "Königreich"@de ,
-                                   "Staat"@de ,
-                                   "królestwo"@pl ,
-                                   "państwo"@pl .
+                        rdfs:label "Staat"@de ,
+                                   "państwo"@pl ,
+                                   "state"@en ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "Königreich"@de ,
+                                                                       "królestwo"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_45
@@ -4462,7 +4697,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                        :hasExternalIdentifier 5 ;
                        :isSymbolisedByMeansOf :map_symbol_30 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
-                       rdfs:label "powiat"@pl .
+                       rdfs:label "district"@en ,
+                                  "powiat"@pl ;
+                       <http://www.w3.org/2004/02/skos/core#altLabel> "county"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_50
@@ -4623,8 +4860,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                                                :map_symbol_70 ,
                                                :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_9 ;
-                        rdfs:label "kraj koronny"@pl ,
-                                   "księstwo"@pl .
+                        rdfs:label "crown land"@en ,
+                                   "kraj koronny"@pl ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "księstwo"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_59
@@ -4637,7 +4875,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 59 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_10 ;
-                        rdfs:label "gmina"@pl .
+                        rdfs:label "commune"@en ,
+                                   "gmina"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_6
@@ -4647,7 +4886,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                        :hasExternalIdentifier 6 ;
                        :isSymbolisedByMeansOf :map_symbol_30 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
-                       rdfs:label "miasto na prawach powiatu"@pl .
+                       rdfs:label "district city"@en ,
+                                  "miasto na prawach powiatu"@pl ;
+                       <http://www.w3.org/2004/02/skos/core#altLabel> "federal city"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_60
@@ -4657,7 +4898,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 60 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_10 ;
-                        rdfs:label "gmina wiejska"@pl .
+                        rdfs:label "gmina wiejska"@pl ,
+                                   "rural municipality"@en ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "village comune"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_61
@@ -4667,7 +4910,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 61 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_10 ;
-                        rdfs:label "gmina miejska"@pl .
+                        rdfs:label "gmina miejska"@pl ,
+                                   "town"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_62
@@ -4677,7 +4921,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 62 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_10 ;
-                        rdfs:label "obszar dworski"@pl .
+                        rdfs:label "obszar dworski"@pl ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "manorial estate"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_63
@@ -4691,6 +4936,7 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_10 ;
                         rdfs:label "Bezirk"@de ,
+                                   "district"@en ,
                                    "powiat"@pl .
 
 
@@ -4720,7 +4966,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 65 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_11 ;
-                        rdfs:label "gmina"@pl .
+                        rdfs:label "commune"@en ,
+                                   "gmina"@pl ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "municipality"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_66
@@ -4730,7 +4978,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 66 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_11 ;
-                        rdfs:label "gmina miejska"@pl .
+                        rdfs:label "gmina miejska"@pl ,
+                                   "town commune"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_67
@@ -4740,7 +4989,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 67 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_11 ;
-                        rdfs:label "gmina wiejska"@pl .
+                        rdfs:label "gmina wiejska"@pl ,
+                                   "rural commune"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_68
@@ -4766,7 +5016,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 69 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_11 ;
-                        rdfs:label "powiat"@pl .
+                        rdfs:label "district"@en ,
+                                   "powiat"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_7
@@ -4776,7 +5027,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                        :hasExternalIdentifier 7 ;
                        :isSymbolisedByMeansOf :map_symbol_50 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
-                       rdfs:label "miasto Warszawa"@pl .
+                       rdfs:label "city of Warsaw"@en ,
+                                  "miasto Warszawa"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_70
@@ -4789,7 +5041,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 70 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_11 ;
-                        rdfs:label "gubernia"@pl .
+                        rdfs:label "gubernia"@pl ,
+                                   "province"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_71
@@ -4802,10 +5055,14 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 71 ;
                         :isSymbolisedByMeansOf :map_symbol_60 ,
                                                :map_symbol_70 ;
+                        rdfs:comment "W 1867 zniesiono autonomię Królestwa i półoficjalnie stosowano nazwę \"Kraj Przywiślański\" lub \"Kraj Nadwiślański\""@pl ;
                         rdfs:isDefinedBy :administrative_system_11 ;
-                        rdfs:label "generał-gubernatorstwo"@pl ,
-                                   "kraj"@pl ,
-                                   "królestwo"@pl .
+                        rdfs:label "kraj"@pl ,
+                                   "land"@en ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "general-governorate"@en ,
+                                                                       "generał-gubernatorstwo"@pl ,
+                                                                       "kingdom"@en ,
+                                                                       "królestwo"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_72
@@ -4814,7 +5071,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 72 ;
                         :isSymbolisedByMeansOf :map_symbol_100 ;
                         rdfs:isDefinedBy :administrative_system_11 ;
-                        rdfs:label "cesarstwo"@pl .
+                        rdfs:label "cesarstwo"@pl ,
+                                   "empire"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_73
@@ -4828,8 +5086,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :isSymbolisedByMeansOf :administrative_system_12 ,
                                                :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_12 ;
-                        rdfs:label "królestwo"@pl ,
-                                   "państwo"@pl .
+                        rdfs:label "kingdom"@en ,
+                                   "królestwo"@pl ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "państwo"@pl ,
+                                                                       "state"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_74
@@ -4842,7 +5102,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 74 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_13 ;
-                        rdfs:label "powiat"@pl .
+                        rdfs:label "Kreis"@de ,
+                                   "district"@en ,
+                                   "powiat"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_75
@@ -4851,9 +5113,12 @@ obo:IAO_0000590 rdf:type owl:Class .
                                         :object_3014 ;
                         :hasExternalIdentifier 75 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
+                        rdfs:comment "Od 1701 Landkreis jako jednostka administracyjna początkowo w Brandenburgii; od 1716 na Pomorzu, 1740 na Śląsku, 1752 w Prusach Wschodnich, 1772 Prusach Zachodnich, 1793 w Prusach Południowych i 1795 w Prusach Nowo Wschodnich"@pl ;
                         rdfs:isDefinedBy :administrative_system_13 ;
                         rdfs:label "Landkreis"@de ,
-                                   "powiat ziemski"@pl .
+                                   "land dictrict"@en ,
+                                   "powiat ziemski"@pl ;
+                        rdfs:seeAlso "https://www.wikidata.org/wiki/Q106658" .
 
 
 ###  http://purl.org/ontohgis#administrative_type_76
@@ -4862,8 +5127,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                                         :object_3014 ;
                         :hasExternalIdentifier 76 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
+                        rdfs:comment "Dla miast utworzono okręgi inspekcji podatkowych, które nie pokrywały się z wiejskimi powiatami. Okręgi dominalne w Prusach Książęcych."@pl ;
                         rdfs:isDefinedBy :administrative_system_13 ;
-                        rdfs:label "miejski okręg inspekcji podatkowej"@pl .
+                        rdfs:label "circut"@en ,
+                                   "miejski okręg inspekcji podatkowej"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_77
@@ -4876,7 +5143,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 77 ;
                         :isSymbolisedByMeansOf :map_symbol_40 ;
                         rdfs:isDefinedBy :administrative_system_13 ;
-                        rdfs:label "departament kamery wojenno-skarbowej"@pl .
+                        rdfs:label "Kammerdepartment"@de ,
+                                   "Wad and Domain chamber's department"@en ,
+                                   "departament kamery wojenno-skarbowej"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_78
@@ -4885,7 +5154,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 78 ;
                         :isSymbolisedByMeansOf :map_symbol_60 ;
                         rdfs:isDefinedBy :administrative_system_13 ;
-                        rdfs:label "prowincja"@pl .
+                        rdfs:label "Provinz"@de ,
+                                   "province"@en ,
+                                   "prowincja"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_79
@@ -4898,8 +5169,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 79 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_13 ;
-                        rdfs:label "królestwo"@pl ,
-                                   "państwo"@pl .
+                        rdfs:label "Staat"@de ,
+                                   "państwo"@pl ,
+                                   "state"@en ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "Königreich"@de ,
+                                                                       "królestwo"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_8
@@ -4909,7 +5183,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                        :hasExternalIdentifier 8 ;
                        :isSymbolisedByMeansOf :map_symbol_50 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
-                       rdfs:label "województwo"@pl .
+                       rdfs:label "voivodeship"@en ,
+                                  "województwo"@pl ;
+                       <http://www.w3.org/2004/02/skos/core#altLabel> "province"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_80
@@ -4921,8 +5197,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                                         ] ;
                         :hasExternalIdentifier 80 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
+                        rdfs:comment "Korona: w celach skarbowych używano jeszcze niższego podziału - sieci parafialnej. Był on jednak czysto użytkowy i nieoficjalny"@pl ;
                         rdfs:isDefinedBy :administrative_system_14 ;
-                        rdfs:label "powiat"@pl .
+                        rdfs:label "district"@en ,
+                                   "powiat"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_81
@@ -4934,8 +5212,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                         ] ;
                         :hasExternalIdentifier 81 ;
                         :isSymbolisedByMeansOf :map_symbol_40 ;
+                        rdfs:comment "Korona: nie zawsze występuje; wedle literatury po około poł. XV w. ziemie, które zachowały cała strukturę urzędów ziemskich (razem z wojewodą) przekształciły się w województwa; te, których struktura była niepełna nie zmieniły się"@pl ;
                         rdfs:isDefinedBy :administrative_system_14 ;
-                        rdfs:label "ziemia"@pl .
+                        rdfs:label "land"@en ,
+                                   "ziemia"@pl ;
+                        rdfs:seeAlso "https://www.wikidata.org/wiki/Q2560367" .
 
 
 ###  http://purl.org/ontohgis#administrative_type_82
@@ -4948,7 +5229,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 82 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_14 ;
-                        rdfs:label "województwo"@pl .
+                        rdfs:label "province"@en ,
+                                   "województwo"@pl ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "county"@en ,
+                                                                       "palatinate"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_83
@@ -4960,8 +5244,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                                         ] ;
                         :hasExternalIdentifier 83 ;
                         :isSymbolisedByMeansOf :map_symbol_60 ;
+                        rdfs:comment "Korona: prowincja wielkopolska i małopolska"@pl ;
                         rdfs:isDefinedBy :administrative_system_14 ;
-                        rdfs:label "prowincja"@pl .
+                        rdfs:label "province"@en ,
+                                   "prowincja"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_84
@@ -4973,8 +5259,11 @@ obo:IAO_0000590 rdf:type owl:Class .
                                         ] ;
                         :hasExternalIdentifier 84 ;
                         :isSymbolisedByMeansOf :map_symbol_70 ;
+                        rdfs:comment "Korona Królestwa Polskiego / Wielkie Księstwo Litewskie. Wszystkie odrębności wynikające z aktu unii lubelskiej zostały zniesiona na mocy konstytucji 3 maja"@pl ;
                         rdfs:isDefinedBy :administrative_system_14 ;
-                        rdfs:label "dzielnica"@pl .
+                        rdfs:label "dzielnica"@pl ,
+                                   "state"@en ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "part"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_85
@@ -4983,8 +5272,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 85 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_14 ;
-                        rdfs:label "królestwo"@pl ,
-                                   "państwo"@pl .
+                        rdfs:label "państwo"@pl ,
+                                   "state"@en ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "kingdom"@en ,
+                                                                       "królestwo"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_86
@@ -5028,7 +5319,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :isSymbolisedByMeansOf :administrative_system_16 ,
                                                :map_symbol_70 ;
                         rdfs:isDefinedBy :administrative_system_16 ;
-                        rdfs:label "gubernium"@pl .
+                        rdfs:label "gubernium"@pl ,
+                                   "provincial government"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_89
@@ -5040,6 +5332,7 @@ obo:IAO_0000590 rdf:type owl:Class .
                                         ] ;
                         :hasExternalIdentifier 89 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
+                        rdfs:comment "Niekiedy jako najniższą jednostkę administracyjną o charakterze pomocniczym podaje się dominia (wiejskie) i magistraty (miejskie). Rozporządzenia z 1848 r. uznały urzędy dominialne za organa tymczasowe sprawujące władzę na koszt i w imieniu państwa a nie dziedzica. Zniesiono je w 1855 r. a ich terytoria podzielono na gminy wiejskie i obszary dworskie."@pl ;
                         rdfs:isDefinedBy :administrative_system_17 ;
                         rdfs:label "dominium-magistrat"@pl .
 
@@ -5054,7 +5347,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                        :hasExternalIdentifier 9 ;
                        :isSymbolisedByMeansOf :map_symbol_10 ;
                        rdfs:isDefinedBy :administrative_system_1 ;
-                       rdfs:label "gmina"@pl .
+                       rdfs:label "gmina"@pl ,
+                                  "municipality"@en ;
+                       <http://www.w3.org/2004/02/skos/core#altLabel> "community"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_90
@@ -5073,8 +5368,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                                         :object_3014 ;
                         :hasExternalIdentifier 91 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
+                        rdfs:comment "Najniższa jednostka administracji państwowej na terenie miast"@pl ;
                         rdfs:isDefinedBy :administrative_system_17 ;
-                        rdfs:label "magistrat"@pl .
+                        rdfs:label "magistrat"@pl ,
+                                   "magistrate"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_92
@@ -5101,7 +5398,9 @@ obo:IAO_0000590 rdf:type owl:Class .
                         rdfs:isDefinedBy :administrative_system_17 ;
                         rdfs:label "Direktoriat"@de ,
                                    "Kreis"@de ,
-                                   "cyrkuł"@pl .
+                                   "cyrkuł"@pl ,
+                                   "tsyrkul"@en ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "circle"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_94
@@ -5113,8 +5412,10 @@ obo:IAO_0000590 rdf:type owl:Class .
                                         ] ;
                         :hasExternalIdentifier 94 ;
                         :isSymbolisedByMeansOf :map_symbol_70 ;
+                        rdfs:comment "Obszary przejęte w III rozbiorze w 1795 r. utworzyły odrębne terytorium, tzw. Galicję Zachodnią, lub Nową Galicję, podzieloną na 12 cyrkułów. Od 1797 r. było to odrębne gubernium ze stolicą w Krakowie. Dopiero w 1803 r. kraj ten podzielono na 6 cyrkułów i podporządkowano gubernium we Lwowie."@pl ;
                         rdfs:isDefinedBy :administrative_system_17 ;
                         rdfs:label "Gubernium"@de ,
+                                   "gubernium"@en ,
                                    "gubernium"@pl .
 
 
@@ -5128,7 +5429,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 95 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_17 ;
-                        rdfs:label "królestwo"@pl .
+                        rdfs:label "kingdom"@en ,
+                                   "królestwo"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_96
@@ -5153,7 +5455,8 @@ obo:IAO_0000590 rdf:type owl:Class .
                         :hasExternalIdentifier 97 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_18 ;
-                        rdfs:label "komitat"@pl ,
+                        rdfs:label "county"@en ,
+                                   "komitat"@pl ,
                                    "megye"@hu .
 
 
@@ -5166,10 +5469,13 @@ obo:IAO_0000590 rdf:type owl:Class .
                                         ] ;
                         :hasExternalIdentifier 98 ;
                         :isSymbolisedByMeansOf :map_symbol_80 ;
+                        rdfs:comment "Od 1526 r. północne i zachodnie Węgry tzw. Królewskie w Monarchii Habsburgów"@pl ;
                         rdfs:isDefinedBy :administrative_system_18 ;
-                        rdfs:label "kraj koronny"@pl ,
-                                   "królestwo"@pl ,
-                                   "państwo"@pl .
+                        rdfs:label "kingdom"@en ,
+                                   "królestwo"@pl ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "Crown Land"@en ,
+                                                                       "kraj koronny"@pl ,
+                                                                       "państwo"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_99
@@ -10308,8 +10614,11 @@ rdfs:Class rdf:type owl:Class .
                          :individualHasExternalIdentifier 1 ;
                          :startsDominationAt "1918-01-01"^^xsd:date ;
                          dc:creator :person_6 ;
-                         rdfs:comment "Chronologia obowiązywania systemu administracyjnego ma charakter generalny. Obejmuje także okres kształtowania się systemu administracyjnego w okresie przejściowym po odzyskaniu niepodległości."@pl ;
-                         rdfs:label "Rzeczpospolita Polska (1918-1939)"@pl ;
+                         rdfs:comment "Chronologia obowiązywania systemu administracyjnego ma charakter generalny. Obejmuje także okres kształtowania się systemu administracyjnego w okresie przejściowym po odzyskaniu niepodległości."@pl ,
+                                      "Konstytucja Rzeczypospolitej Polskie z 17 marca 1921 r.; Rozporządzenie Prezydenta Rzeczypospolitej z dnia 19 stycznia 1928 r. o organizacji i zakresie działania władz administracji ogólnej; Ustawa z dnia 23 marca 1933 r. o częściowej zmianie ustroju samorządu terytorjalnego. (tzw. ustawa scaleniowa)"@pl ,
+                                      "The chronology of the administrative system is of gerenal nature. it covers also the origins of the system in the transition period after regaining independence"@en ;
+                         rdfs:label "Rzeczpospolita Polska (1918-1939)"@pl ,
+                                    "The Second Polish Republic"@en ;
                          rdfs:seeAlso :document_70 ,
                                       :document_71 ,
                                       :document_72 ,
@@ -10330,7 +10639,8 @@ rdfs:Class rdf:type owl:Class .
                           :hasScope "terytorium Galicji"^^xsd:string ;
                           :individualHasExternalIdentifier 10 ;
                           :startsDominationAt "1867-01-01"^^xsd:date ;
-                          rdfs:label "Królestwo Galicji i Lodomerii (1867-1918)"@pl ;
+                          rdfs:label "Królestwo Galicji i Lodomerii (1867-1918)"@pl ,
+                                     "The Kingdom of Galicia and Lodomeria"@en ;
                           rdfs:seeAlso :document_34 ,
                                        :document_37 ,
                                        :document_38 ,
@@ -10349,8 +10659,10 @@ Ukaz carski z 11.10.1842 (Dziennik Praw Królestwa Polskiego, nr 97, t. 30, Wars
                           :individualHasExternalIdentifier 11 ;
                           :startsDominationAt "1842-01-01"^^xsd:date ;
                           dc:creator :person_5 ;
-                          rdfs:label "Królestwo Polskie (1837-1866)"@pl ;
-                          rdfs:seeAlso :document_44 ,
+                          rdfs:label "Congress Poland (1837-1866)"@en ,
+                                     "Królestwo Polskie (1837-1866)"@pl ;
+                          rdfs:seeAlso :document_164 ,
+                                       :document_44 ,
                                        :document_90 .
 
 
@@ -10363,7 +10675,9 @@ Ukaz carski z 11.10.1842 (Dziennik Praw Królestwa Polskiego, nr 97, t. 30, Wars
                           :hasScope "terytorium Królestwa Saksonii, obejmuje część Łużyc leżących obecnie w Polsce (Bogatynia, Zgorzelec)"^^xsd:string ;
                           :individualHasExternalIdentifier 12 ;
                           :startsDominationAt "1815-01-01"^^xsd:date ;
-                          rdfs:label "Królestwo Saksonii (1815-1918)"@pl .
+                          dc:creator :person_4 ;
+                          rdfs:label "Królestwo Saksonii (1815-1918)"@pl ,
+                                     "The Kingdom of Saxony (1815-1918)"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_system_13
@@ -10376,8 +10690,11 @@ Ukaz carski z 11.10.1842 (Dziennik Praw Królestwa Polskiego, nr 97, t. 30, Wars
                           :hasScope "terytorium Królestwa Prus, obejmuje obecne ziemie zachodniej i północnej Polski"^^xsd:string ;
                           :individualHasExternalIdentifier 13 ;
                           :startsDominationAt "1723-01-01"^^xsd:date ;
-                          rdfs:comment "Po wstąpieniu na tron Fryderyk Wilhelm I (1713-1740) rozpoczyna długotrwały proces reform administracyjnych swego państwa. 1814 - koniec okresu przejściowego, w którym stary system fryderycjański łączył się z nowym, wprowadzonym przez reformy Steina. 1723 - Utworzenie Generalnego Dyrektorium (Das Generaldirektorium)"@pl ;
-                          rdfs:label "Królestwo Prus (1713-1805)"@pl ;
+                          rdfs:comment "After Frederic William's ascension to the throne (1713-1740) a lengthy process of administrative system reform starts. In 1814, the interim period, when the Frederick's system was connected with the new one intorduced by Stein'. in 1723 - the General Directorate (Das Generaldirektorium) was established."@en ,
+                                       "Edykt królewski z 13.08.1713 o niepodzielności wszystkich terytoriów Hohenzollernów tworzących integralne terytorium Królestwa Prus. Instrukcja królewska z 19 stycznia 1723 r. o utworzeniu General- Ober- Finanz- Kriegs- und Domänen-Direktorium."@pl ,
+                                       "Po wstąpieniu na tron Fryderyk Wilhelm I (1713-1740) rozpoczyna długotrwały proces reform administracyjnych swego państwa. 1814 - koniec okresu przejściowego, w którym stary system fryderycjański łączył się z nowym, wprowadzonym przez reformy Steina. 1723 - Utworzenie Generalnego Dyrektorium (Das Generaldirektorium)"@pl ;
+                          rdfs:label "Królestwo Prus (1713-1805)"@pl ,
+                                     "The Kingdom of Prussia (1713-1805)"@en ;
                           rdfs:seeAlso :document_47 ,
                                        :document_48 ,
                                        :document_49 ,
@@ -10394,12 +10711,16 @@ Ukaz carski z 11.10.1842 (Dziennik Praw Królestwa Polskiego, nr 97, t. 30, Wars
                           :hasScope "terytorium Rzeczypospolitej Obojga Narodów"^^xsd:string ;
                           :individualHasExternalIdentifier 14 ;
                           :startsDominationAt "1569-01-01"^^xsd:date ;
-                          rdfs:label "Rzeczpospolita Obojga Narodów (1569-1795)"@pl ;
+                          rdfs:label "Rzeczpospolita Obojga Narodów (1569-1795)"@pl ,
+                                     "The Polish-Lithuanian Commonwealth (1569-1795)"@en ;
                           rdfs:seeAlso :document_65 ,
                                        :document_66 ,
                                        :document_67 ,
                                        :document_68 ,
-                                       :document_69 .
+                                       :document_69 ;
+                          <http://www.w3.org/2004/02/skos/core#altLabel> "Commonwealth of Both Nations (1569-1795)"@en ,
+                                                                         "Polish-Lithuanian Republic (1569-1795)"@en ,
+                                                                         "The Republic of the Two Nations (1569-1795)"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_system_15
@@ -10411,7 +10732,9 @@ Ukaz carski z 11.10.1842 (Dziennik Praw Królestwa Polskiego, nr 97, t. 30, Wars
                           :hasScope "terytorium Elektoratu Saksonii, obejmuje część Łużyc leżących obecnie w Polsce (Bogatynia, Zgorzelec)"^^xsd:string ;
                           :individualHasExternalIdentifier 15 ;
                           :startsDominationAt "1545-01-01"^^xsd:date ;
-                          rdfs:label "Elektorat Saksonii (1545-1805)"@pl .
+                          dc:creator :person_4 ;
+                          rdfs:label "Elektorat Saksonii (1545-1805)"@pl ,
+                                     "The Electorate of Saxony (1545-1805)"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_system_16
@@ -10423,9 +10746,11 @@ Ukaz carski z 11.10.1842 (Dziennik Praw Królestwa Polskiego, nr 97, t. 30, Wars
                           :hasScope "terytorium Gubernium Morawsko-Śląskiego, obejmuje obecną ziemię cieszyńską"^^xsd:string ;
                           :individualHasExternalIdentifier 16 ;
                           :startsDominationAt "1783-01-01"^^xsd:date ;
-                          rdfs:label "Gubernium Morawsko-Śląskie (1783-1848)"@pl ;
+                          rdfs:label "Gubernium Morawsko-Śląskie (1783-1848)"@pl ,
+                                     "Provincial government of Moravian-Silesian Region (1783-1848)"@en ;
                           rdfs:seeAlso :document_29 ,
-                                       :document_30 .
+                                       :document_30 ,
+                                       :document_35 .
 
 
 ###  http://purl.org/ontohgis#administrative_system_17
@@ -10438,7 +10763,10 @@ Ukaz carski z 11.10.1842 (Dziennik Praw Królestwa Polskiego, nr 97, t. 30, Wars
                           :hasScope "terytorium Galicji, bez Wolnego Miasta Krakowa w latach 1815-1846"^^xsd:string ;
                           :individualHasExternalIdentifier 17 ;
                           :startsDominationAt "1773-01-01"^^xsd:date ;
-                          rdfs:label "Królestwo Galicji i Lodomerii (1772-1848)"@pl ;
+                          rdfs:comment "Edict from 11 September 1772 on establishing a geovernorate in Lvov, November-December 1773: division into 6 circles (Ger. Kreis) and 59 districts (Ger. Kreisdistricten); decree from 22 March 1782 on waiving the circles"@en ,
+                                       "Edykt z 11 września 1772 r. o utworzeniu guberium we Lwowie; listopad-grudzień 1773 r: podział na 6 cyrkułów (Kreis) oraz 59 okręgów (Kreisdistricten); dekret z 22 marca 1782 r. o zniesieniu okręgów"@pl ;
+                          rdfs:label "Królestwo Galicji i Lodomerii (1772-1848)"@pl ,
+                                     "The Kingdom of Galitia and Lodomeria"@en ;
                           rdfs:seeAlso :document_31 ,
                                        :document_32 ,
                                        :document_33 ,
@@ -10458,7 +10786,8 @@ Ukaz carski z 11.10.1842 (Dziennik Praw Królestwa Polskiego, nr 97, t. 30, Wars
                           :hasScope "terytorium Królestwa Węgier, obejmuje południowe skrawki obecnej Polski, okolice Orawy i Niedzicy (dawne komitaty Spisz i Orawa)"^^xsd:string ;
                           :individualHasExternalIdentifier 18 ;
                           :startsDominationAt "1200-01-01"^^xsd:date ;
-                          rdfs:comment "Ustrój terytoriualny oparty o komitaty (megye) i powiaty (processus, reambulatio, węg. szolgabírói járás) ukształtował się w średniowieczu, od XI wieku, i mimo wielu prób reform administracyjnych obowiązuje zasadniczo po dzień dzisiejszy. Najważniejsze reformy miały miejsce w latach 1785-1790, 1849-1860 i były związane z próbą centralizacji administracyjnej w ramach monarchii austriackiej."@pl ;
+                          rdfs:comment "The administrative division based on counties (konitat/Hun.megye) and districts (powiat/processus Hun.  szolgabírói járás) had emerged in the Middle Ages since the 11th c., and despite the numerous administrative reforms is still valid. The key reforms were introduced in 1785-1790 and 1849-1860 and attempted ot centralise the adminittation within the entire Austrian monarchy."@en ,
+                                       "Ustrój terytoriualny oparty o komitaty (megye) i powiaty (processus, reambulatio, węg. szolgabírói járás) ukształtował się w średniowieczu, od XI wieku, i mimo wielu prób reform administracyjnych obowiązuje zasadniczo po dzień dzisiejszy. Najważniejsze reformy miały miejsce w latach 1785-1790, 1849-1860 i były związane z próbą centralizacji administracyjnej w ramach monarchii austriackiej."@pl ;
                           rdfs:label "Królestwo Węgier (1200-1918)"@pl ;
                           rdfs:seeAlso :document_40 ,
                                        :document_41 ,
@@ -10476,8 +10805,13 @@ Ukaz carski z 11.10.1842 (Dziennik Praw Królestwa Polskiego, nr 97, t. 30, Wars
                           :individualHasExternalIdentifier 19 ;
                           :startsDominationAt "1372-01-01"^^xsd:date ;
                           dc:creator :person_9 ;
-                          rdfs:label "Śląsk (1372-1782)"@pl ;
-                          rdfs:seeAlso :document_78 ,
+                          rdfs:label "Silesia (1372-1782)"@en ,
+                                     "Śląsk (1372-1782)"@pl ;
+                          rdfs:seeAlso :document_165 ,
+                                       :document_166 ,
+                                       :document_167 ,
+                                       :document_168 ,
+                                       :document_78 ,
                                        :document_79 ,
                                        :document_80 ,
                                        :document_81 ,
@@ -10504,8 +10838,10 @@ W 1295 r. kolejny rozpad na Księstwo Wołogojskie i Księstwo Szczecińskie. Od
 W 1348 r. Karol IV jako król rzymski nadaje inwestyturę książętom pomorskim bez dodatkowych ograniczeń – księstwa pomorskie stają się lennami Rzeszy.
 W latach 1478-1531 zjednoczenie w jedno Księstwo Pomorskie.
 W 1531 r. podział na Księstwo Szczecińskie i Księstwo Wołogojskie.
-W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w 1648 r. podział na część szwedzką i brandenburską.\""""@pl ;
-                          rdfs:label "Księstwo Pomorskie (1230-1648)"@pl ;
+W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w 1648 r. podział na część szwedzką i brandenburską.\""""@pl ,
+                                       "1230, when the system of castellanies was abolished is assumed as a starting point. In 1160 – the division into two provinces: 1. The Duchy of Stettin ruled by Bogusław I covering the southern part of the Duchy of Pomerania. It included the districts of Stettin, Gardźca, Bania, Cedynia, Pyrzyce, Wkra lands, Uznam, Rochów, Szczytno, Lassan, Goźwin, Wkryujście (Ueckermünde); 2. The Duchy of Demmin ruled by Kazimierz I covering the coastal region and the regained Veleti lands (Pl. ziemie wieleckie). It included the following regions: Bardo, Trzebudzice, Chockowo, Ostrożno, Wusterhusen), Łosice (Loitz); Bezrzecze (Beseritz) lands, Dołęża (Tolense) lands, Bieździedza lands (near Gnojno), Starogard lands; and gord districts: Dymin, Wolin, Kamień, Trzebiatów, Nowogard and Stargardu, as well as, probably, Łobez and Resko. The Kołobrzeg castellany and Swidwina district belonged to both of the dukes simultaneously. In 1180-1214 the two Duchies were joined and in 1181 the Duchy of Pomerania was a direct vassal to the German Empire. In 1214 it divided into two provinces (duchies): Wołogoszcz (north) and Stettin (south) as well as the territory of the diocese of Kamieniec Podolski including the Kołobrzeg, Koszalin, and Bobolice (since 1339) lands, as well as the belt between Sianowo and Polanowo (since 1348). IN 1250 the rules of the two Duchies pay fealty to Margraviate of Brandenburg receiving the entire Pomerania.In years 1264-1295 the two Duchies were unified.In 1295 another fragmentation into Wołogoszcz and Stetin Duchy. Since the second half of the 14th c the following feudal fragmentation resulted into division into smaller principalities.In 1348 Karol IV grants full fiefdom to the Pomeranian Dukes- the Duchy of Pomerania becomes a vassal to the German Empire.In 1478-1531 - the two duchies are unified into one Duchy of Pomerania. 1531 division into Stettin Duchy and Wołogoszcz Duchy. 1625 – unification into the Duchy of Pomerania again, after the Peace of Westphalia in 1648 – divided into Swedish and Brandenburg part.  After the Great Northern War (1721) the eastern part of Swedish Pomerania, along with Stettin and Uznam and Wolin islands belonged to Prussia. In this brief period the Vorpommern (Pl. Pomorze Przednie) remained autonomous and administratively independent."@en ;
+                          rdfs:label "Księstwo Pomorskie (1230-1648)"@pl ,
+                                     "The Duchy of Pomerania  (1230-1648)"@en ;
                           rdfs:seeAlso :document_47 ,
                                        :document_55 .
 
@@ -10535,7 +10871,12 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
                           :hasScope "terytorium Księstwa Siewierskiego, obejmuje obecnie okolice miast Siewierz, Czeladź i Koziegłowy"^^xsd:string ;
                           :individualHasExternalIdentifier 22 ;
                           :startsDominationAt "1443-01-01"^^xsd:date ;
-                          rdfs:label "Księstwo Siewierskie (1443-1790)"@pl .
+                          dc:creator :person_3 ;
+                          rdfs:label "Księstwo Siewierskie (1443-1790)"@pl ,
+                                     "The Duchy of Siewierz (1443-1790)"@en ;
+                          rdfs:seeAlso :document_175 ,
+                                       :document_176 ,
+                                       :document_177 .
 
 
 ###  http://purl.org/ontohgis#administrative_system_23
@@ -10548,9 +10889,12 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
                           :hasScope "terytorium Marchii Brandenburskiej, obejmuje obecne ziemie zachodniej Polski"^^xsd:string ;
                           :individualHasExternalIdentifier 23 ;
                           :startsDominationAt "1350-01-01"^^xsd:date ;
-                          rdfs:comment "W 1320 r. wygasła dynastia askańczyków. Władzę w Marchii przejmują Wittelsbachowie i Luksemburgowie. Po wygaśnięciu dynastii Askańczyków cesarz Ludwik Wittelsbach nadaje marchię swemu synowi Ludwikowi"@pl ;
-                          rdfs:label "Marchia Brandenburska (1323-1540)"@pl ;
-                          rdfs:seeAlso :document_47 .
+                          rdfs:comment "In 1320, the dynasty of the house of Ascan had come to an end and the power moved to the house of Wittelsbach and Luxemburg. The emperor Luis IV Wittelsbach grants the Marach to his son Luis V the Brandenburger"@en ,
+                                       "W 1320 r. wygasła dynastia askańczyków. Władzę w Marchii przejmują Wittelsbachowie i Luksemburgowie. Po wygaśnięciu dynastii Askańczyków cesarz Ludwik Wittelsbach nadaje marchię swemu synowi Ludwikowi"@pl ;
+                          rdfs:label "Marchia Brandenburska (1323-1540)"@pl ,
+                                     "The Margraviate of Branderburg"@en ;
+                          rdfs:seeAlso :document_47 ;
+                          <http://www.w3.org/2004/02/skos/core#altLabel> "Marquisate of Brandenburg"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_system_24
@@ -10563,7 +10907,8 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
                           :individualHasExternalIdentifier 24 ;
                           :startsDominationAt "1000-01-01"^^xsd:date ;
                           dc:creator :person_3 ;
-                          rdfs:comment "Data umowna, koniec panowania Piastów, ostateczne przejście Śląska w ręce czeskie (1372), unia w Krewie (1385 r.), podział Rusi Halicko-Włodzimierskiej (1387)"@pl ;
+                          rdfs:comment "Data umowna, koniec panowania Piastów, ostateczne przejście Śląska w ręce czeskie (1372), unia w Krewie (1385 r.), podział Rusi Halicko-Włodzimierskiej (1387)"@pl ,
+                                       "The approximate date marks the end of the Piasts' rule, the final Chech rule in Sląsk (1372), Union of Krevo (1385), division of Kingdom of Valitia-Volhynia (1387)."@en ;
                           rdfs:label "System średniowieczny (do XIV w.)"@pl .
 
 
@@ -10577,8 +10922,10 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
                           :hasScope "terytorium państwa zakonnego, obejmuje obecne obszary północnej Polski (Pomorze, Warmia i Mazury)"^^xsd:string ;
                           :individualHasExternalIdentifier 25 ;
                           :startsDominationAt "1309-01-01"^^xsd:date ;
+                          dc:creator :person_9 ;
                           rdfs:comment "Plemiona pruskie nie wytworzyły państwowości i administracji terytorialnej przed XIII w.: W. Długokęcki, Prusy w starożytności i we wczesnym średniowieczu, [w:] M. Biskup, i in., Państwo zakonu krzyżackiego w Prusach. Władza i społeczeństwo, Warszawa 2008, s. 38-39, 43: \"Mniejsza niż plemię jednostka terytorialna nosiła nazwę territorium (Dusburg), a także terrula, districtus. W literaturze określa się ją też jako włość, mała ziemia lub używa pruskiej nazwy pulka. [...] Podstawową jednostkę osadniczą stanowiło pole (prus. lauks, łac. campus, niem. Feld). Tworzyło ono topograficzno-gospodarczą całość, bez wytyczonych granic linearnych [...] Obraz ustroju politycznego Estów i Prusów przekazany przez źródła IX-XIII w. wyraźnie wskazuje na rozdrobnienie polityczne i brak silnych ośrodków władzy publicznej. Zasadnicze znaczenie miały wiece różnych struktur terytorialnych (prus. wayde, waite). W XIII w. funkcjonowały wiece międzyplemienne, plemienne i na poziomie małej ziemi. Wzmianki o wiecach z XIII w. dotyczą przede wszystkim wieców wojennych [...]\". R. Czaja, i in. [w:] ibidem, s. 75-76: \"Przywilej chełmiński, będący formalnie dokumentem lokacyjnym Chełmna i Torunia, w rzeczywistości pełnił funkcję przywileju \"krajowego\". Niektóre bowiem przepisy w nim zawarte dotyczyły także rycerzy (np. te, które odnosiły się do statusu prawnego dóbr obciążonych służbą wojskową), postanowienia zaś odnoszące się do monety, wymiaru łana, zwolnień celnych, wolnego targu obejmowały wszystkich mieszkańców ziemi chełmińskiej. Prawo chełmińskie służyło wyodrębnieniu z władztwa księcia Konrada obszaru poddanego kontroli Zakonu: tam, gdzie były stosowane postanowienia przywileju, sięgała władza Krzyżaków\". 1309 - zajęcie Pomorza Gdańskiego, przeniesienie siedziby wielkiego mistrza zakonnego do Malborka (mimo że nie było jeszcze wtedy jasne czy Malbork zostanie stolicą państwa). 1466 - inkorporacja ziem pruskich do Korony przez króla Kazimierz Jagiellończyka doprowadziła do wybuchu wojny trzynastoletniej, na zakończenie której (pokojem toruńskim w 1466) Krzyżacy - korzystając z mediacji legata papieskiego - doprowadzili do swoistego kompromisu, w wyniku którego: Prusy Królewskie podlegały Koronie, Warmia stanowiła część Prus Królewskich, ale z dużą autonomią, Prusy zakonne stały się lennem Korony, nad którym władzę zwierzchnią sprawował Zakon."@pl ;
-                          rdfs:label "Państwo Krzyżackie (1226-1525)"@pl ;
+                          rdfs:label "Państwo Krzyżackie (1226-1525)"@pl ,
+                                     "The State of the Teutonic Order (1226-1525)"@en ;
                           rdfs:seeAlso :document_57 ,
                                        :document_58 ,
                                        :document_59 ,
@@ -10992,7 +11339,13 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
                          :individualHasExternalIdentifier 4 ;
                          :startsDominationAt "1920-01-01"^^xsd:date ;
                          dc:creator :person_11 ;
-                         rdfs:label "Wolne Państwo Prusy (1920-1945)"@pl ;
+                         rdfs:label """\"Verordnung wegen verbesserter Einrichtung der Provinzial- Polizei- und Finanzbehörden vom 26. Dezember 1808 (GS S. 481).
+Städteordnung 1808, 1831, 1853.
+Verordnung wegen verbesserter Einrichtung der Provinzial-Behörden vom 30. April 1815 (GS S. 85).
+Gesetz über Verpflichtung zur Armenpflege vom 31.Dez. 1842.
+Kreisordnung für die östlichen 6 Provinzen vom 13. Dez. 1872.\""""@de ,
+                                    "The Free State of Prussia"@en ,
+                                    "Wolne Państwo Prusy (1920-1945)"@pl ;
                          rdfs:seeAlso :document_47 ,
                                       :document_50 ,
                                       :document_51 ,
@@ -11010,7 +11363,24 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
                           :hasScope "terytorium Wielkiego Księstwa Litewskiego, przede wszystkich teren historycznego Podlasia i Suwalszczyzny"^^xsd:string ;
                           :individualHasExternalIdentifier 40 ;
                           :startsDominationAt "1385-01-01"^^xsd:date ;
-                          rdfs:label "Wielkie Księstwo Litewskie (1385-1569)"@pl .
+                          dc:creator :person_6 ;
+                          rdfs:comment "The typology and taxonomy of territorial units in Lithuanian land in the Middle Ages was inconsistent and provoked heated discussion among historians. The terms are often interchangable and fluid, e.g. land, wolost. For instance, until the second half of the 15th c. the baillifs (pl. Starosta) od Drohiczyn and Biels lands were called \"wojewoda\", while after the 15th c. the governors in Poldlachia were called \"Starosta\". Only after the 16th c. a relatively stable administrative system was established. It included: voividships and districts (województwa, powiaty). Broadly speaking, the voidoships replaced the principalities and lands, while districts replaced the vicegerencies/bailiwicks and wolosts."@en ,
+                                       "Typologia i nazewnictwo jednostek terytorialnych ziem litewskich w średniowieczu były niekonsekwentne i są przedmiotem dyskusji wśród historyków. Występuję duża zmienność oraz wymienność określeń ich typów: np. ziemia, wołość. Np. do II połowy wieku XV starostowie związani z ziemią drohicką i bielską nazywani byli wojewodami, zaś od połowy XV w. namiestnicy na Podlasiu określani byli mianem starostów. Dopiero w XVI w. ukształtował się względnie stabilny terytorialny system administracyjny oparty o podział na województwa oraz powiaty. Ujmując rzecz bardzo generalnie województwa zastąpiły dawne księstwa i ziemie, zaś powiaty – dawne namiestnictwa-starostwa i wołości."@pl ;
+                          rdfs:label "The Grand Duchy of Lithuania"@en ,
+                                     "Wielkie Księstwo Litewskie (1385-1569)"@pl ;
+                          rdfs:seeAlso :document_146 ,
+                                       :document_147 ,
+                                       :document_148 ,
+                                       :document_149 ,
+                                       :document_150 ,
+                                       :document_151 ,
+                                       :document_152 ,
+                                       :document_153 ,
+                                       :document_154 ,
+                                       :document_155 ,
+                                       :document_156 ,
+                                       :document_157 ,
+                                       "https://www.wikidata.org/wiki/Q49683" .
 
 
 ###  http://purl.org/ontohgis#administrative_system_42
@@ -11023,7 +11393,16 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
                           :hasScope "terytorium Księstwa Warszawskiego"^^xsd:string ;
                           :individualHasExternalIdentifier 42 ;
                           :startsDominationAt "1807-01-01"^^xsd:date ;
-                          rdfs:label "Księstwo Warszawskie"@pl .
+                          dc:creator :person_5 ;
+                          rdfs:comment "Chronologia obowiązywania systemu administracyjnego ma charakter generalny. Obejmuje również okres okupacji wojennej przez Rosję (1812-1816)"@pl ,
+                                       "The administrative system's chronology is of general nature. It also includes the period of Russian occupation (1812-1816)."@en ;
+                          rdfs:label "Księstwo Warszawskie (1807-1815)"@pl ,
+                                     "The Duchy of Warsaw (1807-1815)"@en ;
+                          rdfs:seeAlso :document_169 ,
+                                       :document_170 ,
+                                       :document_44 ,
+                                       :document_45 ,
+                                       :document_46 .
 
 
 ###  http://purl.org/ontohgis#administrative_system_43
@@ -11036,7 +11415,12 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
                           :hasScope "terytorium Królestwa Polskiego"^^xsd:string ;
                           :individualHasExternalIdentifier 43 ;
                           :startsDominationAt "1815-01-01"^^xsd:date ;
-                          rdfs:label "Królestwo Polskie (1815-1836)"@pl .
+                          dc:creator :person_5 ;
+                          rdfs:label "Kingdom of Poland (1815-1837)"@en ,
+                                     "Królestwo Polskie (1815-1836)"@pl ;
+                          rdfs:seeAlso :document_164 ,
+                                       :document_44 ,
+                                       :document_90 .
 
 
 ###  http://purl.org/ontohgis#administrative_system_44
@@ -11061,7 +11445,18 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
                           :hasScope "terytorium Prus Książęcych"^^xsd:string ;
                           :individualHasExternalIdentifier 45 ;
                           :startsDominationAt "1525-01-01"^^xsd:date ;
-                          rdfs:label "Prusy Książęce (1525-1701)"@pl .
+                          dc:creator :person_9 ;
+                          rdfs:comment "Plemiona pruskie nie wytworzyły państwowości i administracji terytorialnej przed XIII w.: W. Długokęcki, Prusy w starożytności i we wczesnym średniowieczu, [w:] M. Biskup, i in., Państwo zakonu krzyżackiego w Prusach. Władza i społeczeństwo, Warszawa 2008, s. 38-39, 43: \"Mniejsza niż plemię jednostka terytorialna nosiła nazwę territorium (Dusburg), a także terrula, districtus. W literaturze określa się ją też jako włość, mała ziemia lub używa pruskiej nazwy pulka. [...] Podstawową jednostkę osadniczą stanowiło pole (prus. lauks, łac. campus, niem. Feld). Tworzyło ono topograficzno-gospodarczą całość, bez wytyczonych granic linearnych [...] Obraz ustroju politycznego Estów i Prusów przekazany przez źródła IX-XIII w. wyraźnie wskazuje na rozdrobnienie polityczne i brak silnych ośrodków władzy publicznej. Zasadnicze znaczenie miały wiece różnych struktur terytorialnych (prus. wayde, waite). W XIII w. funkcjonowały wiece międzyplemienne, plemienne i na poziomie małej ziemi. Wzmianki o wiecach z XIII w. dotyczą przede wszystkim wieców wojennych [...]\". R. Czaja, i in. [w:] ibidem, s. 75-76: \"Przywilej chełmiński, będący formalnie dokumentem lokacyjnym Chełmna i Torunia, w rzeczywistości pełnił funkcję przywileju \"krajowego\". Niektóre bowiem przepisy w nim zawarte dotyczyły także rycerzy (np. te, które odnosiły się do statusu prawnego dóbr obciążonych służbą wojskową), postanowienia zaś odnoszące się do monety, wymiaru łana, zwolnień celnych, wolnego targu obejmowały wszystkich mieszkańców ziemi chełmińskiej. Prawo chełmińskie służyło wyodrębnieniu z władztwa księcia Konrada obszaru poddanego kontroli Zakonu: tam, gdzie były stosowane postanowienia przywileju, sięgała władza Krzyżaków\". 1309 - zajęcie Pomorza Gdańskiego, przeniesienie siedziby wielkiego mistrza zakonnego do Malborka (mimo że nie było jeszcze wtedy jasne czy Malbork zostanie stolicą państwa). 1466 - inkorporacja ziem pruskich do Korony przez króla Kazimierz Jagiellończyka doprowadziła do wybuchu wojny trzynastoletniej, na zakończenie której (pokojem toruńskim w 1466) Krzyżacy - korzystając z mediacji legata papieskiego - doprowadzili do swoistego kompromisu, w wyniku którego: Prusy Królewskie podlegały Koronie, Warmia stanowiła część Prus Królewskich, ale z dużą autonomią, Prusy zakonne stały się lennem Korony, nad którym władzę zwierzchnią sprawował Zakon."@pl ;
+                          rdfs:label "Prusy Książęce (1525-1701)"@pl ,
+                                     "The Duchy of Prussia (1525-1701)"@en ;
+                          rdfs:seeAlso :document_158 ,
+                                       :document_159 ,
+                                       :document_160 ,
+                                       :document_161 ,
+                                       :document_162 ,
+                                       :document_163 ,
+                                       :document_57 ,
+                                       "https://www.wikidata.org/wiki/Q153091" .
 
 
 ###  http://purl.org/ontohgis#administrative_system_46
@@ -11090,7 +11485,12 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
                           :hasScope "terytorium Królestwa Polskiego"^^xsd:string ;
                           :individualHasExternalIdentifier 47 ;
                           :startsDominationAt "1867-01-01"^^xsd:date ;
-                          rdfs:label "Królestwo Polskie (1867-1918)"@pl .
+                          dc:creator :person_5 ;
+                          rdfs:label "Congress Poland (1867-1918)"@en ,
+                                     "Królestwo Polskie (1867-1918)"@pl ;
+                          rdfs:seeAlso :document_164 ,
+                                       :document_44 ,
+                                       :document_90 .
 
 
 ###  http://purl.org/ontohgis#administrative_system_5
@@ -11103,6 +11503,7 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
                          :individualHasExternalIdentifier 5 ;
                          :startsDominationAt "1920-01-01"^^xsd:date ;
                          dc:creator :person_11 ;
+                         rdfs:comment "The Free City of Danzig (1920-1939)"@en ;
                          rdfs:label "Wolne Miasto Gdańsk (1920-1939)"@pl ;
                          rdfs:seeAlso :document_85 ,
                                       :document_86 ,
@@ -11120,7 +11521,9 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
                          :hasScope "terytorium Wolnego Państwa Saksonia, obejmuje część Łużyc leżących obecnie w Polsce (Bogatynia)"^^xsd:string ;
                          :individualHasExternalIdentifier 6 ;
                          :startsDominationAt "1919-01-01"^^xsd:date ;
-                         rdfs:label "Wolne Państwo Saksonia (1919-1945)"@pl .
+                         dc:creator :person_4 ;
+                         rdfs:label "The Free State of Saxony (1919-1945)"@en ,
+                                    "Wolne Państwo Saksonia (1919-1945)"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_system_7
@@ -11133,7 +11536,13 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
                          :hasScope "terytorium Królestwa Prus, obejmuje obecne ziemie zachodniej i północnej Polski"^^xsd:string ;
                          :individualHasExternalIdentifier 7 ;
                          :startsDominationAt "1815-01-01"^^xsd:date ;
-                         rdfs:label "Królestwo Prus (1806-1919)"@pl ;
+                         rdfs:comment """\"Verordnung wegen verbesserter Einrichtung der Provinzial- Polizei- und Finanzbehörden vom 26. Dezember 1808 (GS S. 481).
+Städteordnung 1808, 1831, 1853.
+Verordnung wegen verbesserter Einrichtung der Provinzial-Behörden vom 30. April 1815 (GS S. 85).
+Gesetz über Verpflichtung zur Armenpflege vom 31.Dez. 1842.
+Kreisordnung für die östlichen 6 Provinzen vom 13. Dez. 1872.\""""@de ;
+                         rdfs:label "Królestwo Prus (1806-1919)"@pl ,
+                                    "The Kingdom of Prussia (1806-1919)"@en ;
                          rdfs:seeAlso :document_47 ,
                                       :document_51 ,
                                       :document_52 ,
@@ -11174,7 +11583,12 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
                          :hasScope "terytorium kraju koronnego Śląsk Austriacki, obejmuje obecną ziemię cieszyńską"^^xsd:string ;
                          :individualHasExternalIdentifier 9 ;
                          :startsDominationAt "1849-01-01"^^xsd:date ;
-                         rdfs:label "Księstwo Górnego i Dolnego Śląska (1849-1918)"@pl .
+                         dc:creator :person_9 ;
+                         rdfs:label "Księstwo Górnego i Dolnego Śląska (1849-1918)"@pl ,
+                                    "The Duchy of Upper and Lower Silesia (1849-1918)"@en ;
+                         rdfs:seeAlso :document_172 ,
+                                      :document_173 ,
+                                      :document_174 .
 
 
 ###  http://purl.org/ontohgis#document_1
@@ -11685,6 +12099,43 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
               rdfs:label "Witkowski, Organizacja kościoła ewangelicko-reformowanego w b. zaborze rosyjskim"@pl .
 
 
+###  http://purl.org/ontohgis#document_146
+:document_146 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Błaszczyk, G." ;
+              dc:date 2007 ;
+              dc:title "Geografia historyczna Wielkiego Księstwa Litewskiego: Stan i perspektywy badań"@pl ;
+              rdfs:label "Błaszczyk G., Geografia historyczna Wielkiego Księstwa Litewskiego"@pl .
+
+
+###  http://purl.org/ontohgis#document_147
+:document_147 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Bardach, J." ;
+              dc:date 1970 ;
+              dc:title "Studia z ustroju i dziejów Wielkiego Księstwa Litewskiego"@pl ;
+              rdfs:label "Bardach J., Studia z ustroju i dziejów Wielkiego Księstwa Litewskiego"@pl .
+
+
+###  http://purl.org/ontohgis#document_148
+:document_148 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Любавский, М.К." ;
+              dc:date 1892 ;
+              dc:title "Oбластное деление и местное управление Литовско-русского государства ко времени издания первого Литовского статута"@ru ;
+              rdfs:label "Oblastnoye deleniye i mestnoye upravleniye Litovsko-russkogo gosudarstva ko vremeni izdaniya pervogo Litovskogo statuta"@en ;
+              rdfs:seeAlso "http://e-heritage.ru/ras/view/publication/general.html?id=46883967" .
+
+
+###  http://purl.org/ontohgis#document_149
+:document_149 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:date "1908-1910" ;
+              dc:identifier "Źródła Dziejowe, t. 17, cz. 1-3" ;
+              dc:title "Podlasie (Województwo)"@pl ;
+              rdfs:label "Jabłonowski A., Podlasie (Województwo)"@pl .
+
+
 ###  http://purl.org/ontohgis#document_15
 :document_15 rdf:type owl:NamedIndividual ,
                       obo:IAO_0000310 ;
@@ -11693,6 +12144,101 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
              dc:title "S. Orgelbranda Encyklopedja powszechna z ilustracjami i mapami. T. 1 - T. 18"@pl ;
              rdfs:label "Orgelbrand, Encyklopedja powszechna"@pl ;
              rdfs:seeAlso "http://cybra.lodz.pl/dlibra/publication/721"@pl .
+
+
+###  http://purl.org/ontohgis#document_150
+:document_150 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Jakubowski, J." ;
+              dc:date 1928 ;
+              dc:title "Mapa Wielkiego Księstwa Litewskiego w połowie XVI wieku. 1, Część północna, skala 1:1.600.000: objaśnienia do mapy"@pl ;
+              rdfs:label "Mapa Wielkiego Księstwa Litewskiego w połowie XVI wieku."@pl .
+
+
+###  http://purl.org/ontohgis#document_151
+:document_151 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:date "2013-2016" ;
+              dc:title "Вялікі гістарычны атлас Беларусі, t. 1-3,"@be ;
+              rdfs:label "Vialiki histaryčny atlas Bielarusi"@en ,
+                         "Вялікі гістарычны атлас Беларусі"@be .
+
+
+###  http://purl.org/ontohgis#document_152
+:document_152 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Łowmiański, H." ;
+              dc:date "1931-1932" ;
+              dc:identifier "Rozprawy Wydziału III Towarzystwa Przyjaciół Nauk w Wilnie, t. 5-6"@pl ;
+              dc:title "Studja nad początkami społeczeństwa i państwa litewskiego."@pl ;
+              rdfs:label "Łowmiański H., Studja nad początkami społeczeństwa i państwa litewskiego"@pl .
+
+
+###  http://purl.org/ontohgis#document_153
+:document_153 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Buczek, K." ;
+              dc:date 1970 ;
+              dc:identifier "\"Studia Historyczne“, 13 (2), 1970, 205-250"@pl ;
+              dc:title "Organizacja opolna w Polsce średniowiecznej"@pl ;
+              rdfs:label "Buczek K., Organizacja opolna w Polsce średniowiecznej"@pl .
+
+
+###  http://purl.org/ontohgis#document_154
+:document_154 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Modzelewski, K." ;
+              dc:date 1986 ;
+              dc:identifier "„Przegląd Historyczny“, 77 (2), 1986, 177-222"@pl ;
+              dc:title "Organizacja opolna w Polsce piastowskiej"@pl ;
+              rdfs:label "Modzelewski K., Organizacja opolna w Polsce piastowskiej"@pl .
+
+
+###  http://purl.org/ontohgis#document_155
+:document_155 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Matuszewski, J." ;
+              dc:date 1991 ;
+              dc:title "Vicinia id est: Poszukiwania alternatywnej koncepcji staropolskiego opola"@pl ;
+              rdfs:label "Matuszewski J., Vicinia id est: Poszukiwania alternatywnej koncepcji staropolskiego opola"@pl ;
+              rdfs:seeAlso "http://polona.pl/item/5979812" .
+
+
+###  http://purl.org/ontohgis#document_156
+:document_156 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Teterycz-Puzio, A." ;
+              dc:date 2001 ;
+              dc:identifier "„Słupskie Studia Historyczne“, 9, 2001, 245-257"@pl ;
+              dc:title "Wczesnopiastowska organizacja administracyjna w X i XI wieku"@pl ;
+              rdfs:label "Teterycz-Puzio A., Wczesnopiastowska organizacja administracyjna w X i XI wieku"@pl .
+
+
+###  http://purl.org/ontohgis#document_157
+:document_157 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Gąsiorowski, A." ;
+              dc:date 1965 ;
+              dc:title "Powiat w Wielkopolsce XIV-XVI wieku: Z zagadnień zarządu terytorialnego i podziałów Polski późnośredniowiecznej"@pl ;
+              rdfs:label "Gąsiorowski A., Powiat w Wielkopolsce XIV-XVI wieku"@pl .
+
+
+###  http://purl.org/ontohgis#document_158
+:document_158 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Töppen, M." ;
+              dc:date 1858 ;
+              dc:title "Historisch-comparative Geographie von Preussen"@de ;
+              rdfs:label "Historisch-comparative Geographie von Preussen" .
+
+
+###  http://purl.org/ontohgis#document_159
+:document_159 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Małłek, J." ;
+              dc:date 2016 ;
+              dc:title "Prusy Książęce a Prusy Królewskie w latach 1525-1548. Studium z dziejów polskiej polityki księcia Albrechta Hohenzollerna"@pl ;
+              rdfs:label "Prusy Książęce a Prusy Królewskie w latach 1525-1548. Studium z dziejów polskiej polityki księcia Albrechta Hohenzollerna"@pl .
 
 
 ###  http://purl.org/ontohgis#document_16
@@ -11704,6 +12250,101 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
              rdfs:label "Arnold, Geografia historyczna Polski"@pl .
 
 
+###  http://purl.org/ontohgis#document_160
+:document_160 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Małłek, J." ;
+              dc:date 1967 ;
+              dc:identifier "Roczniki Towarzystwa Naukowego w Toruniu, R. 72, z. 2"@pl ;
+              dc:title "Ustawa o rządzie (Regimentsnottel) Prus Książęcych z 1542 roku. Studium z dziejów przemian społecznych i politycznych w lennie pruskim"@pl ;
+              rdfs:label "Ustawa o rządzie (Regimentsnottel) Prus Książęcych z 1542 roku. Studium z dziejów przemian społecznych i politycznych w lennie pruskim"@pl .
+
+
+###  http://purl.org/ontohgis#document_161
+:document_161 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Grygier, T." ;
+              dc:date 1964 ;
+              dc:identifier "\"Komunikaty Mazursko-Warmińskie\" 1964, nr 4, s. 460-513"@pl ;
+              dc:title "Organizacja władzy naczelnej Prus Książęcych"@pl ;
+              rdfs:label "Organizacja władzy naczelnej Prus Książęcych"@pl .
+
+
+###  http://purl.org/ontohgis#document_162
+:document_162 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:date 1975 ,
+                      "Biskup, M." ;
+              dc:identifier "\"Komunikaty Mazursko-Warmińskie\" 1975, nr 4, s. 407-424"@pl ;
+              dc:title "Geneza i znaczenie hołdu pruskiego 1525 roku"@pl ;
+              rdfs:label "Geneza i znaczenie hołdu pruskiego 1525 roku"@pl .
+
+
+###  http://purl.org/ontohgis#document_163
+:document_163 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Skibiński, J." ;
+              dc:date 1972 ;
+              dc:title "Starostwa dziedziczne Prus Książęcych w XVII i XVIII wieku"@pl ;
+              rdfs:label "Starostwa dziedziczne Prus Książęcych w XVII i XVIII wieku"@pl .
+
+
+###  http://purl.org/ontohgis#document_164
+:document_164 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Dziki, T." ;
+              dc:date 2015 ;
+              dc:identifier "\"Klio. Czasopismo poświęcone dziejom Polski i powszechnym\", 32 (1), 2015, s. 111–138."@pl ;
+              dc:title "Administracja gmin wiejskich w Królestwie Polskim w latach 1815–1864"@pl ;
+              rdfs:label "Administracja gmin wiejskich w Królestwie Polskim w latach 1815–1864"@pl .
+
+
+###  http://purl.org/ontohgis#document_165
+:document_165 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Grodziski, S." ;
+              dc:date 1967 ;
+              dc:identifier "„Studia Historyczne”. 1967, z. 1–2, s. 5–21."@pl ;
+              dc:title "Ustrój polityczno-prawny Śląska Austriackiego w latach 1742–1848 (Próba syntezy)"@pl ;
+              rdfs:label "Ustrój polityczno-prawny Śląska Austriackiego w latach 1742–1848 (Próba syntezy)"@pl .
+
+
+###  http://purl.org/ontohgis#document_166
+:document_166 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Panic, I. (red.)" ;
+              dc:title "Dzieje Śląska Cieszyńskiego od zarania do czasów współczesnych"@pl ;
+              rdfs:label "Dzieje Śląska Cieszyńskiego od zarania do czasów współczesnych"@pl .
+
+
+###  http://purl.org/ontohgis#document_167
+:document_167 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Gawrecki, D." ;
+              dc:date 2008 ;
+              dc:identifier "Śląsk Cieszyński. Granice – przynależność – tożsamość. Red. J. Spyra. Cieszyn 2008, s. 20–21;"@pl ;
+              dc:title "Granice i zmiany przynależności Śląska Cieszyńskiego do 1918 roku"@pl ;
+              rdfs:label "Granice i zmiany przynależności Śląska Cieszyńskiego do 1918 roku"@pl .
+
+
+###  http://purl.org/ontohgis#document_168
+:document_168 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Semkowicz, W." ;
+              dc:date 1930 ;
+              dc:title "Historyczno-Geograficzne podstawy Śląska"@pl ;
+              rdfs:label "Historyczno-Geograficzne podstawy Śląska"@pl .
+
+
+###  http://purl.org/ontohgis#document_169
+:document_169 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Sobociński, W." ;
+              dc:date 1964 ;
+              dc:title "Historia ustroju i prawa Księstwa Warszawskiego"@pl ;
+              rdfs:label "Historia ustroju i prawa Księstwa Warszawskiego"@pl .
+
+
 ###  http://purl.org/ontohgis#document_17
 :document_17 rdf:type owl:NamedIndividual ,
                       obo:IAO_0000310 ;
@@ -11711,6 +12352,82 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
              dc:date 1981 ;
              dc:title "Encyklopedia historii gospodarczej Polski do 1945 roku"@pl ;
              rdfs:label "Encyklopedia historii gospodarczej Polski do 1945 roku"@pl .
+
+
+###  http://purl.org/ontohgis#document_170
+:document_170 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Kallas, M." ;
+              dc:date 1975 ;
+              dc:title "Organy administracji terenowej w Księstwie Warszawskim"@pl ;
+              rdfs:label "Organy administracji terenowej w Księstwie Warszawskim"@pl .
+
+
+###  http://purl.org/ontohgis#document_171
+:document_171 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Grodziski, S." ;
+              dc:date 1967 ;
+              dc:identifier "\"Studia Historyczne 1967, t. 10, z. 1-2 (36-37), s. 13-17."@pl ;
+              dc:title "Ustrój polityczno-prawny Śląska Austriackiego w latach 1742-1848. (Próba syntezy)"@pl ;
+              rdfs:label "Ustrój polityczno-prawny Śląska Austriackiego w latach 1742-1848. (Próba syntezy)"@pl .
+
+
+###  http://purl.org/ontohgis#document_172
+:document_172 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Konopska, B." ,
+                         "Pustelnik, A." ,
+                         "Pyskiewicz-Jędrusik, R." ;
+              dc:date 1998 ;
+              dc:title "Granice Śląska. Zmiany granic Śląska w czasie i przestrzeni. Śląsk na dawnej mapie. Obraz Sudetów w dawnej kartografii,"@pl ;
+              rdfs:label "Granice Śląska. Zmiany granic Śląska w czasie i przestrzeni. Śląsk na dawnej mapie. Obraz Sudetów w dawnej kartografii,"@pl .
+
+
+###  http://purl.org/ontohgis#document_173
+:document_173 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Spyra, J." ;
+              dc:date 2010 ;
+              dc:identifier "Bielsko-Biała. Monografia miasta, red. I. Panic, t. 3: Bielsko od wojen śląskich do zakończenia I wojny światowej (1740-1918), Bielsko-Biała 2010, s. 122-136;"@pl ;
+              dc:title "Sytuacja polityczna i prawno-administracyjna miasta i okolicy w latach konstytucjonalizmu"@pl ;
+              rdfs:label "Sytuacja polityczna i prawno-administracyjna miasta i okolicy w latach konstytucjonalizmu"@pl .
+
+
+###  http://purl.org/ontohgis#document_174
+:document_174 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:date 2013 ;
+              dc:identifier "red. I. Panic, t. 5: Śląsk Cieszyński od Wiosny Ludów do I wojny światowej (1848-1918), red. K. Nowak, I. Panic, Cieszyn 2013."@pl ;
+              dc:title "Dzieje Śląska Cieszyńskiego od zarania do czasów współczesnych"@pl ;
+              rdfs:label "Dzieje Śląska Cieszyńskiego od zarania do czasów współczesnych"@pl .
+
+
+###  http://purl.org/ontohgis#document_175
+:document_175 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Nowakowski, A."@pl ;
+              dc:date 1991 ;
+              dc:title "Dzieje ustroju i prawa księstwa siewierskiego"@pl ;
+              rdfs:label "Dzieje ustroju i prawa księstwa siewierskiego"@pl .
+
+
+###  http://purl.org/ontohgis#document_176
+:document_176 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:date 2008 ;
+              dc:identifier "Atlas historyczny Polski. Województwo krakowskie w drugiej połowie XVI w., cz. II, red. H. Rutkowski, Warszawa 2008, s. 236-239;"@pl ;
+              dc:title "Siewierz"@pl ;
+              rdfs:label "M. Wilska, Siewierz..."@pl .
+
+
+###  http://purl.org/ontohgis#document_177
+:document_177 rdf:type owl:NamedIndividual ,
+                       obo:IAO_0000310 ;
+              dc:creator "Żelazny, K., Z." ;
+              dc:date 2016 ;
+              dc:title "Księstwo Siewierskie. Prawo i ustrój a zakres suwerenności względem Korony Królestwa Polskiego"@pl ;
+              rdfs:label "Księstwo Siewierskie. Prawo i ustrój a zakres suwerenności względem Korony Królestwa Polskiego"@pl .
 
 
 ###  http://purl.org/ontohgis#document_18
@@ -13087,7 +13804,7 @@ Reforma Steina, czyli patenty królewskie z 16 i 26 grudnia 1808 wprowadzały ko
 :person_9 rdf:type owl:NamedIndividual ,
                    obo:BFO_0000030 ;
           rdfs:label "Wiesława Duży" ;
-          foaf:mbox "wieslawa_duzy@umk.pl" .
+          foaf:mbox "wieslawa.duzy@gmail.com" .
 
 
 ###  http://www.geonames.org/ontology#L.PRT
@@ -13200,9 +13917,9 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/Agent> rdfs:label "Agent"@en ;
-                                 rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                  <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                  rdfs:comment "A resource that acts or has the power to act."@en ;
+                                 rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                  <http://purl.org/dc/terms/description> "Examples of Agent include person, organization, and software agent."@en ;
                                  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Agent-001> .
 
@@ -13210,8 +13927,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/AgentClass> <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                       rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                       rdfs:label "Agent Class"@en ;
-                                      <http://purl.org/dc/terms/modified> "2012-06-14"^^xsd:date ;
                                       rdfs:comment "A group of agents."@en ;
+                                      <http://purl.org/dc/terms/modified> "2012-06-14"^^xsd:date ;
                                       <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#AgentClass-003> ;
                                       <http://purl.org/dc/terms/description> "Examples of Agent Class include groups seen as classes, such as students, women, charities, lecturers."@en .
 
@@ -13226,16 +13943,16 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/Box> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                rdfs:comment "The set of regions in space defined by their geographic coordinates according to the DCMI Box Encoding Scheme."@en ;
                                rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                               <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                rdfs:seeAlso <http://dublincore.org/documents/dcmi-box/> ;
                                rdfs:label "DCMI Box"@en ;
-                               <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Box-003> .
 
 
 <http://purl.org/dc/terms/FileFormat> <http://purl.org/dc/terms/description> "Examples include the formats defined by the list of Internet Media Types."@en ;
                                       <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#FileFormat-001> ;
-                                      rdfs:comment "A digital resource format."@en ;
                                       rdfs:label "File Format"@en ;
+                                      rdfs:comment "A digital resource format."@en ;
                                       rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                       <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
 
@@ -13247,10 +13964,10 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                      <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
 
 
-<http://purl.org/dc/terms/ISO3166> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
-                                   rdfs:comment "The set of codes listed in ISO 3166-1 for the representation of names of countries."@en ;
-                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/ISO3166> rdfs:comment "The set of codes listed in ISO 3166-1 for the representation of names of countries."@en ;
+                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO3166-004> ;
+                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                    rdfs:label "ISO 3166"@en ;
                                    rdfs:seeAlso <http://www.iso.org/iso/en/prods-services/iso3166ma/02iso-3166-code-lists/list-en1.html> .
@@ -13267,21 +13984,21 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/ISO639-3> rdfs:label "ISO 639-3"@en ;
                                     rdfs:comment "The set of three-letter codes listed in ISO 639-3 for the representation of names of languages."@en ;
-                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO639-3-001> ;
-                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
+                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO639-3-001> ;
                                     rdfs:seeAlso <http://www.sil.org/iso639-3/> .
 
 
 <http://purl.org/dc/terms/Jurisdiction> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Jurisdiction-001> ;
                                         rdfs:label "Jurisdiction"@en ;
-                                        <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
+                                        rdfs:comment "The extent or range of judicial, law enforcement, or other authority."@en ;
                                         rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                        rdfs:comment "The extent or range of judicial, law enforcement, or other authority."@en .
+                                        <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
 
 
-<http://purl.org/dc/terms/LicenseDocument> rdfs:label "License Document"@en ;
-                                           rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/LicenseDocument> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                           rdfs:label "License Document"@en ;
                                            <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                            rdfs:comment "A legal document giving official permission to do something with a Resource."@en ;
                                            <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#LicenseDocument-001> .
@@ -13310,10 +14027,10 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/MediaType> rdfs:comment "A file format or physical medium."@en ;
-                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                      rdfs:label "Media Type"@en ;
-                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#MediaType-001> .
+                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#MediaType-001> ;
+                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
 
 
 <http://purl.org/dc/terms/MediaTypeOrExtent> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -13337,9 +14054,9 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                                <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
 
 
-<http://purl.org/dc/terms/Period> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+<http://purl.org/dc/terms/Period> rdfs:seeAlso <http://dublincore.org/documents/dcmi-period/> ;
                                   rdfs:comment "The set of time intervals defined by their limits according to the DCMI Period Encoding Scheme."@en ;
-                                  rdfs:seeAlso <http://dublincore.org/documents/dcmi-period/> ;
+                                  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                   rdfs:label "DCMI Period"@en ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -13361,8 +14078,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                           rdfs:comment "A physical material or carrier."@en .
 
 
-<http://purl.org/dc/terms/PhysicalResource> <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                            rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/PhysicalResource> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                            <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                             rdfs:comment "A material thing."@en ;
                                             <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#PhysicalResource-001> ;
                                             rdfs:label "Physical Resource"@en .
@@ -13377,8 +14094,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                  rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
-<http://purl.org/dc/terms/Policy> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                  rdfs:label "Policy"@en ;
+<http://purl.org/dc/terms/Policy> rdfs:label "Policy"@en ;
+                                  rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                   rdfs:comment "A plan or course of action by an authority, intended to influence and determine decisions, actions, and other matters."@en ;
                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Policy-001> ;
                                   <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
@@ -13387,16 +14104,16 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/ProvenanceStatement> rdfs:label "Provenance Statement"@en ;
                                                rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                                <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                               <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ProvenanceStatement-001> ;
-                                               rdfs:comment "A statement of any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation."@en .
+                                               rdfs:comment "A statement of any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation."@en ;
+                                               <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ProvenanceStatement-001> .
 
 
 <http://purl.org/dc/terms/RFC1766> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+                                   rdfs:comment "The set of tags, constructed according to RFC 1766, for the identification of languages."@en ;
                                    rdfs:seeAlso <http://www.ietf.org/rfc/rfc1766.txt> ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#RFC1766-003> ;
-                                   rdfs:comment "The set of tags, constructed according to RFC 1766, for the identification of languages."@en ;
                                    rdfs:label "RFC 1766"@en .
 
 
@@ -13405,8 +14122,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    <http://purl.org/dc/terms/description> "RFC 3066 has been obsoleted by RFC 4646."@en ;
                                    rdfs:comment "The set of tags constructed according to RFC 3066 for the identification of languages."@en ;
-                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                    rdfs:seeAlso <http://www.ietf.org/rfc/rfc3066.txt> ;
+                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#RFC3066-002> .
 
 
@@ -13415,8 +14132,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#RFC4646-001> ;
                                    rdfs:seeAlso <http://www.ietf.org/rfc/rfc4646.txt> ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                   rdfs:comment "The set of tags constructed according to RFC 4646 for the identification of languages."@en ;
-                                   rdfs:label "RFC 4646"@en .
+                                   rdfs:label "RFC 4646"@en ;
+                                   rdfs:comment "The set of tags constructed according to RFC 4646 for the identification of languages."@en .
 
 
 <http://purl.org/dc/terms/RFC5646> <http://purl.org/dc/terms/issued> "2010-10-11"^^xsd:date ;
@@ -13439,8 +14156,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                           <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#SizeOrDuration-001> ;
                                           <http://purl.org/dc/terms/description> "Examples include a number of pages, a specification of length, width, and breadth, or a period in hours, minutes, and seconds."@en ;
                                           rdfs:comment "A dimension or extent, or a time taken to play or execute."@en ;
-                                          rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                          <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
+                                          <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
+                                          rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
 <http://purl.org/dc/terms/Standard> rdfs:comment "A basis for comparison; a reference point against which other things can be evaluated."@en ;
@@ -13464,8 +14181,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#W3CDTF-003> ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
-                                  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                  rdfs:seeAlso <http://www.w3.org/TR/NOTE-datetime> .
+                                  rdfs:seeAlso <http://www.w3.org/TR/NOTE-datetime> ;
+                                  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date .
 
 
 <http://purl.org/dc/terms/abstract> rdfs:label "Abstract"@en ;
@@ -13551,8 +14268,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                       <http://purl.org/dc/terms/issued> "2001-05-21"^^xsd:date .
 
 
-<http://purl.org/dc/terms/contributor> <http://purl.org/dc/terms/modified> "2010-10-11"^^xsd:date ;
-                                       rdfs:comment "An entity responsible for making contributions to the resource."@en ;
+<http://purl.org/dc/terms/contributor> rdfs:comment "An entity responsible for making contributions to the resource."@en ;
+                                       <http://purl.org/dc/terms/modified> "2010-10-11"^^xsd:date ;
                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                        <http://purl.org/dc/terms/description> "Examples of a Contributor include a person, an organization, or a service."@en ;
                                        <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
@@ -13561,9 +14278,9 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/coverage> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                    <http://purl.org/dc/terms/description> "Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies. Recommended best practice is to use a controlled vocabulary such as the Thesaurus of Geographic Names [TGN]. Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges."@en ;
                                     rdfs:label "Coverage"@en ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#coverageT-001> ;
-                                    <http://purl.org/dc/terms/description> "Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies. Recommended best practice is to use a controlled vocabulary such as the Thesaurus of Geographic Names [TGN]. Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges."@en ;
                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                     rdfs:comment "The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant."@en ;
                                     <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date .
@@ -13572,8 +14289,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/created> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    rdfs:comment "Date of creation of the resource."@en ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#created-003> ;
-                                   rdfs:label "Date Created"@en ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+                                   rdfs:label "Date Created"@en ;
                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
 
 
@@ -13587,11 +14304,11 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/date> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                rdfs:comment "A point or period of time associated with an event in the lifecycle of the resource."@en ;
                                 <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#dateT-001> ;
+                                rdfs:comment "A point or period of time associated with an event in the lifecycle of the resource."@en ;
                                 <http://purl.org/dc/terms/description> "Date may be used to express temporal information at any level of granularity.  Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF]."@en ;
-                                <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                 rdfs:label "Date"@en ;
+                                <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                 <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date .
 
 
@@ -13599,8 +14316,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#dateAccepted-002> ;
                                         <http://purl.org/dc/terms/issued> "2002-07-13"^^xsd:date ;
                                         <http://purl.org/dc/terms/description> "Examples of resources to which a Date Accepted may be relevant are a thesis (accepted by a university department) or an article (accepted by a journal)."@en ;
-                                        rdfs:comment "Date of acceptance of the resource."@en ;
                                         rdfs:label "Date Accepted"@en ;
+                                        rdfs:comment "Date of acceptance of the resource."@en ;
                                         rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
@@ -13624,16 +14341,16 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/description> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                        rdfs:label "Description"@en ;
                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                       rdfs:comment "An account of the resource."@en ;
                                        <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                        <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#descriptionT-001> ;
-                                       rdfs:comment "An account of the resource."@en ;
                                        <http://purl.org/dc/terms/description> "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource."@en .
 
 
 <http://purl.org/dc/terms/educationLevel> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                           rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                          <http://purl.org/dc/terms/issued> "2002-07-13"^^xsd:date ;
                                           rdfs:label "Audience Education Level"@en ;
+                                          <http://purl.org/dc/terms/issued> "2002-07-13"^^xsd:date ;
                                           rdfs:comment "A class of entity, defined in terms of progression through an educational or training context, for which the described resource is intended."@en ;
                                           <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#educationLevel-002> .
 
@@ -13642,8 +14359,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                   rdfs:comment "The size or duration of the resource."@en ;
-                                  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#extent-003> ;
-                                  rdfs:label "Extent"@en .
+                                  rdfs:label "Extent"@en ;
+                                  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#extent-003> .
 
 
 <http://purl.org/dc/terms/format> <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
@@ -13674,8 +14391,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/hasVersion> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#hasVersion-003> ;
-                                      rdfs:comment "A related resource that is a version, edition, or adaptation of the described resource."@en ;
                                       rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                      rdfs:comment "A related resource that is a version, edition, or adaptation of the described resource."@en ;
                                       <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                       rdfs:label "Has Version"@en ;
                                       <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
@@ -13691,8 +14408,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                       <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
 
 
-<http://purl.org/dc/terms/instructionalMethod> <http://purl.org/dc/terms/description> "Instructional Method will typically include ways of presenting instructional materials or conducting instructional activities, patterns of learner-to-learner and learner-to-instructor interactions, and mechanisms by which group and individual levels of learning are measured.  Instructional methods include all aspects of the instruction and learning processes from planning and implementation through evaluation and feedback."@en ;
-                                               <http://purl.org/dc/terms/issued> "2005-06-13"^^xsd:date ;
+<http://purl.org/dc/terms/instructionalMethod> <http://purl.org/dc/terms/issued> "2005-06-13"^^xsd:date ;
+                                               <http://purl.org/dc/terms/description> "Instructional Method will typically include ways of presenting instructional materials or conducting instructional activities, patterns of learner-to-learner and learner-to-instructor interactions, and mechanisms by which group and individual levels of learning are measured.  Instructional methods include all aspects of the instruction and learning processes from planning and implementation through evaluation and feedback."@en ;
                                                rdfs:label "Instructional Method"@en ;
                                                <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                                rdfs:comment "A process, used to engender knowledge, attitudes and skills, that the described resource is designed to support."@en ;
@@ -13705,15 +14422,15 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                       rdfs:comment "A related resource that is substantially the same as the described resource, but in another format."@en ;
                                       <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                       <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
-                                      rdfs:label "Is Format Of"@en ;
-                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> .
+                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                      rdfs:label "Is Format Of"@en .
 
 
 <http://purl.org/dc/terms/isPartOf> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                     rdfs:label "Is Part Of"@en ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isPartOf-003> ;
-                                    <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                    <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     rdfs:comment "A related resource in which the described resource is physically or logically included."@en .
 
@@ -13736,8 +14453,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isReplacedBy-003> .
 
 
-<http://purl.org/dc/terms/isRequiredBy> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                        <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
+<http://purl.org/dc/terms/isRequiredBy> <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
+                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                         <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                         rdfs:label "Is Required By"@en ;
                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isRequiredBy-003> ;
@@ -13746,8 +14463,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/isVersionOf> rdfs:label "Is Version Of"@en ;
-                                       rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                        rdfs:comment "A related resource of which the described resource is a version, edition, or adaptation."@en ;
+                                       rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                        <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                        <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                        <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isVersionOf-003> ;
@@ -13810,26 +14527,26 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                       <http://purl.org/dc/terms/issued> "2004-09-20"^^xsd:date ;
                                       rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                       <http://purl.org/dc/terms/description> "The statement may include a description of any changes successive custodians made to the resource."@en ;
-                                      rdfs:label "Provenance"@en ;
-                                      <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#provenance-002> .
+                                      <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#provenance-002> ;
+                                      rdfs:label "Provenance"@en .
 
 
 <http://purl.org/dc/terms/publisher> <http://purl.org/dc/terms/modified> "2010-10-11"^^xsd:date ;
                                      <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                      rdfs:label "Publisher"@en ;
-                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#publisherT-001> ;
                                      <http://purl.org/dc/terms/description> "Examples of a Publisher include a person, an organization, or a service."@en ;
+                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#publisherT-001> ;
                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                      rdfs:comment "An entity responsible for making the resource available."@en .
 
 
-<http://purl.org/dc/terms/references> rdfs:label "References"@en ;
-                                      rdfs:comment "A related resource that is referenced, cited, or otherwise pointed to by the described resource."@en ;
+<http://purl.org/dc/terms/references> rdfs:comment "A related resource that is referenced, cited, or otherwise pointed to by the described resource."@en ;
+                                      rdfs:label "References"@en ;
                                       <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                       <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                       <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#references-003> ;
-                                      <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
-                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> .
+                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                      <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en .
 
 
 <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
@@ -13856,8 +14573,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     rdfs:label "Requires"@en ;
                                     rdfs:comment "A related resource that is required by the described resource to support its function, delivery, or coherence."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                    <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
-                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                    <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en .
 
 
 <http://purl.org/dc/terms/rights> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -13869,8 +14586,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   <http://purl.org/dc/terms/description> "Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights."@en .
 
 
-<http://purl.org/dc/terms/rightsHolder> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                        <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#rightsHolder-002> ;
+<http://purl.org/dc/terms/rightsHolder> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#rightsHolder-002> ;
+                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                         <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                         rdfs:comment "A person or organization owning or managing rights over the resource."@en ;
                                         <http://purl.org/dc/terms/issued> "2004-06-14"^^xsd:date ;
@@ -13887,8 +14604,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   rdfs:comment "A related resource from which the described resource is derived."@en .
 
 
-<http://purl.org/dc/terms/spatial> rdfs:label "Spatial Coverage"@en ;
-                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+<http://purl.org/dc/terms/spatial> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                   rdfs:label "Spatial Coverage"@en ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    rdfs:comment "Spatial characteristics of the resource."@en ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -13916,8 +14633,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/temporal> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                     rdfs:label "Temporal Coverage"@en ;
-                                    rdfs:comment "Temporal characteristics of the resource."@en ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#temporal-003> ;
+                                    rdfs:comment "Temporal characteristics of the resource."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
@@ -13932,8 +14649,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/type> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                 <http://purl.org/dc/terms/description> "Recommended best practice is to use a controlled vocabulary such as the DCMI Type Vocabulary [DCMITYPE]. To describe the file format, physical medium, or dimensions of the resource, use the Format element."@en ;
                                 rdfs:comment "The nature or genre of the resource."@en ;
-                                <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                 rdfs:label "Type"@en ;
+                                <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                 <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#typeT-001> ;
                                 <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
 
@@ -13942,8 +14659,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                  <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                  rdfs:label "Date Valid"@en ;
-                                 rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                 <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#valid-003> .
+                                 <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#valid-003> ;
+                                 rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
-###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi
