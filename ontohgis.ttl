@@ -1310,10 +1310,10 @@ Gminy miejskie i gminy wiejskie były jednostkami organizacji samorządowej (kom
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_10 ;
                          rdfs:label "cesarstwo"@pl ,
-                                    "dual monarchy"@en ,
-                                    "empire"@en ,
-                                    "https://www.wikidata.org/wiki/Q28513"@en ;
-                         <http://www.w3.org/2004/02/skos/core#altLabel> "monarchia"@pl ,
+                                    "empire"@en ;
+                         rdfs:seeAlso "https://www.wikidata.org/wiki/Q28513" ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "dual monarchy"@en ,
+                                                                        "monarchia"@pl ,
                                                                         "państwo związkowe"@pl .
 
 
@@ -1394,9 +1394,10 @@ Królestwo Prus nominalnie wchodzące w skład Cesarstwa Niemieckiego do 1806 r.
                          :isSymbolisedByMeansOf :map_symbol_100 ;
                          rdfs:isDefinedBy :administrative_system_18 ;
                          rdfs:label "cesarstwo"@pl ,
-                                    "federation"@en ,
+                                    "empire"@en ,
                                     "https://www.wikidata.org/wiki/Q28513"@en ;
                          <http://www.w3.org/2004/02/skos/core#altLabel> "dualist state"@en ,
+                                                                        "federation"@en ,
                                                                         "monarchia"@pl ,
                                                                         "monarchy"@en ,
                                                                         "państwo związkowe"@pl .
@@ -1462,10 +1463,11 @@ Królestwo Prus nominalnie wchodzące w skład Cesarstwa Niemieckiego do 1806 r.
                                       "Part of Habsburgs' monarchy. Since 1804, in the Austrian Empire"@en ;
                          rdfs:isDefinedBy :administrative_system_16 ;
                          rdfs:label "cesarstwo"@pl ,
-                                    "composite monarchy"@en ,
-                                    "composite state"@en ;
+                                    "empire"@en ;
                          rdfs:seeAlso "https://www.wikidata.org/wiki/Q131964" ;
-                         <http://www.w3.org/2004/02/skos/core#altLabel> "monarchia złożona"@pl ,
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "composite monarchy"@en ,
+                                                                        "composite state"@en ,
+                                                                        "monarchia złożona"@pl ,
                                                                         "państwo złożone"@pl .
 
 
@@ -1535,8 +1537,8 @@ Królestwo Prus nominalnie wchodzące w skład Cesarstwa Niemieckiego do 1806 r.
                          :isSymbolisedByMeansOf :map_symbol_70 ;
                          rdfs:comment "księstwo (lenne i dziedziczne)"@pl ;
                          rdfs:isDefinedBy :administrative_system_19 ;
-                         rdfs:label "księstwo"@pl ,
-                                    "principalit"@en ;
+                         rdfs:label "duchy"@en ,
+                                    "księstwo"@pl ;
                          rdfs:seeAlso "http://gov.genealogy.net/types.owl#60" ,
                                       "https://www.wikidata.org/wiki/Q208500" ;
                          <http://www.w3.org/2004/02/skos/core#altLabel> "free state"@en ,
@@ -1690,12 +1692,13 @@ Od poł. XVI wieku równolegle powstają okręgi zarządów domen. Okręgi zarz�
                          :hasExternalIdentifier 121 ;
                          :isSymbolisedByMeansOf :map_symbol_30 ;
                          rdfs:isDefinedBy :administrative_system_21 ;
-                         rdfs:label "Amt"@de ,
-                                    "Domänenamt"@de ,
-                                    "Kreis"@de ,
-                                    "okręg"@pl ,
-                                    "powiat ziemski"@pl ,
-                                    "urząd dominialny"@pl .
+                         rdfs:label "Kreis"@de ,
+                                    "rural district"@en ,
+                                    "urząd dominialny"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "Amt"@de ,
+                                                                        "Domänenamt"@de ,
+                                                                        "okręg"@pl ,
+                                                                        "powiat ziemski"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_122
@@ -1786,10 +1789,9 @@ Od poł. XVI wieku równolegle powstają okręgi zarządów domen. Okręgi zarz�
                          rdfs:isDefinedBy :administrative_system_23 ;
                          rdfs:label "Vogtei"@de ,
                                     "bailiwick"@en ,
-                                    "voyt's dominion,"@en ,
-                                    "wójtostwo"@en ,
                                     "wójtostwo"@pl ;
-                         rdfs:seeAlso "http://dbpedia.org/page/Bailiwick" .
+                         rdfs:seeAlso "http://dbpedia.org/page/Bailiwick" ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "voyt's dominion,"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_128
@@ -1803,7 +1805,8 @@ Od poł. XVI wieku równolegle powstają okręgi zarządów domen. Okręgi zarz�
                          :isSymbolisedByMeansOf :map_symbol_50 ;
                          rdfs:isDefinedBy :administrative_system_23 ;
                          rdfs:label "Landvogtei"@de ,
-                                    "landwójtostwo"@pl .
+                                    "landwójtostwo"@pl ,
+                                    "rural bailiwick"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_129
@@ -1845,11 +1848,11 @@ Od poł. XVI wieku równolegle powstają okręgi zarządów domen. Okręgi zarz�
                          :hasExternalIdentifier 130 ;
                          :isSymbolisedByMeansOf :map_symbol_80 ;
                          rdfs:isDefinedBy :administrative_system_23 ;
-                         rdfs:label "księstwo"@pl ,
-                                    "marchia"@pl ,
+                         rdfs:label "marchia"@pl ,
                                     "margraviate"@en ;
                          rdfs:seeAlso "https://www.wikidata.org/wiki/Q148499" ;
                          <http://www.w3.org/2004/02/skos/core#altLabel> "elektorat"@pl ,
+                                                                        "księstwo"@pl ,
                                                                         "principality"@en .
 
 
@@ -1877,7 +1880,8 @@ Od poł. XVI wieku równolegle powstają okręgi zarządów domen. Okręgi zarz�
                          :isSymbolisedByMeansOf :map_symbol_30 ;
                          rdfs:comment "Kasztelania, opole, żupa, pagast; tutaj należy szukać genezy polskich powiatów; inne terytoria zależne nie posiadające statusu księstwa czy marchii (ziemie, miasta, część księstw, regiony)"@pl ;
                          rdfs:isDefinedBy :administrative_system_24 ;
-                         rdfs:label "dzielnica"@pl .
+                         rdfs:label "district"@en ,
+                                    "dzielnica"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_133
@@ -1966,7 +1970,8 @@ Od poł. XVI wieku równolegle powstają okręgi zarządów domen. Okręgi zarz�
                          :hasExternalIdentifier 138 ;
                          :isSymbolisedByMeansOf :map_symbol_20 ;
                          rdfs:isDefinedBy :administrative_system_25 ;
-                         rdfs:label "prokuratorstwo"@pl .
+                         rdfs:label "pfleger's dominion"@en ,
+                                    "prokuratorstwo"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_139
@@ -1994,7 +1999,7 @@ Od poł. XVI wieku równolegle powstają okręgi zarządów domen. Okręgi zarz�
 31.12.1842: Terytorialne rozgraniczenie gmin wiejskich i obszarów dworskich w prowincjach wschodnich"""@pl ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Gutsbezirk"@de ,
-                                   "estate district"@en ,
+                                   "manorial demesne"@en ,
                                    "obszar dworski"@pl ;
                         rdfs:seeAlso "http://gov.genealogy.net/types.owl#109" ,
                                      "https://www.wikidata.org/wiki/Q451019" .
@@ -3081,7 +3086,7 @@ Od poł. XVI wieku równolegle powstają okręgi zarządów domen. Okręgi zarz�
                        rdfs:comment "Zgodnie z treścią konstytucji marcowej (1921) \"Dla celów administracyjnych Państwo Polskie podzielone będzie w drodze ustawodawczej na województwa, powiaty i gminy miejskie i wiejskie, które będą równocześnie jednostkami samorządu terytorjalnego\". Faktycznie cały okres międzywojenny charakteryzuje proces unifikacji terytorialnej administracji ogólnej, której celem jest likwidacja różnic między byłymi zaborami. Ostatnim ważnym aktem była likwidacja obszarów dworskich na terenie woj. poznańskiego oraz pomorskiego na mocy tzw. ustawy scaleniowej z 1933 r."@pl ;
                        rdfs:isDefinedBy :administrative_system_1 ;
                        rdfs:label "gmina miejska"@pl ,
-                                  "urban municipality"@en .
+                                  "town commune"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_200
@@ -3557,8 +3562,8 @@ Od poł. XVI wieku równolegle powstają okręgi zarządów domen. Okręgi zarz�
                          :hasExternalIdentifier 224 ;
                          :isSymbolisedByMeansOf :administrative_system_40 ;
                          rdfs:isDefinedBy :administrative_system_40 ;
-                         rdfs:label "księstwo"@pl ,
-                                    "principality"@en ;
+                         rdfs:label "duchy"@en ,
+                                    "księstwo"@pl ;
                          rdfs:seeAlso "http://gov.genealogy.net/types.owl#60" ,
                                       "https://www.wikidata.org/wiki/Q208500" .
 
@@ -3721,8 +3726,8 @@ Od poł. XVI wieku równolegle powstają okręgi zarządów domen. Okręgi zarz�
                          :isSymbolisedByMeansOf :administrative_system_42 ;
                          rdfs:comment "od 23.02.1809 (M. Kallas, s. 212)"@pl ;
                          rdfs:isDefinedBy :administrative_system_42 ;
-                         rdfs:label ""@en ,
-                                    "gmina wiejska"@pl .
+                         rdfs:label "gmina wiejska"@pl ,
+                                    "rural commune"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_237
@@ -3769,8 +3774,8 @@ Od poł. XVI wieku równolegle powstają okręgi zarządów domen. Okręgi zarz�
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Gemeinde"@de ,
-                                   "gmina"@pl ,
-                                   "municipality"@en ;
+                                   "commune"@en ,
+                                   "gmina"@pl ;
                         rdfs:seeAlso "http://dbpedia.org/page/Gemeinde" ,
                                      "http://gov.genealogy.net/types.owl#group_31" ,
                                      "https://www.wikidata.org/wiki/Q262166" .
@@ -3918,9 +3923,10 @@ Od poł. XVI wieku równolegle powstają okręgi zarządów domen. Okręgi zarz�
 W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączących kilka gmin, władzę wójtowską sprawowali właściciele dóbr ziemskich. Od 1833 roku do 1918 pełnili te funkcje okręgowi komisarze policji.\""""@pl ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Amtsbezirk"@de ,
-                                   "administrative district"@en ,
+                                   "bailiwick"@en ,
                                    "wójtostwo"@pl ;
-                        <http://www.w3.org/2004/02/skos/core#altLabel> "bailwick"@en .
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "administrative district"@en ,
+                                                                       "bailwick"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_250
@@ -4039,9 +4045,9 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                          :hasExternalIdentifier 258 ;
                          :isSymbolisedByMeansOf :administrative_system_5 ;
                          rdfs:isDefinedBy :administrative_system_5 ;
-                         rdfs:label "gmina miejska"@pl ,
-                                    "municipality"@en ;
-                         <http://www.w3.org/2004/02/skos/core#altLabel> "commune"@en ,
+                         rdfs:label "commune"@en ,
+                                    "gmina miejska"@pl ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "municipality"@en ,
                                                                         "town"@en .
 
 
@@ -4052,8 +4058,8 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                          :isSymbolisedByMeansOf :administrative_system_5 ;
                          rdfs:isDefinedBy :administrative_system_5 ;
                          rdfs:label "gmina wiejska"@pl ,
-                                    "rural municipality"@en ;
-                         <http://www.w3.org/2004/02/skos/core#altLabel> "rural commune"@en .
+                                    "rural commune"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "rural municipality"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_26
@@ -4079,7 +4085,7 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                          :hasExternalIdentifier 260 ;
                          :isSymbolisedByMeansOf :administrative_system_5 ;
                          rdfs:isDefinedBy :administrative_system_5 ;
-                         rdfs:label "manorial district"@en ,
+                         rdfs:label "manorial demesne"@en ,
                                     "obszar dworski"@pl ;
                          rdfs:seeAlso "http://gov.genealogy.net/types.owl#109" ,
                                       "https://www.wikidata.org/wiki/Q451019" .
@@ -4095,7 +4101,8 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                          :hasExternalIdentifier 261 ;
                          :isSymbolisedByMeansOf :administrative_system_5 ;
                          rdfs:isDefinedBy :administrative_system_5 ;
-                         rdfs:label "powiat"@pl ;
+                         rdfs:label "district"@en ,
+                                    "powiat"@pl ;
                          rdfs:seeAlso "http://gov.genealogy.net/types.owl#32" ,
                                       "https://www.wikidata.org/wiki/Q106658" .
 
@@ -4107,7 +4114,7 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                          :isSymbolisedByMeansOf :administrative_system_5 ;
                          rdfs:isDefinedBy :administrative_system_5 ;
                          rdfs:label "powiat miejski"@pl ,
-                                    "town district"@en ;
+                                    "urban district"@en ;
                          rdfs:seeAlso "http://gov.genealogy.net/types.owl#32" .
 
 
@@ -4117,8 +4124,8 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                          :hasExternalIdentifier 263 ;
                          :isSymbolisedByMeansOf :administrative_system_5 ;
                          rdfs:isDefinedBy :administrative_system_5 ;
-                         rdfs:label "land district"@en ,
-                                    "powiat wiejski"@pl .
+                         rdfs:label "powiat wiejski"@pl ,
+                                    "rural district"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_264
@@ -4159,10 +4166,10 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                          :hasExternalIdentifier 266 ;
                          :isSymbolisedByMeansOf :administrative_system_44 ;
                          rdfs:isDefinedBy :administrative_system_44 ;
-                         rdfs:label "province"@en ,
+                         rdfs:label "palatinate"@en ,
                                     "województwo"@pl ;
                          <http://www.w3.org/2004/02/skos/core#altLabel> "county"@en ,
-                                                                        "palatinate"@en .
+                                                                        "province"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_267
@@ -4212,8 +4219,8 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_4 ;
                         rdfs:label "Landkreis"@de ,
-                                   "land district"@en ,
-                                   "powiat ziemski"@pl ;
+                                   "powiat ziemski"@pl ,
+                                   "rural district"@en ;
                         rdfs:seeAlso "http://gov.genealogy.net/types.owl#32" ,
                                      "https://www.wikidata.org/wiki/Q106658" .
 
@@ -4293,9 +4300,9 @@ Rybaków nosił tytuł wójta Sambii (Vogt von Samland). Niektóre starostwa dzi
                          :hasExternalIdentifier 274 ;
                          :isSymbolisedByMeansOf :administrative_system_16 ;
                          rdfs:isDefinedBy :administrative_system_16 ;
-                         rdfs:label "circle"@en ,
-                                    "cyrkuł"@pl ;
-                         <http://www.w3.org/2004/02/skos/core#altLabel> "tsyrkul"@en .
+                         rdfs:label "cyrkuł"@pl ,
+                                    "tsyrkul"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "circle"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_275
@@ -4308,12 +4315,12 @@ Rybaków nosił tytuł wójta Sambii (Vogt von Samland). Niektóre starostwa dzi
                          :hasExternalIdentifier 275 ;
                          :isSymbolisedByMeansOf :administrative_system_9 ;
                          rdfs:isDefinedBy :administrative_system_9 ;
-                         rdfs:label "gmina"@pl ,
-                                    "municipality"@en ;
+                         rdfs:label "commune"@en ,
+                                    "gmina"@pl ;
                          rdfs:seeAlso "http://dbpedia.org/page/Gemeinde" ,
                                       "http://gov.genealogy.net/types.owl#group_31" ,
                                       "https://www.wikidata.org/wiki/Q262166" ;
-                         <http://www.w3.org/2004/02/skos/core#altLabel> "commune"@en .
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "municipality"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_276
@@ -4356,7 +4363,8 @@ Rybaków nosił tytuł wójta Sambii (Vogt von Samland). Niektóre starostwa dzi
                          :hasExternalIdentifier 278 ;
                          :isSymbolisedByMeansOf :administrative_system_22 ;
                          rdfs:isDefinedBy :administrative_system_22 ;
-                         rdfs:label "starostwo"@pl .
+                         rdfs:label "county"@en ,
+                                    "starostwo"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_279
@@ -4394,7 +4402,7 @@ Rybaków nosił tytuł wójta Sambii (Vogt von Samland). Niektóre starostwa dzi
                          :isSymbolisedByMeansOf :map_symbol_10 ;
                          rdfs:isDefinedBy :administrative_system_41 ;
                          rdfs:label "gmina wiejska"@pl ,
-                                    "rural municipality"@en ;
+                                    "rural commune"@en ;
                          <http://www.w3.org/2004/02/skos/core#altLabel> "village comune"@en .
 
 
@@ -4405,7 +4413,7 @@ Rybaków nosił tytuł wójta Sambii (Vogt von Samland). Niektóre starostwa dzi
                          :isSymbolisedByMeansOf :map_symbol_10 ;
                          rdfs:isDefinedBy :administrative_system_41 ;
                          rdfs:label "gmina miejska"@pl ,
-                                    "town"@en .
+                                    "town commune"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_282
@@ -4414,7 +4422,7 @@ Rybaków nosił tytuł wójta Sambii (Vogt von Samland). Niektóre starostwa dzi
                          :hasExternalIdentifier 282 ;
                          :isSymbolisedByMeansOf :map_symbol_10 ;
                          rdfs:isDefinedBy :administrative_system_41 ;
-                         rdfs:label "manorial estate"@en ,
+                         rdfs:label "manorial demesne"@en ,
                                     "obszar dworski"@pl ;
                          rdfs:seeAlso "http://gov.genealogy.net/types.owl#109" ,
                                       "https://www.wikidata.org/wiki/Q451019" .
@@ -4444,8 +4452,8 @@ Rybaków nosił tytuł wójta Sambii (Vogt von Samland). Niektóre starostwa dzi
                          :hasExternalIdentifier 284 ;
                          :isSymbolisedByMeansOf :map_symbol_40 ;
                          rdfs:isDefinedBy :administrative_system_41 ;
-                         rdfs:label "circle"@en ,
-                                    "cyrkuł-stolica obszaru dworskiego"@pl .
+                         rdfs:label "cyrkuł-stolica obszaru dworskiego"@pl ,
+                                    "tsyrkul-provincial capital"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_285
@@ -4454,8 +4462,9 @@ Rybaków nosił tytuł wójta Sambii (Vogt von Samland). Niektóre starostwa dzi
                          :hasExternalIdentifier 285 ;
                          :isSymbolisedByMeansOf :map_symbol_40 ;
                          rdfs:isDefinedBy :administrative_system_41 ;
-                         rdfs:label "circle"@en ,
-                                    "cyrkuł"@pl .
+                         rdfs:label "cyrkuł"@pl ,
+                                    "tsyrkul"@en ;
+                         <http://www.w3.org/2004/02/skos/core#altLabel> "circle"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_286
@@ -4494,8 +4503,8 @@ Rybaków nosił tytuł wójta Sambii (Vogt von Samland). Niektóre starostwa dzi
                          :hasExternalIdentifier 288 ;
                          :isSymbolisedByMeansOf :map_symbol_70 ;
                          rdfs:isDefinedBy :administrative_system_41 ;
-                         rdfs:label "kraj koronny"@pl ,
-                                    "province"@en ;
+                         rdfs:label "crown land"@en ,
+                                    "kraj koronny"@pl ;
                          rdfs:seeAlso "https://www.wikidata.org/wiki/Q681026" ;
                          <http://www.w3.org/2004/02/skos/core#altLabel> "namiestnictwo"@pl .
 
@@ -4539,7 +4548,7 @@ Rybaków nosił tytuł wójta Sambii (Vogt von Samland). Niektóre starostwa dzi
                        rdfs:comment "Zgodnie z treścią konstytucji marcowej (1921) \"Dla celów administracyjnych Państwo Polskie podzielone będzie w drodze ustawodawczej na województwa, powiaty i gminy miejskie i wiejskie, które będą równocześnie jednostkami samorządu terytorjalnego\". Faktycznie cały okres międzywojenny charakteryzuje proces unifikacji terytorialnej administracji ogólnej, której celem jest likwidacja różnic między byłymi zaborami. Ostatnim ważnym aktem była likwidacja obszarów dworskich na terenie woj. poznańskiego oraz pomorskiego na mocy tzw. ustawy scaleniowej z 1933 r."@pl ;
                        rdfs:isDefinedBy :administrative_system_1 ;
                        rdfs:label "gmina wiejska "@pl ,
-                                  "rural municipality"@en .
+                                  "rural commune"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_30
@@ -4609,7 +4618,7 @@ Rybaków nosił tytuł wójta Sambii (Vogt von Samland). Niektóre starostwa dzi
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Stadtgemeinde"@de ,
                                    "gmina miejska"@pl ,
-                                   "town community"@en .
+                                   "town commune"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_35
@@ -4634,7 +4643,7 @@ Rybaków nosił tytuł wójta Sambii (Vogt von Samland). Niektóre starostwa dzi
 31.12.1842: Terytorialne rozgraniczenie gmin wiejskich i obszarów dworskich w prowincjach wschodnich"""@pl ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Gutsbezirk"@de ,
-                                   "landlord's estate"@en ,
+                                   "manorial demesne"@en ,
                                    "obszar dworski"@pl ;
                         rdfs:seeAlso "http://gov.genealogy.net/types.owl#109" ,
                                      "https://www.wikidata.org/wiki/Q451019" ;
@@ -4674,7 +4683,7 @@ Rybaków nosił tytuł wójta Sambii (Vogt von Samland). Niektóre starostwa dzi
 W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączących kilka gmin, władzę wójtowską sprawowali właściciele dóbr ziemskich. Od 1833 roku do 1918 pełnili te funkcje okręgowi komisarze policji."""@pl ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Amtsbezirk"@de ,
-                                   "division"@en ,
+                                   "bailiwick"@en ,
                                    "wójtostwo"@pl ;
                         <http://www.w3.org/2004/02/skos/core#altLabel> "communal union"@en .
 
@@ -4717,8 +4726,8 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Landkreis"@de ,
-                                   "land district"@en ,
-                                   "powiat ziemski"@pl ;
+                                   "powiat ziemski"@pl ,
+                                   "rural district"@en ;
                         rdfs:seeAlso "http://gov.genealogy.net/types.owl#32" ,
                                      "https://www.wikidata.org/wiki/Q106658" .
 
@@ -4748,7 +4757,7 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                         rdfs:comment "Utworzona w 1808 roku jako pierwszy stopień reform administracyjnych państwa wprowadzonych przez Steina i Hardenberga"@pl ;
                         rdfs:isDefinedBy :administrative_system_7 ;
                         rdfs:label "Regierungsbezirk"@de ,
-                                   "district (government)"@en ,
+                                   "district government"@en ,
                                    "rejencja"@pl ;
                         rdfs:seeAlso "http://gov.genealogy.net/types.owl#46" ;
                         <http://www.w3.org/2004/02/skos/core#altLabel> "Regierung"@de ,
@@ -5098,8 +5107,7 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_10 ;
                         rdfs:label "gmina wiejska"@pl ,
-                                   "rural municipality"@en ;
-                        <http://www.w3.org/2004/02/skos/core#altLabel> "village comune"@en .
+                                   "rural commune"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_61
@@ -5109,7 +5117,7 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_10 ;
                         rdfs:label "gmina miejska"@pl ,
-                                   "town"@en .
+                                   "town commune"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_62
@@ -5118,10 +5126,10 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                         :hasExternalIdentifier 62 ;
                         :isSymbolisedByMeansOf :map_symbol_10 ;
                         rdfs:isDefinedBy :administrative_system_10 ;
-                        rdfs:label "obszar dworski"@pl ;
+                        rdfs:label "manorial demesne"@en ,
+                                   "obszar dworski"@pl ;
                         rdfs:seeAlso "http://gov.genealogy.net/types.owl#109" ,
-                                     "https://www.wikidata.org/wiki/Q451019" ;
-                        <http://www.w3.org/2004/02/skos/core#altLabel> "manorial estate"@en .
+                                     "https://www.wikidata.org/wiki/Q451019" .
 
 
 ###  http://purl.org/ontohgis#administrative_type_63
@@ -5151,7 +5159,7 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                         :isSymbolisedByMeansOf :map_symbol_70 ,
                                                :map_symbol_80 ;
                         rdfs:isDefinedBy :administrative_system_10 ;
-                        rdfs:label "federal state"@en ,
+                        rdfs:label "crown land"@en ,
                                    "kraj koronny"@pl ;
                         <http://www.w3.org/2004/02/skos/core#altLabel> "https://www.wikidata.org/wiki/Q681026"@en ,
                                                                        "namiestnictwo"@pl ,
@@ -5203,7 +5211,8 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                         :hasExternalIdentifier 68 ;
                         :isSymbolisedByMeansOf :map_symbol_20 ;
                         rdfs:isDefinedBy :administrative_system_11 ;
-                        rdfs:label "okręg"@pl .
+                        rdfs:label "district"@en ,
+                                   "okręg"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_69
@@ -5258,12 +5267,14 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                                                :map_symbol_70 ;
                         rdfs:comment "W 1867 zniesiono autonomię Królestwa i półoficjalnie stosowano nazwę \"Kraj Przywiślański\" lub \"Kraj Nadwiślański\""@pl ;
                         rdfs:isDefinedBy :administrative_system_11 ;
-                        rdfs:label "kraj"@pl ,
-                                   "land"@en ;
+                        rdfs:label "krai"@en ,
+                                   "kraj"@pl ;
+                        rdfs:seeAlso "https://www.wikidata.org/wiki/Q2738486" ;
                         <http://www.w3.org/2004/02/skos/core#altLabel> "general-governorate"@en ,
                                                                        "generał-gubernatorstwo"@pl ,
                                                                        "kingdom"@en ,
-                                                                       "królestwo"@pl .
+                                                                       "królestwo"@pl ,
+                                                                       "land"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_72
@@ -5321,8 +5332,8 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                         rdfs:comment "Od 1701 Landkreis jako jednostka administracyjna początkowo w Brandenburgii; od 1716 na Pomorzu, 1740 na Śląsku, 1752 w Prusach Wschodnich, 1772 Prusach Zachodnich, 1793 w Prusach Południowych i 1795 w Prusach Nowo Wschodnich"@pl ;
                         rdfs:isDefinedBy :administrative_system_13 ;
                         rdfs:label "Landkreis"@de ,
-                                   "land district"@en ,
-                                   "powiat ziemski"@pl ;
+                                   "powiat ziemski"@pl ,
+                                   "rural district"@en ;
                         rdfs:seeAlso "http://gov.genealogy.net/types.owl#32" ,
                                      "https://www.wikidata.org/wiki/Q106658" .
 
@@ -5434,10 +5445,10 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                         :hasExternalIdentifier 82 ;
                         :isSymbolisedByMeansOf :map_symbol_50 ;
                         rdfs:isDefinedBy :administrative_system_14 ;
-                        rdfs:label "province"@en ,
+                        rdfs:label "palatinate"@en ,
                                    "województwo"@pl ;
                         <http://www.w3.org/2004/02/skos/core#altLabel> "county"@en ,
-                                                                       "palatinate"@en .
+                                                                       "province"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_83
@@ -5586,10 +5597,11 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                         :hasExternalIdentifier 92 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_17 ;
-                        rdfs:label "Bezirk"@de ,
-                                   "Distrikt"@de ,
-                                   "Kreisdistrikt"@de ,
-                                   "okręg"@pl .
+                        rdfs:label "Distrikt"@de ,
+                                   "district"@en ,
+                                   "okręg"@pl ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "Bezirk"@de ,
+                                                                       "Kreisdistrikt"@de .
 
 
 ###  http://purl.org/ontohgis#administrative_type_93
@@ -5647,10 +5659,11 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                         :hasExternalIdentifier 96 ;
                         :isSymbolisedByMeansOf :map_symbol_30 ;
                         rdfs:isDefinedBy :administrative_system_18 ;
-                        rdfs:label "powiat"@pl ,
-                                   "processus"@la ,
+                        rdfs:label "district"@en ,
+                                   "powiat"@pl ,
                                    "reambulatio"@la ,
-                                   "szolgabírói járás"@hu .
+                                   "szolgabírói járás"@hu ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "processus"@la .
 
 
 ###  http://purl.org/ontohgis#administrative_type_97
@@ -5697,12 +5710,12 @@ W Prowincji Poznańskiej w l 1818-1833 w okręgach wiejskich (Bezirke), łączą
                         :isSymbolisedByMeansOf :map_symbol_100 ;
                         rdfs:isDefinedBy :administrative_system_17 ;
                         rdfs:label "Kaisertum"@de ,
-                                   "cesarstwo"@pl ,
-                                   "composite monarchy"@en ,
                                    "composite state"@en ,
                                    "https://www.wikidata.org/wiki/Q131964"@en ,
-                                   "monarchia złożona"@pl ,
-                                   "państwo złożone"@pl .
+                                   "państwo złożone"@pl ;
+                        <http://www.w3.org/2004/02/skos/core#altLabel> "cesarstwo"@pl ,
+                                                                       "composite monarchy"@en ,
+                                                                       "monarchia złożona"@pl .
 
 
 ###  http://purl.org/ontohgis#object_1
@@ -11378,7 +11391,8 @@ Ukaz carski z 11.10.1842 (Dziennik Praw Królestwa Polskiego, nr 97, t. 30, Wars
                           dc:creator :person_6 ;
                           rdfs:comment "The administrative division based on counties (konitat/Hun.megye) and districts (powiat/processus Hun.  szolgabírói járás) had emerged in the Middle Ages since the 11th c., and despite the numerous administrative reforms is still valid. The key reforms were introduced in 1785-1790 and 1849-1860 and attempted ot centralise the adminittation within the entire Austrian monarchy."@en ,
                                        "Ustrój terytoriualny oparty o komitaty (megye) i powiaty (processus, reambulatio, węg. szolgabírói járás) ukształtował się w średniowieczu, od XI wieku, i mimo wielu prób reform administracyjnych obowiązuje zasadniczo po dzień dzisiejszy. Najważniejsze reformy miały miejsce w latach 1785-1790, 1849-1860 i były związane z próbą centralizacji administracyjnej w ramach monarchii austriackiej."@pl ;
-                          rdfs:label "Królestwo Węgier (1200-1918)"@pl ;
+                          rdfs:label "Królestwo Węgier (1200-1918)"@pl ,
+                                     "the Kingom of Hungary (1200-1918)"@en ;
                           rdfs:seeAlso :document_40 ,
                                        :document_41 ,
                                        :document_42 ,
@@ -11450,7 +11464,8 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
                           :startsDominationAt "1550-01-01"^^xsd:date ;
                           dc:creator :person_11 ;
                           rdfs:comment "W 1535 Nowa Marchia przeszła pod panowanie margrafa Jana i jako wydzielona prowincja uzyskała odrębną strukturę administracyjną (patrz. Nowa Marchia). Ponownie włączona w 1571 zachowała jednak swoją odrębność administracyjną. Po przejściu na luteranizm (1.11.1539) w roku następnym stany państwa brandenburskiego przejęły spłatę elektorskich długów i same utworzyły organ kontrolny i wykonawczy do sciągania danin i podatków."@pl ;
-                          rdfs:label "Marchia Brandenburska (1540-1713)"@pl ;
+                          rdfs:label "Marchia Brandenburska (1540-1713)"@pl ,
+                                     "The Margraviate of Branderburg (1540-1713)"@en ;
                           rdfs:seeAlso :document_47 ,
                                        :document_56 ,
                                        "https://www.wikidata.org/wiki/Q148499" .
@@ -11487,7 +11502,7 @@ W 1625 r. zjednoczenie w jedno Księstwo Pomorskie, zaś po pokoju westfalskim w
                           rdfs:comment "In 1320, the dynasty of the house of Ascan had come to an end and the power moved to the house of Wittelsbach and Luxemburg. The emperor Luis IV Wittelsbach grants the Marach to his son Luis V the Brandenburger"@en ,
                                        "W 1320 r. wygasła dynastia askańczyków. Władzę w Marchii przejmują Wittelsbachowie i Luksemburgowie. Po wygaśnięciu dynastii Askańczyków cesarz Ludwik Wittelsbach nadaje marchię swemu synowi Ludwikowi"@pl ;
                           rdfs:label "Marchia Brandenburska (1323-1540)"@pl ,
-                                     "The Margraviate of Branderburg"@en ;
+                                     "The Margraviate of Branderburg (1323-1540)"@en ;
                           rdfs:seeAlso :document_47 ,
                                        "https://www.wikidata.org/wiki/Q148499" ;
                           <http://www.w3.org/2004/02/skos/core#altLabel> "Marquisate of Brandenburg"@en .
@@ -14602,8 +14617,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/Agent> rdfs:label "Agent"@en ;
-                                 rdfs:comment "A resource that acts or has the power to act."@en ;
                                  <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
+                                 rdfs:comment "A resource that acts or has the power to act."@en ;
                                  rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                  <http://purl.org/dc/terms/description> "Examples of Agent include person, organization, and software agent."@en ;
                                  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Agent-001> .
@@ -14628,18 +14643,18 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/Box> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                rdfs:comment "The set of regions in space defined by their geographic coordinates according to the DCMI Box Encoding Scheme."@en ;
                                rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                               rdfs:seeAlso <http://dublincore.org/documents/dcmi-box/> ;
-                               <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                rdfs:label "DCMI Box"@en ;
+                               <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+                               rdfs:seeAlso <http://dublincore.org/documents/dcmi-box/> ;
                                <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Box-003> .
 
 
 <http://purl.org/dc/terms/FileFormat> <http://purl.org/dc/terms/description> "Examples include the formats defined by the list of Internet Media Types."@en ;
                                       <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#FileFormat-001> ;
-                                      rdfs:label "File Format"@en ;
                                       rdfs:comment "A digital resource format."@en ;
-                                      <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> .
+                                      rdfs:label "File Format"@en ;
+                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                      <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
 
 
 <http://purl.org/dc/terms/Frequency> rdfs:label "Frequency"@en ;
@@ -14649,10 +14664,10 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                      <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
 
 
-<http://purl.org/dc/terms/ISO3166> rdfs:comment "The set of codes listed in ISO 3166-1 for the representation of names of countries."@en ;
-                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
-                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO3166-004> ;
+<http://purl.org/dc/terms/ISO3166> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                   rdfs:comment "The set of codes listed in ISO 3166-1 for the representation of names of countries."@en ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO3166-004> ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                    rdfs:label "ISO 3166"@en ;
                                    rdfs:seeAlso <http://www.iso.org/iso/en/prods-services/iso3166ma/02iso-3166-code-lists/list-en1.html> .
@@ -14660,17 +14675,17 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/ISO639-2> rdfs:seeAlso <http://lcweb.loc.gov/standards/iso639-2/langhome.html> ;
                                     <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                    rdfs:comment "The three-letter alphabetic codes listed in ISO639-2 for the representation of names of languages."@en ;
                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                    rdfs:comment "The three-letter alphabetic codes listed in ISO639-2 for the representation of names of languages."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     rdfs:label "ISO 639-2"@en ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO639-2-003> .
 
 
-<http://purl.org/dc/terms/ISO639-3> rdfs:label "ISO 639-3"@en ;
-                                    rdfs:comment "The set of three-letter codes listed in ISO 639-3 for the representation of names of languages."@en ;
-                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/ISO639-3> rdfs:comment "The set of three-letter codes listed in ISO 639-3 for the representation of names of languages."@en ;
+                                    rdfs:label "ISO 639-3"@en ;
                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
+                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO639-3-001> ;
                                     rdfs:seeAlso <http://www.sil.org/iso639-3/> .
 
@@ -14712,10 +14727,10 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/MediaType> rdfs:comment "A file format or physical medium."@en ;
-                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                      rdfs:label "Media Type"@en ;
-                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#MediaType-001> .
+                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#MediaType-001> ;
+                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
 
 
 <http://purl.org/dc/terms/MediaTypeOrExtent> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -14725,8 +14740,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                              <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#MediaTypeOrExtent-001> .
 
 
-<http://purl.org/dc/terms/MethodOfAccrual> rdfs:comment "A method by which resources are added to a collection."@en ;
-                                           rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/MethodOfAccrual> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                           rdfs:comment "A method by which resources are added to a collection."@en ;
                                            <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#MethodOfAccrual-001> ;
                                            rdfs:label "Method of Accrual"@en ;
                                            <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
@@ -14739,9 +14754,9 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                                <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
 
 
-<http://purl.org/dc/terms/Period> rdfs:seeAlso <http://dublincore.org/documents/dcmi-period/> ;
+<http://purl.org/dc/terms/Period> rdfs:comment "The set of time intervals defined by their limits according to the DCMI Period Encoding Scheme."@en ;
                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                  rdfs:comment "The set of time intervals defined by their limits according to the DCMI Period Encoding Scheme."@en ;
+                                  rdfs:seeAlso <http://dublincore.org/documents/dcmi-period/> ;
                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                   rdfs:label "DCMI Period"@en ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -14789,8 +14804,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/ProvenanceStatement> rdfs:label "Provenance Statement"@en ;
                                                rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                                <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                               rdfs:comment "A statement of any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation."@en ;
-                                               <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ProvenanceStatement-001> .
+                                               <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ProvenanceStatement-001> ;
+                                               rdfs:comment "A statement of any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation."@en .
 
 
 <http://purl.org/dc/terms/RFC1766> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -14817,8 +14832,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#RFC4646-001> ;
                                    rdfs:seeAlso <http://www.ietf.org/rfc/rfc4646.txt> ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                   rdfs:comment "The set of tags constructed according to RFC 4646 for the identification of languages."@en ;
-                                   rdfs:label "RFC 4646"@en .
+                                   rdfs:label "RFC 4646"@en ;
+                                   rdfs:comment "The set of tags constructed according to RFC 4646 for the identification of languages."@en .
 
 
 <http://purl.org/dc/terms/RFC5646> <http://purl.org/dc/terms/issued> "2010-10-11"^^xsd:date ;
@@ -14841,8 +14856,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                           <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#SizeOrDuration-001> ;
                                           <http://purl.org/dc/terms/description> "Examples include a number of pages, a specification of length, width, and breadth, or a period in hours, minutes, and seconds."@en ;
                                           rdfs:comment "A dimension or extent, or a time taken to play or execute."@en ;
-                                          rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                          <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date .
+                                          <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
+                                          rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
 <http://purl.org/dc/terms/Standard> rdfs:comment "A basis for comparison; a reference point against which other things can be evaluated."@en ;
@@ -14852,8 +14867,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Standard-001> .
 
 
-<http://purl.org/dc/terms/URI> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                               rdfs:comment "The set of identifiers constructed according to the generic syntax for Uniform Resource Identifiers as specified by the Internet Engineering Task Force."@en ;
+<http://purl.org/dc/terms/URI> rdfs:comment "The set of identifiers constructed according to the generic syntax for Uniform Resource Identifiers as specified by the Internet Engineering Task Force."@en ;
+                               rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                rdfs:seeAlso <http://www.ietf.org/rfc/rfc3986.txt> ;
                                <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#URI-003> ;
@@ -14964,8 +14979,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/coverage> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#coverageT-001> ;
-                                    rdfs:label "Coverage"@en ;
                                     <http://purl.org/dc/terms/description> "Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies. Recommended best practice is to use a controlled vocabulary such as the Thesaurus of Geographic Names [TGN]. Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges."@en ;
+                                    rdfs:label "Coverage"@en ;
                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                     rdfs:comment "The spatial or temporal topic of the resource, the spatial applicability of the resource, or the jurisdiction under which the resource is relevant."@en ;
                                     <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date .
@@ -14992,8 +15007,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                 <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#dateT-001> ;
                                 rdfs:comment "A point or period of time associated with an event in the lifecycle of the resource."@en ;
                                 <http://purl.org/dc/terms/description> "Date may be used to express temporal information at any level of granularity.  Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF]."@en ;
-                                rdfs:label "Date"@en ;
                                 <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
+                                rdfs:label "Date"@en ;
                                 <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date .
 
 
@@ -15001,8 +15016,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#dateAccepted-002> ;
                                         <http://purl.org/dc/terms/issued> "2002-07-13"^^xsd:date ;
                                         <http://purl.org/dc/terms/description> "Examples of resources to which a Date Accepted may be relevant are a thesis (accepted by a university department) or an article (accepted by a journal)."@en ;
-                                        rdfs:comment "Date of acceptance of the resource."@en ;
                                         rdfs:label "Date Accepted"@en ;
+                                        rdfs:comment "Date of acceptance of the resource."@en ;
                                         rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
@@ -15034,8 +15049,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/educationLevel> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                           rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                          rdfs:label "Audience Education Level"@en ;
                                           <http://purl.org/dc/terms/issued> "2002-07-13"^^xsd:date ;
+                                          rdfs:label "Audience Education Level"@en ;
                                           rdfs:comment "A class of entity, defined in terms of progression through an educational or training context, for which the described resource is intended."@en ;
                                           <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#educationLevel-002> .
 
@@ -15057,13 +15072,13 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   rdfs:label "Format"@en .
 
 
-<http://purl.org/dc/terms/hasFormat> <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
-                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/hasFormat> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                     <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                      <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#hasFormat-003> ;
                                      <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                      rdfs:label "Has Format"@en ;
-                                     rdfs:comment "A related resource that is substantially the same as the pre-existing described resource, but in another format."@en ;
-                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
+                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                     rdfs:comment "A related resource that is substantially the same as the pre-existing described resource, but in another format."@en .
 
 
 <http://purl.org/dc/terms/hasPart> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -15107,8 +15122,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                       rdfs:comment "A related resource that is substantially the same as the described resource, but in another format."@en ;
                                       <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                       <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
-                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                      rdfs:label "Is Format Of"@en .
+                                      rdfs:label "Is Format Of"@en ;
+                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
 <http://purl.org/dc/terms/isPartOf> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -15123,8 +15138,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/isReferencedBy> rdfs:label "Is Referenced By"@en ;
                                           rdfs:comment "A related resource that references, cites, or otherwise points to the described resource."@en ;
                                           <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                          <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                           rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                          <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                           <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                           <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isReferencedBy-003> .
 
@@ -15138,8 +15153,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isReplacedBy-003> .
 
 
-<http://purl.org/dc/terms/isRequiredBy> <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
-                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/isRequiredBy> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                        <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                         <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                         rdfs:label "Is Required By"@en ;
                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isRequiredBy-003> ;
@@ -15166,8 +15181,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/language> rdfs:label "Language"@en ;
-                                    <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#languageT-001> ;
+                                    <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                     <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     <http://purl.org/dc/terms/description> "Recommended best practice is to use a controlled vocabulary such as RFC 4646 [RFC4646]."@en ;
@@ -15177,8 +15192,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/license> <http://purl.org/dc/terms/issued> "2004-06-14"^^xsd:date ;
                                    rdfs:label "License"@en ;
                                    rdfs:comment "A legal document giving official permission to do something with the resource."@en ;
-                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#license-002> ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#license-002> ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
@@ -15212,34 +15227,34 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                       <http://purl.org/dc/terms/issued> "2004-09-20"^^xsd:date ;
                                       rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                       <http://purl.org/dc/terms/description> "The statement may include a description of any changes successive custodians made to the resource."@en ;
-                                      rdfs:label "Provenance"@en ;
-                                      <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#provenance-002> .
+                                      <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#provenance-002> ;
+                                      rdfs:label "Provenance"@en .
 
 
 <http://purl.org/dc/terms/publisher> <http://purl.org/dc/terms/modified> "2010-10-11"^^xsd:date ;
                                      <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                      rdfs:label "Publisher"@en ;
-                                     <http://purl.org/dc/terms/description> "Examples of a Publisher include a person, an organization, or a service."@en ;
                                      <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#publisherT-001> ;
+                                     <http://purl.org/dc/terms/description> "Examples of a Publisher include a person, an organization, or a service."@en ;
                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                      rdfs:comment "An entity responsible for making the resource available."@en .
 
 
-<http://purl.org/dc/terms/references> rdfs:label "References"@en ;
-                                      rdfs:comment "A related resource that is referenced, cited, or otherwise pointed to by the described resource."@en ;
+<http://purl.org/dc/terms/references> rdfs:comment "A related resource that is referenced, cited, or otherwise pointed to by the described resource."@en ;
+                                      rdfs:label "References"@en ;
                                       <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                       <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                       <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#references-003> ;
-                                      <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
-                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> .
+                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                      <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en .
 
 
 <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                     <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#relationT-001> ;
-                                    rdfs:label "Relation"@en ;
                                     <http://purl.org/dc/terms/description> "Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system. "@en ;
+                                    rdfs:label "Relation"@en ;
                                     rdfs:comment "A related resource."@en ;
                                     <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date .
 
@@ -15258,8 +15273,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     rdfs:label "Requires"@en ;
                                     rdfs:comment "A related resource that is required by the described resource to support its function, delivery, or coherence."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                    <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
-                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                    <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en .
 
 
 <http://purl.org/dc/terms/rights> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -15285,12 +15300,12 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#sourceT-001> ;
-                                  rdfs:comment "A related resource from which the described resource is derived."@en ;
-                                  <http://purl.org/dc/terms/description> "The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system."@en .
+                                  <http://purl.org/dc/terms/description> "The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system."@en ;
+                                  rdfs:comment "A related resource from which the described resource is derived."@en .
 
 
-<http://purl.org/dc/terms/spatial> rdfs:label "Spatial Coverage"@en ;
-                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+<http://purl.org/dc/terms/spatial> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                   rdfs:label "Spatial Coverage"@en ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    rdfs:comment "Spatial characteristics of the resource."@en ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -15307,8 +15322,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
-<http://purl.org/dc/terms/tableOfContents> rdfs:comment "A list of subunits of the resource."@en ;
-                                           <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+<http://purl.org/dc/terms/tableOfContents> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                           rdfs:comment "A list of subunits of the resource."@en ;
                                            rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                            rdfs:label "Table Of Contents"@en ;
                                            <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -15344,8 +15359,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                  <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                  rdfs:label "Date Valid"@en ;
-                                 <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#valid-003> ;
-                                 rdfs:isDefinedBy <http://purl.org/dc/terms/> .
+                                 rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                 <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#valid-003> .
 
 
 ###  Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi
