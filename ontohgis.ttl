@@ -10121,14 +10121,6 @@ c. having a distingushed juridical status."""@en ,
 4. obszar wyodrębniony:
 a. funkcjonalnie (ma funkcje, której żadna część nie ma, ani nie jest częścią czegoś co ma) lub 
 b. morfologicznie (ma wyraźne granice) lub 
-c. prawnie."""@pl ,
-                                    """Miejscowość jest to
-1. obszar zabudowany i
-2. obszar zamieszkany i
-3. obszar posiadający nazwę własną i
-4. obszar wyodrębniony:
-a. funkcjonalnie (ma funkcje, której żadna część nie ma, ani nie jest częścią czegoś co ma) lub 
-b. morfologicznie (ma wyraźne granice) lub 
 c. prawnie."""@pl ;
                    rdfs:label "dwelling"@en ,
                               "miejscowość"@pl ;
@@ -12168,8 +12160,7 @@ ontohgis:settlement_unit20 rdf:type owl:Class ;
                            rdfs:comment "Colony is usually a part of another locality, more rarely, although these are not exceptional cases, it can have the status of a separate locality, usually a village. Both in the case where the colony is a separate locality or it is apart of another one, it is always located near the village (village or - sometimes - small town) from which its name is derived. On topographic maps, a colony is distinguished mainly by the explanatory abbreviation (pol.: kol.), by its own name, and morphologically."@en ,
                                         "Kolonia jest przeważnie częścią miejscowości, rzadziej, choć nie są to wyjątkowe przypadki, ma obecnie status odrębnej miejscowości, z reguły wsi. Zarówno w przypadku, gdy kolonia jest odrębną miejscowością jak i częścią miejscowości, zawsze znajduje się w pobliżu miejscowości (wsi a wyjątkowo małego miasta) od której pochodzi jej nazwa. W ujęciu kartograficznym wyodrębniona przede wszystkim przez skrót kategorii (kol.), nazwę własną, oraz morfologicznie."@pl ;
                            rdfs:isDefinedBy "Colony (pol. kolonia) is a built-up area located away from previously existing buildings (locality) to which it is related. It is created on newly developed land allocated as a result of enfranchisement, parceling, consolidation, or internal migration."@en ,
-                                            "Kolonia jest to obszar zabudowany oddalony od wcześniej istniejącej zabudowy, od której jest zależna, powstały na nowo zagospodarowanych gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji lub migracji wewnętrznej."@pl ,
-                                            "t. 2,  s. 240: zabudowa, osiedle, domy znajdujące się z dala od miasta, wsi, osady; kolonia mieszkaniowa na przedmieściach, kolonia położona daleko za wsią, gospodarstwo rolne położone za wsią, posiadłość ziemska z dala od innych."@pl ;
+                                            "Kolonia jest to obszar zabudowany oddalony od wcześniej istniejącej zabudowy, od której jest zależna, powstały na nowo zagospodarowanych gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji lub migracji wewnętrznej."@pl ;
                            rdfs:label "colony"@en ,
                                       "kolonia"@pl ;
                            rdfs:seeAlso <http://gov.genealogy.net/types.owl#121> ,
@@ -12178,6 +12169,7 @@ ontohgis:settlement_unit20 rdf:type owl:Class ;
                                         "Jednostka osadnicza powstała jako rezultat ekspansji miejscowości poza obszar wcześniej istniejącej zabudowy, w szczególności kolonia miasta, kolonia wsi."@pl ,
                                         "t. 1, s. 900: Osiedla mieszkaniowe położone z dala od centrum miasta, osady: niewielka posiadłość ziemska , nowa osada lub gospodarstwo rolne na gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji, migracji wewnętrznej itp."@pl ,
                                         "t. 1-2, s. 1566: część miejscowości, zwykle  z dale od jej centrum, składająca się z nowobudowanych domostw, will, itp."@pl ,
+                                        "t. 2,  s. 240: zabudowa, osiedle, domy znajdujące się z dala od miasta, wsi, osady; kolonia mieszkaniowa na przedmieściach, kolonia położona daleko za wsią, gospodarstwo rolne położone za wsią, posiadłość ziemska z dala od innych."@pl ,
                                         "t. 2, s. 404: mała posiadłość ziemska należąca do przybysza z obcego kraju; osada włościańska po uwłaszczeniu włościan; osada, miejsce, gdzie koloniści osadnicy mieszkają, budy, szopy, majdan."@pl ,
                                         "t. 5, s. 720: kolonia rolna -- gospodarstwo rolne powstałe w oddaleniu od wsi na gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji, itp.; także kilka lub kilkanaście zagród w rozproszeniu -- osada na ziemiach nowo zagospodarowanych"@pl ,
                                         "„W ten sposób termin 'osada' może tutaj oznaczać nie tylko małe osiedla, złożone z jednego lub kilku wyodrębnionych terytorialnie gospodarstw włościańskich, jak to miało miejsce na innych ziemiach polskich, lecz i większe, o charakterze kolonii, t. j. osiedli rozrzuconych na większej przestrzeni, a powstałych zazwyczaj na gruntach rozparcelowanych przez władze zaborcze”"@pl ;
@@ -12199,13 +12191,6 @@ ontohgis:settlement_unit20 rdf:type owl:Class ;
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_unit20 ;
-   owl:annotatedProperty rdfs:isDefinedBy ;
-   owl:annotatedTarget "t. 2,  s. 240: zabudowa, osiedle, domy znajdujące się z dala od miasta, wsi, osady; kolonia mieszkaniowa na przedmieściach, kolonia położona daleko za wsią, gospodarstwo rolne położone za wsią, posiadłość ziemska z dala od innych."@pl ;
-   rdfs:comment ontohgis:document_20
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit20 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Jednostka osadnicza powstała jako rezultat ekspansji miejscowości poza obszar wcześniej istniejącej zabudowy, w szczególności kolonia miasta, kolonia wsi."@pl ;
    rdfs:isDefinedBy ontohgis:document_9
@@ -12223,6 +12208,13 @@ ontohgis:settlement_unit20 rdf:type owl:Class ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 1-2, s. 1566: część miejscowości, zwykle  z dale od jej centrum, składająca się z nowobudowanych domostw, will, itp."@pl ;
    rdfs:isDefinedBy ontohgis:document_18
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_unit20 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 2,  s. 240: zabudowa, osiedle, domy znajdujące się z dala od miasta, wsi, osady; kolonia mieszkaniowa na przedmieściach, kolonia położona daleko za wsią, gospodarstwo rolne położone za wsią, posiadłość ziemska z dala od innych."@pl ;
+   rdfs:comment ontohgis:document_20
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -19790,8 +19782,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/Box> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                rdfs:comment "The set of regions in space defined by their geographic coordinates according to the DCMI Box Encoding Scheme."@en ;
                                rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                               <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                rdfs:seeAlso <http://dublincore.org/documents/dcmi-box/> ;
+                               <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                rdfs:label "DCMI Box"@en ;
                                <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Box-003> .
 
@@ -19816,14 +19808,14 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/ISO639-3> rdfs:label "ISO 639-3"@en ;
                                     rdfs:comment "The set of three-letter codes listed in ISO 639-3 for the representation of names of languages."@en ;
-                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO639-3-001> ;
-                                    <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                    <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
+                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO639-3-001> ;
                                     rdfs:seeAlso <http://www.sil.org/iso639-3/> .
 
 
-<http://purl.org/dc/terms/Period> rdfs:comment "The set of time intervals defined by their limits according to the DCMI Period Encoding Scheme."@en ;
-                                  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+<http://purl.org/dc/terms/Period> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+                                  rdfs:comment "The set of time intervals defined by their limits according to the DCMI Period Encoding Scheme."@en ;
                                   rdfs:seeAlso <http://dublincore.org/documents/dcmi-period/> ;
                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                   rdfs:label "DCMI Period"@en ;
@@ -19864,8 +19856,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#RFC4646-001> ;
                                    rdfs:seeAlso <http://www.ietf.org/rfc/rfc4646.txt> ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                   rdfs:label "RFC 4646"@en ;
-                                   rdfs:comment "The set of tags constructed according to RFC 4646 for the identification of languages."@en .
+                                   rdfs:comment "The set of tags constructed according to RFC 4646 for the identification of languages."@en ;
+                                   rdfs:label "RFC 4646"@en .
 
 
 <http://purl.org/dc/terms/RFC5646> <http://purl.org/dc/terms/issued> "2010-10-11"^^xsd:date ;
@@ -19941,8 +19933,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/created> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    rdfs:comment "Date of creation of the resource."@en ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#created-003> ;
-                                   rdfs:label "Date Created"@en ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+                                   rdfs:label "Date Created"@en ;
                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
 
 
@@ -19959,8 +19951,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                 <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#dateT-001> ;
                                 rdfs:comment "A point or period of time associated with an event in the lifecycle of the resource."@en ;
                                 <http://purl.org/dc/terms/description> "Date may be used to express temporal information at any level of granularity.  Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF]."@en ;
-                                rdfs:label "Date"@en ;
                                 <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
+                                rdfs:label "Date"@en ;
                                 <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date .
 
 
@@ -19968,8 +19960,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#dateAccepted-002> ;
                                         <http://purl.org/dc/terms/issued> "2002-07-13"^^xsd:date ;
                                         <http://purl.org/dc/terms/description> "Examples of resources to which a Date Accepted may be relevant are a thesis (accepted by a university department) or an article (accepted by a journal)."@en ;
-                                        rdfs:label "Date Accepted"@en ;
                                         rdfs:comment "Date of acceptance of the resource."@en ;
+                                        rdfs:label "Date Accepted"@en ;
                                         rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
@@ -19994,8 +19986,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                        rdfs:label "Description"@en ;
                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                        rdfs:comment "An account of the resource."@en ;
-                                       <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                        <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#descriptionT-001> ;
+                                       <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                        <http://purl.org/dc/terms/description> "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource."@en .
 
 
@@ -20040,15 +20032,15 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                       rdfs:comment "A related resource that is substantially the same as the described resource, but in another format."@en ;
                                       <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                       <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
-                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                      rdfs:label "Is Format Of"@en .
+                                      rdfs:label "Is Format Of"@en ;
+                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
 <http://purl.org/dc/terms/isPartOf> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                     rdfs:label "Is Part Of"@en ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isPartOf-003> ;
-                                    <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                    <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     rdfs:comment "A related resource in which the described resource is physically or logically included."@en .
 
@@ -20056,8 +20048,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/isReferencedBy> rdfs:label "Is Referenced By"@en ;
                                           rdfs:comment "A related resource that references, cites, or otherwise points to the described resource."@en ;
                                           <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                          rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                           <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
+                                          rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                           <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                           <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isReferencedBy-003> .
 
@@ -20071,8 +20063,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isReplacedBy-003> .
 
 
-<http://purl.org/dc/terms/isRequiredBy> <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
-                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/isRequiredBy> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                        <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                         <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                         rdfs:label "Is Required By"@en ;
                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isRequiredBy-003> ;
@@ -20119,8 +20111,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#relationT-001> ;
-                                    <http://purl.org/dc/terms/description> "Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system. "@en ;
                                     rdfs:label "Relation"@en ;
+                                    <http://purl.org/dc/terms/description> "Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system. "@en ;
                                     rdfs:comment "A related resource."@en ;
                                     <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date .
 
@@ -20139,8 +20131,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     rdfs:label "Requires"@en ;
                                     rdfs:comment "A related resource that is required by the described resource to support its function, delivery, or coherence."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                    <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
-                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                    <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en .
 
 
 <http://purl.org/dc/terms/source> rdfs:label "Source"@en ;
@@ -20153,8 +20145,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   rdfs:comment "A related resource from which the described resource is derived."@en .
 
 
-<http://purl.org/dc/terms/tableOfContents> rdfs:comment "A list of subunits of the resource."@en ;
-                                           <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+<http://purl.org/dc/terms/tableOfContents> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                           rdfs:comment "A list of subunits of the resource."@en ;
                                            rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                            rdfs:label "Table Of Contents"@en ;
                                            <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -20173,8 +20165,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                  <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                  rdfs:label "Date Valid"@en ;
-                                 <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#valid-003> ;
-                                 rdfs:isDefinedBy <http://purl.org/dc/terms/> .
+                                 rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                 <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#valid-003> .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
