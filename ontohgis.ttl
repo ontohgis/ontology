@@ -9686,6 +9686,7 @@ ontohgis:object_200 rdf:type owl:Class ;
                                           owl:someValuesFrom ontohgis:object_20
                                         ] ;
                     rdfs:subClassOf oc:VariableEntityManifestation ,
+                                    <http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object> ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty ontohgis:hasBoundary ;
                                       owl:someValuesFrom ontohgis:settlement_unit2000
@@ -9795,7 +9796,7 @@ ontohgis:object_23 rdf:type owl:Class ;
 ###  http://purl.org/ontohgis#object_30
 ontohgis:object_30 rdf:type owl:Class ;
                    rdfs:subClassOf oc:VariableEntity ,
-                                   <http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature> ,
+                                   <http://www.cidoc-crm.org/cidoc-crm/E22_Man-Made_Object> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty oc:hasManifestation ;
                                      owl:someValuesFrom ontohgis:object_32
@@ -9818,66 +9819,6 @@ ontohgis:object_30 rdf:type owl:Class ;
 ###  http://purl.org/ontohgis#object_3012
 ontohgis:object_3012 rdf:type owl:Class ;
                      rdfs:subClassOf ontohgis:object_20 ;
-                     owl:disjointUnionOf ( ontohgis:administrative_type_143
-                                           ontohgis:administrative_type_144
-                                           ontohgis:administrative_type_145
-                                           ontohgis:administrative_type_146
-                                           ontohgis:administrative_type_147
-                                           ontohgis:administrative_type_148
-                                           ontohgis:administrative_type_149
-                                           ontohgis:administrative_type_157
-                                           ontohgis:administrative_type_158
-                                           ontohgis:administrative_type_159
-                                           ontohgis:administrative_type_160
-                                           ontohgis:administrative_type_161
-                                           ontohgis:administrative_type_162
-                                           ontohgis:administrative_type_169
-                                           ontohgis:administrative_type_170
-                                           ontohgis:administrative_type_171
-                                           ontohgis:administrative_type_172
-                                           ontohgis:administrative_type_173
-                                           ontohgis:administrative_type_177
-                                           ontohgis:administrative_type_178
-                                           ontohgis:administrative_type_179
-                                           ontohgis:administrative_type_180
-                                           ontohgis:administrative_type_181
-                                           ontohgis:administrative_type_182
-                                           ontohgis:administrative_type_183
-                                           ontohgis:administrative_type_184
-                                           ontohgis:administrative_type_185
-                                           ontohgis:administrative_type_186
-                                           ontohgis:administrative_type_187
-                                           ontohgis:administrative_type_188
-                                           ontohgis:administrative_type_189
-                                           ontohgis:administrative_type_190
-                                           ontohgis:administrative_type_194
-                                           ontohgis:administrative_type_195
-                                           ontohgis:administrative_type_196
-                                           ontohgis:administrative_type_197
-                                           ontohgis:administrative_type_198
-                                           ontohgis:administrative_type_199
-                                           ontohgis:administrative_type_200
-                                           ontohgis:administrative_type_201
-                                           ontohgis:administrative_type_202
-                                           ontohgis:administrative_type_203
-                                           ontohgis:administrative_type_204
-                                           ontohgis:administrative_type_205
-                                           ontohgis:administrative_type_206
-                                           ontohgis:administrative_type_207
-                                           ontohgis:administrative_type_208
-                                           ontohgis:administrative_type_209
-                                           ontohgis:administrative_type_210
-                                           ontohgis:administrative_type_211
-                                           ontohgis:administrative_type_212
-                                           ontohgis:administrative_type_213
-                                           ontohgis:administrative_type_214
-                                           ontohgis:administrative_type_215
-                                           ontohgis:administrative_type_216
-                                           ontohgis:administrative_type_217
-                                           ontohgis:administrative_type_218
-                                           ontohgis:administrative_type_219
-                                           ontohgis:administrative_type_221
-                                         ) ;
                      rdfs:label "obszar administracji religijnej"@pl ,
                                 "religious administrative region"@en .
 
@@ -9889,159 +9830,6 @@ ontohgis:object_3014 rdf:type owl:Class ;
                                        owl:onProperty ontohgis:hasFunction ;
                                        owl:hasValue ontohgis:object_406
                                      ] ;
-                     owl:disjointUnionOf ( ontohgis:administrative_type_10
-                                           ontohgis:administrative_type_100
-                                           ontohgis:administrative_type_101
-                                           ontohgis:administrative_type_102
-                                           ontohgis:administrative_type_103
-                                           ontohgis:administrative_type_104
-                                           ontohgis:administrative_type_105
-                                           ontohgis:administrative_type_106
-                                           ontohgis:administrative_type_107
-                                           ontohgis:administrative_type_108
-                                           ontohgis:administrative_type_109
-                                           ontohgis:administrative_type_11
-                                           ontohgis:administrative_type_110
-                                           ontohgis:administrative_type_111
-                                           ontohgis:administrative_type_112
-                                           ontohgis:administrative_type_113
-                                           ontohgis:administrative_type_114
-                                           ontohgis:administrative_type_115
-                                           ontohgis:administrative_type_118
-                                           ontohgis:administrative_type_119
-                                           ontohgis:administrative_type_12
-                                           ontohgis:administrative_type_120
-                                           ontohgis:administrative_type_121
-                                           ontohgis:administrative_type_122
-                                           ontohgis:administrative_type_123
-                                           ontohgis:administrative_type_124
-                                           ontohgis:administrative_type_125
-                                           ontohgis:administrative_type_126
-                                           ontohgis:administrative_type_127
-                                           ontohgis:administrative_type_128
-                                           ontohgis:administrative_type_129
-                                           ontohgis:administrative_type_130
-                                           ontohgis:administrative_type_131
-                                           ontohgis:administrative_type_132
-                                           ontohgis:administrative_type_133
-                                           ontohgis:administrative_type_134
-                                           ontohgis:administrative_type_135
-                                           ontohgis:administrative_type_136
-                                           ontohgis:administrative_type_139
-                                           ontohgis:administrative_type_142
-                                           ontohgis:administrative_type_143
-                                           ontohgis:administrative_type_149
-                                           ontohgis:administrative_type_162
-                                           ontohgis:administrative_type_220
-                                           ontohgis:administrative_type_222
-                                           ontohgis:administrative_type_223
-                                           ontohgis:administrative_type_224
-                                           ontohgis:administrative_type_225
-                                           ontohgis:administrative_type_226
-                                           ontohgis:administrative_type_227
-                                           ontohgis:administrative_type_228
-                                           ontohgis:administrative_type_229
-                                           ontohgis:administrative_type_230
-                                           ontohgis:administrative_type_231
-                                           ontohgis:administrative_type_232
-                                           ontohgis:administrative_type_233
-                                           ontohgis:administrative_type_238
-                                           ontohgis:administrative_type_239
-                                           ontohgis:administrative_type_24
-                                           ontohgis:administrative_type_240
-                                           ontohgis:administrative_type_241
-                                           ontohgis:administrative_type_242
-                                           ontohgis:administrative_type_243
-                                           ontohgis:administrative_type_244
-                                           ontohgis:administrative_type_245
-                                           ontohgis:administrative_type_246
-                                           ontohgis:administrative_type_249
-                                           ontohgis:administrative_type_25
-                                           ontohgis:administrative_type_250
-                                           ontohgis:administrative_type_253
-                                           ontohgis:administrative_type_254
-                                           ontohgis:administrative_type_255
-                                           ontohgis:administrative_type_256
-                                           ontohgis:administrative_type_257
-                                           ontohgis:administrative_type_26
-                                           ontohgis:administrative_type_261
-                                           ontohgis:administrative_type_264
-                                           ontohgis:administrative_type_265
-                                           ontohgis:administrative_type_266
-                                           ontohgis:administrative_type_267
-                                           ontohgis:administrative_type_268
-                                           ontohgis:administrative_type_269
-                                           ontohgis:administrative_type_270
-                                           ontohgis:administrative_type_271
-                                           ontohgis:administrative_type_272
-                                           ontohgis:administrative_type_273
-                                           ontohgis:administrative_type_274
-                                           ontohgis:administrative_type_275
-                                           ontohgis:administrative_type_276
-                                           ontohgis:administrative_type_277
-                                           ontohgis:administrative_type_278
-                                           ontohgis:administrative_type_279
-                                           ontohgis:administrative_type_283
-                                           ontohgis:administrative_type_284
-                                           ontohgis:administrative_type_287
-                                           ontohgis:administrative_type_288
-                                           ontohgis:administrative_type_289
-                                           ontohgis:administrative_type_29
-                                           ontohgis:administrative_type_30
-                                           ontohgis:administrative_type_31
-                                           ontohgis:administrative_type_32
-                                           ontohgis:administrative_type_33
-                                           ontohgis:administrative_type_37
-                                           ontohgis:administrative_type_38
-                                           ontohgis:administrative_type_39
-                                           ontohgis:administrative_type_42
-                                           ontohgis:administrative_type_43
-                                           ontohgis:administrative_type_44
-                                           ontohgis:administrative_type_45
-                                           ontohgis:administrative_type_46
-                                           ontohgis:administrative_type_47
-                                           ontohgis:administrative_type_48
-                                           ontohgis:administrative_type_49
-                                           ontohgis:administrative_type_50
-                                           ontohgis:administrative_type_51
-                                           ontohgis:administrative_type_52
-                                           ontohgis:administrative_type_56
-                                           ontohgis:administrative_type_57
-                                           ontohgis:administrative_type_58
-                                           ontohgis:administrative_type_59
-                                           ontohgis:administrative_type_63
-                                           ontohgis:administrative_type_64
-                                           ontohgis:administrative_type_65
-                                           ontohgis:administrative_type_68
-                                           ontohgis:administrative_type_69
-                                           ontohgis:administrative_type_70
-                                           ontohgis:administrative_type_71
-                                           ontohgis:administrative_type_72
-                                           ontohgis:administrative_type_73
-                                           ontohgis:administrative_type_74
-                                           ontohgis:administrative_type_77
-                                           ontohgis:administrative_type_78
-                                           ontohgis:administrative_type_79
-                                           ontohgis:administrative_type_80
-                                           ontohgis:administrative_type_81
-                                           ontohgis:administrative_type_82
-                                           ontohgis:administrative_type_83
-                                           ontohgis:administrative_type_84
-                                           ontohgis:administrative_type_85
-                                           ontohgis:administrative_type_86
-                                           ontohgis:administrative_type_87
-                                           ontohgis:administrative_type_88
-                                           ontohgis:administrative_type_89
-                                           ontohgis:administrative_type_9
-                                           ontohgis:administrative_type_92
-                                           ontohgis:administrative_type_93
-                                           ontohgis:administrative_type_94
-                                           ontohgis:administrative_type_95
-                                           ontohgis:administrative_type_96
-                                           ontohgis:administrative_type_97
-                                           ontohgis:administrative_type_98
-                                           ontohgis:administrative_type_99
-                                         ) ;
                      rdfs:label "obszar administracji świeckiej"@pl ,
                                 "secular administrative region"@en .
 
@@ -10135,6 +9923,7 @@ ontohgis:object_40 rdf:type owl:Class ;
                                          owl:onClass ontohgis:object_30
                                        ] ;
                    rdfs:subClassOf oc:VariableEntityManifestation ,
+                                   <http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty ontohgis:isDefinedBy ;
                                      owl:someValuesFrom ontohgis:object_31
@@ -19783,15 +19572,15 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                rdfs:comment "The set of regions in space defined by their geographic coordinates according to the DCMI Box Encoding Scheme."@en ;
                                rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                rdfs:seeAlso <http://dublincore.org/documents/dcmi-box/> ;
-                               <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                rdfs:label "DCMI Box"@en ;
+                               <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Box-003> .
 
 
 <http://purl.org/dc/terms/ISO3166> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                    rdfs:comment "The set of codes listed in ISO 3166-1 for the representation of names of countries."@en ;
-                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO3166-004> ;
+                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                    rdfs:label "ISO 3166"@en ;
                                    rdfs:seeAlso <http://www.iso.org/iso/en/prods-services/iso3166ma/02iso-3166-code-lists/list-en1.html> .
@@ -19799,24 +19588,24 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/ISO639-2> rdfs:seeAlso <http://lcweb.loc.gov/standards/iso639-2/langhome.html> ;
                                     <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                    rdfs:comment "The three-letter alphabetic codes listed in ISO639-2 for the representation of names of languages."@en ;
                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                    rdfs:comment "The three-letter alphabetic codes listed in ISO639-2 for the representation of names of languages."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     rdfs:label "ISO 639-2"@en ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO639-2-003> .
 
 
-<http://purl.org/dc/terms/ISO639-3> rdfs:label "ISO 639-3"@en ;
-                                    rdfs:comment "The set of three-letter codes listed in ISO 639-3 for the representation of names of languages."@en ;
+<http://purl.org/dc/terms/ISO639-3> rdfs:comment "The set of three-letter codes listed in ISO 639-3 for the representation of names of languages."@en ;
+                                    rdfs:label "ISO 639-3"@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO639-3-001> ;
                                     rdfs:seeAlso <http://www.sil.org/iso639-3/> .
 
 
-<http://purl.org/dc/terms/Period> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                  rdfs:comment "The set of time intervals defined by their limits according to the DCMI Period Encoding Scheme."@en ;
+<http://purl.org/dc/terms/Period> rdfs:comment "The set of time intervals defined by their limits according to the DCMI Period Encoding Scheme."@en ;
                                   rdfs:seeAlso <http://dublincore.org/documents/dcmi-period/> ;
+                                  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                   rdfs:label "DCMI Period"@en ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -19835,9 +19624,9 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/RFC1766> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                   rdfs:comment "The set of tags, constructed according to RFC 1766, for the identification of languages."@en ;
-                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#RFC1766-003> ;
                                    rdfs:seeAlso <http://www.ietf.org/rfc/rfc1766.txt> ;
+                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#RFC1766-003> ;
+                                   rdfs:comment "The set of tags, constructed according to RFC 1766, for the identification of languages."@en ;
                                    rdfs:label "RFC 1766"@en .
 
 
@@ -19846,8 +19635,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    <http://purl.org/dc/terms/description> "RFC 3066 has been obsoleted by RFC 4646."@en ;
                                    rdfs:comment "The set of tags constructed according to RFC 3066 for the identification of languages."@en ;
-                                   rdfs:seeAlso <http://www.ietf.org/rfc/rfc3066.txt> ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+                                   rdfs:seeAlso <http://www.ietf.org/rfc/rfc3066.txt> ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#RFC3066-002> .
 
 
@@ -19869,8 +19658,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
-<http://purl.org/dc/terms/URI> rdfs:comment "The set of identifiers constructed according to the generic syntax for Uniform Resource Identifiers as specified by the Internet Engineering Task Force."@en ;
-                               rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/URI> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                               rdfs:comment "The set of identifiers constructed according to the generic syntax for Uniform Resource Identifiers as specified by the Internet Engineering Task Force."@en ;
                                <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                rdfs:seeAlso <http://www.ietf.org/rfc/rfc3986.txt> ;
                                <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#URI-003> ;
@@ -19880,8 +19669,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/W3CDTF> rdfs:label "W3C-DTF"@en ;
                                   rdfs:comment "The set of dates and times constructed according to the W3C Date and Time Formats Specification."@en ;
-                                  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#W3CDTF-003> ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#W3CDTF-003> ;
                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   rdfs:seeAlso <http://www.w3.org/TR/NOTE-datetime> .
@@ -19921,8 +19710,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                                  <http://purl.org/dc/terms/issued> "2003-02-15"^^xsd:date .
 
 
-<http://purl.org/dc/terms/contributor> <http://purl.org/dc/terms/modified> "2010-10-11"^^xsd:date ;
-                                       rdfs:comment "An entity responsible for making contributions to the resource."@en ;
+<http://purl.org/dc/terms/contributor> rdfs:comment "An entity responsible for making contributions to the resource."@en ;
+                                       <http://purl.org/dc/terms/modified> "2010-10-11"^^xsd:date ;
                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                        <http://purl.org/dc/terms/description> "Examples of a Contributor include a person, an organization, or a service."@en ;
                                        <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
@@ -19948,11 +19737,11 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/date> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#dateT-001> ;
                                 rdfs:comment "A point or period of time associated with an event in the lifecycle of the resource."@en ;
+                                <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#dateT-001> ;
                                 <http://purl.org/dc/terms/description> "Date may be used to express temporal information at any level of granularity.  Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF]."@en ;
-                                <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                 rdfs:label "Date"@en ;
+                                <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                 <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date .
 
 
@@ -19985,9 +19774,9 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/description> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                        rdfs:label "Description"@en ;
                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                       <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                        rdfs:comment "An account of the resource."@en ;
                                        <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#descriptionT-001> ;
-                                       <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                        <http://purl.org/dc/terms/description> "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource."@en .
 
 
@@ -20039,8 +19828,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/isPartOf> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                     rdfs:label "Is Part Of"@en ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isPartOf-003> ;
-                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                     <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     rdfs:comment "A related resource in which the described resource is physically or logically included."@en .
 
@@ -20063,8 +19852,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isReplacedBy-003> .
 
 
-<http://purl.org/dc/terms/isRequiredBy> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                        <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
+<http://purl.org/dc/terms/isRequiredBy> <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
+                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                         <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                         rdfs:label "Is Required By"@en ;
                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isRequiredBy-003> ;
@@ -20073,8 +19862,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/isVersionOf> rdfs:label "Is Version Of"@en ;
-                                       rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                        rdfs:comment "A related resource of which the described resource is a version, edition, or adaptation."@en ;
+                                       rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                        <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                        <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                        <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isVersionOf-003> ;
@@ -20084,8 +19873,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/issued> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   rdfs:comment "Date of formal issuance (e.g., publication) of the resource."@en ;
-                                  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#issued-003> ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                  <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#issued-003> ;
                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                   rdfs:label "Date Issued"@en .
 
@@ -20103,16 +19892,16 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                       <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                       <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                       <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#references-003> ;
-                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                      <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en .
+                                      <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
+                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
 <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                     <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#relationT-001> ;
-                                    rdfs:label "Relation"@en ;
                                     <http://purl.org/dc/terms/description> "Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system. "@en ;
+                                    rdfs:label "Relation"@en ;
                                     rdfs:comment "A related resource."@en ;
                                     <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date .
 
@@ -20141,12 +19930,12 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#sourceT-001> ;
-                                  <http://purl.org/dc/terms/description> "The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system."@en ;
-                                  rdfs:comment "A related resource from which the described resource is derived."@en .
+                                  rdfs:comment "A related resource from which the described resource is derived."@en ;
+                                  <http://purl.org/dc/terms/description> "The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system."@en .
 
 
-<http://purl.org/dc/terms/tableOfContents> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
-                                           rdfs:comment "A list of subunits of the resource."@en ;
+<http://purl.org/dc/terms/tableOfContents> rdfs:comment "A list of subunits of the resource."@en ;
+                                           <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                            rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                            rdfs:label "Table Of Contents"@en ;
                                            <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -20165,8 +19954,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                  <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                  rdfs:label "Date Valid"@en ;
-                                 rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                 <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#valid-003> .
+                                 <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#valid-003> ;
+                                 rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
