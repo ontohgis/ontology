@@ -9665,8 +9665,8 @@ ontohgis:object_12 rdf:type owl:Class ;
 ###  http://purl.org/ontohgis#object_20
 ontohgis:object_20 rdf:type owl:Class ;
                    rdfs:subClassOf oc:VariableEntity ,
-                                   <http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature> ,
-                                   <http://www.opengis.net/ont/geosparql#Feature> ,
+                                   <http://www.cidoc-crm.org/cidoc-crm/E71_Man-Made_Thing> ,
+                                   <http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object> ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty <http://www.opengis.net/ont/geosparql#hasGeometry> ;
                                      owl:someValuesFrom owl:Thing
@@ -9770,7 +9770,8 @@ ontohgis:object_206 rdf:type owl:Class ;
 ###  http://purl.org/ontohgis#object_21
 ontohgis:object_21 rdf:type owl:Class ;
                    rdfs:subClassOf oc:VariableEntity ,
-                                   <http://www.cidoc-crm.org/cidoc-crm/E25_Man-Made_Feature> ;
+                                   <http://www.cidoc-crm.org/cidoc-crm/E71_Man-Made_Thing> ,
+                                   <http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object> ;
                    rdfs:label "administrative system"@en ,
                               "system administracji"@pl .
 
