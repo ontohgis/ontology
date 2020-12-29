@@ -14335,6 +14335,7 @@ The interpretation of the museum notion of \"accession\" differs between institu
                                                              rdfs:label "Changement de détenteur"@fr ,
                                                                         "Transfer of Custody"@en ,
                                                                         "Transferência de Custódia"@pt ,
+                                                                        "Zmiana właściciela"@pl ,
                                                                         "Übertragung des Gewahrsams"@de ,
                                                                         "Μεταβίβαση  Κατοχής"@el ,
                                                                         "Передача Опеки"@ru ,
@@ -14353,6 +14354,7 @@ If the instance of the E29 Design or Procedure utilized for the modification pre
                                                                  "Modification"@en ,
                                                                  "Modification"@fr ,
                                                                  "Modificação"@pt ,
+                                                                 "Modyfikacja"@pl ,
                                                                  "Τροποποίηση"@el ,
                                                                  "Событие Изменения"@ru ,
                                                                  "修改"@zh .
@@ -14370,6 +14372,7 @@ An event should also be documented using E81 Transformation if it results in the
                                                     rdfs:label "Herstellung"@de ,
                                                                "Production"@en ,
                                                                "Production"@fr ,
+                                                               "Produkcja"@pl ,
                                                                "Produção"@pt ,
                                                                "Παραγωγή"@el ,
                                                                "Событие Производства"@ru ,
@@ -14387,6 +14390,7 @@ In particular, the class describes the actions of people making propositions and
                                                                          "Atribuição de Característica"@pt ,
                                                                          "Attribute Assignment"@en ,
                                                                          "Merkmalszuweisung"@de ,
+                                                                         "Przypisanie atrybutu"@pl ,
                                                                          "Απόδοση Ιδιοτήτων"@el ,
                                                                          "Присвоение Атрибута"@ru ,
                                                                          "屬性指定"@zh .
@@ -14401,6 +14405,7 @@ The condition assessment may be carried out by inspection, measurement or throug
                                                               rdfs:label "Avaliação do Estado Material"@pt ,
                                                                          "Condition Assessment"@en ,
                                                                          "Expertise de l'état matériel"@fr ,
+                                                                         "Ocena stanu"@pl ,
                                                                          "Zustandsfeststellung"@de ,
                                                                          "Εκτίμηση Κατάστασης"@el ,
                                                                          "Оценка Состояния"@ru ,
@@ -14418,6 +14423,7 @@ The fact that an identifier is a preferred one for an organisation can be expres
                                                                           "Attribution d’identificateur"@fr ,
                                                                           "Identifier Assignment"@en ,
                                                                           "Kennzeichenzuweisung"@de ,
+                                                                          "Przypisanie identyfikatora"@pl ,
                                                                           "Απόδοση Αναγνωριστικού"@el ,
                                                                           "Назначение Идентификатора"@ru ,
                                                                           "标识符指定"@zh .
@@ -14434,6 +14440,7 @@ The E16 Measurement may use simple counting or tools, such as yardsticks or radi
                                                                 "Medição"@pt ,
                                                                 "Messung"@de ,
                                                                 "Mesurage"@fr ,
+                                                                "Pomiar"@pl ,
                                                                 "Μέτρηση"@el ,
                                                                 "Событие Измерения"@ru ,
                                                                 "测量"@zh .
@@ -14447,6 +14454,7 @@ This class allows for the documentation of the context of classification acts in
 """@en ;
                                                          rdfs:label "Atribuição de Tipo"@pt ,
                                                                     "Attribution de type"@fr ,
+                                                                    "Przypisanie typu"@pl ,
                                                                     "Type Assignment"@en ,
                                                                     "Typuszuweisung"@de ,
                                                                     "Απόδοση Τύπου"@el ,
@@ -14861,6 +14869,7 @@ An instance of this class describes the prevailing physical condition of any mat
 """@en ;
                                                         rdfs:label "Condition State"@en ,
                                                                    "Estado Material"@pt ,
+                                                                   "Stan"@pl ,
                                                                    "Zustandsphase"@de ,
                                                                    "État matériel"@fr ,
                                                                    "Κατάσταση"@el ,
@@ -15034,7 +15043,8 @@ There are two different conceptualisations of 'artistic style', defined either b
 
 Another specific case of an E4 Period is the set of activities and phenomena associated with a settlement, such as the populated period of Nineveh.
 """@en ;
-                                               rdfs:label "Period"@en ,
+                                               rdfs:label "Okres"@pl ,
+                                                          "Period"@en ,
                                                           "Período"@pt ,
                                                           "Phase"@de ,
                                                           "Période"@fr ,
@@ -15201,6 +15211,7 @@ The distinction between an E5 Event and an E4 Period is partly a question of the
                                               rdfs:label "Ereignis"@de ,
                                                          "Event"@en ,
                                                          "Evento"@pt ,
+                                                         "Zdarzenie"@pl ,
                                                          "Événement"@fr ,
                                                          "Συμβάν"@el ,
                                                          "Событие"@ru ,
@@ -15216,6 +15227,7 @@ It may be used for temporal reasoning about things (intellectual products, physi
                                                                            "Daseinsbeginn"@de ,
                                                                            "Début d'existence"@fr ,
                                                                            "Início da Existência"@pt ,
+                                                                           "Początek istnienia"@pl ,
                                                                            "Αρχή Ύπαρξης"@el ,
                                                                            "Начало Существования"@ru ,
                                                                            "存在开始"@zh .
@@ -15231,6 +15243,7 @@ It may be used for temporal reasoning about things (physical items, groups of pe
                                                                      "End of Existence"@en ,
                                                                      "Fim da Existência"@pt ,
                                                                      "Fin d'existence"@fr ,
+                                                                     "Koniec istnienia"@pl ,
                                                                      "Τέλος Ύπαρξης"@el ,
                                                                      "Конец Существования"@ru ,
                                                                      "存在结束"@zh .
@@ -15246,6 +15259,7 @@ It may be used for temporal reasoning about things (physical items, groups of pe
                                                              "Creation"@en ,
                                                              "Criação"@pt ,
                                                              "Création"@fr ,
+                                                             "Wytworzenie"@pl ,
                                                              "Δημιουργία"@el ,
                                                              "Событие Творения"@ru ,
                                                              "创造"@zh .
@@ -15263,6 +15277,7 @@ The formation of an instance of E74 Group does not require that the group is pop
                                                               "Formation"@fr ,
                                                               "Formação"@pt ,
                                                               "Gruppenbildung"@de ,
+                                                              "Tworzenie"@pl ,
                                                               "Συγκρότηση Ομάδας"@el ,
                                                               "Событие Формирования"@ru ,
                                                               "组成"@zh .
@@ -15277,6 +15292,7 @@ Twins, triplets etc. are brought into life by the same E67 Birth event. The intr
                                                rdfs:label "Birth"@en ,
                                                           "Geburt"@de ,
                                                           "Naissance"@fr ,
+                                                          "Narodziny"@pl ,
                                                           "Nascimento"@pt ,
                                                           "Γέννηση"@el ,
                                                           "Рождение"@ru ,
@@ -15293,6 +15309,7 @@ If the dissolution was deliberate, the Dissolution event should also be instanti
                                                                 "Dissolution"@fr ,
                                                                 "Dissolução"@pt ,
                                                                 "Gruppenauflösung"@de ,
+                                                                "Rozwiązanie"@pl ,
                                                                 "Διάλυση Ομάδας"@el ,
                                                                 "Роспуск"@ru ,
                                                                 "解散"@zh .
@@ -15308,6 +15325,7 @@ If a person is killed, their death should be instantiated as E69 Death and as E7
                                                           "Mort"@fr ,
                                                           "Morte"@pt ,
                                                           "Tod"@de ,
+                                                          "Śmierć"@pl ,
                                                           "Θάνατος"@el ,
                                                           "Смерть"@ru ,
                                                           "死亡"@zh .
@@ -15327,6 +15345,7 @@ The decision to document an object as destroyed, transformed or modified is cont
                                                                "Destruction"@fr ,
                                                                "Destruição"@pt ,
                                                                "Zerstörung"@de ,
+                                                               "Zniszczenie"@pl ,
                                                                "Καταστροφή"@el ,
                                                                "Разрушение"@ru ,
                                                                "摧毁"@zh .
@@ -15470,6 +15489,7 @@ Typical scenarios include the attachment of an accessory, the integration of a c
 """@en ;
                                                        rdfs:label "Addition d'élément"@fr ,
                                                                   "Adição de Parte"@pt ,
+                                                                  "Dodanie części"@pl ,
                                                                   "Part Addition"@en ,
                                                                   "Teilhinzufügung"@de ,
                                                                   "Προσθήκη Μερών"@el ,
@@ -15486,6 +15506,7 @@ This notion includes complex, composite and long-lasting actions such as the bui
                                                  rdfs:label "Activity"@en ,
                                                             "Activité"@fr ,
                                                             "Atividade"@pt ,
+                                                            "Działanie"@pl ,
                                                             "Handlung"@de ,
                                                             "Δράση"@el ,
                                                             "Деятельность"@ru ,
@@ -15502,6 +15523,7 @@ Typical scenarios include the detachment of an accessory, the removal of a compo
                                                                  "Remoção de Parte"@pt ,
                                                                  "Soustraction d'élément"@fr ,
                                                                  "Teilentfernung"@de ,
+                                                                 "Usunięcie części"@pl ,
                                                                  "Αφαίρεση Μερών"@el ,
                                                                  "Удаление Части"@ru ,
                                                                  "部件删除"@zh .
@@ -15514,7 +15536,8 @@ Typical scenarios include the detachment of an accessory, the removal of a compo
                                                         rdfs:comment """This class comprises the events that result in the simultaneous destruction of one or more than one E77 Persistent Item and the creation of one or more than one E77 Persistent Item that preserves recognizable substance from the first one(s) but has fundamentally different nature and identity. 
 Although the old and the new instances of E77 Persistent Item are treated as discrete entities having separate, unique identities, they are causally connected through the E81 Transformation; the destruction of the old E77 Persistent Item(s) directly causes the creation of the new one(s) using or preserving some relevant substance. Instances of E81 Transformation are therefore distinct from re-classifications (documented using E17 Type Assignment) or modifications (documented using E11 Modification) of objects that do not fundamentally change their nature or identity. Characteristic cases are reconstructions and repurposing of historical buildings or ruins, fires leaving buildings in ruins, taxidermy of specimen in natural history and the reorganization of a corporate body into a new one.
 """@en ;
-                                                        rdfs:label "Transformation"@en ,
+                                                        rdfs:label "Przemiana"@pl ,
+                                                                   "Transformation"@en ,
                                                                    "Transformation"@fr ,
                                                                    "Transformação"@pt ,
                                                                    "Umwandlung"@de ,
@@ -15549,6 +15572,7 @@ It is typically a rigorous scholarly or scientific process that ensures a type i
                                                                   "Création de type"@fr ,
                                                                   "Type Creation"@en ,
                                                                   "Typuserfindung"@de ,
+                                                                  "Wytworzenie typu"@pl ,
                                                                   "Δημιουργία Τύπου"@el ,
                                                                   "Создание Типа"@ru ,
                                                                   "类型创造"@zh .
@@ -15577,6 +15601,7 @@ An E84 Information Carrier may or may not contain information, e.g., a diskette.
 Typical scenarios include becoming a member of a social organisation, becoming employee of a company, marriage, the adoption of a child by a family and the inauguration of somebody into an official position. 
 """@en ;
                                                  rdfs:label "Beitritt"@de ,
+                                                            "Dołączenie"@pl ,
                                                             "Joining"@en ,
                                                             "加入"@zh .
 
@@ -15588,6 +15613,7 @@ Typical scenarios include becoming a member of a social organisation, becoming e
 Typical scenarios include the termination of membership in a social organisation, ending the employment at a company, divorce, and the end of tenure of somebody in an official position."""@en ;
                                                  rdfs:label "Austritt"@de ,
                                                             "Leaving"@en ,
+                                                            "Opuszczenie"@pl ,
                                                             "脱离"@zh .
 
 
@@ -15600,6 +15626,7 @@ Items are accumulated and organized following criteria like subject, chronologic
 """@en ;
                                                            rdfs:label "Curation Activity"@en ,
                                                                       "Kuratorische Tätigkeit"@de ,
+                                                                      "Ochrona"@pl ,
                                                                       "典藏管理"@zh .
 
 
@@ -15632,6 +15659,7 @@ It may also describe events where a collector appropriates legal title, for exam
                                                                "Acquisition"@fr ,
                                                                "Aquisição"@pt ,
                                                                "Erwerb"@de ,
+                                                               "Nabycie"@pl ,
                                                                "Απόκτηση"@el ,
                                                                "Событие Приобретения"@ru ,
                                                                "征集取得"@zh .
@@ -15670,7 +15698,8 @@ It may also describe events where a collector appropriates legal title, for exam
 	
 This class can be used to define temporal snapshots at a particular time-span, such as the extent of the Roman Empire at 33 B.C., or the extent occupied by a museum object at rest in an exhibit. In particular, it can be used to define the spatial projection of a spacetime volume during a particular time-span,  such as the maximal spatial extent of a flood at some particular hour, or all areas covered by the Poland within the 20th century AD.
 """@en ;
-                                                  rdfs:label "Presence"@en .
+                                                  rdfs:label "Obecność"@pl ,
+                                                             "Presence"@en .
 
 
 ###  http://www.cidoc-crm.org/cidoc-crm/E9_Move
@@ -15683,6 +15712,7 @@ Note, that the class E9 Move inherits the property P7 took place at (witnessed):
                                                         "Locomoção"@pt ,
                                                         "Move"@en ,
                                                         "Objektbewegung"@de ,
+                                                        "Ruch"@pl ,
                                                         "Μετακίνηση"@el ,
                                                         "Перемещение"@ru ,
                                                         "移动"@zh .
@@ -15695,7 +15725,8 @@ Note, that the class E9 Move inherits the property P7 took place at (witnessed):
 
 ###  http://www.opengis.net/ont/geosparql#SpatialObject
 <http://www.opengis.net/ont/geosparql#SpatialObject> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume> .
+                                                     rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume> ;
+                                                     rdfs:label "Obiekt przestrzenny"@pl .
 
 
 ###  http://www.opengis.net/ont/sf#Geometry
