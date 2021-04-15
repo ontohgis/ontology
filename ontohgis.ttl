@@ -10682,6 +10682,7 @@ ontohgis:settlement_unit120 rdf:type owl:Class ;
                             rdfs:seeAlso <http://linkedgeodata.org/ontology/BuildingChurch> ,
                                          <http://plwordnet.pwr.wroc.pl/wordnet/3210a0be-28e9-11eb-8b1d-fb60577b06bc> ,
                                          <https://dbpedia.org/ontology/Church> ,
+                                         <https://www.wikidata.org/wiki/Q16970> ,
                                          "2. «budynek, miejsce modlitwy chrześcijan»"@pl ,
                                          "t. 11, s. 57-68: II. Budowla sakralna; 1. Świątynia chrześcijańska, zwłaszcza katolicka; templum--; aedes, fanum--; ecclesia--; aedes sacra--; sacrum--; domus, sedes sacra--; delubrum, dominicum, domus Dei, martyrium, sacrarium ritus Christiani--. 3. Świątynia mahometańska; meczet--. 4. Świątynia pogańska, delubrum--; aedes, oraculum, templum--; templum idolorum--; idolium--; domus--; aedes sacra, fanum, penetralia, sessimonium deorum--. 6. n-loc [nazwa miejsca] : -- »Czerwony Kościoł«"@pl ,
                                          "t. 3, s. 360-362: 1. Świątynia (nie tylko chrześcijańska), dom boży, templum, aedes sacra--. 2. swoista jednostka prawna związana z określonym kościołem (parafia, diecezja itd.), corpus paroeciae vel dioecesis (ad certam quandam ecclesiam pertinens)."@pl ,
