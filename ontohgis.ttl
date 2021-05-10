@@ -19048,7 +19048,8 @@ ontohgis:document_99 rdf:type owl:NamedIndividual ,
 ontohgis:function1 rdf:type owl:NamedIndividual ,
                             obo:BFO_0000034 ;
                    rdfs:label "agricultural"@en ,
-                              "funkcja rolnicza"@pl .
+                              "funkcja rolnicza"@pl ;
+                   <http://www.w3.org/2004/02/skos/core#note> "dotyczy obiektów służących uprawianiu ziemi i produkcji rolnej, np. osady rolne, gospodarstwa rolne, pola orne"@pl .
 
 
 ###  http://purl.org/ontohgis#function10
@@ -19069,21 +19070,24 @@ ontohgis:function11 rdf:type owl:NamedIndividual ,
 ontohgis:function12 rdf:type owl:NamedIndividual ,
                              obo:BFO_0000034 ;
                     rdfs:label "funkcja sakralna"@pl ,
-                               "sacral function"@en .
+                               "sacral function"@en ;
+                    <http://www.w3.org/2004/02/skos/core#note> "dotyczy obiektów związanych z kultem oraz obiektów z nim ściśle związanych, np. kościoły, cerkwie, plebanie, pastorówki"@pl .
 
 
 ###  http://purl.org/ontohgis#function13
 ontohgis:function13 rdf:type owl:NamedIndividual ,
                              obo:BFO_0000034 ;
                     rdfs:label "catering"@en ,
-                               "funkcja gastronomiczna"@pl .
+                               "funkcja gastronomiczna"@pl ;
+                    <http://www.w3.org/2004/02/skos/core#note> "dotyczy obiektów, które służą pomieszczeniu lokali, w których użytkownicy mogą na miejscu być obsłużeni i otrzymać posiłek, np. restauracje, traktiernie, gospody"@pl .
 
 
 ###  http://purl.org/ontohgis#function14
 ontohgis:function14 rdf:type owl:NamedIndividual ,
                              obo:BFO_0000034 ;
                     rdfs:label "accomodation"@en ,
-                               "funkcja hotelowa"@pl .
+                               "funkcja hotelowa"@pl ;
+                    <http://www.w3.org/2004/02/skos/core#note> "dotyczy obiektów służących czasowemu zamieszkaniu i zaspokojeniu innych potrzeb gości, np. zajazdy, traktiernie, pensjonaty, hotele"@pl .
 
 
 ###  http://purl.org/ontohgis#function2
@@ -19097,49 +19101,56 @@ ontohgis:function2 rdf:type owl:NamedIndividual ,
 ontohgis:function3 rdf:type owl:NamedIndividual ,
                             obo:BFO_0000034 ;
                    rdfs:label "funkcja mieszkalna"@pl ,
-                              "residential function"@en .
+                              "residential function"@en ;
+                   <http://www.w3.org/2004/02/skos/core#note> "dotyczy obiektów służących stałemu zamieszkaniu, a jako funkcja dodatkowa dotyczy obiektów służących okresowemu zamieszkaniu, dłuższemu jednak niż w przypadku hoteli"@pl .
 
 
 ###  http://purl.org/ontohgis#function4
 ontohgis:function4 rdf:type owl:NamedIndividual ,
                             obo:BFO_0000034 ;
                    rdfs:label "forestry"@en ,
-                              "funkcja gospodarcza - gospodarka leśna"@pl .
+                              "funkcja gospodarcza - gospodarka leśna"@pl ;
+                   <http://www.w3.org/2004/02/skos/core#note> "dotyczy obiektów związanych z gospodarowaniem zasobami leśnymi, np. osady leśne, gajówki, leśniczówki; jako funkcja dodatkowa terenów leśnych wykorzystywanych przez człowieka"@pl .
 
 
 ###  http://purl.org/ontohgis#function5
 ontohgis:function5 rdf:type owl:NamedIndividual ,
                             obo:BFO_0000034 ;
                    rdfs:label "defensive function"@en ,
-                              "funkcja obronna"@pl .
+                              "funkcja obronna"@pl ;
+                   <http://www.w3.org/2004/02/skos/core#note> "dotyczy obiektów należących do infrastruktury obronnej miasta, a także obiektów, które służą wojsku, w tym garnizonowi miejskiemu, np. koszary, fortece, bastiony, prochownie"@pl .
 
 
 ###  http://purl.org/ontohgis#function6
 ontohgis:function6 rdf:type owl:NamedIndividual ,
                             obo:BFO_0000034 ;
                    rdfs:label "administrative function"@en ,
-                              "funkcja administracyjna"@pl .
+                              "funkcja administracyjna"@pl ;
+                   <http://www.w3.org/2004/02/skos/core#note> "dotyczy obiektów służacych zarządzaniu dużą organizacją z państwem na czele, w tym uznanych przez niego form autonomii lub samorządu, placówek zagranicznych, związków wyznaniowych, w tym też wyższych niż parafia jednostek organizacji kościelnej, a także instytucji, stowarzyszeń społecznych i gospodarczych, np. wszelkiego typu urzędy, towarzystwa ubezpieczeniowe, siedziby zarządu przedsiębiorstw"@pl .
 
 
 ###  http://purl.org/ontohgis#function7
 ontohgis:function7 rdf:type owl:NamedIndividual ,
                             obo:BFO_0000034 ;
                    rdfs:label "funkcja wypoczynkowa"@pl ,
-                              "leisure"@en .
+                              "leisure"@en ;
+                   <http://www.w3.org/2004/02/skos/core#note> "dotyczy obiektów służących wypoczynkowi i spędzaniu wolnego czasu, które nie są obiektami kultury i służby zdrowia, obiektów będących częścią wilegiatury miejskiej, np. plaże, wiaty leśne, letniska, wille letniskowe"@pl .
 
 
 ###  http://purl.org/ontohgis#function8
 ontohgis:function8 rdf:type owl:NamedIndividual ,
                             obo:BFO_0000034 ;
                    rdfs:label "funkcja gospodarcza"@pl ,
-                              "industrial"@en .
+                              "industrial"@en ;
+                   <http://www.w3.org/2004/02/skos/core#note> "dotyczy obiektów, które są istotne dla gospodarki państwowej i miejskiej oraz służące pozyskiwaniu dóbr materialnych z pieniądzem na czele, np. banki, mennice, giełdy"@pl .
 
 
 ###  http://purl.org/ontohgis#function9
 ontohgis:function9 rdf:type owl:NamedIndividual ,
                             obo:BFO_0000034 ;
                    rdfs:label "communication"@en ,
-                              "funkcja komunikacyjna"@pl .
+                              "funkcja komunikacyjna"@pl ;
+                   <http://www.w3.org/2004/02/skos/core#note> "dotyczy obiektów służących pośrednio lub bezpośrednio przemieszczaniu ludzi i towarów, np. ulice, tory kolejowe, kolejki linowe, funikulary, a także dworce, stacje, infrastruktura kolejowa"@pl .
 
 
 ###  http://purl.org/ontohgis#map_symbol_10
@@ -19342,7 +19353,8 @@ ontohgis:object_401 rdf:type owl:NamedIndividual ,
 ontohgis:object_402 rdf:type owl:NamedIndividual ,
                              obo:BFO_0000034 ;
                     rdfs:label "funkcja bycia miejscem wymiany handlowej"@pl ,
-                               "playing the role of commerce"@en .
+                               "playing the role of commerce"@en ;
+                    <http://www.w3.org/2004/02/skos/core#note> "dotyczy obiektów służących handlowi"@pl .
 
 
 ###  http://purl.org/ontohgis#object_403
@@ -19356,7 +19368,8 @@ ontohgis:object_403 rdf:type owl:NamedIndividual ,
 ontohgis:object_404 rdf:type owl:NamedIndividual ,
                              obo:BFO_0000034 ;
                     rdfs:label "funkcja produkcyjna"@pl ,
-                               "production"@en .
+                               "production"@en ;
+                    <http://www.w3.org/2004/02/skos/core#note> "dotyczy obiektów, związanych z wytwarzaniem lub pozyskiwaniem nowych dóbr nierolniczych oraz ich przekształcaniem, w sposób rzemieślniczy, manufakturowy lub przemysłowy, a także z obsługą tego typu obiektów, m.in. przez zapewnienie energii, np. młyny, torfiarnie, fabryki, młyny parowe, elektrownie fabryczne"@pl .
 
 
 ###  http://purl.org/ontohgis#object_405
@@ -19664,16 +19677,16 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/Box> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                rdfs:comment "The set of regions in space defined by their geographic coordinates according to the DCMI Box Encoding Scheme."@en ;
                                rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                               rdfs:seeAlso <http://dublincore.org/documents/dcmi-box/> ;
                                rdfs:label "DCMI Box"@en ;
                                <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+                               rdfs:seeAlso <http://dublincore.org/documents/dcmi-box/> ;
                                <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Box-003> .
 
 
-<http://purl.org/dc/terms/ISO3166> rdfs:comment "The set of codes listed in ISO 3166-1 for the representation of names of countries."@en ;
-                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
-                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO3166-004> ;
+<http://purl.org/dc/terms/ISO3166> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                   rdfs:comment "The set of codes listed in ISO 3166-1 for the representation of names of countries."@en ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO3166-004> ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                    rdfs:label "ISO 3166"@en ;
                                    rdfs:seeAlso <http://www.iso.org/iso/en/prods-services/iso3166ma/02iso-3166-code-lists/list-en1.html> .
@@ -19681,8 +19694,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/ISO639-2> rdfs:seeAlso <http://lcweb.loc.gov/standards/iso639-2/langhome.html> ;
                                     <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                     rdfs:comment "The three-letter alphabetic codes listed in ISO639-2 for the representation of names of languages."@en ;
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     rdfs:label "ISO 639-2"@en ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO639-2-003> .
@@ -19690,14 +19703,14 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/ISO639-3> rdfs:comment "The set of three-letter codes listed in ISO 639-3 for the representation of names of languages."@en ;
                                     rdfs:label "ISO 639-3"@en ;
-                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO639-3-001> ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO639-3-001> ;
                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                     rdfs:seeAlso <http://www.sil.org/iso639-3/> .
 
 
-<http://purl.org/dc/terms/Period> rdfs:seeAlso <http://dublincore.org/documents/dcmi-period/> ;
-                                  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+<http://purl.org/dc/terms/Period> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+                                  rdfs:seeAlso <http://dublincore.org/documents/dcmi-period/> ;
                                   rdfs:comment "The set of time intervals defined by their limits according to the DCMI Period Encoding Scheme."@en ;
                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                   rdfs:label "DCMI Period"@en ;
@@ -19717,8 +19730,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/RFC1766> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                   rdfs:seeAlso <http://www.ietf.org/rfc/rfc1766.txt> ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#RFC1766-003> ;
+                                   rdfs:seeAlso <http://www.ietf.org/rfc/rfc1766.txt> ;
                                    rdfs:comment "The set of tags, constructed according to RFC 1766, for the identification of languages."@en ;
                                    rdfs:label "RFC 1766"@en .
 
@@ -19751,8 +19764,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
-<http://purl.org/dc/terms/URI> rdfs:comment "The set of identifiers constructed according to the generic syntax for Uniform Resource Identifiers as specified by the Internet Engineering Task Force."@en ;
-                               rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/URI> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                               rdfs:comment "The set of identifiers constructed according to the generic syntax for Uniform Resource Identifiers as specified by the Internet Engineering Task Force."@en ;
                                <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                rdfs:seeAlso <http://www.ietf.org/rfc/rfc3986.txt> ;
                                <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#URI-003> ;
@@ -19762,8 +19775,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/W3CDTF> rdfs:label "W3C-DTF"@en ;
                                   rdfs:comment "The set of dates and times constructed according to the W3C Date and Time Formats Specification."@en ;
-                                  rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#W3CDTF-003> ;
+                                  rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   rdfs:seeAlso <http://www.w3.org/TR/NOTE-datetime> .
@@ -19787,8 +19800,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/available> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                     rdfs:label "Date Available"@en ;
                                      rdfs:comment "Date (often a range) that the resource became or will become available."@en ;
+                                     rdfs:label "Date Available"@en ;
                                      <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#available-003> ;
                                      <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                      <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
@@ -19803,8 +19816,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                                  <http://purl.org/dc/terms/issued> "2003-02-15"^^xsd:date .
 
 
-<http://purl.org/dc/terms/contributor> rdfs:comment "An entity responsible for making contributions to the resource."@en ;
-                                       <http://purl.org/dc/terms/modified> "2010-10-11"^^xsd:date ;
+<http://purl.org/dc/terms/contributor> <http://purl.org/dc/terms/modified> "2010-10-11"^^xsd:date ;
+                                       rdfs:comment "An entity responsible for making contributions to the resource."@en ;
                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                        <http://purl.org/dc/terms/description> "Examples of a Contributor include a person, an organization, or a service."@en ;
                                        <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
@@ -19815,8 +19828,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/created> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    rdfs:comment "Date of creation of the resource."@en ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#created-003> ;
-                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                    rdfs:label "Date Created"@en ;
+                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
 
 
@@ -19867,19 +19880,19 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/description> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                        rdfs:label "Description"@en ;
                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                       rdfs:comment "An account of the resource."@en ;
                                        <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                        <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#descriptionT-001> ;
+                                       rdfs:comment "An account of the resource."@en ;
                                        <http://purl.org/dc/terms/description> "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource."@en .
 
 
-<http://purl.org/dc/terms/hasFormat> <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
-                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/hasFormat> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                     <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                      <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#hasFormat-003> ;
                                      <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                      rdfs:label "Has Format"@en ;
-                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
-                                     rdfs:comment "A related resource that is substantially the same as the pre-existing described resource, but in another format."@en .
+                                     rdfs:comment "A related resource that is substantially the same as the pre-existing described resource, but in another format."@en ;
+                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
 
 
 <http://purl.org/dc/terms/hasPart> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -19892,8 +19905,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/hasVersion> <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#hasVersion-003> ;
-                                      rdfs:comment "A related resource that is a version, edition, or adaptation of the described resource."@en ;
                                       rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                      rdfs:comment "A related resource that is a version, edition, or adaptation of the described resource."@en ;
                                       <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                       rdfs:label "Has Version"@en ;
                                       <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
@@ -19930,8 +19943,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/isReferencedBy> rdfs:label "Is Referenced By"@en ;
                                           rdfs:comment "A related resource that references, cites, or otherwise points to the described resource."@en ;
                                           <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                          rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                           <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
+                                          rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                           <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                           <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isReferencedBy-003> .
 
@@ -19955,8 +19968,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/isVersionOf> rdfs:label "Is Version Of"@en ;
-                                       rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                        rdfs:comment "A related resource of which the described resource is a version, edition, or adaptation."@en ;
+                                       rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                        <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                        <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                        <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isVersionOf-003> ;
@@ -20013,8 +20026,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     rdfs:label "Requires"@en ;
                                     rdfs:comment "A related resource that is required by the described resource to support its function, delivery, or coherence."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
-                                    <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en .
+                                    <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
 
 
 <http://purl.org/dc/terms/source> rdfs:label "Source"@en ;
@@ -20027,8 +20040,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   rdfs:comment "A related resource from which the described resource is derived."@en .
 
 
-<http://purl.org/dc/terms/tableOfContents> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
-                                           rdfs:comment "A list of subunits of the resource."@en ;
+<http://purl.org/dc/terms/tableOfContents> rdfs:comment "A list of subunits of the resource."@en ;
+                                           <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                            rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                            rdfs:label "Table Of Contents"@en ;
                                            <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
