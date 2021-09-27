@@ -9689,11 +9689,11 @@ ontohgis:object_200 rdf:type owl:Class ;
                                     <http://www.cidoc-crm.org/cidoc-crm/E72_Legal_Object> ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty ontohgis:hasBoundary ;
-                                      owl:someValuesFrom ontohgis:settlement_unit2000
+                                      owl:someValuesFrom ontohgis:settlement_unit_2000
                                     ] ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty ontohgis:hasBoundary ;
-                                      owl:allValuesFrom ontohgis:settlement_unit2000
+                                      owl:allValuesFrom ontohgis:settlement_unit_2000
                                     ] ,
                                     [ rdf:type owl:Restriction ;
                                       owl:onProperty <http://www.opengis.net/ont/geosparql#hasGeometry> ;
@@ -9837,19 +9837,19 @@ ontohgis:object_3014 rdf:type owl:Class ;
 
 ###  http://purl.org/ontohgis#object_3016
 ontohgis:object_3016 rdf:type owl:Class ;
-                     rdfs:subClassOf ontohgis:settlement_unit2000 ;
+                     rdfs:subClassOf ontohgis:settlement_unit_2000 ;
                      rdfs:label "granica gminy"@pl .
 
 
 ###  http://purl.org/ontohgis#object_3018
 ontohgis:object_3018 rdf:type owl:Class ;
-                     rdfs:subClassOf ontohgis:settlement_unit2000 ;
+                     rdfs:subClassOf ontohgis:settlement_unit_2000 ;
                      rdfs:label "granica województwa"@pl .
 
 
 ###  http://purl.org/ontohgis#object_3021
 ontohgis:object_3021 rdf:type owl:Class ;
-                     rdfs:subClassOf ontohgis:settlement_unit2000 ;
+                     rdfs:subClassOf ontohgis:settlement_unit_2000 ;
                      rdfs:label "granica państwa"@pl .
 
 
@@ -9865,7 +9865,7 @@ ontohgis:object_32 rdf:type owl:Class ;
                                                               ontohgis:object_40
                                                               [ rdf:type owl:Restriction ;
                                                                 owl:onProperty ontohgis:hasBoundary ;
-                                                                owl:someValuesFrom ontohgis:settlement_unit2001
+                                                                owl:someValuesFrom ontohgis:settlement_unit_2001
                                                               ]
                                                               [ rdf:type owl:Restriction ;
                                                                 owl:onProperty ontohgis:isDefinedBy ;
@@ -9881,7 +9881,7 @@ ontohgis:object_32 rdf:type owl:Class ;
                    rdfs:subClassOf ontohgis:object_40 ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty ontohgis:hasBoundary ;
-                                     owl:allValuesFrom ontohgis:settlement_unit2001
+                                     owl:allValuesFrom ontohgis:settlement_unit_2001
                                    ] ,
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty ontohgis:settlementIsPartOfSettlement ;
@@ -9892,9 +9892,9 @@ ontohgis:object_32 rdf:type owl:Class ;
                                          ontohgis:object_1001
                                        ) ,
                                        ( ontohgis:object_12
-                                         ontohgis:settlement_unit1000
+                                         ontohgis:settlement_unit_1000
                                        ) ;
-                   rdfs:comment "Zakładamy, że każda podklasa miejscowości zawiera tylko zamieszkane jednostki osadnicze, np. klasa settlement_unit10 (rdfs:label='browar'@pl) obejmuje tylko zamieszkane browary."@pl ;
+                   rdfs:comment "Zakładamy, że każda podklasa miejscowości zawiera tylko zamieszkane jednostki osadnicze, np. klasa settlement_unit_10 (rdfs:label='browar'@pl) obejmuje tylko zamieszkane browary."@pl ;
                    rdfs:isDefinedBy """A dwelling is an area such that:
 1. it is filled with buildings
 2. it is used for accommodation
@@ -10056,12 +10056,12 @@ ontohgis:object_92 rdf:type owl:Class ;
                               "ryt"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit1
-ontohgis:settlement_unit1 rdf:type owl:Class ;
-                          rdfs:subClassOf ontohgis:settlement_unit1000 ,
+###  http://purl.org/ontohgis#settlement_unit_1
+ontohgis:settlement_unit_1 rdf:type owl:Class ;
+                          rdfs:subClassOf ontohgis:settlement_unit_1000 ,
                                           [ rdf:type owl:Restriction ;
                                             owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                            owl:someValuesFrom ontohgis:settlement_unit114
+                                            owl:someValuesFrom ontohgis:settlement_unit_114
                                           ] ,
                                           [ rdf:type owl:Restriction ;
                                             owl:onProperty ontohgis:hasProperFunction ;
@@ -10097,13 +10097,13 @@ ontohgis:settlement_unit1 rdf:type owl:Class ;
                                                                           "zamek"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit10
-ontohgis:settlement_unit10 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_10
+ontohgis:settlement_unit_10 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_500 ,
-                                           ontohgis:settlement_unit3003 ,
+                                           ontohgis:settlement_unit_3003 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                             owl:someValuesFrom ontohgis:settlement_unit135
+                                             owl:someValuesFrom ontohgis:settlement_unit_135
                                            ] ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
@@ -10136,12 +10136,12 @@ ontohgis:settlement_unit10 rdf:type owl:Class ;
                                                                            "browar"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit100
-ontohgis:settlement_unit100 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_100
+ontohgis:settlement_unit_100 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_12 ,
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                              owl:someValuesFrom ontohgis:settlement_unit122
+                                              owl:someValuesFrom ontohgis:settlement_unit_122
                                             ] ,
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty ontohgis:hasProperFunction ;
@@ -10181,8 +10181,8 @@ ontohgis:settlement_unit100 rdf:type owl:Class ;
                                                                             "kaplica"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit1000
-ontohgis:settlement_unit1000 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_1000
+ontohgis:settlement_unit_1000 rdf:type owl:Class ;
                              owl:equivalentClass [ owl:intersectionOf ( ontohgis:object_32
                                                                         [ rdf:type owl:Restriction ;
                                                                           owl:onProperty ontohgis:hasProperFunction ;
@@ -10198,8 +10198,8 @@ ontohgis:settlement_unit1000 rdf:type owl:Class ;
                                         "właściwa miejscowość"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit102
-ontohgis:settlement_unit102 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_102
+ontohgis:settlement_unit_102 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_1000 ,
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
@@ -10211,12 +10211,12 @@ ontohgis:settlement_unit102 rdf:type owl:Class ;
                             rdfs:seeAlso <http://gov.genealogy.net/types.owl#229> .
 
 
-###  http://purl.org/ontohgis#settlement_unit103
-ontohgis:settlement_unit103 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_103
+ontohgis:settlement_unit_103 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_12 ,
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                              owl:someValuesFrom ontohgis:settlement_unit120
+                                              owl:someValuesFrom ontohgis:settlement_unit_120
                                             ] ,
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty ontohgis:hasProperFunction ;
@@ -10251,8 +10251,8 @@ ontohgis:settlement_unit103 rdf:type owl:Class ;
                                                                             "kościół"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit104
-ontohgis:settlement_unit104 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_104
+ontohgis:settlement_unit_104 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_500 ,
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
@@ -10264,11 +10264,11 @@ ontohgis:settlement_unit104 rdf:type owl:Class ;
                                          <http://linkedgeodata.org/ontology/Factory> .
 
 
-###  http://purl.org/ontohgis#settlement_unit106
-ontohgis:settlement_unit106 rdf:type owl:Class ;
-                            rdfs:subClassOf ontohgis:settlement_unit1000 ,
-                                            ontohgis:settlement_unit3007 ,
-                                            ontohgis:settlement_unit33 ,
+###  http://purl.org/ontohgis#settlement_unit_106
+ontohgis:settlement_unit_106 rdf:type owl:Class ;
+                            rdfs:subClassOf ontohgis:settlement_unit_1000 ,
+                                            ontohgis:settlement_unit_3007 ,
+                                            ontohgis:settlement_unit_33 ,
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty ontohgis:hasProperFunction ;
                                               owl:hasValue ontohgis:function1
@@ -10291,13 +10291,13 @@ ontohgis:settlement_unit106 rdf:type owl:Class ;
                                                                             "rumunek"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit11
-ontohgis:settlement_unit11 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_11
+ontohgis:settlement_unit_11 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_500 ,
-                                           ontohgis:settlement_unit3003 ,
+                                           ontohgis:settlement_unit_3003 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                             owl:someValuesFrom ontohgis:settlement_unit136
+                                             owl:someValuesFrom ontohgis:settlement_unit_136
                                            ] ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
@@ -10322,10 +10322,10 @@ ontohgis:settlement_unit11 rdf:type owl:Class ;
                                                                            "cegielnia"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit110
-ontohgis:settlement_unit110 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_110
+ontohgis:settlement_unit_110 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_1001 ,
-                                            ontohgis:settlement_unit3003 ,
+                                            ontohgis:settlement_unit_3003 ,
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty ontohgis:hasProperFunction ;
                                               owl:hasValue ontohgis:function1
@@ -10352,19 +10352,19 @@ ontohgis:settlement_unit110 rdf:type owl:Class ;
                                                                             "wójtostwo"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit112
-ontohgis:settlement_unit112 rdf:type owl:Class ;
-                            owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit3008
+###  http://purl.org/ontohgis#settlement_unit_112
+ontohgis:settlement_unit_112 rdf:type owl:Class ;
+                            owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_3008
                                                                        [ rdf:type owl:Restriction ;
                                                                          owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                         owl:someValuesFrom ontohgis:settlement_unit44
+                                                                         owl:someValuesFrom ontohgis:settlement_unit_44
                                                                        ]
                                                                      ) ;
                                                   rdf:type owl:Class
                                                 ] ;
                             rdfs:subClassOf ontohgis:object_1000 ,
-                                            ontohgis:settlement_unit1000 ,
-                                            ontohgis:settlement_unit3008 ;
+                                            ontohgis:settlement_unit_1000 ,
+                                            ontohgis:settlement_unit_3008 ;
                             dc:creator ontohgis:person_8 ;
                             ontohgis:hasExternalIdentifier 112 ;
                             ontohgis:hasLanguageVerificator ontohgis:person_1 ;
@@ -10380,9 +10380,9 @@ ontohgis:settlement_unit112 rdf:type owl:Class ;
                                                                             "part of a hamlet"@en .
 
 
-###  http://purl.org/ontohgis#settlement_unit113
-ontohgis:settlement_unit113 rdf:type owl:Class ;
-                            rdfs:subClassOf ontohgis:settlement_unit1000 ,
+###  http://purl.org/ontohgis#settlement_unit_113
+ontohgis:settlement_unit_113 rdf:type owl:Class ;
+                            rdfs:subClassOf ontohgis:settlement_unit_1000 ,
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty ontohgis:hasProperFunction ;
                                               owl:hasValue ontohgis:function3
@@ -10417,29 +10417,29 @@ ontohgis:settlement_unit113 rdf:type owl:Class ;
                                                                             "gród"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit113 ;
+   owl:annotatedSource ontohgis:settlement_unit_113 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 2, s. 168 (hasło \"Grodzisko\"): \"Grody to obiekty sztucznie ogrodzone w celach obronnych. Pojęcie to obejmuje wszelkiego rodzaju miejsca obronne, jak wsie, miasta, ośrodki administracyjne, wojskowe i inne schronienia przygotowane do obrony. W średniowieczu grodami nazywano też miasta\"."@pl ;
    rdfs:isDefinedBy ontohgis:document_139
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit113 ;
+   owl:annotatedSource ontohgis:settlement_unit_113 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 2, s. 637: \"pierwotnie osada obronna, ogrodzona palisadą lub obwałowana\""@pl ;
    rdfs:isDefinedBy ontohgis:document_138
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit113 ;
+   owl:annotatedSource ontohgis:settlement_unit_113 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 6, s. 22: \"miejsce obronne w znaczeniu późniejszym tyle co \"zamek\", \"miasto\"\""@pl ;
    rdfs:isDefinedBy ontohgis:document_140
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit114
-ontohgis:settlement_unit114 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_114
+ontohgis:settlement_unit_114 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_50 ;
                             dc:creator ontohgis:person_2 ;
                             ontohgis:hasExternalIdentifier "114"^^xsd:int ;
@@ -10471,22 +10471,22 @@ ontohgis:settlement_unit114 rdf:type owl:Class ;
                                                                             "zamek"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit114 ;
+   owl:annotatedSource ontohgis:settlement_unit_114 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "miejsce obronne, twierdza"@pl ;
    rdfs:isDefinedBy ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit114 ;
+   owl:annotatedSource ontohgis:settlement_unit_114 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "od średniowiecza do w. XVII obronna siedziba pana feudalnego, ośrodek władzy; w XVII w. i później królewska, książęca lub magnacka rezydencja miejska lub pozamiejska"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit115
-ontohgis:settlement_unit115 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_115
+ontohgis:settlement_unit_115 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_23 ;
                             dc:creator ontohgis:person_5 ;
                             ontohgis:hasExternalIdentifier "115"^^xsd:int ;
@@ -10508,22 +10508,22 @@ ontohgis:settlement_unit115 rdf:type owl:Class ;
                                                                             "sea harbour"@en .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit115 ;
+   owl:annotatedSource ontohgis:settlement_unit_115 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "przybrzeżny obszar wodny, odpowiednio pogłębiony, osłonięty przed wiatrem i falą, przeznaczony dla postoju statków, wyposażony w specjalne urządzenia służące do ich załadowywania, wyładowywania, zaopatrzenia i naprawy; miasto  nabrzeżne, w którym jest także miejsce postoju statków."@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit115 ;
+   owl:annotatedSource ontohgis:settlement_unit_115 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 2, cz. 2. s. 929: część można między ziemią zamknięta, do którey okręty wchodzą o od burzy morskiey bezpieczeństwo znayduią"@pl ;
    rdfs:isDefinedBy ontohgis:document_1
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit117
-ontohgis:settlement_unit117 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_117
+ontohgis:settlement_unit_117 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_50 ;
                             dc:creator ontohgis:person_5 ;
                             ontohgis:hasExternalIdentifier "117"^^xsd:int ;
@@ -10551,29 +10551,29 @@ ontohgis:settlement_unit117 rdf:type owl:Class ;
                                                                             "tourist shelter"@en .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit117 ;
+   owl:annotatedSource ontohgis:settlement_unit_117 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "1] miejsce, gdzie można się schronić, czuć bezpiecznie, schronienie; [2] budynek położony na szlaku turystycznym z dala od osiedli ludzkich, służący jako miejsce odpoczynku i noclegu dla turystów (podróżnych); [3] przytułek, zakład dla bezdomnych, starców"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit117 ;
+   owl:annotatedSource ontohgis:settlement_unit_117 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "budynek na szlaku turystycznym służący jako miejsce odpoczynku i noclegu dla turystów (kategorie: budynki, budowle i urządzenia; kompleksu użytkowania terenu, miejscowości)"@pl ;
    rdfs:comment ontohgis:document_9
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit117 ;
+   owl:annotatedSource ontohgis:settlement_unit_117 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 5, s. 201 – mieysce do schronienia"@pl ;
    rdfs:isDefinedBy ontohgis:document_1
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit118
-ontohgis:settlement_unit118 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_118
+ontohgis:settlement_unit_118 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_23 ;
                             dc:creator ontohgis:person_5 ;
                             ontohgis:hasExternalIdentifier "118"^^xsd:int ;
@@ -10594,15 +10594,15 @@ ontohgis:settlement_unit118 rdf:type owl:Class ;
                                                                             "stacja kolejowa"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit118 ;
+   owl:annotatedSource ontohgis:settlement_unit_118 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "miejsce, gdzie zatrzymują się pociągi"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit119
-ontohgis:settlement_unit119 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_119
+ontohgis:settlement_unit_119 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_23 ;
                             dc:creator ontohgis:person_5 ;
                             ontohgis:hasExternalIdentifier "119"^^xsd:int ;
@@ -10623,21 +10623,21 @@ ontohgis:settlement_unit119 rdf:type owl:Class ;
                                                                             "train stop"@en .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit119 ;
+   owl:annotatedSource ontohgis:settlement_unit_119 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "mała stacja kolejowa przeznaczona tylko dla ruchu pasażerskiego"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit12
-ontohgis:settlement_unit12 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_12
+ontohgis:settlement_unit_12 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_500 ,
-                                           ontohgis:settlement_unit3003 ,
-                                           ontohgis:settlement_unit33 ,
+                                           ontohgis:settlement_unit_3003 ,
+                                           ontohgis:settlement_unit_33 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                             owl:someValuesFrom ontohgis:settlement_unit138
+                                             owl:someValuesFrom ontohgis:settlement_unit_138
                                            ] ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
@@ -10665,8 +10665,8 @@ ontohgis:settlement_unit12 rdf:type owl:Class ;
                                                                            "sugar factory"@en .
 
 
-###  http://purl.org/ontohgis#settlement_unit120
-ontohgis:settlement_unit120 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_120
+ontohgis:settlement_unit_120 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_23 ;
                             dc:creator ontohgis:person_6 ;
                             ontohgis:hasExternalIdentifier "120"^^xsd:int ;
@@ -10692,7 +10692,7 @@ ontohgis:settlement_unit120 rdf:type owl:Class ;
                                                                             "kościół"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit120 ;
+   owl:annotatedSource ontohgis:settlement_unit_120 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "2. «budynek, miejsce modlitwy chrześcijan»"@pl ;
    rdfs:isDefinedBy ontohgis:document_3 ,
@@ -10700,29 +10700,29 @@ ontohgis:settlement_unit120 rdf:type owl:Class ;
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit120 ;
+   owl:annotatedSource ontohgis:settlement_unit_120 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 11, s. 57-68: II. Budowla sakralna; 1. Świątynia chrześcijańska, zwłaszcza katolicka; templum--; aedes, fanum--; ecclesia--; aedes sacra--; sacrum--; domus, sedes sacra--; delubrum, dominicum, domus Dei, martyrium, sacrarium ritus Christiani--. 3. Świątynia mahometańska; meczet--. 4. Świątynia pogańska, delubrum--; aedes, oraculum, templum--; templum idolorum--; idolium--; domus--; aedes sacra, fanum, penetralia, sessimonium deorum--. 6. n-loc [nazwa miejsca] : -- »Czerwony Kościoł«"@pl ;
    rdfs:isDefinedBy ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit120 ;
+   owl:annotatedSource ontohgis:settlement_unit_120 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 3, s. 360-362: 1. Świątynia (nie tylko chrześcijańska), dom boży, templum, aedes sacra--. 2. swoista jednostka prawna związana z określonym kościołem (parafia, diecezja itd.), corpus paroeciae vel dioecesis (ad certam quandam ecclesiam pertinens)."@pl ;
    rdfs:isDefinedBy ontohgis:document_6
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit120 ;
+   owl:annotatedSource ontohgis:settlement_unit_120 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 9, kol. 1025: budynek poświęcony (dedykacja lub benedykcja) w obrzędzie liturg. przez biskupa, gdzie wspólnota ochrzczonych (—> Kościół) gromadzi się na słuchanie słowa Bożego, wspólną i prywatną modlitwę oraz celebrację sakramentów, zwł. Eucharystii; miejsce przechowywania Najśw. Sakramentu, a także pochówku(—> krypta, —> konfesja); k. był określany także jako domus ecclesiae, domus orationis, Kyriakon, domus Dei, Dominicum; w kat. obrządkach wsch. nazywany jest —> cerkwią."@pl ;
    rdfs:isDefinedBy ontohgis:document_7
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit121
-ontohgis:settlement_unit121 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_121
+ontohgis:settlement_unit_121 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_50 ;
                             dc:creator ontohgis:person_6 ;
                             ontohgis:hasExternalIdentifier "121"^^xsd:int ;
@@ -10758,29 +10758,29 @@ ontohgis:settlement_unit121 rdf:type owl:Class ;
                                                                             "rectory"@en .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit121 ;
+   owl:annotatedSource ontohgis:settlement_unit_121 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "dom należący do parafii, przeznaczony na mieszkanie dla proboszcza"@pl ;
    rdfs:isDefinedBy ontohgis:document_3
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit121 ;
+   owl:annotatedSource ontohgis:settlement_unit_121 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 2, cz. 2, s. 732: Pleban -- Plebania, -ii, ż., urząd plebański abo beneficjum --; Dochód plebański, ut dobra --; plebaniia, dom plebański, die Pfarrwohnung, die Pfarre. J ksiądz widzimy, plebaniią rzadki Buduie, że kto inszy weźmie po nim spadki. Pot. Pocz. 475 (Slo. fara; Hg. plebania; Cro. plebania; Vd. faroush; Ross. приходъ (cf. przychód)."@pl ;
    rdfs:isDefinedBy ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit121 ;
+   owl:annotatedSource ontohgis:settlement_unit_121 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 24, s. 326: 1. Domostwo plebana -- ; flaminia -- ; parochia, plebanatus -- ; curionis domus, curionium --; 2. Terytorium będące pod opieką plebana; także urząd i dochody z niego; parochia --; plebanatus --; curionatus, curionium -- ; 2a. Wierni należący do parafii --. Synonimy: probostwo, parafija."@pl ;
    rdfs:isDefinedBy ontohgis:document_2
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit122
-ontohgis:settlement_unit122 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_122
+ontohgis:settlement_unit_122 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_23 ;
                             dc:creator ontohgis:person_6 ;
                             ontohgis:hasExternalIdentifier "122"^^xsd:int ;
@@ -10806,7 +10806,7 @@ ontohgis:settlement_unit122 rdf:type owl:Class ;
                                                                             "kaplica"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit122 ;
+   owl:annotatedSource ontohgis:settlement_unit_122 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "1. «niewielka budowla sakralna», 2. «oddzielne pomieszczenie z ołtarzem do odprawiania nabożeństw»"@pl ;
    rdfs:isDefinedBy ontohgis:document_3 ,
@@ -10814,29 +10814,29 @@ ontohgis:settlement_unit122 rdf:type owl:Class ;
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit122 ;
+   owl:annotatedSource ontohgis:settlement_unit_122 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 1, cz 2, s. 955: miejsce bogu poświęcone, w którym obowiązki kościelne za zezwoleniem zwierzchności odprawować się mogą."@pl ;
    rdfs:isDefinedBy ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit122 ;
+   owl:annotatedSource ontohgis:settlement_unit_122 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 10, s. 81: Mały kościół lub nieduże pomieszczenie z ołtarzem, przeznaczone do uprawiania kultu religijnego; też wydzielona część kościoła (wyraz przeniesiony również na świątynie i pomieszczenia służące innym kultom); sacellum --; aedicula --; sacrarium--; oratorium--; aedes, fanum--; aedis sacrae appendix, augurale, auguratorium, fanulum (s. hanulum), lararium, parvum delubrum"@pl ;
    rdfs:isDefinedBy ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit122 ;
+   owl:annotatedSource ontohgis:settlement_unit_122 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 8, kol. 676: niewielka budowla kultowa (najczęściej z ołtarzem), wolno stojąca lub związana z większym kompleksem archit., także pomieszczenie, czyli oratorium, miejsce modlitwy liturg. i prywatnej, przeznaczone przez ordynariusza do sprawowanie wszystkich lub niektórych funkcji liturg. dla niewielkiej grupy wiernych, do którego za zgodą kompetentnego przełożonego mogą przychodzić także in. wierni."@pl ;
    rdfs:isDefinedBy ontohgis:document_7
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit123
-ontohgis:settlement_unit123 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_123
+ontohgis:settlement_unit_123 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_23 ;
                             dc:creator ontohgis:person_6 ;
                             ontohgis:hasExternalIdentifier "123"^^xsd:int ;
@@ -10858,14 +10858,14 @@ ontohgis:settlement_unit123 rdf:type owl:Class ;
                                                                             "tar pitch"@en .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit123 ;
+   owl:annotatedSource ontohgis:settlement_unit_123 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "huta smolana, t. 3, s. 519:"@pl ;
    rdfs:isDefinedBy ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit123 ;
+   owl:annotatedSource ontohgis:settlement_unit_123 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "prymitywny zakład przemysłowy, gdzie wypraża się z drewna (tzw. karpowin) smołę i otrzymuje terpentynę, spirytus drzewny i inne chemikalia"@pl ;
    rdfs:isDefinedBy ontohgis:document_4 ,
@@ -10873,7 +10873,7 @@ ontohgis:settlement_unit123 rdf:type owl:Class ;
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit123 ;
+   owl:annotatedSource ontohgis:settlement_unit_123 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "«dawny zakład, w którym się wyprażało z drewna smołę»"@pl ;
    rdfs:isDefinedBy ontohgis:document_3 ,
@@ -10881,8 +10881,8 @@ ontohgis:settlement_unit123 rdf:type owl:Class ;
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit124
-ontohgis:settlement_unit124 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_124
+ontohgis:settlement_unit_124 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_23 ;
                             dc:creator ontohgis:person_3 ;
                             ontohgis:hasExternalIdentifier "124"^^xsd:int ;
@@ -10921,28 +10921,28 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
                                                                             "karczma"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit124 ;
+   owl:annotatedSource ontohgis:settlement_unit_124 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 1, s. 296–298: ‘budynek, w którym warzono, sprzedawano, później głównie szynkowano piwo, miód pitny, od XVI w. gorzałkę; niektóre karczmy, zwłaszcza przy ważniejszych drogach i w miastach, dawały posiłki i obrok dla koni oraz zapewniały nocleg podróżnym (zwano je gościńcami); sprzedawano w nich różne wyroby, głównie spożywcze, rzadziej odzieżowe. Dostarczały też karczmy różnego rodzaju rozrywek, często z muzyką, były miejscem tańców i zabaw. Niekiedy w karczmach odbywał sesje sąd (zwłaszcza wiejski), załatwiano tu sprawy urzędowe podczas popasu dostojników czy pobytu miejscowych oficjalistów [...]’."@pl ;
    rdfs:isDefinedBy ontohgis:document_17
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit124 ;
+   owl:annotatedSource ontohgis:settlement_unit_124 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 10, s. 136: miejsce wyszynku alkoholu i spotkań okolicznej ludności, przede wszystkim chłopów, także gospoda, dom zajezdny; taberna"@pl ;
    rdfs:isDefinedBy ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit124 ;
+   owl:annotatedSource ontohgis:settlement_unit_124 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 15, s. 403: ‘budynek służący jako dom zajezdny dla podróżnych, a także miejsce wyszynku oraz spotkań i zabaw miejscowej ludności, wznoszony na przedmieściach większych miast, na rynkach miasteczek, przy uczęszczanych traktach, we wsiach w pobliżu kościoła lub dworu’"@de ;
    rdfs:isDefinedBy ontohgis:document_137
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit124 ;
+   owl:annotatedSource ontohgis:settlement_unit_124 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget """t. 2, s. 264: 1. dom szynkowy (Star.), szynk, szynkownia, gospoda; do na wsi albo przy drodze dla popasu podróżnych, austerja, oberża, dom zajezdny, zajazd’, 
 [por. t. 3, s. 453 hasło: oberża ‘dom gościnny, gospoda, zajazd, karczma, austerja’ i 
@@ -10951,27 +10951,27 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit124 ;
+   owl:annotatedSource ontohgis:settlement_unit_124 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 2, s. 318: dom szynkowy"@pl ;
    rdfs:isDefinedBy ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit124 ;
+   owl:annotatedSource ontohgis:settlement_unit_124 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 3, s. 564: szynk na wsi, gospoda; dawniej również dom zajezdny, austeria, oberża"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit125
-ontohgis:settlement_unit125 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_125
+ontohgis:settlement_unit_125 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_500 ,
-                                            ontohgis:settlement_unit33 ,
+                                            ontohgis:settlement_unit_33 ,
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                              owl:someValuesFrom ontohgis:settlement_unit126
+                                              owl:someValuesFrom ontohgis:settlement_unit_126
                                             ] ,
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty ontohgis:hasProperFunction ;
@@ -10993,8 +10993,8 @@ ontohgis:settlement_unit125 rdf:type owl:Class ;
                                                                             "osada kuźnicza"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit126
-ontohgis:settlement_unit126 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_126
+ontohgis:settlement_unit_126 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_23 ;
                             dc:creator ontohgis:person_3 ;
                             ontohgis:hasExternalIdentifier "126"^^xsd:int ;
@@ -11017,48 +11017,48 @@ ontohgis:settlement_unit126 rdf:type owl:Class ;
                                                                             "kuźnica"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit126 ;
+   owl:annotatedSource ontohgis:settlement_unit_126 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 11, s. 598: ‘zakład przetapiający i obrabiający żelazo’, ‘warsztat kowalski; miejsce, gdzie się kuje’"@pl ;
    rdfs:isDefinedBy ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit126 ;
+   owl:annotatedSource ontohgis:settlement_unit_126 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 2, s. 561: utożsamia pojęcia kuźnia i kuźnica, podaje też termin bliskoznaczny kowalnia"@pl ;
    rdfs:isDefinedBy ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit126 ;
+   owl:annotatedSource ontohgis:settlement_unit_126 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 2, s. 653: ‘zabudowanie mieszczące w sobie jedno albo kilka ognisk, miechy i młoty poruszane przez wodę, gdzie z surowizny przetopionej i oczyszczonej wykuwa się żelazo gotowe; fabryka topienia żelaza i urabiana go w sztaby"@pl ;
    rdfs:isDefinedBy ontohgis:document_5
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit126 ;
+   owl:annotatedSource ontohgis:settlement_unit_126 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 3, s. 1328: zakład przemysłowy, fabryka wyrobów z żelaza itp. metali; dawniej kuźnia"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit126 ;
+   owl:annotatedSource ontohgis:settlement_unit_126 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 3, s.473–474: ‘warsztat wytopu i obróbki żelaza’"@pl ;
    rdfs:isDefinedBy ontohgis:document_6
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit127
-ontohgis:settlement_unit127 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_127
+ontohgis:settlement_unit_127 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_500 ,
-                                            ontohgis:settlement_unit33 ,
+                                            ontohgis:settlement_unit_33 ,
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                              owl:someValuesFrom ontohgis:settlement_unit128
+                                              owl:someValuesFrom ontohgis:settlement_unit_128
                                             ] ,
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty ontohgis:hasProperFunction ;
@@ -11082,8 +11082,8 @@ ontohgis:settlement_unit127 rdf:type owl:Class ;
                                                                             "osada hutnicza"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit128
-ontohgis:settlement_unit128 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_128
+ontohgis:settlement_unit_128 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_23 ;
                             dc:creator ontohgis:person_3 ;
                             ontohgis:hasExternalIdentifier "128"^^xsd:int ;
@@ -11106,29 +11106,29 @@ ontohgis:settlement_unit128 rdf:type owl:Class ;
                                                                             "huta"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit128 ;
+   owl:annotatedSource ontohgis:settlement_unit_128 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "rozróżnia hutę i hutę szkła. Huta – ‘zakład metalurgiczny, w którym wytapia się metale z rud’, zaś Huta szkła – ‘zakład wytapiający szkło i wytwarzający produkty szklane’"@pl ;
    rdfs:isDefinedBy ontohgis:document_3
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit128 ;
+   owl:annotatedSource ontohgis:settlement_unit_128 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 2, s. 67: ‘zakład, gdzie robią szkło albo topią metale’"@pl ;
    rdfs:isDefinedBy ontohgis:document_5
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit128 ;
+   owl:annotatedSource ontohgis:settlement_unit_128 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "zakład lub zespół zakładów przemysłowych produkujących metale z rud, szkło, siarkę i in.’, huty przerabiają nie tylko rudy na surówkę, lecz także surówkę na stal"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit129
-ontohgis:settlement_unit129 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_129
+ontohgis:settlement_unit_129 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_50 ;
                             dc:creator ontohgis:person_5 ;
                             ontohgis:hasExternalIdentifier "129"^^xsd:int ;
@@ -11158,29 +11158,29 @@ ontohgis:settlement_unit129 rdf:type owl:Class ;
                                                                             "leśniczówka"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit129 ;
+   owl:annotatedSource ontohgis:settlement_unit_129 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Dom, zagroda w lesie stanowiąca mieszkanie; mieszkanie leśniczego (zarządca obszaru leśnego stanowiącego leśnictwo) wraz z zabudowaniami gospodarskimi"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit129 ;
+   owl:annotatedSource ontohgis:settlement_unit_129 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Pojedyncza zagroda służąca leśniczemu i będąca jednocześnie siedzibą leśnictwa"@pl ;
    rdfs:isDefinedBy ontohgis:document_9
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit129 ;
+   owl:annotatedSource ontohgis:settlement_unit_129 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 2, s. 721: domek w lesie, mieszkanie, zagroda leśniczego a. leśnika"@pl ;
    rdfs:isDefinedBy ontohgis:document_5
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit130
-ontohgis:settlement_unit130 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_130
+ontohgis:settlement_unit_130 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_50 ;
                             dc:creator ontohgis:person_5 ;
                             ontohgis:hasExternalIdentifier "130"^^xsd:int ;
@@ -11209,29 +11209,29 @@ ontohgis:settlement_unit130 rdf:type owl:Class ;
                                                                             "gajówka"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit130 ;
+   owl:annotatedSource ontohgis:settlement_unit_130 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Budynek, w którym mieszka gajowy (pracownik nadleśnictwa chroniący przydzieloną mu część lasu przed szkodami)"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit130 ;
+   owl:annotatedSource ontohgis:settlement_unit_130 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Pojedyncza zagroda, zazwyczaj położona w lesie, pełniąca funkcję mieszkania służbowego dla funkcjonariuszy pomocniczej służy leśnej podleśniczych lub gajowych"@pl ;
    rdfs:isDefinedBy ontohgis:document_9
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit130 ;
+   owl:annotatedSource ontohgis:settlement_unit_130 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 1, s. 793: chatka gajowego"@pl ;
    rdfs:isDefinedBy ontohgis:document_5
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit131
-ontohgis:settlement_unit131 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_131
+ontohgis:settlement_unit_131 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_50 ;
                             dc:creator ontohgis:person_5 ;
                             ontohgis:hasExternalIdentifier "131"^^xsd:int ;
@@ -11257,15 +11257,15 @@ If it has its a particular (proper) name, it can be treated as a separate locali
                                                                             "lighthouse"@en .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit131 ;
+   owl:annotatedSource ontohgis:settlement_unit_131 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "wysoka, widoczna z morza wieża, służąca jako punkt orientacyjny dla statków"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit132
-ontohgis:settlement_unit132 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_132
+ontohgis:settlement_unit_132 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_50 ;
                             dc:creator ontohgis:person_6 ;
                             ontohgis:hasExternalIdentifier "132"^^xsd:int ;
@@ -11298,7 +11298,7 @@ ontohgis:settlement_unit132 rdf:type owl:Class ;
                                                                             "monastery"@en .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit132 ;
+   owl:annotatedSource ontohgis:settlement_unit_132 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "1. budynek lub kompleks budynków stanowiących wspólne miejsce zamieszkiwania zakonnic lub zakonników; 2. wspólnota zakonna o określonej regule"@pl ;
    rdfs:isDefinedBy ontohgis:document_3 ,
@@ -11306,43 +11306,43 @@ ontohgis:settlement_unit132 rdf:type owl:Class ;
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit132 ;
+   owl:annotatedSource ontohgis:settlement_unit_132 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "1. zgromadzenie zakonne; zakon--; 2. budynek lub kompleks budynków zamieszkiwanych przez zakonników (zakonnice) danej reguły"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit132 ;
+   owl:annotatedSource ontohgis:settlement_unit_132 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 1, cz. 2, s. 1010: pomieszkanie zakonnicze"@pl ;
    rdfs:isDefinedBy ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit132 ;
+   owl:annotatedSource ontohgis:settlement_unit_132 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 10, s. 337: 1. Odosobnione i wyodrębnione spośród innych osiedli ludzkich miejsce zamieszkania zakonników i zakonnic (pojmowane jako budynek lub jego mieszkańcy); odosobnienie; tryb życia klasztornego; w wypadku niektórych zakonów także: szkoła, kolegium; coenobium, monasterium."@pl ;
    rdfs:isDefinedBy ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit132 ;
+   owl:annotatedSource ontohgis:settlement_unit_132 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 3, s. 282: zabudowanie dla zgromadzenia zakonnego zwykle połączone z kościołem, coenobium, religiosorum domus."@pl ;
    rdfs:isDefinedBy ontohgis:document_6
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit132 ;
+   owl:annotatedSource ontohgis:settlement_unit_132 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 9, kol. 66-76: zespół budynków lub pomieszczeń mieszkalnych i gospodarczych o różnej strukturze, przeznaczonych do prowadzenia życia pustelniczego (zob. ławra) lub wspólnotowego życia ascetycznego (zob. asceza), występujący w religiach pozachrześcijańskich i chrześcijaństwie. -- Czasem rozbudowane założenia klasztorne tworzyły wręcz miasto, a nawet państwo mnichów (civitas monachorum)"@pl ;
    rdfs:isDefinedBy ontohgis:document_7
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit133
-ontohgis:settlement_unit133 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_133
+ontohgis:settlement_unit_133 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_23 ;
                             dc:creator ontohgis:person_6 ;
                             ontohgis:hasExternalIdentifier "133"^^xsd:int ;
@@ -11366,21 +11366,21 @@ ontohgis:settlement_unit133 rdf:type owl:Class ;
                                                                             "tartak"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit133 ;
+   owl:annotatedSource ontohgis:settlement_unit_133 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 3, s. 607: młyn do tarcia drzew na tarcice, dyle"@pl ;
    rdfs:isDefinedBy ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit133 ;
+   owl:annotatedSource ontohgis:settlement_unit_133 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 7, s. 29: Pilarnia, młyn do tarcia drzewa na tarcice, dyle: Tartak wodny, parowy"@pl ;
    rdfs:isDefinedBy ontohgis:document_5
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit133 ;
+   owl:annotatedSource ontohgis:settlement_unit_133 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "zakład przemysłowy zajmujący się przecieraniem drewna na tarcicę"@pl ;
    rdfs:isDefinedBy ontohgis:document_4 ,
@@ -11388,7 +11388,7 @@ ontohgis:settlement_unit133 rdf:type owl:Class ;
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit133 ;
+   owl:annotatedSource ontohgis:settlement_unit_133 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "«zakład zajmujący się rozpiłowywaniem kłód na tarcicę oraz przerobem tarcicy na różne elementy»"@pl ;
    rdfs:isDefinedBy ontohgis:document_3 ,
@@ -11396,8 +11396,8 @@ ontohgis:settlement_unit133 rdf:type owl:Class ;
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit134
-ontohgis:settlement_unit134 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_134
+ontohgis:settlement_unit_134 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_23 ;
                             dc:creator ontohgis:person_6 ;
                             ontohgis:hasExternalIdentifier "134"^^xsd:int ;
@@ -11417,7 +11417,7 @@ ontohgis:settlement_unit134 rdf:type owl:Class ;
                                                                             "torfiarnia"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit134 ;
+   owl:annotatedSource ontohgis:settlement_unit_134 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "kopalnia torfu"@pl ;
    rdfs:isDefinedBy ontohgis:document_4 ,
@@ -11425,15 +11425,15 @@ ontohgis:settlement_unit134 rdf:type owl:Class ;
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit134 ;
+   owl:annotatedSource ontohgis:settlement_unit_134 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 7, s. 85: kopalnia torfu, torfowisko eksploatowane"@pl ;
    rdfs:isDefinedBy ontohgis:document_5
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit135
-ontohgis:settlement_unit135 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_135
+ontohgis:settlement_unit_135 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_23 ;
                             dc:creator ontohgis:person_4 ;
                             ontohgis:hasExternalIdentifier "135"^^xsd:int ;
@@ -11465,21 +11465,21 @@ ontohgis:settlement_unit135 rdf:type owl:Class ;
                                                                             "browar - obiekt"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit135 ;
+   owl:annotatedSource ontohgis:settlement_unit_135 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 1, cz.12, s. 272: Browar, budynek, gdzie się piwo warzy, piwowarnia, mielcuch"@pl ;
    rdfs:isDefinedBy ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit135 ;
+   owl:annotatedSource ontohgis:settlement_unit_135 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 2, s. 455-456: budynek, w którym się warzy piwo, piwowarnia"@pl ;
    rdfs:isDefinedBy ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit135 ;
+   owl:annotatedSource ontohgis:settlement_unit_135 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "zakład produkujący piwo"@pl ;
    rdfs:isDefinedBy ontohgis:document_3 ,
@@ -11487,15 +11487,15 @@ ontohgis:settlement_unit135 rdf:type owl:Class ;
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit135 ;
+   owl:annotatedSource ontohgis:settlement_unit_135 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "zakład przemysłowy, w którym wyrabia się piwo; wytwórnia piwa"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit136
-ontohgis:settlement_unit136 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_136
+ontohgis:settlement_unit_136 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_23 ;
                             dc:creator ontohgis:person_4 ;
                             ontohgis:hasExternalIdentifier "136"^^xsd:int ;
@@ -11522,28 +11522,28 @@ ontohgis:settlement_unit136 rdf:type owl:Class ;
                                                                             "cegielnia"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit136 ;
+   owl:annotatedSource ontohgis:settlement_unit_136 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 1, cz. 1, s. 221: Cegielnia, Cegielnica, budynek z piecem od palenia cegieł, die Ziegelscheune, der Ziegelofen"@pl ;
    rdfs:isDefinedBy ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit136 ;
+   owl:annotatedSource ontohgis:settlement_unit_136 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 3, s. 142: cegielnia – miejsce wyrobu cegieł"@pl ;
    rdfs:comment ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit136 ;
+   owl:annotatedSource ontohgis:settlement_unit_136 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "wytwórnia cegly oraz innych materiałów budowlanych z gliny: dachówek, sączków (drenów), kafli, klinkierów, płytek itp."@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit136 ;
+   owl:annotatedSource ontohgis:settlement_unit_136 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "wytwórnia cegły oraz innych materiałów budowlanych z gliny"@pl ;
    rdfs:isDefinedBy ontohgis:document_3 ,
@@ -11551,8 +11551,8 @@ ontohgis:settlement_unit136 rdf:type owl:Class ;
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit137
-ontohgis:settlement_unit137 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_137
+ontohgis:settlement_unit_137 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_23 ;
                             dc:creator ontohgis:person_4 ;
                             ontohgis:hasExternalIdentifier "137"^^xsd:int ;
@@ -11584,21 +11584,21 @@ ontohgis:settlement_unit137 rdf:type owl:Class ;
                                                                             "mine"@en .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit137 ;
+   owl:annotatedSource ontohgis:settlement_unit_137 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Teren zakładu górniczego, zajmującego się wydobywaniem z ziemi kopalin użytecznych. Ze względu na sposób wydobycia rozróżnia się kopalnie odkrywkowe (naziemne), głębinowe (podziemne) i otworowe."@pl ;
    rdfs:isDefinedBy ontohgis:document_9
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit137 ;
+   owl:annotatedSource ontohgis:settlement_unit_137 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 1, cz. 2, s. 1077: Kopalnia, miejsce gdzie się iakowe rzeczy kopalne z ziemi dobywają"@pl ;
    rdfs:isDefinedBy ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit137 ;
+   owl:annotatedSource ontohgis:settlement_unit_137 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "zakład górniczy zajmujący się wydobywaniem z ziemi kopalin"@pl ;
    rdfs:isDefinedBy ontohgis:document_3 ,
@@ -11606,15 +11606,15 @@ ontohgis:settlement_unit137 rdf:type owl:Class ;
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit137 ;
+   owl:annotatedSource ontohgis:settlement_unit_137 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "zakład górniczy zajmujący się wydobywaniem z ziemi kopalin użytecznych"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit138
-ontohgis:settlement_unit138 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_138
+ontohgis:settlement_unit_138 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_23 ;
                             dc:creator ontohgis:person_4 ;
                             ontohgis:hasExternalIdentifier "138" ,
@@ -11636,21 +11636,21 @@ ontohgis:settlement_unit138 rdf:type owl:Class ;
                                                                             "sugar factory"@en .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit138 ;
+   owl:annotatedSource ontohgis:settlement_unit_138 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "fabryka cukru"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit138 ;
+   owl:annotatedSource ontohgis:settlement_unit_138 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 1, cz. 1, s. 327: [Brak hasła „cukrownia”.] Cukrowarz, fabrykant cukru, warzący sok na cukier, derZuckersieder, cf. Cukiernik."@pl ;
    rdfs:isDefinedBy ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit138 ;
+   owl:annotatedSource ontohgis:settlement_unit_138 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "zakład przemysłowy produkujący cukier"@pl ;
    rdfs:isDefinedBy ontohgis:document_3 ,
@@ -11658,8 +11658,8 @@ ontohgis:settlement_unit138 rdf:type owl:Class ;
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit139
-ontohgis:settlement_unit139 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_139
+ontohgis:settlement_unit_139 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_23 ;
                             dc:creator ontohgis:person_6 ;
                             ontohgis:hasExternalIdentifier "139"^^xsd:int ;
@@ -11689,14 +11689,14 @@ ontohgis:settlement_unit139 rdf:type owl:Class ;
                                                                             "gorzelnia"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit139 ;
+   owl:annotatedSource ontohgis:settlement_unit_139 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 1, cz. 2, s. 54: Gorzalnia, gorzelnia, budowanie do palenia gorzałki (pospolicie zowią: browarem, ale borwar na piwo iest.)"@pl ;
    rdfs:isDefinedBy ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit139 ;
+   owl:annotatedSource ontohgis:settlement_unit_139 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "zakład przemysłowy produkujący alkohol etylowy"@pl ;
    rdfs:isDefinedBy ontohgis:document_3 ,
@@ -11704,19 +11704,19 @@ ontohgis:settlement_unit139 rdf:type owl:Class ;
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit139 ;
+   owl:annotatedSource ontohgis:settlement_unit_139 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "zakład przemysłowy produkujący spirytus i wódki głównie z kartofli lub zboża"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit17
-ontohgis:settlement_unit17 rdf:type owl:Class ;
-                           rdfs:subClassOf ontohgis:settlement_unit27 ,
+###  http://purl.org/ontohgis#settlement_unit_17
+ontohgis:settlement_unit_17 rdf:type owl:Class ;
+                           rdfs:subClassOf ontohgis:settlement_unit_27 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                             owl:someValuesFrom ontohgis:settlement_unit130
+                                             owl:someValuesFrom ontohgis:settlement_unit_130
                                            ] ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
@@ -11744,13 +11744,13 @@ ontohgis:settlement_unit17 rdf:type owl:Class ;
                                                                            "gajówka"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit18
-ontohgis:settlement_unit18 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_18
+ontohgis:settlement_unit_18 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_500 ,
-                                           ontohgis:settlement_unit3003 ,
+                                           ontohgis:settlement_unit_3003 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                             owl:someValuesFrom ontohgis:settlement_unit139
+                                             owl:someValuesFrom ontohgis:settlement_unit_139
                                            ] ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
@@ -11778,15 +11778,15 @@ ontohgis:settlement_unit18 rdf:type owl:Class ;
                                                                            "gorzelnia"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit19
-ontohgis:settlement_unit19 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_19
+ontohgis:settlement_unit_19 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_1001 ,
-                                           ontohgis:settlement_unit1000 ,
-                                           ontohgis:settlement_unit3003 ,
-                                           ontohgis:settlement_unit33 ,
+                                           ontohgis:settlement_unit_1000 ,
+                                           ontohgis:settlement_unit_3003 ,
+                                           ontohgis:settlement_unit_33 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                             owl:someValuesFrom ontohgis:settlement_unit132
+                                             owl:someValuesFrom ontohgis:settlement_unit_132
                                            ] ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
@@ -11817,10 +11817,10 @@ ontohgis:settlement_unit19 rdf:type owl:Class ;
                                                                            "osada klasztorna"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit2
-ontohgis:settlement_unit2 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_2
+ontohgis:settlement_unit_2 rdf:type owl:Class ;
                           rdfs:subClassOf ontohgis:object_1000 ,
-                                          ontohgis:settlement_unit1000 ,
+                                          ontohgis:settlement_unit_1000 ,
                                           [ rdf:type owl:Restriction ;
                                             owl:onProperty ontohgis:hasProperFunction ;
                                             owl:hasValue ontohgis:function1
@@ -11879,73 +11879,73 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                                                           "wieś"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit2 ;
+   owl:annotatedSource ontohgis:settlement_unit_2 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "1. miejscowość zamieszkała przez ludzi, którzy trudnią się pracą na roli, 2. mieszkańcy takiej miejscowości, 3. tereny pozamiejskie, rolnicze, letniskowe, 4. ludzie trudniący się pracą na roli"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit2 ;
+   owl:annotatedSource ontohgis:settlement_unit_2 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Jednostka osadnicza o zwartej lub rozproszonej zabudowie i istniejących funkcjach rolniczych lub związanych z nimi usługowych lub turystycznych, nieposiadająca praw miejskich lub statusu miasta"@pl ;
    rdfs:isDefinedBy ontohgis:document_9
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit2 ;
+   owl:annotatedSource ontohgis:settlement_unit_2 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Kirchdorf: Dorf mit Kirche (I) und Pfarrer, rechtlicher und religiöser Mittelpunkt einer (eventuell aus mehreren Filialdörfern bestehenden) politischen oder Pfarr-Gemeinde [Wieś z kościołem i parafią, prawne i religijne centrum gminy politycznej albo parafialnej (ewentualnie składającej się z kilku wsi filialnych, wsi z kościołami filialnymi]"@de ;
    rdfs:isDefinedBy ontohgis:document_10
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit2 ;
+   owl:annotatedSource ontohgis:settlement_unit_2 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Pfarrdorf: 1. Dorf, in dem die für die Pfarrgemeinde konstitutive Pfarrkirche (I) steht [wieś, w której stoi kościół parafialny właściwy dla całej parafii, gminy parafialnej]; 2. zu einer Pfarre (I) gehöriges Dorf [wieś należąca do parafii]"@de ;
    rdfs:isDefinedBy ontohgis:document_10
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit2 ;
+   owl:annotatedSource ontohgis:settlement_unit_2 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ;
    rdfs:isDefinedBy ontohgis:document_8
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit2 ;
+   owl:annotatedSource ontohgis:settlement_unit_2 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "s. 29: wsią nazywamy osiedle w zasadzie otwarte, której ludność zajmuje się produkcją śródków żywności oraz surowców technicznych (tj. rolnictwem, hodowlą bydła, rybołówstwem itd.)"@pl ;
    rdfs:isDefinedBy ontohgis:document_16
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit2 ;
+   owl:annotatedSource ontohgis:settlement_unit_2 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 4, s. 365: wioska, imienie, dobro, grunt leżący; wieś targowa, wsie łowcze, osoczne, wołoskie."@pl ;
    rdfs:isDefinedBy ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit2 ;
+   owl:annotatedSource ontohgis:settlement_unit_2 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 7, s. 594–595: osada rolnicza, z pewnej liczby chat złożona, sioło"@pl ;
    rdfs:isDefinedBy ontohgis:document_5
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit2 ;
+   owl:annotatedSource ontohgis:settlement_unit_2 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. XX, s. 199–201: 1. osada, w której ludność zajmuje się głównie rolnictwem, 2. mieszkańcy wsi, ogół mieszkańców wsi."@pl ;
    rdfs:isDefinedBy ontohgis:document_6
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit20
-ontohgis:settlement_unit20 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_20
+ontohgis:settlement_unit_20 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_1000 ,
-                                           ontohgis:settlement_unit1000 ;
+                                           ontohgis:settlement_unit_1000 ;
                            dc:creator ontohgis:person_7 ,
                                       ontohgis:person_8 ;
                            ontohgis:hasExternalIdentifier "20"^^xsd:string ;
@@ -11985,57 +11985,57 @@ ontohgis:settlement_unit20 rdf:type owl:Class ;
                                                                            "kolonia"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit20 ;
+   owl:annotatedSource ontohgis:settlement_unit_20 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Jednostka osadnicza powstała jako rezultat ekspansji miejscowości poza obszar wcześniej istniejącej zabudowy, w szczególności kolonia miasta, kolonia wsi."@pl ;
    rdfs:isDefinedBy ontohgis:document_9
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit20 ;
+   owl:annotatedSource ontohgis:settlement_unit_20 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 1, s. 900: Osiedla mieszkaniowe położone z dala od centrum miasta, osady: niewielka posiadłość ziemska , nowa osada lub gospodarstwo rolne na gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji, migracji wewnętrznej itp."@pl ;
    rdfs:isDefinedBy ontohgis:document_19
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit20 ;
+   owl:annotatedSource ontohgis:settlement_unit_20 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 1-2, s. 1566: część miejscowości, zwykle  z dale od jej centrum, składająca się z nowobudowanych domostw, will, itp."@pl ;
    rdfs:isDefinedBy ontohgis:document_18
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit20 ;
+   owl:annotatedSource ontohgis:settlement_unit_20 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 2,  s. 240: zabudowa, osiedle, domy znajdujące się z dala od miasta, wsi, osady; kolonia mieszkaniowa na przedmieściach, kolonia położona daleko za wsią, gospodarstwo rolne położone za wsią, posiadłość ziemska z dala od innych."@pl ;
    rdfs:comment ontohgis:document_20
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit20 ;
+   owl:annotatedSource ontohgis:settlement_unit_20 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 2, s. 404: mała posiadłość ziemska należąca do przybysza z obcego kraju; osada włościańska po uwłaszczeniu włościan; osada, miejsce, gdzie koloniści osadnicy mieszkają, budy, szopy, majdan."@pl ;
    rdfs:isDefinedBy ontohgis:document_5
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit20 ;
+   owl:annotatedSource ontohgis:settlement_unit_20 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 5, s. 720: kolonia rolna -- gospodarstwo rolne powstałe w oddaleniu od wsi na gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji, itp.; także kilka lub kilkanaście zagród w rozproszeniu -- osada na ziemiach nowo zagospodarowanych"@pl ;
    rdfs:isDefinedBy ontohgis:document_11
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit20 ;
+   owl:annotatedSource ontohgis:settlement_unit_20 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "„W ten sposób termin 'osada' może tutaj oznaczać nie tylko małe osiedla, złożone z jednego lub kilku wyodrębnionych terytorialnie gospodarstw włościańskich, jak to miało miejsce na innych ziemiach polskich, lecz i większe, o charakterze kolonii, t. j. osiedli rozrzuconych na większej przestrzeni, a powstałych zazwyczaj na gruntach rozparcelowanych przez władze zaborcze”"@pl ;
    rdfs:isDefinedBy ontohgis:document_91
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit2000
-ontohgis:settlement_unit2000 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_2000
+ontohgis:settlement_unit_2000 rdf:type owl:Class ;
                              rdfs:subClassOf obo:BFO_0000140 ,
                                              <http://www.opengis.net/ont/geosparql#Feature> ,
                                              [ rdf:type owl:Restriction ;
@@ -12050,8 +12050,8 @@ ontohgis:settlement_unit2000 rdf:type owl:Class ;
                                         "granica podziału administracyjnego"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit2001
-ontohgis:settlement_unit2001 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_2001
+ontohgis:settlement_unit_2001 rdf:type owl:Class ;
                              rdfs:subClassOf obo:BFO_0000140 ,
                                              <http://www.opengis.net/ont/geosparql#Feature> ,
                                              [ rdf:type owl:Restriction ;
@@ -12066,14 +12066,14 @@ ontohgis:settlement_unit2001 rdf:type owl:Class ;
                                         "settlement unit boundary"@en .
 
 
-###  http://purl.org/ontohgis#settlement_unit21
-ontohgis:settlement_unit21 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_21
+ontohgis:settlement_unit_21 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_500 ,
-                                           ontohgis:settlement_unit3003 ,
-                                           ontohgis:settlement_unit33 ,
+                                           ontohgis:settlement_unit_3003 ,
+                                           ontohgis:settlement_unit_33 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                             owl:someValuesFrom ontohgis:settlement_unit137
+                                             owl:someValuesFrom ontohgis:settlement_unit_137
                                            ] ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
@@ -12115,10 +12115,10 @@ ontohgis:settlement_unit21 rdf:type owl:Class ;
                                                                            "osada górnicza"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit22
-ontohgis:settlement_unit22 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_22
+ontohgis:settlement_unit_22 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_1001 ,
-                                           ontohgis:settlement_unit1000 ,
+                                           ontohgis:settlement_unit_1000 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                              owl:hasValue <http://www.geonames.org/ontology#S.BRKS>
@@ -12129,10 +12129,10 @@ ontohgis:settlement_unit22 rdf:type owl:Class ;
                            rdfs:seeAlso <http://linkedgeodata.org/ontology/Barracks> .
 
 
-###  http://purl.org/ontohgis#settlement_unit23
-ontohgis:settlement_unit23 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_23
+ontohgis:settlement_unit_23 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_1001 ,
-                                           ontohgis:settlement_unit3003 ,
+                                           ontohgis:settlement_unit_3003 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function9
@@ -12162,9 +12162,9 @@ Odrębność funkcjonalna – wyróżniana jako rodzaj miejscowości u Bystrzyck
                                                                            "lighthouse"@en .
 
 
-###  http://purl.org/ontohgis#settlement_unit25
-ontohgis:settlement_unit25 rdf:type owl:Class ;
-                           rdfs:subClassOf ontohgis:settlement_unit1000 ,
+###  http://purl.org/ontohgis#settlement_unit_25
+ontohgis:settlement_unit_25 rdf:type owl:Class ;
+                           rdfs:subClassOf ontohgis:settlement_unit_1000 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function7
@@ -12204,21 +12204,21 @@ Występuje na mapach w nazwach miejscowości (letn.), ale nie w kluczach znaków
                                                                            "summer resort"@en .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit25 ;
+   owl:annotatedSource ontohgis:settlement_unit_25 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "miejscowość wypoczynkowa; letni pobyt poza miastem w celach wypoczynkowych"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit27
-ontohgis:settlement_unit27 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_27
+ontohgis:settlement_unit_27 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_1001 ,
-                                           ontohgis:settlement_unit1000 ,
-                                           ontohgis:settlement_unit3003 ,
+                                           ontohgis:settlement_unit_1000 ,
+                                           ontohgis:settlement_unit_3003 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                             owl:someValuesFrom ontohgis:settlement_unit129
+                                             owl:someValuesFrom ontohgis:settlement_unit_129
                                            ] ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
@@ -12252,9 +12252,9 @@ ontohgis:settlement_unit27 rdf:type owl:Class ;
                                                                            "leśniczówka"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit28
-ontohgis:settlement_unit28 rdf:type owl:Class ;
-                           rdfs:subClassOf ontohgis:settlement_unit3 ,
+###  http://purl.org/ontohgis#settlement_unit_28
+ontohgis:settlement_unit_28 rdf:type owl:Class ;
+                           rdfs:subClassOf ontohgis:settlement_unit_3 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                              owl:hasValue <http://www.geonames.org/ontology#P.PPL>
@@ -12288,7 +12288,7 @@ ontohgis:settlement_unit28 rdf:type owl:Class ;
                                                                            "town"@en .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit28 ;
+   owl:annotatedSource ontohgis:settlement_unit_28 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "małe miasto, -- przen. ludność małego miasta"@pl ;
    rdfs:isDefinedBy ontohgis:document_4 ,
@@ -12296,7 +12296,7 @@ ontohgis:settlement_unit28 rdf:type owl:Class ;
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit28 ;
+   owl:annotatedSource ontohgis:settlement_unit_28 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "małe miasto; pot. mieszkańcy małego miasta"@pl ;
    rdfs:isDefinedBy ontohgis:document_3 ,
@@ -12304,19 +12304,19 @@ ontohgis:settlement_unit28 rdf:type owl:Class ;
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit28 ;
+   owl:annotatedSource ontohgis:settlement_unit_28 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 13, s. 369-372: 1. Od znacz. 'miejsce' --; 2. Od znacz. 'wytyczony i najczęściej otoczony murem teren pokryty gęstą i planową zabudową"@pl ;
    rdfs:isDefinedBy ontohgis:document_2
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit3
-ontohgis:settlement_unit3 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_3
+ontohgis:settlement_unit_3 rdf:type owl:Class ;
                           rdfs:subClassOf ontohgis:object_1000 ,
-                                          ontohgis:settlement_unit1000 ,
-                                          ontohgis:settlement_unit3004 ,
-                                          ontohgis:settlement_unit3007 ,
+                                          ontohgis:settlement_unit_1000 ,
+                                          ontohgis:settlement_unit_3004 ,
+                                          ontohgis:settlement_unit_3007 ,
                                           [ rdf:type owl:Restriction ;
                                             owl:onProperty ontohgis:hasProperFunction ;
                                             owl:hasValue ontohgis:function3
@@ -12360,36 +12360,36 @@ ontohgis:settlement_unit3 rdf:type owl:Class ;
                                                                           "miasto"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit3 ;
+   owl:annotatedSource ontohgis:settlement_unit_3 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Jednostka osadnicza (wyodrębniony przestrzennie obszar zabudowy mieszkaniowej wraz z obiektami infrastruktury technicznej zamieszkany przez ludzi) o przewadze zwartej zabudowy i funkcjach nierolniczych posiadająca prawa miejskie bądź status miasta nadany w trybie określonym odrębnymi przepisami."@pl ;
    rdfs:isDefinedBy ontohgis:document_9
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit3 ;
+   owl:annotatedSource ontohgis:settlement_unit_3 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Skupisko ludności, odróżniające się od innych swymi głównie nierolniczymi funkcjami, znaczną wielkością oraz intensywnością zabudowy. Definicja ta musi być jednak interpretowana elastycznie i zawsze na tle aktualnej sieci osadniczej."@pl ;
    rdfs:isDefinedBy ontohgis:document_11
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit3 ;
+   owl:annotatedSource ontohgis:settlement_unit_3 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "s. 63: Miasto jest osadą różniącą się od wsi i nierolniczych osad monofunkcyjnych względną wielkością z zagęszczoną i rozczłonkowaną zabudową, z ludnością wyspecjalizowaną zawodowo i rozwarstwioną społecznie oraz funkcjami centralnymi pełnionymi wobec określonego regionu lub lokalnej ludności w sferze polityki, panowania, obronności, gospodarki, kultu i kultury [Stadt ist eine vom Dorf und nichtagrarischen Einzwecksiedlungen unterschiedene Siedlung relativer Größe mit verdichteter, gegliederter Bebauung, beruflich spezialisierter und sozial geschichteter Bevölkerung und zentralen Funktionen politisch-herrschaftlich-militärischer, wirtschaftlicher und kultisch-kultureller Art für eine bestimmte Region oder regionale Bevölkerung]"@de ;
    rdfs:isDefinedBy ontohgis:document_12
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit3 ;
+   owl:annotatedSource ontohgis:settlement_unit_3 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 13, s. 37: Wytyczony i najczęściej otoczony murem teren, pokryty gęstą i planową zabudową tworzącą place i ulice, stanowiący mniej lub więcej samodzielną jednostkę administracyjną, samorządową, a czasem polityczną."@pl ;
    rdfs:isDefinedBy ontohgis:document_2
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit3003
-ontohgis:settlement_unit3003 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_3003
+ontohgis:settlement_unit_3003 rdf:type owl:Class ;
                              owl:equivalentClass [ owl:intersectionOf ( ontohgis:object_32
                                                                         [ rdf:type owl:Restriction ;
                                                                           owl:onProperty ontohgis:settlementHasSettlementPart ;
@@ -12411,8 +12411,8 @@ ontohgis:settlement_unit3003 rdf:type owl:Class ;
                                         "(mereologicznie) prosta miejscowość"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit3004
-ontohgis:settlement_unit3004 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_3004
+ontohgis:settlement_unit_3004 rdf:type owl:Class ;
                              owl:equivalentClass [ owl:intersectionOf ( ontohgis:object_32
                                                                         [ rdf:type owl:Restriction ;
                                                                           owl:onProperty ontohgis:settlementHasSettlementPart ;
@@ -12430,8 +12430,8 @@ ontohgis:settlement_unit3004 rdf:type owl:Class ;
                                         "(mereologicznie) złożona miejscowość"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit3007
-ontohgis:settlement_unit3007 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_3007
+ontohgis:settlement_unit_3007 rdf:type owl:Class ;
                              owl:equivalentClass [ owl:intersectionOf ( ontohgis:object_32
                                                                         [ rdf:type owl:Restriction ;
                                                                           owl:onProperty ontohgis:settlementIsPartOfSettlement ;
@@ -12449,8 +12449,8 @@ ontohgis:settlement_unit3007 rdf:type owl:Class ;
                                         "(mereologicznie) samodzielna miejscowość"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit3008
-ontohgis:settlement_unit3008 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_3008
+ontohgis:settlement_unit_3008 rdf:type owl:Class ;
                              owl:equivalentClass [ owl:intersectionOf ( ontohgis:object_32
                                                                         [ rdf:type owl:Restriction ;
                                                                           owl:onProperty ontohgis:settlementIsPartOfSettlement ;
@@ -12467,8 +12467,8 @@ ontohgis:settlement_unit3008 rdf:type owl:Class ;
                                         "(mereologicznie) niesamodzielna miejscowość"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit33
-ontohgis:settlement_unit33 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_33
+ontohgis:settlement_unit_33 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_32 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasFunction ;
@@ -12512,28 +12512,28 @@ ontohgis:settlement_unit33 rdf:type owl:Class ;
                                                                            "settlement"@en .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit33 ;
+   owl:annotatedSource ontohgis:settlement_unit_33 ;
    owl:annotatedProperty rdfs:comment ;
    owl:annotatedTarget "„W ten sposób termin 'osada' może tutaj oznaczać nie tylko małe osiedla, złożone z jednego lub kilku wyodrębnionych terytorialnie gospodarstw włościańskich, jak to miało miejsce na innych ziemiach polskich, lecz i większe, o charakterze kolonii, t. j. osiedli rozrzuconych na większej przestrzeni, a powstałych zazwyczaj na gruntach rozparcelowanych przez władze zaborcze”"@pl ;
    rdfs:isDefinedBy ontohgis:document_91
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit33 ;
+   owl:annotatedSource ontohgis:settlement_unit_33 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Niewielka jednostka osadnicza na terenie wiejskim o odmiennym (wyróżniającym się) charakterze zabudowy albo zamieszkana przez ludność związaną z miejscem lub rodzajem pracy, innymi niż wyżej wymienione [osada młyńska, osada leśna, osada rybacka, osada kolejowa, osada po byłem PGR]; źródło: ustawa z dnia 29 sierpnia 2003 r. o urzędowych nazwach miejscowości i obiektów fizjograficznych."@pl ;
    rdfs:isDefinedBy ontohgis:document_22
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit33 ;
+   owl:annotatedSource ontohgis:settlement_unit_33 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Niewielka jednostka osadnicza na terenie wiejskim o odmiennym(wyróżniającym się) charakterze zabudowy albo zamieszkana przez ludność zwiazaną z określonym miejscem lub rodzajem pracy, w szczególności: osada młyńska, osada leśna, osada rybacka, osada kolejowa, osada po byłym państwowym gospodarstwie rolnym; osada może być samodzielna lub może stanowić część innej jednostki osadniczej."@pl ;
    rdfs:isDefinedBy ontohgis:document_9
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit33 ;
+   owl:annotatedSource ontohgis:settlement_unit_33 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "niewielka miejscowość, niemająca praw osiedla czy miasta; też: mieszkańcy takiej miejscowości"@pl ;
    rdfs:isDefinedBy ontohgis:document_3 ,
@@ -12541,7 +12541,7 @@ ontohgis:settlement_unit33 rdf:type owl:Class ;
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit33 ;
+   owl:annotatedSource ontohgis:settlement_unit_33 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "osiedle typu wiejskiego pośrednie między wsią a miasteczkiem; kolonia, mieszkańcy tego osiedla"@pl ;
    rdfs:isDefinedBy ontohgis:document_4 ,
@@ -12549,37 +12549,37 @@ ontohgis:settlement_unit33 rdf:type owl:Class ;
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit33 ;
+   owl:annotatedSource ontohgis:settlement_unit_33 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 22, s. 99: 1. Osiedle, miejsce zamieszkałe przez osadzoną ludność, terytorium zamieszkałe, -- a. Siedlisko, mieszkanie --; 2. Mieszkańcy osiedla; ludność żyjąca na jakimś terenie --; 3. Miejsce zdatne, dogodne do osiedlenia się --; 4. Zasiedlenie pustego miejsca, colonia."@pl ;
    rdfs:isDefinedBy ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit33 ;
+   owl:annotatedSource ontohgis:settlement_unit_33 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 3, s. 547: osada, koloniia, mieysce, gdzie się nowi mieszkańcy sadowią, eine Kolonie (cf. wola), Pflanzstadt, Pflanzort, Ansiedlung; -- Vd. selizhzhe, preselishe, selitva, naselitva; Rs.  колонїя, селенїе (ob. sieło, sioło), поселенїе, селишьба."@pl ;
    rdfs:isDefinedBy ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit33 ;
+   owl:annotatedSource ontohgis:settlement_unit_33 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 3, s. 836-837: 1.a. miejsce, gdzie ś. nowi mieszkańcy usadowili, kolonja --; b. miejsce zajęte przez mieszkańców, większe od wsi a mniejsze do miasta --; c. [Osiedle] grunt, na którym osadzano chłopa; sadyba, zagroda włościańska"@pl ;
    rdfs:isDefinedBy ontohgis:document_5
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit34
-ontohgis:settlement_unit34 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_34
+ontohgis:settlement_unit_34 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_1000 ,
-                                           ontohgis:settlement_unit1000 ,
-                                           ontohgis:settlement_unit3008 ,
+                                           ontohgis:settlement_unit_1000 ,
+                                           ontohgis:settlement_unit_3008 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                              owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                  owl:unionOf ( ontohgis:settlement_unit2
-                                                                                ontohgis:settlement_unit3
+                                                                  owl:unionOf ( ontohgis:settlement_unit_2
+                                                                                ontohgis:settlement_unit_3
                                                                               )
                                                                 ]
                                            ] ,
@@ -12634,72 +12634,72 @@ W ujęciu kartograficznym wyodrębnione przez nazwę własną, poprzedzoną  skr
                                                                            "osiedle"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit34 ;
+   owl:annotatedSource ontohgis:settlement_unit_34 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "10. Rodzaj miejscowości (Klasa: AD_RodzajMiejscowosciKod): Zespół mieszkaniowy stanowiący integralną część miasta lub wsi; źródło: ustawa z dnia 29 sierpnia 2003 r. o urzędowych nazwach miejscowości i obiektów fizjograficznych."@pl ;
    rdfs:isDefinedBy ontohgis:document_22
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit34 ;
+   owl:annotatedSource ontohgis:settlement_unit_34 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "12. Typ ciągu komunikacyjnego (Klasa: AD_TypUlicyKod): Część miasta, wsi lub osady, dla której utworzono odrębny spójny zbiór numerów porządkowych nieprzyporządkowanych do żadnej ulicy ani placu."@pl ;
    rdfs:isDefinedBy ontohgis:document_22
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit34 ;
+   owl:annotatedSource ontohgis:settlement_unit_34 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Rodzaj jednostki pomocniczej (Klasa: AD_RodzajJednostkiPomocniczej): Część miasta lub wsi, której uchwałą rady gminy nadano status jednostki pomocniczej."@pl ;
    rdfs:isDefinedBy ontohgis:document_22
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit34 ;
+   owl:annotatedSource ontohgis:settlement_unit_34 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 2, s. 526: nieduże skupisko budynków miejskich lub wiejskich, zespół bloków mieszkalnych, willowe, przyfabryczne, robotnicze, mieszkaniowe"@pl ;
    rdfs:isDefinedBy ontohgis:document_19
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit34 ;
+   owl:annotatedSource ontohgis:settlement_unit_34 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 20, s. 56: osiedle mieszkaniowe – zespół  mieszkaniowy stanowiący strukturalną jednostkę mieszkaniową w mieście; pojęcie „osiedle mieszkaniowe” wywodzi się z koncepcji jednostki sąsiedzkiej; wielkość osiedla mieszkaniowego wynika z zasięgu pieszego dojścia (600–800 m) do ośrodka usługowego oraz gęstości zaludnienia (5–20 tys. mieszk.) obszaru obsługiwanego przez ten ośrodek. Stanowi zespół budynków mieszkalnych wraz z integralnym zapleczem obiektów usługowych oraz terenów zieleni; niekiedy są wydzielane części osiedli mieszkaniowych – kolonie, złożone z kilku bloków mieszkalnych; kilka osiedli mieszkaniowych tworzy dzielnicę."@pl ;
    rdfs:isDefinedBy ontohgis:document_21
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit34 ;
+   owl:annotatedSource ontohgis:settlement_unit_34 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 22, s. 124: osiedla, osiedlisko – siedziba, gospodarstwo wraz z zabudowaniami"@pl ;
    rdfs:isDefinedBy ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit34 ;
+   owl:annotatedSource ontohgis:settlement_unit_34 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 3, s. 590: osiedlić, na osadzie czyli siedlisku postanowić kogoś, osadzić go; osiedlisko – miejsce osiedlenia, osada, osiadłość"@pl ;
    rdfs:isDefinedBy ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit34 ;
+   owl:annotatedSource ontohgis:settlement_unit_34 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 6, s. 1121: nieduże skupienie siedzib ludzkich (miejskich lub wiejskich); reg. na wsi: dom mieszkalny wraz z zabudowaniami gospodarczymi, zagroda, dostatnie osiedle bogatego chłopa, sołtysowe osiedle"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit34 ;
+   owl:annotatedSource ontohgis:settlement_unit_34 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "zespół mieszkaniowy stanowiący integralną część miasta lub wsi"@pl ;
    rdfs:isDefinedBy ontohgis:document_9
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit35
-ontohgis:settlement_unit35 rdf:type owl:Class ;
-                           rdfs:subClassOf ontohgis:settlement_unit33 ,
+###  http://purl.org/ontohgis#settlement_unit_35
+ontohgis:settlement_unit_35 rdf:type owl:Class ;
+                           rdfs:subClassOf ontohgis:settlement_unit_33 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function2
@@ -12733,9 +12733,9 @@ ontohgis:settlement_unit35 rdf:type owl:Class ;
                                                                            "osada fabryczna"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit36
-ontohgis:settlement_unit36 rdf:type owl:Class ;
-                           rdfs:subClassOf ontohgis:settlement_unit33 ,
+###  http://purl.org/ontohgis#settlement_unit_36
+ontohgis:settlement_unit_36 rdf:type owl:Class ;
+                           rdfs:subClassOf ontohgis:settlement_unit_33 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function4
@@ -12765,12 +12765,12 @@ ontohgis:settlement_unit36 rdf:type owl:Class ;
                                                                            "osada leśna"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit37
-ontohgis:settlement_unit37 rdf:type owl:Class ;
-                           rdfs:subClassOf ontohgis:settlement_unit33 ,
+###  http://purl.org/ontohgis#settlement_unit_37
+ontohgis:settlement_unit_37 rdf:type owl:Class ;
+                           rdfs:subClassOf ontohgis:settlement_unit_33 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty oc:hasPredecessorEntityManifestation ;
-                                             owl:someValuesFrom ontohgis:settlement_unit3
+                                             owl:someValuesFrom ontohgis:settlement_unit_3
                                            ] ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
@@ -12798,16 +12798,16 @@ ontohgis:settlement_unit37 rdf:type owl:Class ;
                                                                            "urban settlement"@en .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit37 ;
+   owl:annotatedSource ontohgis:settlement_unit_37 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 20. s.47: od 1867 nazwa „osada miejska” jest używana dla niewielkich osiedli pozbawionych praw miejskich, które nie są wsiami."@enpl ;
    rdfs:comment ontohgis:document_21
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit38
-ontohgis:settlement_unit38 rdf:type owl:Class ;
-                           rdfs:subClassOf ontohgis:settlement_unit33 ,
+###  http://purl.org/ontohgis#settlement_unit_38
+ontohgis:settlement_unit_38 rdf:type owl:Class ;
+                           rdfs:subClassOf ontohgis:settlement_unit_33 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function2
@@ -12839,14 +12839,14 @@ ontohgis:settlement_unit38 rdf:type owl:Class ;
                                                                            "osada młyńska"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit41
-ontohgis:settlement_unit41 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_41
+ontohgis:settlement_unit_41 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_1001 ,
-                                           ontohgis:settlement_unit1000 ,
-                                           ontohgis:settlement_unit3003 ,
+                                           ontohgis:settlement_unit_1000 ,
+                                           ontohgis:settlement_unit_3003 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                             owl:someValuesFrom ontohgis:settlement_unit121
+                                             owl:someValuesFrom ontohgis:settlement_unit_121
                                            ] ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
@@ -12880,14 +12880,14 @@ ontohgis:settlement_unit41 rdf:type owl:Class ;
                                                                            "rectory"@en .
 
 
-###  http://purl.org/ontohgis#settlement_unit43
-ontohgis:settlement_unit43 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_43
+ontohgis:settlement_unit_43 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_1000 ,
-                                           ontohgis:settlement_unit1000 ,
-                                           ontohgis:settlement_unit3008 ,
+                                           ontohgis:settlement_unit_1000 ,
+                                           ontohgis:settlement_unit_3008 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                             owl:someValuesFrom ontohgis:settlement_unit3
+                                             owl:someValuesFrom ontohgis:settlement_unit_3
                                            ] ;
                            dc:creator ontohgis:person_2 ;
                            ontohgis:hasExternalIdentifier "43"^^xsd:string ;
@@ -12917,32 +12917,32 @@ It is necessary to distinguish  suburbs from the suburban settlements which were
                                                                              "wieś podmiejska"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit43 ;
+   owl:annotatedSource ontohgis:settlement_unit_43 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "Obszar wokół miasta, w ówczesnej Polsce i Europie uzależniony od niego prawnie i gospodarczo"@pl ;
    rdfs:isDefinedBy ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit43 ;
+   owl:annotatedSource ontohgis:settlement_unit_43 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "osada, teren, posiadłość poza obrębem murów miejskich"@pl ;
    rdfs:isDefinedBy ontohgis:document_6
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit43 ;
+   owl:annotatedSource ontohgis:settlement_unit_43 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "peryferyjna dzielnica miasta"@pl ;
    rdfs:isDefinedBy ontohgis:document_3
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit44
-ontohgis:settlement_unit44 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_44
+ontohgis:settlement_unit_44 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_1000 ,
-                                           ontohgis:settlement_unit1000 ,
-                                           ontohgis:settlement_unit3008 ;
+                                           ontohgis:settlement_unit_1000 ,
+                                           ontohgis:settlement_unit_3008 ;
                            dc:creator ontohgis:person_3 ;
                            ontohgis:hasExternalIdentifier "44"^^xsd:string ;
                            ontohgis:hasLanguageVerificator ontohgis:person_1 ;
@@ -12970,14 +12970,14 @@ ontohgis:settlement_unit44 rdf:type owl:Class ;
                                                                            "przysiółek"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit45
-ontohgis:settlement_unit45 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_45
+ontohgis:settlement_unit_45 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_1000 ,
                                            ontohgis:object_502 ,
-                                           ontohgis:settlement_unit3003 ,
+                                           ontohgis:settlement_unit_3003 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                             owl:someValuesFrom ontohgis:settlement_unit119
+                                             owl:someValuesFrom ontohgis:settlement_unit_119
                                            ] ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
@@ -13005,8 +13005,8 @@ ontohgis:settlement_unit45 rdf:type owl:Class ;
                                                                            "train stop"@en .
 
 
-###  http://purl.org/ontohgis#settlement_unit46
-ontohgis:settlement_unit46 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_46
+ontohgis:settlement_unit_46 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_100 ;
                            ontohgis:hasExternalIdentifier "46"^^xsd:string ;
                            rdfs:isDefinedBy "abandoned place"@en ;
@@ -13014,14 +13014,14 @@ ontohgis:settlement_unit46 rdf:type owl:Class ;
                            rdfs:seeAlso <http://gov.genealogy.net/types.owl#90> .
 
 
-###  http://purl.org/ontohgis#settlement_unit47
-ontohgis:settlement_unit47 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_47
+ontohgis:settlement_unit_47 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_500 ,
-                                           ontohgis:settlement_unit3003 ,
-                                           ontohgis:settlement_unit33 ,
+                                           ontohgis:settlement_unit_3003 ,
+                                           ontohgis:settlement_unit_33 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                             owl:someValuesFrom ontohgis:settlement_unit123
+                                             owl:someValuesFrom ontohgis:settlement_unit_123
                                            ] ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
@@ -13047,13 +13047,13 @@ ontohgis:settlement_unit47 rdf:type owl:Class ;
                                                                            "tar pitch"@en .
 
 
-###  http://purl.org/ontohgis#settlement_unit48
-ontohgis:settlement_unit48 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_48
+ontohgis:settlement_unit_48 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_1000 ,
                                            ontohgis:object_502 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                             owl:someValuesFrom ontohgis:settlement_unit118
+                                             owl:someValuesFrom ontohgis:settlement_unit_118
                                            ] ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
@@ -13085,13 +13085,13 @@ ontohgis:settlement_unit48 rdf:type owl:Class ;
                                                                            "stacja kolejowa"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit50
-ontohgis:settlement_unit50 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_50
+ontohgis:settlement_unit_50 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_500 ,
-                                           ontohgis:settlement_unit3003 ,
+                                           ontohgis:settlement_unit_3003 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                             owl:someValuesFrom ontohgis:settlement_unit133
+                                             owl:someValuesFrom ontohgis:settlement_unit_133
                                            ] ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
@@ -13122,13 +13122,13 @@ ontohgis:settlement_unit50 rdf:type owl:Class ;
                                                                            "tartak"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit51
-ontohgis:settlement_unit51 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_51
+ontohgis:settlement_unit_51 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_500 ,
-                                           ontohgis:settlement_unit3003 ,
+                                           ontohgis:settlement_unit_3003 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                             owl:someValuesFrom ontohgis:settlement_unit134
+                                             owl:someValuesFrom ontohgis:settlement_unit_134
                                            ] ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
@@ -13150,9 +13150,9 @@ ontohgis:settlement_unit51 rdf:type owl:Class ;
                                                                            "torfiarnia"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit52
-ontohgis:settlement_unit52 rdf:type owl:Class ;
-                           rdfs:subClassOf ontohgis:settlement_unit1000 ,
+###  http://purl.org/ontohgis#settlement_unit_52
+ontohgis:settlement_unit_52 rdf:type owl:Class ;
+                           rdfs:subClassOf ontohgis:settlement_unit_1000 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function5
@@ -13182,9 +13182,9 @@ ontohgis:settlement_unit52 rdf:type owl:Class ;
                                                                            "twierdza"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit53
-ontohgis:settlement_unit53 rdf:type owl:Class ;
-                           rdfs:subClassOf ontohgis:settlement_unit1000 ,
+###  http://purl.org/ontohgis#settlement_unit_53
+ontohgis:settlement_unit_53 rdf:type owl:Class ;
+                           rdfs:subClassOf ontohgis:settlement_unit_1000 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function10
@@ -13222,22 +13222,22 @@ Odrębność przestrzenna – wyraźna w przy Czarnieckiej Górze i Miłowodach 
                                                                              "sanatorium"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit53 ;
+   owl:annotatedSource ontohgis:settlement_unit_53 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "miejscowość, która ze względu na warunki klimatyczne, źródła lecznicze, pokłady borowiny, itp. sprzyja leczeniu chorób i służy jako ośrodek leczniczy i wypoczynkowy"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit53 ;
+   owl:annotatedSource ontohgis:settlement_unit_53 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 7, s. 424 – zakład leczniczy, lecznisko, leczysko, sanatorium"@pl ;
    rdfs:isDefinedBy ontohgis:document_5
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit54
-ontohgis:settlement_unit54 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_54
+ontohgis:settlement_unit_54 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_100 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
@@ -13278,7 +13278,7 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
                                                                            "uroczysko"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit54 ;
+   owl:annotatedSource ontohgis:settlement_unit_54 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "1. teren trudno dostępny, najczęściej bagnisty, leśny; też: miejsce odludne, 2. część terenu otoczona naturalnymi granicami, wyodrębniona za pomocą nazwy topograficznej, 3. u dawnych Słowian: miejsce w głębi puszczy związane z kultem bóstwa, odbywaniem narad lub uważane za siedzibę złych duchów"@pl ;
    rdfs:isDefinedBy ontohgis:document_3 ,
@@ -13286,42 +13286,42 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit54 ;
+   owl:annotatedSource ontohgis:settlement_unit_54 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "s. 57-80: uroczyska to cała gama pojęć, stale łąki i lokacje straży leśnej, czasem synonimy borów i ostępów, zjawiska terenowe zasadniczo rozległe o wielce zróżniczkowanej, a raczej nieuchwytnej i zatraconej już, treści. Można tylko utrzymywać, że uroczyska to teren eksploatacji par excellence."@pl ;
    rdfs:isDefinedBy ontohgis:document_14
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit54 ;
+   owl:annotatedSource ontohgis:settlement_unit_54 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 15, s. 34: nazwa kopca lub miejsca granicznego nieosiedlonego. Według Chodakowskiego, uroczyska, na Rusi horodyszczami zwane, były to w Słowiańszczyźnie przedchrześcijańskiej place, czyli świątyń posady, do sprawowania uroczystych pogańskich ofiar przeznaczone i nie mające śladu opisania wałami, byleby oddzielna, właściwe imię mająca, przywiązana do nich była jakaś pamiątka."@pl ;
    rdfs:isDefinedBy ontohgis:document_15
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit54 ;
+   owl:annotatedSource ontohgis:settlement_unit_54 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 6, s. 80: uroczysko, uroczyszcze -- (Rs. urocziszcze, = powiat, kraina); kopiec, mieysce graniczne. Tr. Gränzstein, Mohlhausen."@pl ;
    rdfs:isDefinedBy ontohgis:person_21
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit54 ;
+   owl:annotatedSource ontohgis:settlement_unit_54 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 7, s. 348: 1. starożytny , z czasów pogańskich nasyp ziemny w postaci mogiły a. okopu, kopiec, kurhan; miejsce graniczne. Troc. 2. miejsce odludne, tajemnicze – 3. miejscowość nie zamieszkana, nosząca jakie oddzielne charakterystyczne miano – 4. pewna część gruntu a. gruntów kilku posiadaczy w jednym miejscu, nosząca pewną nazwę – 5. miejsce w polu, składające się z gruntu i łąk, dawniej zarosłe lasem. 6. bart. okręg bartniczy --, 7. leśn. część lasu, oddzielona od innych części naturalnymi granicami, jako oto: wzgórzami, strumykami, łąkami, drogami i.t.p. albo też różniąca się drzewostanem"@pl ;
    rdfs:isDefinedBy ontohgis:document_5
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit54 ;
+   owl:annotatedSource ontohgis:settlement_unit_54 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 9, s. 431: 1. miedza graniczna, granica, limes agrorum, finis -- 2. teren poza granicą posiadłości, ale do niej przynależny, z własnymi granicami naturalnymi, locus extra fines praedii situs, sed ad id praedium pertinens, proprios fines naturales habens."@pl ;
    rdfs:isDefinedBy ontohgis:document_6
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit54 ;
+   owl:annotatedSource ontohgis:settlement_unit_54 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "u dawnych Słowian: miejsce przed świątynią lub w głębi puszczy, związane z kultem jakiegoś bóstwa, z odbywaniem narad, sądów; ogólnie: miejsce odludne, tajemnicze; pustkowie -- 2. część terenu (zwykle lasu wyodrębniona za pomocą nazwy o charakterze topograficznym."@pl ;
    rdfs:isDefinedBy ontohgis:document_4 ,
@@ -13329,10 +13329,10 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit55
-ontohgis:settlement_unit55 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_55
+ontohgis:settlement_unit_55 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_1001 ,
-                                           ontohgis:settlement_unit1000 ,
+                                           ontohgis:settlement_unit_1000 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                              owl:hasValue <http://www.geonames.org/ontology#S.PRN>
@@ -13344,10 +13344,10 @@ ontohgis:settlement_unit55 rdf:type owl:Class ;
                                         <http://linkedgeodata.org/ontology/Prison> .
 
 
-###  http://purl.org/ontohgis#settlement_unit56
-ontohgis:settlement_unit56 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_56
+ontohgis:settlement_unit_56 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_1000 ,
-                                           ontohgis:settlement_unit3003 ,
+                                           ontohgis:settlement_unit_3003 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function1
@@ -13373,11 +13373,11 @@ ontohgis:settlement_unit56 rdf:type owl:Class ;
                                                                            "zaścianek"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit6
-ontohgis:settlement_unit6 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_6
+ontohgis:settlement_unit_6 rdf:type owl:Class ;
                           rdfs:subClassOf ontohgis:object_1000 ,
-                                          ontohgis:settlement_unit1000 ,
-                                          ontohgis:settlement_unit3008 ;
+                                          ontohgis:settlement_unit_1000 ,
+                                          ontohgis:settlement_unit_3008 ;
                           ontohgis:hasExternalIdentifier "6"^^xsd:string ;
                           rdfs:label "district"@en ,
                                      "dzielnica"@pl ;
@@ -13385,19 +13385,19 @@ ontohgis:settlement_unit6 rdf:type owl:Class ;
                                        <http://linkedgeodata.org/ontology/Subdivision> .
 
 
-###  http://purl.org/ontohgis#settlement_unit60
-ontohgis:settlement_unit60 rdf:type owl:Class ;
-                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit3008
+###  http://purl.org/ontohgis#settlement_unit_60
+ontohgis:settlement_unit_60 rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_3008
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                        owl:someValuesFrom ontohgis:settlement_unit20
+                                                                        owl:someValuesFrom ontohgis:settlement_unit_20
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
                                                ] ;
                            rdfs:subClassOf ontohgis:object_1000 ,
-                                           ontohgis:settlement_unit1000 ,
-                                           ontohgis:settlement_unit3008 ;
+                                           ontohgis:settlement_unit_1000 ,
+                                           ontohgis:settlement_unit_3008 ;
                            dc:creator ontohgis:person_7 ,
                                       ontohgis:person_8 ;
                            ontohgis:hasExternalIdentifier "60"^^xsd:string ;
@@ -13414,19 +13414,19 @@ ontohgis:settlement_unit60 rdf:type owl:Class ;
                                                                            "part of a colony"@en .
 
 
-###  http://purl.org/ontohgis#settlement_unit61
-ontohgis:settlement_unit61 rdf:type owl:Class ;
-                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit3008
+###  http://purl.org/ontohgis#settlement_unit_61
+ontohgis:settlement_unit_61 rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_3008
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                        owl:someValuesFrom ontohgis:settlement_unit3
+                                                                        owl:someValuesFrom ontohgis:settlement_unit_3
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
                                                ] ;
                            rdfs:subClassOf ontohgis:object_1000 ,
-                                           ontohgis:settlement_unit1000 ,
-                                           ontohgis:settlement_unit3008 ,
+                                           ontohgis:settlement_unit_1000 ,
+                                           ontohgis:settlement_unit_3008 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function3
@@ -13457,19 +13457,19 @@ ontohgis:settlement_unit61 rdf:type owl:Class ;
                                                                            "part of a city"@en .
 
 
-###  http://purl.org/ontohgis#settlement_unit62
-ontohgis:settlement_unit62 rdf:type owl:Class ;
-                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit3008
+###  http://purl.org/ontohgis#settlement_unit_62
+ontohgis:settlement_unit_62 rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_3008
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                        owl:someValuesFrom ontohgis:settlement_unit33
+                                                                        owl:someValuesFrom ontohgis:settlement_unit_33
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
                                                ] ;
                            rdfs:subClassOf ontohgis:object_1000 ,
-                                           ontohgis:settlement_unit1000 ,
-                                           ontohgis:settlement_unit3008 ,
+                                           ontohgis:settlement_unit_1000 ,
+                                           ontohgis:settlement_unit_3008 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function3
@@ -13502,19 +13502,19 @@ ontohgis:settlement_unit62 rdf:type owl:Class ;
                                                                            "part of a settlement"@en .
 
 
-###  http://purl.org/ontohgis#settlement_unit63
-ontohgis:settlement_unit63 rdf:type owl:Class ;
-                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit3008
+###  http://purl.org/ontohgis#settlement_unit_63
+ontohgis:settlement_unit_63 rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_3008
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                        owl:someValuesFrom ontohgis:settlement_unit2
+                                                                        owl:someValuesFrom ontohgis:settlement_unit_2
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
                                                ] ;
                            rdfs:subClassOf ontohgis:object_1000 ,
-                                           ontohgis:settlement_unit1000 ,
-                                           ontohgis:settlement_unit3008 ,
+                                           ontohgis:settlement_unit_1000 ,
+                                           ontohgis:settlement_unit_3008 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function1
@@ -13544,19 +13544,19 @@ ontohgis:settlement_unit63 rdf:type owl:Class ;
                                                                              "wioska"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit64
-ontohgis:settlement_unit64 rdf:type owl:Class ;
-                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit20
+###  http://purl.org/ontohgis#settlement_unit_64
+ontohgis:settlement_unit_64 rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_20
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                        owl:someValuesFrom ontohgis:settlement_unit20
+                                                                        owl:someValuesFrom ontohgis:settlement_unit_20
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
                                                ] ;
-                           rdfs:subClassOf ontohgis:settlement_unit20 ,
-                                           ontohgis:settlement_unit3008 ,
-                                           ontohgis:settlement_unit60 ;
+                           rdfs:subClassOf ontohgis:settlement_unit_20 ,
+                                           ontohgis:settlement_unit_3008 ,
+                                           ontohgis:settlement_unit_60 ;
                            dc:creator ontohgis:person_7 ,
                                       ontohgis:person_8 ;
                            ontohgis:hasExternalIdentifier "64"^^xsd:string ;
@@ -13586,19 +13586,19 @@ ontohgis:settlement_unit64 rdf:type owl:Class ;
                                                                            "kolonia kolonii"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit65
-ontohgis:settlement_unit65 rdf:type owl:Class ;
-                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit20
+###  http://purl.org/ontohgis#settlement_unit_65
+ontohgis:settlement_unit_65 rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_20
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                        owl:someValuesFrom ontohgis:settlement_unit33
+                                                                        owl:someValuesFrom ontohgis:settlement_unit_33
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
                                                ] ;
-                           rdfs:subClassOf ontohgis:settlement_unit20 ,
-                                           ontohgis:settlement_unit3008 ,
-                                           ontohgis:settlement_unit70 ,
+                           rdfs:subClassOf ontohgis:settlement_unit_20 ,
+                                           ontohgis:settlement_unit_3008 ,
+                                           ontohgis:settlement_unit_70 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function3
@@ -13621,19 +13621,19 @@ ontohgis:settlement_unit65 rdf:type owl:Class ;
                                                                            "kolonia osady"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit66
-ontohgis:settlement_unit66 rdf:type owl:Class ;
-                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit20
+###  http://purl.org/ontohgis#settlement_unit_66
+ontohgis:settlement_unit_66 rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_20
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                        owl:someValuesFrom ontohgis:settlement_unit2
+                                                                        owl:someValuesFrom ontohgis:settlement_unit_2
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
                                                ] ;
-                           rdfs:subClassOf ontohgis:settlement_unit20 ,
-                                           ontohgis:settlement_unit3008 ,
-                                           ontohgis:settlement_unit63 ,
+                           rdfs:subClassOf ontohgis:settlement_unit_20 ,
+                                           ontohgis:settlement_unit_3008 ,
+                                           ontohgis:settlement_unit_63 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function1
@@ -13667,19 +13667,19 @@ ontohgis:settlement_unit66 rdf:type owl:Class ;
                                                                            "kolonia wsi"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit68
-ontohgis:settlement_unit68 rdf:type owl:Class ;
-                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit33
+###  http://purl.org/ontohgis#settlement_unit_68
+ontohgis:settlement_unit_68 rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_33
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                        owl:someValuesFrom ontohgis:settlement_unit20
+                                                                        owl:someValuesFrom ontohgis:settlement_unit_20
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
                                                ] ;
-                           rdfs:subClassOf ontohgis:settlement_unit3008 ,
-                                           ontohgis:settlement_unit33 ,
-                                           ontohgis:settlement_unit60 ,
+                           rdfs:subClassOf ontohgis:settlement_unit_3008 ,
+                                           ontohgis:settlement_unit_33 ,
+                                           ontohgis:settlement_unit_60 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function3
@@ -13702,18 +13702,18 @@ ontohgis:settlement_unit68 rdf:type owl:Class ;
                                         <https://www.wikidata.org/wiki/Q41970180> .
 
 
-###  http://purl.org/ontohgis#settlement_unit69
-ontohgis:settlement_unit69 rdf:type owl:Class ;
-                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit36
+###  http://purl.org/ontohgis#settlement_unit_69
+ontohgis:settlement_unit_69 rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_36
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                        owl:someValuesFrom ontohgis:settlement_unit2
+                                                                        owl:someValuesFrom ontohgis:settlement_unit_2
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
                                                ] ;
-                           rdfs:subClassOf ontohgis:settlement_unit36 ,
-                                           ontohgis:settlement_unit6 ,
+                           rdfs:subClassOf ontohgis:settlement_unit_36 ,
+                                           ontohgis:settlement_unit_6 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function4
@@ -13750,15 +13750,15 @@ ontohgis:settlement_unit69 rdf:type owl:Class ;
                                                                              "zagroda włościańska"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit69 ;
+   owl:annotatedSource ontohgis:settlement_unit_69 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 20. s.47: Osady przemysłowe - osiedla dla robotników i rzemieślników zakładane XVIII – XIX w. w związku z dokonującym się procesem uprzemysłowienia, niekiedy zwane osadami fabrycznymi; zwykle osady przemysłowe obejmowały zarówno zakłady przemysłowe jak i związane z nimi kolonie domów mieszkalnych. Na ziemiach polskich powstawały od końca XVIII wieku jako osady prywatne bądź rządowe i stopniowo uzyskiwały prawa miejskie;  w drugiej połowie XIX wieku termin „osady przemysłowe” zaczęto używać do wszelkich osiedli rozwijających się wokół zakładów przemysłowych; dzielnice mieszkaniowe, zwane koloniami lub domami fabrycznymi wznoszono w drugiej połowie XIX i w XX wieku przez wielkie zakłady przemysłowe w już istniejących miejscowościach dla robotników i urzędników niższego szczebla, zwykle o niskim standardzie i niewysokich czynszach."@pl ;
    rdfs:isDefinedBy ontohgis:document_21
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit7
-ontohgis:settlement_unit7 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_7
+ontohgis:settlement_unit_7 rdf:type owl:Class ;
                           rdfs:subClassOf ontohgis:object_50 ;
                           dc:creator ontohgis:person_3 ;
                           ontohgis:hasExternalIdentifier "7"^^xsd:string ;
@@ -13797,53 +13797,53 @@ ontohgis:settlement_unit7 rdf:type owl:Class ;
                                                                           "manor house"@en .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit7 ;
+   owl:annotatedSource ontohgis:settlement_unit_7 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "1. dom mieszkalny, budynek; siedziba szlachcica, właściciela majątku ziemskiego; majętność, posiadłość ziemska; 2. miejsce czasowego pobytu; lokal wynajęty (może dom zajezdny); 3. pałac, zamek, rezydencja; ewentualnie miejsce czasowego pobytu panującego; siedziba zwierzchnika (magnata) świeckiego lub duchownego; 4. miejsce posiedzeń senatu lub sądu w starożytnym Rzymie; także sama rada senatu; 5. otoczenie, środowisko skupiające się dokoła monarchy lub magnata, duchownego; dworzanie, urzędnicy, świta dworska, orszak; ogólnie: rząd danego państwa z panującym na czele; 6. siły zbrojne nadworne, żołnierze straży przybocznej monarchy; 7. praw. sąd królewski, w którym orzekał sam król osobiście przy asyście dygnitarzy królewskich lub zlecał rozpatrzenie sprawy i wydanie wyroku wyznaczonym dygnitarzom znajdującym się w danym momencie na dworze, to jest w miejscu pobytu władcy; 8. miejsce na zewnątrz domu, otaczająca dom; podwórze, dziedziniec, przestrzeń pod gołym niebem"@pl ;
    rdfs:isDefinedBy ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit7 ;
+   owl:annotatedSource ontohgis:settlement_unit_7 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "1. miejsce pod niebem zagrodzone przy pomieszkanu, podworze (por. dziedziniec); 2. sądy za dworem królewskim, przy boku króla odprawujące się; 3. w wiekach dawnych, zjazd króla na różne miejsca, gdzie święta uroczystsze odbywał, obywatelów zgromadzał, sprawy sądził, okoliczności powiatowe ułatwiał, igrzyska i uczty dawał; 4. dwór królewski, zgromadzenie u króla, pokoje"@pl ;
    rdfs:isDefinedBy ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit7 ;
+   owl:annotatedSource ontohgis:settlement_unit_7 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "1. przestrzeń otaczając dom, otwarte powietrze, miejsce pod gołym niebem; 2. podwórze, dziedziniec; 3. dom właściciela majątku ziemskiego, mieszkanie dziedzica; 4. gospodarstwo dworskie, folwark; 5. (przenośnie) mieszkańcy dworu wiejskiego, szczególnie dziedzic z rodziną, państwo; 6. dom, mieszkanie; 7. oficjaliści panów, szczególnie wyżsi, dworzanie; 8. miejsce pobytu albo mieszkanie panującego albo magnata; 9. panujący i jego otoczenie; 10. służba dworska; 11. zebranie u króla, sąd dworski, żołnierze nadworni"@pl ;
    rdfs:isDefinedBy ontohgis:document_5
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit7 ;
+   owl:annotatedSource ontohgis:settlement_unit_7 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "1. siedziba panującego lub księcia; 2. ludzie otaczający panującego lub księcia; 3. obszerny dom mieszkalny, charakterystyczny dla dawnych posiadłości ziemskich; 4. majątek ziemski z domem i zabudowaniami; 5. właściciele posiadłości ziemskiej, jej mieszkańcy, administracja; 6. otwarta przestrzeń na zewnątrz domu"@pl ;
    rdfs:isDefinedBy ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit7 ;
+   owl:annotatedSource ontohgis:settlement_unit_7 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "s. 9: -- desygnatem dworu jest tzw. gródek stożkowaty, czyli stanowisko archeologiczne mające wyodrębnioną formę terenową, najczęściej w postaci kopca lub przestrzeni zamkniętej dookolnymi obronnymi wałami"@pl ;
    rdfs:comment ontohgis:document_13
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit70
-ontohgis:settlement_unit70 rdf:type owl:Class ;
-                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit33
+###  http://purl.org/ontohgis#settlement_unit_70
+ontohgis:settlement_unit_70 rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_33
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                        owl:someValuesFrom ontohgis:settlement_unit33
+                                                                        owl:someValuesFrom ontohgis:settlement_unit_33
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
                                                ] ;
-                           rdfs:subClassOf ontohgis:settlement_unit33 ,
-                                           ontohgis:settlement_unit62 ,
+                           rdfs:subClassOf ontohgis:settlement_unit_33 ,
+                                           ontohgis:settlement_unit_62 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function3
@@ -13877,19 +13877,19 @@ ontohgis:settlement_unit70 rdf:type owl:Class ;
                                                                            "settlement of a settlement"@en .
 
 
-###  http://purl.org/ontohgis#settlement_unit71
-ontohgis:settlement_unit71 rdf:type owl:Class ;
-                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit33
+###  http://purl.org/ontohgis#settlement_unit_71
+ontohgis:settlement_unit_71 rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_33
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                        owl:someValuesFrom ontohgis:settlement_unit2
+                                                                        owl:someValuesFrom ontohgis:settlement_unit_2
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
                                                ] ;
-                           rdfs:subClassOf ontohgis:settlement_unit3008 ,
-                                           ontohgis:settlement_unit33 ,
-                                           ontohgis:settlement_unit63 ,
+                           rdfs:subClassOf ontohgis:settlement_unit_3008 ,
+                                           ontohgis:settlement_unit_33 ,
+                                           ontohgis:settlement_unit_63 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function3
@@ -13922,18 +13922,18 @@ ontohgis:settlement_unit71 rdf:type owl:Class ;
                                                                            "settlement of a village"@en .
 
 
-###  http://purl.org/ontohgis#settlement_unit72
-ontohgis:settlement_unit72 rdf:type owl:Class ;
-                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit34
+###  http://purl.org/ontohgis#settlement_unit_72
+ontohgis:settlement_unit_72 rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_34
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                        owl:someValuesFrom ontohgis:settlement_unit2
+                                                                        owl:someValuesFrom ontohgis:settlement_unit_2
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
                                                ] ;
-                           rdfs:subClassOf ontohgis:settlement_unit3008 ,
-                                           ontohgis:settlement_unit34 ,
+                           rdfs:subClassOf ontohgis:settlement_unit_3008 ,
+                                           ontohgis:settlement_unit_34 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function3
@@ -13971,17 +13971,17 @@ ontohgis:settlement_unit72 rdf:type owl:Class ;
                                                                              "settlement"@en .
 
 
-###  http://purl.org/ontohgis#settlement_unit73
-ontohgis:settlement_unit73 rdf:type owl:Class ;
-                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit44
+###  http://purl.org/ontohgis#settlement_unit_73
+ontohgis:settlement_unit_73 rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_44
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                        owl:someValuesFrom ontohgis:settlement_unit20
+                                                                        owl:someValuesFrom ontohgis:settlement_unit_20
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
                                                ] ;
-                           rdfs:subClassOf ontohgis:settlement_unit44 ,
+                           rdfs:subClassOf ontohgis:settlement_unit_44 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function1
@@ -14001,17 +14001,17 @@ ontohgis:settlement_unit73 rdf:type owl:Class ;
                                                                            "przysiółek kolonii"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit74
-ontohgis:settlement_unit74 rdf:type owl:Class ;
-                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit44
+###  http://purl.org/ontohgis#settlement_unit_74
+ontohgis:settlement_unit_74 rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_44
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                        owl:someValuesFrom ontohgis:settlement_unit33
+                                                                        owl:someValuesFrom ontohgis:settlement_unit_33
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
                                                ] ;
-                           rdfs:subClassOf ontohgis:settlement_unit44 ;
+                           rdfs:subClassOf ontohgis:settlement_unit_44 ;
                            dc:creator ontohgis:person_8 ;
                            ontohgis:hasExternalIdentifier "74"^^xsd:string ;
                            ontohgis:hasLanguageVerificator ontohgis:person_1 ;
@@ -14040,17 +14040,17 @@ ontohgis:settlement_unit74 rdf:type owl:Class ;
                                                                            "przysiółek osady"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit75
-ontohgis:settlement_unit75 rdf:type owl:Class ;
-                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit44
+###  http://purl.org/ontohgis#settlement_unit_75
+ontohgis:settlement_unit_75 rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_44
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                        owl:someValuesFrom ontohgis:settlement_unit2
+                                                                        owl:someValuesFrom ontohgis:settlement_unit_2
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
                                                ] ;
-                           rdfs:subClassOf ontohgis:settlement_unit44 ,
+                           rdfs:subClassOf ontohgis:settlement_unit_44 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function1
@@ -14072,10 +14072,10 @@ ontohgis:settlement_unit75 rdf:type owl:Class ;
                                         <https://www.wikidata.org/wiki/Q41970180> .
 
 
-###  http://purl.org/ontohgis#settlement_unit76
-ontohgis:settlement_unit76 rdf:type owl:Class ;
-                           rdfs:subClassOf ontohgis:settlement_unit1000 ,
-                                           ontohgis:settlement_unit3003 ,
+###  http://purl.org/ontohgis#settlement_unit_76
+ontohgis:settlement_unit_76 rdf:type owl:Class ;
+                           rdfs:subClassOf ontohgis:settlement_unit_1000 ,
+                                           ontohgis:settlement_unit_3003 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function11
@@ -14106,9 +14106,9 @@ ontohgis:settlement_unit76 rdf:type owl:Class ;
                                                                            "tourist shelter"@en .
 
 
-###  http://purl.org/ontohgis#settlement_unit8
-ontohgis:settlement_unit8 rdf:type owl:Class ;
-                          rdfs:subClassOf ontohgis:settlement_unit1000 ,
+###  http://purl.org/ontohgis#settlement_unit_8
+ontohgis:settlement_unit_8 rdf:type owl:Class ;
+                          rdfs:subClassOf ontohgis:settlement_unit_1000 ,
                                           [ rdf:type owl:Restriction ;
                                             owl:onProperty ontohgis:hasProperFunction ;
                                             owl:hasValue ontohgis:function1
@@ -14150,7 +14150,7 @@ ontohgis:settlement_unit8 rdf:type owl:Class ;
                                                                           "folwark"@pl .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit8 ;
+   owl:annotatedSource ontohgis:settlement_unit_8 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "duże gospodarstwo rolne wraz z zabudowaniami."@pl ;
    rdfs:isDefinedBy ontohgis:document_4 ,
@@ -14158,30 +14158,30 @@ ontohgis:settlement_unit8 rdf:type owl:Class ;
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit8 ;
+   owl:annotatedSource ontohgis:settlement_unit_8 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 1, s. 173: duże gospodarstwo rolne lub rolno-hodowlane, produkujące głównie na zbyt, posługujące się pracą chłopów pańszczyźnianych albo siłą najemną. Organizowane przez feudalnych właścicieli ziemskich już w XIV w., stanowiły kontynuację tzw. rezerwy pańskiej, czyli gruntów wyłączonych spod uprawy chłopskiej i przeznaczonych do zaspokajania bezpośrednich potrzeb dworu--’"@pl ;
    rdfs:isDefinedBy ontohgis:document_17
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit8 ;
+   owl:annotatedSource ontohgis:settlement_unit_8 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 1, s. 759: 1. mała wioska, leżąca obok dużej, oddzielona część wsi; przysiółek; 2. majętność, grunt z zabudowaniem, ferma; 3. dwór we wsi, mieszkanie dziedzica albo dzierżawcy razem z zabudowaniami dworskimi."@pl ;
    rdfs:isDefinedBy ontohgis:document_5
  ] .
 
 [ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit8 ;
+   owl:annotatedSource ontohgis:settlement_unit_8 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 7, s. 90–91: 1. ziemskie gospodarstwo, w przeciwieństwie do gospodarstwa chłopskiego, grunt z zabudowaniami gospodarskimi i mieszkalnymi, często będący częścią większej majętności; zazwyczaj wydzielona część wsi; 2. zabudowania gospodarcze; 3. ziemia orna, rola należąca do folwarku; 4. posiadłość ziemska, dworek z zabudowaniami gospodarskimi położony pod miastem; 5. wieś"@pl ;
    rdfs:isDefinedBy ontohgis:document_2
  ] .
 
 
-###  http://purl.org/ontohgis#settlement_unit80
-ontohgis:settlement_unit80 rdf:type owl:Class ;
-                           rdfs:subClassOf ontohgis:settlement_unit20 ,
+###  http://purl.org/ontohgis#settlement_unit_80
+ontohgis:settlement_unit_80 rdf:type owl:Class ;
+                           rdfs:subClassOf ontohgis:settlement_unit_20 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
                                              owl:hasValue ontohgis:function1
@@ -14207,12 +14207,12 @@ ontohgis:settlement_unit80 rdf:type owl:Class ;
                                                                            "holendry"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit82
-ontohgis:settlement_unit82 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_82
+ontohgis:settlement_unit_82 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_502 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                             owl:someValuesFrom ontohgis:settlement_unit115
+                                             owl:someValuesFrom ontohgis:settlement_unit_115
                                            ] ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
@@ -14239,24 +14239,24 @@ ontohgis:settlement_unit82 rdf:type owl:Class ;
                                                                            "sea harbour"@en .
 
 
-###  http://purl.org/ontohgis#settlement_unit83
-ontohgis:settlement_unit83 rdf:type owl:Class ;
-                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit2
+###  http://purl.org/ontohgis#settlement_unit_83
+ontohgis:settlement_unit_83 rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_2
                                                                       [ rdf:type owl:Restriction ;
                                                                         owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                                                        owl:someValuesFrom ontohgis:settlement_unit120
+                                                                        owl:someValuesFrom ontohgis:settlement_unit_120
                                                                       ]
                                                                     ) ;
                                                  rdf:type owl:Class
                                                ] ;
-                           rdfs:subClassOf ontohgis:settlement_unit2 ;
+                           rdfs:subClassOf ontohgis:settlement_unit_2 ;
                            ontohgis:hasExternalIdentifier "83"^^xsd:string ;
                            rdfs:label "wieś kościelna"^^xsd:string ;
                            rdfs:seeAlso <http://gov.genealogy.net/types.owl#66> .
 
 
-###  http://purl.org/ontohgis#settlement_unit92
-ontohgis:settlement_unit92 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_92
+ontohgis:settlement_unit_92 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_501 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
@@ -14268,13 +14268,13 @@ ontohgis:settlement_unit92 rdf:type owl:Class ;
                            rdfs:seeAlso <http://linkedgeodata.org/ontology/Marketplace> .
 
 
-###  http://purl.org/ontohgis#settlement_unit99
-ontohgis:settlement_unit99 rdf:type owl:Class ;
+###  http://purl.org/ontohgis#settlement_unit_99
+ontohgis:settlement_unit_99 rdf:type owl:Class ;
                            rdfs:subClassOf ontohgis:object_12 ,
-                                           ontohgis:settlement_unit33 ,
+                                           ontohgis:settlement_unit_33 ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
-                                             owl:someValuesFrom ontohgis:settlement_unit124
+                                             owl:someValuesFrom ontohgis:settlement_unit_124
                                            ] ,
                                            [ rdf:type owl:Restriction ;
                                              owl:onProperty ontohgis:hasProperFunction ;
