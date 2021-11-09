@@ -10097,6 +10097,131 @@ ontohgis:settlement_type_1 rdf:type owl:Class ;
                                                                            "zamek"@pl .
 
 
+###  http://purl.org/ontohgis#settlement_type_2
+ontohgis:settlement_type_2 rdf:type owl:Class ;
+                           rdfs:subClassOf ontohgis:object_1000 ,
+                                           ontohgis:settlement_unit_1000 ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty ontohgis:hasProperFunction ;
+                                             owl:hasValue ontohgis:function1
+                                           ] ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                             owl:hasValue <http://www.geonames.org/ontology#P.PPLF>
+                                           ] ;
+                           dc:creator ontohgis:person_3 ;
+                           ontohgis:hasExternalIdentifier "2"^^xsd:string ;
+                           ontohgis:hasLanguageVerificator ontohgis:person_1 ;
+                           ontohgis:hasOntologicalVerificator ontohgis:person_10 ;
+                           ontohgis:hasTranslator ontohgis:person_9 ;
+                           rdfs:comment """A development in a village may be dense (i.e. villages established according to a German law introducing a linear development) or scattered (i.e. Hauländer colonies, Dutch settlement, from 18th century or early medieval single manor settlements). A village may preponderate (be a superior settlement) any other units, such as: a hamlet or a mill settlement; it is also dependent on a manor, which supervises a village in legal and administrative issues. Inhabitants from all units forming a village comprise a village community. Studies on this type of localities distinguish an abandoned village, a settlement that lost its functions due to environmental, political, or economic incidents. In historiography, one can find an expression a lost village, which stands for a village, where settlement was not re-established.
+In German language in the nineteenth century, two terms could coexist - Pfarrdorf and Kirchdorf. The first meant a larger village with a parish church, and a second smaller village with an auxiliary (filial) church, but these criteria of distinction were not strict and neither used consistently. For example on the Gilly map (1802-1803), only the following categories exist: Kirchdorf and Dorf ohne Kirche."""@en ,
+                                        """Wieś może posiadać zwartą (np. wsie lokowane na prawie niemieckim np. ulicówki, łańcuchówki) lub rozproszoną zabudowę (często kolonie olęderskie w XVIII w. lub wczesnośredniowieczne osady jednodworcze). Wieś może dominować (być jednostką nadrzędną osadniczo) w stosunku do innych jednostek takich jak np. przysiółek, osada młyńska; jest także zależna od pana gruntowego, który sprawuje nad nią nadzór własnościowy. Mieszkańcy wszystkich jednostek składających się na wieś tworzą jedną wspólnotę wiejską. W badaniach nad wsią rozróżnia się także pojęcie wsi opustoszałej, czyli takiej, która fizycznie przestała pełnić swoje funkcje w wyniku zdarzeń o charakterze losowym, środowiskowym, politycznym lub gospodarczym. W literaturze przedmiotu funkcjonuje także określenie wieś zaginiona, które odnosi się do wsi, w których nie wznowiono osadnictwa.
+W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy – Pfarrdorf i Kirchdorf.  Pierwszy oznaczał raczej większą wieś z kościołem parafialnym, zaś drugi mniejszą wieś z kościołem pomocniczym. Terminy te nie były jednak ścisłe i używane konsekwentnie, np. na mapie Gilly’ego z lat 1802-1803 występują tylko kategorie: Kirchdorf oraz Dorf ohne Kirche."""@pl ;
+                           rdfs:isDefinedBy "Village is a locality composed of a group of buildings, mostly of residential and economic character, but sometimes, also industrial ones (i.e. ironworks, mill) as well as a belonging land, inhabited by people involved particularly in agricultural and construction activities or in farming industry (i.e. blacksmith or mill work), and not having city rights nor a status of a city or a town. Some villages in Early Middle Ages had a right to organise a fair and a market."@en ,
+                                            "Wieś jest to miejscowość składająca się z zabudowań mieszkalno-gospodarczych, niekiedy przemysłowych (np. kuźnia, młyn) wraz z przynależnymi do nich gruntami (rozłogi), zamieszkała przez ludność zajmującą się w większości zajęciami rolniczo-hodowlanymi oraz przemysłem wiejskim (np. kowalstwo, młynarstwo), nieposiadająca praw miejskich ani statusu miasta. Niekiedy we wczesnym średniowieczu posiadająca prawo odbywania targu."@pl ;
+                           rdfs:label "village"@en ,
+                                      "wieś"@pl ;
+                           rdfs:seeAlso <http://dbpedia.org/page/Village> ,
+                                        <http://gov.genealogy.net/types.owl#55> ,
+                                        <http://linkedgeodata.org/ontology/Village> ,
+                                        <http://vocab.getty.edu/aat/300008372> ,
+                                        <https://pzgik.geoportal.gov.pl/ontologies/prng/wies> ,
+                                        <https://www.wikidata.org/wiki/Q532> ,
+                                        "1. miejscowość zamieszkała przez ludzi, którzy trudnią się pracą na roli, 2. mieszkańcy takiej miejscowości, 3. tereny pozamiejskie, rolnicze, letniskowe, 4. ludzie trudniący się pracą na roli"@pl ,
+                                        "Jednostka osadnicza o zwartej lub rozproszonej zabudowie i istniejących funkcjach rolniczych lub związanych z nimi usługowych lub turystycznych, nieposiadająca praw miejskich lub statusu miasta"@pl ,
+                                        "Kirchdorf: Dorf mit Kirche (I) und Pfarrer, rechtlicher und religiöser Mittelpunkt einer (eventuell aus mehreren Filialdörfern bestehenden) politischen oder Pfarr-Gemeinde [Wieś z kościołem i parafią, prawne i religijne centrum gminy politycznej albo parafialnej (ewentualnie składającej się z kilku wsi filialnych, wsi z kościołami filialnymi]"@de ,
+                                        "Pfarrdorf: 1. Dorf, in dem die für die Pfarrgemeinde konstitutive Pfarrkirche (I) steht [wieś, w której stoi kościół parafialny właściwy dla całej parafii, gminy parafialnej]; 2. zu einer Pfarre (I) gehöriges Dorf [wieś należąca do parafii]"@de ,
+                                        "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ,
+                                        "s. 29: wsią nazywamy osiedle w zasadzie otwarte, której ludność zajmuje się produkcją śródków żywności oraz surowców technicznych (tj. rolnictwem, hodowlą bydła, rybołówstwem itd.)"@pl ,
+                                        "t. 4, s. 365: wioska, imienie, dobro, grunt leżący; wieś targowa, wsie łowcze, osoczne, wołoskie."@pl ,
+                                        "t. 7, s. 594–595: osada rolnicza, z pewnej liczby chat złożona, sioło"@pl ,
+                                        "t. XX, s. 199–201: 1. osada, w której ludność zajmuje się głównie rolnictwem, 2. mieszkańcy wsi, ogół mieszkańców wsi."@pl ;
+                           <http://www.w3.org/2004/02/skos/core#altLabel> "Dorf"@de ,
+                                                                          "pagus"@la ,
+                                                                          "sioło"@pl ,
+                                                                          "villa"@la ,
+                                                                          "село"@ru ;
+                           <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Kirchdorf"@de ,
+                                                                             "Pfarrdorf"@de ,
+                                                                             "ager"@la ,
+                                                                             "osada"@pl ,
+                                                                             "osiedle wiejskie"@pl ,
+                                                                             "rus"@la ,
+                                                                             "siedlisko wiejskie"@pl ,
+                                                                             "vicus"@la ,
+                                                                             "wioseczka"@pl ,
+                                                                             "wioska"@pl ,
+                                                                             "włość i klucz"@pl ,
+                                                                             "źreb"@pl ,
+                                                                             "погост"@ru ;
+                           <http://www.w3.org/2004/02/skos/core#prefLabel> "village"@en ,
+                                                                           "wieś"@pl .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "1. miejscowość zamieszkała przez ludzi, którzy trudnią się pracą na roli, 2. mieszkańcy takiej miejscowości, 3. tereny pozamiejskie, rolnicze, letniskowe, 4. ludzie trudniący się pracą na roli"@pl ;
+   rdfs:isDefinedBy ontohgis:document_4
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "Jednostka osadnicza o zwartej lub rozproszonej zabudowie i istniejących funkcjach rolniczych lub związanych z nimi usługowych lub turystycznych, nieposiadająca praw miejskich lub statusu miasta"@pl ;
+   rdfs:isDefinedBy ontohgis:document_9
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "Kirchdorf: Dorf mit Kirche (I) und Pfarrer, rechtlicher und religiöser Mittelpunkt einer (eventuell aus mehreren Filialdörfern bestehenden) politischen oder Pfarr-Gemeinde [Wieś z kościołem i parafią, prawne i religijne centrum gminy politycznej albo parafialnej (ewentualnie składającej się z kilku wsi filialnych, wsi z kościołami filialnymi]"@de ;
+   rdfs:isDefinedBy ontohgis:document_10
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "Pfarrdorf: 1. Dorf, in dem die für die Pfarrgemeinde konstitutive Pfarrkirche (I) steht [wieś, w której stoi kościół parafialny właściwy dla całej parafii, gminy parafialnej]; 2. zu einer Pfarre (I) gehöriges Dorf [wieś należąca do parafii]"@de ;
+   rdfs:isDefinedBy ontohgis:document_10
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ;
+   rdfs:isDefinedBy ontohgis:document_8
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "s. 29: wsią nazywamy osiedle w zasadzie otwarte, której ludność zajmuje się produkcją śródków żywności oraz surowców technicznych (tj. rolnictwem, hodowlą bydła, rybołówstwem itd.)"@pl ;
+   rdfs:isDefinedBy ontohgis:document_16
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 4, s. 365: wioska, imienie, dobro, grunt leżący; wieś targowa, wsie łowcze, osoczne, wołoskie."@pl ;
+   rdfs:isDefinedBy ontohgis:document_1
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 7, s. 594–595: osada rolnicza, z pewnej liczby chat złożona, sioło"@pl ;
+   rdfs:isDefinedBy ontohgis:document_5
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. XX, s. 199–201: 1. osada, w której ludność zajmuje się głównie rolnictwem, 2. mieszkańcy wsi, ogół mieszkańców wsi."@pl ;
+   rdfs:isDefinedBy ontohgis:document_6
+ ] .
+
+
 ###  http://purl.org/ontohgis#settlement_unit_10
 ontohgis:settlement_unit_10 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_500 ,
@@ -11817,131 +11942,6 @@ ontohgis:settlement_unit_19 rdf:type owl:Class ;
                                                                             "osada klasztorna"@pl .
 
 
-###  http://purl.org/ontohgis#settlement_unit_2
-ontohgis:settlement_unit_2 rdf:type owl:Class ;
-                           rdfs:subClassOf ontohgis:object_1000 ,
-                                           ontohgis:settlement_unit_1000 ,
-                                           [ rdf:type owl:Restriction ;
-                                             owl:onProperty ontohgis:hasProperFunction ;
-                                             owl:hasValue ontohgis:function1
-                                           ] ,
-                                           [ rdf:type owl:Restriction ;
-                                             owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
-                                             owl:hasValue <http://www.geonames.org/ontology#P.PPLF>
-                                           ] ;
-                           dc:creator ontohgis:person_3 ;
-                           ontohgis:hasExternalIdentifier "2"^^xsd:string ;
-                           ontohgis:hasLanguageVerificator ontohgis:person_1 ;
-                           ontohgis:hasOntologicalVerificator ontohgis:person_10 ;
-                           ontohgis:hasTranslator ontohgis:person_9 ;
-                           rdfs:comment """A development in a village may be dense (i.e. villages established according to a German law introducing a linear development) or scattered (i.e. Hauländer colonies, Dutch settlement, from 18th century or early medieval single manor settlements). A village may preponderate (be a superior settlement) any other units, such as: a hamlet or a mill settlement; it is also dependent on a manor, which supervises a village in legal and administrative issues. Inhabitants from all units forming a village comprise a village community. Studies on this type of localities distinguish an abandoned village, a settlement that lost its functions due to environmental, political, or economic incidents. In historiography, one can find an expression a lost village, which stands for a village, where settlement was not re-established.
-In German language in the nineteenth century, two terms could coexist - Pfarrdorf and Kirchdorf. The first meant a larger village with a parish church, and a second smaller village with an auxiliary (filial) church, but these criteria of distinction were not strict and neither used consistently. For example on the Gilly map (1802-1803), only the following categories exist: Kirchdorf and Dorf ohne Kirche."""@en ,
-                                        """Wieś może posiadać zwartą (np. wsie lokowane na prawie niemieckim np. ulicówki, łańcuchówki) lub rozproszoną zabudowę (często kolonie olęderskie w XVIII w. lub wczesnośredniowieczne osady jednodworcze). Wieś może dominować (być jednostką nadrzędną osadniczo) w stosunku do innych jednostek takich jak np. przysiółek, osada młyńska; jest także zależna od pana gruntowego, który sprawuje nad nią nadzór własnościowy. Mieszkańcy wszystkich jednostek składających się na wieś tworzą jedną wspólnotę wiejską. W badaniach nad wsią rozróżnia się także pojęcie wsi opustoszałej, czyli takiej, która fizycznie przestała pełnić swoje funkcje w wyniku zdarzeń o charakterze losowym, środowiskowym, politycznym lub gospodarczym. W literaturze przedmiotu funkcjonuje także określenie wieś zaginiona, które odnosi się do wsi, w których nie wznowiono osadnictwa.
-W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy – Pfarrdorf i Kirchdorf.  Pierwszy oznaczał raczej większą wieś z kościołem parafialnym, zaś drugi mniejszą wieś z kościołem pomocniczym. Terminy te nie były jednak ścisłe i używane konsekwentnie, np. na mapie Gilly’ego z lat 1802-1803 występują tylko kategorie: Kirchdorf oraz Dorf ohne Kirche."""@pl ;
-                           rdfs:isDefinedBy "Village is a locality composed of a group of buildings, mostly of residential and economic character, but sometimes, also industrial ones (i.e. ironworks, mill) as well as a belonging land, inhabited by people involved particularly in agricultural and construction activities or in farming industry (i.e. blacksmith or mill work), and not having city rights nor a status of a city or a town. Some villages in Early Middle Ages had a right to organise a fair and a market."@en ,
-                                            "Wieś jest to miejscowość składająca się z zabudowań mieszkalno-gospodarczych, niekiedy przemysłowych (np. kuźnia, młyn) wraz z przynależnymi do nich gruntami (rozłogi), zamieszkała przez ludność zajmującą się w większości zajęciami rolniczo-hodowlanymi oraz przemysłem wiejskim (np. kowalstwo, młynarstwo), nieposiadająca praw miejskich ani statusu miasta. Niekiedy we wczesnym średniowieczu posiadająca prawo odbywania targu."@pl ;
-                           rdfs:label "village"@en ,
-                                      "wieś"@pl ;
-                           rdfs:seeAlso <http://dbpedia.org/page/Village> ,
-                                        <http://gov.genealogy.net/types.owl#55> ,
-                                        <http://linkedgeodata.org/ontology/Village> ,
-                                        <http://vocab.getty.edu/aat/300008372> ,
-                                        <https://pzgik.geoportal.gov.pl/ontologies/prng/wies> ,
-                                        <https://www.wikidata.org/wiki/Q532> ,
-                                        "1. miejscowość zamieszkała przez ludzi, którzy trudnią się pracą na roli, 2. mieszkańcy takiej miejscowości, 3. tereny pozamiejskie, rolnicze, letniskowe, 4. ludzie trudniący się pracą na roli"@pl ,
-                                        "Jednostka osadnicza o zwartej lub rozproszonej zabudowie i istniejących funkcjach rolniczych lub związanych z nimi usługowych lub turystycznych, nieposiadająca praw miejskich lub statusu miasta"@pl ,
-                                        "Kirchdorf: Dorf mit Kirche (I) und Pfarrer, rechtlicher und religiöser Mittelpunkt einer (eventuell aus mehreren Filialdörfern bestehenden) politischen oder Pfarr-Gemeinde [Wieś z kościołem i parafią, prawne i religijne centrum gminy politycznej albo parafialnej (ewentualnie składającej się z kilku wsi filialnych, wsi z kościołami filialnymi]"@de ,
-                                        "Pfarrdorf: 1. Dorf, in dem die für die Pfarrgemeinde konstitutive Pfarrkirche (I) steht [wieś, w której stoi kościół parafialny właściwy dla całej parafii, gminy parafialnej]; 2. zu einer Pfarre (I) gehöriges Dorf [wieś należąca do parafii]"@de ,
-                                        "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ,
-                                        "s. 29: wsią nazywamy osiedle w zasadzie otwarte, której ludność zajmuje się produkcją śródków żywności oraz surowców technicznych (tj. rolnictwem, hodowlą bydła, rybołówstwem itd.)"@pl ,
-                                        "t. 4, s. 365: wioska, imienie, dobro, grunt leżący; wieś targowa, wsie łowcze, osoczne, wołoskie."@pl ,
-                                        "t. 7, s. 594–595: osada rolnicza, z pewnej liczby chat złożona, sioło"@pl ,
-                                        "t. XX, s. 199–201: 1. osada, w której ludność zajmuje się głównie rolnictwem, 2. mieszkańcy wsi, ogół mieszkańców wsi."@pl ;
-                           <http://www.w3.org/2004/02/skos/core#altLabel> "Dorf"@de ,
-                                                                          "pagus"@la ,
-                                                                          "sioło"@pl ,
-                                                                          "villa"@la ,
-                                                                          "село"@ru ;
-                           <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Kirchdorf"@de ,
-                                                                             "Pfarrdorf"@de ,
-                                                                             "ager"@la ,
-                                                                             "osada"@pl ,
-                                                                             "osiedle wiejskie"@pl ,
-                                                                             "rus"@la ,
-                                                                             "siedlisko wiejskie"@pl ,
-                                                                             "vicus"@la ,
-                                                                             "wioseczka"@pl ,
-                                                                             "wioska"@pl ,
-                                                                             "włość i klucz"@pl ,
-                                                                             "źreb"@pl ,
-                                                                             "погост"@ru ;
-                           <http://www.w3.org/2004/02/skos/core#prefLabel> "village"@en ,
-                                                                           "wieś"@pl .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "1. miejscowość zamieszkała przez ludzi, którzy trudnią się pracą na roli, 2. mieszkańcy takiej miejscowości, 3. tereny pozamiejskie, rolnicze, letniskowe, 4. ludzie trudniący się pracą na roli"@pl ;
-   rdfs:isDefinedBy ontohgis:document_4
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "Jednostka osadnicza o zwartej lub rozproszonej zabudowie i istniejących funkcjach rolniczych lub związanych z nimi usługowych lub turystycznych, nieposiadająca praw miejskich lub statusu miasta"@pl ;
-   rdfs:isDefinedBy ontohgis:document_9
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "Kirchdorf: Dorf mit Kirche (I) und Pfarrer, rechtlicher und religiöser Mittelpunkt einer (eventuell aus mehreren Filialdörfern bestehenden) politischen oder Pfarr-Gemeinde [Wieś z kościołem i parafią, prawne i religijne centrum gminy politycznej albo parafialnej (ewentualnie składającej się z kilku wsi filialnych, wsi z kościołami filialnymi]"@de ;
-   rdfs:isDefinedBy ontohgis:document_10
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "Pfarrdorf: 1. Dorf, in dem die für die Pfarrgemeinde konstitutive Pfarrkirche (I) steht [wieś, w której stoi kościół parafialny właściwy dla całej parafii, gminy parafialnej]; 2. zu einer Pfarre (I) gehöriges Dorf [wieś należąca do parafii]"@de ;
-   rdfs:isDefinedBy ontohgis:document_10
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ;
-   rdfs:isDefinedBy ontohgis:document_8
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "s. 29: wsią nazywamy osiedle w zasadzie otwarte, której ludność zajmuje się produkcją śródków żywności oraz surowców technicznych (tj. rolnictwem, hodowlą bydła, rybołówstwem itd.)"@pl ;
-   rdfs:isDefinedBy ontohgis:document_16
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "t. 4, s. 365: wioska, imienie, dobro, grunt leżący; wieś targowa, wsie łowcze, osoczne, wołoskie."@pl ;
-   rdfs:isDefinedBy ontohgis:document_1
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "t. 7, s. 594–595: osada rolnicza, z pewnej liczby chat złożona, sioło"@pl ;
-   rdfs:isDefinedBy ontohgis:document_5
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_unit_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "t. XX, s. 199–201: 1. osada, w której ludność zajmuje się głównie rolnictwem, 2. mieszkańcy wsi, ogół mieszkańców wsi."@pl ;
-   rdfs:isDefinedBy ontohgis:document_6
- ] .
-
-
 ###  http://purl.org/ontohgis#settlement_unit_20
 ontohgis:settlement_unit_20 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_1000 ,
@@ -12578,7 +12578,7 @@ ontohgis:settlement_unit_34 rdf:type owl:Class ;
                                             [ rdf:type owl:Restriction ;
                                               owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                               owl:someValuesFrom [ rdf:type owl:Class ;
-                                                                   owl:unionOf ( ontohgis:settlement_unit_2
+                                                                   owl:unionOf ( ontohgis:settlement_type_2
                                                                                  ontohgis:settlement_unit_3
                                                                                )
                                                                  ]
@@ -13507,7 +13507,7 @@ ontohgis:settlement_unit_63 rdf:type owl:Class ;
                             owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_3008
                                                                        [ rdf:type owl:Restriction ;
                                                                          owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                         owl:someValuesFrom ontohgis:settlement_unit_2
+                                                                         owl:someValuesFrom ontohgis:settlement_type_2
                                                                        ]
                                                                      ) ;
                                                   rdf:type owl:Class
@@ -13626,7 +13626,7 @@ ontohgis:settlement_unit_66 rdf:type owl:Class ;
                             owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_20
                                                                        [ rdf:type owl:Restriction ;
                                                                          owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                         owl:someValuesFrom ontohgis:settlement_unit_2
+                                                                         owl:someValuesFrom ontohgis:settlement_type_2
                                                                        ]
                                                                      ) ;
                                                   rdf:type owl:Class
@@ -13707,7 +13707,7 @@ ontohgis:settlement_unit_69 rdf:type owl:Class ;
                             owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_36
                                                                        [ rdf:type owl:Restriction ;
                                                                          owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                         owl:someValuesFrom ontohgis:settlement_unit_2
+                                                                         owl:someValuesFrom ontohgis:settlement_type_2
                                                                        ]
                                                                      ) ;
                                                   rdf:type owl:Class
@@ -13882,7 +13882,7 @@ ontohgis:settlement_unit_71 rdf:type owl:Class ;
                             owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_33
                                                                        [ rdf:type owl:Restriction ;
                                                                          owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                         owl:someValuesFrom ontohgis:settlement_unit_2
+                                                                         owl:someValuesFrom ontohgis:settlement_type_2
                                                                        ]
                                                                      ) ;
                                                   rdf:type owl:Class
@@ -13927,7 +13927,7 @@ ontohgis:settlement_unit_72 rdf:type owl:Class ;
                             owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_34
                                                                        [ rdf:type owl:Restriction ;
                                                                          owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                         owl:someValuesFrom ontohgis:settlement_unit_2
+                                                                         owl:someValuesFrom ontohgis:settlement_type_2
                                                                        ]
                                                                      ) ;
                                                   rdf:type owl:Class
@@ -14045,7 +14045,7 @@ ontohgis:settlement_unit_75 rdf:type owl:Class ;
                             owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_44
                                                                        [ rdf:type owl:Restriction ;
                                                                          owl:onProperty ontohgis:settlementIsPartOfSettlement ;
-                                                                         owl:someValuesFrom ontohgis:settlement_unit_2
+                                                                         owl:someValuesFrom ontohgis:settlement_type_2
                                                                        ]
                                                                      ) ;
                                                   rdf:type owl:Class
@@ -14241,7 +14241,7 @@ ontohgis:settlement_unit_82 rdf:type owl:Class ;
 
 ###  http://purl.org/ontohgis#settlement_unit_83
 ontohgis:settlement_unit_83 rdf:type owl:Class ;
-                            owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_unit_2
+                            owl:equivalentClass [ owl:intersectionOf ( ontohgis:settlement_type_2
                                                                        [ rdf:type owl:Restriction ;
                                                                          owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
                                                                          owl:someValuesFrom ontohgis:settlement_unit_120
@@ -14249,7 +14249,7 @@ ontohgis:settlement_unit_83 rdf:type owl:Class ;
                                                                      ) ;
                                                   rdf:type owl:Class
                                                 ] ;
-                            rdfs:subClassOf ontohgis:settlement_unit_2 ;
+                            rdfs:subClassOf ontohgis:settlement_type_2 ;
                             ontohgis:hasExternalIdentifier "83"^^xsd:string ;
                             rdfs:label "wieś kościelna"^^xsd:string ;
                             rdfs:seeAlso <http://gov.genealogy.net/types.owl#66> .
