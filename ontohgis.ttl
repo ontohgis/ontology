@@ -5858,7 +5858,7 @@ ontohgis:administrative_type_143 rdf:type owl:Class ;
 ontohgis:administrative_type_144 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_145
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 144 ;
@@ -5883,7 +5883,7 @@ ontohgis:administrative_type_144 rdf:type owl:Class ;
 ontohgis:administrative_type_145 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_146
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 145 ;
@@ -5897,7 +5897,7 @@ ontohgis:administrative_type_145 rdf:type owl:Class ;
 ontohgis:administrative_type_146 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_147
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 146 ;
@@ -5911,7 +5911,7 @@ ontohgis:administrative_type_146 rdf:type owl:Class ;
 ontohgis:administrative_type_147 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_148
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 147 ;
@@ -5936,7 +5936,7 @@ ontohgis:administrative_type_147 rdf:type owl:Class ;
 ontohgis:administrative_type_148 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_149
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 148 ;
@@ -6092,7 +6092,7 @@ ontohgis:administrative_type_156 rdf:type owl:Class ;
 ontohgis:administrative_type_157 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_158
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 157 ;
@@ -6114,7 +6114,7 @@ ontohgis:administrative_type_157 rdf:type owl:Class ;
 ontohgis:administrative_type_158 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_159
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 158 ;
@@ -6128,7 +6128,7 @@ ontohgis:administrative_type_158 rdf:type owl:Class ;
 ontohgis:administrative_type_159 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_160
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 159 ;
@@ -6142,7 +6142,7 @@ ontohgis:administrative_type_159 rdf:type owl:Class ;
 ontohgis:administrative_type_160 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_161
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 160 ;
@@ -6163,7 +6163,7 @@ ontohgis:administrative_type_160 rdf:type owl:Class ;
 ontohgis:administrative_type_161 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_162
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 161 ;
@@ -6289,7 +6289,7 @@ ontohgis:administrative_type_168 rdf:type owl:Class ;
 ontohgis:administrative_type_169 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_170
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 169 ;
@@ -6310,7 +6310,7 @@ ontohgis:administrative_type_169 rdf:type owl:Class ;
 ontohgis:administrative_type_170 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_171
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 170 ;
@@ -6324,7 +6324,7 @@ ontohgis:administrative_type_170 rdf:type owl:Class ;
 ontohgis:administrative_type_171 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_172
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 171 ;
@@ -6345,7 +6345,7 @@ ontohgis:administrative_type_171 rdf:type owl:Class ;
 ontohgis:administrative_type_172 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_173
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 172 ;
@@ -6425,7 +6425,7 @@ ontohgis:administrative_type_176 rdf:type owl:Class ;
 ontohgis:administrative_type_177 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_178
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 177 ;
@@ -6448,7 +6448,7 @@ ontohgis:administrative_type_177 rdf:type owl:Class ;
 ontohgis:administrative_type_178 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_179
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 178 ;
@@ -6481,7 +6481,7 @@ ontohgis:administrative_type_179 rdf:type owl:Class ;
 ontohgis:administrative_type_180 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_181
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 180 ;
@@ -6504,7 +6504,7 @@ ontohgis:administrative_type_180 rdf:type owl:Class ;
 ontohgis:administrative_type_181 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_182
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 181 ;
@@ -6540,7 +6540,7 @@ ontohgis:administrative_type_182 rdf:type owl:Class ;
 ontohgis:administrative_type_183 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_184
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 183 ;
@@ -6563,7 +6563,7 @@ ontohgis:administrative_type_183 rdf:type owl:Class ;
 ontohgis:administrative_type_184 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_185
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 184 ;
@@ -6597,7 +6597,7 @@ ontohgis:administrative_type_185 rdf:type owl:Class ;
 ontohgis:administrative_type_186 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_187
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 186 ;
@@ -6621,7 +6621,7 @@ ontohgis:administrative_type_186 rdf:type owl:Class ;
 ontohgis:administrative_type_187 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_188
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 187 ;
@@ -6640,7 +6640,7 @@ ontohgis:administrative_type_187 rdf:type owl:Class ;
 ontohgis:administrative_type_188 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_189
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 188 ;
@@ -6655,7 +6655,7 @@ ontohgis:administrative_type_188 rdf:type owl:Class ;
 ontohgis:administrative_type_189 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_190
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 189 ;
@@ -6736,7 +6736,7 @@ ontohgis:administrative_type_193 rdf:type owl:Class ;
 ontohgis:administrative_type_194 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_195
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 194 ;
@@ -6759,7 +6759,7 @@ ontohgis:administrative_type_194 rdf:type owl:Class ;
 ontohgis:administrative_type_195 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_196
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 195 ;
@@ -6795,7 +6795,7 @@ ontohgis:administrative_type_196 rdf:type owl:Class ;
 ontohgis:administrative_type_197 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_198
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 197 ;
@@ -6819,7 +6819,7 @@ ontohgis:administrative_type_197 rdf:type owl:Class ;
 ontohgis:administrative_type_198 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_199
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 198 ;
@@ -6839,7 +6839,7 @@ ontohgis:administrative_type_198 rdf:type owl:Class ;
 ontohgis:administrative_type_199 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_200
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 199 ;
@@ -6890,7 +6890,7 @@ ontohgis:administrative_type_2 rdf:type owl:Class ;
 ontohgis:administrative_type_200 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_201
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 200 ;
@@ -6933,7 +6933,7 @@ ontohgis:administrative_type_200 rdf:type owl:Class ;
 ontohgis:administrative_type_201 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_202
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 201 ;
@@ -6965,7 +6965,7 @@ ontohgis:administrative_type_202 rdf:type owl:Class ;
 ontohgis:administrative_type_203 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_204
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 203 ;
@@ -6989,7 +6989,7 @@ ontohgis:administrative_type_203 rdf:type owl:Class ;
 ontohgis:administrative_type_204 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_205
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 204 ;
@@ -7039,7 +7039,7 @@ ontohgis:administrative_type_205 rdf:type owl:Class ;
 ontohgis:administrative_type_206 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_207
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 206 ;
@@ -7063,7 +7063,7 @@ ontohgis:administrative_type_206 rdf:type owl:Class ;
 ontohgis:administrative_type_207 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_208
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 207 ;
@@ -7127,7 +7127,7 @@ ontohgis:administrative_type_208 rdf:type owl:Class ;
 ontohgis:administrative_type_209 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_210
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 209 ;
@@ -7150,7 +7150,7 @@ ontohgis:administrative_type_209 rdf:type owl:Class ;
 ontohgis:administrative_type_210 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_211
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 210 ;
@@ -7180,7 +7180,7 @@ ontohgis:administrative_type_211 rdf:type owl:Class ;
 ontohgis:administrative_type_212 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_213
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 212 ;
@@ -7199,7 +7199,7 @@ ontohgis:administrative_type_212 rdf:type owl:Class ;
 ontohgis:administrative_type_213 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_214
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 213 ;
@@ -7213,7 +7213,7 @@ ontohgis:administrative_type_213 rdf:type owl:Class ;
 ontohgis:administrative_type_214 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_215
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 214 ;
@@ -7238,7 +7238,7 @@ ontohgis:administrative_type_215 rdf:type owl:Class ;
 ontohgis:administrative_type_216 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_217
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 216 ;
@@ -7251,7 +7251,7 @@ ontohgis:administrative_type_216 rdf:type owl:Class ;
 ontohgis:administrative_type_217 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_218
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 217 ;
@@ -7265,7 +7265,7 @@ ontohgis:administrative_type_217 rdf:type owl:Class ;
 ontohgis:administrative_type_218 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_219
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 218 ;
@@ -7280,7 +7280,7 @@ ontohgis:administrative_type_218 rdf:type owl:Class ;
 ontohgis:administrative_type_219 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_220
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 219 ;
@@ -7295,7 +7295,7 @@ ontohgis:administrative_type_219 rdf:type owl:Class ;
 ontohgis:administrative_type_220 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3014 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46_is_composed_of> ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
                                                    owl:someValuesFrom ontohgis:administrative_type_221
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 220 ;
