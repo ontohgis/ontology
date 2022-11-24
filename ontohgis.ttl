@@ -19,6 +19,7 @@
                                          "Mapped onto types of GOV ontology (http://gov.genealogy.net/)"@en ,
                                          "Ontologia powstała w ramach projektu 'Ontologiczne podstawy budowy historycznych systemów informacji geograficznej' (2bH 15 0216 83) finansowanego przez Narodowy Programu Rozwoju Humanistyki 2015 r., IV edycja, moduł \"Rozwój\" 2 b."@pl ,
                                          "Ontology was developed thanks to the Ontological Foundations for Building Historical Geoinformation Systems (2bH 15 0216 83) grant funded by National Programme for the Development of Humanities (http://nprh.org/)."@en ,
+                                         "This ontology uses the min 0 cardinality constraints to convey the possibility of a given restriction. The intent here is to identify properties that typically have a value for a given concept, although there are situations in which they would be undefined. This follows the pattern described in https://github.com/edmcouncil/fibo/blob/master/ONTOLOGY_GUIDE.md#overarching-principles."@en ,
                                          "This version of ontohgis was founded on CIDOC CRM as specified in http://www.cidoc-crm.org/sites/default/files/cidoc_crm_v6.2.1-2018April.rdfs. We extended it with the labels in Polish."@en ;
                             owl:versionInfo 3.2 .
 
@@ -5858,8 +5859,23 @@ ontohgis:administrative_type_143 rdf:type owl:Class ;
 ontohgis:administrative_type_144 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                   owl:someValuesFrom ontohgis:administrative_type_145
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of> ;
+                                                   owl:someValuesFrom ontohgis:object_3012
+                                                 ] ,
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of> ;
+                                                   owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                   owl:onClass ontohgis:administrative_type_146
+                                                 ] ,
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of> ;
+                                                   owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                   owl:onClass ontohgis:administrative_type_145
+                                                 ] ,
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of> ;
+                                                   owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                   owl:onClass ontohgis:administrative_type_147
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 144 ;
                                  ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_210 ;
@@ -5883,8 +5899,18 @@ ontohgis:administrative_type_144 rdf:type owl:Class ;
 ontohgis:administrative_type_145 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                   owl:someValuesFrom ontohgis:administrative_type_146
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of> ;
+                                                   owl:someValuesFrom ontohgis:object_3012
+                                                 ] ,
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of> ;
+                                                   owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                   owl:onClass ontohgis:administrative_type_147
+                                                 ] ,
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of> ;
+                                                   owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                   owl:onClass ontohgis:administrative_type_146
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 145 ;
                                  ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_230 ;
@@ -5911,8 +5937,18 @@ ontohgis:administrative_type_146 rdf:type owl:Class ;
 ontohgis:administrative_type_147 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3012 ,
                                                  [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                   owl:someValuesFrom ontohgis:administrative_type_148
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of> ;
+                                                   owl:someValuesFrom ontohgis:object_3012
+                                                 ] ,
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P106i_forms_part_of> ;
+                                                   owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                   owl:onClass ontohgis:administrative_type_149
+                                                 ] ,
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of> ;
+                                                   owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
+                                                   owl:onClass ontohgis:administrative_type_148
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 147 ;
                                  ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_200 ;
@@ -9808,9 +9844,6 @@ ontohgis:object_30 rdf:type owl:Class ;
                                    ] ;
                    rdfs:isDefinedBy """Jednostka osadnicza:
 1. obszar posiadający nazwę własną i
-2. obszar, który jest lub był w przeszłości miejscowością"""@pl ,
-                                    """Jednostka osadnicza:
-1. obszar posiadający nazwę własną i
 2. obszar, który jest lub był w przeszłości miejscowością"""@pl ;
                    rdfs:label "human settlement"@en ,
                               "jednostka osadnicza"@pl ;
@@ -10095,131 +10128,6 @@ ontohgis:settlement_type_1 rdf:type owl:Class ;
                                                                              "twierdza"@pl ;
                            <http://www.w3.org/2004/02/skos/core#prefLabel> "castle"@en ,
                                                                            "zamek"@pl .
-
-
-###  http://purl.org/ontohgis#settlement_type_2
-ontohgis:settlement_type_2 rdf:type owl:Class ;
-                           rdfs:subClassOf ontohgis:object_1000 ,
-                                           ontohgis:settlement_type_1000 ,
-                                           [ rdf:type owl:Restriction ;
-                                             owl:onProperty ontohgis:hasProperFunction ;
-                                             owl:hasValue ontohgis:function1
-                                           ] ,
-                                           [ rdf:type owl:Restriction ;
-                                             owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
-                                             owl:hasValue <http://www.geonames.org/ontology#P.PPLF>
-                                           ] ;
-                           dc:creator ontohgis:person_3 ;
-                           ontohgis:hasExternalIdentifier "2"^^xsd:string ;
-                           ontohgis:hasLanguageVerificator ontohgis:person_1 ;
-                           ontohgis:hasOntologicalVerificator ontohgis:person_10 ;
-                           ontohgis:hasTranslator ontohgis:person_9 ;
-                           rdfs:comment """A development in a village may be dense (i.e. villages established according to a German law introducing a linear development) or scattered (i.e. Hauländer colonies, Dutch settlement, from 18th century or early medieval single manor settlements). A village may preponderate (be a superior settlement) any other units, such as: a hamlet or a mill settlement; it is also dependent on a manor, which supervises a village in legal and administrative issues. Inhabitants from all units forming a village comprise a village community. Studies on this type of localities distinguish an abandoned village, a settlement that lost its functions due to environmental, political, or economic incidents. In historiography, one can find an expression a lost village, which stands for a village, where settlement was not re-established.
-In German language in the nineteenth century, two terms could coexist - Pfarrdorf and Kirchdorf. The first meant a larger village with a parish church, and a second smaller village with an auxiliary (filial) church, but these criteria of distinction were not strict and neither used consistently. For example on the Gilly map (1802-1803), only the following categories exist: Kirchdorf and Dorf ohne Kirche."""@en ,
-                                        """Wieś może posiadać zwartą (np. wsie lokowane na prawie niemieckim np. ulicówki, łańcuchówki) lub rozproszoną zabudowę (często kolonie olęderskie w XVIII w. lub wczesnośredniowieczne osady jednodworcze). Wieś może dominować (być jednostką nadrzędną osadniczo) w stosunku do innych jednostek takich jak np. przysiółek, osada młyńska; jest także zależna od pana gruntowego, który sprawuje nad nią nadzór własnościowy. Mieszkańcy wszystkich jednostek składających się na wieś tworzą jedną wspólnotę wiejską. W badaniach nad wsią rozróżnia się także pojęcie wsi opustoszałej, czyli takiej, która fizycznie przestała pełnić swoje funkcje w wyniku zdarzeń o charakterze losowym, środowiskowym, politycznym lub gospodarczym. W literaturze przedmiotu funkcjonuje także określenie wieś zaginiona, które odnosi się do wsi, w których nie wznowiono osadnictwa.
-W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy – Pfarrdorf i Kirchdorf.  Pierwszy oznaczał raczej większą wieś z kościołem parafialnym, zaś drugi mniejszą wieś z kościołem pomocniczym. Terminy te nie były jednak ścisłe i używane konsekwentnie, np. na mapie Gilly’ego z lat 1802-1803 występują tylko kategorie: Kirchdorf oraz Dorf ohne Kirche."""@pl ;
-                           rdfs:isDefinedBy "Village is a locality composed of a group of buildings, mostly of residential and economic character, but sometimes, also industrial ones (i.e. ironworks, mill) as well as a belonging land, inhabited by people involved particularly in agricultural and construction activities or in farming industry (i.e. blacksmith or mill work), and not having city rights nor a status of a city or a town. Some villages in Early Middle Ages had a right to organise a fair and a market."@en ,
-                                            "Wieś jest to miejscowość składająca się z zabudowań mieszkalno-gospodarczych, niekiedy przemysłowych (np. kuźnia, młyn) wraz z przynależnymi do nich gruntami (rozłogi), zamieszkała przez ludność zajmującą się w większości zajęciami rolniczo-hodowlanymi oraz przemysłem wiejskim (np. kowalstwo, młynarstwo), nieposiadająca praw miejskich ani statusu miasta. Niekiedy we wczesnym średniowieczu posiadająca prawo odbywania targu."@pl ;
-                           rdfs:label "village"@en ,
-                                      "wieś"@pl ;
-                           rdfs:seeAlso <http://dbpedia.org/page/Village> ,
-                                        <http://gov.genealogy.net/types.owl#55> ,
-                                        <http://linkedgeodata.org/ontology/Village> ,
-                                        <http://vocab.getty.edu/aat/300008372> ,
-                                        <https://pzgik.geoportal.gov.pl/ontologies/prng/wies> ,
-                                        <https://www.wikidata.org/wiki/Q532> ,
-                                        "1. miejscowość zamieszkała przez ludzi, którzy trudnią się pracą na roli, 2. mieszkańcy takiej miejscowości, 3. tereny pozamiejskie, rolnicze, letniskowe, 4. ludzie trudniący się pracą na roli"@pl ,
-                                        "Jednostka osadnicza o zwartej lub rozproszonej zabudowie i istniejących funkcjach rolniczych lub związanych z nimi usługowych lub turystycznych, nieposiadająca praw miejskich lub statusu miasta"@pl ,
-                                        "Kirchdorf: Dorf mit Kirche (I) und Pfarrer, rechtlicher und religiöser Mittelpunkt einer (eventuell aus mehreren Filialdörfern bestehenden) politischen oder Pfarr-Gemeinde [Wieś z kościołem i parafią, prawne i religijne centrum gminy politycznej albo parafialnej (ewentualnie składającej się z kilku wsi filialnych, wsi z kościołami filialnymi]"@de ,
-                                        "Pfarrdorf: 1. Dorf, in dem die für die Pfarrgemeinde konstitutive Pfarrkirche (I) steht [wieś, w której stoi kościół parafialny właściwy dla całej parafii, gminy parafialnej]; 2. zu einer Pfarre (I) gehöriges Dorf [wieś należąca do parafii]"@de ,
-                                        "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ,
-                                        "s. 29: wsią nazywamy osiedle w zasadzie otwarte, której ludność zajmuje się produkcją śródków żywności oraz surowców technicznych (tj. rolnictwem, hodowlą bydła, rybołówstwem itd.)"@pl ,
-                                        "t. 4, s. 365: wioska, imienie, dobro, grunt leżący; wieś targowa, wsie łowcze, osoczne, wołoskie."@pl ,
-                                        "t. 7, s. 594–595: osada rolnicza, z pewnej liczby chat złożona, sioło"@pl ,
-                                        "t. XX, s. 199–201: 1. osada, w której ludność zajmuje się głównie rolnictwem, 2. mieszkańcy wsi, ogół mieszkańców wsi."@pl ;
-                           <http://www.w3.org/2004/02/skos/core#altLabel> "Dorf"@de ,
-                                                                          "pagus"@la ,
-                                                                          "sioło"@pl ,
-                                                                          "villa"@la ,
-                                                                          "село"@ru ;
-                           <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Kirchdorf"@de ,
-                                                                             "Pfarrdorf"@de ,
-                                                                             "ager"@la ,
-                                                                             "osada"@pl ,
-                                                                             "osiedle wiejskie"@pl ,
-                                                                             "rus"@la ,
-                                                                             "siedlisko wiejskie"@pl ,
-                                                                             "vicus"@la ,
-                                                                             "wioseczka"@pl ,
-                                                                             "wioska"@pl ,
-                                                                             "włość i klucz"@pl ,
-                                                                             "źreb"@pl ,
-                                                                             "погост"@ru ;
-                           <http://www.w3.org/2004/02/skos/core#prefLabel> "village"@en ,
-                                                                           "wieś"@pl .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_type_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "1. miejscowość zamieszkała przez ludzi, którzy trudnią się pracą na roli, 2. mieszkańcy takiej miejscowości, 3. tereny pozamiejskie, rolnicze, letniskowe, 4. ludzie trudniący się pracą na roli"@pl ;
-   rdfs:isDefinedBy ontohgis:document_4
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_type_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "Jednostka osadnicza o zwartej lub rozproszonej zabudowie i istniejących funkcjach rolniczych lub związanych z nimi usługowych lub turystycznych, nieposiadająca praw miejskich lub statusu miasta"@pl ;
-   rdfs:isDefinedBy ontohgis:document_9
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_type_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "Kirchdorf: Dorf mit Kirche (I) und Pfarrer, rechtlicher und religiöser Mittelpunkt einer (eventuell aus mehreren Filialdörfern bestehenden) politischen oder Pfarr-Gemeinde [Wieś z kościołem i parafią, prawne i religijne centrum gminy politycznej albo parafialnej (ewentualnie składającej się z kilku wsi filialnych, wsi z kościołami filialnymi]"@de ;
-   rdfs:isDefinedBy ontohgis:document_10
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_type_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "Pfarrdorf: 1. Dorf, in dem die für die Pfarrgemeinde konstitutive Pfarrkirche (I) steht [wieś, w której stoi kościół parafialny właściwy dla całej parafii, gminy parafialnej]; 2. zu einer Pfarre (I) gehöriges Dorf [wieś należąca do parafii]"@de ;
-   rdfs:isDefinedBy ontohgis:document_10
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_type_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ;
-   rdfs:isDefinedBy ontohgis:document_8
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_type_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "s. 29: wsią nazywamy osiedle w zasadzie otwarte, której ludność zajmuje się produkcją śródków żywności oraz surowców technicznych (tj. rolnictwem, hodowlą bydła, rybołówstwem itd.)"@pl ;
-   rdfs:isDefinedBy ontohgis:document_16
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_type_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "t. 4, s. 365: wioska, imienie, dobro, grunt leżący; wieś targowa, wsie łowcze, osoczne, wołoskie."@pl ;
-   rdfs:isDefinedBy ontohgis:document_1
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_type_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "t. 7, s. 594–595: osada rolnicza, z pewnej liczby chat złożona, sioło"@pl ;
-   rdfs:isDefinedBy ontohgis:document_5
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_type_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "t. XX, s. 199–201: 1. osada, w której ludność zajmuje się głównie rolnictwem, 2. mieszkańcy wsi, ogół mieszkańców wsi."@pl ;
-   rdfs:isDefinedBy ontohgis:document_6
- ] .
 
 
 ###  http://purl.org/ontohgis#settlement_type_10
@@ -11940,6 +11848,131 @@ ontohgis:settlement_type_19 rdf:type owl:Class ;
                                                                               "ławra"@pl ;
                             <http://www.w3.org/2004/02/skos/core#prefLabel> "monastery"@en ,
                                                                             "osada klasztorna"@pl .
+
+
+###  http://purl.org/ontohgis#settlement_type_2
+ontohgis:settlement_type_2 rdf:type owl:Class ;
+                           rdfs:subClassOf ontohgis:object_1000 ,
+                                           ontohgis:settlement_type_1000 ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty ontohgis:hasProperFunction ;
+                                             owl:hasValue ontohgis:function1
+                                           ] ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
+                                             owl:hasValue <http://www.geonames.org/ontology#P.PPLF>
+                                           ] ;
+                           dc:creator ontohgis:person_3 ;
+                           ontohgis:hasExternalIdentifier "2"^^xsd:string ;
+                           ontohgis:hasLanguageVerificator ontohgis:person_1 ;
+                           ontohgis:hasOntologicalVerificator ontohgis:person_10 ;
+                           ontohgis:hasTranslator ontohgis:person_9 ;
+                           rdfs:comment """A development in a village may be dense (i.e. villages established according to a German law introducing a linear development) or scattered (i.e. Hauländer colonies, Dutch settlement, from 18th century or early medieval single manor settlements). A village may preponderate (be a superior settlement) any other units, such as: a hamlet or a mill settlement; it is also dependent on a manor, which supervises a village in legal and administrative issues. Inhabitants from all units forming a village comprise a village community. Studies on this type of localities distinguish an abandoned village, a settlement that lost its functions due to environmental, political, or economic incidents. In historiography, one can find an expression a lost village, which stands for a village, where settlement was not re-established.
+In German language in the nineteenth century, two terms could coexist - Pfarrdorf and Kirchdorf. The first meant a larger village with a parish church, and a second smaller village with an auxiliary (filial) church, but these criteria of distinction were not strict and neither used consistently. For example on the Gilly map (1802-1803), only the following categories exist: Kirchdorf and Dorf ohne Kirche."""@en ,
+                                        """Wieś może posiadać zwartą (np. wsie lokowane na prawie niemieckim np. ulicówki, łańcuchówki) lub rozproszoną zabudowę (często kolonie olęderskie w XVIII w. lub wczesnośredniowieczne osady jednodworcze). Wieś może dominować (być jednostką nadrzędną osadniczo) w stosunku do innych jednostek takich jak np. przysiółek, osada młyńska; jest także zależna od pana gruntowego, który sprawuje nad nią nadzór własnościowy. Mieszkańcy wszystkich jednostek składających się na wieś tworzą jedną wspólnotę wiejską. W badaniach nad wsią rozróżnia się także pojęcie wsi opustoszałej, czyli takiej, która fizycznie przestała pełnić swoje funkcje w wyniku zdarzeń o charakterze losowym, środowiskowym, politycznym lub gospodarczym. W literaturze przedmiotu funkcjonuje także określenie wieś zaginiona, które odnosi się do wsi, w których nie wznowiono osadnictwa.
+W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy – Pfarrdorf i Kirchdorf.  Pierwszy oznaczał raczej większą wieś z kościołem parafialnym, zaś drugi mniejszą wieś z kościołem pomocniczym. Terminy te nie były jednak ścisłe i używane konsekwentnie, np. na mapie Gilly’ego z lat 1802-1803 występują tylko kategorie: Kirchdorf oraz Dorf ohne Kirche."""@pl ;
+                           rdfs:isDefinedBy "Village is a locality composed of a group of buildings, mostly of residential and economic character, but sometimes, also industrial ones (i.e. ironworks, mill) as well as a belonging land, inhabited by people involved particularly in agricultural and construction activities or in farming industry (i.e. blacksmith or mill work), and not having city rights nor a status of a city or a town. Some villages in Early Middle Ages had a right to organise a fair and a market."@en ,
+                                            "Wieś jest to miejscowość składająca się z zabudowań mieszkalno-gospodarczych, niekiedy przemysłowych (np. kuźnia, młyn) wraz z przynależnymi do nich gruntami (rozłogi), zamieszkała przez ludność zajmującą się w większości zajęciami rolniczo-hodowlanymi oraz przemysłem wiejskim (np. kowalstwo, młynarstwo), nieposiadająca praw miejskich ani statusu miasta. Niekiedy we wczesnym średniowieczu posiadająca prawo odbywania targu."@pl ;
+                           rdfs:label "village"@en ,
+                                      "wieś"@pl ;
+                           rdfs:seeAlso <http://dbpedia.org/page/Village> ,
+                                        <http://gov.genealogy.net/types.owl#55> ,
+                                        <http://linkedgeodata.org/ontology/Village> ,
+                                        <http://vocab.getty.edu/aat/300008372> ,
+                                        <https://pzgik.geoportal.gov.pl/ontologies/prng/wies> ,
+                                        <https://www.wikidata.org/wiki/Q532> ,
+                                        "1. miejscowość zamieszkała przez ludzi, którzy trudnią się pracą na roli, 2. mieszkańcy takiej miejscowości, 3. tereny pozamiejskie, rolnicze, letniskowe, 4. ludzie trudniący się pracą na roli"@pl ,
+                                        "Jednostka osadnicza o zwartej lub rozproszonej zabudowie i istniejących funkcjach rolniczych lub związanych z nimi usługowych lub turystycznych, nieposiadająca praw miejskich lub statusu miasta"@pl ,
+                                        "Kirchdorf: Dorf mit Kirche (I) und Pfarrer, rechtlicher und religiöser Mittelpunkt einer (eventuell aus mehreren Filialdörfern bestehenden) politischen oder Pfarr-Gemeinde [Wieś z kościołem i parafią, prawne i religijne centrum gminy politycznej albo parafialnej (ewentualnie składającej się z kilku wsi filialnych, wsi z kościołami filialnymi]"@de ,
+                                        "Pfarrdorf: 1. Dorf, in dem die für die Pfarrgemeinde konstitutive Pfarrkirche (I) steht [wieś, w której stoi kościół parafialny właściwy dla całej parafii, gminy parafialnej]; 2. zu einer Pfarre (I) gehöriges Dorf [wieś należąca do parafii]"@de ,
+                                        "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ,
+                                        "s. 29: wsią nazywamy osiedle w zasadzie otwarte, której ludność zajmuje się produkcją śródków żywności oraz surowców technicznych (tj. rolnictwem, hodowlą bydła, rybołówstwem itd.)"@pl ,
+                                        "t. 4, s. 365: wioska, imienie, dobro, grunt leżący; wieś targowa, wsie łowcze, osoczne, wołoskie."@pl ,
+                                        "t. 7, s. 594–595: osada rolnicza, z pewnej liczby chat złożona, sioło"@pl ,
+                                        "t. XX, s. 199–201: 1. osada, w której ludność zajmuje się głównie rolnictwem, 2. mieszkańcy wsi, ogół mieszkańców wsi."@pl ;
+                           <http://www.w3.org/2004/02/skos/core#altLabel> "Dorf"@de ,
+                                                                          "pagus"@la ,
+                                                                          "sioło"@pl ,
+                                                                          "villa"@la ,
+                                                                          "село"@ru ;
+                           <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Kirchdorf"@de ,
+                                                                             "Pfarrdorf"@de ,
+                                                                             "ager"@la ,
+                                                                             "osada"@pl ,
+                                                                             "osiedle wiejskie"@pl ,
+                                                                             "rus"@la ,
+                                                                             "siedlisko wiejskie"@pl ,
+                                                                             "vicus"@la ,
+                                                                             "wioseczka"@pl ,
+                                                                             "wioska"@pl ,
+                                                                             "włość i klucz"@pl ,
+                                                                             "źreb"@pl ,
+                                                                             "погост"@ru ;
+                           <http://www.w3.org/2004/02/skos/core#prefLabel> "village"@en ,
+                                                                           "wieś"@pl .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "1. miejscowość zamieszkała przez ludzi, którzy trudnią się pracą na roli, 2. mieszkańcy takiej miejscowości, 3. tereny pozamiejskie, rolnicze, letniskowe, 4. ludzie trudniący się pracą na roli"@pl ;
+   rdfs:isDefinedBy ontohgis:document_4
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "Jednostka osadnicza o zwartej lub rozproszonej zabudowie i istniejących funkcjach rolniczych lub związanych z nimi usługowych lub turystycznych, nieposiadająca praw miejskich lub statusu miasta"@pl ;
+   rdfs:isDefinedBy ontohgis:document_9
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "Kirchdorf: Dorf mit Kirche (I) und Pfarrer, rechtlicher und religiöser Mittelpunkt einer (eventuell aus mehreren Filialdörfern bestehenden) politischen oder Pfarr-Gemeinde [Wieś z kościołem i parafią, prawne i religijne centrum gminy politycznej albo parafialnej (ewentualnie składającej się z kilku wsi filialnych, wsi z kościołami filialnymi]"@de ;
+   rdfs:isDefinedBy ontohgis:document_10
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "Pfarrdorf: 1. Dorf, in dem die für die Pfarrgemeinde konstitutive Pfarrkirche (I) steht [wieś, w której stoi kościół parafialny właściwy dla całej parafii, gminy parafialnej]; 2. zu einer Pfarre (I) gehöriges Dorf [wieś należąca do parafii]"@de ;
+   rdfs:isDefinedBy ontohgis:document_10
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ;
+   rdfs:isDefinedBy ontohgis:document_8
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "s. 29: wsią nazywamy osiedle w zasadzie otwarte, której ludność zajmuje się produkcją śródków żywności oraz surowców technicznych (tj. rolnictwem, hodowlą bydła, rybołówstwem itd.)"@pl ;
+   rdfs:isDefinedBy ontohgis:document_16
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 4, s. 365: wioska, imienie, dobro, grunt leżący; wieś targowa, wsie łowcze, osoczne, wołoskie."@pl ;
+   rdfs:isDefinedBy ontohgis:document_1
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. 7, s. 594–595: osada rolnicza, z pewnej liczby chat złożona, sioło"@pl ;
+   rdfs:isDefinedBy ontohgis:document_5
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_2 ;
+   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedTarget "t. XX, s. 199–201: 1. osada, w której ludność zajmuje się głównie rolnictwem, 2. mieszkańcy wsi, ogół mieszkańców wsi."@pl ;
+   rdfs:isDefinedBy ontohgis:document_6
+ ] .
 
 
 ###  http://purl.org/ontohgis#settlement_type_20
@@ -19685,8 +19718,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/ISO3166> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                    rdfs:comment "The set of codes listed in ISO 3166-1 for the representation of names of countries."@en ;
-                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO3166-004> ;
+                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                    rdfs:label "ISO 3166"@en ;
                                    rdfs:seeAlso <http://www.iso.org/iso/en/prods-services/iso3166ma/02iso-3166-code-lists/list-en1.html> .
@@ -19694,8 +19727,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/ISO639-2> rdfs:seeAlso <http://lcweb.loc.gov/standards/iso639-2/langhome.html> ;
                                     <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                     rdfs:comment "The three-letter alphabetic codes listed in ISO639-2 for the representation of names of languages."@en ;
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     rdfs:label "ISO 639-2"@en ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO639-2-003> .
@@ -19703,15 +19736,15 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/ISO639-3> rdfs:comment "The set of three-letter codes listed in ISO 639-3 for the representation of names of languages."@en ;
                                     rdfs:label "ISO 639-3"@en ;
-                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
+                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO639-3-001> ;
                                     rdfs:seeAlso <http://www.sil.org/iso639-3/> .
 
 
-<http://purl.org/dc/terms/Period> rdfs:comment "The set of time intervals defined by their limits according to the DCMI Period Encoding Scheme."@en ;
-                                  rdfs:seeAlso <http://dublincore.org/documents/dcmi-period/> ;
+<http://purl.org/dc/terms/Period> rdfs:seeAlso <http://dublincore.org/documents/dcmi-period/> ;
                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+                                  rdfs:comment "The set of time intervals defined by their limits according to the DCMI Period Encoding Scheme."@en ;
                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                   rdfs:label "DCMI Period"@en ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -19730,9 +19763,9 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/RFC1766> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#RFC1766-003> ;
                                    rdfs:seeAlso <http://www.ietf.org/rfc/rfc1766.txt> ;
                                    rdfs:comment "The set of tags, constructed according to RFC 1766, for the identification of languages."@en ;
+                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#RFC1766-003> ;
                                    rdfs:label "RFC 1766"@en .
 
 
@@ -19741,8 +19774,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    <http://purl.org/dc/terms/description> "RFC 3066 has been obsoleted by RFC 4646."@en ;
                                    rdfs:comment "The set of tags constructed according to RFC 3066 for the identification of languages."@en ;
-                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                    rdfs:seeAlso <http://www.ietf.org/rfc/rfc3066.txt> ;
+                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#RFC3066-002> .
 
 
@@ -19751,8 +19784,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#RFC4646-001> ;
                                    rdfs:seeAlso <http://www.ietf.org/rfc/rfc4646.txt> ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                   rdfs:label "RFC 4646"@en ;
-                                   rdfs:comment "The set of tags constructed according to RFC 4646 for the identification of languages."@en .
+                                   rdfs:comment "The set of tags constructed according to RFC 4646 for the identification of languages."@en ;
+                                   rdfs:label "RFC 4646"@en .
 
 
 <http://purl.org/dc/terms/RFC5646> <http://purl.org/dc/terms/issued> "2010-10-11"^^xsd:date ;
@@ -19828,8 +19861,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/created> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    rdfs:comment "Date of creation of the resource."@en ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#created-003> ;
-                                   rdfs:label "Date Created"@en ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+                                   rdfs:label "Date Created"@en ;
                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
 
 
@@ -19846,8 +19879,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                 <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#dateT-001> ;
                                 rdfs:comment "A point or period of time associated with an event in the lifecycle of the resource."@en ;
                                 <http://purl.org/dc/terms/description> "Date may be used to express temporal information at any level of granularity.  Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF]."@en ;
-                                rdfs:label "Date"@en ;
                                 <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
+                                rdfs:label "Date"@en ;
                                 <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date .
 
 
@@ -19880,9 +19913,9 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/description> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                        rdfs:label "Description"@en ;
                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                       rdfs:comment "An account of the resource."@en ;
                                        <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                        <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#descriptionT-001> ;
+                                       rdfs:comment "An account of the resource."@en ;
                                        <http://purl.org/dc/terms/description> "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource."@en .
 
 
@@ -19891,8 +19924,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                      <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#hasFormat-003> ;
                                      <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                      rdfs:label "Has Format"@en ;
-                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
-                                     rdfs:comment "A related resource that is substantially the same as the pre-existing described resource, but in another format."@en .
+                                     rdfs:comment "A related resource that is substantially the same as the pre-existing described resource, but in another format."@en ;
+                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
 
 
 <http://purl.org/dc/terms/hasPart> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -19934,8 +19967,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/isPartOf> <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                     rdfs:label "Is Part Of"@en ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isPartOf-003> ;
-                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                     <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     rdfs:comment "A related resource in which the described resource is physically or logically included."@en .
 
@@ -19943,8 +19976,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/isReferencedBy> rdfs:label "Is Referenced By"@en ;
                                           rdfs:comment "A related resource that references, cites, or otherwise points to the described resource."@en ;
                                           <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                          rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                           <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
+                                          rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                           <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                           <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isReferencedBy-003> .
 
@@ -19993,8 +20026,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
 
 
-<http://purl.org/dc/terms/references> rdfs:comment "A related resource that is referenced, cited, or otherwise pointed to by the described resource."@en ;
-                                      rdfs:label "References"@en ;
+<http://purl.org/dc/terms/references> rdfs:label "References"@en ;
+                                      rdfs:comment "A related resource that is referenced, cited, or otherwise pointed to by the described resource."@en ;
                                       <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                       <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                       <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#references-003> ;
@@ -20026,8 +20059,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     rdfs:label "Requires"@en ;
                                     rdfs:comment "A related resource that is required by the described resource to support its function, delivery, or coherence."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                    <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
-                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                    <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en .
 
 
 <http://purl.org/dc/terms/source> rdfs:label "Source"@en ;
@@ -20036,8 +20069,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#sourceT-001> ;
-                                  <http://purl.org/dc/terms/description> "The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system."@en ;
-                                  rdfs:comment "A related resource from which the described resource is derived."@en .
+                                  rdfs:comment "A related resource from which the described resource is derived."@en ;
+                                  <http://purl.org/dc/terms/description> "The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system."@en .
 
 
 <http://purl.org/dc/terms/tableOfContents> rdfs:comment "A list of subunits of the resource."@en ;
@@ -20060,8 +20093,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                  <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                  rdfs:label "Date Valid"@en ;
-                                 rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                 <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#valid-003> .
+                                 <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#valid-003> ;
+                                 rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
