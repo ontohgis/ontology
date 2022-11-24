@@ -5948,7 +5948,7 @@ ontohgis:administrative_type_147 rdf:type owl:Class ;
                                                  [ rdf:type owl:Restriction ;
                                                    owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P9i_forms_part_of> ;
                                                    owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-                                                   owl:onClass ontohgis:administrative_type_161
+                                                   owl:onClass ontohgis:administrative_type_148
                                                  ] ;
                                  ontohgis:hasExternalIdentifier 147 ;
                                  ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_200 ;
