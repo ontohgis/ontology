@@ -5095,180 +5095,6 @@ ontohgis:administrative_type_10 rdf:type owl:Class ;
                                              "https://www.wikidata.org/wiki/Q247073" .
 
 
-###  http://purl.org/ontohgis#administrative_type_100
-ontohgis:administrative_type_100 rdf:type owl:Class ;
-                                 owl:equivalentClass ontohgis:administrative_type_105 ,
-                                                     ontohgis:administrative_type_107 ,
-                                                     ontohgis:administrative_type_109 ,
-                                                     ontohgis:administrative_type_114 ,
-                                                     ontohgis:administrative_type_289 ,
-                                                     ontohgis:administrative_type_99 ;
-                                 rdfs:subClassOf ontohgis:object_3014 ;
-                                 ontohgis:hasExternalIdentifier 100 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_100 ;
-                                 rdfs:isDefinedBy ontohgis:administrative_system_10 ;
-                                 rdfs:label "cesarstwo"@pl ,
-                                            "empire"@en ;
-                                 rdfs:seeAlso "https://www.wikidata.org/wiki/Q28513" ;
-                                 <http://www.w3.org/2004/02/skos/core#altLabel> "dual monarchy"@en ,
-                                                                                "monarchia"@pl ,
-                                                                                "państwo związkowe"@pl .
-
-
-###  http://purl.org/ontohgis#administrative_type_101
-ontohgis:administrative_type_101 rdf:type owl:Class ;
-                                 owl:equivalentClass ontohgis:administrative_type_102 ;
-                                 rdfs:subClassOf ontohgis:object_3014 ;
-                                 ontohgis:hasExternalIdentifier 101 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_100 ;
-                                 rdfs:comment """\"Władza króla nad całym terytorium państwa sprawowana osobiście i na czele rządu centralnego do 1850. Od 1850 ustrój parlamentarno-konstytucyjny.
-Królestwo Prus nominalnie wchodzące w skład Cesarstwa Niemieckiego do 1806 r.
-1807-1815 Królestwo Prus jako państwo członkowskie Związku Reńskiego
-1815-1867. Królestwo Prus Jako państwo członkowskie Związku Niemieckiego.
-1867-1871 Królestwo Prus jako państwo członkowskie Związku Północnoniemieckiego.
-1871-1919 Królestwo Prus jako państwo członkowskie Cesarstwa Niemieckiego.\""""@pl ;
-                                 rdfs:isDefinedBy ontohgis:administrative_system_7 ;
-                                 rdfs:label "Kaiserreich"@de ,
-                                            "composite state"@en ,
-                                            "państwo złożone"@pl ;
-                                 rdfs:seeAlso "https://www.wikidata.org/wiki/Q7275" ;
-                                 <http://www.w3.org/2004/02/skos/core#altLabel> "cesarstwo"@pl ,
-                                                                                "empire"@en ,
-                                                                                "monarchia"@pl ,
-                                                                                "monarchy"@en .
-
-
-###  http://purl.org/ontohgis#administrative_type_102
-ontohgis:administrative_type_102 rdf:type owl:Class ;
-                                 rdfs:subClassOf ontohgis:object_3014 ;
-                                 ontohgis:hasExternalIdentifier 102 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_12 ,
-                                                                ontohgis:map_symbol_100 ;
-                                 rdfs:comment "Od 1871 jako część Cesarstwa Niemieckiego."@pl ;
-                                 rdfs:isDefinedBy ontohgis:administrative_system_12 ;
-                                 rdfs:label "cesarstwo"@pl ,
-                                            "empire"@en ;
-                                 rdfs:seeAlso "http://gov.genealogy.net/types.owl#214" ,
-                                              "https://www.wikidata.org/wiki/Q960541" .
-
-
-###  http://purl.org/ontohgis#administrative_type_103
-ontohgis:administrative_type_103 rdf:type owl:Class ;
-                                 owl:equivalentClass ontohgis:administrative_type_106 ;
-                                 rdfs:subClassOf ontohgis:object_3014 ,
-                                                 [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                   owl:someValuesFrom ontohgis:administrative_type_100
-                                                 ] ;
-                                 ontohgis:hasExternalIdentifier 103 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_90 ;
-                                 rdfs:comment "Po przekształceniu w 1867 r. Cesarstwa Austriackiego w monarchię dualistyczną jego terytorium zostało podzielone na dwa człony-części: tzw. Zalitawię i Przedlitawię"@pl ;
-                                 rdfs:isDefinedBy ontohgis:administrative_system_10 ;
-                                 rdfs:label "część (człon) państwa związkowego"@pl ,
-                                            "part"@en ;
-                                 <http://www.w3.org/2004/02/skos/core#altLabel> "polity"@en .
-
-
-###  http://purl.org/ontohgis#administrative_type_104
-ontohgis:administrative_type_104 rdf:type owl:Class ;
-                                 rdfs:subClassOf ontohgis:object_3014 ,
-                                                 [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                   owl:someValuesFrom ontohgis:administrative_type_105
-                                                 ] ;
-                                 ontohgis:hasExternalIdentifier 104 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_90 ;
-                                 rdfs:comment "Po przekształceniu w 1867 r. Cesarstwa Austriackiego w monarchię dualistyczną jego terytorium zostało podzielone na dwa człony-części: tzw. Zalitawię i Przedlitawię"@pl ;
-                                 rdfs:isDefinedBy ontohgis:administrative_system_18 ;
-                                 rdfs:label "część (człon) państwa związkowego"@pl ,
-                                            "part"@en ;
-                                 <http://www.w3.org/2004/02/skos/core#altLabel> "polity"@en .
-
-
-###  http://purl.org/ontohgis#administrative_type_105
-ontohgis:administrative_type_105 rdf:type owl:Class ;
-                                 rdfs:subClassOf ontohgis:object_3014 ;
-                                 ontohgis:hasExternalIdentifier 105 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_100 ;
-                                 rdfs:isDefinedBy ontohgis:administrative_system_18 ;
-                                 rdfs:label "cesarstwo"@pl ,
-                                            "empire"@en ,
-                                            "https://www.wikidata.org/wiki/Q28513"@en ;
-                                 <http://www.w3.org/2004/02/skos/core#altLabel> "dualist state"@en ,
-                                                                                "federation"@en ,
-                                                                                "monarchia"@pl ,
-                                                                                "monarchy"@en ,
-                                                                                "państwo związkowe"@pl .
-
-
-###  http://purl.org/ontohgis#administrative_type_106
-ontohgis:administrative_type_106 rdf:type owl:Class ;
-                                 rdfs:subClassOf ontohgis:object_3014 ,
-                                                 [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                   owl:someValuesFrom ontohgis:administrative_type_107
-                                                 ] ;
-                                 ontohgis:hasExternalIdentifier 106 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_9 ,
-                                                                ontohgis:map_symbol_90 ;
-                                 rdfs:comment "Po przekształceniu w 1867 r. Cesarstwa Austriackiego w monarchię dualistyczną jego terytorium zostało podzielone na dwa człony-części: tzw. Zalitawię i Przedlitawię; Śląsk Cieszyński znalazł się w Przedlitawii"@pl ,
-                                              "after the transformation of the Austrian Empire into dual monarchy in 1867, its territory was divided in to two parts: so-called Zalitawia and Przedlitawia. Cieszyn land was in Przedlitavia"@en ;
-                                 rdfs:isDefinedBy ontohgis:administrative_system_9 ;
-                                 rdfs:label "część (człon) państwa związkowego"@pl ,
-                                            "state"@en ;
-                                 <http://www.w3.org/2004/02/skos/core#altLabel> "land"@en .
-
-
-###  http://purl.org/ontohgis#administrative_type_107
-ontohgis:administrative_type_107 rdf:type owl:Class ;
-                                 rdfs:subClassOf ontohgis:object_3014 ;
-                                 ontohgis:hasExternalIdentifier 107 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_9 ,
-                                                                ontohgis:map_symbol_100 ;
-                                 rdfs:isDefinedBy ontohgis:administrative_system_9 ;
-                                 rdfs:label "cesarstwo"@pl ,
-                                            "empire"@en ,
-                                            "https://www.wikidata.org/wiki/Q28513"@en ;
-                                 <http://www.w3.org/2004/02/skos/core#altLabel> "federal state"@en ,
-                                                                                "monarchia"@pl ,
-                                                                                "monarchy"@en ,
-                                                                                "państwo związkowe"@pl .
-
-
-###  http://purl.org/ontohgis#administrative_type_108
-ontohgis:administrative_type_108 rdf:type owl:Class ;
-                                 owl:equivalentClass ontohgis:administrative_type_110 ,
-                                                     ontohgis:administrative_type_120 ,
-                                                     ontohgis:administrative_type_125 ,
-                                                     ontohgis:administrative_type_131 ,
-                                                     ontohgis:administrative_type_135 ;
-                                 rdfs:subClassOf ontohgis:object_3014 ;
-                                 ontohgis:hasExternalIdentifier 108 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_100 ;
-                                 rdfs:isDefinedBy ontohgis:administrative_system_15 ;
-                                 rdfs:label "cesarstwo"@pl ;
-                                 rdfs:seeAlso "http://gov.genealogy.net/types.owl#214" ,
-                                              "https://www.wikidata.org/wiki/Q960541" .
-
-
-###  http://purl.org/ontohgis#administrative_type_109
-ontohgis:administrative_type_109 rdf:type owl:Class ;
-                                 rdfs:subClassOf ontohgis:object_3014 ;
-                                 ontohgis:hasExternalIdentifier 109 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_16 ,
-                                                                ontohgis:map_symbol_100 ;
-                                 rdfs:comment "Część Monarchii Habsburgów. Od 1804 r. w ramach Cesarstwa Austriackiego"@pl ,
-                                              "Part of Habsburgs' monarchy. Since 1804, in the Austrian Empire"@en ;
-                                 rdfs:isDefinedBy ontohgis:administrative_system_16 ;
-                                 rdfs:label "cesarstwo"@pl ,
-                                            "empire"@en ;
-                                 rdfs:seeAlso "https://www.wikidata.org/wiki/Q131964" ;
-                                 <http://www.w3.org/2004/02/skos/core#altLabel> "composite monarchy"@en ,
-                                                                                "composite state"@en ,
-                                                                                "monarchia złożona"@pl ,
-                                                                                "państwo złożone"@pl .
-
-
 ###  http://purl.org/ontohgis#administrative_type_11
 ontohgis:administrative_type_11 rdf:type owl:Class ;
                                 rdfs:subClassOf ontohgis:object_3014 ,
@@ -5286,20 +5112,6 @@ ontohgis:administrative_type_11 rdf:type owl:Class ;
                                                                                "vojvodship"@en .
 
 
-###  http://purl.org/ontohgis#administrative_type_110
-ontohgis:administrative_type_110 rdf:type owl:Class ;
-                                 rdfs:subClassOf ontohgis:object_3014 ;
-                                 ontohgis:hasExternalIdentifier 110 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_100 ;
-                                 rdfs:isDefinedBy ontohgis:administrative_system_13 ;
-                                 rdfs:label "Kaiserreich"@de ,
-                                            "composite state"@en ,
-                                            "państwo złożone"@pl ;
-                                 rdfs:seeAlso "https://www.wikidata.org/wiki/Q7275" ;
-                                 <http://www.w3.org/2004/02/skos/core#altLabel> "cesarstwo"@pl ,
-                                                                                "empire"@en .
-
-
 ###  http://purl.org/ontohgis#administrative_type_111
 ontohgis:administrative_type_111 rdf:type owl:Class ;
                                  rdfs:subClassOf ontohgis:object_3014 ,
@@ -5311,8 +5123,8 @@ ontohgis:administrative_type_111 rdf:type owl:Class ;
                                  ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_30 ;
                                  rdfs:isDefinedBy ontohgis:administrative_system_19 ;
                                  rdfs:label "Kreis"@de ,
-                                            "district"@en ,
-                                            "powiat"@pl ,
+                                            "district (Silesia (1372-1782))"@en ,
+                                            "powiat (Śląsk (1372-1782))"@pl ,
                                             "terra"@la ;
                                  <http://www.w3.org/2004/02/skos/core#altLabel> "Circul"@de ,
                                                                                 "Weichbild"@de ,
@@ -5335,8 +5147,8 @@ ontohgis:administrative_type_112 rdf:type owl:Class ;
                                  ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_70 ;
                                  rdfs:comment "księstwo (lenne i dziedziczne)"@pl ;
                                  rdfs:isDefinedBy ontohgis:administrative_system_19 ;
-                                 rdfs:label "duchy"@en ,
-                                            "księstwo"@pl ;
+                                 rdfs:label "duchy (Silesia (1372-1782))"@en ,
+                                            "księstwo (Śląsk (1372-1782))"@pl ;
                                  rdfs:seeAlso "http://gov.genealogy.net/types.owl#60" ,
                                               "https://www.wikidata.org/wiki/Q208500" ;
                                  <http://www.w3.org/2004/02/skos/core#altLabel> "free state"@en ,
@@ -5349,38 +5161,18 @@ ontohgis:administrative_type_112 rdf:type owl:Class ;
 ontohgis:administrative_type_113 rdf:type owl:Class ;
                                  owl:equivalentClass ontohgis:administrative_type_134 ,
                                                      ontohgis:administrative_type_84 ;
-                                 rdfs:subClassOf ontohgis:object_3014 ,
-                                                 [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                   owl:someValuesFrom ontohgis:administrative_type_114
-                                                 ] ;
+                                 rdfs:subClassOf ontohgis:object_3014 ;
                                  ontohgis:hasExternalIdentifier 113 ;
                                  ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_80 ;
                                  rdfs:isDefinedBy ontohgis:administrative_system_19 ;
-                                 rdfs:label "kingdom"@en ,
-                                            "królestwo"@pl ;
+                                 rdfs:label "kingdom (Silesia (1372-1782))"@en ,
+                                            "królestwo (Śląsk (1372-1782))"@pl ;
                                  rdfs:seeAlso "http://gov.genealogy.net/types.owl#group_26" ,
                                               "https://www.wikidata.org/wiki/Q417175" ;
                                  <http://www.w3.org/2004/02/skos/core#altLabel> "electorate"@en ,
                                                                                 "elektorat"@pl ,
                                                                                 "państwo"@pl ,
                                                                                 "state"@en .
-
-
-###  http://purl.org/ontohgis#administrative_type_114
-ontohgis:administrative_type_114 rdf:type owl:Class ;
-                                 rdfs:subClassOf ontohgis:object_3014 ;
-                                 ontohgis:hasExternalIdentifier 114 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_100 ;
-                                 rdfs:isDefinedBy ontohgis:administrative_system_19 ;
-                                 rdfs:label "cesarstwo"@pl ,
-                                            "empire"@en ;
-                                 rdfs:seeAlso "http://gov.genealogy.net/types.owl#214" ,
-                                              "https://www.wikidata.org/wiki/Q960541" ;
-                                 <http://www.w3.org/2004/02/skos/core#altLabel> "composite state"@en ,
-                                                                                "państwo złożone"@pl ,
-                                                                                "reich"@en ,
-                                                                                "rzesza"@pl .
 
 
 ###  http://purl.org/ontohgis#administrative_type_115
@@ -5438,11 +5230,7 @@ Od poł. XVI wieku równolegle powstają okręgi zarządów domen. Okręgi zarz�
 
 ###  http://purl.org/ontohgis#administrative_type_119
 ontohgis:administrative_type_119 rdf:type owl:Class ;
-                                 rdfs:subClassOf ontohgis:object_3014 ,
-                                                 [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                   owl:someValuesFrom ontohgis:administrative_type_120
-                                                 ] ;
+                                 rdfs:subClassOf ontohgis:object_3014 ;
                                  ontohgis:hasExternalIdentifier 119 ;
                                  ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_80 ;
                                  rdfs:comment "Osobista władza księcia w zakresie podległego mu terytorium, stopniowo delegowana na centralne organy władzy."@pl ;
@@ -5465,19 +5253,6 @@ ontohgis:administrative_type_12 rdf:type owl:Class ;
                                 rdfs:seeAlso "https://www.wikidata.org/wiki/Q7275"@en ;
                                 <http://www.w3.org/2004/02/skos/core#altLabel> "republic"@en ,
                                                                                "republika"@pl .
-
-
-###  http://purl.org/ontohgis#administrative_type_120
-ontohgis:administrative_type_120 rdf:type owl:Class ;
-                                 rdfs:subClassOf ontohgis:object_3014 ;
-                                 ontohgis:hasExternalIdentifier 120 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_100 ;
-                                 rdfs:comment "Cesarz jako suzeren wszystkich księstw lennych"@pl ;
-                                 rdfs:isDefinedBy ontohgis:administrative_system_20 ;
-                                 rdfs:label "cesarstwo"@pl ,
-                                            "empire"@en ;
-                                 rdfs:seeAlso "http://gov.genealogy.net/types.owl#214" ,
-                                              "https://www.wikidata.org/wiki/Q960541" .
 
 
 ###  http://purl.org/ontohgis#administrative_type_121
@@ -5534,11 +5309,7 @@ ontohgis:administrative_type_123 rdf:type owl:Class ;
 ###  http://purl.org/ontohgis#administrative_type_124
 ontohgis:administrative_type_124 rdf:type owl:Class ;
                                  owl:equivalentClass ontohgis:administrative_type_130 ;
-                                 rdfs:subClassOf ontohgis:object_3014 ,
-                                                 [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                   owl:someValuesFrom ontohgis:administrative_type_125
-                                                 ] ;
+                                 rdfs:subClassOf ontohgis:object_3014 ;
                                  ontohgis:hasExternalIdentifier 124 ;
                                  ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_80 ;
                                  rdfs:isDefinedBy ontohgis:administrative_system_21 ;
@@ -5548,17 +5319,6 @@ ontohgis:administrative_type_124 rdf:type owl:Class ;
                                  <http://www.w3.org/2004/02/skos/core#altLabel> "elektorat"@pl ,
                                                                                 "księstwo"@pl ,
                                                                                 "principality"@en .
-
-
-###  http://purl.org/ontohgis#administrative_type_125
-ontohgis:administrative_type_125 rdf:type owl:Class ;
-                                 rdfs:subClassOf ontohgis:object_3014 ;
-                                 ontohgis:hasExternalIdentifier 125 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_100 ;
-                                 rdfs:isDefinedBy ontohgis:administrative_system_21 ;
-                                 rdfs:label "cesarstwo"@pl ,
-                                            "państwo złożone"@pl ;
-                                 rdfs:seeAlso "https://www.wikidata.org/wiki/Q7275" .
 
 
 ###  http://purl.org/ontohgis#administrative_type_126
@@ -5638,11 +5398,7 @@ ontohgis:administrative_type_13 rdf:type owl:Class ;
 
 ###  http://purl.org/ontohgis#administrative_type_130
 ontohgis:administrative_type_130 rdf:type owl:Class ;
-                                 rdfs:subClassOf ontohgis:object_3014 ,
-                                                 [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                   owl:someValuesFrom ontohgis:administrative_type_131
-                                                 ] ;
+                                 rdfs:subClassOf ontohgis:object_3014 ;
                                  ontohgis:hasExternalIdentifier 130 ;
                                  ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_80 ;
                                  rdfs:isDefinedBy ontohgis:administrative_system_23 ;
@@ -5652,19 +5408,6 @@ ontohgis:administrative_type_130 rdf:type owl:Class ;
                                  <http://www.w3.org/2004/02/skos/core#altLabel> "elektorat"@pl ,
                                                                                 "księstwo"@pl ,
                                                                                 "principality"@en .
-
-
-###  http://purl.org/ontohgis#administrative_type_131
-ontohgis:administrative_type_131 rdf:type owl:Class ;
-                                 rdfs:subClassOf ontohgis:object_3014 ;
-                                 ontohgis:hasExternalIdentifier 131 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_100 ;
-                                 rdfs:isDefinedBy ontohgis:administrative_system_23 ;
-                                 rdfs:label "federal state"@en ,
-                                            "państwo złożone"@pl ;
-                                 rdfs:seeAlso "https://www.wikidata.org/wiki/Q7275" ;
-                                 <http://www.w3.org/2004/02/skos/core#altLabel> "cesarstwo"@pl ,
-                                                                                "empire"@en .
 
 
 ###  http://purl.org/ontohgis#administrative_type_132
@@ -7505,11 +7248,7 @@ ontohgis:administrative_type_231 rdf:type owl:Class ;
 
 ###  http://purl.org/ontohgis#administrative_type_232
 ontohgis:administrative_type_232 rdf:type owl:Class ;
-                                 rdfs:subClassOf ontohgis:object_3014 ,
-                                                 [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                   owl:someValuesFrom ontohgis:administrative_type_233
-                                                 ] ;
+                                 rdfs:subClassOf ontohgis:object_3014 ;
                                  ontohgis:hasExternalIdentifier 232 ;
                                  ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_42 ;
                                  rdfs:isDefinedBy ontohgis:administrative_system_42 ;
@@ -7517,17 +7256,6 @@ ontohgis:administrative_type_232 rdf:type owl:Class ;
                                             "księstwo"@pl ;
                                  rdfs:seeAlso "http://gov.genealogy.net/types.owl#60" ,
                                               "https://www.wikidata.org/wiki/Q208500" .
-
-
-###  http://purl.org/ontohgis#administrative_type_233
-ontohgis:administrative_type_233 rdf:type owl:Class ;
-                                 rdfs:subClassOf ontohgis:object_3014 ;
-                                 ontohgis:hasExternalIdentifier 233 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_42 ;
-                                 rdfs:isDefinedBy ontohgis:administrative_system_42 ;
-                                 rdfs:label "cesarstwo"@pl ,
-                                            "empire"@en ;
-                                 rdfs:seeAlso "https://www.wikidata.org/wiki/Q71084" .
 
 
 ###  http://purl.org/ontohgis#administrative_type_234
@@ -7697,16 +7425,12 @@ ontohgis:administrative_type_245 rdf:type owl:Class ;
 
 ###  http://purl.org/ontohgis#administrative_type_246
 ontohgis:administrative_type_246 rdf:type owl:Class ;
-                                 rdfs:subClassOf ontohgis:object_3014 ,
-                                                 [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                   owl:someValuesFrom ontohgis:administrative_type_249
-                                                 ] ;
+                                 rdfs:subClassOf ontohgis:object_3014 ;
                                  ontohgis:hasExternalIdentifier 246 ;
                                  ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_43 ;
                                  rdfs:isDefinedBy ontohgis:administrative_system_43 ;
                                  rdfs:label "kingdom"@en ,
-                                            "królestwo"@pl ;
+                                            "królestwo (Królestwo Polskie (1815-1836))"@pl ;
                                  rdfs:seeAlso "http://gov.genealogy.net/types.owl#group_26" ,
                                               "https://www.wikidata.org/wiki/Q417175" .
 
@@ -7729,18 +7453,6 @@ ontohgis:administrative_type_248 rdf:type owl:Class ;
                                  rdfs:isDefinedBy ontohgis:administrative_system_43 ;
                                  rdfs:label "gmina wiejska"@pl ,
                                             "rural commune"@en .
-
-
-###  http://purl.org/ontohgis#administrative_type_249
-ontohgis:administrative_type_249 rdf:type owl:Class ;
-                                 owl:equivalentClass ontohgis:administrative_type_57 ;
-                                 rdfs:subClassOf ontohgis:object_3014 ;
-                                 ontohgis:hasExternalIdentifier 249 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_43 ;
-                                 rdfs:isDefinedBy ontohgis:administrative_system_43 ;
-                                 rdfs:label "cesarstwo"@pl ,
-                                            "empire"@en ;
-                                 rdfs:seeAlso "https://www.wikidata.org/wiki/Q34266" .
 
 
 ###  http://purl.org/ontohgis#administrative_type_25
@@ -7827,11 +7539,7 @@ ontohgis:administrative_type_254 rdf:type owl:Class ;
 
 ###  http://purl.org/ontohgis#administrative_type_255
 ontohgis:administrative_type_255 rdf:type owl:Class ;
-                                 rdfs:subClassOf ontohgis:object_3014 ,
-                                                 [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                   owl:someValuesFrom ontohgis:administrative_type_256
-                                                 ] ;
+                                 rdfs:subClassOf ontohgis:object_3014 ;
                                  ontohgis:hasExternalIdentifier 255 ;
                                  ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_47 ;
                                  rdfs:isDefinedBy ontohgis:administrative_system_47 ;
@@ -7841,18 +7549,6 @@ ontohgis:administrative_type_255 rdf:type owl:Class ;
                                  <http://www.w3.org/2004/02/skos/core#altLabel> "kingdom"@en ,
                                                                                 "kraj"@pl ,
                                                                                 "królestwo"@pl .
-
-
-###  http://purl.org/ontohgis#administrative_type_256
-ontohgis:administrative_type_256 rdf:type owl:Class ;
-                                 owl:equivalentClass ontohgis:administrative_type_57 ;
-                                 rdfs:subClassOf ontohgis:object_3014 ;
-                                 ontohgis:hasExternalIdentifier 256 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_47 ;
-                                 rdfs:isDefinedBy ontohgis:administrative_system_47 ;
-                                 rdfs:label "cesarstwo"@pl ,
-                                            "empire"@en ;
-                                 rdfs:seeAlso "https://www.wikidata.org/wiki/Q34266" .
 
 
 ###  http://purl.org/ontohgis#administrative_type_257
@@ -8328,11 +8024,7 @@ ontohgis:administrative_type_287 rdf:type owl:Class ;
 
 ###  http://purl.org/ontohgis#administrative_type_288
 ontohgis:administrative_type_288 rdf:type owl:Class ;
-                                 rdfs:subClassOf ontohgis:object_3014 ,
-                                                 [ rdf:type owl:Restriction ;
-                                                   owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                   owl:someValuesFrom ontohgis:administrative_type_289
-                                                 ] ;
+                                 rdfs:subClassOf ontohgis:object_3014 ;
                                  ontohgis:hasExternalIdentifier 288 ;
                                  ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_70 ;
                                  rdfs:isDefinedBy ontohgis:administrative_system_41 ;
@@ -8340,17 +8032,6 @@ ontohgis:administrative_type_288 rdf:type owl:Class ;
                                             "kraj koronny"@pl ;
                                  rdfs:seeAlso "https://www.wikidata.org/wiki/Q681026" ;
                                  <http://www.w3.org/2004/02/skos/core#altLabel> "namiestnictwo"@pl .
-
-
-###  http://purl.org/ontohgis#administrative_type_289
-ontohgis:administrative_type_289 rdf:type owl:Class ;
-                                 rdfs:subClassOf ontohgis:object_3014 ;
-                                 ontohgis:hasExternalIdentifier 289 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_100 ;
-                                 rdfs:isDefinedBy ontohgis:administrative_system_41 ;
-                                 rdfs:label "cesarstwo"@pl ,
-                                            "empire"@en ;
-                                 rdfs:seeAlso "https://www.wikidata.org/wiki/Q131964" .
 
 
 ###  http://purl.org/ontohgis#administrative_type_29
@@ -8680,11 +8361,7 @@ ontohgis:administrative_type_43 rdf:type owl:Class ;
 
 ###  http://purl.org/ontohgis#administrative_type_44
 ontohgis:administrative_type_44 rdf:type owl:Class ;
-                                rdfs:subClassOf ontohgis:object_3014 ,
-                                                [ rdf:type owl:Restriction ;
-                                                  owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                  owl:someValuesFrom ontohgis:administrative_type_101
-                                                ] ;
+                                rdfs:subClassOf ontohgis:object_3014 ;
                                 ontohgis:hasExternalIdentifier 44 ;
                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_80 ;
                                 rdfs:isDefinedBy ontohgis:administrative_system_7 ;
@@ -8936,7 +8613,6 @@ ontohgis:administrative_type_56 rdf:type owl:Class ;
 
 ###  http://purl.org/ontohgis#administrative_type_57
 ontohgis:administrative_type_57 rdf:type owl:Class ;
-                                owl:equivalentClass ontohgis:administrative_type_72 ;
                                 rdfs:subClassOf ontohgis:object_3014 ;
                                 ontohgis:hasExternalIdentifier 57 ;
                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_100 ;
@@ -8954,11 +8630,7 @@ ontohgis:administrative_type_57 rdf:type owl:Class ;
 
 ###  http://purl.org/ontohgis#administrative_type_58
 ontohgis:administrative_type_58 rdf:type owl:Class ;
-                                rdfs:subClassOf ontohgis:object_3014 ,
-                                                [ rdf:type owl:Restriction ;
-                                                  owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                  owl:someValuesFrom ontohgis:administrative_type_106
-                                                ] ;
+                                rdfs:subClassOf ontohgis:object_3014 ;
                                 ontohgis:hasExternalIdentifier 58 ;
                                 ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_9 ,
                                                                ontohgis:map_symbol_70 ,
@@ -9048,11 +8720,7 @@ ontohgis:administrative_type_63 rdf:type owl:Class ;
 ###  http://purl.org/ontohgis#administrative_type_64
 ontohgis:administrative_type_64 rdf:type owl:Class ;
                                 owl:equivalentClass ontohgis:administrative_type_95 ;
-                                rdfs:subClassOf ontohgis:object_3014 ,
-                                                [ rdf:type owl:Restriction ;
-                                                  owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                  owl:someValuesFrom ontohgis:administrative_type_103
-                                                ] ;
+                                rdfs:subClassOf ontohgis:object_3014 ;
                                 ontohgis:hasExternalIdentifier 64 ;
                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_70 ,
                                                                ontohgis:map_symbol_80 ;
@@ -9155,11 +8823,7 @@ ontohgis:administrative_type_70 rdf:type owl:Class ;
 
 ###  http://purl.org/ontohgis#administrative_type_71
 ontohgis:administrative_type_71 rdf:type owl:Class ;
-                                rdfs:subClassOf ontohgis:object_3014 ,
-                                                [ rdf:type owl:Restriction ;
-                                                  owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                  owl:someValuesFrom ontohgis:administrative_type_72
-                                                ] ;
+                                rdfs:subClassOf ontohgis:object_3014 ;
                                 ontohgis:hasExternalIdentifier 71 ;
                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_60 ,
                                                                ontohgis:map_symbol_70 ;
@@ -9175,24 +8839,9 @@ ontohgis:administrative_type_71 rdf:type owl:Class ;
                                                                                "land"@en .
 
 
-###  http://purl.org/ontohgis#administrative_type_72
-ontohgis:administrative_type_72 rdf:type owl:Class ;
-                                rdfs:subClassOf ontohgis:object_3014 ;
-                                ontohgis:hasExternalIdentifier 72 ;
-                                ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_100 ;
-                                rdfs:isDefinedBy ontohgis:administrative_system_11 ;
-                                rdfs:label "cesarstwo"@pl ,
-                                           "empire"@en ;
-                                rdfs:seeAlso "https://www.wikidata.org/wiki/Q34266" .
-
-
 ###  http://purl.org/ontohgis#administrative_type_73
 ontohgis:administrative_type_73 rdf:type owl:Class ;
-                                rdfs:subClassOf ontohgis:object_3014 ,
-                                                [ rdf:type owl:Restriction ;
-                                                  owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                  owl:someValuesFrom ontohgis:administrative_type_102
-                                                ] ;
+                                rdfs:subClassOf ontohgis:object_3014 ;
                                 ontohgis:hasExternalIdentifier 73 ;
                                 ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_12 ,
                                                                ontohgis:map_symbol_80 ;
@@ -9275,11 +8924,7 @@ ontohgis:administrative_type_78 rdf:type owl:Class ;
 
 ###  http://purl.org/ontohgis#administrative_type_79
 ontohgis:administrative_type_79 rdf:type owl:Class ;
-                                rdfs:subClassOf ontohgis:object_3014 ,
-                                                [ rdf:type owl:Restriction ;
-                                                  owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                  owl:someValuesFrom ontohgis:administrative_type_110
-                                                ] ;
+                                rdfs:subClassOf ontohgis:object_3014 ;
                                 ontohgis:hasExternalIdentifier 79 ;
                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_80 ;
                                 rdfs:isDefinedBy ontohgis:administrative_system_13 ;
@@ -9410,11 +9055,7 @@ ontohgis:administrative_type_86 rdf:type owl:Class ;
 
 ###  http://purl.org/ontohgis#administrative_type_87
 ontohgis:administrative_type_87 rdf:type owl:Class ;
-                                rdfs:subClassOf ontohgis:object_3014 ,
-                                                [ rdf:type owl:Restriction ;
-                                                  owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                  owl:someValuesFrom ontohgis:administrative_type_108
-                                                ] ;
+                                rdfs:subClassOf ontohgis:object_3014 ;
                                 ontohgis:hasExternalIdentifier 87 ;
                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_80 ;
                                 rdfs:isDefinedBy ontohgis:administrative_system_15 ;
@@ -9425,11 +9066,7 @@ ontohgis:administrative_type_87 rdf:type owl:Class ;
 
 ###  http://purl.org/ontohgis#administrative_type_88
 ontohgis:administrative_type_88 rdf:type owl:Class ;
-                                rdfs:subClassOf ontohgis:object_3014 ,
-                                                [ rdf:type owl:Restriction ;
-                                                  owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                  owl:someValuesFrom ontohgis:administrative_type_109
-                                                ] ;
+                                rdfs:subClassOf ontohgis:object_3014 ;
                                 ontohgis:hasExternalIdentifier 88 ;
                                 ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_16 ,
                                                                ontohgis:map_symbol_70 ;
@@ -9583,11 +9220,7 @@ ontohgis:administrative_type_97 rdf:type owl:Class ;
 
 ###  http://purl.org/ontohgis#administrative_type_98
 ontohgis:administrative_type_98 rdf:type owl:Class ;
-                                rdfs:subClassOf ontohgis:object_3014 ,
-                                                [ rdf:type owl:Restriction ;
-                                                  owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
-                                                  owl:someValuesFrom ontohgis:administrative_type_104
-                                                ] ;
+                                rdfs:subClassOf ontohgis:object_3014 ;
                                 ontohgis:hasExternalIdentifier 98 ;
                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_80 ;
                                 rdfs:comment "Od 1526 r. północne i zachodnie Węgry tzw. Królewskie w Monarchii Habsburgów"@pl ;
@@ -9599,21 +9232,6 @@ ontohgis:administrative_type_98 rdf:type owl:Class ;
                                 <http://www.w3.org/2004/02/skos/core#altLabel> "Crown Land"@en ,
                                                                                "kraj koronny"@pl ,
                                                                                "państwo"@pl .
-
-
-###  http://purl.org/ontohgis#administrative_type_99
-ontohgis:administrative_type_99 rdf:type owl:Class ;
-                                rdfs:subClassOf ontohgis:object_3014 ;
-                                ontohgis:hasExternalIdentifier 99 ;
-                                ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_100 ;
-                                rdfs:isDefinedBy ontohgis:administrative_system_17 ;
-                                rdfs:label "Kaisertum"@de ,
-                                           "composite state"@en ,
-                                           "https://www.wikidata.org/wiki/Q131964"@en ,
-                                           "państwo złożone"@pl ;
-                                <http://www.w3.org/2004/02/skos/core#altLabel> "cesarstwo"@pl ,
-                                                                               "composite monarchy"@en ,
-                                                                               "monarchia złożona"@pl .
 
 
 ###  http://purl.org/ontohgis#object_1
@@ -17236,6 +16854,21 @@ ontohgis:administrative_system_48 rdf:type owl:NamedIndividual ,
                                                                                  "Słowacja (1996-2020)"@pl .
 
 
+###  http://purl.org/ontohgis#administrative_system_49
+ontohgis:administrative_system_49 rdf:type owl:NamedIndividual ,
+                                           ontohgis:object_21 ;
+                                  ontohgis:endsDominationAt "1806-08-06"^^xsd:date ;
+                                  ontohgis:hasBeginning "0800-12-25"^^xsd:date ;
+                                  ontohgis:hasEnd "1806-08-06"^^xsd:date ;
+                                  ontohgis:hasScope "terytorium wielokrotnie zmieniało swój zasięg, obejmowało głównie kraje Europy Środkowej i Wschodniej, w przeważającej części zamieszkiwane przez ludność posługującą się językiem niemieckim"@pl ;
+                                  ontohgis:individualHasExternalIdentifier 49 ;
+                                  ontohgis:startsDominationAt "0962-02-02"^^xsd:date ;
+                                  dc:creator ontohgis:person_6 ;
+                                  rdfs:label "Holy Roman Empire (962-1806)"@en ,
+                                             "Święte Cesarstwo Rzymskie (962-1806)"@pl ;
+                                  rdfs:seeAlso <https://www.wikidata.org/wiki/Q12548> .
+
+
 ###  http://purl.org/ontohgis#administrative_system_5
 ontohgis:administrative_system_5 rdf:type owl:NamedIndividual ,
                                           ontohgis:object_21 ;
@@ -17274,6 +16907,7 @@ ontohgis:administrative_system_6 rdf:type owl:NamedIndividual ,
 ###  http://purl.org/ontohgis#administrative_system_7
 ontohgis:administrative_system_7 rdf:type owl:NamedIndividual ,
                                           ontohgis:object_21 ;
+                                 <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ontohgis:administrative_system_49 ;
                                  ontohgis:endsDominationAt "1945-12-31"^^xsd:date ;
                                  ontohgis:hasBeginning "1806-01-01"^^xsd:date ;
                                  ontohgis:hasEnd "1919-12-31"^^xsd:date ;
@@ -19716,8 +19350,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#Box-003> .
 
 
-<http://purl.org/dc/terms/ISO3166> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
-                                   rdfs:comment "The set of codes listed in ISO 3166-1 for the representation of names of countries."@en ;
+<http://purl.org/dc/terms/ISO3166> rdfs:comment "The set of codes listed in ISO 3166-1 for the representation of names of countries."@en ;
+                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO3166-004> ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
@@ -19727,8 +19361,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/ISO639-2> rdfs:seeAlso <http://lcweb.loc.gov/standards/iso639-2/langhome.html> ;
                                     <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                    rdfs:comment "The three-letter alphabetic codes listed in ISO639-2 for the representation of names of languages."@en ;
                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                    rdfs:comment "The three-letter alphabetic codes listed in ISO639-2 for the representation of names of languages."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     rdfs:label "ISO 639-2"@en ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO639-2-003> .
@@ -19736,15 +19370,15 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 <http://purl.org/dc/terms/ISO639-3> rdfs:comment "The set of three-letter codes listed in ISO 639-3 for the representation of names of languages."@en ;
                                     rdfs:label "ISO 639-3"@en ;
-                                    <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
-                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#ISO639-3-001> ;
+                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                    <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                     rdfs:seeAlso <http://www.sil.org/iso639-3/> .
 
 
 <http://purl.org/dc/terms/Period> rdfs:seeAlso <http://dublincore.org/documents/dcmi-period/> ;
-                                  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   rdfs:comment "The set of time intervals defined by their limits according to the DCMI Period Encoding Scheme."@en ;
+                                  <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                   rdfs:label "DCMI Period"@en ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
@@ -19764,8 +19398,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                    rdfs:seeAlso <http://www.ietf.org/rfc/rfc1766.txt> ;
-                                   rdfs:comment "The set of tags, constructed according to RFC 1766, for the identification of languages."@en ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#RFC1766-003> ;
+                                   rdfs:comment "The set of tags, constructed according to RFC 1766, for the identification of languages."@en ;
                                    rdfs:label "RFC 1766"@en .
 
 
@@ -19774,8 +19408,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    <http://purl.org/dc/terms/description> "RFC 3066 has been obsoleted by RFC 4646."@en ;
                                    rdfs:comment "The set of tags constructed according to RFC 3066 for the identification of languages."@en ;
-                                   rdfs:seeAlso <http://www.ietf.org/rfc/rfc3066.txt> ;
                                    <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
+                                   rdfs:seeAlso <http://www.ietf.org/rfc/rfc3066.txt> ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#RFC3066-002> .
 
 
@@ -19797,8 +19431,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
-<http://purl.org/dc/terms/URI> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                               rdfs:comment "The set of identifiers constructed according to the generic syntax for Uniform Resource Identifiers as specified by the Internet Engineering Task Force."@en ;
+<http://purl.org/dc/terms/URI> rdfs:comment "The set of identifiers constructed according to the generic syntax for Uniform Resource Identifiers as specified by the Internet Engineering Task Force."@en ;
+                               rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                rdfs:seeAlso <http://www.ietf.org/rfc/rfc3986.txt> ;
                                <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#URI-003> ;
@@ -19819,8 +19453,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                     <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#abstract-003> ;
                                     <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
-                                    rdfs:comment "A summary of the resource."@en ;
-                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> .
+                                    rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                    rdfs:comment "A summary of the resource."@en .
 
 
 <http://purl.org/dc/terms/alternative> rdfs:comment "An alternative name for the resource."@en ;
@@ -19833,8 +19467,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/available> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                     rdfs:label "Date Available"@en ;
                                      rdfs:comment "Date (often a range) that the resource became or will become available."@en ;
+                                     rdfs:label "Date Available"@en ;
                                      <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#available-003> ;
                                      <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                      <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
@@ -19861,8 +19495,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/created> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                    rdfs:comment "Date of creation of the resource."@en ;
                                    <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#created-003> ;
-                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                    rdfs:label "Date Created"@en ;
+                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
 
 
@@ -19876,11 +19510,11 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/date> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#dateT-001> ;
                                 rdfs:comment "A point or period of time associated with an event in the lifecycle of the resource."@en ;
+                                <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#dateT-001> ;
                                 <http://purl.org/dc/terms/description> "Date may be used to express temporal information at any level of granularity.  Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF]."@en ;
-                                <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                 rdfs:label "Date"@en ;
+                                <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
                                 <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date .
 
 
@@ -19888,8 +19522,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#dateAccepted-002> ;
                                         <http://purl.org/dc/terms/issued> "2002-07-13"^^xsd:date ;
                                         <http://purl.org/dc/terms/description> "Examples of resources to which a Date Accepted may be relevant are a thesis (accepted by a university department) or an article (accepted by a journal)."@en ;
-                                        rdfs:comment "Date of acceptance of the resource."@en ;
                                         rdfs:label "Date Accepted"@en ;
+                                        rdfs:comment "Date of acceptance of the resource."@en ;
                                         rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
@@ -19905,8 +19539,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                          rdfs:comment "Date of submission of the resource."@en ;
                                          <http://purl.org/dc/terms/description> "Examples of resources to which a Date Submitted may be relevant are a thesis (submitted to a university department) or an article (submitted to a journal)."@en ;
                                          <http://purl.org/dc/terms/issued> "2002-07-13"^^xsd:date ;
-                                         rdfs:label "Date Submitted"@en ;
                                          <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#dateSubmitted-002> ;
+                                         rdfs:label "Date Submitted"@en ;
                                          rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
@@ -19919,8 +19553,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                        <http://purl.org/dc/terms/description> "Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource."@en .
 
 
-<http://purl.org/dc/terms/hasFormat> <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
-                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/hasFormat> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                     <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                      <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#hasFormat-003> ;
                                      <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                      rdfs:label "Has Format"@en ;
@@ -19976,8 +19610,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 <http://purl.org/dc/terms/isReferencedBy> rdfs:label "Is Referenced By"@en ;
                                           rdfs:comment "A related resource that references, cites, or otherwise points to the described resource."@en ;
                                           <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
-                                          <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                           rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                          <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                           <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                           <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isReferencedBy-003> .
 
@@ -19991,8 +19625,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isReplacedBy-003> .
 
 
-<http://purl.org/dc/terms/isRequiredBy> <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
-                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+<http://purl.org/dc/terms/isRequiredBy> rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                        <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                         <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                         rdfs:label "Is Required By"@en ;
                                         <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isRequiredBy-003> ;
@@ -20001,8 +19635,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
 
 
 <http://purl.org/dc/terms/isVersionOf> rdfs:label "Is Version Of"@en ;
-                                       rdfs:comment "A related resource of which the described resource is a version, edition, or adaptation."@en ;
                                        rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+                                       rdfs:comment "A related resource of which the described resource is a version, edition, or adaptation."@en ;
                                        <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                        <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
                                        <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#isVersionOf-003> ;
@@ -20031,8 +19665,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                       <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                       <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
                                       <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#references-003> ;
-                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                      <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en .
+                                      <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
+                                      rdfs:isDefinedBy <http://purl.org/dc/terms/> .
 
 
 <http://purl.org/dc/terms/relation> <http://purl.org/dc/terms/issued> "2008-01-14"^^xsd:date ;
@@ -20059,8 +19693,8 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                     rdfs:label "Requires"@en ;
                                     rdfs:comment "A related resource that is required by the described resource to support its function, delivery, or coherence."@en ;
                                     rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
-                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
-                                    <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en .
+                                    <http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
+                                    <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date .
 
 
 <http://purl.org/dc/terms/source> rdfs:label "Source"@en ;
@@ -20069,12 +19703,12 @@ dc: <http://purl.org/dc/terms/publisher> <http://purl.org/dc/aboutdcmi#DCMI> ;
                                   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                   <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
                                   <http://purl.org/dc/terms/hasVersion> <http://dublincore.org/usage/terms/history/#sourceT-001> ;
-                                  rdfs:comment "A related resource from which the described resource is derived."@en ;
-                                  <http://purl.org/dc/terms/description> "The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system."@en .
+                                  <http://purl.org/dc/terms/description> "The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system."@en ;
+                                  rdfs:comment "A related resource from which the described resource is derived."@en .
 
 
-<http://purl.org/dc/terms/tableOfContents> rdfs:comment "A list of subunits of the resource."@en ;
-                                           <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+<http://purl.org/dc/terms/tableOfContents> <http://purl.org/dc/terms/issued> "2000-07-11"^^xsd:date ;
+                                           rdfs:comment "A list of subunits of the resource."@en ;
                                            rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
                                            rdfs:label "Table Of Contents"@en ;
                                            <http://purl.org/dc/terms/modified> "2008-01-14"^^xsd:date ;
