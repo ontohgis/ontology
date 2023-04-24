@@ -19522,8 +19522,6 @@ ontohgis:settlement_type_76 rdfs:comment "In BDTO10k a tourist shelter is distin
 
 ontohgis:settlement_type_8 rdfs:comment "A demesne (manor) may be considered as an independent locality as long as it is distinguished by an individual name. Usually, a demesne was located away from the main group of houses in a village, on the outskirts, or in its vicinity."@en ,
                                         "Folwark może być traktowany jako odrębna miejscowość, o ile posiadał własną nazwę. Zazwyczaj folwark położony był poza główną zabudową wsi, na jej obrzeżach lub w nieznacznym oddaleniu."@pl ;
-                           rdfs:isDefinedBy "A demesne (en: manor, pl: folwark, de: Volwerk) is a locality with an industrial function, often located near the manor (a building) or separate."@en ,
-                                            "Folwark (niem: Volwerk) to miejscowość o charakterze gospodarczym, często funkcjonująca obok dworu lub osobno."@pl ;
                            rdfs:label "demesne"@en ,
                                       "folwark"@pl ;
                            rdfs:seeAlso <http://dbpedia.org/page/Demesne> ,
@@ -19553,42 +19551,42 @@ ontohgis:settlement_type_8 rdfs:comment "A demesne (manor) may be considered as 
                            ontohgis:hasExternalIdentifier "8" ;
                            ontohgis:hasLanguageVerificator ontohgis:person_1 ;
                            ontohgis:hasOntologicalVerificator ontohgis:person_10 ;
-                           ontohgis:hasTranslator ontohgis:person_9 .
+                           ontohgis:hasTranslator ontohgis:person_9 ;
+                           ontohgis:isDefinedByLiteral "A demesne (en: manor, pl: folwark, de: Volwerk) is a locality with an industrial function, often located near the manor (a building) or separate."^^rdfs:Literal ,
+                                                       "Folwark (niem: Volwerk) to miejscowość o charakterze gospodarczym, często funkcjonująca obok dworu lub osobno."^^rdfs:Literal .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_8 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "duże gospodarstwo rolne wraz z zabudowaniami."@pl ;
-   rdfs:isDefinedBy ontohgis:document_4 ,
-                    <https://sjp.pwn.pl/doroszewski/folwark;5428273.html>
+   ontohgis:isDefinedByIRI ontohgis:document_4 ,
+                           <https://sjp.pwn.pl/doroszewski/folwark;5428273.html>
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_8 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 1, s. 173: duże gospodarstwo rolne lub rolno-hodowlane, produkujące głównie na zbyt, posługujące się pracą chłopów pańszczyźnianych albo siłą najemną. Organizowane przez feudalnych właścicieli ziemskich już w XIV w., stanowiły kontynuację tzw. rezerwy pańskiej, czyli gruntów wyłączonych spod uprawy chłopskiej i przeznaczonych do zaspokajania bezpośrednich potrzeb dworu--’"@pl ;
-   rdfs:isDefinedBy ontohgis:document_17
+   ontohgis:isDefinedByIRI ontohgis:document_17
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_8 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 1, s. 759: 1. mała wioska, leżąca obok dużej, oddzielona część wsi; przysiółek; 2. majętność, grunt z zabudowaniem, ferma; 3. dwór we wsi, mieszkanie dziedzica albo dzierżawcy razem z zabudowaniami dworskimi."@pl ;
-   rdfs:isDefinedBy ontohgis:document_5
+   ontohgis:isDefinedByIRI ontohgis:document_5
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_8 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 7, s. 90–91: 1. ziemskie gospodarstwo, w przeciwieństwie do gospodarstwa chłopskiego, grunt z zabudowaniami gospodarskimi i mieszkalnymi, często będący częścią większej majętności; zazwyczaj wydzielona część wsi; 2. zabudowania gospodarcze; 3. ziemia orna, rola należąca do folwarku; 4. posiadłość ziemska, dworek z zabudowaniami gospodarskimi położony pod miastem; 5. wieś"@pl ;
-   rdfs:isDefinedBy ontohgis:document_2
+   ontohgis:isDefinedByIRI ontohgis:document_2
  ] .
 
 
 ontohgis:settlement_type_80 rdfs:comment "Characteristic for the Commonwealth of Poland and Lithuania from 16th to 18th century."@en ,
                                          "Charakterystycznego dla Rzeczypospolitej XVII–XVIII wieku"@pl ;
-                            rdfs:isDefinedBy "\"Holendry\" (a Dutch type locality) is a colony established on an empty territory, in areas not very useful for agriculture. It was a type of locality characteristic for a \"Dutch colonisation\", which was a specific form of a settlement movement - widespread in the Commonwealth of Poland and Lithuania from 16th to 18th century. Granting uncongenial land difficult to cultivate or for animal husbandry to local people or (more often) immigrants inflowing from Flanders, German countries and Silesia was the core element of this process."@en ,
-                                             "Holendry to kolonia zakładana na obszarach nieobjętych osadnictwem z powodu nikłej przydatności rolniczej, właściwa dla tzw. kolonizacji olęderskiej, czyli specyficznej formy ruchu osadniczego – charakterystycznego dla Rzeczypospolitej XVII–XVIII wieku – polegającego na nadaniu ludności rodzimej – lub częściej – imigrantom pochodzącym z Flandrii, państw niemieckich lub Śląska, trudnej (w uprawie lub hodowli) ziemi."@pl ;
                             rdfs:label "\"holendry\""@en ,
                                        "holendry"@pl ;
                             <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Hauland"@de ,
@@ -19602,7 +19600,9 @@ ontohgis:settlement_type_80 rdfs:comment "Characteristic for the Commonwealth of
                                                                             "holendry"@pl ;
                             ontohgis:hasExternalIdentifier "80" ;
                             ontohgis:hasLanguageVerificator ontohgis:person_1 ;
-                            ontohgis:hasOntologicalVerificator ontohgis:person_10 .
+                            ontohgis:hasOntologicalVerificator ontohgis:person_10 ;
+                            ontohgis:isDefinedByLiteral "\"Holendry\" (a Dutch type locality) is a colony established on an empty territory, in areas not very useful for agriculture. It was a type of locality characteristic for a \"Dutch colonisation\", which was a specific form of a settlement movement - widespread in the Commonwealth of Poland and Lithuania from 16th to 18th century. Granting uncongenial land difficult to cultivate or for animal husbandry to local people or (more often) immigrants inflowing from Flanders, German countries and Silesia was the core element of this process."^^rdfs:Literal ,
+                                                        "Holendry to kolonia zakładana na obszarach nieobjętych osadnictwem z powodu nikłej przydatności rolniczej, właściwa dla tzw. kolonizacji olęderskiej, czyli specyficznej formy ruchu osadniczego – charakterystycznego dla Rzeczypospolitej XVII–XVIII wieku – polegającego na nadaniu ludności rodzimej – lub częściej – imigrantom pochodzącym z Flandrii, państw niemieckich lub Śląska, trudnej (w uprawie lub hodowli) ziemi."^^rdfs:Literal .
 
 
 ontohgis:settlement_type_82 rdfs:comment "Port morski na austriackiej mapie 1:75 000 wyróżniony explicite i opisany krojem pisma takim jak miasta większe niż 100 000 mieszkańców i twierdze.W BDOT10k „port wodny lub przystań” w klasie kompleks komunikacyjny.Jest u Bystrzyckiego (nie w skrótach) – port, miasto portowe."@pl ,
