@@ -10246,7 +10246,7 @@ ontohgis:object_23 rdf:type owl:Class ;
                                          rdf:type owl:Class
                                        ] ;
                    rdfs:subClassOf ontohgis:object_1 ;
-                   rdfs:isdefinedbyLiteral "Budynek jest to przedmiot trwający w czasie, który został wytworzony lub wykorzystany w celu odgraniczenia pewnej przestrzeni (“wewnątrz\") od innej przestrzeni (“zewnątrz”)."@pl ;
+                   rdfs:isDefinedByLiteral "Budynek jest to przedmiot trwający w czasie, który został wytworzony lub wykorzystany w celu odgraniczenia pewnej przestrzeni (“wewnątrz\") od innej przestrzeni (“zewnątrz”)."@pl ;
                    rdfs:label "budynek"@pl ,
                               "building"@en ;
                    rdfs:seeAlso <http://gov.genealogy.net/types.owl#17> ,
@@ -10265,7 +10265,7 @@ ontohgis:object_30 rdf:type owl:Class ;
                                      owl:onProperty ontohgis:hasFunction ;
                                      owl:hasValue ontohgis:object_400
                                    ] ;
-                   rdfs:isdefinedbyLiteral """Jednostka osadnicza:
+                   rdfs:isDefinedByLiteral """Jednostka osadnicza:
 1. obszar posiadający nazwę własną i
 2. obszar, który jest lub był w przeszłości miejscowością"""@pl ;
                    rdfs:label "human settlement"@en ,
@@ -10351,7 +10351,7 @@ ontohgis:object_32 rdf:type owl:Class ;
                                          ontohgis:settlement_type_1000
                                        ) ;
                    rdfs:comment "Zakładamy, że każda podklasa miejscowości zawiera tylko zamieszkane jednostki osadnicze, np. klasa settlement_type_10 (rdfs:label='browar'@pl) obejmuje tylko zamieszkane browary."@pl ;
-                   rdfs:isdefinedbyLiteral """A dwelling is an area such that:
+                   rdfs:isDefinedByLiteral """A dwelling is an area such that:
 1. it is filled with buildings
 2. it is used for accommodation
 3. it has a proper name
@@ -10416,7 +10416,7 @@ ontohgis:object_50 rdf:type owl:Class ;
                                          rdf:type owl:Class
                                        ] ;
                    rdfs:subClassOf ontohgis:object_23 ;
-                   rdfs:isdefinedbyLiteral "Budynek mieszkalny jest to budynek, w którym odgraniczona przestrzeń (“wewnątrz\") jest przeznaczona do przebywania ludzi."@pl ;
+                   rdfs:isDefinedByLiteral "Budynek mieszkalny jest to budynek, w którym odgraniczona przestrzeń (“wewnątrz\") jest przeznaczona do przebywania ludzi."@pl ;
                    rdfs:label "budynek mieszkalny"@pl ,
                               "housing building"@en ;
                    rdfs:seeAlso <http://linkedgeodata.org/ontology/BuildingResidential> .
@@ -11061,7 +11061,7 @@ ontohgis:settlement_type_3003 rdf:type owl:Class ;
                                                 owl:hasValue <http://www.geonames.org/ontology#S.HSP>
                                               ] ;
                               rdfs:comment "Miejscowość jest (mereologicznie) prosta, gdy żadna jej część nie jest miejscowością."@pl ;
-                              rdfs:isdefinedbyLiteral "(Mereologically) simple human settlement has no part that is a human settlement."@en ;
+                              rdfs:isDefinedByLiteral "(Mereologically) simple human settlement has no part that is a human settlement."@en ;
                               rdfs:label "(mereologically) simple human settlement"@en ,
                                          "(mereologicznie) prosta miejscowość"@pl ;
                               ontohgis:isPartOfPartition ontohgis:object_701 .
@@ -11080,7 +11080,7 @@ ontohgis:settlement_type_3004 rdf:type owl:Class ;
                                                   ] ;
                               rdfs:subClassOf ontohgis:object_32 ;
                               rdfs:comment "Miejscowość jest (mereologicznie) złożona, gdy niektóre jej części są miejscowościami."@pl ;
-                              rdfs:isdefinedbyLiteral "(Mereologically) complex human settlement has parts that are human settlements."@en ;
+                              rdfs:isDefinedByLiteral "(Mereologically) complex human settlement has parts that are human settlements."@en ;
                               rdfs:label "(mereologically) complex human settlement"@en ,
                                          "(mereologicznie) złożona miejscowość"@pl ;
                               ontohgis:isPartOfPartition ontohgis:object_701 .
@@ -11099,7 +11099,7 @@ ontohgis:settlement_type_3007 rdf:type owl:Class ;
                                                   ] ;
                               rdfs:subClassOf ontohgis:object_32 ;
                               rdfs:comment "Miejscowość jest (mereologicznie) samodzielna, gdy nie jest częścią żadnej miejscowości." ;
-                              rdfs:isdefinedbyLiteral "(Mereologically) complete human settlement is not part of any settlement."@en ;
+                              rdfs:isDefinedByLiteral "(Mereologically) complete human settlement is not part of any settlement."@en ;
                               rdfs:label "(mereologically) complete human settlement"@en ,
                                          "(mereologicznie) samodzielna miejscowość"@pl ;
                               ontohgis:isPartOfPartition ontohgis:object_700 .
@@ -11117,7 +11117,7 @@ ontohgis:settlement_type_3008 rdf:type owl:Class ;
                                                   ] ;
                               rdfs:subClassOf ontohgis:object_32 ;
                               rdfs:comment "Miejscowość jest (mereologicznie) niesamodzielna, gdy jest częścią pewnej miejscowości."@pl ;
-                              rdfs:isdefinedbyLiteral "(Mereologically) incomplete human settlement is part of some settlement."@en ;
+                              rdfs:isDefinedByLiteral "(Mereologically) incomplete human settlement is part of some settlement."@en ;
                               rdfs:label "(mereologically) incomplete human settlement"@en ,
                                          "(mereologicznie) niesamodzielna miejscowość"@pl ;
                               ontohgis:isPartOfPartition ontohgis:object_700 .
@@ -11246,7 +11246,7 @@ ontohgis:settlement_type_45 rdf:type owl:Class ;
 ###  https://onto.kul.pl/ontohgis/settlement_type_46
 ontohgis:settlement_type_46 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_100 ;
-                            rdfs:isdefinedbyLiteral "abandoned place"@en ;
+                            rdfs:isDefinedByLiteral "abandoned place"@en ;
                             rdfs:label "pustkowie" ;
                             rdfs:seeAlso <http://gov.genealogy.net/types.owl#90> ;
                             ontohgis:hasExternalIdentifier "46" .
@@ -16569,7 +16569,7 @@ ontohgis:hasTranslator rdfs:label "deskrypcja została przetłumaczona przez"@pl
 
 ontohgis:settlement_type_1 rdfs:comment "A castle could be an independent settlement unit or an object within some other unit."@en ,
                                         "Zamek mógł być jednostką osadniczą lub obiektem w obrębie innej jednostki."@pl ;
-                           rdfs:isdefinedbyLiteral "A castle (a locality) is a locality comprising a castle (building) unless it is a part of another locality."@en ,
+                           rdfs:isDefinedByLiteral "A castle (a locality) is a locality comprising a castle (building) unless it is a part of another locality."@en ,
                                             "Zamek (miejscowość) jest to miejscowość obejmująca zamek (obiekt), gdy nie jest on częścią innej miejscowości."@pl ;
                            rdfs:label "castle"@en ,
                                       "zamek"@pl ;
@@ -16594,7 +16594,7 @@ ontohgis:settlement_type_1 rdfs:comment "A castle could be an independent settle
 
 ontohgis:settlement_type_10 rdfs:comment "A brewery might be a separate locality (rarely, before the WW II), both individual and a part of a cluster of localities sharing the same name, however most often it has been an integral part of a city or a town and has not been distinguished."@en ,
                                          "Browar może być odrębną miejscowością (rzadko, przed II wojną światową), zarówno samodzielną jak i częścią grupy miejscowości o tej samej nazwie, ale najczęściej znajduje się w obrębie miast i nie jest wyróżniony."@pl ;
-                            rdfs:isdefinedbyLiteral "Brewery (locality) is a settlement, where a brewery (a factory) plays the most important role."@en ,
+                            rdfs:isDefinedByLiteral "Brewery (locality) is a settlement, where a brewery (a factory) plays the most important role."@en ,
                                              "Browar (miejscowość) jest to osada, w której główna rolę pełni browar (obiekt)."@pl ;
                             rdfs:label "brewery"@en ,
                                        "browar"@pl ;
@@ -16616,7 +16616,7 @@ ontohgis:settlement_type_10 rdfs:comment "A brewery might be a separate locality
 
 ontohgis:settlement_type_100 rdfs:comment "As a separate building, chapel could be a separate settlement unit in the past (rarely in the early modern era), but most often it is part of the village as a building."@en ,
                                           "Kaplica jako odrębny budynek mogła być w przeszłości odrębną jednostką osadniczą (rzadko, spotyka się w okresie staropolskim), najczęściej jednak wchodzi w skład miejscowości jako budowla."@pl ;
-                             rdfs:isdefinedbyLiteral "Chapel is a locality, where the main role is played by a chapel (sacral building)."@en ,
+                             rdfs:isDefinedByLiteral "Chapel is a locality, where the main role is played by a chapel (sacral building)."@en ,
                                               "Kaplica jest to miejscowość, w której główną rolę pełni kaplica jako obiekt sakralny."@pl ;
                              rdfs:label "chapel"@en ,
                                         "kaplica"@pl ;
@@ -16645,7 +16645,7 @@ ontohgis:settlement_type_100 rdfs:comment "As a separate building, chapel could 
 
 ontohgis:settlement_type_103 rdfs:comment "A church could be a separate settlement in the past (rarely, one can note its existence during and early modern era), however usually it, understood as a building, constituted a part of a locality."@en ,
                                           "Kościół mógł być w przeszłości odrębną jednostką osadniczą (rzadko, spotyka się w okresie staropolskim), najczęściej jednak wchodzi w skład miejscowości jako budowla."@pl ;
-                             rdfs:isdefinedbyLiteral "Church is a locality, where the main role is played by the church (sacral building)."@en ,
+                             rdfs:isDefinedByLiteral "Church is a locality, where the main role is played by the church (sacral building)."@en ,
                                               "Kościół jest to miejscowość, w której główną rolę pełni kościół jako obiekt sakralny."@pl ;
                              rdfs:label "church"@en ,
                                         "kościół"@pl ;
@@ -16669,7 +16669,7 @@ ontohgis:settlement_type_103 rdfs:comment "A church could be a separate settleme
 
 ontohgis:settlement_type_106 rdfs:comment "Although the category exists on maps - e.g. the Topographical Map of the Kingdom of Poland from 1843 - it is very rare. On the Map, one can notice the peculiar spelling of this category: \"romunek\"."@en ,
                                           "Kategoria występuje na mapach – np. Kwatermistrzostwie, to jednak jest to kategoria bardzo rzadka."@pl ;
-                             rdfs:isdefinedbyLiteral "\"Rumunek\" is an outlying settlement, situated in a cleared forest area (usually) or near the forest."@en ,
+                             rdfs:isDefinedByLiteral "\"Rumunek\" is an outlying settlement, situated in a cleared forest area (usually) or near the forest."@en ,
                                               "Rumunek to odosobniona osada, położona w miejscu po wykarczowanym lesie (najczęściej) lub pod lasem."@pl ;
                              rdfs:label "\"rumunek\""@en ,
                                         "rumunek"@pl ;
@@ -16686,7 +16686,7 @@ ontohgis:settlement_type_106 rdfs:comment "Although the category exists on maps 
 
 ontohgis:settlement_type_11 rdfs:comment "A brickyard might be a separate locality, both individual and a part of a cluster of localities sharing the same name. It may also be an integral part of a bigger locality."@en ,
                                          "Cegielnia może być odrębną miejscowością, zarówno samodzielną jak i częścią grupy miejscowości o tej samej nazwie, może też znajdować się w obrębie większej miejscowości."@pl ;
-                            rdfs:isdefinedbyLiteral "Brickyard (locality) is a settlement, where a brickyard (a building and a factory) plays the most important role."@en ,
+                            rdfs:isDefinedByLiteral "Brickyard (locality) is a settlement, where a brickyard (a building and a factory) plays the most important role."@en ,
                                              "Cegielnia (miejscowość) jest to osada, w której główną rolę odrywa cegielnia (obiekt)."@pl ;
                             rdfs:label "brickyard"@en ,
                                        "cegielnia"@pl ;
@@ -16704,7 +16704,7 @@ ontohgis:settlement_type_11 rdfs:comment "A brickyard might be a separate locali
 
 ontohgis:settlement_type_110 rdfs:comment "O odrębności wójtostwa decyduje kryterium nazewnicze, które jest efektem jego statusu prawnego."@pl ,
                                           "Vogt-owned-settlement is distinguished on the basis of its name, which results from its legal status."@en ;
-                             rdfs:isdefinedbyLiteral "Vogt-owned-settlement is the area of land owned by the vogt (ger Schultheiß) which is either a separate locality or a separate part of another locality."@en ,
+                             rdfs:isDefinedByLiteral "Vogt-owned-settlement is the area of land owned by the vogt (ger Schultheiß) which is either a separate locality or a separate part of another locality."@en ,
                                               "Wójtostwo to obszar zajmowany przez ziemię należącą do sołtysa (wójta), będący osobną miejscowością lub wydzieloną częścią miejscowości."@pl ;
                              rdfs:label "vogt-owned-settlement"@en ,
                                         "wójtostwo"@pl ;
@@ -16725,7 +16725,7 @@ ontohgis:settlement_type_110 rdfs:comment "O odrębności wójtostwa decyduje kr
 
 ontohgis:settlement_type_112 rdfs:comment "Część przysiółka jest odrębną jednostką osadniczą, rodzajem miejscowości, zawsze ma swoją nazwę własną. Części przysiółków to 6 obiektów: 3 w woj. małopolskim, po 1 w woj. mazowieckim, kujawsko-pomorskim i wielkopolskim."@pl ,
                                           "Part of a hamlet is a separate settlement unit, a kind of locality, it always has a particular name. There are 6 parts of the hamlets according to National Register of Geographic Names (pl \"Państwowy Rejestr Nazwy Geograficznych\"): 3 in Małopolskie voivodship, 1 in Mazowieckie , Kuyawsko-Pomorskie, and Wielkopolskie voivodships."@en ;
-                             rdfs:isdefinedbyLiteral "Część przysiółka jest to miejscowość stanowiąca integralną część miejscowości podstawowej przysiółka, jest wydzielona administracyjnie, ale należy do jednostki nadrzędnej."@pl ,
+                             rdfs:isDefinedByLiteral "Część przysiółka jest to miejscowość stanowiąca integralną część miejscowości podstawowej przysiółka, jest wydzielona administracyjnie, ale należy do jednostki nadrzędnej."@pl ,
                                               "Part of a hamlet is an integral part of the main locality a hamlet; it is administratively separated, but belongs to the superior locality."@en ;
                              rdfs:label "część przysiółka"@pl ,
                                         "part of a hamlet"@en ;
@@ -16741,7 +16741,7 @@ ontohgis:settlement_type_113 rdfs:comment "At least untill the 13th century, a g
                                           "Gords are characteristic mostly for the High Middle Ages, when documents were written in Latin, despite the fact that Latin does not know a proper notion for this kind of settlement unit. Expressions with a different, relatively similar, meaning had been used to describe the gord, i.e. a city (lat civitas), or a castle (lat arx, castrum). In younger historical German sources “gród” was called Burg, the expression meaning both a gord and a castle. Researchers consider “gord” as an endemic and specifically Slavic phenomenon."@en ,
                                           "Grody są charakterystyczne przede wszystkim dla pełnego średniowiecza, gdy językiem źródeł była łacina - a w niej nie wykształcił się w ogóle termin odpowiadający tej jednostce osadniczej. Określano ją więc za pomocą pojęć o odmiennym, względnie podobnym znaczeniu, jak miasto (civitas), zamek (arx, castrum). Z kolei w późniejszych źródłach niemieckich odpowiadał mu termin Burg, oznaczający zarówno gród, jak również zamek. W literaturze przedmiotu gród jest traktowany jako zjawisko specyficznie słowiańskie."@pl ,
                                           "Przynamniej do XIII w. gród stanowił centralną i zwykle jedyną uchwytną źródłowo część miasta, więc dla tego okresu może być z nim utożsamiany; po lokacji stawał się jednym z obiektów w mieście, zwykle peryferyjnym, niejednokrotnie zamienianym w zamek."@pl ;
-                             rdfs:isdefinedbyLiteral "Gord is a medieval or – in eastern territories – early modern settlement with revetments and stockades."@en ,
+                             rdfs:isDefinedByLiteral "Gord is a medieval or – in eastern territories – early modern settlement with revetments and stockades."@en ,
                                               "Średniowieczna lub, na terenach wschodnich, wczesnonowożytna osada z obwarowaniami drewniano-ziemnymi."@pl ;
                              rdfs:label "gord"@en ,
                                         "gród"@pl ;
@@ -16789,7 +16789,7 @@ ontohgis:settlement_type_113 rdfs:comment "At least untill the 13th century, a g
 
 ontohgis:settlement_type_114 rdfs:comment "Chronologically, a castle with its functions was preceded by a gord (non-brick, without buildings having both defensive and residential functions), while its successor was a palace (with defensive functions reduced), and a fortress (is was not necessarily a densely built-up structure, and there was no buildings with both defensive and residential functions). During the Early Modern era, military functions of castles were diminishing, but they continued to be residences. Newly established ones in their form imitated defensive buildings and due to this feature were called castles."@en ,
                                           "Chronologicznie funkcjonalnym poprzednikiem zamku był gród (niemurowany i bez budynków łączących funkcje obronne i rezydencjonalne), a następcą pałac (bez funkcji obronnych) i twierdza (nie musiała być założeniem zwartym i bez budynków łączących funkcje obronne i rezydencjonalne). W epoce nowożytnej i później zamki w coraz mniejszym stopniu pełniły funkcje militarne, ale zachowywały ciągłość funkcji rezydencjonalnych lub, nowopowstałe, w architekturze naśladowały budowle obronne i z tego względu były nazywane zamkami."@pl ;
-                             rdfs:isdefinedbyLiteral "Castle is a brick, densely built-up, closed, usually complex structure, within which at least some buildings have both defensive and residential functions; built in the Middle Ages or later but then in a form referring to that period."@en ,
+                             rdfs:isDefinedByLiteral "Castle is a brick, densely built-up, closed, usually complex structure, within which at least some buildings have both defensive and residential functions; built in the Middle Ages or later but then in a form referring to that period."@en ,
                                               "Murowane, zwarte, zamknięte, zwykle wieloczłonowe założenie, w którym przynajmniej część budynków pełni funkcje zarazem obronne i rezydencjonalne; powstałe w średniowieczu lub nawiązujące formą do tej epoki."@pl ;
                              rdfs:label "castle"@en ,
                                         "zamek - obiekt"@pl ;
@@ -16832,7 +16832,7 @@ ontohgis:settlement_type_114 rdfs:comment "Chronologically, a castle with its fu
 
 ontohgis:settlement_type_115 rdfs:comment "Port morski określa funkcję, jako pełni miejscowość, np. Gdynia jest miastem portowym (określenie z Bystrzyckiego), ale „port” (niekoniecznie morski) również może być miejscowością (patrz: Koeniglicher Hafen k. Torunia). Niektóre portowe miasta niemieckie zawierają „port” (niem. „-hafen”) w nazwie własnej (np. Osternothafen dziś: Chorzelin, id prng: 178058)."@pl ,
                                           "Sea harbour defines the function of the locality, e.g. Gdynia is a \"harbour city\" (in Bystrzycki's register), but the \"harbour\" (not necessarily at sea) may also be a locality (see: Koeniglicher Hafen near Toruń). Some harbours in Germany contain a \"harbour\" (German \"-hafen\") suffix in their own name (e.g. Osternothafen today: Chorzelin, id :: prng 178058)."@en ;
-                             rdfs:isdefinedbyLiteral "Port morski to przybrzeżny obszar wodny wraz z infrastrukturą przeznaczony dla obsługi statków."@pl ,
+                             rdfs:isDefinedByLiteral "Port morski to przybrzeżny obszar wodny wraz z infrastrukturą przeznaczony dla obsługi statków."@pl ,
                                               "Sea harbour is an area consisting of coastal waters together with artificial structures designed for the ship service."@en ;
                              rdfs:label "port morski - obiekt"@pl ,
                                         "sea harbour"@en ;
@@ -16865,7 +16865,7 @@ ontohgis:settlement_type_115 rdfs:comment "Port morski określa funkcję, jako p
 
 ontohgis:settlement_type_117 rdfs:comment "Although tourist shelter is nowadays classified as a kind of village (PRNG, DBTO10k), it seems that the tourist shelters were not considered localites in the period of our interest. This is due to the lack of this category in Bystrzycki's register, as well as the way of presentation on the maps: without the particular name, only symbol and explanatory abbreviation. Conceptually, this category is similar to shepherd's huts and inns (see: example)."@en ,
                                           "Mimo że dziś figuruje jako rodzaj miejscowości (PRNG, BDOT10k), wydaje się, że schronisko turystyczne nie było w interesującym nas okresie uznawane za miejscowość. Świadczy o tym brak wyróżnienia tej kategorii w spisie Bystrzyckiego, jak również sposób prezentacji na mapach: bez nazwy własnej, jedynie sygnatura i skrótem objaśniającym. Pojęciowo kategoria zbliżona do szałasów pasterskich i karczem (patrz przykład)."@pl ;
-                             rdfs:isdefinedbyLiteral "Schronisko turystyczne to budynek na szlaku turystycznym służący jako miejsce odpoczynku i noclegu dla turystów."@pl ,
+                             rdfs:isDefinedByLiteral "Schronisko turystyczne to budynek na szlaku turystycznym służący jako miejsce odpoczynku i noclegu dla turystów."@pl ,
                                               "Tourist shelter is a building on the tourist trail that serves as a place of rest and accommodation for tourists."@en ;
                              rdfs:label "schronisko turystyczne - obiekt"@pl ,
                                         "tourist shelter"@en ;
@@ -16911,7 +16911,7 @@ ontohgis:settlement_type_117 rdfs:comment "Although tourist shelter is nowadays 
 
 ontohgis:settlement_type_118 rdfs:comment "Functional distinctivness - clearly defined (passenger services).Morphological distinctiveness - on the maps, mostly as a non-scale symbols and an explanatory annotation.Spatial distinctivness - depending on the location of the railway line with the respect of locality, stations are either at a distance (often they have a given name, such as a town and the number of houses) or in the area of the locality (without a proper name, only a symbol and an explanatory annotation).Railway station can be part of a locality (Czekanów) or a separate locality (Chrośnica), then spatially distinct. If the station is located far away from the locality, then on the MGI maps it can be supplemeted by information about number of houses, not just the explanatory annotation (pol \"st.\"). The name of the station is never a proper name name but only the name of the main locality."@en ,
                                           "Odrębność funkcjonalna – jasno określona (obsługa podróżnych).Odrębność morfologiczna – najczęściej na mapach jako znak nieskalowy i podpis objaśniający.Odrębność przestrzenna – w zależności od położenia linii kolejowej względem miejscowości stacje znajdują się albo w oddaleniu (wtedy często mają podaną nazwę, taką jak miejscowość oraz liczbę domów) lub na obszarze miejscowości (bez nazwy; tylko sygnatura i skrót objaśniający).Stacja kolejowa może być częścią miejscowości (Czekanów) albo osobną miejscowością (Chrośnica) wyodrębnioną przestrzennie. Jeżeli stacja leży w oddaleniu od głównej miejscowości (wówczas na mapie WIG ma podaną liczbę domów, a nie tylko skrót objaśniający „st.”). Nazwa stacji nigdy nie jest nazwą własną, a jedynie nazwą głównej miejscowości."@pl ;
-                             rdfs:isdefinedbyLiteral "Stacja kolejowa to obszar, gdzie rozmieszczone są budowle związane z obsługą pasażerów kolei naziemnych."@pl ,
+                             rdfs:isDefinedByLiteral "Stacja kolejowa to obszar, gdzie rozmieszczone są budowle związane z obsługą pasażerów kolei naziemnych."@pl ,
                                               "The railway station is an area where facilities related to the service of ground railway passengers are located."@en ;
                              rdfs:label "railway station"@en ,
                                         "stacja kolejowa - obiekt"@pl ;
@@ -16936,7 +16936,7 @@ ontohgis:settlement_type_118 rdfs:comment "Functional distinctivness - clearly d
 
 ontohgis:settlement_type_119 rdfs:comment "Functional distinctivness - clearly defined (passenger services).Morphological distinctiveness - most often on topographic maps as a non-scale symbol or an explanatory annotation, usually without a proper name (only an abbreviation).Spatial distinctivness - depending on the location of the railway line with respect to the locality, the stops are either located at a distance (then they often have a proper name, the same as a locality) or within the area of the locality (no particular name, only symbol or an explanatory annotation). A railway station should rather not be treated as a locality, unless in exceptional cases, when all the constitutive conditions of localities are met."@en ,
                                           "Odrębność funkcjonalna – jasno określona (obsługa podróżnych).Odrębność morfologiczna – najczęściej na mapach jako znak nieskalowy obszaru przystanku i podpis objaśniający, przeważnie bez nazwy własnej (jedynie skrót).Odrębność przestrzenna – w zależności od położenia linii kolejowej względem miejscowości przystanki znajdują się albo w oddaleniu (wtedy często mają podaną nazwę, taką jak miejscowość) lub na obszarze miejscowości (bez nazwy; tylko sygnatura i skrót objaśniający). Przystanek kolejowy raczej nie powinien być traktowany jako miejscowość, chyba że w wyjątkowych przypadkach, gdy spełnione są wszystkie warunki konstytutywne miejscowości."@pl ;
-                             rdfs:isdefinedbyLiteral "A train stop is a stopping place for trains enabling travelers to enter or leave the train."@en ,
+                             rdfs:isDefinedByLiteral "A train stop is a stopping place for trains enabling travelers to enter or leave the train."@en ,
                                               "Przystanek kolejowy to miejsce zatrzymywania się pociągów umożliwiające podróżnym wejście lub opuszczenie pociągu."@pl ;
                              rdfs:label "przystanek kolejowy - obiekt"@pl ,
                                         "train stop"@en ;
@@ -16961,7 +16961,7 @@ ontohgis:settlement_type_119 rdfs:comment "Functional distinctivness - clearly d
 
 ontohgis:settlement_type_12 rdfs:comment "It is very unusual to classify a sugar factory or refinery as a separate locality, most often it is a part of a locality."@en ,
                                          "W niezwykle rzadkich przypadkach cukrownia może być odrębną miejscowością, zazwyczaj jest częścią miejscowości."@pl ;
-                            rdfs:isdefinedbyLiteral "Cukrownia (miejscowość) jest to osada, w której główną rolę odgrywa cukrownia (obiekt)."@pl ,
+                            rdfs:isDefinedByLiteral "Cukrownia (miejscowość) jest to osada, w której główną rolę odgrywa cukrownia (obiekt)."@pl ,
                                              "Sugar rafinery (a locality) is a settlement with a sugar factory or refinery (a factory) as the most important element."@en ;
                             rdfs:label "cukrownia"@pl ,
                                        "sugar factory"@en ;
@@ -16978,7 +16978,7 @@ ontohgis:settlement_type_12 rdfs:comment "It is very unusual to classify a sugar
 
 ontohgis:settlement_type_120 rdfs:comment "A church could be a separate unit (from adjacent settlements) distinguished by a particular name and morphology."@en ,
                                           "W analizowanych przypadkach kościół mógł stanowić odrębną (od sąsiadujących) nazewniczo i morfologicznie jednostkę osadniczą."@pl ;
-                             rdfs:isdefinedbyLiteral "A church (in architecture) is a building used by a religious community to meet and listen to the Word of God, for preaching, private prayers or to celebrate rituals."@en ,
+                             rdfs:isDefinedByLiteral "A church (in architecture) is a building used by a religious community to meet and listen to the Word of God, for preaching, private prayers or to celebrate rituals."@en ,
                                               "Kościół (w kontekście architektonicznym) jest to budynek, gdzie wspólnota religijna gromadzi się na słuchanie słowa Bożego, wspólną lub prywatną modlitwę oraz celebrację sakramentów."@pl ;
                              rdfs:label "church"@en ,
                                         "kościół - obiekt"@pl ;
@@ -17030,7 +17030,7 @@ ontohgis:settlement_type_120 rdfs:comment "A church could be a separate unit (fr
 
 ontohgis:settlement_type_121 rdfs:comment "In each analysed case, a rectory being a separate settlement, lays in a vicinity of a village, or a town/city with the same name. In cartographical sources, one can find it presented separately, with its proper name, an abbreviation of a category (i.e. pol “pleb.”, which is “rect.”), and distinguished by its morphology. A rectory differs slightly from the house of a provost, but we leave this difference aside."@en ,
                                           "We wszystkich analizowanych przypadkach jeżeli plebania jest odrębną miejscowością, to znajduje się w pobliżu wsi, miasta lub osady o tej samej nazwie. W ujęciu kartograficznym wyodrębniona przez nazwę własną, skrót kategorii (np. pleb.) oraz morfologicznie. Plebania różni się nieco od probostwa, gdyż pleban nie jest tożsamy z proboszczem, ale różnicę tę pomijamy."@pl ;
-                             rdfs:isdefinedbyLiteral "A rectory is a house or a group of buildings organised for a home for a provost supervising other priests living with him together with other people responsible for its maintenance."@en ,
+                             rdfs:isDefinedByLiteral "A rectory is a house or a group of buildings organised for a home for a provost supervising other priests living with him together with other people responsible for its maintenance."@en ,
                                               "Plebania jest to dom lub zespół zabudowań przeznaczony do mieszkania dla plebana, podległych mu księży i innych osób zajmujących się jego obsługą."@pl ;
                              rdfs:label "plebania - obiekt"@pl ,
                                         "rectory"@en ;
@@ -17084,7 +17084,7 @@ ontohgis:settlement_type_121 rdfs:comment "In each analysed case, a rectory bein
 
 ontohgis:settlement_type_122 rdfs:comment "Kryterium wyróżniającym kościół od kaplicy jest wielkość oraz znaczenie instytucjonalne. Kościół ma charakter świątyni głównej dla wspólnoty wiernych, natomiast kaplica ma znaczenie pomocnicze. Niewielkie wspólnoty wiernych mogły funkcjonować przy kaplicy, kiedy z różnych powodów (brak środków, ograniczenia prawne) nie mogły wybudować lub utrzymać kościoła."@pl ,
                                           "The criterion that distinguishes the church from the chapel is its size and institutional significance. The church serves as a main temple for the community, while the chapel's role is rather auxiliary. Small communities could use a chapel, when for various reasons (lack of resources, legal restrictions) they could not build or afford a church."@en ;
-                             rdfs:isdefinedbyLiteral "Chapel is a separate building (small church) or a separate room with an altar in a church or another building, devoted to religious worship (prayer, worship)."@en ,
+                             rdfs:isDefinedByLiteral "Chapel is a separate building (small church) or a separate room with an altar in a church or another building, devoted to religious worship (prayer, worship)."@en ,
                                               "Kaplica jest to odrębny budynek (mały kościół) lub oddzielne pomieszczenie z ołtarzem w kościele lub innym budynku, przeznaczone do sprawowania kultu religijnego (modlitwy, nabożeństwa)."@pl ;
                              rdfs:label "chapel"@en ,
                                         "kaplica - obiekt"@pl ;
@@ -17136,7 +17136,7 @@ ontohgis:settlement_type_122 rdfs:comment "Kryterium wyróżniającym kościół
 
 ontohgis:settlement_type_123 rdfs:comment "In most analysed cases, if the tar pitch was morphologically distinct, it had the same name as the neighbouring village or another locality. Occasionally it had its proper name."@en ,
                                           "W większości analizowanych przypadków, jeżeli smolarnia była odrębna morfologicznie, to miała tę samą nazwę, co sąsiadująca wieś lub inna miejscowość. Sporadycznie cechowała ją odrębność nazewnicza."@pl ;
-                             rdfs:isdefinedbyLiteral "Obiekt lub zespół obiektów gospodarczych zlokalizowanych w lesie lub jego pobliżu, gdzie w procesie prażenia drewna pozyskiwano smołę i inne produkty np. terpentynę, węgiel drzewny."@pl ,
+                             rdfs:isDefinedByLiteral "Obiekt lub zespół obiektów gospodarczych zlokalizowanych w lesie lub jego pobliżu, gdzie w procesie prażenia drewna pozyskiwano smołę i inne produkty np. terpentynę, węgiel drzewny."@pl ,
                                               "Tar pitch is a facility or a complex of industrial facilities located in or near the forest, where tar was sourced in the process of wood roasting, along with other products, e.g. turpentine, charcoal."@en ;
                              rdfs:label "smolarnia - obiekt"@pl ,
                                         "tar pitch"@en ;
@@ -17178,7 +17178,7 @@ ontohgis:settlement_type_123 rdfs:comment "In most analysed cases, if the tar pi
 
 ontohgis:settlement_type_124 rdfs:comment "Inns (localities) are distinguished on the old maps, which is mainly the result of their function. In the historiography, inns are distinguished from \"zajazd\" and \"gościniec\".The former usually served local customers - residents of the village or city, whereas the latter was supposed to serve supra-regional traffic. On the maps, inns are also distinguished by their proper names - e.g. Wygoda or Ostatni Grosz."@en ,
                                           "Karczmy wyróżniane są na dawnej kartografii, co wynika głównie z pełnionej przez nie funkcji. Warto jednak pamiętać o tym, że w historiografii rozróżnia się pojęcie karczmy oraz zajazdu lub gościńca. Pierwszy obiekt zazwyczaj miał na celu obsługę lokalnych klientów – mieszkańców wsi lub miasta, drugi zaś miał obsługiwać ruch ponadregionalny. Na mapach karczmy wyróżniają także specyficzne nazwy – np. Wygoda lub Ostatni Grosz."@pl ;
-                             rdfs:isdefinedbyLiteral "Budynek służący celom gastronomiczno-hotelarskim, zlokalizowany na przedmieściach miast, obrzeżach wsi lub ważnych szlakach komunikacyjnych."@pl ,
+                             rdfs:isDefinedByLiteral "Budynek służący celom gastronomiczno-hotelarskim, zlokalizowany na przedmieściach miast, obrzeżach wsi lub ważnych szlakach komunikacyjnych."@pl ,
                                               "Inn is a building serving catering and accomodation purposes, located in the suburbs, outskirts of villages, or on important communication routes."@en ;
                              rdfs:label "inn"@en ,
                                         "karczma - obiekt"@pl ;
@@ -17256,7 +17256,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
  ] .
 
 
-ontohgis:settlement_type_125 rdfs:isdefinedbyLiteral "Ironworks (locality) is a settlement, where the main role is played by an ironworks, an industrial facility."@en ,
+ontohgis:settlement_type_125 rdfs:isDefinedByLiteral "Ironworks (locality) is a settlement, where the main role is played by an ironworks, an industrial facility."@en ,
                                               "Osada kuźnicza jest to osada, w której główną rolę pełni kuźnica jako obiekt gospodarczy."@pl ;
                              rdfs:label "ironworks"@en ,
                                         "osada kuźnicza"@pl ;
@@ -17271,7 +17271,7 @@ ontohgis:settlement_type_125 rdfs:isdefinedbyLiteral "Ironworks (locality) is a 
                              ontohgis:hasTranslator ontohgis:person_9 .
 
 
-ontohgis:settlement_type_126 rdfs:isdefinedbyLiteral "Ironworks is a cluster of manufacturing workshops, the main puprpose of which is to melt and manufacture iron."@en ,
+ontohgis:settlement_type_126 rdfs:isDefinedByLiteral "Ironworks is a cluster of manufacturing workshops, the main puprpose of which is to melt and manufacture iron."@en ,
                                               "Zespół warsztatów przemysłowych, których głównym zadaniem jest przetop i obróbka żelaza."@pl ;
                              rdfs:label "ironworks"@en ,
                                         "kuźnica - obiekt"@pl ;
@@ -17328,7 +17328,7 @@ ontohgis:settlement_type_126 rdfs:isdefinedbyLiteral "Ironworks is a cluster of 
 
 ontohgis:settlement_type_127 rdfs:comment "Glasswork settlement (ger Hütte) was considered a separate locality, which emerged as consequence of a process in which common names (i.e. huta) gained new meaning, associated with a particular locality. Glasswork settlements were temporary settlements, very often, these were very unstable. When all local resources became exhausted (i.e. woods, sand, limestone), these settlements were moved into a new place. The result was frequent disappearing of glasswork settlements."@en ,
                                           "Odrębność osadnicza osady hutniczej (od ger Hütte) wynika przede wszystkim z procesu onimizacji, czyli przekształcania nazwy pospolitej (huta) w nazwę własną. Osady hutnicze były często osadami czasowymi, tzn. cechowały się dużą mobilnością. Po wyczerpaniu się pobliskich surowców (drewno, piasek, wapień) przenoszone były w inne miejsca. W związku z tym były to osady zanikające z krajobrazu osadniczego."@pl ;
-                             rdfs:isdefinedbyLiteral "Glassworks is a settlement in which the most importan role is played by a glassworks (considered as an factory building)."@en ,
+                             rdfs:isDefinedByLiteral "Glassworks is a settlement in which the most importan role is played by a glassworks (considered as an factory building)."@en ,
                                               "Osada hutnicza jest to osada, w której główną rolę pełni huta jako obiekt gospodarczy."@pl ;
                              rdfs:label "glassworks"@en ,
                                         "osada hutnicza"@pl ;
@@ -17345,7 +17345,7 @@ ontohgis:settlement_type_127 rdfs:comment "Glasswork settlement (ger Hütte) was
 
 ontohgis:settlement_type_128 rdfs:comment "Legal status - ownership diveded between a land lord and a hereditary tenant or an annual tenant."@en ,
                                           "Status prawny - własność podzielona między pana gruntowego a dzierżawcę dziedzicznego lub dzierżawcę rocznego."@pl ;
-                             rdfs:isdefinedbyLiteral "Glassworks is an industrial facility, where major production was glasswork, and later mainly casting and manufacturing metals, e.g. lead, zinc, iron."@en ,
+                             rdfs:isDefinedByLiteral "Glassworks is an industrial facility, where major production was glasswork, and later mainly casting and manufacturing metals, e.g. lead, zinc, iron."@en ,
                                               "Zakład przemysłowy, którego głównym celem była produkcja szkła, a w późniejszym okresie wytop i przetwórstwo rud metali np. ołowiu, cynku, żelaza."@pl ;
                              rdfs:label "glassworks"@en ,
                                         "huta - obiekt"@pl ;
@@ -17386,7 +17386,7 @@ ontohgis:settlement_type_128 rdfs:comment "Legal status - ownership diveded betw
 
 ontohgis:settlement_type_129 rdfs:comment "Morphological distinctiveness - usually clear (location in the forest), but there are lodges located in the immediate vicinity of some other localities. Naming distinctiveness - clear from the second half of the 19th c. (previously forester's lodges had no proper names, later not always). Functional distinctiveness - the forester's lodge plays a role in the economy and forest administration."@en ,
                                           "Odrębność morfologiczna – przeważnie wyraźna (położenie w lesie), ale zdarzają się leśniczówki położone w bezpośrednim sąsiedztwie innych miejscowości. Odrębność nazewnicza – od drugiej połowy XIX wieku (wcześniej bez nazw; później nie zawsze). Odrębność funkcjonalna – leśniczówka pełni rolę związaną z gospodarką i administracją leśną."@pl ;
-                             rdfs:isdefinedbyLiteral "Forester's lodge is an area where there is a complex of buildings including a house in which a forester lives, which is the seat of the Forest District's authorities, located in a forest area. Apart from forest management, forester's lodge performs residential functions. Forester's lodge is a locality as long as it has a proper name and is not in the vicinity of another locality."@en ,
+                             rdfs:isDefinedByLiteral "Forester's lodge is an area where there is a complex of buildings including a house in which a forester lives, which is the seat of the Forest District's authorities, located in a forest area. Apart from forest management, forester's lodge performs residential functions. Forester's lodge is a locality as long as it has a proper name and is not in the vicinity of another locality."@en ,
                                               "Leśniczówka (obiekt) to obszar, na którym znajduje się zespół zabudowań obejmujący dom, w którym mieszka leśniczy, stanowiący siedzibę leśnictwa, znajdujący się na terenie leśnym, pełniący oprócz mieszkalnych funkcje związane z gospodarką leśną. Leśniczówka jest miejscowością o ile posiada nazwę własną i nie znajduje się w bezpośrednim sąsiedztwie innej miejscowości."@pl ;
                              rdfs:label "forester's lodge"@en ,
                                         "leśniczówka - obiekt"@pl ;
@@ -17434,7 +17434,7 @@ ontohgis:settlement_type_129 rdfs:comment "Morphological distinctiveness - usual
 
 ontohgis:settlement_type_130 rdfs:comment "Morphological distinctiveness - usually clear (location in the forest), but there are lodges located in the immediate vicinity of some other localities.Naming distinctiveness - clear from the second half of the 19th century (previously forester's lodges had no proper names, later not always).Functional distinctiveness - the forester's lodge plays a role in the economy and forest administration."@en ,
                                           "Odrębność morfologiczna – przeważnie wyraźna (położenie w lesie), ale zdarzają się gajówki położone w bezpośrednim sąsiedztwie innych miejscowości.Odrębność nazewnicza – od drugiej połowy XIX wieku (wcześniej bez nazw; później nie zawsze). Odrębność funkcjonalna – gajówka pełni rolę związaną z gospodarką leśną."@pl ;
-                             rdfs:isdefinedbyLiteral "Forest-guard's lodge is an area comprising a set of buildings including a house in which a forest-guard lives, located in a forest area, performing residential as well as forest management functions. Forest-guard's lodge is a locality as long as it has its own name and is not located in the immediate vicinity of another locality."@en ,
+                             rdfs:isDefinedByLiteral "Forest-guard's lodge is an area comprising a set of buildings including a house in which a forest-guard lives, located in a forest area, performing residential as well as forest management functions. Forest-guard's lodge is a locality as long as it has its own name and is not located in the immediate vicinity of another locality."@en ,
                                               "Gajówka to obszar na którym znajduje się zespół zabudowań obejmujący dom, w którym mieszka gajowy, znajdujący się na terenie leśnym, pełniący oprócz mieszkalnych funkcje związane z gospodarką leśną. Gajówka jest miejscowością o ile posiada nazwę własną i nie znajduje się w bezpośrednim sąsiedztwie innej miejscowości."@pl ;
                              rdfs:label "forest-guard's lodge"@en ,
                                         "gajówka - obiekt"@pl ;
@@ -17483,7 +17483,7 @@ ontohgis:settlement_type_131 rdfs:comment """Functional distinctivness - disting
 Morphological and spatial distinctivness - usually a lightouse is a building (structure) within the area of the locality or in its vicinity. 
 If it has its a particular (proper) name, it can be treated as a separate locality (interpretation of maps is necessary, see: Rozewie). Otherwise it is either part of another locality or an object (building/structure) in it (see: Hel, Jastarnia)."""@en ,
                                           "Odrębność funkcjonalna – wyróżniana jako rodzaj miejscowości u Bystrzyckiego, a na mapach topograficznych odrębnym znakiem, niekiedy z nazwą własną. Odrębność morfologiczna/przestrzenna – przeważnie jest obiektem na obszarze miejscowości lub w niewielkim od niej oddaleniu. Jeżeli posiada nazwę własną może być traktowana jako osobna miejscowość (konieczna interpretacja map; patrz: Rozewie). W przeciwnym razie jest albo częścią innej, większej miejscowości lub obiektem terenowym (budowlą) w niej (patrz: Hel, Jastarnia)."@pl ;
-                             rdfs:isdefinedbyLiteral "A lighthouse (a facility) is a building, usually a high tower with a beacon light to guide ships."@en ,
+                             rdfs:isDefinedByLiteral "A lighthouse (a facility) is a building, usually a high tower with a beacon light to guide ships."@en ,
                                               "Latarnia morska (obiekt) to budowla, najczęściej wysoka wieża służąca jako punkt orientacyjny dla statków."@pl ;
                              rdfs:label "latarnia morska - obiekt"@pl ,
                                         "lighthouse"@en ;
@@ -17511,7 +17511,7 @@ If it has its a particular (proper) name, it can be treated as a separate locali
 
 ontohgis:settlement_type_132 rdfs:comment "In the analysed cases, the monastery could have been a locality which was separate in terms of name and mophology from the neighbouring ones. The monastery could have been a beginning (a stem) of a larger locality, which would develop around it and transform into a monastery settlement, village, city etc."@en ,
                                           "W analizowanych przypadkach klasztor mógł stanowić całkowicie odrębną (od sąsiadujących) nazewniczo i morfologicznie miejscowość. Klasztor mógł stanowić zalążek większej miejscowości, która rozwinęła się wokół niego i przekształciła się w osadę klasztorną, wieś, miasto etc."@pl ;
-                             rdfs:isdefinedbyLiteral "Klasztor jest to budynek lub zespół budynków przeznaczony do mieszkania dla zakonników lub zakonnic."@pl ,
+                             rdfs:isDefinedByLiteral "Klasztor jest to budynek lub zespół budynków przeznaczony do mieszkania dla zakonników lub zakonnic."@pl ,
                                               "Monastery is a building or a group of buildings where monks and nuns live"@en ;
                              rdfs:label "klasztor - obiekt"@pl ,
                                         "monastery"@en ;
@@ -17584,7 +17584,7 @@ ontohgis:settlement_type_132 rdfs:comment "In the analysed cases, the monastery 
 
 ontohgis:settlement_type_133 rdfs:comment "In most analysed cases, if the sawmill was morphologically distinct, it had the same name as the neighboring village or another locality, such as: forester's lodge. Occasionally it had its particular name."@en ,
                                           "W większości analizowanych przypadków, jeżeli tartak był odrębny morfologicznie, to miał tę samą nazwę, co sąsiadująca wieś lub inna miejscowość, np. leśniczówka. Sporadycznie cechowała go odrębność nazewnicza."@pl ;
-                             rdfs:isdefinedbyLiteral "Obiekt lub zespół obiektów gospodarczych często zlokalizowanych w lesie lub jego pobliżu, gdzie dokonuje się przerobu drewna okrągłego na tarcicę w procesie przecierania (tarcia)."@pl ,
+                             rdfs:isDefinedByLiteral "Obiekt lub zespół obiektów gospodarczych często zlokalizowanych w lesie lub jego pobliżu, gdzie dokonuje się przerobu drewna okrągłego na tarcicę w procesie przecierania (tarcia)."@pl ,
                                               "Sawmill is an industrial facility often located within or near the forest, where wood is processed into sawn timber in the wiping process."@en ;
                              rdfs:label "sawmill"@en ,
                                         "tartak - obiekt"@pl ;
@@ -17635,7 +17635,7 @@ ontohgis:settlement_type_133 rdfs:comment "In most analysed cases, if the sawmil
 
 ontohgis:settlement_type_134 rdfs:comment "In all the analysed cases, in Bystrzycki's register, peat mines had the same names as the locality nearby: village and peat mine, manor and peat mine."@en ,
                                           "We wszystkich analizowanych przypadkach z tzw. skorowidza Bystrzyckiego z 1931 r. torfiarnie posiadały takie same nazwy jak osada lub osady leżąca obok niej (wieś i torfiarnia, folwark i torfiarnia)."@pl ;
-                             rdfs:isdefinedbyLiteral "Peat mine is a mine where a peat is mined"@en ,
+                             rdfs:isDefinedByLiteral "Peat mine is a mine where a peat is mined"@en ,
                                               "Torfiarnia (obiekt) jest to kopalnia torfu."@pl ;
                              rdfs:label "peat mine"@en ,
                                         "torfiarnia - obiekt"@pl ;
@@ -17667,7 +17667,7 @@ ontohgis:settlement_type_134 rdfs:comment "In all the analysed cases, in Bystrzy
 
 ontohgis:settlement_type_135 rdfs:comment "At the very beginning, breweries had been situated only within bigger settlement unit and had not had an individual name. Some of these had only a name corresponding to the owner's name, which was frequently changed. Subsequently, particular names were assigned to breweries; often in the form of trademarks, however the process of integrating the breweries under one trademark originated relatively early/ quickly. One may not find a difference between brewery and distillery in historical sources."@en ,
                                           "Browary początkowo mieściły się wyłącznie w obrębie większych jednostek osadniczych i nie miały własnej nazwy, ew. nazwę wywiedzioną od nazwiska właściciela, często zmienianą. Z czasem browary zaczęły mieć własne nazwy, często w postaci znaków handlowych, jednakże dość szybko zaczął się proces łączenia się browarów pod wspólną nazwą. Źródłowo zdarza się brak rozróżnienia gorzelni i browaru."@pl ;
-                             rdfs:isdefinedbyLiteral "Brewery is a factory producing beer, as well as a complex of buildings established for production and accomodation for factory workers."@en ,
+                             rdfs:isDefinedByLiteral "Brewery is a factory producing beer, as well as a complex of buildings established for production and accomodation for factory workers."@en ,
                                               "Browar jest to zakład wytwarzający piwo jak również zespół budynków przeznaczonych na cele produkcyjne i mieszkalne dla obsługi zakladu."@pl ;
                              rdfs:label "brewery"@en ,
                                         "browar - obiekt"@pl ;
@@ -17725,7 +17725,7 @@ ontohgis:settlement_type_135 rdfs:comment "At the very beginning, breweries had 
 
 ontohgis:settlement_type_136 rdfs:comment "In each case analysed, a brickyard with a particular name has been located near a village, a city or a town, or a settlement with the same name. If it was an integral part of a superior locality, it had not been given a proper name. (One should remember that exporting produced goods outside the area of production was difficult)."@en ,
                                           "We wszystkich analizowanych przypadkach jeżeli cegielnia jest odrębną miejscowością, to znajduje się w pobliżu wsi, miasta lub osady o tej samej nazwie. Jeśli znajduje się w obrębie większej miejscowości to dość długo nie ma nazwy własnej. (Trudności w eksporcie towaru poza miejsce wyrobu.)"@pl ;
-                             rdfs:isdefinedbyLiteral "Brickyard is a factory where bricks and other ceramic building materials and elements are being produced together with a complex of buildings established for production and houses for factory workers."@en ,
+                             rdfs:isDefinedByLiteral "Brickyard is a factory where bricks and other ceramic building materials and elements are being produced together with a complex of buildings established for production and houses for factory workers."@en ,
                                               "Cegielnia jest to zakład wytwarzający cegły oraz ew. inne ceramiczne elementy budowlane jak również zespół budynków przeznaczonych na cele produkcyjne i mieszkalne dla obsługi zakładu."@pl ;
                              rdfs:label "brickyard"@en ,
                                         "cegielnia - obiekt"@pl ;
@@ -17778,7 +17778,7 @@ ontohgis:settlement_type_136 rdfs:comment "In each case analysed, a brickyard wi
 
 ontohgis:settlement_type_137 rdfs:comment "Mines presented on majority of analysed maps had their individual symbol."@en ,
                                           "Na wszystkich badanych mapach kopalnie miały własny znak umowny."@pl ;
-                             rdfs:isdefinedbyLiteral "A mine is a factory extracting minerals from the earth. It may be connected with a settlement, it may be inhabited by the personnel."@en ,
+                             rdfs:isDefinedByLiteral "A mine is a factory extracting minerals from the earth. It may be connected with a settlement, it may be inhabited by the personnel."@en ,
                                               "Kopalnia jest to zakład wydobywający z ziemi kopaliny. Może być połączony z osadą, miewa stale zamieszkujący personel."@pl ;
                              rdfs:label "kopalnia - obiekt"@pl ,
                                         "mine"@en ;
@@ -17836,7 +17836,7 @@ ontohgis:settlement_type_137 rdfs:comment "Mines presented on majority of analys
 
 ontohgis:settlement_type_138 rdfs:comment "Cukrownia może mieć własną nazwę, najczęściej powiązaną z nazwą firmy lub znakiem firmowym, ale nie musi. Rzadko zaznaczana na mapach."@pl ,
                                           "Sugar factory or refinery may have its own name - usually related to the factory name or a trademark - however it is not nocessary. Very seldom, it has been indicated on maps."@en ;
-                             rdfs:isdefinedbyLiteral "A sugar factory or refinery is a factory producing sugar, as well as a complex of buildings established for production and accomodation for factory workers."@en ,
+                             rdfs:isDefinedByLiteral "A sugar factory or refinery is a factory producing sugar, as well as a complex of buildings established for production and accomodation for factory workers."@en ,
                                               "Cukrownia jest to zakład wytwarzający cukier jak również zespół budynków przeznaczonych na cele produkcyjne i mieszkalne dla obsługi zakładu."@pl ;
                              rdfs:label "cukrownia - obiekt"@pl ,
                                         "sugar factory"@en ;
@@ -17877,7 +17877,7 @@ ontohgis:settlement_type_138 rdfs:comment "Cukrownia może mieć własną nazwę
 
 ontohgis:settlement_type_139 rdfs:comment "Distillery may have its own name - usually related to the factory name or a trademark - however it is not nocessary. As a separate locality, it may - however it is not obligatory - be located near a village, a city or a town, or a settlement sharing the same name. One may not find a difference between brewery and distillery in historical sources."@en ,
                                           "Gorzelnie znajdujące się w obrębie miast mogą, ale nie muszą mieć własnej nazwy, zazwyczaj nazwa ta powiązana jest z nazwą firmy, znakiem firmowym. Jeśli jest odrębną miejscowością to może ale nie musi znajdować się w pobliżu wsi, miasta lub osady o tej samej nazwie. Źródłowo zdarza się brak rozróżnienia gorzelni i browaru."@pl ;
-                             rdfs:isdefinedbyLiteral "Distillery is a factory where alcohol and spirits requiring distillation whilst manufacturing are produced."@en ,
+                             rdfs:isDefinedByLiteral "Distillery is a factory where alcohol and spirits requiring distillation whilst manufacturing are produced."@en ,
                                               "Gorzelnia jest to zakład wytwarzający spirytus oraz napoje alkoholowe o wysokiej zawartości alkoholu, wymagające w trakcie procesu produkcyjnego destylacji."@pl ;
                              rdfs:label "distillery"@en ,
                                         "gorzelnia - obiekt"@pl ;
@@ -17926,7 +17926,7 @@ ontohgis:settlement_type_139 rdfs:comment "Distillery may have its own name - us
 
 ontohgis:settlement_type_17 rdfs:comment "Forest-guard's lodge is a kind of forester's lodge; criteria for distinguishing a forester's lodge, forestry and forest-guard's lodge are unknown (in the context of topographic maps); the term forest-guard's lodge is very rarely used in Bystrzycki's register 1931 (Forest-guard's lodges depicted on MGI maps are forester's lodges in Bystrzycki's register 1931 or are not included in Bystrzycki's register 1931 whereas depicted on MGI maps)."@en ,
                                          "Gajówka jest rodzajem leśniczówki; kryteria odróżniania leśniczówki, leśnictwa i gajówki są nieznane (w świetle kartografii); termin bardzo rzadko stosowany w skorowidzu Bystrzyckiego z 1931 r. (gajówki na mapach WIG to często leśniczówki w skorowidzu Bystrzyckiego z 1931 r.; gajówki nie ujęte w skorowidzu Bystrzyckiego z 1931 r. występują na mapach WIG)"@pl ;
-                            rdfs:isdefinedbyLiteral "Forest-guard's lodge (a locality) is a settlement in which the main role is played by a forest-guard's lodge (a facility). Forest-guard's lodge is a locality as long as it has its own name and is not located in the immediate vicinity of another locality."@en ,
+                            rdfs:isDefinedByLiteral "Forest-guard's lodge (a locality) is a settlement in which the main role is played by a forest-guard's lodge (a facility). Forest-guard's lodge is a locality as long as it has its own name and is not located in the immediate vicinity of another locality."@en ,
                                              "Gajówka (miejscowość) to miejscowość, w której główną rolę pełni gajówka (obiekt). Gajówka jest miejscowością jeżeli posiada nazwę własną i jest przestrzennie wyodrębniona od innej miejscowości."@pl ;
                             rdfs:label "forest-guard's lodge"@en ,
                                        "gajówka"@pl ;
@@ -17947,7 +17947,7 @@ ontohgis:settlement_type_17 rdfs:comment "Forest-guard's lodge is a kind of fore
 
 ontohgis:settlement_type_18 rdfs:comment "A distillery may be a separate locality, both individual and a part of a cluster of localities sharing the same name, however most often it has been an integral part of a city or a town and has not been distinguished."@en ,
                                          "Gorzelnia może być odrębną miejscowością, zarówno samodzielną jak i częścią grupy miejscowości o tej samej nazwie, ale najczęściej znajduje się w obrębie miasta i nie jest wyróżniona."@pl ;
-                            rdfs:isdefinedbyLiteral "A distillery (locality) is a settlement, where a distillery (a factory) plays the most important role."@en ,
+                            rdfs:isDefinedByLiteral "A distillery (locality) is a settlement, where a distillery (a factory) plays the most important role."@en ,
                                              "Gorzelnia (miejscowość) jest to osada, w której główną role odgrywa gorzelnia (obiekt)."@pl ;
                             rdfs:label "distillery"@en ,
                                        "gorzelnia"@pl ;
@@ -17968,7 +17968,7 @@ ontohgis:settlement_type_18 rdfs:comment "A distillery may be a separate localit
 
 ontohgis:settlement_type_19 rdfs:comment "Klasztor może być odrębną miejscowością (rzadko, przed II wojną światową) lub częścią miejscowości."@pl ,
                                          "Monastery can be a separate locality (rarely, before the Second World War) or a part of a locality."@en ;
-                            rdfs:isdefinedbyLiteral "Monastery (locality) is a settlement in which the main role is played by a monastery (facility)."@en ,
+                            rdfs:isDefinedByLiteral "Monastery (locality) is a settlement in which the main role is played by a monastery (facility)."@en ,
                                              "Osada klasztorna jest to osada, w której główą rolę odgrywa klasztor (obiekt)."@pl ;
                             rdfs:label "monastery"@en ,
                                        "osada klasztorna"@pl ;
@@ -17990,7 +17990,7 @@ ontohgis:settlement_type_2 rdfs:comment """A development in a village may be den
 In German language in the nineteenth century, two terms could coexist - Pfarrdorf and Kirchdorf. The first meant a larger village with a parish church, and a second smaller village with an auxiliary (filial) church, but these criteria of distinction were not strict and neither used consistently. For example on the Gilly map (1802-1803), only the following categories exist: Kirchdorf and Dorf ohne Kirche."""@en ,
                                         """Wieś może posiadać zwartą (np. wsie lokowane na prawie niemieckim np. ulicówki, łańcuchówki) lub rozproszoną zabudowę (często kolonie olęderskie w XVIII w. lub wczesnośredniowieczne osady jednodworcze). Wieś może dominować (być jednostką nadrzędną osadniczo) w stosunku do innych jednostek takich jak np. przysiółek, osada młyńska; jest także zależna od pana gruntowego, który sprawuje nad nią nadzór własnościowy. Mieszkańcy wszystkich jednostek składających się na wieś tworzą jedną wspólnotę wiejską. W badaniach nad wsią rozróżnia się także pojęcie wsi opustoszałej, czyli takiej, która fizycznie przestała pełnić swoje funkcje w wyniku zdarzeń o charakterze losowym, środowiskowym, politycznym lub gospodarczym. W literaturze przedmiotu funkcjonuje także określenie wieś zaginiona, które odnosi się do wsi, w których nie wznowiono osadnictwa.
 W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy – Pfarrdorf i Kirchdorf.  Pierwszy oznaczał raczej większą wieś z kościołem parafialnym, zaś drugi mniejszą wieś z kościołem pomocniczym. Terminy te nie były jednak ścisłe i używane konsekwentnie, np. na mapie Gilly’ego z lat 1802-1803 występują tylko kategorie: Kirchdorf oraz Dorf ohne Kirche."""@pl ;
-                           rdfs:isdefinedbyLiteral "Village is a locality composed of a group of buildings, mostly of residential and economic character, but sometimes, also industrial ones (i.e. ironworks, mill) as well as a belonging land, inhabited by people involved particularly in agricultural and construction activities or in farming industry (i.e. blacksmith or mill work), and not having city rights nor a status of a city or a town. Some villages in Early Middle Ages had a right to organise a fair and a market."@en ,
+                           rdfs:isDefinedByLiteral "Village is a locality composed of a group of buildings, mostly of residential and economic character, but sometimes, also industrial ones (i.e. ironworks, mill) as well as a belonging land, inhabited by people involved particularly in agricultural and construction activities or in farming industry (i.e. blacksmith or mill work), and not having city rights nor a status of a city or a town. Some villages in Early Middle Ages had a right to organise a fair and a market."@en ,
                                             "Wieś jest to miejscowość składająca się z zabudowań mieszkalno-gospodarczych, niekiedy przemysłowych (np. kuźnia, młyn) wraz z przynależnymi do nich gruntami (rozłogi), zamieszkała przez ludność zajmującą się w większości zajęciami rolniczo-hodowlanymi oraz przemysłem wiejskim (np. kowalstwo, młynarstwo), nieposiadająca praw miejskich ani statusu miasta. Niekiedy we wczesnym średniowieczu posiadająca prawo odbywania targu."@pl ;
                            rdfs:label "village"@en ,
                                       "wieś"@pl ;
@@ -18100,7 +18100,7 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
 
 ontohgis:settlement_type_20 rdfs:comment "Colony is usually a part of another locality, more rarely, although these are not exceptional cases, it can have the status of a separate locality, usually a village. Both in the case where the colony is a separate locality or it is apart of another one, it is always located near the village (village or - sometimes - small town) from which its name is derived. On topographic maps, a colony is distinguished mainly by the explanatory abbreviation (pol.: kol.), by its own name, and morphologically."@en ,
                                          "Kolonia jest przeważnie częścią miejscowości, rzadziej, choć nie są to wyjątkowe przypadki, ma obecnie status odrębnej miejscowości, z reguły wsi. Zarówno w przypadku, gdy kolonia jest odrębną miejscowością jak i częścią miejscowości, zawsze znajduje się w pobliżu miejscowości (wsi a wyjątkowo małego miasta) od której pochodzi jej nazwa. W ujęciu kartograficznym wyodrębniona przede wszystkim przez skrót kategorii (kol.), nazwę własną, oraz morfologicznie."@pl ;
-                            rdfs:isdefinedbyLiteral "Colony (pol. kolonia) is a built-up area located away from previously existing buildings (locality) to which it is related. It is created on newly developed land allocated as a result of enfranchisement, parceling, consolidation, or internal migration."@en ,
+                            rdfs:isDefinedByLiteral "Colony (pol. kolonia) is a built-up area located away from previously existing buildings (locality) to which it is related. It is created on newly developed land allocated as a result of enfranchisement, parceling, consolidation, or internal migration."@en ,
                                              "Kolonia jest to obszar zabudowany oddalony od wcześniej istniejącej zabudowy, od której jest zależna, powstały na nowo zagospodarowanych gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji lub migracji wewnętrznej."@pl ;
                             rdfs:label "colony"@en ,
                                        "kolonia"@pl ;
@@ -18186,7 +18186,7 @@ ontohgis:settlement_type_20 rdfs:comment "Colony is usually a part of another lo
 
 ontohgis:settlement_type_21 rdfs:comment "A mine may be a separate locality, an individual one or a part of a cluster of localities sharing the same name, however, even if a mine is an integral part of a bigger locality, it has its particular name."@en ,
                                          "Kopalnia może być odrębną miejscowością, zarówno samodzielną jak i częścią grupy miejscowości o tej samej nazwie, ale najczęściej, nawet jeśli znajduje się w obrębie większej miejscowości, ma własną nazwę."@pl ;
-                            rdfs:isdefinedbyLiteral "A mine (a locality) is a settlement with a mine (a factory) as the most important element."@en ,
+                            rdfs:isDefinedByLiteral "A mine (a locality) is a settlement with a mine (a factory) as the most important element."@en ,
                                              "Kopalnia (miejscowość) jest to osada, w której główną rolę odgrywa kopalnia (obiekt)."@pl ;
                             rdfs:label "mining settlement"@en ,
                                        "osada górnicza"@pl ;
@@ -18221,7 +18221,7 @@ Morphological and spatial distinctivness - usually a lightouse is a building (st
 If it has its a particular (proper) name, it can be treated as a separate locality (interpretation of maps is necessary, see: Rozewie). Otherwise it is either part of another locality or an object (building/structure) in it (see: Hel, Jastarnia)."""@en ,
                                          """Występuje jako rodzaj miejscowości u Bystrzyckiego w spisie (\"lat. mor.\"); na mapach osobna sygnatura. W BDOT10k jako budynek łączności, dworców i terminali.
 Odrębność funkcjonalna – wyróżniana jako rodzaj miejscowości u Bystrzyckiego, a na mapach topograficznych odrębnym znakiem, niekiedy z nazwą własną. Odrębność morfologiczna/przestrzenna – przeważnie jest obiektem na obszarze miejscowości lub w niewielkim od niej oddaleniu. Jeżeli posiada nazwę własną może być traktowana jako osobna miejscowość (konieczna interpretacja map; patrz: Rozewie). W przeciwnym razie jest albo częścią innej, większej miejscowości lub obiektem terenowym (budowlą) w niej (patrz: Hel, Jastarnia)."""@pl ;
-                            rdfs:isdefinedbyLiteral "A lighthouse (a locality) is a settlement in which a main role is played by a lighthouse (building)."@en ,
+                            rdfs:isDefinedByLiteral "A lighthouse (a locality) is a settlement in which a main role is played by a lighthouse (building)."@en ,
                                              "Latarnia morska (miejscowość) to osada obejmująca latarnię morską (obiekt)."@pl ;
                             rdfs:label "latarnia morska"@pl ,
                                        "lighthouse"@en ;
@@ -18242,7 +18242,7 @@ Included on topographic maps as a part of a place name annotation (\"letn.\"), b
 Występuje jako rodzaj miejscowości u Bystrzyckiego w spisie (\"letn.\"). 
 Wszystkie letniska u Bystrzyckiego znajdują się w okolicach Warszawy. Wyjątek: Wisła, Zełmianka (pow. Stryj).
 Występuje na mapach w nazwach miejscowości (letn.), ale nie w kluczach znaków. W legendach map WIG jest to jeden z rodzajów osiedli. W BDOT10k („dom letniskowy”) w klasie budynki mieszkalne jednorodzinne (BUBD01)."""@pl ;
-                            rdfs:isdefinedbyLiteral "Letnisko to miejscowość o charakterze wypoczynkowym, złożona z domków letniskowych lub posiadająca zwartą zabudowę"@pl ,
+                            rdfs:isDefinedByLiteral "Letnisko to miejscowość o charakterze wypoczynkowym, złożona z domków letniskowych lub posiadająca zwartą zabudowę"@pl ,
                                              "Summer resort is a holiday locality consisting of holiday houses or densely built-up"@en ;
                             rdfs:label "letnisko"@pl ,
                                        "summer resort"@en ;
@@ -18278,7 +18278,7 @@ Występuje na mapach w nazwach miejscowości (letn.), ale nie w kluczach znaków
 
 ontohgis:settlement_type_27 rdfs:comment "Dziś leśniczówka jest miejscowością lub budynkiem (BDOT10k), ale nie wszystkie leśniczówki-budynki (BUBD01) to leśniczówki-miejscowości (ADMS11). Przed wojną leśniczówka prawie zawsze była wyróżniana jako odrębna miejscowość."@pl ,
                                          "Today, the forester's lodge is a locality or a building (DBTO10k), but not all forester's lodges (feature class: BUBD01) which are buildings are forester's lodges (feature class: ADMS11) understood as localities. Before the second world war, forester's lodge was almost always distinguished as a separate locality."@en ;
-                            rdfs:isdefinedbyLiteral "Forester's lodge (a locality) is a locality in which the main role is played by a forester's lodge (an area). Forester's lodge is a locality as long as it has a particular (proper) name and is not located in the immediate vicinity of another locality."@en ,
+                            rdfs:isDefinedByLiteral "Forester's lodge (a locality) is a locality in which the main role is played by a forester's lodge (an area). Forester's lodge is a locality as long as it has a particular (proper) name and is not located in the immediate vicinity of another locality."@en ,
                                              "Leśniczówka (miejscowość) to miejscowość, w której główną rolę pełni leśniczówka (obiekt). Leśniczówka jest miejscowością jeżeli posiada nazwę własną i jest przestrzennie wyodrębniona od innej miejscowości."@pl ;
                             rdfs:label "forester's lodge"@en ,
                                        "leśniczówka"@pl ;
@@ -18301,7 +18301,7 @@ ontohgis:settlement_type_27 rdfs:comment "Dziś leśniczówka jest miejscowości
 
 ontohgis:settlement_type_28 rdfs:comment "Miasteczko z zasady jest odrębną miejscowością. Na ziemiach polskich nie istniało rozróżnienie formalne między miastem i miasteczkiem, funkcjonowało ono natomiast na niektórych obszarach Rzeszy Niemieckiej (Flecken, Marktsiedlung - Stadt)."@pl ,
                                          "Town is always (ex definitione) a separate locality. On the Polish lands, there was no formal distinction between the city and the town, but such distinction was present in some areas of the German Reich (Flecken, Marktsiedlung - Stadt)."@en ;
-                            rdfs:isdefinedbyLiteral "Miasteczko to małe miasto, odróżniające się od dużych miast wielkością (liczoną według miary właściwej dla danej epoki i regionu) i stopniem złożoności."@pl ,
+                            rdfs:isDefinedByLiteral "Miasteczko to małe miasto, odróżniające się od dużych miast wielkością (liczoną według miary właściwej dla danej epoki i regionu) i stopniem złożoności."@pl ,
                                              "Town (pol. miasteczko) is a small city, distniguished from larger cities by it size (estimated by standards appropriate for given period and region) and complexity."@en ;
                             rdfs:label "miasteczko"@pl ,
                                        "town"@en ;
@@ -18352,7 +18352,7 @@ ontohgis:settlement_type_28 rdfs:comment "Miasteczko z zasady jest odrębną mie
 
 ontohgis:settlement_type_3 rdfs:comment "During those periods, when legal status of localities was established and defined, cities/towns were granted specific municipal rights (location bill), which should be considered as an auxiliary indicator for distinguishing cities/towns. A city/town may consists of other settlement units, like: a core city/town (a founded one), a district, a suburb, a castle, a gord. At least from the 13th to the 18th century, two parallel notions existed: general (meaning the whole settlement unit with its own society, economy, and urban structure, perceived mostly by intuition), and a city in its political and legal meaning, as a community with an extensive autonomy. As a consequence, cities within other city or units lying partly in and partly outside the city existed. For these complex structures, in this project, first explanations of the city should be applied."@en ,
                                         "W okresach, w których status prawny miejscowości był ukształtowany miasta posiadały szczególne prawa miejskie (lokacyjne), które stanowią postawowe kryterium pomocnicze odróżniania miast. W skład miasta mogą wchodzić inne jednostki osadnicze, jak miasto właściwe (lokacyjne), dzielnica, przedmieście, zamek, gród. Przynamniej w okresie od XIII do XVIII w. funkcjonowały równolegle dwa pojęcia miasta: ogólne, obejmujące cały zespół osadniczy o odrębności społecznej, gospodarczej i urbanistycznej, postrzegane przede wszystkim intuicyjnie oraz miasto w sensie polityczno-prawnym, obdarzona względnie szeroką autonomią gmina. W konsekwencji mogły istnieć miasta w mieście i obiekty leżące jednocześnie w mieście i poza nim. Dla takich złożonych struktur w niniejszym projekcie należy się posługiwać pierwszym znaczeniem miasta."@pl ;
-                           rdfs:isdefinedbyLiteral "A city/town is a superior locality, distinguished from others, surrounding basic units by size (measured differently in different periods of time and regions), a level of complexity, and central functions provided for those units."@en ,
+                           rdfs:isDefinedByLiteral "A city/town is a superior locality, distinguished from others, surrounding basic units by size (measured differently in different periods of time and regions), a level of complexity, and central functions provided for those units."@en ,
                                             "Miasto jest to miejscowość wyższego rzędu, odróżniająca się od otaczających je podstawowych wielkością (liczoną według miary właściwej dla danej epoki i regionu), stopniem złożoności i funkcjami centralnymi względem nich."@pl ;
                            rdfs:label "city / town"@en ,
                                       "miasto"@pl ;
@@ -18415,7 +18415,7 @@ ontohgis:settlement_type_3 rdfs:comment "During those periods, when legal status
 ontohgis:settlement_type_33 rdfs:comment "A small locality organised in relation to a workplace or a particular occupation of its inhabitants. Settlement had usually been established as a separate locality, later on – especially in case of industrial settlements – particular settlements could develop into a city, merge with other settlement to create a new locality, or it could be incorporated into another locality. Depending on the type of inhabitants’ occupations one can, or could in the past, indicate a fair (market), craft, industrial, fishing, forestry, and railway settlements."@en ,
                                          "Niewielka miejscowość zorganizowana w związku z miejscem lub rodzajem pracy mieszkańców. Osada powstawała z reguły jako odrębna miejscowość, później, dość często, szczególnie w przypadku osad przemysłowych, rozwijała się do rangi miasta, łączyła się z inną osadą jako odrębna miejscowość, lub była włączana do innej miejscowości. W zależności od rodzaju wykonywanej pracy wyróżnia lub wyróżniało się osady targowe, rzemieślnicze, przemysłowe, rybackie, leśne, kolejowe."@pl ,
                                          "„W ten sposób termin 'osada' może tutaj oznaczać nie tylko małe osiedla, złożone z jednego lub kilku wyodrębnionych terytorialnie gospodarstw włościańskich, jak to miało miejsce na innych ziemiach polskich, lecz i większe, o charakterze kolonii, t. j. osiedli rozrzuconych na większej przestrzeni, a powstałych zazwyczaj na gruntach rozparcelowanych przez władze zaborcze”"@pl ;
-                            rdfs:isdefinedbyLiteral "Niewielka miejscowość zamieszkała przez ludność związaną z określonym typem lokalizacji lub rodzajem pracy nierolniczej i usytuowana z reguły w bezpośrednim sąsiedztwie miejsca pracy."@pl ,
+                            rdfs:isDefinedByLiteral "Niewielka miejscowość zamieszkała przez ludność związaną z określonym typem lokalizacji lub rodzajem pracy nierolniczej i usytuowana z reguły w bezpośrednim sąsiedztwie miejsca pracy."@pl ,
                                              "Settlement is a small locality inhabited by people associated with a particular type of location or a type of a non-agricultural work and lying mostly in the vicinity of a workplace."@en ;
                             rdfs:label "osada"@pl ,
                                        "settlement"@en ;
@@ -18512,7 +18512,7 @@ In cartography, it may be distinguished by its own name preceded by an abbreviat
                                          """W znaczeniu ogólnym, rzadko obecnie stosowanym, określenie każdej jednostki osadniczej (osiedle miejskie, osiedle wiejskie). W tym znaczeniu jest to osobna miejscowość.
 W urbanistyce (planowaniu przestrzennym) pojęcie osiedla wywodzi się z koncepcji „jednostki sąsiedzkiej”, na którą składa się zespół budynków mieszkalnych wraz z zapleczem obiektów usługowych oraz terenów zielonych. Jako część miejscowości osiedle wyróżnia się poprzez nazwę, swoją fizjonomię (np. osiedle bloków mieszkalnych, domków jednorodzinnych), topografię (jest wyodrębnione przestrzennie), a także przez okres powstania.
 W ujęciu kartograficznym wyodrębnione przez nazwę własną, poprzedzoną  skrótem  kategorii (np. Os. Zdobycz Robotnicza) oraz morfologicznie."""@pl ;
-                            rdfs:isdefinedbyLiteral "Housing estate is an area covering a group of residential buildings, being an integral part of a city ( a town), or - rarely - a village."@en ,
+                            rdfs:isDefinedByLiteral "Housing estate is an area covering a group of residential buildings, being an integral part of a city ( a town), or - rarely - a village."@en ,
                                              "Obszar obejmujący zespół budynków mieszkalnych, stanowiący integralną część miasta, a niekiedy wsi."@pl ;
                             rdfs:label "housing developments"@en ,
                                        "osiedle"@pl ;
@@ -18616,7 +18616,7 @@ W ujęciu kartograficznym wyodrębnione przez nazwę własną, poprzedzoną  skr
 
 ontohgis:settlement_type_35 rdfs:comment "Industrial settlement usually emerged as a separate locality, later, quite often, it developed to the rank of the city, merged with another locality creating a separate one, or was incorporated into another locality."@en ,
                                          "Osada fabryczna powstawała z reguły jako odrębna miejscowość, później, dość często rozwijała się do rangi miasta, łączyła się z inną osadą jako odrębna miejscowość, lub była włączana do innej miejscowości."@pl ;
-                            rdfs:isdefinedbyLiteral "Industrial settlement is a settlement in which a main role is played by a factory."@en ,
+                            rdfs:isDefinedByLiteral "Industrial settlement is a settlement in which a main role is played by a factory."@en ,
                                              "Osada fabryczna jest to osada, w której główną rolę pełni fabryka."@pl ;
                             rdfs:label "industrial settlement"@en ,
                                        "osada fabryczna"@pl ;
@@ -18643,7 +18643,7 @@ ontohgis:settlement_type_35 rdfs:comment "Industrial settlement usually emerged 
 
 ontohgis:settlement_type_36 rdfs:comment "Osada leśna powstawała z reguły jako odrębna, niewielka miejscowość, położona w obrębie lub na skraju obszaru leśnego."@pl ,
                                          "The forest settlements were usually formed as a separate, small locality, located within or near the forest."@en ;
-                            rdfs:isdefinedbyLiteral "A forest settlement is a small settlement located within or at the boundaries of a forest area, inhabited by people involved in administration, exploitation, or availing the surrounding forest areas."@en ,
+                            rdfs:isDefinedByLiteral "A forest settlement is a small settlement located within or at the boundaries of a forest area, inhabited by people involved in administration, exploitation, or availing the surrounding forest areas."@en ,
                                              "Osada leśna jest to niewielka osada położona w obrębie lub na skraju obszaru leśnego, zamieszkała przez ludność związaną z administrowaniem, eksploatacją lub wykorzystywaniem otaczających obszarów leśnych."@pl ;
                             rdfs:label "forest settlement"@en ,
                                        "osada leśna"@pl ;
@@ -18667,7 +18667,7 @@ ontohgis:settlement_type_37 rdfs:comment "Osada miejska to miejscowość."@pl ,
                                          "Termin był stosowany dla oznaczenia ośrodków, które utraciły prawa miejskie po powstaniu styczniowym. Osada miejska mogła być stosowana także sensie szerszym, obejmującym wszystkie jednostki osadnicze o charakterze miejskim, np. duże miasto, przedmieścia itp."@pl ,
                                          "This notion was used to mark localites that lost their city rights after the \"January Uprising\". The urban settlement could also be used in a broader sense, encompassing all settlement units of urban character, e.g. a big city, suburbs, etc."@en ,
                                          "Urban settlement is a locality."@en ;
-                            rdfs:isdefinedbyLiteral "Osada miejska to miejscowość posiadająca wcześniej prawa miejskie i aktualnie ich pozbawiona."@pl ,
+                            rdfs:isDefinedByLiteral "Osada miejska to miejscowość posiadająca wcześniej prawa miejskie i aktualnie ich pozbawiona."@pl ,
                                              "Urban settlement is a locality which used to have city rights, but currently without them."@en ;
                             rdfs:label "osada miejska"@pl ,
                                        "urban settlement"@en ;
@@ -18693,7 +18693,7 @@ ontohgis:settlement_type_37 rdfs:comment "Osada miejska to miejscowość."@pl ,
 
 ontohgis:settlement_type_38 rdfs:comment "Mill settlement often emereged as a separete locality, which might later be combined with another locality or become a part of it."@en ,
                                          "Osada młyńska powstawała często jako odrębna miejscowość, później łączyła się niekiedy z inną osadą  lub była włączana do innej miejscowości."@pl ;
-                            rdfs:isdefinedbyLiteral "Mill settlement is a settlement in which a main role is played by a mill, most often a watermill, but it also might be a windmill or wind turbine."@en ,
+                            rdfs:isDefinedByLiteral "Mill settlement is a settlement in which a main role is played by a mill, most often a watermill, but it also might be a windmill or wind turbine."@en ,
                                              "Osada młyńska jest to osada, w której główną rolę pełni młyn, najczęściej młyn wodny, ale może to być też również wiatrak lub turbina wiatrowa."@pl ;
                             rdfs:label "mill settlement"@en ,
                                        "osada młyńska"@pl ;
@@ -18719,7 +18719,7 @@ ontohgis:settlement_type_38 rdfs:comment "Mill settlement often emereged as a se
 
 ontohgis:settlement_type_41 rdfs:comment "In each analysed case, a rectory being a separate settlement, lays in a vicinity of a village, or a town/city with the same name. In cartographical sources, one can find it presented separately, with its proper name, an abbreviation of a category (i.e. pol “pleb.”, which is “rect.”), and distinguished by its morphology. A rectory differs slightly from the house of a provost, but we leave this difference aside."@en ,
                                          "We wszystkich analizowanych przypadkach jeżeli plebania jest odrębną miejscowością, to znajduje się w pobliżu wsi, miasta lub osady o tej samej nazwie. W ujęciu kartograficznym wyodrębniona przez nazwę własną, skrót kategorii (np. pleb.) oraz morfologicznie. Plebania różni się nieco od probostwa, gdyż pleban nie jest tożsamy z proboszczem, ale różnicę tę pomijamy."@pl ;
-                            rdfs:isdefinedbyLiteral "Plebania jest to miejscowość, w której główną rolę pełni plebania jako obiekt sakralny."@pl ,
+                            rdfs:isDefinedByLiteral "Plebania jest to miejscowość, w której główną rolę pełni plebania jako obiekt sakralny."@pl ,
                                              "Rectory is a locality, where the main role is played by a rectory, a home of a provost, as a sacral object."@en ;
                             rdfs:label "plebania"@pl ,
                                        "rectory"@en ;
@@ -18752,7 +18752,7 @@ Należy odróżnić od przedmieścia osady przedmiejskie, które były w znaczny
 In the fortified cities, the area of the core city was limted by the fortifications, especially by the walls.
 The suburb could have a different degree of legal separation from the city. It is an entity typical rather for the pre-industrial era. Most of the suburbs, especially from the end of the 18th c., were incorporated legally and then functionally as well as morphologically into the city. The particular name of the suburb usually disappeared or obtained a different meaning.
 It is necessary to distinguish  suburbs from the suburban settlements which were largely independent of the neighboring city or even held central functions to it, e.g. due to the location of the seats of the authorities. Such a situation was common during the first stages of cities establishment, especially for larger centers (prince's stronghold and the cathedral outside the main municipality)."""@en ;
-                            rdfs:isdefinedbyLiteral "Przedmieście to peryferyjna część miasta, tj. położona poza obrębem miasta właściwego (lokacyjnego), wyodrębniona przestrzennie lub morfologicznie i z własną nazwą, wobec której miasto pełni funkcje centralne."@pl ,
+                            rdfs:isDefinedByLiteral "Przedmieście to peryferyjna część miasta, tj. położona poza obrębem miasta właściwego (lokacyjnego), wyodrębniona przestrzennie lub morfologicznie i z własną nazwą, wobec której miasto pełni funkcje centralne."@pl ,
                                              "Suburb is a peripheral part of the city, towards which the city performs central functions. A suburb is located outside its initial location city; distinguished spatially or morphologically and with its own (proper) name."@en ;
                             rdfs:label "Vorstadt"@de ,
                                        "przedmieście"@pl ,
@@ -18792,7 +18792,7 @@ It is necessary to distinguish  suburbs from the suburban settlements which were
  ] .
 
 
-ontohgis:settlement_type_44 rdfs:isdefinedbyLiteral "Hamlet (pol \"przysiółek\") is a small group of buildings belonging to another locality, located on its land, in a remote part, and legally associated with it."@en ,
+ontohgis:settlement_type_44 rdfs:isDefinedByLiteral "Hamlet (pol \"przysiółek\") is a small group of buildings belonging to another locality, located on its land, in a remote part, and legally associated with it."@en ,
                                              "Przysiółek to mała grupa zabudowań, należących do innej miejscowości, położona na jej gruntach, w oddaleniu od niej i prawnie z nią związana."@pl ;
                             rdfs:label "hamlet"@en ,
                                        "przysiółek"@pl ;
@@ -18821,7 +18821,7 @@ ontohgis:settlement_type_44 rdfs:isdefinedbyLiteral "Hamlet (pol \"przysiółek\
 ontohgis:settlement_type_45 rdfs:comment "Included as locality type in Bystrzycki's register in the abbreviation list (pol \"kol.\"; \"prz. k.\");included on topographic maps marked with the explanatory abbreviation (pol \"p.\"; ger \"hp.\");included in DBTO10k in the \"objects related to communication\" feature class (OIKM)."@en ,
                                          "Występuje jako rodzaj miejscowości u Bystrzyckiego w spisie (prz. kol.; prz.. k.); na mapach jako „p.” – przystanek lub „hp.” (ger Haltepunkt). W BDOT10k w klasie obiekt związany z komunikacją."@pl ,
                                          "dworzec kolejowy"@pl ;
-                            rdfs:isdefinedbyLiteral "Przystanek kolejowy (miejscowość) jest to osada, w której główną rolę odgrywa przystanek kolejowy (obiekt)."@pl ,
+                            rdfs:isDefinedByLiteral "Przystanek kolejowy (miejscowość) jest to osada, w której główną rolę odgrywa przystanek kolejowy (obiekt)."@pl ,
                                              "Train stop (locality) is a settlement where the main role is played by a train stop (object)."@en ;
                             rdfs:label "przystanek kolejowy"@pl ,
                                        "train stop"@en ;
@@ -18837,7 +18837,7 @@ ontohgis:settlement_type_45 rdfs:comment "Included as locality type in Bystrzyck
 
 ontohgis:settlement_type_47 rdfs:comment "If residential buildings were erected around the tar pitch, it could be a kind of a separate forest settlement. The boundary between a tar pitch as an economic facility and a kind of forest settlement was blurry. It dependended on the seasonality and permanence of habitation."@en ,
                                          "Jeżeli wokół smolarni utrwaliła się zabudowa mieszkalna to smolarnia mogła stanowić rodzaj odrębnej osady leśnej. Granica między smolarnią jako obiektem gospodarczym a smolarnią jako rodzajem osady leśnej była płynna. Była uzależniona od sezonowości i stałości zamieszkiwania."@pl ;
-                            rdfs:isdefinedbyLiteral "Smolarnia (miejscowość) jest to osada, w której główną rolę pełni smolarnia jako obiekt gospodarczy."@pl ,
+                            rdfs:isDefinedByLiteral "Smolarnia (miejscowość) jest to osada, w której główną rolę pełni smolarnia jako obiekt gospodarczy."@pl ,
                                              "Tar pitch (locality) is a settlement where the main role is played by a tar pitch (industrial facility)."@en ;
                             rdfs:label "smolarnia"@pl ,
                                        "tar pitch"@en ;
@@ -18856,7 +18856,7 @@ ontohgis:settlement_type_47 rdfs:comment "If residential buildings were erected 
 
 ontohgis:settlement_type_48 rdfs:comment "Included as locality type in Bystrzycki's register in the abbreviation list (pl. \"st. kol.\"; \"st. k.\");included on topographic maps marked with the explanatory abbreviation (pl. \"St.\" or \"St. tow.\" [freight station], ger \"H.st.\" [Haltestation]);included in DBTO10k in the \"communication complex\" feature class (KUKO)."@en ,
                                          "Stacja kolejowa występuje jako rodzaj miejscowości u Bystrzyckiego w spisie (st. kol.; st. k.); na mapach oznaczana skrótem objaśniającym „St.” lub „St. tow.” (stacja towarowa), „H.st.” (ger Haltestation);w BDOT10k w klasie kompleks komunikacyjny."@pl ;
-                            rdfs:isdefinedbyLiteral "Railway station (locality) is a settlement where the main role is played by a railway station (object)."@en ,
+                            rdfs:isDefinedByLiteral "Railway station (locality) is a settlement where the main role is played by a railway station (object)."@en ,
                                              "Stacja kolejowa (miejscowość) jest to osada, w której główną rolę odgrywa stacja kolejowa (obiekt)."@pl ;
                             rdfs:label "railway station"@en ,
                                        "stacja kolejowa"@pl ;
@@ -18878,7 +18878,7 @@ ontohgis:settlement_type_48 rdfs:comment "Included as locality type in Bystrzyck
 ontohgis:settlement_type_50 rdfs:comment "If residential buildings emerged around a sawmill, then it could be a kind of a separate forest settlement or a mill settlement. The distinction between the sawmill as an industrial facility and the sawmill as a kind of locality was blurry. It depended on the seasonality or permanence of habitation."@en ,
                                          "Jeżeli wokół tartaku utrwaliła się zabudowa mieszkalna to tartak mógł stanowić rodzaj odrębnej osady leśnej lub osady młyńskiej. Granica między tartakiem jako obiektem gospodarczym a tartakiem jako rodzajem osady była płynna. Była uzależniona od sezonowości i stałości zamieszkiwania."@pl ,
                                          "piła"@pl ;
-                            rdfs:isdefinedbyLiteral "Sawmill (locality) is a locality where the main role is played by a sawmill (facility)."@en ,
+                            rdfs:isDefinedByLiteral "Sawmill (locality) is a locality where the main role is played by a sawmill (facility)."@en ,
                                              "Tartak (miejscowość) to miejscowość, w której główną rolę odgrywa tartak (obiekt)."@pl ;
                             rdfs:label "sawmill"@en ,
                                        "tartak"@pl ;
@@ -18897,7 +18897,7 @@ ontohgis:settlement_type_50 rdfs:comment "If residential buildings emerged aroun
 
 ontohgis:settlement_type_51 rdfs:comment "If residential buildings emerged around a peat mine, then it could be a kind of a separate mine settlement or an industrial settlement. The distinction between the peat mine as an industrial facility and the peat mine as a kind of locality was blurry. It depended on the seasonality or permanence of habitation."@en ,
                                          "Jeżeli wokół torfiarni utrwaliła się zabudowa mieszkalna to torfiarnia mogła stanowić rodzaj odrębnej osady górniczej lub osady fabrycznej. Granica między torfiarnią jako obiektem gospodarczym a torfiarnią jako rodzajem osady była płynna. Była uzależniona od sezonowości i stałości zamieszkiwania."@pl ;
-                            rdfs:isdefinedbyLiteral "Peat mine (locality) is a locality where the main role is played by a peat mine (facility)."@en ,
+                            rdfs:isDefinedByLiteral "Peat mine (locality) is a locality where the main role is played by a peat mine (facility)."@en ,
                                              "Torfiarnia (miejscowość) jest to miejscowość, w której główną rolę odgrywa torfiarnia (obiekt)."@pl ;
                             rdfs:label "peat mine"@en ,
                                        "torfiarnia"@pl ;
@@ -18912,7 +18912,7 @@ ontohgis:settlement_type_51 rdfs:comment "If residential buildings emerged aroun
 
 ontohgis:settlement_type_52 rdfs:comment "A fortress might be a separate settlement unit or a building inside a superior unit."@en ,
                                          "Twierdza mogła być samodzielną jednostką osadniczą lub obiektem w obrębie większej jednostki."@pl ;
-                            rdfs:isdefinedbyLiteral "Fortress is a locality for which a defensive function is dominant."@en ,
+                            rdfs:isDefinedByLiteral "Fortress is a locality for which a defensive function is dominant."@en ,
                                              "Miejscowość, dla której dominująca jest funkcja obronna."@pl ;
                             rdfs:label "fortress"@en ,
                                        "twierdza"@pl ;
@@ -18938,7 +18938,7 @@ Spatial distinctiveness - clear, as far as Czarniecka Góra and Miłowody (spas 
 Odrębność morfologiczna – luźna zabudowa (uzdrowiskowa), najczęściej pośród lasu (Czarniecka Góra, Miłowody); Nałęczów u Bystrzyckiego również jest określany jako uzdrowisko, a cechuje się zabudową zwartą (patrz: mapy WIG).
 Odrębność przestrzenna – wyraźna w przy Czarnieckiej Górze i Miłowodach (uzdrowiska położone pośród lasu)."""@pl ,
                                          "Występuje jako rodzaj miejscowości u Bystrzyckiego w spisie (uzdrow.).Na mapach WIG oznaczane krojem pisma charakterystycznym dla miejscowości (Czarniecka Góra, Nałęczów) lub budynków/obiektów terenowych (Miłowody); brak odrębnej sygnatury/skrótu objaśniające w legendach."@pl ;
-                            rdfs:isdefinedbyLiteral "A spa is a locality, where climate enhances treatment, and a main function of which is to serve bathers and visitors."@en ,
+                            rdfs:isDefinedByLiteral "A spa is a locality, where climate enhances treatment, and a main function of which is to serve bathers and visitors."@en ,
                                              "Uzdrowisko jest miejscowością, w której warunki klimatyczne sprzyjają leczeniu chorób i której główną funkcją jest obsługa kuracjuszy"@pl ;
                             rdfs:label "spa"@en ,
                                        "uzdrowisko"@pl ;
@@ -18976,7 +18976,7 @@ ontohgis:settlement_type_54 rdfs:comment """Forest distrct as it had a separate 
 The basic criterion of distinguishing forest district from other localities or settlement units from the perspective of its functionality is its relation to the organization of forestry or agricultural production. Individual parts of forest or agricultural areas for a better understanding of space received their own names. It also did not exclude the forest settlement form the process of settling and thus the transformation to the kind of locality. The morphological distinctiveness of forest districts due to the nature of natural boundaries (swamps, glades, etc.) is fuzzy. From the legal point of view, the status of the forest district is rather unclear because this term was also used in relation to various types of forest settlements or parts of forests such as \"bór\" or \"ostęp\"."""@en ,
                                          """Uroczysko, ponieważ posiadało odrębną nazwę i było wydzielone przestrzennie, mogło być miejscowością (uroczysko zamieszkane) lub jednostką osadniczą (uroczysko niezamieszkane, uroczysko opuszczone). Ta druga kategoria była dominująca. Jako kategoria miejscowości (obok wsi, miasta, folwarku etc.) wymieniane jest w rejestrach dotyczących wschodnich województw dawnej Rzeczypospolitej. Liczba mieszkańców nie przekraczała zazwyczaj kilkunastu osób. Obecnie uroczysko jest rodzajem obiektu fizjograficznego w klasie obiektów \"Inny obiekt fizjograficzny\" w Państwowym Rejestrze Nazw Geograficznych.
 Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub jednostek osadniczych w aspekcie funkcjonalnym jest jego związek z organizacją produkcji leśnej lub rolniczej. Poszczególne części obszarów leśnych lub rolnych dla lepszej orientacji w przestrzeni otrzymywały swoje nazwy własne. Nie wykluczało to też procesu osiedlania się a tym samym przekształcania uroczyska w rodzaj miejscowości. Odrębność morfologiczna uroczysk ze względu na charakter granic naturalnych (bagna, polany etc.) jest rozmyta. Od strony prawnej status uroczyska jest dość niejasny, gdyż termin ten był używany także w odniesieniu do różnego typu osad leśnych lub części lasów takich jak bory czy ostępy."""@pl ;
-                            rdfs:isdefinedbyLiteral "Forest distrct is a part of a forest, meadow or swampy area separated by natural borders and an own (proper) name for better organization of social and economic life. Built-up and inhabited forest district used to be a locality."@en ,
+                            rdfs:isDefinedByLiteral "Forest distrct is a part of a forest, meadow or swampy area separated by natural borders and an own (proper) name for better organization of social and economic life. Built-up and inhabited forest district used to be a locality."@en ,
                                              "Uroczysko to obszar leśny, łąkowy lub bagnisty wyodrębniony naturalnymi granicami oraz nazwą własną w celu lepszej organizacji życia społecznego i gospodarczego. Uroczysko zabudowane i zamieszkane było miejscowością."@pl ;
                             rdfs:label "forest district"@en ,
                                        "uroczysko"@pl ;
@@ -19059,7 +19059,7 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
 
 ontohgis:settlement_type_56 rdfs:comment "\"Zaścianek\" is typical mostly for Mazovia, Podlachia and areas of the former Grand Duchy of Lithuania."@en ,
                                          "Zaścianki są najbardziej charakterystyczne dla Mazowsza, Podlasia i obszarów dawnego Wielkiego Księstwa Litewskiego."@pl ;
-                            rdfs:isdefinedbyLiteral "\"Zaścianek\" is an agricultural locality inhabited by the poor nobility who cultivate their land on their own."@en ,
+                            rdfs:isDefinedByLiteral "\"Zaścianek\" is an agricultural locality inhabited by the poor nobility who cultivate their land on their own."@en ,
                                              "Zaścianek to miejscowość o charakterze rolniczym zamieszkała przez drobną szlachtę samodzielnie uprawiającą posiadaną ziemię."@pl ;
                             rdfs:label "\"zaścianek\""@en ,
                                        "zaścianek"@pl ;
@@ -19079,7 +19079,7 @@ ontohgis:settlement_type_56 rdfs:comment "\"Zaścianek\" is typical mostly for M
 
 ontohgis:settlement_type_60 rdfs:comment "Część kolonii jest odrębną jednostką osadniczą, rodzajem miejscowości, zawsze ma swoją nazwę własną. Części kolonii występują najczęściej w woj. lubelskim, łódzkim i pomorskim. W sumie jest ich w Polsce 281."@pl ,
                                          "Part of a colony is a separate settlement unit, a kind of locality, always has a particular name. Parts of colonies occur most often in Lubelskie, Łódzkie, and Pomorskie voivodships. In total, there are 281 parts of colonies in Poland."@en ;
-                            rdfs:isdefinedbyLiteral "Część kolonii to miejscowość stanowiąca integralną część miejscowości podstawowej kolonii, jest wydzielona administracyjnie, ale należy do jednostki nadrzędnej."@pl ,
+                            rdfs:isDefinedByLiteral "Część kolonii to miejscowość stanowiąca integralną część miejscowości podstawowej kolonii, jest wydzielona administracyjnie, ale należy do jednostki nadrzędnej."@pl ,
                                              "Part of a colony is an integral part of the main locality a colony; it is administratively separated, but belongs to the superior unit."@en ;
                             rdfs:label "część kolonii"@pl ,
                                        "part of a colony"@en ;
@@ -19093,7 +19093,7 @@ ontohgis:settlement_type_60 rdfs:comment "Część kolonii jest odrębną jednos
 
 ontohgis:settlement_type_61 rdfs:comment "Część miasta jest odrębną jednostką osadniczą, rodzajem miejscowości, zawsze ma swoją nazwę własną. W sumie jest ich w Polsce 10425. Są to części miejscowości skupiające się często wokół większych miejscowości w całej Polsce, większe skupiska części miejscowości są m. in. w woj. śląskim, mazowieckim, małopolskim, wielkopolskim, pomorskim."@pl ,
                                          "Part of a city is a separate settlement unit, a kind of locality, it always has a particular name. There are 10425 of these units in Poland at the moment. These are mostly parts of localities converging upon bigger localities around Poland. Large clusters of these units are located i.e. in Śląskie, Mazowieckie, Małopolskie, Wielkopolskie, and Pomorskie voivodeships."@en ;
-                            rdfs:isdefinedbyLiteral "Część miasta to miejscowość stanowiąca integralną część miejscowości podstawowej miasta, jest wydzielona administracyjnie, ale należy do jednostki nadrzędnej."@pl ,
+                            rdfs:isDefinedByLiteral "Część miasta to miejscowość stanowiąca integralną część miejscowości podstawowej miasta, jest wydzielona administracyjnie, ale należy do jednostki nadrzędnej."@pl ,
                                              "Part of a city is an integral part of the main locality a city (or a town); it is administratively separated, but belongs to the superior unit."@en ;
                             rdfs:label "część miasta"@pl ,
                                        "part of a city"@en ;
@@ -19117,7 +19117,7 @@ ontohgis:settlement_type_61 rdfs:comment "Część miasta jest odrębną jednost
 
 ontohgis:settlement_type_62 rdfs:comment "Część osady jest odrębną jednostką osadniczą, rodzajem miejscowości, zawsze ma swoją nazwę własną. Części osady występują w większości na Pomorzu. W sumie jest ich w Polsce 76."@pl ,
                                          "Part of a settlement is a separate settlement unit, a kind of locality, it always has a particular name. Parts of settlements occur mostly in Pomorze. In total, there are 76 parts of settlements in Poland."@en ;
-                            rdfs:isdefinedbyLiteral "Część osady to miejscowość stanowiąca integralną część miejscowości podstawowej osady, jest wydzielona administracyjnie, ale należy do jednostki nadrzędnej."@pl ,
+                            rdfs:isDefinedByLiteral "Część osady to miejscowość stanowiąca integralną część miejscowości podstawowej osady, jest wydzielona administracyjnie, ale należy do jednostki nadrzędnej."@pl ,
                                              "Part of a settlement is an integral part of the main locality a settlement, it is administratively separated, but belongs to the superior unit."@en ;
                             rdfs:label "część osady"@pl ,
                                        "part of a settlement"@en ;
@@ -19143,7 +19143,7 @@ ontohgis:settlement_type_62 rdfs:comment "Część osady jest odrębną jednostk
 
 ontohgis:settlement_type_63 rdfs:comment "A part of a village is a separate settlement unit, a kind of locality, and always has its own (individual) name. There are 41942 parts of villages around the whole Poland at the moment."@en ,
                                          "Część wsi jest odrębną jednostką osadniczą, rodzajem miejscowości, zawsze ma swoją nazwę własną. Części wsi występują w całej Polsce. W sumie jest ich w Polsce 41942."@pl ;
-                            rdfs:isdefinedbyLiteral "A part of a village is a locality being an integral part of the main locality a village; it is administratively separated, but belongs to the superior unit."@en ,
+                            rdfs:isDefinedByLiteral "A part of a village is a locality being an integral part of the main locality a village; it is administratively separated, but belongs to the superior unit."@en ,
                                              "Część wsi to miejscowość stanowiąca integralną część miejscowości podstawowej wsi, jest wydzielona administracyjnie, ale przynależy do jednostki nadrzędnej."@pl ;
                             rdfs:label "część wsi"@pl ,
                                        "part of a village"@en ;
@@ -19166,7 +19166,7 @@ ontohgis:settlement_type_63 rdfs:comment "A part of a village is a separate sett
 
 ontohgis:settlement_type_64 rdfs:comment "Colony of a colony is a separate settlement unit, a kind of locality, and always has its particular name. They occur most often in the Lubelskie and Podlaskie voivodships. In total, there are 31 colonies of colony at the moment."@en ,
                                          "Kolonia kolonii jest odrębną jednostką osadniczą, rodzajem miejscowości, zawsze ma swoją nazwę własną. Kolonia kolonii występują w większości w woj. lubelskim i woj. podlaskim. W sumie jest ich obecnie w Polsce 31."@pl ;
-                            rdfs:isdefinedbyLiteral "Colony of a colony is a colony which is related to a colony."@en ,
+                            rdfs:isDefinedByLiteral "Colony of a colony is a colony which is related to a colony."@en ,
                                              "Kolonia osady to kolonia zależna od kolonii."@pl ;
                             rdfs:label "colony of a colony"@en ,
                                        "kolonia kolonii"@pl ;
@@ -19193,7 +19193,7 @@ ontohgis:settlement_type_64 rdfs:comment "Colony of a colony is a separate settl
 
 ontohgis:settlement_type_65 rdfs:comment "A built-up area located away from previously existing buildings (locality) to which it is related. Colony of a settlement is a separate settlement unit, a kind of locality, always with its particular name. Colonies of settlements occur mainly in Zachodniopomorskie, Warmińsko-mazurskie and Podlaskie voivodships. In total, there are 17 colonies of settlements in Poland."@en ,
                                          "Obszar zabudowany oddalony od wczesniejszej zabudowy, od której jest zależny. Kolonia osady jest odrębną jednostką osadniczą, rodzajem miejscowości, zawsze ma swoją nazwę własną. Kolonie osady występują w większości w woj. zachodniopomorskim, warmińsko-mazurskim i woj. podlaskim. W sumie jest ich w Polsce 17."@pl ;
-                            rdfs:isdefinedbyLiteral "Colony of a settlement is a colony related to a settlement."@en ,
+                            rdfs:isDefinedByLiteral "Colony of a settlement is a colony related to a settlement."@en ,
                                              "Kolonia osady to kolonia zależna od osady."@pl ;
                             rdfs:label "colony of a settlement"@en ,
                                        "kolonia osady"@pl ;
@@ -19209,7 +19209,7 @@ ontohgis:settlement_type_65 rdfs:comment "A built-up area located away from prev
 
 ontohgis:settlement_type_66 rdfs:comment "Colony of a village is a separate settlement unit, a kind of locality, and always has its particular name. They are spread all over modern Poland and there are 4043 collonies of villages at the moment."@en ,
                                          "Kolonia wsi jest odrębną jednostką osadniczą, rodzajem miejscowości, zawsze ma swoją nazwę własną. Kolonie wsi występują w całej Polsce. W sumie jest ich obecnie w Polsce 4043."@pl ;
-                            rdfs:isdefinedbyLiteral "Colony of a village is a colony related to a village."@en ,
+                            rdfs:isDefinedByLiteral "Colony of a village is a colony related to a village."@en ,
                                              "Kolonia wsi to kolonia zależna od wsi."@pl ;
                             rdfs:label "colony of a village"@en ,
                                        "kolonia wsi"@pl ;
@@ -19238,7 +19238,7 @@ ontohgis:settlement_type_68 rdfs:comment "Brak oficjalnej definicji w \"Ustawie 
                                          "No official definition in the \"Act on official names of localities and physiographic units\"."@en ,
                                          "Są cztery takie obiekty w Polsce, wszystkie w woj. lubelskim."@pl ,
                                          "There are 4 such a settlements is contemporary Poland: all in Lubelskie voivodship."@en ;
-                            rdfs:isdefinedbyLiteral "Osada kolonii jest to osada stanowiąca integralną część kolonii."@pl ,
+                            rdfs:isDefinedByLiteral "Osada kolonii jest to osada stanowiąca integralną część kolonii."@pl ,
                                              "Settlement of a colony is a settlement which is an integral part of a colony."@en ;
                             rdfs:label "osada kolonii"@pl ,
                                        "settlement of a colony"@en ;
@@ -19254,7 +19254,7 @@ ontohgis:settlement_type_69 rdfs:comment "Brak oficjalnej definicji w \"Ustawie 
                                          "No official definition in the \"Act on official names of localities and physiographic units\"."@en ,
                                          "Są 233 takie obiekty w Polsce, świętokrzyskie, północnym lubelskim, północnym lubuskim, Borach Tucholskich."@pl ,
                                          "There are 233 forest settlements of a village in Poland, mainly in Świętokrzyskie northern part of Lubelskie, northern part of Lubuskie voivodships as well as in \"Bory Tuchulskie\" (Pomorskie voivodship)."@en ;
-                            rdfs:isdefinedbyLiteral "Forest settlement of a village is a forest settlement which is an integral part of  a village."@en ,
+                            rdfs:isDefinedByLiteral "Forest settlement of a village is a forest settlement which is an integral part of  a village."@en ,
                                              "Osada leśna wsi to osada leśna stanowiąca integralną część wsi."@pl ;
                             rdfs:label "forest settlement of a village"@en ,
                                        "osada leśna wsi"@pl ;
@@ -19289,7 +19289,7 @@ ontohgis:settlement_type_69 rdfs:comment "Brak oficjalnej definicji w \"Ustawie 
 
 ontohgis:settlement_type_7 rdfs:comment "Usually, a manor house was located away from the main group of houses in a village, on the outskirts, or in a vicinity. A manor house is recognised in historiography as identical with a manor (folwark, demesne), however a manor house appears in texts on culture, customs, legal issues, whereas a manor (folwark, demesne) usually corresponds with economic matters."@en ,
                                         "Zazwyczaj dwór położony był poza głównym zbudową wsi, na jej obrzeżach lub w nieznacznym oddaleniu. Pojęcie często tożsame w literaturze z folwarkiem. Z czasem dwór pojawia się w kontekście pisania o życiu, kulturze, obyczajowości, a folwark dotyczy kwestii gospodarczych."@pl ;
-                           rdfs:isdefinedbyLiteral "A manor (a notion with a multiple meaning) is a home or a temporary house of a land lord and the managment of different clusters of estates, including a house and a farmstead ( a manor). In High and Late Middle Ages it could be a defensive tower (conical gord or a manor built on a mound) or a castle. Most of these, however, were one-floor homes (i.e. nobleman manor), which later (in 16th-20th century) evolved into palaces."@en ,
+                           rdfs:isDefinedByLiteral "A manor (a notion with a multiple meaning) is a home or a temporary house of a land lord and the managment of different clusters of estates, including a house and a farmstead ( a manor). In High and Late Middle Ages it could be a defensive tower (conical gord or a manor built on a mound) or a castle. Most of these, however, were one-floor homes (i.e. nobleman manor), which later (in 16th-20th century) evolved into palaces."@en ,
                                             "Dwór (pojęcie wieloznaczne) jest to siedziba lub miejsce okresowego pobytu pana gruntowego oraz zarządu poszczególnych kluczy dóbr, składająca się z domu oraz zabudowań gospodarczych ( folwark). W pełnym i późnym średniowieczu mógł przyjmować charakter rezydencjonalno-obronnej wieży (tzw. grodzisko stożkowate, lub dworu na kopcu) ew. zamku. W większości były to jednak jednokondygnacyjne siedziby (tzw. dwór szlachecki) mogące później (XVI-XX w.) przybierać formę pałacową."@pl ;
                            rdfs:label "dwór - obiekt"@pl ,
                                       "manor house"@en ;
@@ -19360,7 +19360,7 @@ ontohgis:settlement_type_7 rdfs:comment "Usually, a manor house was located away
 
 ontohgis:settlement_type_70 rdfs:comment "Jest 17 takich obiektów w Polsce, zachodniopomorskie, północne wielkopolskie."@pl ,
                                          "Therea are 17 such localities in Poland: in Zachodniopomorskie and in the northern part of Wielkopolskie voivodships."@en ;
-                            rdfs:isdefinedbyLiteral "Osada osady jest to osada stanowiąca integralną część innej osady."@pl ,
+                            rdfs:isDefinedByLiteral "Osada osady jest to osada stanowiąca integralną część innej osady."@pl ,
                                              "Settlement of a settlement is a settlement which is an integral part of a settlement."@en ;
                             rdfs:label "osada osady"@pl ,
                                        "settlement of a settlement"@en ;
@@ -19387,7 +19387,7 @@ ontohgis:settlement_type_70 rdfs:comment "Jest 17 takich obiektów w Polsce, zac
 
 ontohgis:settlement_type_71 rdfs:comment "Jest 778 takich obiektów w Polsce, są one równomiernie rozmieszczone w całej Polsce."@pl ,
                                          "There are 778 such localities in Poland and they are evenly spread across Poland."@en ;
-                            rdfs:isdefinedbyLiteral "Osada wsi jest to osada przynależna administracyjnie do wsi."@pl ,
+                            rdfs:isDefinedByLiteral "Osada wsi jest to osada przynależna administracyjnie do wsi."@pl ,
                                              "Settlement of a village is a settlement which is related to a village."@en ;
                             rdfs:label "osada wsi"@pl ,
                                        "settlement of a village"@en ;
@@ -19415,7 +19415,7 @@ ontohgis:settlement_type_72 rdfs:comment "In urban studies, this notion is deriv
                                          "Jest 11 takich obiektów w Polsce, są one rozmieszczone w północno-zachodniej Polsce."@pl ,
                                          "There are 11 housing estates of a village which are located in NW Poland."@en ,
                                          "W urbanistyce (planowaniu przestrzennym) pojęcie osiedla wywodzi się z koncepcji „jednostki sąsiedzkiej”, na którą składa się zespół budynków mieszkalnych wraz z zapleczem obiektów usługowych oraz terenów zielonych."@pl ;
-                            rdfs:isdefinedbyLiteral "Housing estate of a village is a housing estate which is an integral part of a village."@en ,
+                            rdfs:isDefinedByLiteral "Housing estate of a village is a housing estate which is an integral part of a village."@en ,
                                              "Osiedle wsi jest to osiedle stanowiące integralną część wsi."@pl ;
                             rdfs:label "housing estate of a village"@en ,
                                        "osiedle wsi"@pl ;
@@ -19444,7 +19444,7 @@ ontohgis:settlement_type_72 rdfs:comment "In urban studies, this notion is deriv
 
 ontohgis:settlement_type_73 rdfs:comment "Hamlet of a colony is a separate settlement unit, a kind of locality, it always has a particular name. Hamlets of colonies occur most often in Lubelskie voivodship. In total, there are 72 hamlets of colonies in Poland."@en ,
                                          "Przysiółek kolonii jest odrębną jednostką osadniczą, rodzajem miejscowości, zawsze ma swoją nazwę własną. Przysiółki kolonii występują głównie w lubelskim. W sumie są to 72 obiekty."@pl ;
-                            rdfs:isdefinedbyLiteral "Hamlet of a colony is a hamlet, for which a colony is a superior unit."@en ,
+                            rdfs:isDefinedByLiteral "Hamlet of a colony is a hamlet, for which a colony is a superior unit."@en ,
                                              "Przysiółek kolonii jest to przysiółek, dla którego jednostką nadrzędną jest kolonia."@pl ;
                             rdfs:label "hamlet of a colony"@en ,
                                        "przysiółek kolonii"@pl ;
@@ -19458,7 +19458,7 @@ ontohgis:settlement_type_73 rdfs:comment "Hamlet of a colony is a separate settl
 
 ontohgis:settlement_type_74 rdfs:comment "Przysiółek osady jest odrębną jednostką osadniczą, rodzajem miejscowości, zawsze ma swoją nazwę własną. Przysiółki osady występują główniezachodnio-pomorskim, pomorskim, warmińsko-mazurskim. W sumie jest 80 takich obiektów."@pl ,
                                          "The hamlet of a settlement is a separate settlement unit, a kind of locality, always has its particular name. Hamlets of settlements occur mainly in the Zachodniopomorskie, Pomorskie, and Warmińsko-Mazurskie voivodships. In total, there are 80 hamlets of settlements in Poland. "@en ;
-                            rdfs:isdefinedbyLiteral "Hamlet of a settlement is a hamlet, for which a superior unit is a settlement."@en ,
+                            rdfs:isDefinedByLiteral "Hamlet of a settlement is a hamlet, for which a superior unit is a settlement."@en ,
                                              "Przysiółek osady jest to przysiółek, dla którego jednostką nadrzędną jest osada."@pl ;
                             rdfs:label "hamlet of a settlement"@en ,
                                        "przysiółek osady"@pl ;
@@ -19487,7 +19487,7 @@ ontohgis:settlement_type_75 rdfs:comment "Brak oficjalnej definicji w \"Ustawie 
                                          "No official definition in the \"Act on official names of localities and physiographic units\"."@en ,
                                          "Przysiółek wsi jest odrębną jednostką osadniczą, rodzajem miejscowości, zawsze ma swoją nazwę własną. Przysiółki wsi występują głównie w woj. podkarpackim, małopolskim oraz w świętokrzyskim. W sumie jest ich 11580."@pl ,
                                          "The hamlet of a village is a separate settlement unit, a kind of locality, always has its particular name. Hamlets of villages occur mainly in Podkarpackie, Małopolskie, and Świętokrzyskie voivodships. In total, there are 11 580 hamlets of villages in Poland. "@en ;
-                            rdfs:isdefinedbyLiteral "Hamlet of a village is a hamlet, for which a superior unit is a village."@en ,
+                            rdfs:isDefinedByLiteral "Hamlet of a village is a hamlet, for which a superior unit is a village."@en ,
                                              "Przysiółek wsi jest to przysiółek, dla którego jednostką nadrzędną jest wieś."@pl ;
                             rdfs:label "hamlet of a village"@en ,
                                        "przysiółek wsi"@pl ;
@@ -19501,7 +19501,7 @@ ontohgis:settlement_type_75 rdfs:comment "Brak oficjalnej definicji w \"Ustawie 
 
 ontohgis:settlement_type_76 rdfs:comment "In BDTO10k a tourist shelter is distinguished as a [1] building, [2] hotel services' complex, and [3] locality; in PRNG as a \"tourist shelter\". On MGI maps - a shelter [developed or undeveloped were depicted using different symbols] (\"schr.\"), on German maps - Jugenherberge (youth hostel, \"Jg. Hb.\"), Winterhutte (winter shelter, \"Wint. H.\"), Schutzhutte (hostel). Tourist shelters are not included in Bystrzycki's register."@en ,
                                          "W BDOT10k schronisko turystyczne wyróżnione jest jako budynek, kompleks usług hotelarskich oraz miejscowość; w PRNG jako „schronisko turystyczne”.Na mapach WIG – schronisko [zagospodarowane lub niezagospodarowane odmiennym znakiem] („schr.”), niemieckich – Jugenherberge (schronisko młodzieżowe, „Jg. Hb.”), Winterhutte (schron zimowy, „Wint. H.”), Schutzhutte (schronisko). Brak u Bystrzyckiego."@pl ;
-                            rdfs:isdefinedbyLiteral "Schronisko turystyczne (miejscowość) to miejscowość, w której główną rolę pełni schronisko turystyczne (obiekt)."@pl ,
+                            rdfs:isDefinedByLiteral "Schronisko turystyczne (miejscowość) to miejscowość, w której główną rolę pełni schronisko turystyczne (obiekt)."@pl ,
                                              "Tourist shelter (locality) is a settlement where the main role is played by a tourist shelter (object)."@en ;
                             rdfs:label "schronisko turystyczne"@pl ,
                                        "tourist shelter"@en ,
@@ -19607,7 +19607,7 @@ ontohgis:settlement_type_80 rdfs:comment "Characteristic for the Commonwealth of
 
 ontohgis:settlement_type_82 rdfs:comment "Port morski na austriackiej mapie 1:75 000 wyróżniony explicite i opisany krojem pisma takim jak miasta większe niż 100 000 mieszkańców i twierdze.W BDOT10k „port wodny lub przystań” w klasie kompleks komunikacyjny.Jest u Bystrzyckiego (nie w skrótach) – port, miasto portowe."@pl ,
                                          "Sea harbour on the Austrian map 1:75,000 (Spezialkarte...) is explicitly distinguished as a placename using the same annotation style as \"cities larger than 100,000 inhabitants and fortresses\".Sea harbour is included in DBTO10k as \"sea harbour port or marina\" in the communication complex feature class (KUKO).Sea harbour is included in Bystrzycki's register (however, not in abbreviations list) as \"harbour\" (pol \"port\"), \"harbour city\" (pol \"miasto portowe\")."@en ;
-                            rdfs:isdefinedbyLiteral "Port morski (miejscowość) jest to miejscowość w której główną rolę pełni port morski jako obiekt"@pl ,
+                            rdfs:isDefinedByLiteral "Port morski (miejscowość) jest to miejscowość w której główną rolę pełni port morski jako obiekt"@pl ,
                                              "Sea harbour (locality) is a locality where the main role is played by a sea harbour (area)."@en ;
                             rdfs:label "port morski"@pl ,
                                        "sea harbour"@en ;
@@ -19621,7 +19621,7 @@ ontohgis:settlement_type_82 rdfs:comment "Port morski na austriackiej mapie 1:75
                             ontohgis:hasTranslator ontohgis:person_5 .
 
 
-ontohgis:settlement_type_99 rdfs:isdefinedbyLiteral "Inn (locality) is a settlement in which the main role is played by an inn (builing)."@en ,
+ontohgis:settlement_type_99 rdfs:isDefinedByLiteral "Inn (locality) is a settlement in which the main role is played by an inn (builing)."@en ,
                                              "Osada karczemna to osada, w której główną rolę pełni karczma (obiekt)."@pl ;
                             rdfs:label "inn"@en ,
                                        "osada karczemna"@pl ;
