@@ -7051,7 +7051,6 @@ ontohgis:administrative_type_153 rdf:type owl:Class ;
                                             "archidiaconatus"@la ,
                                             "archidiakonat (Kościół katolicki ob. łacińskiego)"@pl ;
                                  rdfs:seeAlso <http://dbpedia.org/page/Archdeacon> ,
-                                              <http://vocab.getty.edu/aat/300387197> ,
                                               <https://www.wikidata.org/wiki/Q16528361> ;
                                  <http://www.w3.org/2004/02/skos/core#altLabel> "archdeaconship"@en ;
                                  <http://www.w3.org/2004/02/skos/core#hiddenLabel> "dziekania"@pl ,
@@ -7059,7 +7058,8 @@ ontohgis:administrative_type_153 rdf:type owl:Class ;
                                                                                    "terytorium"@pl ;
                                  ontohgis:hasExternalIdentifier 153 ;
                                  ontohgis:isDefinedByIRI ontohgis:administrative_system_26 ;
-                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_240 .
+                                 ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_240 ;
+                                 ontohgis:seeAlsoIRI <http://vocab.getty.edu/aat/300387197> .
 
 
 ###  https://onto.kul.pl/ontohgis/administrative_type_154
@@ -19067,7 +19067,6 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
                                          <https://pzgik.geoportal.gov.pl/ontologies/prng/uroczysko> ,
                                          <https://pzgik.geoportal.gov.pl/ontologies/prng/uroczysko-dawnaMiejsc> ,
                                          <https://www.wikidata.org/wiki/Q1434274> ,
-                                         "1. teren trudno dostępny, najczęściej bagnisty, leśny; też: miejsce odludne, 2. część terenu otoczona naturalnymi granicami, wyodrębniona za pomocą nazwy topograficznej, 3. u dawnych Słowian: miejsce w głębi puszczy związane z kultem bóstwa, odbywaniem narad lub uważane za siedzibę złych duchów"@pl ,
                                          "s. 57-80: uroczyska to cała gama pojęć, stale łąki i lokacje straży leśnej, czasem synonimy borów i ostępów, zjawiska terenowe zasadniczo rozległe o wielce zróżniczkowanej, a raczej nieuchwytnej i zatraconej już, treści. Można tylko utrzymywać, że uroczyska to teren eksploatacji par excellence."@pl ,
                                          "t. 15, s. 34: nazwa kopca lub miejsca granicznego nieosiedlonego. Według Chodakowskiego, uroczyska, na Rusi horodyszczami zwane, były to w Słowiańszczyźnie przedchrześcijańskiej place, czyli świątyń posady, do sprawowania uroczystych pogańskich ofiar przeznaczone i nie mające śladu opisania wałami, byleby oddzielna, właściwe imię mająca, przywiązana do nich była jakaś pamiątka."@pl ,
                                          "t. 6, s. 80: uroczysko, uroczyszcze -- (Rs. urocziszcze, = powiat, kraina); kopiec, mieysce graniczne. Tr. Gränzstein, Mohlhausen."@pl ,
@@ -19085,15 +19084,8 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
                                                                             "uroczysko"@pl ;
                             ontohgis:hasExternalIdentifier "54" ;
                             ontohgis:isDefinedByLiteral "Forest distrct is a part of a forest, meadow or swampy area separated by natural borders and an own (proper) name for better organization of social and economic life. Built-up and inhabited forest district used to be a locality."@en ,
-                                                        "Uroczysko to obszar leśny, łąkowy lub bagnisty wyodrębniony naturalnymi granicami oraz nazwą własną w celu lepszej organizacji życia społecznego i gospodarczego. Uroczysko zabudowane i zamieszkane było miejscowością."@pl .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_type_54 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "1. teren trudno dostępny, najczęściej bagnisty, leśny; też: miejsce odludne, 2. część terenu otoczona naturalnymi granicami, wyodrębniona za pomocą nazwy topograficznej, 3. u dawnych Słowian: miejsce w głębi puszczy związane z kultem bóstwa, odbywaniem narad lub uważane za siedzibę złych duchów"@pl ;
-   ontohgis:isDefinedByIRI <http://sjp.pwn.pl/sjp/uroczysko;2533316.html> ,
-                           ontohgis:document_3
- ] .
+                                                        "Uroczysko to obszar leśny, łąkowy lub bagnisty wyodrębniony naturalnymi granicami oraz nazwą własną w celu lepszej organizacji życia społecznego i gospodarczego. Uroczysko zabudowane i zamieszkane było miejscowością."@pl ;
+                            ontohgis:seeAlsoLiteral "1. teren trudno dostępny, najczęściej bagnisty, leśny; też: miejsce odludne, 2. część terenu otoczona naturalnymi granicami, wyodrębniona za pomocą nazwy topograficznej, 3. u dawnych Słowian: miejsce w głębi puszczy związane z kultem bóstwa, odbywaniem narad lub uważane za siedzibę złych duchów"^^rdfs:Literal .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_54 ;
@@ -19136,6 +19128,14 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
    owl:annotatedTarget "u dawnych Słowian: miejsce przed świątynią lub w głębi puszczy, związane z kultem jakiegoś bóstwa, z odbywaniem narad, sądów; ogólnie: miejsce odludne, tajemnicze; pustkowie -- 2. część terenu (zwykle lasu wyodrębniona za pomocą nazwy o charakterze topograficznym."@pl ;
    ontohgis:isDefinedByIRI <http://sjp.pwn.pl/doroszewski/uroczysko;5512266.html> ,
                            ontohgis:document_4
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_54 ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
+   owl:annotatedTarget "1. teren trudno dostępny, najczęściej bagnisty, leśny; też: miejsce odludne, 2. część terenu otoczona naturalnymi granicami, wyodrębniona za pomocą nazwy topograficznej, 3. u dawnych Słowian: miejsce w głębi puszczy związane z kultem bóstwa, odbywaniem narad lub uważane za siedzibę złych duchów"^^rdfs:Literal ;
+   ontohgis:isDefinedByIRI <http://sjp.pwn.pl/sjp/uroczysko;2533316.html> ,
+                           ontohgis:document_3
  ] .
 
 
