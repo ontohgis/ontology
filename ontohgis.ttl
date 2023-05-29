@@ -384,6 +384,15 @@ ontohgis:hasOntologyDevelopmentComment rdf:type owl:AnnotationProperty ;
 ontohgis:hasTranslator rdf:type owl:AnnotationProperty .
 
 
+###  https://onto.kul.pl/ontohgis/isDefinedByEntity
+ontohgis:isDefinedByEntity rdf:type owl:AnnotationProperty ;
+                           rdfs:comment "This property is to be used when the defining resource is defined within this ontology."@en ;
+                           rdfs:label "is defined by entity"@en ,
+                                      "jest zdefiniowany przez obiekt"@pl ;
+                           rdfs:subPropertyOf rdfs:isDefinedBy ;
+                           rdfs:range owl:Thing .
+
+
 ###  https://onto.kul.pl/ontohgis/isDefinedByIRI
 ontohgis:isDefinedByIRI rdf:type owl:AnnotationProperty ;
                         rdfs:label "is defined by IRI"@en ,
@@ -456,6 +465,15 @@ ontohgis:isValidThroughout rdf:type owl:AnnotationProperty ;
                            rdfs:label "is is use throughout"@en ,
                                       "jest w użyciu (na)"@pl ;
                            rdfs:range ontohgis:object_204 .
+
+
+###  https://onto.kul.pl/ontohgis/seeAlsoEntity
+ontohgis:seeAlsoEntity rdf:type owl:AnnotationProperty ;
+                       rdfs:comment "This property is to be used when the referenced resource is defined within this ontology."@en ;
+                       rdfs:label "see also entity"@en ,
+                                  "zobacz też obiekt"@pl ;
+                       rdfs:subPropertyOf rdfs:seeAlso ;
+                       rdfs:range owl:Thing .
 
 
 ###  https://onto.kul.pl/ontohgis/seeAlsoIRI
