@@ -6575,7 +6575,7 @@ Gminy miejskie i gminy wiejskie były jednostkami organizacji samorządowej (kom
                                           "gmina miejska"@pl ,
                                           "town commune"@en ;
                                ontohgis:hasExternalIdentifier 1 ;
-                               ontohgis:isDefinedByIRI ontohgis:administrative_system_4 ;
+                               ontohgis:isDefinedByEntity ontohgis:administrative_system_4 ;
                                ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_10 .
 
 
@@ -12393,11 +12393,11 @@ ontohgis:administrative_system_1 rdf:type owl:NamedIndividual ,
                                  rdfs:seeAlso ontohgis:document_70 ,
                                               ontohgis:document_71 ,
                                               ontohgis:document_72 ,
-                                              ontohgis:document_73 ,
                                               ontohgis:document_74 ,
                                               ontohgis:document_75 ,
                                               ontohgis:document_76 ,
-                                              ontohgis:document_77 .
+                                              ontohgis:document_77 ;
+                                 ontohgis:seeAlsoEntity ontohgis:document_73 .
 
 
 ###  https://onto.kul.pl/ontohgis/administrative_system_10
