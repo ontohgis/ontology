@@ -12922,9 +12922,7 @@ ontohgis:administrative_system_31 rdf:type owl:NamedIndividual ,
                                   ontohgis:startsDominationAt "1560-01-01"^^xsd:date ;
                                   rdfs:label "Calvinist Church in the Polish-Lithuanian Commonwealth"@en ,
                                              "Kościół kalwiński w Rzeczypospolitej Obojga Narodów"@pl ;
-                                  rdfs:seeAlso <http://dbpedia.org/page/Polish_Reformed_Church> ,
-                                               ontohgis:document_108 ,
-                                               ontohgis:document_109 ,
+                                  rdfs:seeAlso ontohgis:document_109 ,
                                                ontohgis:document_120 ,
                                                ontohgis:document_121 ,
                                                ontohgis:document_122 ,
@@ -12934,7 +12932,9 @@ ontohgis:administrative_system_31 rdf:type owl:NamedIndividual ,
                                                ontohgis:document_126 ,
                                                <https://www.wikidata.org/wiki/Q7209974> ;
                                   <http://www.w3.org/2004/02/skos/core#altLabel> "Evangelical Reformed Church in the Polish-Lithuanian Commonwealth"@en ,
-                                                                                 "Kościół ewangelicko-reformowany w Rzeczypospolitej Obojga Narodów"@pl .
+                                                                                 "Kościół ewangelicko-reformowany w Rzeczypospolitej Obojga Narodów"@pl ;
+                                  ontohgis:seeAlsoEntity ontohgis:document_108 ;
+                                  ontohgis:seeAlsoIRI <http://dbpedia.org/page/Polish_Reformed_Church> .
 
 
 ###  https://onto.kul.pl/ontohgis/administrative_system_32
@@ -17015,9 +17015,7 @@ ontohgis:settlement_type_113 rdfs:comment "At least untill the 13th century, a g
                                           "Przynamniej do XIII w. gród stanowił centralną i zwykle jedyną uchwytną źródłowo część miasta, więc dla tego okresu może być z nim utożsamiany; po lokacji stawał się jednym z obiektów w mieście, zwykle peryferyjnym, niejednokrotnie zamienianym w zamek."@pl ;
                              rdfs:label "gord"@en ,
                                         "gród"@pl ;
-                             rdfs:seeAlso <http://dbpedia.org/page/Gord_(archaeology)> ,
-                                          <https://www.wikidata.org/wiki/Q88598> ,
-                                          "t. 2, s. 168 (hasło \"Grodzisko\"): \"Grody to obiekty sztucznie ogrodzone w celach obronnych. Pojęcie to obejmuje wszelkiego rodzaju miejsca obronne, jak wsie, miasta, ośrodki administracyjne, wojskowe i inne schronienia przygotowane do obrony. W średniowieczu grodami nazywano też miasta\"."@pl ,
+                             rdfs:seeAlso <https://www.wikidata.org/wiki/Q88598> ,
                                           "t. 2, s. 637: \"pierwotnie osada obronna, ogrodzona palisadą lub obwałowana\""@pl ,
                                           "t. 6, s. 22: \"miejsce obronne w znaczeniu późniejszym tyle co \"zamek\", \"miasto\"\""@pl ;
                              <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Burg"@de ,
@@ -17032,14 +17030,9 @@ ontohgis:settlement_type_113 rdfs:comment "At least untill the 13th century, a g
                                                                              "gród"@pl ;
                              ontohgis:hasExternalIdentifier "113" ;
                              ontohgis:isDefinedByLiteral "Gord is a medieval or – in eastern territories – early modern settlement with revetments and stockades."@en ,
-                                                         "Średniowieczna lub, na terenach wschodnich, wczesnonowożytna osada z obwarowaniami drewniano-ziemnymi."@pl .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_type_113 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "t. 2, s. 168 (hasło \"Grodzisko\"): \"Grody to obiekty sztucznie ogrodzone w celach obronnych. Pojęcie to obejmuje wszelkiego rodzaju miejsca obronne, jak wsie, miasta, ośrodki administracyjne, wojskowe i inne schronienia przygotowane do obrony. W średniowieczu grodami nazywano też miasta\"."@pl ;
-   ontohgis:isDefinedByIRI ontohgis:document_139
- ] .
+                                                         "Średniowieczna lub, na terenach wschodnich, wczesnonowożytna osada z obwarowaniami drewniano-ziemnymi."@pl ;
+                             ontohgis:seeAlsoIRI <http://dbpedia.org/page/Gord_(archaeology)> ;
+                             ontohgis:seeAlsoLiteral "t. 2, s. 168 (hasło \"Grodzisko\"): \"Grody to obiekty sztucznie ogrodzone w celach obronnych. Pojęcie to obejmuje wszelkiego rodzaju miejsca obronne, jak wsie, miasta, ośrodki administracyjne, wojskowe i inne schronienia przygotowane do obrony. W średniowieczu grodami nazywano też miasta\"."^^rdfs:Literal .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_113 ;
@@ -17053,6 +17046,13 @@ ontohgis:settlement_type_113 rdfs:comment "At least untill the 13th century, a g
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "t. 6, s. 22: \"miejsce obronne w znaczeniu późniejszym tyle co \"zamek\", \"miasto\"\""@pl ;
    ontohgis:isDefinedByIRI ontohgis:document_140
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_113 ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
+   owl:annotatedTarget "t. 2, s. 168 (hasło \"Grodzisko\"): \"Grody to obiekty sztucznie ogrodzone w celach obronnych. Pojęcie to obejmuje wszelkiego rodzaju miejsca obronne, jak wsie, miasta, ośrodki administracyjne, wojskowe i inne schronienia przygotowane do obrony. W średniowieczu grodami nazywano też miasta\"."^^rdfs:Literal ;
+   ontohgis:isDefinedByIRI ontohgis:document_139
  ] .
 
 
