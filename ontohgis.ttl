@@ -12416,8 +12416,8 @@ ontohgis:administrative_system_10 rdf:type owl:NamedIndividual ,
                                   ontohgis:seeAlsoEntity ontohgis:document_34 ,
                                                ontohgis:document_37 ,
                                                ontohgis:document_38 ,
-                                               ontohgis:document_39 ,
-                                               "https://www.wikidata.org/wiki/Q2396442" .
+                                               ontohgis:document_39 ;
+                                  ontohgis:seeAlsoIRI            "https://www.wikidata.org/wiki/Q2396442" .
 
 
 ###  https://onto.kul.pl/ontohgis/administrative_system_11
@@ -12436,8 +12436,8 @@ Ukaz carski z 11.10.1842 (Dziennik Praw Królestwa Polskiego, nr 97, t. 30, Wars
                                              "Królestwo Polskie (1837-1866)"@pl ;
                                   ontohgis:seeAlsoEntity ontohgis:document_164 ,
                                                ontohgis:document_44 ,
-                                               ontohgis:document_90 ,
-                                               "https://www.wikidata.org/wiki/Q221457" .
+                                               ontohgis:document_90 ;
+                                   ontohgis:seeAlsoIRI            "https://www.wikidata.org/wiki/Q221457" .
 
 
 ###  https://onto.kul.pl/ontohgis/administrative_system_12
@@ -12474,8 +12474,8 @@ ontohgis:administrative_system_13 rdf:type owl:NamedIndividual ,
                                   ontohgis:seeAlsoEntity ontohgis:document_47 ,
                                                ontohgis:document_48 ,
                                                ontohgis:document_49 ,
-                                               ontohgis:document_50 ,
-                                               "https://www.wikidata.org/wiki/Q27306" .
+                                               ontohgis:document_50 ;
+                                  ontohgis:seeAlsoIRI             "https://www.wikidata.org/wiki/Q27306" .
 
 
 ###  https://onto.kul.pl/ontohgis/administrative_system_14
@@ -12495,8 +12495,8 @@ ontohgis:administrative_system_14 rdf:type owl:NamedIndividual ,
                                                ontohgis:document_66 ,
                                                ontohgis:document_67 ,
                                                ontohgis:document_68 ,
-                                               ontohgis:document_69 ,
-                                               "https://www.wikidata.org/wiki/Q172107" ;
+                                               ontohgis:document_69 ;
+                                  ontohgis:seeAlsoIRI             "https://www.wikidata.org/wiki/Q172107" ;
                                   <http://www.w3.org/2004/02/skos/core#altLabel> "Commonwealth of Both Nations (1569-1795)"@en ,
                                                                                  "Polish-Lithuanian Republic (1569-1795)"@en ,
                                                                                  "The Republic of the Two Nations (1569-1795)"@en .
@@ -12531,8 +12531,8 @@ ontohgis:administrative_system_16 rdf:type owl:NamedIndividual ,
                                              "Provincial government of Moravian-Silesian Region (1783-1848)"@en ;
                                   ontohgis:seeAlsoEntity ontohgis:document_29 ,
                                                ontohgis:document_30 ,
-                                               ontohgis:document_35 ,
-                                               "https://www.wikidata.org/wiki/Q12038643" .
+                                               ontohgis:document_35 ;
+                                  ontohgis:seeAlsoIRI             "https://www.wikidata.org/wiki/Q12038643" .
 
 
 ###  https://onto.kul.pl/ontohgis/administrative_system_17
@@ -12556,8 +12556,8 @@ ontohgis:administrative_system_17 rdf:type owl:NamedIndividual ,
                                                ontohgis:document_34 ,
                                                ontohgis:document_35 ,
                                                ontohgis:document_36 ,
-                                               ontohgis:document_37 ,
-                                               "https://www.wikidata.org/wiki/Q2396442" .
+                                               ontohgis:document_37 ;
+                                  ontohgis:seeAlsoIRI             "https://www.wikidata.org/wiki/Q2396442" .
 
 
 ###  https://onto.kul.pl/ontohgis/administrative_system_18
@@ -12578,8 +12578,8 @@ ontohgis:administrative_system_18 rdf:type owl:NamedIndividual ,
                                   ontohgis:seeAlsoEntity ontohgis:document_40 ,
                                                ontohgis:document_41 ,
                                                ontohgis:document_42 ,
-                                               ontohgis:document_43 ,
-                                               "https://www.wikidata.org/wiki/Q171150" .
+                                               ontohgis:document_43 ;
+                                  ontohgis:seeAlsoIRI             "https://www.wikidata.org/wiki/Q171150" .
 
 
 ###  https://onto.kul.pl/ontohgis/administrative_system_19
@@ -12649,8 +12649,8 @@ ontohgis:administrative_system_21 rdf:type owl:NamedIndividual ,
                                   rdfs:label "Marchia Brandenburska (1540-1713)"@pl ,
                                              "The Margraviate of Branderburg (1540-1713)"@en ;
                                   ontohgis:seeAlsoEntity ontohgis:document_47 ,
-                                               ontohgis:document_56 ,
-                                               "https://www.wikidata.org/wiki/Q148499" .
+                                               ontohgis:document_56 ;
+                                  ontohgis:seeAlsoIRI             "https://www.wikidata.org/wiki/Q148499" .
 
 
 ###  https://onto.kul.pl/ontohgis/administrative_system_22
@@ -12685,8 +12685,8 @@ ontohgis:administrative_system_23 rdf:type owl:NamedIndividual ,
                                                "W 1320 r. wygasła dynastia askańczyków. Władzę w Marchii przejmują Wittelsbachowie i Luksemburgowie. Po wygaśnięciu dynastii Askańczyków cesarz Ludwik Wittelsbach nadaje marchię swemu synowi Ludwikowi"@pl ;
                                   rdfs:label "Marchia Brandenburska (1323-1540)"@pl ,
                                              "The Margraviate of Branderburg (1323-1540)"@en ;
-                                  ontohgis:seeAlsoEntity ontohgis:document_47 ,
-                                               "https://www.wikidata.org/wiki/Q148499" ;
+                                  ontohgis:seeAlsoEntity ontohgis:document_47 ;
+                                  ontohgis:seeAlsoIRI             "https://www.wikidata.org/wiki/Q148499" ;
                                   <http://www.w3.org/2004/02/skos/core#altLabel> "Marquisate of Brandenburg"@en .
 
 
