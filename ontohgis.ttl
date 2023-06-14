@@ -17249,8 +17249,8 @@ ontohgis:settlement_type_120 rdfs:comment "A church could be a separate unit (fr
    owl:annotatedSource ontohgis:settlement_type_120 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "2. «budynek, miejsce modlitwy chrześcijan»"@pl ;
-   ontohgis:isDefinedByEntity ontohgis:document_3 ,
-                           <https://sjp.pwn.pl/sjp/kosciol;2474550.html>
+   ontohgis:isDefinedByEntity ontohgis:document_3 ;
+   ontohgis:isDefinedByIRI                        <https://sjp.pwn.pl/sjp/kosciol;2474550.html>
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -17349,8 +17349,8 @@ ontohgis:settlement_type_122 rdfs:comment "Kryterium wyróżniającym kościół
    owl:annotatedSource ontohgis:settlement_type_122 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "1. «niewielka budowla sakralna», 2. «oddzielne pomieszczenie z ołtarzem do odprawiania nabożeństw»"@pl ;
-   ontohgis:isDefinedByEntity ontohgis:document_3 ,
-                           <https://sjp.pwn.pl/szukaj/kaplica.html>
+   ontohgis:isDefinedByEntity ontohgis:document_3 ;
+   ontohgis:isDefinedByIRI                        <https://sjp.pwn.pl/szukaj/kaplica.html>
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -17401,16 +17401,16 @@ ontohgis:settlement_type_123 rdfs:comment "In most analysed cases, if the tar pi
    owl:annotatedSource ontohgis:settlement_type_123 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "prymitywny zakład przemysłowy, gdzie wypraża się z drewna (tzw. karpowin) smołę i otrzymuje terpentynę, spirytus drzewny i inne chemikalia"@pl ;
-   ontohgis:isDefinedByEntity ontohgis:document_4 ,
-                           <https://sjp.pwn.pl/doroszewski/smolarnia;5498496.html>
+   ontohgis:isDefinedByEntity ontohgis:document_4 ;
+   ontohgis:isDefinedByIRI                        <https://sjp.pwn.pl/doroszewski/smolarnia;5498496.html>
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_123 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "«dawny zakład, w którym się wyprażało z drewna smołę»"@pl ;
-   ontohgis:isDefinedByEntity ontohgis:document_3 ,
-                           <https://sjp.pwn.pl/sjp/smolarnia;2522097.html>
+   ontohgis:isDefinedByEntity ontohgis:document_3 ;
+   ontohgis:isDefinedByIRI                        <https://sjp.pwn.pl/sjp/smolarnia;2522097.html>
  ] .
 
 
@@ -17419,8 +17419,8 @@ ontohgis:settlement_type_124 rdfs:comment "Inns (localities) are distinguished o
                              rdfs:label "inn"@en ,
                                         "karczma - obiekt"@pl ;
                              ontohgis:seeAlsoIRI <http://dbpedia.org/page/Inn> ,
-                                          <https://www.wikidata.org/wiki/Q32860419> ,
-                                          "t. 1, s. 296–298: ‘budynek, w którym warzono, sprzedawano, później głównie szynkowano piwo, miód pitny, od XVI w. gorzałkę; niektóre karczmy, zwłaszcza przy ważniejszych drogach i w miastach, dawały posiłki i obrok dla koni oraz zapewniały nocleg podróżnym (zwano je gościńcami); sprzedawano w nich różne wyroby, głównie spożywcze, rzadziej odzieżowe. Dostarczały też karczmy różnego rodzaju rozrywek, często z muzyką, były miejscem tańców i zabaw. Niekiedy w karczmach odbywał sesje sąd (zwłaszcza wiejski), załatwiano tu sprawy urzędowe podczas popasu dostojników czy pobytu miejscowych oficjalistów [...]’."@pl ,
+                                          <https://www.wikidata.org/wiki/Q32860419> ;
+                             ontohgis:seeAlsoLiteral             "t. 1, s. 296–298: ‘budynek, w którym warzono, sprzedawano, później głównie szynkowano piwo, miód pitny, od XVI w. gorzałkę; niektóre karczmy, zwłaszcza przy ważniejszych drogach i w miastach, dawały posiłki i obrok dla koni oraz zapewniały nocleg podróżnym (zwano je gościńcami); sprzedawano w nich różne wyroby, głównie spożywcze, rzadziej odzieżowe. Dostarczały też karczmy różnego rodzaju rozrywek, często z muzyką, były miejscem tańców i zabaw. Niekiedy w karczmach odbywał sesje sąd (zwłaszcza wiejski), załatwiano tu sprawy urzędowe podczas popasu dostojników czy pobytu miejscowych oficjalistów [...]’."@pl ,
                                           "t. 10, s. 136: miejsce wyszynku alkoholu i spotkań okolicznej ludności, przede wszystkim chłopów, także gospoda, dom zajezdny; taberna"@pl ,
                                           "t. 15, s. 403: ‘budynek służący jako dom zajezdny dla podróżnych, a także miejsce wyszynku oraz spotkań i zabaw miejscowej ludności, wznoszony na przedmieściach większych miast, na rynkach miasteczek, przy uczęszczanych traktach, we wsiach w pobliżu kościoła lub dworu’"@de ,
                                           """t. 2, s. 264: 1. dom szynkowy (Star.), szynk, szynkownia, gospoda; do na wsi albo przy drodze dla popasu podróżnych, austerja, oberża, dom zajezdny, zajazd’, 
@@ -17752,8 +17752,8 @@ ontohgis:settlement_type_132 rdfs:comment "In the analysed cases, the monastery 
    owl:annotatedSource ontohgis:settlement_type_132 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "1. budynek lub kompleks budynków stanowiących wspólne miejsce zamieszkiwania zakonnic lub zakonników; 2. wspólnota zakonna o określonej regule"@pl ;
-   ontohgis:isDefinedByEntity ontohgis:document_3 ,
-                           <https://sjp.pwn.pl/slowniki/klasztor.html>
+   ontohgis:isDefinedByEntity ontohgis:document_3 ;
+   ontohgis:isDefinedByIRI                        <https://sjp.pwn.pl/slowniki/klasztor.html>
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -17827,16 +17827,16 @@ ontohgis:settlement_type_133 rdfs:comment "In most analysed cases, if the sawmil
    owl:annotatedSource ontohgis:settlement_type_133 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "zakład przemysłowy zajmujący się przecieraniem drewna na tarcicę"@pl ;
-   ontohgis:isDefinedByEntity ontohgis:document_4 ,
-                           <https://sjp.pwn.pl/doroszewski/tartak;5506829.html>
+   ontohgis:isDefinedByEntity ontohgis:document_4 ;
+   ontohgis:isDefinedByIRI                        <https://sjp.pwn.pl/doroszewski/tartak;5506829.html>
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_133 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "«zakład zajmujący się rozpiłowywaniem kłód na tarcicę oraz przerobem tarcicy na różne elementy»"@pl ;
-   ontohgis:isDefinedByEntity ontohgis:document_3 ,
-                           <https://sjp.pwn.pl/sjp/tartak;2528864.html>
+   ontohgis:isDefinedByEntity ontohgis:document_3 ;
+   ontohgis:isDefinedByIRI                        <https://sjp.pwn.pl/sjp/tartak;2528864.html>
  ] .
 
 
@@ -17857,8 +17857,8 @@ ontohgis:settlement_type_134 rdfs:comment "In all the analysed cases, in Bystrzy
    owl:annotatedSource ontohgis:settlement_type_134 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "kopalnia torfu"@pl ;
-   ontohgis:isDefinedByEntity ontohgis:document_4 ,
-                           <https://sjp.pwn.pl/doroszewski/torfiarnia>
+   ontohgis:isDefinedByEntity ontohgis:document_4 ;
+   ontohgis:isDefinedByIRI                        <https://sjp.pwn.pl/doroszewski/torfiarnia>
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -18017,8 +18017,8 @@ ontohgis:settlement_type_137 rdfs:comment "Mines presented on majority of analys
    owl:annotatedSource ontohgis:settlement_type_137 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "zakład górniczy zajmujący się wydobywaniem z ziemi kopalin"@pl ;
-   ontohgis:isDefinedByEntity ontohgis:document_3 ,
-                           <https://sjp.pwn.pl/sjp/kopalnia;2473819.html>
+   ontohgis:isDefinedByEntity ontohgis:document_3 ;
+   ontohgis:isDefinedByIRI                        <https://sjp.pwn.pl/sjp/kopalnia;2473819.html>
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -18495,8 +18495,8 @@ ontohgis:settlement_type_28 rdfs:comment "Miasteczko z zasady jest odrębną mie
    owl:annotatedSource ontohgis:settlement_type_28 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "małe miasto; pot. mieszkańcy małego miasta"@pl ;
-   ontohgis:isDefinedByEntity ontohgis:document_3 ,
-                           <https://sjp.pwn.pl/sjp/miasteczko;2482785.html>
+   ontohgis:isDefinedByEntity ontohgis:document_3 ;
+   ontohgis:isDefinedByIRI                        <https://sjp.pwn.pl/sjp/miasteczko;2482785.html>
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -18631,8 +18631,8 @@ ontohgis:settlement_type_33 rdfs:comment "A small locality organised in relation
    owl:annotatedSource ontohgis:settlement_type_33 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "osiedle typu wiejskiego pośrednie między wsią a miasteczkiem; kolonia, mieszkańcy tego osiedla"@pl ;
-   ontohgis:isDefinedByEntity ontohgis:document_4 ,
-                           <https://sjp.pwn.pl/doroszewski/osada;5467524.html>
+   ontohgis:isDefinedByEntity ontohgis:document_4 ;
+    ontohgis:isDefinedByIRI                        <https://sjp.pwn.pl/doroszewski/osada;5467524.html>
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -19601,8 +19601,8 @@ ontohgis:settlement_type_8 rdfs:comment "A demesne (manor) may be considered as 
    owl:annotatedSource ontohgis:settlement_type_8 ;
    owl:annotatedProperty rdfs:seeAlso ;
    owl:annotatedTarget "duże gospodarstwo rolne wraz z zabudowaniami."@pl ;
-   ontohgis:isDefinedByEntity ontohgis:document_4 ,
-                           <https://sjp.pwn.pl/doroszewski/folwark;5428273.html>
+   ontohgis:isDefinedByEntity ontohgis:document_4 ;
+    ontohgis:isDefinedByIRI                        <https://sjp.pwn.pl/doroszewski/folwark;5428273.html>
  ] .
 
 [ rdf:type owl:Axiom ;
