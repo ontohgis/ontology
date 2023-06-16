@@ -8088,7 +8088,6 @@ ontohgis:administrative_type_207 rdf:type owl:Class ;
                                  rdfs:label "Superintendentur"@de ,
                                             "superintendecy (Evangelical Augsburg Church in Poland 1849-1939)"@en ,
                                             "superintendentura (Kościół ewangelicko-augsburski w Polsce 1849-1939)"@pl ;
-                                 rdfs:seeAlso "s. 21: Funkcjonowały na poczatku 4 superintendentury, w 1901 r. utworzono piątą"@pl ;
                                  <http://www.w3.org/2004/02/skos/core#altLabel> "Diözese"@de ,
                                                                                 "diecezja"@pl ,
                                                                                 "diocese"@en ,
@@ -8098,11 +8097,12 @@ ontohgis:administrative_type_207 rdf:type owl:Class ;
                                  ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_200 ;
                                  ontohgis:seeAlsoIRI <http://dbpedia.org/page/Diocese> ,
                                                      <http://dbpedia.org/page/Superintendent_(ecclesiastical)> ,
-                                                     "s. 21: Funkcjonowały na poczatku 4 superintendentury, w 1901 r. utworzono piątą"@pl .
+                                                     "s. 21: Funkcjonowały na poczatku 4 superintendentury, w 1901 r. utworzono piątą"@pl ;
+                                 ontohgis:seeAlsoLiteral "s. 21: Funkcjonowały na poczatku 4 superintendentury, w 1901 r. utworzono piątą"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:administrative_type_207 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "s. 21: Funkcjonowały na poczatku 4 superintendentury, w 1901 r. utworzono piątą"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_125
  ] .
@@ -8114,8 +8114,6 @@ ontohgis:administrative_type_208 rdf:type owl:Class ;
                                  rdfs:label "Oberkonsistorium"@de ,
                                             "general consistory (Evangelical Augsburg Church in Poland 1849-1939)"@en ,
                                             "konsystorz generalny (Kościół ewangelicko-augsburski w Polsce 1849-1939)"@pl ;
-                                 rdfs:seeAlso "s. 11: początkowo ewangelicy litewscy z Wilna byli związani z konsystorzem w Królewcu; od 1652 r. sami nazywają się konsystorzem, co oznacza rozluźnienie więzów z Prusami; od 1794 r. podporządkowani Justizkolegium w Petersburgu; w 1832 r. został zlikwidowany konsystorz ewangelicko-augsburski w Wilnie i podporządkowanie Mitawie, a ten nadkonsystorzowi w Petersbugu, w 1922 r. wchłonięty do Konsystorza Warszawskiego."@pl ,
-                                              "s. 15: Warszawski Okręg Konsystorski nie został włączony do konsystorza generalnego w Petersburgu po 1832 roku, nie wykonano też żadnych ruchów w tym kiierunku po 1849 r."@pl ;
                                  <http://www.w3.org/2004/02/skos/core#altLabel> "bishopric"@en ,
                                                                                 "biskupstwo"@pl ,
                                                                                 "generalna superintendentura"@pl ,
@@ -8125,20 +8123,20 @@ ontohgis:administrative_type_208 rdf:type owl:Class ;
                                  ontohgis:isDefinedByEntity ontohgis:administrative_system_36 ;
                                  ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_220 ;
                                  ontohgis:seeAlsoIRI <http://dbpedia.org/page/Consistory_(Protestantism)> ,
-                                                     <https://www.wikidata.org/wiki/Q1381335> ,
-                                                     "s. 11: początkowo ewangelicy litewscy z Wilna byli związani z konsystorzem w Królewcu; od 1652 r. sami nazywają się konsystorzem, co oznacza rozluźnienie więzów z Prusami; od 1794 r. podporządkowani Justizkolegium w Petersburgu; w 1832 r. został zlikwidowany konsystorz ewangelicko-augsburski w Wilnie i podporządkowanie Mitawie, a ten nadkonsystorzowi w Petersbugu, w 1922 r. wchłonięty do Konsystorza Warszawskiego."@pl ,
-                                                     "s. 15: Warszawski Okręg Konsystorski nie został włączony do konsystorza generalnego w Petersburgu po 1832 roku, nie wykonano też żadnych ruchów w tym kiierunku po 1849 r."@pl .
+                                                     <https://www.wikidata.org/wiki/Q1381335> ;
+                                 ontohgis:seeAlsoLiteral "s. 11: początkowo ewangelicy litewscy z Wilna byli związani z konsystorzem w Królewcu; od 1652 r. sami nazywają się konsystorzem, co oznacza rozluźnienie więzów z Prusami; od 1794 r. podporządkowani Justizkolegium w Petersburgu; w 1832 r. został zlikwidowany konsystorz ewangelicko-augsburski w Wilnie i podporządkowanie Mitawie, a ten nadkonsystorzowi w Petersbugu, w 1922 r. wchłonięty do Konsystorza Warszawskiego."@pl ,
+                                                         "s. 15: Warszawski Okręg Konsystorski nie został włączony do konsystorza generalnego w Petersburgu po 1832 roku, nie wykonano też żadnych ruchów w tym kiierunku po 1849 r."@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:administrative_type_208 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "s. 11: początkowo ewangelicy litewscy z Wilna byli związani z konsystorzem w Królewcu; od 1652 r. sami nazywają się konsystorzem, co oznacza rozluźnienie więzów z Prusami; od 1794 r. podporządkowani Justizkolegium w Petersburgu; w 1832 r. został zlikwidowany konsystorz ewangelicko-augsburski w Wilnie i podporządkowanie Mitawie, a ten nadkonsystorzowi w Petersbugu, w 1922 r. wchłonięty do Konsystorza Warszawskiego."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_129
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:administrative_type_208 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "s. 15: Warszawski Okręg Konsystorski nie został włączony do konsystorza generalnego w Petersburgu po 1832 roku, nie wykonano też żadnych ruchów w tym kiierunku po 1849 r."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_129
  ] .
@@ -17018,8 +17016,6 @@ ontohgis:settlement_type_113 rdfs:comment "At least untill the 13th century, a g
                                           "Przynamniej do XIII w. gród stanowił centralną i zwykle jedyną uchwytną źródłowo część miasta, więc dla tego okresu może być z nim utożsamiany; po lokacji stawał się jednym z obiektów w mieście, zwykle peryferyjnym, niejednokrotnie zamienianym w zamek."@pl ;
                              rdfs:label "gord"@en ,
                                         "gród"@pl ;
-                             rdfs:seeAlso "t. 2, s. 637: \"pierwotnie osada obronna, ogrodzona palisadą lub obwałowana\""@pl ,
-                                          "t. 6, s. 22: \"miejsce obronne w znaczeniu późniejszym tyle co \"zamek\", \"miasto\"\""@pl ;
                              <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Burg"@de ,
                                                                                "arx"@la ,
                                                                                "castrum"@la ,
@@ -17037,21 +17033,9 @@ ontohgis:settlement_type_113 rdfs:comment "At least untill the 13th century, a g
                                                  <https://www.wikidata.org/wiki/Q88598> ,
                                                  "t. 2, s. 637: \"pierwotnie osada obronna, ogrodzona palisadą lub obwałowana\""@pl ,
                                                  "t. 6, s. 22: \"miejsce obronne w znaczeniu późniejszym tyle co \"zamek\", \"miasto\"\""@pl ;
-                             ontohgis:seeAlsoLiteral "t. 2, s. 168 (hasło \"Grodzisko\"): \"Grody to obiekty sztucznie ogrodzone w celach obronnych. Pojęcie to obejmuje wszelkiego rodzaju miejsca obronne, jak wsie, miasta, ośrodki administracyjne, wojskowe i inne schronienia przygotowane do obrony. W średniowieczu grodami nazywano też miasta\"."^^rdfs:Literal .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_type_113 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "t. 2, s. 637: \"pierwotnie osada obronna, ogrodzona palisadą lub obwałowana\""@pl ;
-   ontohgis:isDefinedByEntity ontohgis:document_138
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource ontohgis:settlement_type_113 ;
-   owl:annotatedProperty rdfs:seeAlso ;
-   owl:annotatedTarget "t. 6, s. 22: \"miejsce obronne w znaczeniu późniejszym tyle co \"zamek\", \"miasto\"\""@pl ;
-   ontohgis:isDefinedByEntity ontohgis:document_140
- ] .
+                             ontohgis:seeAlsoLiteral "t. 2, s. 168 (hasło \"Grodzisko\"): \"Grody to obiekty sztucznie ogrodzone w celach obronnych. Pojęcie to obejmuje wszelkiego rodzaju miejsca obronne, jak wsie, miasta, ośrodki administracyjne, wojskowe i inne schronienia przygotowane do obrony. W średniowieczu grodami nazywano też miasta\"."^^rdfs:Literal ,
+                                                     "t. 2, s. 637: \"pierwotnie osada obronna, ogrodzona palisadą lub obwałowana\""^^rdfs:Literal ,
+                                                     "t. 6, s. 22: \"miejsce obronne w znaczeniu późniejszym tyle co \"zamek\", \"miasto\"\""^^rdfs:Literal .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_113 ;
@@ -17060,12 +17044,26 @@ ontohgis:settlement_type_113 rdfs:comment "At least untill the 13th century, a g
    ontohgis:isDefinedByEntity ontohgis:document_139
  ] .
 
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_113 ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
+   owl:annotatedTarget "t. 2, s. 637: \"pierwotnie osada obronna, ogrodzona palisadą lub obwałowana\""^^rdfs:Literal ;
+   ontohgis:isDefinedByEntity ontohgis:document_138
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource ontohgis:settlement_type_113 ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
+   owl:annotatedTarget "t. 6, s. 22: \"miejsce obronne w znaczeniu późniejszym tyle co \"zamek\", \"miasto\"\""^^rdfs:Literal ;
+   ontohgis:isDefinedByEntity ontohgis:document_140
+ ] .
+
 
 ontohgis:settlement_type_114 rdfs:comment "Chronologically, a castle with its functions was preceded by a gord (non-brick, without buildings having both defensive and residential functions), while its successor was a palace (with defensive functions reduced), and a fortress (is was not necessarily a densely built-up structure, and there was no buildings with both defensive and residential functions). During the Early Modern era, military functions of castles were diminishing, but they continued to be residences. Newly established ones in their form imitated defensive buildings and due to this feature were called castles."@en ,
                                           "Chronologicznie funkcjonalnym poprzednikiem zamku był gród (niemurowany i bez budynków łączących funkcje obronne i rezydencjonalne), a następcą pałac (bez funkcji obronnych) i twierdza (nie musiała być założeniem zwartym i bez budynków łączących funkcje obronne i rezydencjonalne). W epoce nowożytnej i później zamki w coraz mniejszym stopniu pełniły funkcje militarne, ale zachowywały ciągłość funkcji rezydencjonalnych lub, nowopowstałe, w architekturze naśladowały budowle obronne i z tego względu były nazywane zamkami."@pl ;
                              rdfs:label "castle"@en ,
                                         "zamek - obiekt"@pl ;
-                             rdfs:seeAlso "miejsce obronne, twierdza"@pl ,
+                             ontohgis:seeAlsoLiteral "miejsce obronne, twierdza"@pl ,
                                           "od średniowiecza do w. XVII obronna siedziba pana feudalnego, ośrodek władzy; w XVII w. i później królewska, książęca lub magnacka rezydencja miejska lub pozamiejska"@pl ;
                              <http://www.w3.org/2004/02/skos/core#altLabel> "Burg"@de ,
                                                                             "Schloss"@de ,
@@ -17090,14 +17088,14 @@ ontohgis:settlement_type_114 rdfs:comment "Chronologically, a castle with its fu
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_114 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "miejsce obronne, twierdza"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_114 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "od średniowiecza do w. XVII obronna siedziba pana feudalnego, ośrodek władzy; w XVII w. i później królewska, książęca lub magnacka rezydencja miejska lub pozamiejska"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
@@ -17107,7 +17105,7 @@ ontohgis:settlement_type_115 rdfs:comment "Port morski określa funkcję, jako p
                                           "Sea harbour defines the function of the locality, e.g. Gdynia is a \"harbour city\" (in Bystrzycki's register), but the \"harbour\" (not necessarily at sea) may also be a locality (see: Koeniglicher Hafen near Toruń). Some harbours in Germany contain a \"harbour\" (German \"-hafen\") suffix in their own name (e.g. Osternothafen today: Chorzelin, id :: prng 178058)."@en ;
                              rdfs:label "port morski - obiekt"@pl ,
                                         "sea harbour"@en ;
-                             rdfs:seeAlso "przybrzeżny obszar wodny, odpowiednio pogłębiony, osłonięty przed wiatrem i falą, przeznaczony dla postoju statków, wyposażony w specjalne urządzenia służące do ich załadowywania, wyładowywania, zaopatrzenia i naprawy; miasto  nabrzeżne, w którym jest także miejsce postoju statków."@pl ,
+                             ontohgis:seeAlsoLiteral "przybrzeżny obszar wodny, odpowiednio pogłębiony, osłonięty przed wiatrem i falą, przeznaczony dla postoju statków, wyposażony w specjalne urządzenia służące do ich załadowywania, wyładowywania, zaopatrzenia i naprawy; miasto  nabrzeżne, w którym jest także miejsce postoju statków."@pl ,
                                           "t. 2, cz. 2. s. 929: część można między ziemią zamknięta, do którey okręty wchodzą o od burzy morskiey bezpieczeństwo znayduią"@pl ;
                              <http://www.w3.org/2004/02/skos/core#prefLabel> "port morski"@pl ,
                                                                              "sea harbour"@en ;
@@ -17121,14 +17119,14 @@ ontohgis:settlement_type_115 rdfs:comment "Port morski określa funkcję, jako p
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_115 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "przybrzeżny obszar wodny, odpowiednio pogłębiony, osłonięty przed wiatrem i falą, przeznaczony dla postoju statków, wyposażony w specjalne urządzenia służące do ich załadowywania, wyładowywania, zaopatrzenia i naprawy; miasto  nabrzeżne, w którym jest także miejsce postoju statków."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_115 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 2, cz. 2. s. 929: część można między ziemią zamknięta, do którey okręty wchodzą o od burzy morskiey bezpieczeństwo znayduią"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_1
  ] .
@@ -17138,7 +17136,7 @@ ontohgis:settlement_type_117 rdfs:comment "Although tourist shelter is nowadays 
                                           "Mimo że dziś figuruje jako rodzaj miejscowości (PRNG, BDOT10k), wydaje się, że schronisko turystyczne nie było w interesującym nas okresie uznawane za miejscowość. Świadczy o tym brak wyróżnienia tej kategorii w spisie Bystrzyckiego, jak również sposób prezentacji na mapach: bez nazwy własnej, jedynie sygnatura i skrótem objaśniającym. Pojęciowo kategoria zbliżona do szałasów pasterskich i karczem (patrz przykład)."@pl ;
                              rdfs:label "schronisko turystyczne - obiekt"@pl ,
                                         "tourist shelter"@en ;
-                             rdfs:seeAlso "1] miejsce, gdzie można się schronić, czuć bezpiecznie, schronienie; [2] budynek położony na szlaku turystycznym z dala od osiedli ludzkich, służący jako miejsce odpoczynku i noclegu dla turystów (podróżnych); [3] przytułek, zakład dla bezdomnych, starców"@pl ,
+                             ontohgis:seeAlsoLiteral "1] miejsce, gdzie można się schronić, czuć bezpiecznie, schronienie; [2] budynek położony na szlaku turystycznym z dala od osiedli ludzkich, służący jako miejsce odpoczynku i noclegu dla turystów (podróżnych); [3] przytułek, zakład dla bezdomnych, starców"@pl ,
                                           "budynek na szlaku turystycznym służący jako miejsce odpoczynku i noclegu dla turystów (kategorie: budynki, budowle i urządzenia; kompleksu użytkowania terenu, miejscowości)"@pl ,
                                           "t. 5, s. 201 – mieysce do schronienia"@pl ;
                              <http://www.w3.org/2004/02/skos/core#hiddenLabel> "karczma"@pl ,
@@ -17154,27 +17152,27 @@ ontohgis:settlement_type_117 rdfs:comment "Although tourist shelter is nowadays 
                              ontohgis:seeAlsoIRI <http://dbpedia.org/page/Mountain_hut> ,
                                                  <https://pzgik.geoportal.gov.pl/ontologies/prng/schroniskoTurystyczne> ,
                                                  <https://www.wikidata.org/wiki/Q182676> ;
-                              ontohgis:seeAlsoLiteral                    "1] miejsce, gdzie można się schronić, czuć bezpiecznie, schronienie; [2] budynek położony na szlaku turystycznym z dala od osiedli ludzkich, służący jako miejsce odpoczynku i noclegu dla turystów (podróżnych); [3] przytułek, zakład dla bezdomnych, starców"@pl ,
-                                                 "budynek na szlaku turystycznym służący jako miejsce odpoczynku i noclegu dla turystów (kategorie: budynki, budowle i urządzenia; kompleksu użytkowania terenu, miejscowości)"@pl ,
-                                                 "t. 5, s. 201 – mieysce do schronienia"@pl .
+                             ontohgis:seeAlsoLiteral "1] miejsce, gdzie można się schronić, czuć bezpiecznie, schronienie; [2] budynek położony na szlaku turystycznym z dala od osiedli ludzkich, służący jako miejsce odpoczynku i noclegu dla turystów (podróżnych); [3] przytułek, zakład dla bezdomnych, starców"@pl ,
+                                                     "budynek na szlaku turystycznym służący jako miejsce odpoczynku i noclegu dla turystów (kategorie: budynki, budowle i urządzenia; kompleksu użytkowania terenu, miejscowości)"@pl ,
+                                                     "t. 5, s. 201 – mieysce do schronienia"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_117 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "1] miejsce, gdzie można się schronić, czuć bezpiecznie, schronienie; [2] budynek położony na szlaku turystycznym z dala od osiedli ludzkich, służący jako miejsce odpoczynku i noclegu dla turystów (podróżnych); [3] przytułek, zakład dla bezdomnych, starców"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_117 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "budynek na szlaku turystycznym służący jako miejsce odpoczynku i noclegu dla turystów (kategorie: budynki, budowle i urządzenia; kompleksu użytkowania terenu, miejscowości)"@pl ;
    rdfs:comment ontohgis:document_9
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_117 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 5, s. 201 – mieysce do schronienia"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_1
  ] .
@@ -17184,7 +17182,7 @@ ontohgis:settlement_type_118 rdfs:comment "Functional distinctivness - clearly d
                                           "Odrębność funkcjonalna – jasno określona (obsługa podróżnych).Odrębność morfologiczna – najczęściej na mapach jako znak nieskalowy i podpis objaśniający.Odrębność przestrzenna – w zależności od położenia linii kolejowej względem miejscowości stacje znajdują się albo w oddaleniu (wtedy często mają podaną nazwę, taką jak miejscowość oraz liczbę domów) lub na obszarze miejscowości (bez nazwy; tylko sygnatura i skrót objaśniający).Stacja kolejowa może być częścią miejscowości (Czekanów) albo osobną miejscowością (Chrośnica) wyodrębnioną przestrzennie. Jeżeli stacja leży w oddaleniu od głównej miejscowości (wówczas na mapie WIG ma podaną liczbę domów, a nie tylko skrót objaśniający „st.”). Nazwa stacji nigdy nie jest nazwą własną, a jedynie nazwą głównej miejscowości."@pl ;
                              rdfs:label "railway station"@en ,
                                         "stacja kolejowa - obiekt"@pl ;
-                             rdfs:seeAlso "miejsce, gdzie zatrzymują się pociągi"@pl ;
+                             ontohgis:seeAlsoLiteral "miejsce, gdzie zatrzymują się pociągi"@pl ;
                              <http://www.w3.org/2004/02/skos/core#altLabel> "Haltestation (de)" ;
                              <http://www.w3.org/2004/02/skos/core#hiddenLabel> "przystanek kolejowy (pl), dworzec kolejowy (pl)" ;
                              <http://www.w3.org/2004/02/skos/core#prefLabel> "railway station"@en ,
@@ -17197,7 +17195,7 @@ ontohgis:settlement_type_118 rdfs:comment "Functional distinctivness - clearly d
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_118 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "miejsce, gdzie zatrzymują się pociągi"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
@@ -17207,7 +17205,7 @@ ontohgis:settlement_type_119 rdfs:comment "Functional distinctivness - clearly d
                                           "Odrębność funkcjonalna – jasno określona (obsługa podróżnych).Odrębność morfologiczna – najczęściej na mapach jako znak nieskalowy obszaru przystanku i podpis objaśniający, przeważnie bez nazwy własnej (jedynie skrót).Odrębność przestrzenna – w zależności od położenia linii kolejowej względem miejscowości przystanki znajdują się albo w oddaleniu (wtedy często mają podaną nazwę, taką jak miejscowość) lub na obszarze miejscowości (bez nazwy; tylko sygnatura i skrót objaśniający). Przystanek kolejowy raczej nie powinien być traktowany jako miejscowość, chyba że w wyjątkowych przypadkach, gdy spełnione są wszystkie warunki konstytutywne miejscowości."@pl ;
                              rdfs:label "przystanek kolejowy - obiekt"@pl ,
                                         "train stop"@en ;
-                             rdfs:seeAlso "mała stacja kolejowa przeznaczona tylko dla ruchu pasażerskiego"@pl ;
+                             ontohgis:seeAlsoLiteral "mała stacja kolejowa przeznaczona tylko dla ruchu pasażerskiego"@pl ;
                              <http://www.w3.org/2004/02/skos/core#altLabel> "Haltepunkt (de)" ;
                              <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Stacja kolejowa (pl), dworzec kolejowy (pl)" ;
                              <http://www.w3.org/2004/02/skos/core#prefLabel> "przystanek kolejowy"@pl ,
@@ -17220,7 +17218,7 @@ ontohgis:settlement_type_119 rdfs:comment "Functional distinctivness - clearly d
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_119 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "mała stacja kolejowa przeznaczona tylko dla ruchu pasażerskiego"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
@@ -17244,7 +17242,7 @@ ontohgis:settlement_type_120 rdfs:comment "A church could be a separate unit (fr
                                           "W analizowanych przypadkach kościół mógł stanowić odrębną (od sąsiadujących) nazewniczo i morfologicznie jednostkę osadniczą."@pl ;
                              rdfs:label "church"@en ,
                                         "kościół - obiekt"@pl ;
-                             rdfs:seeAlso "2. «budynek, miejsce modlitwy chrześcijan»"@pl ,
+                             ontohgis:seeAlsoLiteral "2. «budynek, miejsce modlitwy chrześcijan»"@pl ,
                                           "t. 11, s. 57-68: II. Budowla sakralna; 1. Świątynia chrześcijańska, zwłaszcza katolicka; templum--; aedes, fanum--; ecclesia--; aedes sacra--; sacrum--; domus, sedes sacra--; delubrum, dominicum, domus Dei, martyrium, sacrarium ritus Christiani--. 3. Świątynia mahometańska; meczet--. 4. Świątynia pogańska, delubrum--; aedes, oraculum, templum--; templum idolorum--; idolium--; domus--; aedes sacra, fanum, penetralia, sessimonium deorum--. 6. n-loc [nazwa miejsca] : -- »Czerwony Kościoł«"@pl ,
                                           "t. 3, s. 360-362: 1. Świątynia (nie tylko chrześcijańska), dom boży, templum, aedes sacra--. 2. swoista jednostka prawna związana z określonym kościołem (parafia, diecezja itd.), corpus paroeciae vel dioecesis (ad certam quandam ecclesiam pertinens)."@pl ,
                                           "t. 9, kol. 1025: budynek poświęcony (dedykacja lub benedykcja) w obrzędzie liturg. przez biskupa, gdzie wspólnota ochrzczonych (—> Kościół) gromadzi się na słuchanie słowa Bożego, wspólną i prywatną modlitwę oraz celebrację sakramentów, zwł. Eucharystii; miejsce przechowywania Najśw. Sakramentu, a także pochówku(—> krypta, —> konfesja); k. był określany także jako domus ecclesiae, domus orationis, Kyriakon, domus Dei, Dominicum; w kat. obrządkach wsch. nazywany jest —> cerkwią."@pl ;
@@ -17258,14 +17256,14 @@ ontohgis:settlement_type_120 rdfs:comment "A church could be a separate unit (fr
                                                  <http://plwordnet.pwr.wroc.pl/wordnet/3210a0be-28e9-11eb-8b1d-fb60577b06bc> ,
                                                  <https://dbpedia.org/ontology/Church> ,
                                                  <https://www.wikidata.org/wiki/Q16970> ;
-                             ontohgis:seeAlsoLiteral                     "2. «budynek, miejsce modlitwy chrześcijan»"@pl ,
-                                                 "t. 11, s. 57-68: II. Budowla sakralna; 1. Świątynia chrześcijańska, zwłaszcza katolicka; templum--; aedes, fanum--; ecclesia--; aedes sacra--; sacrum--; domus, sedes sacra--; delubrum, dominicum, domus Dei, martyrium, sacrarium ritus Christiani--. 3. Świątynia mahometańska; meczet--. 4. Świątynia pogańska, delubrum--; aedes, oraculum, templum--; templum idolorum--; idolium--; domus--; aedes sacra, fanum, penetralia, sessimonium deorum--. 6. n-loc [nazwa miejsca] : -- »Czerwony Kościoł«"@pl ,
-                                                 "t. 3, s. 360-362: 1. Świątynia (nie tylko chrześcijańska), dom boży, templum, aedes sacra--. 2. swoista jednostka prawna związana z określonym kościołem (parafia, diecezja itd.), corpus paroeciae vel dioecesis (ad certam quandam ecclesiam pertinens)."@pl ,
-                                                 "t. 9, kol. 1025: budynek poświęcony (dedykacja lub benedykcja) w obrzędzie liturg. przez biskupa, gdzie wspólnota ochrzczonych (—> Kościół) gromadzi się na słuchanie słowa Bożego, wspólną i prywatną modlitwę oraz celebrację sakramentów, zwł. Eucharystii; miejsce przechowywania Najśw. Sakramentu, a także pochówku(—> krypta, —> konfesja); k. był określany także jako domus ecclesiae, domus orationis, Kyriakon, domus Dei, Dominicum; w kat. obrządkach wsch. nazywany jest —> cerkwią."@pl .
+                             ontohgis:seeAlsoLiteral "2. «budynek, miejsce modlitwy chrześcijan»"@pl ,
+                                                     "t. 11, s. 57-68: II. Budowla sakralna; 1. Świątynia chrześcijańska, zwłaszcza katolicka; templum--; aedes, fanum--; ecclesia--; aedes sacra--; sacrum--; domus, sedes sacra--; delubrum, dominicum, domus Dei, martyrium, sacrarium ritus Christiani--. 3. Świątynia mahometańska; meczet--. 4. Świątynia pogańska, delubrum--; aedes, oraculum, templum--; templum idolorum--; idolium--; domus--; aedes sacra, fanum, penetralia, sessimonium deorum--. 6. n-loc [nazwa miejsca] : -- »Czerwony Kościoł«"@pl ,
+                                                     "t. 3, s. 360-362: 1. Świątynia (nie tylko chrześcijańska), dom boży, templum, aedes sacra--. 2. swoista jednostka prawna związana z określonym kościołem (parafia, diecezja itd.), corpus paroeciae vel dioecesis (ad certam quandam ecclesiam pertinens)."@pl ,
+                                                     "t. 9, kol. 1025: budynek poświęcony (dedykacja lub benedykcja) w obrzędzie liturg. przez biskupa, gdzie wspólnota ochrzczonych (—> Kościół) gromadzi się na słuchanie słowa Bożego, wspólną i prywatną modlitwę oraz celebrację sakramentów, zwł. Eucharystii; miejsce przechowywania Najśw. Sakramentu, a także pochówku(—> krypta, —> konfesja); k. był określany także jako domus ecclesiae, domus orationis, Kyriakon, domus Dei, Dominicum; w kat. obrządkach wsch. nazywany jest —> cerkwią."@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_120 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "2. «budynek, miejsce modlitwy chrześcijan»"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_3 ;
    ontohgis:isDefinedByIRI <https://sjp.pwn.pl/sjp/kosciol;2474550.html>
@@ -17273,21 +17271,21 @@ ontohgis:settlement_type_120 rdfs:comment "A church could be a separate unit (fr
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_120 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 11, s. 57-68: II. Budowla sakralna; 1. Świątynia chrześcijańska, zwłaszcza katolicka; templum--; aedes, fanum--; ecclesia--; aedes sacra--; sacrum--; domus, sedes sacra--; delubrum, dominicum, domus Dei, martyrium, sacrarium ritus Christiani--. 3. Świątynia mahometańska; meczet--. 4. Świątynia pogańska, delubrum--; aedes, oraculum, templum--; templum idolorum--; idolium--; domus--; aedes sacra, fanum, penetralia, sessimonium deorum--. 6. n-loc [nazwa miejsca] : -- »Czerwony Kościoł«"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_120 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 3, s. 360-362: 1. Świątynia (nie tylko chrześcijańska), dom boży, templum, aedes sacra--. 2. swoista jednostka prawna związana z określonym kościołem (parafia, diecezja itd.), corpus paroeciae vel dioecesis (ad certam quandam ecclesiam pertinens)."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_6
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_120 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 9, kol. 1025: budynek poświęcony (dedykacja lub benedykcja) w obrzędzie liturg. przez biskupa, gdzie wspólnota ochrzczonych (—> Kościół) gromadzi się na słuchanie słowa Bożego, wspólną i prywatną modlitwę oraz celebrację sakramentów, zwł. Eucharystii; miejsce przechowywania Najśw. Sakramentu, a także pochówku(—> krypta, —> konfesja); k. był określany także jako domus ecclesiae, domus orationis, Kyriakon, domus Dei, Dominicum; w kat. obrządkach wsch. nazywany jest —> cerkwią."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_7
  ] .
@@ -17297,7 +17295,7 @@ ontohgis:settlement_type_121 rdfs:comment "In each analysed case, a rectory bein
                                           "We wszystkich analizowanych przypadkach jeżeli plebania jest odrębną miejscowością, to znajduje się w pobliżu wsi, miasta lub osady o tej samej nazwie. W ujęciu kartograficznym wyodrębniona przez nazwę własną, skrót kategorii (np. pleb.) oraz morfologicznie. Plebania różni się nieco od probostwa, gdyż pleban nie jest tożsamy z proboszczem, ale różnicę tę pomijamy."@pl ;
                              rdfs:label "plebania - obiekt"@pl ,
                                         "rectory"@en ;
-                             rdfs:seeAlso "dom należący do parafii, przeznaczony na mieszkanie dla proboszcza"@pl ,
+                             ontohgis:seeAlsoLiteral "dom należący do parafii, przeznaczony na mieszkanie dla proboszcza"@pl ,
                                           "t. 2, cz. 2, s. 732: Pleban -- Plebania, -ii, ż., urząd plebański abo beneficjum --; Dochód plebański, ut dobra --; plebaniia, dom plebański, die Pfarrwohnung, die Pfarre. J ksiądz widzimy, plebaniią rzadki Buduie, że kto inszy weźmie po nim spadki. Pot. Pocz. 475 (Slo. fara; Hg. plebania; Cro. plebania; Vd. faroush; Ross. приходъ (cf. przychód)."@pl ,
                                           "t. 24, s. 326: 1. Domostwo plebana -- ; flaminia -- ; parochia, plebanatus -- ; curionis domus, curionium --; 2. Terytorium będące pod opieką plebana; także urząd i dochody z niego; parochia --; plebanatus --; curionatus, curionium -- ; 2a. Wierni należący do parafii --. Synonimy: probostwo, parafija."@pl ;
                              <http://www.w3.org/2004/02/skos/core#altLabel> "Pfarrwohnung"@de ,
@@ -17327,21 +17325,21 @@ ontohgis:settlement_type_121 rdfs:comment "In each analysed case, a rectory bein
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_121 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "dom należący do parafii, przeznaczony na mieszkanie dla proboszcza"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_3
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_121 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 2, cz. 2, s. 732: Pleban -- Plebania, -ii, ż., urząd plebański abo beneficjum --; Dochód plebański, ut dobra --; plebaniia, dom plebański, die Pfarrwohnung, die Pfarre. J ksiądz widzimy, plebaniią rzadki Buduie, że kto inszy weźmie po nim spadki. Pot. Pocz. 475 (Slo. fara; Hg. plebania; Cro. plebania; Vd. faroush; Ross. приходъ (cf. przychód)."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_121 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 24, s. 326: 1. Domostwo plebana -- ; flaminia -- ; parochia, plebanatus -- ; curionis domus, curionium --; 2. Terytorium będące pod opieką plebana; także urząd i dochody z niego; parochia --; plebanatus --; curionatus, curionium -- ; 2a. Wierni należący do parafii --. Synonimy: probostwo, parafija."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_2
  ] .
@@ -17351,7 +17349,7 @@ ontohgis:settlement_type_122 rdfs:comment "Kryterium wyróżniającym kościół
                                           "The criterion that distinguishes the church from the chapel is its size and institutional significance. The church serves as a main temple for the community, while the chapel's role is rather auxiliary. Small communities could use a chapel, when for various reasons (lack of resources, legal restrictions) they could not build or afford a church."@en ;
                              rdfs:label "chapel"@en ,
                                         "kaplica - obiekt"@pl ;
-                             rdfs:seeAlso "1. «niewielka budowla sakralna», 2. «oddzielne pomieszczenie z ołtarzem do odprawiania nabożeństw»"@pl ,
+                             ontohgis:seeAlsoLiteral "1. «niewielka budowla sakralna», 2. «oddzielne pomieszczenie z ołtarzem do odprawiania nabożeństw»"@pl ,
                                           "t. 1, cz 2, s. 955: miejsce bogu poświęcone, w którym obowiązki kościelne za zezwoleniem zwierzchności odprawować się mogą."@pl ,
                                           "t. 10, s. 81: Mały kościół lub nieduże pomieszczenie z ołtarzem, przeznaczone do uprawiania kultu religijnego; też wydzielona część kościoła (wyraz przeniesiony również na świątynie i pomieszczenia służące innym kultom); sacellum --; aedicula --; sacrarium--; oratorium--; aedes, fanum--; aedis sacrae appendix, augurale, auguratorium, fanulum (s. hanulum), lararium, parvum delubrum"@pl ,
                                           "t. 8, kol. 676: niewielka budowla kultowa (najczęściej z ołtarzem), wolno stojąca lub związana z większym kompleksem archit., także pomieszczenie, czyli oratorium, miejsce modlitwy liturg. i prywatnej, przeznaczone przez ordynariusza do sprawowanie wszystkich lub niektórych funkcji liturg. dla niewielkiej grupy wiernych, do którego za zgodą kompetentnego przełożonego mogą przychodzić także in. wierni."@pl ;
@@ -17365,14 +17363,14 @@ ontohgis:settlement_type_122 rdfs:comment "Kryterium wyróżniającym kościół
                              ontohgis:seeAlsoIRI <http://linkedgeodata.org/ontology/BuildingChapel> ,
                                                  <http://plwordnet.pwr.wroc.pl/wordnet/31c75b34-28e9-11eb-89c7-03aa60bf5f82> ,
                                                  <https://www.wikidata.org/wiki/Q108325> ;
-                              ontohgis:seeAlsoLiteral                    "1. «niewielka budowla sakralna», 2. «oddzielne pomieszczenie z ołtarzem do odprawiania nabożeństw»"@pl ,
-                                                 "t. 1, cz 2, s. 955: miejsce bogu poświęcone, w którym obowiązki kościelne za zezwoleniem zwierzchności odprawować się mogą."@pl ,
-                                                 "t. 10, s. 81: Mały kościół lub nieduże pomieszczenie z ołtarzem, przeznaczone do uprawiania kultu religijnego; też wydzielona część kościoła (wyraz przeniesiony również na świątynie i pomieszczenia służące innym kultom); sacellum --; aedicula --; sacrarium--; oratorium--; aedes, fanum--; aedis sacrae appendix, augurale, auguratorium, fanulum (s. hanulum), lararium, parvum delubrum"@pl ,
-                                                 "t. 8, kol. 676: niewielka budowla kultowa (najczęściej z ołtarzem), wolno stojąca lub związana z większym kompleksem archit., także pomieszczenie, czyli oratorium, miejsce modlitwy liturg. i prywatnej, przeznaczone przez ordynariusza do sprawowanie wszystkich lub niektórych funkcji liturg. dla niewielkiej grupy wiernych, do którego za zgodą kompetentnego przełożonego mogą przychodzić także in. wierni."@pl .
+                             ontohgis:seeAlsoLiteral "1. «niewielka budowla sakralna», 2. «oddzielne pomieszczenie z ołtarzem do odprawiania nabożeństw»"@pl ,
+                                                     "t. 1, cz 2, s. 955: miejsce bogu poświęcone, w którym obowiązki kościelne za zezwoleniem zwierzchności odprawować się mogą."@pl ,
+                                                     "t. 10, s. 81: Mały kościół lub nieduże pomieszczenie z ołtarzem, przeznaczone do uprawiania kultu religijnego; też wydzielona część kościoła (wyraz przeniesiony również na świątynie i pomieszczenia służące innym kultom); sacellum --; aedicula --; sacrarium--; oratorium--; aedes, fanum--; aedis sacrae appendix, augurale, auguratorium, fanulum (s. hanulum), lararium, parvum delubrum"@pl ,
+                                                     "t. 8, kol. 676: niewielka budowla kultowa (najczęściej z ołtarzem), wolno stojąca lub związana z większym kompleksem archit., także pomieszczenie, czyli oratorium, miejsce modlitwy liturg. i prywatnej, przeznaczone przez ordynariusza do sprawowanie wszystkich lub niektórych funkcji liturg. dla niewielkiej grupy wiernych, do którego za zgodą kompetentnego przełożonego mogą przychodzić także in. wierni."@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_122 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "1. «niewielka budowla sakralna», 2. «oddzielne pomieszczenie z ołtarzem do odprawiania nabożeństw»"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_3 ;
    ontohgis:isDefinedByIRI <https://sjp.pwn.pl/szukaj/kaplica.html>
@@ -17380,21 +17378,21 @@ ontohgis:settlement_type_122 rdfs:comment "Kryterium wyróżniającym kościół
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_122 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 1, cz 2, s. 955: miejsce bogu poświęcone, w którym obowiązki kościelne za zezwoleniem zwierzchności odprawować się mogą."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_122 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 10, s. 81: Mały kościół lub nieduże pomieszczenie z ołtarzem, przeznaczone do uprawiania kultu religijnego; też wydzielona część kościoła (wyraz przeniesiony również na świątynie i pomieszczenia służące innym kultom); sacellum --; aedicula --; sacrarium--; oratorium--; aedes, fanum--; aedis sacrae appendix, augurale, auguratorium, fanulum (s. hanulum), lararium, parvum delubrum"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_122 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 8, kol. 676: niewielka budowla kultowa (najczęściej z ołtarzem), wolno stojąca lub związana z większym kompleksem archit., także pomieszczenie, czyli oratorium, miejsce modlitwy liturg. i prywatnej, przeznaczone przez ordynariusza do sprawowanie wszystkich lub niektórych funkcji liturg. dla niewielkiej grupy wiernych, do którego za zgodą kompetentnego przełożonego mogą przychodzić także in. wierni."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_7
  ] .
@@ -17404,7 +17402,7 @@ ontohgis:settlement_type_123 rdfs:comment "In most analysed cases, if the tar pi
                                           "W większości analizowanych przypadków, jeżeli smolarnia była odrębna morfologicznie, to miała tę samą nazwę, co sąsiadująca wieś lub inna miejscowość. Sporadycznie cechowała ją odrębność nazewnicza."@pl ;
                              rdfs:label "smolarnia - obiekt"@pl ,
                                         "tar pitch"@en ;
-                             rdfs:seeAlso "huta smolana, t. 3, s. 519:"@pl ,
+                             ontohgis:seeAlsoLiteral "huta smolana, t. 3, s. 519:"@pl ,
                                           "prymitywny zakład przemysłowy, gdzie wypraża się z drewna (tzw. karpowin) smołę i otrzymuje terpentynę, spirytus drzewny i inne chemikalia"@pl ,
                                           "«dawny zakład, w którym się wyprażało z drewna smołę»"@pl ;
                              <http://www.w3.org/2004/02/skos/core#altLabel> "der Teerofen (de), smolanoi zawod (ru)" ;
@@ -17420,14 +17418,14 @@ ontohgis:settlement_type_123 rdfs:comment "In most analysed cases, if the tar pi
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_123 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "huta smolana, t. 3, s. 519:"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_123 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "prymitywny zakład przemysłowy, gdzie wypraża się z drewna (tzw. karpowin) smołę i otrzymuje terpentynę, spirytus drzewny i inne chemikalia"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4 ;
    ontohgis:isDefinedByIRI <https://sjp.pwn.pl/doroszewski/smolarnia;5498496.html>
@@ -17435,7 +17433,7 @@ ontohgis:settlement_type_123 rdfs:comment "In most analysed cases, if the tar pi
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_123 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "«dawny zakład, w którym się wyprażało z drewna smołę»"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_3 ;
    ontohgis:isDefinedByIRI <https://sjp.pwn.pl/sjp/smolarnia;2522097.html>
@@ -17446,7 +17444,7 @@ ontohgis:settlement_type_124 rdfs:comment "Inns (localities) are distinguished o
                                           "Karczmy wyróżniane są na dawnej kartografii, co wynika głównie z pełnionej przez nie funkcji. Warto jednak pamiętać o tym, że w historiografii rozróżnia się pojęcie karczmy oraz zajazdu lub gościńca. Pierwszy obiekt zazwyczaj miał na celu obsługę lokalnych klientów – mieszkańców wsi lub miasta, drugi zaś miał obsługiwać ruch ponadregionalny. Na mapach karczmy wyróżniają także specyficzne nazwy – np. Wygoda lub Ostatni Grosz."@pl ;
                              rdfs:label "inn"@en ,
                                         "karczma - obiekt"@pl ;
-                             rdfs:seeAlso "t. 1, s. 296–298: ‘budynek, w którym warzono, sprzedawano, później głównie szynkowano piwo, miód pitny, od XVI w. gorzałkę; niektóre karczmy, zwłaszcza przy ważniejszych drogach i w miastach, dawały posiłki i obrok dla koni oraz zapewniały nocleg podróżnym (zwano je gościńcami); sprzedawano w nich różne wyroby, głównie spożywcze, rzadziej odzieżowe. Dostarczały też karczmy różnego rodzaju rozrywek, często z muzyką, były miejscem tańców i zabaw. Niekiedy w karczmach odbywał sesje sąd (zwłaszcza wiejski), załatwiano tu sprawy urzędowe podczas popasu dostojników czy pobytu miejscowych oficjalistów [...]’."@pl ,
+                             ontohgis:seeAlsoLiteral "t. 1, s. 296–298: ‘budynek, w którym warzono, sprzedawano, później głównie szynkowano piwo, miód pitny, od XVI w. gorzałkę; niektóre karczmy, zwłaszcza przy ważniejszych drogach i w miastach, dawały posiłki i obrok dla koni oraz zapewniały nocleg podróżnym (zwano je gościńcami); sprzedawano w nich różne wyroby, głównie spożywcze, rzadziej odzieżowe. Dostarczały też karczmy różnego rodzaju rozrywek, często z muzyką, były miejscem tańców i zabaw. Niekiedy w karczmach odbywał sesje sąd (zwłaszcza wiejski), załatwiano tu sprawy urzędowe podczas popasu dostojników czy pobytu miejscowych oficjalistów [...]’."@pl ,
                                           "t. 10, s. 136: miejsce wyszynku alkoholu i spotkań okolicznej ludności, przede wszystkim chłopów, także gospoda, dom zajezdny; taberna"@pl ,
                                           "t. 15, s. 403: ‘budynek służący jako dom zajezdny dla podróżnych, a także miejsce wyszynku oraz spotkań i zabaw miejscowej ludności, wznoszony na przedmieściach większych miast, na rynkach miasteczek, przy uczęszczanych traktach, we wsiach w pobliżu kościoła lub dworu’"@de ,
                                           """t. 2, s. 264: 1. dom szynkowy (Star.), szynk, szynkownia, gospoda; do na wsi albo przy drodze dla popasu podróżnych, austerja, oberża, dom zajezdny, zajazd’, 
@@ -17484,28 +17482,28 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_124 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 1, s. 296–298: ‘budynek, w którym warzono, sprzedawano, później głównie szynkowano piwo, miód pitny, od XVI w. gorzałkę; niektóre karczmy, zwłaszcza przy ważniejszych drogach i w miastach, dawały posiłki i obrok dla koni oraz zapewniały nocleg podróżnym (zwano je gościńcami); sprzedawano w nich różne wyroby, głównie spożywcze, rzadziej odzieżowe. Dostarczały też karczmy różnego rodzaju rozrywek, często z muzyką, były miejscem tańców i zabaw. Niekiedy w karczmach odbywał sesje sąd (zwłaszcza wiejski), załatwiano tu sprawy urzędowe podczas popasu dostojników czy pobytu miejscowych oficjalistów [...]’."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_17
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_124 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 10, s. 136: miejsce wyszynku alkoholu i spotkań okolicznej ludności, przede wszystkim chłopów, także gospoda, dom zajezdny; taberna"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_124 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 15, s. 403: ‘budynek służący jako dom zajezdny dla podróżnych, a także miejsce wyszynku oraz spotkań i zabaw miejscowej ludności, wznoszony na przedmieściach większych miast, na rynkach miasteczek, przy uczęszczanych traktach, we wsiach w pobliżu kościoła lub dworu’"@de ;
    ontohgis:isDefinedByEntity ontohgis:document_137
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_124 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget """t. 2, s. 264: 1. dom szynkowy (Star.), szynk, szynkownia, gospoda; do na wsi albo przy drodze dla popasu podróżnych, austerja, oberża, dom zajezdny, zajazd’, 
 [por. t. 3, s. 453 hasło: oberża ‘dom gościnny, gospoda, zajazd, karczma, austerja’ i 
 t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, dom gościnny’]"""@pl ;
@@ -17514,14 +17512,14 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_124 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 2, s. 318: dom szynkowy"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_124 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 3, s. 564: szynk na wsi, gospoda; dawniej również dom zajezdny, austeria, oberża"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
@@ -17541,7 +17539,7 @@ ontohgis:settlement_type_125 rdfs:label "ironworks"@en ,
 
 ontohgis:settlement_type_126 rdfs:label "ironworks"@en ,
                                         "kuźnica - obiekt"@pl ;
-                             rdfs:seeAlso "t. 11, s. 598: ‘zakład przetapiający i obrabiający żelazo’, ‘warsztat kowalski; miejsce, gdzie się kuje’"@pl ,
+                             ontohgis:seeAlsoLiteral "t. 11, s. 598: ‘zakład przetapiający i obrabiający żelazo’, ‘warsztat kowalski; miejsce, gdzie się kuje’"@pl ,
                                           "t. 2, s. 561: utożsamia pojęcia kuźnia i kuźnica, podaje też termin bliskoznaczny kowalnia"@pl ,
                                           "t. 2, s. 653: ‘zabudowanie mieszczące w sobie jedno albo kilka ognisk, miechy i młoty poruszane przez wodę, gdzie z surowizny przetopionej i oczyszczonej wykuwa się żelazo gotowe; fabryka topienia żelaza i urabiana go w sztaby"@pl ,
                                           "t. 3, s. 1328: zakład przemysłowy, fabryka wyrobów z żelaza itp. metali; dawniej kuźnia"@pl ,
@@ -17562,35 +17560,35 @@ ontohgis:settlement_type_126 rdfs:label "ironworks"@en ,
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_126 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 11, s. 598: ‘zakład przetapiający i obrabiający żelazo’, ‘warsztat kowalski; miejsce, gdzie się kuje’"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_126 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 2, s. 561: utożsamia pojęcia kuźnia i kuźnica, podaje też termin bliskoznaczny kowalnia"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_126 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 2, s. 653: ‘zabudowanie mieszczące w sobie jedno albo kilka ognisk, miechy i młoty poruszane przez wodę, gdzie z surowizny przetopionej i oczyszczonej wykuwa się żelazo gotowe; fabryka topienia żelaza i urabiana go w sztaby"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_5
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_126 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 3, s. 1328: zakład przemysłowy, fabryka wyrobów z żelaza itp. metali; dawniej kuźnia"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_126 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 3, s.473–474: ‘warsztat wytopu i obróbki żelaza’"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_6
  ] .
@@ -17614,7 +17612,7 @@ ontohgis:settlement_type_128 rdfs:comment "Legal status - ownership diveded betw
                                           "Status prawny - własność podzielona między pana gruntowego a dzierżawcę dziedzicznego lub dzierżawcę rocznego."@pl ;
                              rdfs:label "glassworks"@en ,
                                         "huta - obiekt"@pl ;
-                             rdfs:seeAlso "rozróżnia hutę i hutę szkła. Huta – ‘zakład metalurgiczny, w którym wytapia się metale z rud’, zaś Huta szkła – ‘zakład wytapiający szkło i wytwarzający produkty szklane’"@pl ,
+                             ontohgis:seeAlsoLiteral "rozróżnia hutę i hutę szkła. Huta – ‘zakład metalurgiczny, w którym wytapia się metale z rud’, zaś Huta szkła – ‘zakład wytapiający szkło i wytwarzający produkty szklane’"@pl ,
                                           "t. 2, s. 67: ‘zakład, gdzie robią szkło albo topią metale’"@pl ,
                                           "zakład lub zespół zakładów przemysłowych produkujących metale z rud, szkło, siarkę i in.’, huty przerabiają nie tylko rudy na surówkę, lecz także surówkę na stal"@pl ;
                              <http://www.w3.org/2004/02/skos/core#altLabel> "Hütte (de), Ofen (de), Schmelze (de), Hammer (de)" ;
@@ -17631,21 +17629,21 @@ ontohgis:settlement_type_128 rdfs:comment "Legal status - ownership diveded betw
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_128 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "rozróżnia hutę i hutę szkła. Huta – ‘zakład metalurgiczny, w którym wytapia się metale z rud’, zaś Huta szkła – ‘zakład wytapiający szkło i wytwarzający produkty szklane’"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_3
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_128 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 2, s. 67: ‘zakład, gdzie robią szkło albo topią metale’"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_5
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_128 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "zakład lub zespół zakładów przemysłowych produkujących metale z rud, szkło, siarkę i in.’, huty przerabiają nie tylko rudy na surówkę, lecz także surówkę na stal"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
@@ -17655,7 +17653,7 @@ ontohgis:settlement_type_129 rdfs:comment "Morphological distinctiveness - usual
                                           "Odrębność morfologiczna – przeważnie wyraźna (położenie w lesie), ale zdarzają się leśniczówki położone w bezpośrednim sąsiedztwie innych miejscowości. Odrębność nazewnicza – od drugiej połowy XIX wieku (wcześniej bez nazw; później nie zawsze). Odrębność funkcjonalna – leśniczówka pełni rolę związaną z gospodarką i administracją leśną."@pl ;
                              rdfs:label "forester's lodge"@en ,
                                         "leśniczówka - obiekt"@pl ;
-                             rdfs:seeAlso "Dom, zagroda w lesie stanowiąca mieszkanie; mieszkanie leśniczego (zarządca obszaru leśnego stanowiącego leśnictwo) wraz z zabudowaniami gospodarskimi"@pl ,
+                             ontohgis:seeAlsoLiteral "Dom, zagroda w lesie stanowiąca mieszkanie; mieszkanie leśniczego (zarządca obszaru leśnego stanowiącego leśnictwo) wraz z zabudowaniami gospodarskimi"@pl ,
                                           "Pojedyncza zagroda służąca leśniczemu i będąca jednocześnie siedzibą leśnictwa"@pl ,
                                           "t. 2, s. 721: domek w lesie, mieszkanie, zagroda leśniczego a. leśnika"@pl ;
                              <http://www.w3.org/2004/02/skos/core#altLabel> "Jägerhaus"@de ;
@@ -17673,27 +17671,27 @@ ontohgis:settlement_type_129 rdfs:comment "Morphological distinctiveness - usual
                              ontohgis:seeAlsoIRI <http://gov.genealogy.net/types.owl#102> ,
                                                  <http://vocab.getty.edu/aat/300250342> ,
                                                  <https://www.wikidata.org/wiki/Q1425352> ;
-                              ontohgis:seeAlsoLiteral                    "Dom, zagroda w lesie stanowiąca mieszkanie; mieszkanie leśniczego (zarządca obszaru leśnego stanowiącego leśnictwo) wraz z zabudowaniami gospodarskimi"@pl ,
-                                                 "Pojedyncza zagroda służąca leśniczemu i będąca jednocześnie siedzibą leśnictwa"@pl ,
-                                                 "t. 2, s. 721: domek w lesie, mieszkanie, zagroda leśniczego a. leśnika"@pl .
+                             ontohgis:seeAlsoLiteral "Dom, zagroda w lesie stanowiąca mieszkanie; mieszkanie leśniczego (zarządca obszaru leśnego stanowiącego leśnictwo) wraz z zabudowaniami gospodarskimi"@pl ,
+                                                     "Pojedyncza zagroda służąca leśniczemu i będąca jednocześnie siedzibą leśnictwa"@pl ,
+                                                     "t. 2, s. 721: domek w lesie, mieszkanie, zagroda leśniczego a. leśnika"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_129 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "Dom, zagroda w lesie stanowiąca mieszkanie; mieszkanie leśniczego (zarządca obszaru leśnego stanowiącego leśnictwo) wraz z zabudowaniami gospodarskimi"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_129 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "Pojedyncza zagroda służąca leśniczemu i będąca jednocześnie siedzibą leśnictwa"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_9
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_129 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 2, s. 721: domek w lesie, mieszkanie, zagroda leśniczego a. leśnika"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_5
  ] .
@@ -17703,7 +17701,7 @@ ontohgis:settlement_type_130 rdfs:comment "Morphological distinctiveness - usual
                                           "Odrębność morfologiczna – przeważnie wyraźna (położenie w lesie), ale zdarzają się gajówki położone w bezpośrednim sąsiedztwie innych miejscowości.Odrębność nazewnicza – od drugiej połowy XIX wieku (wcześniej bez nazw; później nie zawsze). Odrębność funkcjonalna – gajówka pełni rolę związaną z gospodarką leśną."@pl ;
                              rdfs:label "forest-guard's lodge"@en ,
                                         "gajówka - obiekt"@pl ;
-                             rdfs:seeAlso "Budynek, w którym mieszka gajowy (pracownik nadleśnictwa chroniący przydzieloną mu część lasu przed szkodami)"@pl ,
+                             ontohgis:seeAlsoLiteral "Budynek, w którym mieszka gajowy (pracownik nadleśnictwa chroniący przydzieloną mu część lasu przed szkodami)"@pl ,
                                           "Pojedyncza zagroda, zazwyczaj położona w lesie, pełniąca funkcję mieszkania służbowego dla funkcjonariuszy pomocniczej służy leśnej podleśniczych lub gajowych"@pl ,
                                           "t. 1, s. 793: chatka gajowego"@pl ;
                              <http://www.w3.org/2004/02/skos/core#altLabel> "Hegerhaus"@de ;
@@ -17720,27 +17718,27 @@ ontohgis:settlement_type_130 rdfs:comment "Morphological distinctiveness - usual
                                                          "Gajówka to obszar na którym znajduje się zespół zabudowań obejmujący dom, w którym mieszka gajowy, znajdujący się na terenie leśnym, pełniący oprócz mieszkalnych funkcje związane z gospodarką leśną. Gajówka jest miejscowością o ile posiada nazwę własną i nie znajduje się w bezpośrednim sąsiedztwie innej miejscowości."@pl ;
                              ontohgis:seeAlsoIRI <http://vocab.getty.edu/aat/300250342> ,
                                                  <https://www.wikidata.org/wiki/Q17087359> ;
-                             ontohgis:seeAlsoLiteral                     "Budynek, w którym mieszka gajowy (pracownik nadleśnictwa chroniący przydzieloną mu część lasu przed szkodami)"@pl ,
-                                                 "Pojedyncza zagroda, zazwyczaj położona w lesie, pełniąca funkcję mieszkania służbowego dla funkcjonariuszy pomocniczej służy leśnej podleśniczych lub gajowych"@pl ,
-                                                 "t. 1, s. 793: chatka gajowego"@pl .
+                             ontohgis:seeAlsoLiteral "Budynek, w którym mieszka gajowy (pracownik nadleśnictwa chroniący przydzieloną mu część lasu przed szkodami)"@pl ,
+                                                     "Pojedyncza zagroda, zazwyczaj położona w lesie, pełniąca funkcję mieszkania służbowego dla funkcjonariuszy pomocniczej służy leśnej podleśniczych lub gajowych"@pl ,
+                                                     "t. 1, s. 793: chatka gajowego"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_130 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "Budynek, w którym mieszka gajowy (pracownik nadleśnictwa chroniący przydzieloną mu część lasu przed szkodami)"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_130 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "Pojedyncza zagroda, zazwyczaj położona w lesie, pełniąca funkcję mieszkania służbowego dla funkcjonariuszy pomocniczej służy leśnej podleśniczych lub gajowych"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_9
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_130 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 1, s. 793: chatka gajowego"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_5
  ] .
@@ -17752,7 +17750,7 @@ If it has its a particular (proper) name, it can be treated as a separate locali
                                           "Odrębność funkcjonalna – wyróżniana jako rodzaj miejscowości u Bystrzyckiego, a na mapach topograficznych odrębnym znakiem, niekiedy z nazwą własną. Odrębność morfologiczna/przestrzenna – przeważnie jest obiektem na obszarze miejscowości lub w niewielkim od niej oddaleniu. Jeżeli posiada nazwę własną może być traktowana jako osobna miejscowość (konieczna interpretacja map; patrz: Rozewie). W przeciwnym razie jest albo częścią innej, większej miejscowości lub obiektem terenowym (budowlą) w niej (patrz: Hel, Jastarnia)."@pl ;
                              rdfs:label "latarnia morska - obiekt"@pl ,
                                         "lighthouse"@en ;
-                             rdfs:seeAlso "wysoka, widoczna z morza wieża, służąca jako punkt orientacyjny dla statków"@pl ;
+                             ontohgis:seeAlsoLiteral "wysoka, widoczna z morza wieża, służąca jako punkt orientacyjny dla statków"@pl ;
                              <http://www.w3.org/2004/02/skos/core#altLabel> "Leuchtturm"@de ;
                              <http://www.w3.org/2004/02/skos/core#prefLabel> "latarnia morska"@pl ,
                                                                              "lighthouse"@en ;
@@ -17767,7 +17765,7 @@ If it has its a particular (proper) name, it can be treated as a separate locali
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_131 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "wysoka, widoczna z morza wieża, służąca jako punkt orientacyjny dla statków"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
@@ -17777,7 +17775,7 @@ ontohgis:settlement_type_132 rdfs:comment "In the analysed cases, the monastery 
                                           "W analizowanych przypadkach klasztor mógł stanowić całkowicie odrębną (od sąsiadujących) nazewniczo i morfologicznie miejscowość. Klasztor mógł stanowić zalążek większej miejscowości, która rozwinęła się wokół niego i przekształciła się w osadę klasztorną, wieś, miasto etc."@pl ;
                              rdfs:label "klasztor - obiekt"@pl ,
                                         "monastery"@en ;
-                             rdfs:seeAlso "1. budynek lub kompleks budynków stanowiących wspólne miejsce zamieszkiwania zakonnic lub zakonników; 2. wspólnota zakonna o określonej regule"@pl ,
+                             ontohgis:seeAlsoLiteral "1. budynek lub kompleks budynków stanowiących wspólne miejsce zamieszkiwania zakonnic lub zakonników; 2. wspólnota zakonna o określonej regule"@pl ,
                                           "1. zgromadzenie zakonne; zakon--; 2. budynek lub kompleks budynków zamieszkiwanych przez zakonników (zakonnice) danej reguły"@pl ,
                                           "t. 1, cz. 2, s. 1010: pomieszkanie zakonnicze"@pl ,
                                           "t. 10, s. 337: 1. Odosobnione i wyodrębnione spośród innych osiedli ludzkich miejsce zamieszkania zakonników i zakonnic (pojmowane jako budynek lub jego mieszkańcy); odosobnienie; tryb życia klasztornego; w wypadku niektórych zakonów także: szkoła, kolegium; coenobium, monasterium."@pl ,
@@ -17798,16 +17796,16 @@ ontohgis:settlement_type_132 rdfs:comment "In the analysed cases, the monastery 
                                                  <http://gov.genealogy.net/types.owl#30> ,
                                                  <http://vocab.getty.edu/aat/300000641> ,
                                                  <https://www.wikidata.org/wiki/Q44613> ;
-                            ontohgis:seeAlsoLiteral                     "1. budynek lub kompleks budynków stanowiących wspólne miejsce zamieszkiwania zakonnic lub zakonników; 2. wspólnota zakonna o określonej regule"@pl ,
-                                                 "1. zgromadzenie zakonne; zakon--; 2. budynek lub kompleks budynków zamieszkiwanych przez zakonników (zakonnice) danej reguły"@pl ,
-                                                 "t. 1, cz. 2, s. 1010: pomieszkanie zakonnicze"@pl ,
-                                                 "t. 10, s. 337: 1. Odosobnione i wyodrębnione spośród innych osiedli ludzkich miejsce zamieszkania zakonników i zakonnic (pojmowane jako budynek lub jego mieszkańcy); odosobnienie; tryb życia klasztornego; w wypadku niektórych zakonów także: szkoła, kolegium; coenobium, monasterium."@pl ,
-                                                 "t. 3, s. 282: zabudowanie dla zgromadzenia zakonnego zwykle połączone z kościołem, coenobium, religiosorum domus."@pl ,
-                                                 "t. 9, kol. 66-76: zespół budynków lub pomieszczeń mieszkalnych i gospodarczych o różnej strukturze, przeznaczonych do prowadzenia życia pustelniczego (zob. ławra) lub wspólnotowego życia ascetycznego (zob. asceza), występujący w religiach pozachrześcijańskich i chrześcijaństwie. -- Czasem rozbudowane założenia klasztorne tworzyły wręcz miasto, a nawet państwo mnichów (civitas monachorum)"@pl .
+                             ontohgis:seeAlsoLiteral "1. budynek lub kompleks budynków stanowiących wspólne miejsce zamieszkiwania zakonnic lub zakonników; 2. wspólnota zakonna o określonej regule"@pl ,
+                                                     "1. zgromadzenie zakonne; zakon--; 2. budynek lub kompleks budynków zamieszkiwanych przez zakonników (zakonnice) danej reguły"@pl ,
+                                                     "t. 1, cz. 2, s. 1010: pomieszkanie zakonnicze"@pl ,
+                                                     "t. 10, s. 337: 1. Odosobnione i wyodrębnione spośród innych osiedli ludzkich miejsce zamieszkania zakonników i zakonnic (pojmowane jako budynek lub jego mieszkańcy); odosobnienie; tryb życia klasztornego; w wypadku niektórych zakonów także: szkoła, kolegium; coenobium, monasterium."@pl ,
+                                                     "t. 3, s. 282: zabudowanie dla zgromadzenia zakonnego zwykle połączone z kościołem, coenobium, religiosorum domus."@pl ,
+                                                     "t. 9, kol. 66-76: zespół budynków lub pomieszczeń mieszkalnych i gospodarczych o różnej strukturze, przeznaczonych do prowadzenia życia pustelniczego (zob. ławra) lub wspólnotowego życia ascetycznego (zob. asceza), występujący w religiach pozachrześcijańskich i chrześcijaństwie. -- Czasem rozbudowane założenia klasztorne tworzyły wręcz miasto, a nawet państwo mnichów (civitas monachorum)"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_132 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "1. budynek lub kompleks budynków stanowiących wspólne miejsce zamieszkiwania zakonnic lub zakonników; 2. wspólnota zakonna o określonej regule"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_3 ;
    ontohgis:isDefinedByIRI <https://sjp.pwn.pl/slowniki/klasztor.html>
@@ -17815,35 +17813,35 @@ ontohgis:settlement_type_132 rdfs:comment "In the analysed cases, the monastery 
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_132 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "1. zgromadzenie zakonne; zakon--; 2. budynek lub kompleks budynków zamieszkiwanych przez zakonników (zakonnice) danej reguły"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_132 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 1, cz. 2, s. 1010: pomieszkanie zakonnicze"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_132 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 10, s. 337: 1. Odosobnione i wyodrębnione spośród innych osiedli ludzkich miejsce zamieszkania zakonników i zakonnic (pojmowane jako budynek lub jego mieszkańcy); odosobnienie; tryb życia klasztornego; w wypadku niektórych zakonów także: szkoła, kolegium; coenobium, monasterium."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_132 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 3, s. 282: zabudowanie dla zgromadzenia zakonnego zwykle połączone z kościołem, coenobium, religiosorum domus."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_6
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_132 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 9, kol. 66-76: zespół budynków lub pomieszczeń mieszkalnych i gospodarczych o różnej strukturze, przeznaczonych do prowadzenia życia pustelniczego (zob. ławra) lub wspólnotowego życia ascetycznego (zob. asceza), występujący w religiach pozachrześcijańskich i chrześcijaństwie. -- Czasem rozbudowane założenia klasztorne tworzyły wręcz miasto, a nawet państwo mnichów (civitas monachorum)"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_7
  ] .
@@ -17853,7 +17851,7 @@ ontohgis:settlement_type_133 rdfs:comment "In most analysed cases, if the sawmil
                                           "W większości analizowanych przypadków, jeżeli tartak był odrębny morfologicznie, to miał tę samą nazwę, co sąsiadująca wieś lub inna miejscowość, np. leśniczówka. Sporadycznie cechowała go odrębność nazewnicza."@pl ;
                              rdfs:label "sawmill"@en ,
                                         "tartak - obiekt"@pl ;
-                             rdfs:seeAlso "t. 3, s. 607: młyn do tarcia drzew na tarcice, dyle"@pl ,
+                             ontohgis:seeAlsoLiteral "t. 3, s. 607: młyn do tarcia drzew na tarcice, dyle"@pl ,
                                           "t. 7, s. 29: Pilarnia, młyn do tarcia drzewa na tarcice, dyle: Tartak wodny, parowy"@pl ,
                                           "zakład przemysłowy zajmujący się przecieraniem drewna na tarcicę"@pl ,
                                           "«zakład zajmujący się rozpiłowywaniem kłód na tarcicę oraz przerobem tarcicy na różne elementy»"@pl ;
@@ -17872,21 +17870,21 @@ ontohgis:settlement_type_133 rdfs:comment "In most analysed cases, if the sawmil
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_133 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 3, s. 607: młyn do tarcia drzew na tarcice, dyle"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_133 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 7, s. 29: Pilarnia, młyn do tarcia drzewa na tarcice, dyle: Tartak wodny, parowy"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_5
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_133 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "zakład przemysłowy zajmujący się przecieraniem drewna na tarcicę"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4 ;
    ontohgis:isDefinedByIRI <https://sjp.pwn.pl/doroszewski/tartak;5506829.html>
@@ -17894,7 +17892,7 @@ ontohgis:settlement_type_133 rdfs:comment "In most analysed cases, if the sawmil
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_133 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "«zakład zajmujący się rozpiłowywaniem kłód na tarcicę oraz przerobem tarcicy na różne elementy»"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_3 ;
    ontohgis:isDefinedByIRI <https://sjp.pwn.pl/sjp/tartak;2528864.html>
@@ -17905,7 +17903,7 @@ ontohgis:settlement_type_134 rdfs:comment "In all the analysed cases, in Bystrzy
                                           "We wszystkich analizowanych przypadkach z tzw. skorowidza Bystrzyckiego z 1931 r. torfiarnie posiadały takie same nazwy jak osada lub osady leżąca obok niej (wieś i torfiarnia, folwark i torfiarnia)."@pl ;
                              rdfs:label "peat mine"@en ,
                                         "torfiarnia - obiekt"@pl ;
-                             rdfs:seeAlso "kopalnia torfu"@pl ,
+                             ontohgis:seeAlsoLiteral "kopalnia torfu"@pl ,
                                           "t. 7, s. 85: kopalnia torfu, torfowisko eksploatowane"@pl ;
                              <http://www.w3.org/2004/02/skos/core#hiddenLabel> "torfowisko (pl)" ;
                              <http://www.w3.org/2004/02/skos/core#prefLabel> "peat mine"@en ,
@@ -17918,7 +17916,7 @@ ontohgis:settlement_type_134 rdfs:comment "In all the analysed cases, in Bystrzy
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_134 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "kopalnia torfu"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4 ;
    ontohgis:isDefinedByIRI <https://sjp.pwn.pl/doroszewski/torfiarnia>
@@ -17926,7 +17924,7 @@ ontohgis:settlement_type_134 rdfs:comment "In all the analysed cases, in Bystrzy
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_134 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 7, s. 85: kopalnia torfu, torfowisko eksploatowane"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_5
  ] .
@@ -17936,7 +17934,7 @@ ontohgis:settlement_type_135 rdfs:comment "At the very beginning, breweries had 
                                           "Browary początkowo mieściły się wyłącznie w obrębie większych jednostek osadniczych i nie miały własnej nazwy, ew. nazwę wywiedzioną od nazwiska właściciela, często zmienianą. Z czasem browary zaczęły mieć własne nazwy, często w postaci znaków handlowych, jednakże dość szybko zaczął się proces łączenia się browarów pod wspólną nazwą. Źródłowo zdarza się brak rozróżnienia gorzelni i browaru."@pl ;
                              rdfs:label "brewery"@en ,
                                         "browar - obiekt"@pl ;
-                             rdfs:seeAlso "t. 1, cz.12, s. 272: Browar, budynek, gdzie się piwo warzy, piwowarnia, mielcuch"@pl ,
+                             ontohgis:seeAlsoLiteral "t. 1, cz.12, s. 272: Browar, budynek, gdzie się piwo warzy, piwowarnia, mielcuch"@pl ,
                                           "t. 2, s. 455-456: budynek, w którym się warzy piwo, piwowarnia"@pl ,
                                           "zakład produkujący piwo"@pl ,
                                           "zakład przemysłowy, w którym wyrabia się piwo; wytwórnia piwa"@pl ;
@@ -17963,21 +17961,21 @@ ontohgis:settlement_type_135 rdfs:comment "At the very beginning, breweries had 
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_135 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 1, cz.12, s. 272: Browar, budynek, gdzie się piwo warzy, piwowarnia, mielcuch"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_135 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 2, s. 455-456: budynek, w którym się warzy piwo, piwowarnia"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_135 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "zakład produkujący piwo"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_3 ;
    ontohgis:isDefinedByIRI <http://sjp.pwn.pl/slowniki/browar.html>
@@ -17985,7 +17983,7 @@ ontohgis:settlement_type_135 rdfs:comment "At the very beginning, breweries had 
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_135 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "zakład przemysłowy, w którym wyrabia się piwo; wytwórnia piwa"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
@@ -17995,7 +17993,7 @@ ontohgis:settlement_type_136 rdfs:comment "In each case analysed, a brickyard wi
                                           "We wszystkich analizowanych przypadkach jeżeli cegielnia jest odrębną miejscowością, to znajduje się w pobliżu wsi, miasta lub osady o tej samej nazwie. Jeśli znajduje się w obrębie większej miejscowości to dość długo nie ma nazwy własnej. (Trudności w eksporcie towaru poza miejsce wyrobu.)"@pl ;
                              rdfs:label "brickyard"@en ,
                                         "cegielnia - obiekt"@pl ;
-                             rdfs:seeAlso "t. 1, cz. 1, s. 221: Cegielnia, Cegielnica, budynek z piecem od palenia cegieł, die Ziegelscheune, der Ziegelofen"@pl ,
+                             ontohgis:seeAlsoLiteral "t. 1, cz. 1, s. 221: Cegielnia, Cegielnica, budynek z piecem od palenia cegieł, die Ziegelscheune, der Ziegelofen"@pl ,
                                           "t. 3, s. 142: cegielnia – miejsce wyrobu cegieł"@pl ,
                                           "wytwórnia cegly oraz innych materiałów budowlanych z gliny: dachówek, sączków (drenów), kafli, klinkierów, płytek itp."@pl ,
                                           "wytwórnia cegły oraz innych materiałów budowlanych z gliny"@pl ;
@@ -18017,28 +18015,28 @@ ontohgis:settlement_type_136 rdfs:comment "In each case analysed, a brickyard wi
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_136 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 1, cz. 1, s. 221: Cegielnia, Cegielnica, budynek z piecem od palenia cegieł, die Ziegelscheune, der Ziegelofen"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_136 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 3, s. 142: cegielnia – miejsce wyrobu cegieł"@pl ;
    rdfs:comment ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_136 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "wytwórnia cegly oraz innych materiałów budowlanych z gliny: dachówek, sączków (drenów), kafli, klinkierów, płytek itp."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_136 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "wytwórnia cegły oraz innych materiałów budowlanych z gliny"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_3 ;
    ontohgis:isDefinedByIRI <http://sjp.pwn.pl/sjp/cegielnia.html>
@@ -18049,7 +18047,7 @@ ontohgis:settlement_type_137 rdfs:comment "Mines presented on majority of analys
                                           "Na wszystkich badanych mapach kopalnie miały własny znak umowny."@pl ;
                              rdfs:label "kopalnia - obiekt"@pl ,
                                         "mine"@en ;
-                             rdfs:seeAlso "Teren zakładu górniczego, zajmującego się wydobywaniem z ziemi kopalin użytecznych. Ze względu na sposób wydobycia rozróżnia się kopalnie odkrywkowe (naziemne), głębinowe (podziemne) i otworowe."@pl ,
+                             ontohgis:seeAlsoLiteral "Teren zakładu górniczego, zajmującego się wydobywaniem z ziemi kopalin użytecznych. Ze względu na sposób wydobycia rozróżnia się kopalnie odkrywkowe (naziemne), głębinowe (podziemne) i otworowe."@pl ,
                                           "t. 1, cz. 2, s. 1077: Kopalnia, miejsce gdzie się iakowe rzeczy kopalne z ziemi dobywają"@pl ,
                                           "zakład górniczy zajmujący się wydobywaniem z ziemi kopalin"@pl ,
                                           "zakład górniczy zajmujący się wydobywaniem z ziemi kopalin użytecznych"@pl ;
@@ -18069,28 +18067,28 @@ ontohgis:settlement_type_137 rdfs:comment "Mines presented on majority of analys
                              ontohgis:seeAlsoIRI <http://dbpedia.org/ontology/Mine> ,
                                                  <http://vocab.getty.edu/aat/300000390> ,
                                                  <https://www.wikidata.org/wiki/Q820477> ;
-                             ontohgis:seeAlsoLiteral                     "Teren zakładu górniczego, zajmującego się wydobywaniem z ziemi kopalin użytecznych. Ze względu na sposób wydobycia rozróżnia się kopalnie odkrywkowe (naziemne), głębinowe (podziemne) i otworowe."@pl ,
-                                                 "t. 1, cz. 2, s. 1077: Kopalnia, miejsce gdzie się iakowe rzeczy kopalne z ziemi dobywają"@pl ,
-                                                 "zakład górniczy zajmujący się wydobywaniem z ziemi kopalin"@pl ,
-                                                 "zakład górniczy zajmujący się wydobywaniem z ziemi kopalin użytecznych"@pl .
+                             ontohgis:seeAlsoLiteral "Teren zakładu górniczego, zajmującego się wydobywaniem z ziemi kopalin użytecznych. Ze względu na sposób wydobycia rozróżnia się kopalnie odkrywkowe (naziemne), głębinowe (podziemne) i otworowe."@pl ,
+                                                     "t. 1, cz. 2, s. 1077: Kopalnia, miejsce gdzie się iakowe rzeczy kopalne z ziemi dobywają"@pl ,
+                                                     "zakład górniczy zajmujący się wydobywaniem z ziemi kopalin"@pl ,
+                                                     "zakład górniczy zajmujący się wydobywaniem z ziemi kopalin użytecznych"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_137 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "Teren zakładu górniczego, zajmującego się wydobywaniem z ziemi kopalin użytecznych. Ze względu na sposób wydobycia rozróżnia się kopalnie odkrywkowe (naziemne), głębinowe (podziemne) i otworowe."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_9
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_137 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 1, cz. 2, s. 1077: Kopalnia, miejsce gdzie się iakowe rzeczy kopalne z ziemi dobywają"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_137 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "zakład górniczy zajmujący się wydobywaniem z ziemi kopalin"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_3 ;
    ontohgis:isDefinedByIRI <https://sjp.pwn.pl/sjp/kopalnia;2473819.html>
@@ -18098,7 +18096,7 @@ ontohgis:settlement_type_137 rdfs:comment "Mines presented on majority of analys
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_137 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "zakład górniczy zajmujący się wydobywaniem z ziemi kopalin użytecznych"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
@@ -18108,7 +18106,7 @@ ontohgis:settlement_type_138 rdfs:comment "Cukrownia może mieć własną nazwę
                                           "Sugar factory or refinery may have its own name - usually related to the factory name or a trademark - however it is not nocessary. Very seldom, it has been indicated on maps."@en ;
                              rdfs:label "cukrownia - obiekt"@pl ,
                                         "sugar factory"@en ;
-                             rdfs:seeAlso "fabryka cukru"@pl ,
+                             ontohgis:seeAlsoLiteral "fabryka cukru"@pl ,
                                           "t. 1, cz. 1, s. 327: [Brak hasła „cukrownia”.] Cukrowarz, fabrykant cukru, warzący sok na cukier, derZuckersieder, cf. Cukiernik."@pl ,
                                           "zakład przemysłowy produkujący cukier"@pl ;
                              <http://www.w3.org/2004/02/skos/core#hiddenLabel> "die Zuckerfabrik (de), die Zuckersiederei (de) Сахарный завод (ru)" ;
@@ -18124,21 +18122,21 @@ ontohgis:settlement_type_138 rdfs:comment "Cukrownia może mieć własną nazwę
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_138 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "fabryka cukru"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_138 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 1, cz. 1, s. 327: [Brak hasła „cukrownia”.] Cukrowarz, fabrykant cukru, warzący sok na cukier, derZuckersieder, cf. Cukiernik."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_138 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "zakład przemysłowy produkujący cukier"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_3 ;
    ontohgis:isDefinedByIRI <http://sjp.pwn.pl/sjp/cukrownia.html>
@@ -18149,7 +18147,7 @@ ontohgis:settlement_type_139 rdfs:comment "Distillery may have its own name - us
                                           "Gorzelnie znajdujące się w obrębie miast mogą, ale nie muszą mieć własnej nazwy, zazwyczaj nazwa ta powiązana jest z nazwą firmy, znakiem firmowym. Jeśli jest odrębną miejscowością to może ale nie musi znajdować się w pobliżu wsi, miasta lub osady o tej samej nazwie. Źródłowo zdarza się brak rozróżnienia gorzelni i browaru."@pl ;
                              rdfs:label "distillery"@en ,
                                         "gorzelnia - obiekt"@pl ;
-                             rdfs:seeAlso "t. 1, cz. 2, s. 54: Gorzalnia, gorzelnia, budowanie do palenia gorzałki (pospolicie zowią: browarem, ale borwar na piwo iest.)"@pl ,
+                             ontohgis:seeAlsoLiteral "t. 1, cz. 2, s. 54: Gorzalnia, gorzelnia, budowanie do palenia gorzałki (pospolicie zowią: browarem, ale borwar na piwo iest.)"@pl ,
                                           "zakład przemysłowy produkujący alkohol etylowy"@pl ,
                                           "zakład przemysłowy produkujący spirytus i wódki głównie z kartofli lub zboża"@pl ;
                              <http://www.w3.org/2004/02/skos/core#altLabel> "Brantweinbrennerei"@de ,
@@ -18173,14 +18171,14 @@ ontohgis:settlement_type_139 rdfs:comment "Distillery may have its own name - us
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_139 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 1, cz. 2, s. 54: Gorzalnia, gorzelnia, budowanie do palenia gorzałki (pospolicie zowią: browarem, ale borwar na piwo iest.)"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_139 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "zakład przemysłowy produkujący alkohol etylowy"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_3 ;
    ontohgis:isDefinedByIRI <http://sjp.pwn.pl/slowniki/gorzelnia.html>
@@ -18188,7 +18186,7 @@ ontohgis:settlement_type_139 rdfs:comment "Distillery may have its own name - us
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_139 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "zakład przemysłowy produkujący spirytus i wódki głównie z kartofli lub zboża"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
@@ -18253,7 +18251,7 @@ In German language in the nineteenth century, two terms could coexist - Pfarrdor
 W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy – Pfarrdorf i Kirchdorf.  Pierwszy oznaczał raczej większą wieś z kościołem parafialnym, zaś drugi mniejszą wieś z kościołem pomocniczym. Terminy te nie były jednak ścisłe i używane konsekwentnie, np. na mapie Gilly’ego z lat 1802-1803 występują tylko kategorie: Kirchdorf oraz Dorf ohne Kirche."""@pl ;
                            rdfs:label "village"@en ,
                                       "wieś"@pl ;
-                           rdfs:seeAlso "1. miejscowość zamieszkała przez ludzi, którzy trudnią się pracą na roli, 2. mieszkańcy takiej miejscowości, 3. tereny pozamiejskie, rolnicze, letniskowe, 4. ludzie trudniący się pracą na roli"@pl ,
+                           ontohgis:seeAlsoLiteral "1. miejscowość zamieszkała przez ludzi, którzy trudnią się pracą na roli, 2. mieszkańcy takiej miejscowości, 3. tereny pozamiejskie, rolnicze, letniskowe, 4. ludzie trudniący się pracą na roli"@pl ,
                                         "Jednostka osadnicza o zwartej lub rozproszonej zabudowie i istniejących funkcjach rolniczych lub związanych z nimi usługowych lub turystycznych, nieposiadająca praw miejskich lub statusu miasta"@pl ,
                                         "Kirchdorf: Dorf mit Kirche (I) und Pfarrer, rechtlicher und religiöser Mittelpunkt einer (eventuell aus mehreren Filialdörfern bestehenden) politischen oder Pfarr-Gemeinde [Wieś z kościołem i parafią, prawne i religijne centrum gminy politycznej albo parafialnej (ewentualnie składającej się z kilku wsi filialnych, wsi z kościołami filialnymi]"@de ,
                                         "Pfarrdorf: 1. Dorf, in dem die für die Pfarrgemeinde konstitutive Pfarrkirche (I) steht [wieś, w której stoi kościół parafialny właściwy dla całej parafii, gminy parafialnej]; 2. zu einer Pfarre (I) gehöriges Dorf [wieś należąca do parafii]"@de ,
@@ -18291,75 +18289,75 @@ W języku niemieckim w XIX wieku mogły funkcjonować równolegle dwa terminy �
                                                <http://vocab.getty.edu/aat/300008372> ,
                                                <https://pzgik.geoportal.gov.pl/ontologies/prng/wies> ,
                                                <https://www.wikidata.org/wiki/Q532> ;
-                           ontohgis:seeAlsoLiteral                     "1. miejscowość zamieszkała przez ludzi, którzy trudnią się pracą na roli, 2. mieszkańcy takiej miejscowości, 3. tereny pozamiejskie, rolnicze, letniskowe, 4. ludzie trudniący się pracą na roli"@pl ,
-                                               "Jednostka osadnicza o zwartej lub rozproszonej zabudowie i istniejących funkcjach rolniczych lub związanych z nimi usługowych lub turystycznych, nieposiadająca praw miejskich lub statusu miasta"@pl ,
-                                               "Kirchdorf: Dorf mit Kirche (I) und Pfarrer, rechtlicher und religiöser Mittelpunkt einer (eventuell aus mehreren Filialdörfern bestehenden) politischen oder Pfarr-Gemeinde [Wieś z kościołem i parafią, prawne i religijne centrum gminy politycznej albo parafialnej (ewentualnie składającej się z kilku wsi filialnych, wsi z kościołami filialnymi]"@de ,
-                                               "Pfarrdorf: 1. Dorf, in dem die für die Pfarrgemeinde konstitutive Pfarrkirche (I) steht [wieś, w której stoi kościół parafialny właściwy dla całej parafii, gminy parafialnej]; 2. zu einer Pfarre (I) gehöriges Dorf [wieś należąca do parafii]"@de ,
-                                               "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ,
-                                               "s. 29: wsią nazywamy osiedle w zasadzie otwarte, której ludność zajmuje się produkcją śródków żywności oraz surowców technicznych (tj. rolnictwem, hodowlą bydła, rybołówstwem itd.)"@pl ,
-                                               "t. 4, s. 365: wioska, imienie, dobro, grunt leżący; wieś targowa, wsie łowcze, osoczne, wołoskie."@pl ,
-                                               "t. 7, s. 594–595: osada rolnicza, z pewnej liczby chat złożona, sioło"@pl ,
-                                               "t. XX, s. 199–201: 1. osada, w której ludność zajmuje się głównie rolnictwem, 2. mieszkańcy wsi, ogół mieszkańców wsi."@pl .
+                           ontohgis:seeAlsoLiteral "1. miejscowość zamieszkała przez ludzi, którzy trudnią się pracą na roli, 2. mieszkańcy takiej miejscowości, 3. tereny pozamiejskie, rolnicze, letniskowe, 4. ludzie trudniący się pracą na roli"@pl ,
+                                                   "Jednostka osadnicza o zwartej lub rozproszonej zabudowie i istniejących funkcjach rolniczych lub związanych z nimi usługowych lub turystycznych, nieposiadająca praw miejskich lub statusu miasta"@pl ,
+                                                   "Kirchdorf: Dorf mit Kirche (I) und Pfarrer, rechtlicher und religiöser Mittelpunkt einer (eventuell aus mehreren Filialdörfern bestehenden) politischen oder Pfarr-Gemeinde [Wieś z kościołem i parafią, prawne i religijne centrum gminy politycznej albo parafialnej (ewentualnie składającej się z kilku wsi filialnych, wsi z kościołami filialnymi]"@de ,
+                                                   "Pfarrdorf: 1. Dorf, in dem die für die Pfarrgemeinde konstitutive Pfarrkirche (I) steht [wieś, w której stoi kościół parafialny właściwy dla całej parafii, gminy parafialnej]; 2. zu einer Pfarre (I) gehöriges Dorf [wieś należąca do parafii]"@de ,
+                                                   "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ,
+                                                   "s. 29: wsią nazywamy osiedle w zasadzie otwarte, której ludność zajmuje się produkcją śródków żywności oraz surowców technicznych (tj. rolnictwem, hodowlą bydła, rybołówstwem itd.)"@pl ,
+                                                   "t. 4, s. 365: wioska, imienie, dobro, grunt leżący; wieś targowa, wsie łowcze, osoczne, wołoskie."@pl ,
+                                                   "t. 7, s. 594–595: osada rolnicza, z pewnej liczby chat złożona, sioło"@pl ,
+                                                   "t. XX, s. 199–201: 1. osada, w której ludność zajmuje się głównie rolnictwem, 2. mieszkańcy wsi, ogół mieszkańców wsi."@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "1. miejscowość zamieszkała przez ludzi, którzy trudnią się pracą na roli, 2. mieszkańcy takiej miejscowości, 3. tereny pozamiejskie, rolnicze, letniskowe, 4. ludzie trudniący się pracą na roli"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "Jednostka osadnicza o zwartej lub rozproszonej zabudowie i istniejących funkcjach rolniczych lub związanych z nimi usługowych lub turystycznych, nieposiadająca praw miejskich lub statusu miasta"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_9
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "Kirchdorf: Dorf mit Kirche (I) und Pfarrer, rechtlicher und religiöser Mittelpunkt einer (eventuell aus mehreren Filialdörfern bestehenden) politischen oder Pfarr-Gemeinde [Wieś z kościołem i parafią, prawne i religijne centrum gminy politycznej albo parafialnej (ewentualnie składającej się z kilku wsi filialnych, wsi z kościołami filialnymi]"@de ;
    ontohgis:isDefinedByEntity ontohgis:document_10
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "Pfarrdorf: 1. Dorf, in dem die für die Pfarrgemeinde konstitutive Pfarrkirche (I) steht [wieś, w której stoi kościół parafialny właściwy dla całej parafii, gminy parafialnej]; 2. zu einer Pfarre (I) gehöriges Dorf [wieś należąca do parafii]"@de ;
    ontohgis:isDefinedByEntity ontohgis:document_10
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "s. 15: 1. osada, której ludność zajmuje się uprawą roślin i chowem zwierząt, wieś: osada (osiedle wiejskie; teren zabudowany), na którym mieszka ludność pracująca w gospodarstwach wiejskich, koncentrująca większość środków produkcji, i na którym są dokonywane różne procesy produkcyjne, istnieje życie społeczne oraz kulturalne mieszkańców wsi (def. na podstawie Nowosielski 1964, Kiełczewska-Zaleska 1976, Chowaniem 1989); 2. podstawą (atomem) dla wsi nie jest pojedynczy wiejski budynek lecz ich komplet (zagroda), tworzący samodzielne gospodarstwo rolne z należącą doń powierzchnią ziemi --. Wieś w sensie antropogeograficznym jest częścią gminy (lub gromady), która stanowi grupę gospodarstw rolnych zabudowaną według jednolitego planu i tworzącą typ kształtu i skupienia (def. na podstawie Zaborski 1926); 3. to zbiorowisko ludzi albo osiedle z należącymi doń gruntami. Wieś: rozłóg i osada. O istnieniu wsi ma decydować także zestaw więzi wewnątrz wsi: rozłóg, siedlisko i ludność rolnicza (def. na podstawie Szymański 1969, Olechowski 1948); 4. wieś to społeczność lokalna, której funkcję produkcyjną uzupełniała funkcja rodziny. Wieś stanowi pewną historyczną formę struktury społecznej, względnie trwałą i jednolitą całość, której członkowie są ze sobą powiązani siecią zależności i więzi sprawiających, że całość ta jest wewnętrznie zintegrowana. Cechą konstytutywną tak rozumianej grupy jest określone terytorium geograficzne, które wspólnie użytkują, a efektem tego jest pewien stopień psychologicznego zespolenia całości lub części społeczności ze strukturą społeczno-przestrzenną jako znaczącą wartością kulturową. Podstawową funkcją środowiska kulturowego wsi, a zwłaszcza jego wartości przestrzennych jest kształtowanie poczucia tożsamości z rodzinną tradycją i jej wartościami oraz wynikającej stąd świadomości przynależności do miejscowej społeczności oraz identyfikacja z jej przestrzenią życiową (def. na podstawie Turowski 1992); 5. twór terytorialny mający granice, rozłóg ziemi, siedlisko (zagrodę),  stanowiące całość przestrzenną o określonych więzach społecznych i terytorialnych oraz uprawnieniach prawnych. -- Jest to osiedle nie mające praw miejskich (def. wg Tkocza 1992, s. 15–16)."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_8
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "s. 29: wsią nazywamy osiedle w zasadzie otwarte, której ludność zajmuje się produkcją śródków żywności oraz surowców technicznych (tj. rolnictwem, hodowlą bydła, rybołówstwem itd.)"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_16
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 4, s. 365: wioska, imienie, dobro, grunt leżący; wieś targowa, wsie łowcze, osoczne, wołoskie."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 7, s. 594–595: osada rolnicza, z pewnej liczby chat złożona, sioło"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_5
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_2 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. XX, s. 199–201: 1. osada, w której ludność zajmuje się głównie rolnictwem, 2. mieszkańcy wsi, ogół mieszkańców wsi."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_6
  ] .
@@ -18369,7 +18367,7 @@ ontohgis:settlement_type_20 rdfs:comment "Colony is usually a part of another lo
                                          "Kolonia jest przeważnie częścią miejscowości, rzadziej, choć nie są to wyjątkowe przypadki, ma obecnie status odrębnej miejscowości, z reguły wsi. Zarówno w przypadku, gdy kolonia jest odrębną miejscowością jak i częścią miejscowości, zawsze znajduje się w pobliżu miejscowości (wsi a wyjątkowo małego miasta) od której pochodzi jej nazwa. W ujęciu kartograficznym wyodrębniona przede wszystkim przez skrót kategorii (kol.), nazwę własną, oraz morfologicznie."@pl ;
                             rdfs:label "colony"@en ,
                                        "kolonia"@pl ;
-                            rdfs:seeAlso "Jednostka osadnicza powstała jako rezultat ekspansji miejscowości poza obszar wcześniej istniejącej zabudowy, w szczególności kolonia miasta, kolonia wsi."@pl ,
+                            ontohgis:seeAlsoLiteral "Jednostka osadnicza powstała jako rezultat ekspansji miejscowości poza obszar wcześniej istniejącej zabudowy, w szczególności kolonia miasta, kolonia wsi."@pl ,
                                          "t. 1, s. 900: Osiedla mieszkaniowe położone z dala od centrum miasta, osady: niewielka posiadłość ziemska , nowa osada lub gospodarstwo rolne na gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji, migracji wewnętrznej itp."@pl ,
                                          "t. 1-2, s. 1566: część miejscowości, zwykle  z dale od jej centrum, składająca się z nowobudowanych domostw, will, itp."@pl ,
                                          "t. 2,  s. 240: zabudowa, osiedle, domy znajdujące się z dala od miasta, wsi, osady; kolonia mieszkaniowa na przedmieściach, kolonia położona daleko za wsią, gospodarstwo rolne położone za wsią, posiadłość ziemska z dala od innych."@pl ,
@@ -18397,59 +18395,59 @@ ontohgis:settlement_type_20 rdfs:comment "Colony is usually a part of another lo
                             ontohgis:seeAlsoIRI <http://gov.genealogy.net/types.owl#121> ,
                                                 <https://pzgik.geoportal.gov.pl/ontologies/prng/kolonia> ,
                                                 <https://www.wikidata.org/wiki/Q12015918> ;
-                            ontohgis:seeAlsoLiteral                     "Jednostka osadnicza powstała jako rezultat ekspansji miejscowości poza obszar wcześniej istniejącej zabudowy, w szczególności kolonia miasta, kolonia wsi."@pl ,
-                                                "t. 1, s. 900: Osiedla mieszkaniowe położone z dala od centrum miasta, osady: niewielka posiadłość ziemska , nowa osada lub gospodarstwo rolne na gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji, migracji wewnętrznej itp."@pl ,
-                                                "t. 1-2, s. 1566: część miejscowości, zwykle  z dale od jej centrum, składająca się z nowobudowanych domostw, will, itp."@pl ,
-                                                "t. 2,  s. 240: zabudowa, osiedle, domy znajdujące się z dala od miasta, wsi, osady; kolonia mieszkaniowa na przedmieściach, kolonia położona daleko za wsią, gospodarstwo rolne położone za wsią, posiadłość ziemska z dala od innych."@pl ,
-                                                "t. 2, s. 404: mała posiadłość ziemska należąca do przybysza z obcego kraju; osada włościańska po uwłaszczeniu włościan; osada, miejsce, gdzie koloniści osadnicy mieszkają, budy, szopy, majdan."@pl ,
-                                                "t. 5, s. 720: kolonia rolna -- gospodarstwo rolne powstałe w oddaleniu od wsi na gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji, itp.; także kilka lub kilkanaście zagród w rozproszeniu -- osada na ziemiach nowo zagospodarowanych"@pl ,
-                                                "„W ten sposób termin 'osada' może tutaj oznaczać nie tylko małe osiedla, złożone z jednego lub kilku wyodrębnionych terytorialnie gospodarstw włościańskich, jak to miało miejsce na innych ziemiach polskich, lecz i większe, o charakterze kolonii, t. j. osiedli rozrzuconych na większej przestrzeni, a powstałych zazwyczaj na gruntach rozparcelowanych przez władze zaborcze”"@pl .
+                            ontohgis:seeAlsoLiteral "Jednostka osadnicza powstała jako rezultat ekspansji miejscowości poza obszar wcześniej istniejącej zabudowy, w szczególności kolonia miasta, kolonia wsi."@pl ,
+                                                    "t. 1, s. 900: Osiedla mieszkaniowe położone z dala od centrum miasta, osady: niewielka posiadłość ziemska , nowa osada lub gospodarstwo rolne na gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji, migracji wewnętrznej itp."@pl ,
+                                                    "t. 1-2, s. 1566: część miejscowości, zwykle  z dale od jej centrum, składająca się z nowobudowanych domostw, will, itp."@pl ,
+                                                    "t. 2,  s. 240: zabudowa, osiedle, domy znajdujące się z dala od miasta, wsi, osady; kolonia mieszkaniowa na przedmieściach, kolonia położona daleko za wsią, gospodarstwo rolne położone za wsią, posiadłość ziemska z dala od innych."@pl ,
+                                                    "t. 2, s. 404: mała posiadłość ziemska należąca do przybysza z obcego kraju; osada włościańska po uwłaszczeniu włościan; osada, miejsce, gdzie koloniści osadnicy mieszkają, budy, szopy, majdan."@pl ,
+                                                    "t. 5, s. 720: kolonia rolna -- gospodarstwo rolne powstałe w oddaleniu od wsi na gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji, itp.; także kilka lub kilkanaście zagród w rozproszeniu -- osada na ziemiach nowo zagospodarowanych"@pl ,
+                                                    "„W ten sposób termin 'osada' może tutaj oznaczać nie tylko małe osiedla, złożone z jednego lub kilku wyodrębnionych terytorialnie gospodarstw włościańskich, jak to miało miejsce na innych ziemiach polskich, lecz i większe, o charakterze kolonii, t. j. osiedli rozrzuconych na większej przestrzeni, a powstałych zazwyczaj na gruntach rozparcelowanych przez władze zaborcze”"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_20 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "Jednostka osadnicza powstała jako rezultat ekspansji miejscowości poza obszar wcześniej istniejącej zabudowy, w szczególności kolonia miasta, kolonia wsi."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_9
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_20 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 1, s. 900: Osiedla mieszkaniowe położone z dala od centrum miasta, osady: niewielka posiadłość ziemska , nowa osada lub gospodarstwo rolne na gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji, migracji wewnętrznej itp."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_19
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_20 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 1-2, s. 1566: część miejscowości, zwykle  z dale od jej centrum, składająca się z nowobudowanych domostw, will, itp."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_18
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_20 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 2,  s. 240: zabudowa, osiedle, domy znajdujące się z dala od miasta, wsi, osady; kolonia mieszkaniowa na przedmieściach, kolonia położona daleko za wsią, gospodarstwo rolne położone za wsią, posiadłość ziemska z dala od innych."@pl ;
    rdfs:comment ontohgis:document_20
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_20 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 2, s. 404: mała posiadłość ziemska należąca do przybysza z obcego kraju; osada włościańska po uwłaszczeniu włościan; osada, miejsce, gdzie koloniści osadnicy mieszkają, budy, szopy, majdan."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_5
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_20 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 5, s. 720: kolonia rolna -- gospodarstwo rolne powstałe w oddaleniu od wsi na gruntach przydzielonych w wyniku uwłaszczenia, parcelacji, komasacji, itp.; także kilka lub kilkanaście zagród w rozproszeniu -- osada na ziemiach nowo zagospodarowanych"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_11
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_20 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "„W ten sposób termin 'osada' może tutaj oznaczać nie tylko małe osiedla, złożone z jednego lub kilku wyodrębnionych terytorialnie gospodarstw włościańskich, jak to miało miejsce na innych ziemiach polskich, lecz i większe, o charakterze kolonii, t. j. osiedli rozrzuconych na większej przestrzeni, a powstałych zazwyczaj na gruntach rozparcelowanych przez władze zaborcze”"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_91
  ] .
@@ -18508,7 +18506,7 @@ Wszystkie letniska u Bystrzyckiego znajdują się w okolicach Warszawy. Wyjątek
 Występuje na mapach w nazwach miejscowości (letn.), ale nie w kluczach znaków. W legendach map WIG jest to jeden z rodzajów osiedli. W BDOT10k („dom letniskowy”) w klasie budynki mieszkalne jednorodzinne (BUBD01)."""@pl ;
                             rdfs:label "letnisko"@pl ,
                                        "summer resort"@en ;
-                            rdfs:seeAlso "miejscowość wypoczynkowa; letni pobyt poza miastem w celach wypoczynkowych"@pl ;
+                            ontohgis:seeAlsoLiteral "miejscowość wypoczynkowa; letni pobyt poza miastem w celach wypoczynkowych"@pl ;
                             <http://www.w3.org/2004/02/skos/core#altLabel> "osada letniskowa"@pl ,
                                                                            "resort destination"@en ;
                             <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Erholungsort"@de ,
@@ -18531,7 +18529,7 @@ Występuje na mapach w nazwach miejscowości (letn.), ale nie w kluczach znaków
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_25 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "miejscowość wypoczynkowa; letni pobyt poza miastem w celach wypoczynkowych"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
@@ -18561,7 +18559,7 @@ ontohgis:settlement_type_28 rdfs:comment "Miasteczko z zasady jest odrębną mie
                                          "Town is always (ex definitione) a separate locality. On the Polish lands, there was no formal distinction between the city and the town, but such distinction was present in some areas of the German Reich (Flecken, Marktsiedlung - Stadt)."@en ;
                             rdfs:label "miasteczko"@pl ,
                                        "town"@en ;
-                            rdfs:seeAlso "małe miasto, -- przen. ludność małego miasta"@pl ,
+                            ontohgis:seeAlsoLiteral "małe miasto, -- przen. ludność małego miasta"@pl ,
                                          "małe miasto; pot. mieszkańcy małego miasta"@pl ,
                                          "t. 13, s. 369-372: 1. Od znacz. 'miejsce' --; 2. Od znacz. 'wytyczony i najczęściej otoczony murem teren pokryty gęstą i planową zabudową"@pl ;
                             <http://www.w3.org/2004/02/skos/core#altLabel> "Städtchen"@de ,
@@ -18586,7 +18584,7 @@ ontohgis:settlement_type_28 rdfs:comment "Miasteczko z zasady jest odrębną mie
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_28 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "małe miasto, -- przen. ludność małego miasta"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4 ;
    ontohgis:isDefinedByIRI <https://sjp.pwn.pl/doroszewski/miasteczko;5451005.html>
@@ -18594,7 +18592,7 @@ ontohgis:settlement_type_28 rdfs:comment "Miasteczko z zasady jest odrębną mie
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_28 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "małe miasto; pot. mieszkańcy małego miasta"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_3 ;
    ontohgis:isDefinedByIRI <https://sjp.pwn.pl/sjp/miasteczko;2482785.html>
@@ -18602,7 +18600,7 @@ ontohgis:settlement_type_28 rdfs:comment "Miasteczko z zasady jest odrębną mie
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_28 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 13, s. 369-372: 1. Od znacz. 'miejsce' --; 2. Od znacz. 'wytyczony i najczęściej otoczony murem teren pokryty gęstą i planową zabudową"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_2
  ] .
@@ -18612,7 +18610,7 @@ ontohgis:settlement_type_3 rdfs:comment "During those periods, when legal status
                                         "W okresach, w których status prawny miejscowości był ukształtowany miasta posiadały szczególne prawa miejskie (lokacyjne), które stanowią postawowe kryterium pomocnicze odróżniania miast. W skład miasta mogą wchodzić inne jednostki osadnicze, jak miasto właściwe (lokacyjne), dzielnica, przedmieście, zamek, gród. Przynamniej w okresie od XIII do XVIII w. funkcjonowały równolegle dwa pojęcia miasta: ogólne, obejmujące cały zespół osadniczy o odrębności społecznej, gospodarczej i urbanistycznej, postrzegane przede wszystkim intuicyjnie oraz miasto w sensie polityczno-prawnym, obdarzona względnie szeroką autonomią gmina. W konsekwencji mogły istnieć miasta w mieście i obiekty leżące jednocześnie w mieście i poza nim. Dla takich złożonych struktur w niniejszym projekcie należy się posługiwać pierwszym znaczeniem miasta."@pl ;
                            rdfs:label "city / town"@en ,
                                       "miasto"@pl ;
-                           rdfs:seeAlso "Jednostka osadnicza (wyodrębniony przestrzennie obszar zabudowy mieszkaniowej wraz z obiektami infrastruktury technicznej zamieszkany przez ludzi) o przewadze zwartej zabudowy i funkcjach nierolniczych posiadająca prawa miejskie bądź status miasta nadany w trybie określonym odrębnymi przepisami."@pl ,
+                           ontohgis:seeAlsoLiteral "Jednostka osadnicza (wyodrębniony przestrzennie obszar zabudowy mieszkaniowej wraz z obiektami infrastruktury technicznej zamieszkany przez ludzi) o przewadze zwartej zabudowy i funkcjach nierolniczych posiadająca prawa miejskie bądź status miasta nadany w trybie określonym odrębnymi przepisami."@pl ,
                                         "Skupisko ludności, odróżniające się od innych swymi głównie nierolniczymi funkcjami, znaczną wielkością oraz intensywnością zabudowy. Definicja ta musi być jednak interpretowana elastycznie i zawsze na tle aktualnej sieci osadniczej."@pl ,
                                         "s. 63: Miasto jest osadą różniącą się od wsi i nierolniczych osad monofunkcyjnych względną wielkością z zagęszczoną i rozczłonkowaną zabudową, z ludnością wyspecjalizowaną zawodowo i rozwarstwioną społecznie oraz funkcjami centralnymi pełnionymi wobec określonego regionu lub lokalnej ludności w sferze polityki, panowania, obronności, gospodarki, kultu i kultury [Stadt ist eine vom Dorf und nichtagrarischen Einzwecksiedlungen unterschiedene Siedlung relativer Größe mit verdichteter, gegliederter Bebauung, beruflich spezialisierter und sozial geschichteter Bevölkerung und zentralen Funktionen politisch-herrschaftlich-militärischer, wirtschaftlicher und kultisch-kultureller Art für eine bestimmte Region oder regionale Bevölkerung]"@de ,
                                         "t. 13, s. 37: Wytyczony i najczęściej otoczony murem teren, pokryty gęstą i planową zabudową tworzącą place i ulice, stanowiący mniej lub więcej samodzielną jednostkę administracyjną, samorządową, a czasem polityczną."@pl ;
@@ -18637,35 +18635,35 @@ ontohgis:settlement_type_3 rdfs:comment "During those periods, when legal status
                                                <https://pzgik.geoportal.gov.pl/ontologies/prng/miasto> ,
                                                <https://schema.org/City> ,
                                                <https://www.wikidata.org/wiki/Q515> ;
-                          ontohgis:seeAlsoLiteral                      "Jednostka osadnicza (wyodrębniony przestrzennie obszar zabudowy mieszkaniowej wraz z obiektami infrastruktury technicznej zamieszkany przez ludzi) o przewadze zwartej zabudowy i funkcjach nierolniczych posiadająca prawa miejskie bądź status miasta nadany w trybie określonym odrębnymi przepisami."@pl ,
-                                               "Skupisko ludności, odróżniające się od innych swymi głównie nierolniczymi funkcjami, znaczną wielkością oraz intensywnością zabudowy. Definicja ta musi być jednak interpretowana elastycznie i zawsze na tle aktualnej sieci osadniczej."@pl ,
-                                               "s. 63: Miasto jest osadą różniącą się od wsi i nierolniczych osad monofunkcyjnych względną wielkością z zagęszczoną i rozczłonkowaną zabudową, z ludnością wyspecjalizowaną zawodowo i rozwarstwioną społecznie oraz funkcjami centralnymi pełnionymi wobec określonego regionu lub lokalnej ludności w sferze polityki, panowania, obronności, gospodarki, kultu i kultury [Stadt ist eine vom Dorf und nichtagrarischen Einzwecksiedlungen unterschiedene Siedlung relativer Größe mit verdichteter, gegliederter Bebauung, beruflich spezialisierter und sozial geschichteter Bevölkerung und zentralen Funktionen politisch-herrschaftlich-militärischer, wirtschaftlicher und kultisch-kultureller Art für eine bestimmte Region oder regionale Bevölkerung]"@de ,
-                                               "t. 13, s. 37: Wytyczony i najczęściej otoczony murem teren, pokryty gęstą i planową zabudową tworzącą place i ulice, stanowiący mniej lub więcej samodzielną jednostkę administracyjną, samorządową, a czasem polityczną."@pl .
+                           ontohgis:seeAlsoLiteral "Jednostka osadnicza (wyodrębniony przestrzennie obszar zabudowy mieszkaniowej wraz z obiektami infrastruktury technicznej zamieszkany przez ludzi) o przewadze zwartej zabudowy i funkcjach nierolniczych posiadająca prawa miejskie bądź status miasta nadany w trybie określonym odrębnymi przepisami."@pl ,
+                                                   "Skupisko ludności, odróżniające się od innych swymi głównie nierolniczymi funkcjami, znaczną wielkością oraz intensywnością zabudowy. Definicja ta musi być jednak interpretowana elastycznie i zawsze na tle aktualnej sieci osadniczej."@pl ,
+                                                   "s. 63: Miasto jest osadą różniącą się od wsi i nierolniczych osad monofunkcyjnych względną wielkością z zagęszczoną i rozczłonkowaną zabudową, z ludnością wyspecjalizowaną zawodowo i rozwarstwioną społecznie oraz funkcjami centralnymi pełnionymi wobec określonego regionu lub lokalnej ludności w sferze polityki, panowania, obronności, gospodarki, kultu i kultury [Stadt ist eine vom Dorf und nichtagrarischen Einzwecksiedlungen unterschiedene Siedlung relativer Größe mit verdichteter, gegliederter Bebauung, beruflich spezialisierter und sozial geschichteter Bevölkerung und zentralen Funktionen politisch-herrschaftlich-militärischer, wirtschaftlicher und kultisch-kultureller Art für eine bestimmte Region oder regionale Bevölkerung]"@de ,
+                                                   "t. 13, s. 37: Wytyczony i najczęściej otoczony murem teren, pokryty gęstą i planową zabudową tworzącą place i ulice, stanowiący mniej lub więcej samodzielną jednostkę administracyjną, samorządową, a czasem polityczną."@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_3 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "Jednostka osadnicza (wyodrębniony przestrzennie obszar zabudowy mieszkaniowej wraz z obiektami infrastruktury technicznej zamieszkany przez ludzi) o przewadze zwartej zabudowy i funkcjach nierolniczych posiadająca prawa miejskie bądź status miasta nadany w trybie określonym odrębnymi przepisami."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_9
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_3 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "Skupisko ludności, odróżniające się od innych swymi głównie nierolniczymi funkcjami, znaczną wielkością oraz intensywnością zabudowy. Definicja ta musi być jednak interpretowana elastycznie i zawsze na tle aktualnej sieci osadniczej."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_11
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_3 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "s. 63: Miasto jest osadą różniącą się od wsi i nierolniczych osad monofunkcyjnych względną wielkością z zagęszczoną i rozczłonkowaną zabudową, z ludnością wyspecjalizowaną zawodowo i rozwarstwioną społecznie oraz funkcjami centralnymi pełnionymi wobec określonego regionu lub lokalnej ludności w sferze polityki, panowania, obronności, gospodarki, kultu i kultury [Stadt ist eine vom Dorf und nichtagrarischen Einzwecksiedlungen unterschiedene Siedlung relativer Größe mit verdichteter, gegliederter Bebauung, beruflich spezialisierter und sozial geschichteter Bevölkerung und zentralen Funktionen politisch-herrschaftlich-militärischer, wirtschaftlicher und kultisch-kultureller Art für eine bestimmte Region oder regionale Bevölkerung]"@de ;
    ontohgis:isDefinedByEntity ontohgis:document_12
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_3 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 13, s. 37: Wytyczony i najczęściej otoczony murem teren, pokryty gęstą i planową zabudową tworzącą place i ulice, stanowiący mniej lub więcej samodzielną jednostkę administracyjną, samorządową, a czasem polityczną."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_2
  ] .
@@ -18676,7 +18674,7 @@ ontohgis:settlement_type_33 rdfs:comment "A small locality organised in relation
                                          "„W ten sposób termin 'osada' może tutaj oznaczać nie tylko małe osiedla, złożone z jednego lub kilku wyodrębnionych terytorialnie gospodarstw włościańskich, jak to miało miejsce na innych ziemiach polskich, lecz i większe, o charakterze kolonii, t. j. osiedli rozrzuconych na większej przestrzeni, a powstałych zazwyczaj na gruntach rozparcelowanych przez władze zaborcze”"@pl ;
                             rdfs:label "osada"@pl ,
                                        "settlement"@en ;
-                            rdfs:seeAlso "Niewielka jednostka osadnicza na terenie wiejskim o odmiennym (wyróżniającym się) charakterze zabudowy albo zamieszkana przez ludność związaną z miejscem lub rodzajem pracy, innymi niż wyżej wymienione [osada młyńska, osada leśna, osada rybacka, osada kolejowa, osada po byłem PGR]; źródło: ustawa z dnia 29 sierpnia 2003 r. o urzędowych nazwach miejscowości i obiektów fizjograficznych."@pl ,
+                            ontohgis:seeAlsoLiteral "Niewielka jednostka osadnicza na terenie wiejskim o odmiennym (wyróżniającym się) charakterze zabudowy albo zamieszkana przez ludność związaną z miejscem lub rodzajem pracy, innymi niż wyżej wymienione [osada młyńska, osada leśna, osada rybacka, osada kolejowa, osada po byłem PGR]; źródło: ustawa z dnia 29 sierpnia 2003 r. o urzędowych nazwach miejscowości i obiektów fizjograficznych."@pl ,
                                          "Niewielka jednostka osadnicza na terenie wiejskim o odmiennym(wyróżniającym się) charakterze zabudowy albo zamieszkana przez ludność zwiazaną z określonym miejscem lub rodzajem pracy, w szczególności: osada młyńska, osada leśna, osada rybacka, osada kolejowa, osada po byłym państwowym gospodarstwie rolnym; osada może być samodzielna lub może stanowić część innej jednostki osadniczej."@pl ,
                                          "niewielka miejscowość, niemająca praw osiedla czy miasta; też: mieszkańcy takiej miejscowości"@pl ,
                                          "osiedle typu wiejskiego pośrednie między wsią a miasteczkiem; kolonia, mieszkańcy tego osiedla"@pl ,
@@ -18702,13 +18700,13 @@ ontohgis:settlement_type_33 rdfs:comment "A small locality organised in relation
                                                 <http://vocab.getty.edu/aat/300008369> ,
                                                 <https://pzgik.geoportal.gov.pl/ontologies/prng/osada> ,
                                                 <https://www.wikidata.org/wiki/Q5084> ;
-                            ontohgis:seeAlsoLiteral                     "Niewielka jednostka osadnicza na terenie wiejskim o odmiennym (wyróżniającym się) charakterze zabudowy albo zamieszkana przez ludność związaną z miejscem lub rodzajem pracy, innymi niż wyżej wymienione [osada młyńska, osada leśna, osada rybacka, osada kolejowa, osada po byłem PGR]; źródło: ustawa z dnia 29 sierpnia 2003 r. o urzędowych nazwach miejscowości i obiektów fizjograficznych."@pl ,
-                                                "Niewielka jednostka osadnicza na terenie wiejskim o odmiennym(wyróżniającym się) charakterze zabudowy albo zamieszkana przez ludność zwiazaną z określonym miejscem lub rodzajem pracy, w szczególności: osada młyńska, osada leśna, osada rybacka, osada kolejowa, osada po byłym państwowym gospodarstwie rolnym; osada może być samodzielna lub może stanowić część innej jednostki osadniczej."@pl ,
-                                                "niewielka miejscowość, niemająca praw osiedla czy miasta; też: mieszkańcy takiej miejscowości"@pl ,
-                                                "osiedle typu wiejskiego pośrednie między wsią a miasteczkiem; kolonia, mieszkańcy tego osiedla"@pl ,
-                                                "t. 22, s. 99: 1. Osiedle, miejsce zamieszkałe przez osadzoną ludność, terytorium zamieszkałe, -- a. Siedlisko, mieszkanie --; 2. Mieszkańcy osiedla; ludność żyjąca na jakimś terenie --; 3. Miejsce zdatne, dogodne do osiedlenia się --; 4. Zasiedlenie pustego miejsca, colonia."@pl ,
-                                                "t. 3, s. 547: osada, koloniia, mieysce, gdzie się nowi mieszkańcy sadowią, eine Kolonie (cf. wola), Pflanzstadt, Pflanzort, Ansiedlung; -- Vd. selizhzhe, preselishe, selitva, naselitva; Rs.  колонїя, селенїе (ob. sieło, sioło), поселенїе, селишьба."@pl ,
-                                                "t. 3, s. 836-837: 1.a. miejsce, gdzie ś. nowi mieszkańcy usadowili, kolonja --; b. miejsce zajęte przez mieszkańców, większe od wsi a mniejsze do miasta --; c. [Osiedle] grunt, na którym osadzano chłopa; sadyba, zagroda włościańska"@pl .
+                            ontohgis:seeAlsoLiteral "Niewielka jednostka osadnicza na terenie wiejskim o odmiennym (wyróżniającym się) charakterze zabudowy albo zamieszkana przez ludność związaną z miejscem lub rodzajem pracy, innymi niż wyżej wymienione [osada młyńska, osada leśna, osada rybacka, osada kolejowa, osada po byłem PGR]; źródło: ustawa z dnia 29 sierpnia 2003 r. o urzędowych nazwach miejscowości i obiektów fizjograficznych."@pl ,
+                                                    "Niewielka jednostka osadnicza na terenie wiejskim o odmiennym(wyróżniającym się) charakterze zabudowy albo zamieszkana przez ludność zwiazaną z określonym miejscem lub rodzajem pracy, w szczególności: osada młyńska, osada leśna, osada rybacka, osada kolejowa, osada po byłym państwowym gospodarstwie rolnym; osada może być samodzielna lub może stanowić część innej jednostki osadniczej."@pl ,
+                                                    "niewielka miejscowość, niemająca praw osiedla czy miasta; też: mieszkańcy takiej miejscowości"@pl ,
+                                                    "osiedle typu wiejskiego pośrednie między wsią a miasteczkiem; kolonia, mieszkańcy tego osiedla"@pl ,
+                                                    "t. 22, s. 99: 1. Osiedle, miejsce zamieszkałe przez osadzoną ludność, terytorium zamieszkałe, -- a. Siedlisko, mieszkanie --; 2. Mieszkańcy osiedla; ludność żyjąca na jakimś terenie --; 3. Miejsce zdatne, dogodne do osiedlenia się --; 4. Zasiedlenie pustego miejsca, colonia."@pl ,
+                                                    "t. 3, s. 547: osada, koloniia, mieysce, gdzie się nowi mieszkańcy sadowią, eine Kolonie (cf. wola), Pflanzstadt, Pflanzort, Ansiedlung; -- Vd. selizhzhe, preselishe, selitva, naselitva; Rs.  колонїя, селенїе (ob. sieło, sioło), поселенїе, селишьба."@pl ,
+                                                    "t. 3, s. 836-837: 1.a. miejsce, gdzie ś. nowi mieszkańcy usadowili, kolonja --; b. miejsce zajęte przez mieszkańców, większe od wsi a mniejsze do miasta --; c. [Osiedle] grunt, na którym osadzano chłopa; sadyba, zagroda włościańska"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_33 ;
@@ -18719,21 +18717,21 @@ ontohgis:settlement_type_33 rdfs:comment "A small locality organised in relation
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_33 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "Niewielka jednostka osadnicza na terenie wiejskim o odmiennym (wyróżniającym się) charakterze zabudowy albo zamieszkana przez ludność związaną z miejscem lub rodzajem pracy, innymi niż wyżej wymienione [osada młyńska, osada leśna, osada rybacka, osada kolejowa, osada po byłem PGR]; źródło: ustawa z dnia 29 sierpnia 2003 r. o urzędowych nazwach miejscowości i obiektów fizjograficznych."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_22
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_33 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "Niewielka jednostka osadnicza na terenie wiejskim o odmiennym(wyróżniającym się) charakterze zabudowy albo zamieszkana przez ludność zwiazaną z określonym miejscem lub rodzajem pracy, w szczególności: osada młyńska, osada leśna, osada rybacka, osada kolejowa, osada po byłym państwowym gospodarstwie rolnym; osada może być samodzielna lub może stanowić część innej jednostki osadniczej."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_9
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_33 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "niewielka miejscowość, niemająca praw osiedla czy miasta; też: mieszkańcy takiej miejscowości"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_3 ;
    ontohgis:isDefinedByIRI <https://sjp.pwn.pl/sjp/osada;2496282.html>
@@ -18741,7 +18739,7 @@ ontohgis:settlement_type_33 rdfs:comment "A small locality organised in relation
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_33 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "osiedle typu wiejskiego pośrednie między wsią a miasteczkiem; kolonia, mieszkańcy tego osiedla"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4 ;
    ontohgis:isDefinedByIRI <https://sjp.pwn.pl/doroszewski/osada;5467524.html>
@@ -18749,21 +18747,21 @@ ontohgis:settlement_type_33 rdfs:comment "A small locality organised in relation
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_33 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 22, s. 99: 1. Osiedle, miejsce zamieszkałe przez osadzoną ludność, terytorium zamieszkałe, -- a. Siedlisko, mieszkanie --; 2. Mieszkańcy osiedla; ludność żyjąca na jakimś terenie --; 3. Miejsce zdatne, dogodne do osiedlenia się --; 4. Zasiedlenie pustego miejsca, colonia."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_33 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 3, s. 547: osada, koloniia, mieysce, gdzie się nowi mieszkańcy sadowią, eine Kolonie (cf. wola), Pflanzstadt, Pflanzort, Ansiedlung; -- Vd. selizhzhe, preselishe, selitva, naselitva; Rs.  колонїя, селенїе (ob. sieło, sioło), поселенїе, селишьба."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_33 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 3, s. 836-837: 1.a. miejsce, gdzie ś. nowi mieszkańcy usadowili, kolonja --; b. miejsce zajęte przez mieszkańców, większe od wsi a mniejsze do miasta --; c. [Osiedle] grunt, na którym osadzano chłopa; sadyba, zagroda włościańska"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_5
  ] .
@@ -18777,7 +18775,7 @@ W urbanistyce (planowaniu przestrzennym) pojęcie osiedla wywodzi się z koncepc
 W ujęciu kartograficznym wyodrębnione przez nazwę własną, poprzedzoną  skrótem  kategorii (np. Os. Zdobycz Robotnicza) oraz morfologicznie."""@pl ;
                             rdfs:label "housing developments"@en ,
                                        "osiedle"@pl ;
-                            rdfs:seeAlso "10. Rodzaj miejscowości (Klasa: AD_RodzajMiejscowosciKod): Zespół mieszkaniowy stanowiący integralną część miasta lub wsi; źródło: ustawa z dnia 29 sierpnia 2003 r. o urzędowych nazwach miejscowości i obiektów fizjograficznych."@pl ,
+                            ontohgis:seeAlsoLiteral "10. Rodzaj miejscowości (Klasa: AD_RodzajMiejscowosciKod): Zespół mieszkaniowy stanowiący integralną część miasta lub wsi; źródło: ustawa z dnia 29 sierpnia 2003 r. o urzędowych nazwach miejscowości i obiektów fizjograficznych."@pl ,
                                          "12. Typ ciągu komunikacyjnego (Klasa: AD_TypUlicyKod): Część miasta, wsi lub osady, dla której utworzono odrębny spójny zbiór numerów porządkowych nieprzyporządkowanych do żadnej ulicy ani placu."@pl ,
                                          "Rodzaj jednostki pomocniczej (Klasa: AD_RodzajJednostkiPomocniczej): Część miasta lub wsi, której uchwałą rady gminy nadano status jednostki pomocniczej."@pl ,
                                          "t. 2, s. 526: nieduże skupisko budynków miejskich lub wiejskich, zespół bloków mieszkalnych, willowe, przyfabryczne, robotnicze, mieszkaniowe"@pl ,
@@ -18808,75 +18806,75 @@ W ujęciu kartograficznym wyodrębnione przez nazwę własną, poprzedzoną  skr
                                                 <http://vocab.getty.edu/aat/300000498> ,
                                                 <https://pzgik.geoportal.gov.pl/ontologies/prng/osiedle> ,
                                                 <https://www.wikidata.org/wiki/Q2282602> ;
-                            ontohgis:seeAlsoLiteral                     "10. Rodzaj miejscowości (Klasa: AD_RodzajMiejscowosciKod): Zespół mieszkaniowy stanowiący integralną część miasta lub wsi; źródło: ustawa z dnia 29 sierpnia 2003 r. o urzędowych nazwach miejscowości i obiektów fizjograficznych."@pl ,
-                                                "12. Typ ciągu komunikacyjnego (Klasa: AD_TypUlicyKod): Część miasta, wsi lub osady, dla której utworzono odrębny spójny zbiór numerów porządkowych nieprzyporządkowanych do żadnej ulicy ani placu."@pl ,
-                                                "Rodzaj jednostki pomocniczej (Klasa: AD_RodzajJednostkiPomocniczej): Część miasta lub wsi, której uchwałą rady gminy nadano status jednostki pomocniczej."@pl ,
-                                                "t. 2, s. 526: nieduże skupisko budynków miejskich lub wiejskich, zespół bloków mieszkalnych, willowe, przyfabryczne, robotnicze, mieszkaniowe"@pl ,
-                                                "t. 20, s. 56: osiedle mieszkaniowe – zespół  mieszkaniowy stanowiący strukturalną jednostkę mieszkaniową w mieście; pojęcie „osiedle mieszkaniowe” wywodzi się z koncepcji jednostki sąsiedzkiej; wielkość osiedla mieszkaniowego wynika z zasięgu pieszego dojścia (600–800 m) do ośrodka usługowego oraz gęstości zaludnienia (5–20 tys. mieszk.) obszaru obsługiwanego przez ten ośrodek. Stanowi zespół budynków mieszkalnych wraz z integralnym zapleczem obiektów usługowych oraz terenów zieleni; niekiedy są wydzielane części osiedli mieszkaniowych – kolonie, złożone z kilku bloków mieszkalnych; kilka osiedli mieszkaniowych tworzy dzielnicę."@pl ,
-                                                "t. 22, s. 124: osiedla, osiedlisko – siedziba, gospodarstwo wraz z zabudowaniami"@pl ,
-                                                "t. 3, s. 590: osiedlić, na osadzie czyli siedlisku postanowić kogoś, osadzić go; osiedlisko – miejsce osiedlenia, osada, osiadłość"@pl ,
-                                                "t. 6, s. 1121: nieduże skupienie siedzib ludzkich (miejskich lub wiejskich); reg. na wsi: dom mieszkalny wraz z zabudowaniami gospodarczymi, zagroda, dostatnie osiedle bogatego chłopa, sołtysowe osiedle"@pl ,
-                                                "zespół mieszkaniowy stanowiący integralną część miasta lub wsi"@pl .
+                            ontohgis:seeAlsoLiteral "10. Rodzaj miejscowości (Klasa: AD_RodzajMiejscowosciKod): Zespół mieszkaniowy stanowiący integralną część miasta lub wsi; źródło: ustawa z dnia 29 sierpnia 2003 r. o urzędowych nazwach miejscowości i obiektów fizjograficznych."@pl ,
+                                                    "12. Typ ciągu komunikacyjnego (Klasa: AD_TypUlicyKod): Część miasta, wsi lub osady, dla której utworzono odrębny spójny zbiór numerów porządkowych nieprzyporządkowanych do żadnej ulicy ani placu."@pl ,
+                                                    "Rodzaj jednostki pomocniczej (Klasa: AD_RodzajJednostkiPomocniczej): Część miasta lub wsi, której uchwałą rady gminy nadano status jednostki pomocniczej."@pl ,
+                                                    "t. 2, s. 526: nieduże skupisko budynków miejskich lub wiejskich, zespół bloków mieszkalnych, willowe, przyfabryczne, robotnicze, mieszkaniowe"@pl ,
+                                                    "t. 20, s. 56: osiedle mieszkaniowe – zespół  mieszkaniowy stanowiący strukturalną jednostkę mieszkaniową w mieście; pojęcie „osiedle mieszkaniowe” wywodzi się z koncepcji jednostki sąsiedzkiej; wielkość osiedla mieszkaniowego wynika z zasięgu pieszego dojścia (600–800 m) do ośrodka usługowego oraz gęstości zaludnienia (5–20 tys. mieszk.) obszaru obsługiwanego przez ten ośrodek. Stanowi zespół budynków mieszkalnych wraz z integralnym zapleczem obiektów usługowych oraz terenów zieleni; niekiedy są wydzielane części osiedli mieszkaniowych – kolonie, złożone z kilku bloków mieszkalnych; kilka osiedli mieszkaniowych tworzy dzielnicę."@pl ,
+                                                    "t. 22, s. 124: osiedla, osiedlisko – siedziba, gospodarstwo wraz z zabudowaniami"@pl ,
+                                                    "t. 3, s. 590: osiedlić, na osadzie czyli siedlisku postanowić kogoś, osadzić go; osiedlisko – miejsce osiedlenia, osada, osiadłość"@pl ,
+                                                    "t. 6, s. 1121: nieduże skupienie siedzib ludzkich (miejskich lub wiejskich); reg. na wsi: dom mieszkalny wraz z zabudowaniami gospodarczymi, zagroda, dostatnie osiedle bogatego chłopa, sołtysowe osiedle"@pl ,
+                                                    "zespół mieszkaniowy stanowiący integralną część miasta lub wsi"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_34 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "10. Rodzaj miejscowości (Klasa: AD_RodzajMiejscowosciKod): Zespół mieszkaniowy stanowiący integralną część miasta lub wsi; źródło: ustawa z dnia 29 sierpnia 2003 r. o urzędowych nazwach miejscowości i obiektów fizjograficznych."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_22
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_34 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "12. Typ ciągu komunikacyjnego (Klasa: AD_TypUlicyKod): Część miasta, wsi lub osady, dla której utworzono odrębny spójny zbiór numerów porządkowych nieprzyporządkowanych do żadnej ulicy ani placu."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_22
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_34 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "Rodzaj jednostki pomocniczej (Klasa: AD_RodzajJednostkiPomocniczej): Część miasta lub wsi, której uchwałą rady gminy nadano status jednostki pomocniczej."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_22
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_34 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 2, s. 526: nieduże skupisko budynków miejskich lub wiejskich, zespół bloków mieszkalnych, willowe, przyfabryczne, robotnicze, mieszkaniowe"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_19
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_34 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 20, s. 56: osiedle mieszkaniowe – zespół  mieszkaniowy stanowiący strukturalną jednostkę mieszkaniową w mieście; pojęcie „osiedle mieszkaniowe” wywodzi się z koncepcji jednostki sąsiedzkiej; wielkość osiedla mieszkaniowego wynika z zasięgu pieszego dojścia (600–800 m) do ośrodka usługowego oraz gęstości zaludnienia (5–20 tys. mieszk.) obszaru obsługiwanego przez ten ośrodek. Stanowi zespół budynków mieszkalnych wraz z integralnym zapleczem obiektów usługowych oraz terenów zieleni; niekiedy są wydzielane części osiedli mieszkaniowych – kolonie, złożone z kilku bloków mieszkalnych; kilka osiedli mieszkaniowych tworzy dzielnicę."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_21
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_34 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 22, s. 124: osiedla, osiedlisko – siedziba, gospodarstwo wraz z zabudowaniami"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_34 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 3, s. 590: osiedlić, na osadzie czyli siedlisku postanowić kogoś, osadzić go; osiedlisko – miejsce osiedlenia, osada, osiadłość"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_34 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 6, s. 1121: nieduże skupienie siedzib ludzkich (miejskich lub wiejskich); reg. na wsi: dom mieszkalny wraz z zabudowaniami gospodarczymi, zagroda, dostatnie osiedle bogatego chłopa, sołtysowe osiedle"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_34 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "zespół mieszkaniowy stanowiący integralną część miasta lub wsi"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_9
  ] .
@@ -18930,7 +18928,7 @@ ontohgis:settlement_type_37 rdfs:comment "Osada miejska to miejscowość."@pl ,
                                          "Urban settlement is a locality."@en ;
                             rdfs:label "osada miejska"@pl ,
                                        "urban settlement"@en ;
-                            rdfs:seeAlso "t. 20. s.47: od 1867 nazwa „osada miejska” jest używana dla niewielkich osiedli pozbawionych praw miejskich, które nie są wsiami."@enpl ;
+                            ontohgis:seeAlsoLiteral "t. 20. s.47: od 1867 nazwa „osada miejska” jest używana dla niewielkich osiedli pozbawionych praw miejskich, które nie są wsiami."@enpl ;
                             <http://www.w3.org/2004/02/skos/core#hiddenLabel> "miasteczko"@pl ;
                             <http://www.w3.org/2004/02/skos/core#prefLabel> "osada miejska"@pl ,
                                                                             "urban settlement"@en ;
@@ -18944,7 +18942,7 @@ ontohgis:settlement_type_37 rdfs:comment "Osada miejska to miejscowość."@pl ,
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_37 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 20. s.47: od 1867 nazwa „osada miejska” jest używana dla niewielkich osiedli pozbawionych praw miejskich, które nie są wsiami."@enpl ;
    rdfs:comment ontohgis:document_21
  ] .
@@ -19009,7 +19007,7 @@ It is necessary to distinguish  suburbs from the suburban settlements which were
                                        "przedmieście"@pl ,
                                        "suburb"@en ,
                                        "suburbium"@la ;
-                            rdfs:seeAlso "Obszar wokół miasta, w ówczesnej Polsce i Europie uzależniony od niego prawnie i gospodarczo"@pl ,
+                            ontohgis:seeAlsoLiteral "Obszar wokół miasta, w ówczesnej Polsce i Europie uzależniony od niego prawnie i gospodarczo"@pl ,
                                          "osada, teren, posiadłość poza obrębem murów miejskich"@pl ,
                                          "peryferyjna dzielnica miasta"@pl ;
                             <http://www.w3.org/2004/02/skos/core#hiddenLabel> "osada podmiejska"@pl ,
@@ -19025,21 +19023,21 @@ It is necessary to distinguish  suburbs from the suburban settlements which were
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_43 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "Obszar wokół miasta, w ówczesnej Polsce i Europie uzależniony od niego prawnie i gospodarczo"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_43 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "osada, teren, posiadłość poza obrębem murów miejskich"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_6
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_43 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "peryferyjna dzielnica miasta"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_3
  ] .
@@ -19172,7 +19170,7 @@ Odrębność przestrzenna – wyraźna w przy Czarnieckiej Górze i Miłowodach 
                                          "Występuje jako rodzaj miejscowości u Bystrzyckiego w spisie (uzdrow.).Na mapach WIG oznaczane krojem pisma charakterystycznym dla miejscowości (Czarniecka Góra, Nałęczów) lub budynków/obiektów terenowych (Miłowody); brak odrębnej sygnatury/skrótu objaśniające w legendach."@pl ;
                             rdfs:label "spa"@en ,
                                        "uzdrowisko"@pl ;
-                            rdfs:seeAlso "miejscowość, która ze względu na warunki klimatyczne, źródła lecznicze, pokłady borowiny, itp. sprzyja leczeniu chorób i służy jako ośrodek leczniczy i wypoczynkowy"@pl ,
+                            ontohgis:seeAlsoLiteral "miejscowość, która ze względu na warunki klimatyczne, źródła lecznicze, pokłady borowiny, itp. sprzyja leczeniu chorób i służy jako ośrodek leczniczy i wypoczynkowy"@pl ,
                                          "t. 7, s. 424 – zakład leczniczy, lecznisko, leczysko, sanatorium"@pl ;
                             <http://www.w3.org/2004/02/skos/core#altLabel> "spa town"@en ;
                             <http://www.w3.org/2004/02/skos/core#hiddenLabel> "lecznica"@pl ,
@@ -19189,14 +19187,14 @@ Odrębność przestrzenna – wyraźna w przy Czarnieckiej Górze i Miłowodach 
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_53 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "miejscowość, która ze względu na warunki klimatyczne, źródła lecznicze, pokłady borowiny, itp. sprzyja leczeniu chorób i służy jako ośrodek leczniczy i wypoczynkowy"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_53 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 7, s. 424 – zakład leczniczy, lecznisko, leczysko, sanatorium"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_5
  ] .
@@ -19208,7 +19206,7 @@ The basic criterion of distinguishing forest district from other localities or s
 Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub jednostek osadniczych w aspekcie funkcjonalnym jest jego związek z organizacją produkcji leśnej lub rolniczej. Poszczególne części obszarów leśnych lub rolnych dla lepszej orientacji w przestrzeni otrzymywały swoje nazwy własne. Nie wykluczało to też procesu osiedlania się a tym samym przekształcania uroczyska w rodzaj miejscowości. Odrębność morfologiczna uroczysk ze względu na charakter granic naturalnych (bagna, polany etc.) jest rozmyta. Od strony prawnej status uroczyska jest dość niejasny, gdyż termin ten był używany także w odniesieniu do różnego typu osad leśnych lub części lasów takich jak bory czy ostępy."""@pl ;
                             rdfs:label "forest district"@en ,
                                        "uroczysko"@pl ;
-                            rdfs:seeAlso "s. 57-80: uroczyska to cała gama pojęć, stale łąki i lokacje straży leśnej, czasem synonimy borów i ostępów, zjawiska terenowe zasadniczo rozległe o wielce zróżniczkowanej, a raczej nieuchwytnej i zatraconej już, treści. Można tylko utrzymywać, że uroczyska to teren eksploatacji par excellence."@pl ,
+                            ontohgis:seeAlsoLiteral "s. 57-80: uroczyska to cała gama pojęć, stale łąki i lokacje straży leśnej, czasem synonimy borów i ostępów, zjawiska terenowe zasadniczo rozległe o wielce zróżniczkowanej, a raczej nieuchwytnej i zatraconej już, treści. Można tylko utrzymywać, że uroczyska to teren eksploatacji par excellence."@pl ,
                                          "t. 15, s. 34: nazwa kopca lub miejsca granicznego nieosiedlonego. Według Chodakowskiego, uroczyska, na Rusi horodyszczami zwane, były to w Słowiańszczyźnie przedchrześcijańskiej place, czyli świątyń posady, do sprawowania uroczystych pogańskich ofiar przeznaczone i nie mające śladu opisania wałami, byleby oddzielna, właściwe imię mająca, przywiązana do nich była jakaś pamiątka."@pl ,
                                          "t. 6, s. 80: uroczysko, uroczyszcze -- (Rs. urocziszcze, = powiat, kraina); kopiec, mieysce graniczne. Tr. Gränzstein, Mohlhausen."@pl ,
                                          "t. 7, s. 348: 1. starożytny , z czasów pogańskich nasyp ziemny w postaci mogiły a. okopu, kopiec, kurhan; miejsce graniczne. Troc. 2. miejsce odludne, tajemnicze – 3. miejscowość nie zamieszkana, nosząca jakie oddzielne charakterystyczne miano – 4. pewna część gruntu a. gruntów kilku posiadaczy w jednym miejscu, nosząca pewną nazwę – 5. miejsce w polu, składające się z gruntu i łąk, dawniej zarosłe lasem. 6. bart. okręg bartniczy --, 7. leśn. część lasu, oddzielona od innych części naturalnymi granicami, jako oto: wzgórzami, strumykami, łąkami, drogami i.t.p. albo też różniąca się drzewostanem"@pl ,
@@ -19240,42 +19238,42 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_54 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "s. 57-80: uroczyska to cała gama pojęć, stale łąki i lokacje straży leśnej, czasem synonimy borów i ostępów, zjawiska terenowe zasadniczo rozległe o wielce zróżniczkowanej, a raczej nieuchwytnej i zatraconej już, treści. Można tylko utrzymywać, że uroczyska to teren eksploatacji par excellence."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_14
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_54 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 15, s. 34: nazwa kopca lub miejsca granicznego nieosiedlonego. Według Chodakowskiego, uroczyska, na Rusi horodyszczami zwane, były to w Słowiańszczyźnie przedchrześcijańskiej place, czyli świątyń posady, do sprawowania uroczystych pogańskich ofiar przeznaczone i nie mające śladu opisania wałami, byleby oddzielna, właściwe imię mająca, przywiązana do nich była jakaś pamiątka."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_15
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_54 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 6, s. 80: uroczysko, uroczyszcze -- (Rs. urocziszcze, = powiat, kraina); kopiec, mieysce graniczne. Tr. Gränzstein, Mohlhausen."@pl ;
    ontohgis:isDefinedByEntity ontohgis:person_21
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_54 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 7, s. 348: 1. starożytny , z czasów pogańskich nasyp ziemny w postaci mogiły a. okopu, kopiec, kurhan; miejsce graniczne. Troc. 2. miejsce odludne, tajemnicze – 3. miejscowość nie zamieszkana, nosząca jakie oddzielne charakterystyczne miano – 4. pewna część gruntu a. gruntów kilku posiadaczy w jednym miejscu, nosząca pewną nazwę – 5. miejsce w polu, składające się z gruntu i łąk, dawniej zarosłe lasem. 6. bart. okręg bartniczy --, 7. leśn. część lasu, oddzielona od innych części naturalnymi granicami, jako oto: wzgórzami, strumykami, łąkami, drogami i.t.p. albo też różniąca się drzewostanem"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_5
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_54 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 9, s. 431: 1. miedza graniczna, granica, limes agrorum, finis -- 2. teren poza granicą posiadłości, ale do niej przynależny, z własnymi granicami naturalnymi, locus extra fines praedii situs, sed ad id praedium pertinens, proprios fines naturales habens."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_6
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_54 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "u dawnych Słowian: miejsce przed świątynią lub w głębi puszczy, związane z kultem jakiegoś bóstwa, z odbywaniem narad, sądów; ogólnie: miejsce odludne, tajemnicze; pustkowie -- 2. część terenu (zwykle lasu wyodrębniona za pomocą nazwy o charakterze topograficznym."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4 ;
    ontohgis:isDefinedByIRI <http://sjp.pwn.pl/doroszewski/uroczysko;5512266.html>
@@ -19462,7 +19460,7 @@ ontohgis:settlement_type_69 rdfs:comment "Brak oficjalnej definicji w \"Ustawie 
                                          "There are 233 forest settlements of a village in Poland, mainly in Świętokrzyskie northern part of Lubelskie, northern part of Lubuskie voivodships as well as in \"Bory Tuchulskie\" (Pomorskie voivodship)."@en ;
                             rdfs:label "forest settlement of a village"@en ,
                                        "osada leśna wsi"@pl ;
-                            rdfs:seeAlso "t. 20. s.47: Osady przemysłowe - osiedla dla robotników i rzemieślników zakładane XVIII – XIX w. w związku z dokonującym się procesem uprzemysłowienia, niekiedy zwane osadami fabrycznymi; zwykle osady przemysłowe obejmowały zarówno zakłady przemysłowe jak i związane z nimi kolonie domów mieszkalnych. Na ziemiach polskich powstawały od końca XVIII wieku jako osady prywatne bądź rządowe i stopniowo uzyskiwały prawa miejskie;  w drugiej połowie XIX wieku termin „osady przemysłowe” zaczęto używać do wszelkich osiedli rozwijających się wokół zakładów przemysłowych; dzielnice mieszkaniowe, zwane koloniami lub domami fabrycznymi wznoszono w drugiej połowie XIX i w XX wieku przez wielkie zakłady przemysłowe w już istniejących miejscowościach dla robotników i urzędników niższego szczebla, zwykle o niskim standardzie i niewysokich czynszach."@pl ;
+                            ontohgis:seeAlsoLiteral "t. 20. s.47: Osady przemysłowe - osiedla dla robotników i rzemieślników zakładane XVIII – XIX w. w związku z dokonującym się procesem uprzemysłowienia, niekiedy zwane osadami fabrycznymi; zwykle osady przemysłowe obejmowały zarówno zakłady przemysłowe jak i związane z nimi kolonie domów mieszkalnych. Na ziemiach polskich powstawały od końca XVIII wieku jako osady prywatne bądź rządowe i stopniowo uzyskiwały prawa miejskie;  w drugiej połowie XIX wieku termin „osady przemysłowe” zaczęto używać do wszelkich osiedli rozwijających się wokół zakładów przemysłowych; dzielnice mieszkaniowe, zwane koloniami lub domami fabrycznymi wznoszono w drugiej połowie XIX i w XX wieku przez wielkie zakłady przemysłowe w już istniejących miejscowościach dla robotników i urzędników niższego szczebla, zwykle o niskim standardzie i niewysokich czynszach."@pl ;
                             <http://www.w3.org/2004/02/skos/core#altLabel> "osada przemysłowa (pl)" ;
                             <http://www.w3.org/2004/02/skos/core#hiddenLabel> "Ansiedlung"@de ,
                                                                               "Kolonie"@de ,
@@ -19485,7 +19483,7 @@ ontohgis:settlement_type_69 rdfs:comment "Brak oficjalnej definicji w \"Ustawie 
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_69 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 20. s.47: Osady przemysłowe - osiedla dla robotników i rzemieślników zakładane XVIII – XIX w. w związku z dokonującym się procesem uprzemysłowienia, niekiedy zwane osadami fabrycznymi; zwykle osady przemysłowe obejmowały zarówno zakłady przemysłowe jak i związane z nimi kolonie domów mieszkalnych. Na ziemiach polskich powstawały od końca XVIII wieku jako osady prywatne bądź rządowe i stopniowo uzyskiwały prawa miejskie;  w drugiej połowie XIX wieku termin „osady przemysłowe” zaczęto używać do wszelkich osiedli rozwijających się wokół zakładów przemysłowych; dzielnice mieszkaniowe, zwane koloniami lub domami fabrycznymi wznoszono w drugiej połowie XIX i w XX wieku przez wielkie zakłady przemysłowe w już istniejących miejscowościach dla robotników i urzędników niższego szczebla, zwykle o niskim standardzie i niewysokich czynszach."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_21
  ] .
@@ -19495,7 +19493,7 @@ ontohgis:settlement_type_7 rdfs:comment "Usually, a manor house was located away
                                         "Zazwyczaj dwór położony był poza głównym zbudową wsi, na jej obrzeżach lub w nieznacznym oddaleniu. Pojęcie często tożsame w literaturze z folwarkiem. Z czasem dwór pojawia się w kontekście pisania o życiu, kulturze, obyczajowości, a folwark dotyczy kwestii gospodarczych."@pl ;
                            rdfs:label "dwór - obiekt"@pl ,
                                       "manor house"@en ;
-                           rdfs:seeAlso "1. dom mieszkalny, budynek; siedziba szlachcica, właściciela majątku ziemskiego; majętność, posiadłość ziemska; 2. miejsce czasowego pobytu; lokal wynajęty (może dom zajezdny); 3. pałac, zamek, rezydencja; ewentualnie miejsce czasowego pobytu panującego; siedziba zwierzchnika (magnata) świeckiego lub duchownego; 4. miejsce posiedzeń senatu lub sądu w starożytnym Rzymie; także sama rada senatu; 5. otoczenie, środowisko skupiające się dokoła monarchy lub magnata, duchownego; dworzanie, urzędnicy, świta dworska, orszak; ogólnie: rząd danego państwa z panującym na czele; 6. siły zbrojne nadworne, żołnierze straży przybocznej monarchy; 7. praw. sąd królewski, w którym orzekał sam król osobiście przy asyście dygnitarzy królewskich lub zlecał rozpatrzenie sprawy i wydanie wyroku wyznaczonym dygnitarzom znajdującym się w danym momencie na dworze, to jest w miejscu pobytu władcy; 8. miejsce na zewnątrz domu, otaczająca dom; podwórze, dziedziniec, przestrzeń pod gołym niebem"@pl ,
+                           ontohgis:seeAlsoLiteral "1. dom mieszkalny, budynek; siedziba szlachcica, właściciela majątku ziemskiego; majętność, posiadłość ziemska; 2. miejsce czasowego pobytu; lokal wynajęty (może dom zajezdny); 3. pałac, zamek, rezydencja; ewentualnie miejsce czasowego pobytu panującego; siedziba zwierzchnika (magnata) świeckiego lub duchownego; 4. miejsce posiedzeń senatu lub sądu w starożytnym Rzymie; także sama rada senatu; 5. otoczenie, środowisko skupiające się dokoła monarchy lub magnata, duchownego; dworzanie, urzędnicy, świta dworska, orszak; ogólnie: rząd danego państwa z panującym na czele; 6. siły zbrojne nadworne, żołnierze straży przybocznej monarchy; 7. praw. sąd królewski, w którym orzekał sam król osobiście przy asyście dygnitarzy królewskich lub zlecał rozpatrzenie sprawy i wydanie wyroku wyznaczonym dygnitarzom znajdującym się w danym momencie na dworze, to jest w miejscu pobytu władcy; 8. miejsce na zewnątrz domu, otaczająca dom; podwórze, dziedziniec, przestrzeń pod gołym niebem"@pl ,
                                         "1. miejsce pod niebem zagrodzone przy pomieszkanu, podworze (por. dziedziniec); 2. sądy za dworem królewskim, przy boku króla odprawujące się; 3. w wiekach dawnych, zjazd króla na różne miejsca, gdzie święta uroczystsze odbywał, obywatelów zgromadzał, sprawy sądził, okoliczności powiatowe ułatwiał, igrzyska i uczty dawał; 4. dwór królewski, zgromadzenie u króla, pokoje"@pl ,
                                         "1. przestrzeń otaczając dom, otwarte powietrze, miejsce pod gołym niebem; 2. podwórze, dziedziniec; 3. dom właściciela majątku ziemskiego, mieszkanie dziedzica; 4. gospodarstwo dworskie, folwark; 5. (przenośnie) mieszkańcy dworu wiejskiego, szczególnie dziedzic z rodziną, państwo; 6. dom, mieszkanie; 7. oficjaliści panów, szczególnie wyżsi, dworzanie; 8. miejsce pobytu albo mieszkanie panującego albo magnata; 9. panujący i jego otoczenie; 10. służba dworska; 11. zebranie u króla, sąd dworski, żołnierze nadworni"@pl ,
                                         "1. siedziba panującego lub księcia; 2. ludzie otaczający panującego lub księcia; 3. obszerny dom mieszkalny, charakterystyczny dla dawnych posiadłości ziemskich; 4. majątek ziemski z domem i zabudowaniami; 5. właściciele posiadłości ziemskiej, jej mieszkańcy, administracja; 6. otwarta przestrzeń na zewnątrz domu"@pl ,
@@ -19523,42 +19521,42 @@ ontohgis:settlement_type_7 rdfs:comment "Usually, a manor house was located away
                                                <http://vocab.getty.edu/aat/300005579> ,
                                                <https://www.wikidata.org/wiki/Q879050> ;
                            ontohgis:seeAlsoLiteral "1. dom mieszkalny, budynek; siedziba szlachcica, właściciela majątku ziemskiego; majętność, posiadłość ziemska; 2. miejsce czasowego pobytu; lokal wynajęty (może dom zajezdny); 3. pałac, zamek, rezydencja; ewentualnie miejsce czasowego pobytu panującego; siedziba zwierzchnika (magnata) świeckiego lub duchownego; 4. miejsce posiedzeń senatu lub sądu w starożytnym Rzymie; także sama rada senatu; 5. otoczenie, środowisko skupiające się dokoła monarchy lub magnata, duchownego; dworzanie, urzędnicy, świta dworska, orszak; ogólnie: rząd danego państwa z panującym na czele; 6. siły zbrojne nadworne, żołnierze straży przybocznej monarchy; 7. praw. sąd królewski, w którym orzekał sam król osobiście przy asyście dygnitarzy królewskich lub zlecał rozpatrzenie sprawy i wydanie wyroku wyznaczonym dygnitarzom znajdującym się w danym momencie na dworze, to jest w miejscu pobytu władcy; 8. miejsce na zewnątrz domu, otaczająca dom; podwórze, dziedziniec, przestrzeń pod gołym niebem"@pl ,
-                                               "1. miejsce pod niebem zagrodzone przy pomieszkanu, podworze (por. dziedziniec); 2. sądy za dworem królewskim, przy boku króla odprawujące się; 3. w wiekach dawnych, zjazd króla na różne miejsca, gdzie święta uroczystsze odbywał, obywatelów zgromadzał, sprawy sądził, okoliczności powiatowe ułatwiał, igrzyska i uczty dawał; 4. dwór królewski, zgromadzenie u króla, pokoje"@pl ,
-                                               "1. przestrzeń otaczając dom, otwarte powietrze, miejsce pod gołym niebem; 2. podwórze, dziedziniec; 3. dom właściciela majątku ziemskiego, mieszkanie dziedzica; 4. gospodarstwo dworskie, folwark; 5. (przenośnie) mieszkańcy dworu wiejskiego, szczególnie dziedzic z rodziną, państwo; 6. dom, mieszkanie; 7. oficjaliści panów, szczególnie wyżsi, dworzanie; 8. miejsce pobytu albo mieszkanie panującego albo magnata; 9. panujący i jego otoczenie; 10. służba dworska; 11. zebranie u króla, sąd dworski, żołnierze nadworni"@pl ,
-                                               "1. siedziba panującego lub księcia; 2. ludzie otaczający panującego lub księcia; 3. obszerny dom mieszkalny, charakterystyczny dla dawnych posiadłości ziemskich; 4. majątek ziemski z domem i zabudowaniami; 5. właściciele posiadłości ziemskiej, jej mieszkańcy, administracja; 6. otwarta przestrzeń na zewnątrz domu"@pl ,
-                                               "s. 9: -- desygnatem dworu jest tzw. gródek stożkowaty, czyli stanowisko archeologiczne mające wyodrębnioną formę terenową, najczęściej w postaci kopca lub przestrzeni zamkniętej dookolnymi obronnymi wałami"@pl .
+                                                   "1. miejsce pod niebem zagrodzone przy pomieszkanu, podworze (por. dziedziniec); 2. sądy za dworem królewskim, przy boku króla odprawujące się; 3. w wiekach dawnych, zjazd króla na różne miejsca, gdzie święta uroczystsze odbywał, obywatelów zgromadzał, sprawy sądził, okoliczności powiatowe ułatwiał, igrzyska i uczty dawał; 4. dwór królewski, zgromadzenie u króla, pokoje"@pl ,
+                                                   "1. przestrzeń otaczając dom, otwarte powietrze, miejsce pod gołym niebem; 2. podwórze, dziedziniec; 3. dom właściciela majątku ziemskiego, mieszkanie dziedzica; 4. gospodarstwo dworskie, folwark; 5. (przenośnie) mieszkańcy dworu wiejskiego, szczególnie dziedzic z rodziną, państwo; 6. dom, mieszkanie; 7. oficjaliści panów, szczególnie wyżsi, dworzanie; 8. miejsce pobytu albo mieszkanie panującego albo magnata; 9. panujący i jego otoczenie; 10. służba dworska; 11. zebranie u króla, sąd dworski, żołnierze nadworni"@pl ,
+                                                   "1. siedziba panującego lub księcia; 2. ludzie otaczający panującego lub księcia; 3. obszerny dom mieszkalny, charakterystyczny dla dawnych posiadłości ziemskich; 4. majątek ziemski z domem i zabudowaniami; 5. właściciele posiadłości ziemskiej, jej mieszkańcy, administracja; 6. otwarta przestrzeń na zewnątrz domu"@pl ,
+                                                   "s. 9: -- desygnatem dworu jest tzw. gródek stożkowaty, czyli stanowisko archeologiczne mające wyodrębnioną formę terenową, najczęściej w postaci kopca lub przestrzeni zamkniętej dookolnymi obronnymi wałami"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_7 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "1. dom mieszkalny, budynek; siedziba szlachcica, właściciela majątku ziemskiego; majętność, posiadłość ziemska; 2. miejsce czasowego pobytu; lokal wynajęty (może dom zajezdny); 3. pałac, zamek, rezydencja; ewentualnie miejsce czasowego pobytu panującego; siedziba zwierzchnika (magnata) świeckiego lub duchownego; 4. miejsce posiedzeń senatu lub sądu w starożytnym Rzymie; także sama rada senatu; 5. otoczenie, środowisko skupiające się dokoła monarchy lub magnata, duchownego; dworzanie, urzędnicy, świta dworska, orszak; ogólnie: rząd danego państwa z panującym na czele; 6. siły zbrojne nadworne, żołnierze straży przybocznej monarchy; 7. praw. sąd królewski, w którym orzekał sam król osobiście przy asyście dygnitarzy królewskich lub zlecał rozpatrzenie sprawy i wydanie wyroku wyznaczonym dygnitarzom znajdującym się w danym momencie na dworze, to jest w miejscu pobytu władcy; 8. miejsce na zewnątrz domu, otaczająca dom; podwórze, dziedziniec, przestrzeń pod gołym niebem"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_7 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "1. miejsce pod niebem zagrodzone przy pomieszkanu, podworze (por. dziedziniec); 2. sądy za dworem królewskim, przy boku króla odprawujące się; 3. w wiekach dawnych, zjazd króla na różne miejsca, gdzie święta uroczystsze odbywał, obywatelów zgromadzał, sprawy sądził, okoliczności powiatowe ułatwiał, igrzyska i uczty dawał; 4. dwór królewski, zgromadzenie u króla, pokoje"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_1
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_7 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "1. przestrzeń otaczając dom, otwarte powietrze, miejsce pod gołym niebem; 2. podwórze, dziedziniec; 3. dom właściciela majątku ziemskiego, mieszkanie dziedzica; 4. gospodarstwo dworskie, folwark; 5. (przenośnie) mieszkańcy dworu wiejskiego, szczególnie dziedzic z rodziną, państwo; 6. dom, mieszkanie; 7. oficjaliści panów, szczególnie wyżsi, dworzanie; 8. miejsce pobytu albo mieszkanie panującego albo magnata; 9. panujący i jego otoczenie; 10. służba dworska; 11. zebranie u króla, sąd dworski, żołnierze nadworni"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_5
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_7 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "1. siedziba panującego lub księcia; 2. ludzie otaczający panującego lub księcia; 3. obszerny dom mieszkalny, charakterystyczny dla dawnych posiadłości ziemskich; 4. majątek ziemski z domem i zabudowaniami; 5. właściciele posiadłości ziemskiej, jej mieszkańcy, administracja; 6. otwarta przestrzeń na zewnątrz domu"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_7 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "s. 9: -- desygnatem dworu jest tzw. gródek stożkowaty, czyli stanowisko archeologiczne mające wyodrębnioną formę terenową, najczęściej w postaci kopca lub przestrzeni zamkniętej dookolnymi obronnymi wałami"@pl ;
    rdfs:comment ontohgis:document_13
  ] .
@@ -19708,7 +19706,7 @@ ontohgis:settlement_type_8 rdfs:comment "A demesne (manor) may be considered as 
                                         "Folwark może być traktowany jako odrębna miejscowość, o ile posiadał własną nazwę. Zazwyczaj folwark położony był poza główną zabudową wsi, na jej obrzeżach lub w nieznacznym oddaleniu."@pl ;
                            rdfs:label "demesne"@en ,
                                       "folwark"@pl ;
-                           rdfs:seeAlso "duże gospodarstwo rolne wraz z zabudowaniami."@pl ,
+                           ontohgis:seeAlsoLiteral "duże gospodarstwo rolne wraz z zabudowaniami."@pl ,
                                         "t. 1, s. 173: duże gospodarstwo rolne lub rolno-hodowlane, produkujące głównie na zbyt, posługujące się pracą chłopów pańszczyźnianych albo siłą najemną. Organizowane przez feudalnych właścicieli ziemskich już w XIV w., stanowiły kontynuację tzw. rezerwy pańskiej, czyli gruntów wyłączonych spod uprawy chłopskiej i przeznaczonych do zaspokajania bezpośrednich potrzeb dworu--’"@pl ,
                                         "t. 1, s. 759: 1. mała wioska, leżąca obok dużej, oddzielona część wsi; przysiółek; 2. majętność, grunt z zabudowaniem, ferma; 3. dwór we wsi, mieszkanie dziedzica albo dzierżawcy razem z zabudowaniami dworskimi."@pl ,
                                         "t. 7, s. 90–91: 1. ziemskie gospodarstwo, w przeciwieństwie do gospodarstwa chłopskiego, grunt z zabudowaniami gospodarskimi i mieszkalnymi, często będący częścią większej majętności; zazwyczaj wydzielona część wsi; 2. zabudowania gospodarcze; 3. ziemia orna, rola należąca do folwarku; 4. posiadłość ziemska, dworek z zabudowaniami gospodarskimi położony pod miastem; 5. wieś"@pl ;
@@ -19736,13 +19734,13 @@ ontohgis:settlement_type_8 rdfs:comment "A demesne (manor) may be considered as 
                                                <http://vocab.getty.edu/aat/300000238> ,
                                                <http://vocab.getty.edu/aat/300108235> ;
                            ontohgis:seeAlsoLiteral "duże gospodarstwo rolne wraz z zabudowaniami."@pl ,
-                                               "t. 1, s. 173: duże gospodarstwo rolne lub rolno-hodowlane, produkujące głównie na zbyt, posługujące się pracą chłopów pańszczyźnianych albo siłą najemną. Organizowane przez feudalnych właścicieli ziemskich już w XIV w., stanowiły kontynuację tzw. rezerwy pańskiej, czyli gruntów wyłączonych spod uprawy chłopskiej i przeznaczonych do zaspokajania bezpośrednich potrzeb dworu--’"@pl ,
-                                               "t. 1, s. 759: 1. mała wioska, leżąca obok dużej, oddzielona część wsi; przysiółek; 2. majętność, grunt z zabudowaniem, ferma; 3. dwór we wsi, mieszkanie dziedzica albo dzierżawcy razem z zabudowaniami dworskimi."@pl ,
-                                               "t. 7, s. 90–91: 1. ziemskie gospodarstwo, w przeciwieństwie do gospodarstwa chłopskiego, grunt z zabudowaniami gospodarskimi i mieszkalnymi, często będący częścią większej majętności; zazwyczaj wydzielona część wsi; 2. zabudowania gospodarcze; 3. ziemia orna, rola należąca do folwarku; 4. posiadłość ziemska, dworek z zabudowaniami gospodarskimi położony pod miastem; 5. wieś"@pl .
+                                                   "t. 1, s. 173: duże gospodarstwo rolne lub rolno-hodowlane, produkujące głównie na zbyt, posługujące się pracą chłopów pańszczyźnianych albo siłą najemną. Organizowane przez feudalnych właścicieli ziemskich już w XIV w., stanowiły kontynuację tzw. rezerwy pańskiej, czyli gruntów wyłączonych spod uprawy chłopskiej i przeznaczonych do zaspokajania bezpośrednich potrzeb dworu--’"@pl ,
+                                                   "t. 1, s. 759: 1. mała wioska, leżąca obok dużej, oddzielona część wsi; przysiółek; 2. majętność, grunt z zabudowaniem, ferma; 3. dwór we wsi, mieszkanie dziedzica albo dzierżawcy razem z zabudowaniami dworskimi."@pl ,
+                                                   "t. 7, s. 90–91: 1. ziemskie gospodarstwo, w przeciwieństwie do gospodarstwa chłopskiego, grunt z zabudowaniami gospodarskimi i mieszkalnymi, często będący częścią większej majętności; zazwyczaj wydzielona część wsi; 2. zabudowania gospodarcze; 3. ziemia orna, rola należąca do folwarku; 4. posiadłość ziemska, dworek z zabudowaniami gospodarskimi położony pod miastem; 5. wieś"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_8 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "duże gospodarstwo rolne wraz z zabudowaniami."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_4 ;
    ontohgis:isDefinedByIRI <https://sjp.pwn.pl/doroszewski/folwark;5428273.html>
@@ -19750,21 +19748,21 @@ ontohgis:settlement_type_8 rdfs:comment "A demesne (manor) may be considered as 
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_8 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 1, s. 173: duże gospodarstwo rolne lub rolno-hodowlane, produkujące głównie na zbyt, posługujące się pracą chłopów pańszczyźnianych albo siłą najemną. Organizowane przez feudalnych właścicieli ziemskich już w XIV w., stanowiły kontynuację tzw. rezerwy pańskiej, czyli gruntów wyłączonych spod uprawy chłopskiej i przeznaczonych do zaspokajania bezpośrednich potrzeb dworu--’"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_17
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_8 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 1, s. 759: 1. mała wioska, leżąca obok dużej, oddzielona część wsi; przysiółek; 2. majętność, grunt z zabudowaniem, ferma; 3. dwór we wsi, mieszkanie dziedzica albo dzierżawcy razem z zabudowaniami dworskimi."@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_5
  ] .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_8 ;
-   owl:annotatedProperty rdfs:seeAlso ;
+   owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 7, s. 90–91: 1. ziemskie gospodarstwo, w przeciwieństwie do gospodarstwa chłopskiego, grunt z zabudowaniami gospodarskimi i mieszkalnymi, często będący częścią większej majętności; zazwyczaj wydzielona część wsi; 2. zabudowania gospodarcze; 3. ziemia orna, rola należąca do folwarku; 4. posiadłość ziemska, dworek z zabudowaniami gospodarskimi położony pod miastem; 5. wieś"@pl ;
    ontohgis:isDefinedByEntity ontohgis:document_2
  ] .
