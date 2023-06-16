@@ -17318,8 +17318,8 @@ ontohgis:settlement_type_121 rdfs:comment "In each analysed case, a rectory bein
                                                          "Plebania jest to dom lub zespół zabudowań przeznaczony do mieszkania dla plebana, podległych mu księży i innych osób zajmujących się jego obsługą."@pl ;
                              ontohgis:seeAlsoIRI <http://dbpedia.org/page/Clergy_house> ,
                                                  <http://vocab.getty.edu/aat/300005639> ,
-                                                 <https://www.wikidata.org/wiki/Q607241> ,
-                                                 "dom należący do parafii, przeznaczony na mieszkanie dla proboszcza"@pl ,
+                                                 <https://www.wikidata.org/wiki/Q607241> ;
+                             ontohgis:seeAlsoLiteral                    "dom należący do parafii, przeznaczony na mieszkanie dla proboszcza"@pl ,
                                                  "t. 2, cz. 2, s. 732: Pleban -- Plebania, -ii, ż., urząd plebański abo beneficjum --; Dochód plebański, ut dobra --; plebaniia, dom plebański, die Pfarrwohnung, die Pfarre. J ksiądz widzimy, plebaniią rzadki Buduie, że kto inszy weźmie po nim spadki. Pot. Pocz. 475 (Slo. fara; Hg. plebania; Cro. plebania; Vd. faroush; Ross. приходъ (cf. przychód)."@pl ,
                                                  "t. 24, s. 326: 1. Domostwo plebana -- ; flaminia -- ; parochia, plebanatus -- ; curionis domus, curionium --; 2. Terytorium będące pod opieką plebana; także urząd i dochody z niego; parochia --; plebanatus --; curionatus, curionium -- ; 2a. Wierni należący do parafii --. Synonimy: probostwo, parafija."@pl .
 
@@ -19016,8 +19016,8 @@ It is necessary to distinguish  suburbs from the suburban settlements which were
                             ontohgis:hasExternalIdentifier "43" ;
                             ontohgis:isDefinedByLiteral "Przedmieście to peryferyjna część miasta, tj. położona poza obrębem miasta właściwego (lokacyjnego), wyodrębniona przestrzennie lub morfologicznie i z własną nazwą, wobec której miasto pełni funkcje centralne."@pl ,
                                                         "Suburb is a peripheral part of the city, towards which the city performs central functions. A suburb is located outside its initial location city; distinguished spatially or morphologically and with its own (proper) name."@en ;
-                            ontohgis:seeAlsoIRI <http://linkedgeodata.org/ontology/Suburb> ,
-                                                "Obszar wokół miasta, w ówczesnej Polsce i Europie uzależniony od niego prawnie i gospodarczo"@pl ,
+                            ontohgis:seeAlsoIRI <http://linkedgeodata.org/ontology/Suburb> ;
+                             ontohgis:seeAlsoLiteral                   "Obszar wokół miasta, w ówczesnej Polsce i Europie uzależniony od niego prawnie i gospodarczo"@pl ,
                                                 "osada, teren, posiadłość poza obrębem murów miejskich"@pl ,
                                                 "peryferyjna dzielnica miasta"@pl .
 
