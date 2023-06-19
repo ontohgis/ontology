@@ -8096,8 +8096,8 @@ ontohgis:administrative_type_207 rdf:type owl:Class ;
                                  ontohgis:isDefinedByEntity ontohgis:administrative_system_36 ;
                                  ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_200 ;
                                  ontohgis:seeAlsoIRI <http://dbpedia.org/page/Diocese> ,
-                                                     <http://dbpedia.org/page/Superintendent_(ecclesiastical)> ,
-                                                     "s. 21: Funkcjonowały na poczatku 4 superintendentury, w 1901 r. utworzono piątą"@pl ;
+                                                     <http://dbpedia.org/page/Superintendent_(ecclesiastical)> ;
+                                  ontohgis:seeAlsoLiteral                   "s. 21: Funkcjonowały na poczatku 4 superintendentury, w 1901 r. utworzono piątą"@pl ;
                                  ontohgis:seeAlsoLiteral "s. 21: Funkcjonowały na poczatku 4 superintendentury, w 1901 r. utworzono piątą"@pl .
 
 [ rdf:type owl:Axiom ;
@@ -10284,8 +10284,8 @@ ontohgis:object_23 rdf:type owl:Class ;
                    rdfs:label "budynek"@pl ,
                               "building"@en ;
                    ontohgis:isDefinedByLiteral "Budynek jest to przedmiot trwający w czasie, który został wytworzony lub wykorzystany w celu odgraniczenia pewnej przestrzeni (“wewnątrz\") od innej przestrzeni (“zewnątrz”)."@pl ;
-                   ontohgis:seeAlsoIRI <http://gov.genealogy.net/types.owl#17> ,
-                                       "http://encyklopedia.pwn.pl/szukaj/budynek.html" .
+                   ontohgis:seeAlsoIRI <http://gov.genealogy.net/types.owl#17> ;
+                    ontohgis:seeAlsoLiteral                   "http://encyklopedia.pwn.pl/szukaj/budynek.html" .
 
 
 ###  https://onto.kul.pl/ontohgis/object_30
@@ -13616,8 +13616,8 @@ ontohgis:document_110 rdf:type owl:NamedIndividual ,
                       dc:creator "Boudinhon, A." ,
                                  "Fanning, W." ;
                       dc:date 1911 ;
-                      dc:identifier <http://www.newadvent.org/cathen/11499b.htm> ,
-                                    "The Catholic Encyclopedia. New York: Robert Appleton Company. Retrieved June 21, 2019"@en ;
+                      dc:identifier <http://www.newadvent.org/cathen/11499b.htm> ;
+                      ontohgis:seeAlsoLiteral              "The Catholic Encyclopedia. New York: Robert Appleton Company. Retrieved June 21, 2019"@en ;
                       dc:title "Parish"@en ;
                       rdfs:label "Boudinhon, Fanning, Parish"@en .
 
@@ -18524,8 +18524,8 @@ Występuje na mapach w nazwach miejscowości (letn.), ale nie w kluczach znaków
                             ontohgis:seeAlsoIRI <http://vocab.getty.edu/aat/300000547> ,
                                                 <http://vocab.getty.edu/aat/300000558> ,
                                                 <https://www.wikidata.org/wiki/Q317548> ,
-                                                <https://www.wikidata.org/wiki/Q875157> ,
-                                                "miejscowość wypoczynkowa; letni pobyt poza miastem w celach wypoczynkowych"@pl .
+                                                <https://www.wikidata.org/wiki/Q875157> ;
+                            ontohgis:seeAlsoLiteral                    "miejscowość wypoczynkowa; letni pobyt poza miastem w celach wypoczynkowych"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_25 ;
@@ -18577,8 +18577,8 @@ ontohgis:settlement_type_28 rdfs:comment "Miasteczko z zasady jest odrębną mie
                                                 <http://gov.genealogy.net/types.owl#51> ,
                                                 <http://linkedgeodata.org/ontology/Town> ,
                                                 <http://vocab.getty.edu/aat/300008375> ,
-                                                <https://www.wikidata.org/wiki/Q3957> ,
-                                                "małe miasto, -- przen. ludność małego miasta"@pl ,
+                                                <https://www.wikidata.org/wiki/Q3957> ;
+                             ontohgis:seeAlsoLiteral                   "małe miasto, -- przen. ludność małego miasta"@pl ,
                                                 "małe miasto; pot. mieszkańcy małego miasta"@pl ,
                                                 "t. 13, s. 369-372: 1. Od znacz. 'miejsce' --; 2. Od znacz. 'wytyczony i najczęściej otoczony murem teren pokryty gęstą i planową zabudową"@pl .
 
@@ -18937,8 +18937,8 @@ ontohgis:settlement_type_37 rdfs:comment "Osada miejska to miejscowość."@pl ,
                                                         "Urban settlement is a locality which used to have city rights, but currently without them."@en ;
                             ontohgis:seeAlsoIRI <http://dbpedia.org/page/Urban-type_settlement> ,
                                                 <https://www.wikidata.org/wiki/Q18432972> ,
-                                                <https://www.wikidata.org/wiki/Q2989457> ,
-                                                "t. 20. s.47: od 1867 nazwa „osada miejska” jest używana dla niewielkich osiedli pozbawionych praw miejskich, które nie są wsiami."@enpl .
+                                                <https://www.wikidata.org/wiki/Q2989457> ;
+                            ontohgis:seeAlsoLiteral                    "t. 20. s.47: od 1867 nazwa „osada miejska” jest używana dla niewielkich osiedli pozbawionych praw miejskich, które nie są wsiami."@enpl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_37 ;
@@ -19181,8 +19181,8 @@ Odrębność przestrzenna – wyraźna w przy Czarnieckiej Górze i Miłowodach 
                                                         "Uzdrowisko jest miejscowością, w której warunki klimatyczne sprzyjają leczeniu chorób i której główną funkcją jest obsługa kuracjuszy"@pl ;
                             ontohgis:seeAlsoIRI <http://dbpedia.org/page/Spa_town> ,
                                                 <https://www.wikidata.org/wiki/Q4946461> ,
-                                                <https://www.wikidata.org/wiki/Q6882870> ,
-                                                "miejscowość, która ze względu na warunki klimatyczne, źródła lecznicze, pokłady borowiny, itp. sprzyja leczeniu chorób i służy jako ośrodek leczniczy i wypoczynkowy"@pl ,
+                                                <https://www.wikidata.org/wiki/Q6882870> ;
+                            ontohgis:seeAlsoLiteral                    "miejscowość, która ze względu na warunki klimatyczne, źródła lecznicze, pokłady borowiny, itp. sprzyja leczeniu chorób i służy jako ośrodek leczniczy i wypoczynkowy"@pl ,
                                                 "t. 7, s. 424 – zakład leczniczy, lecznisko, leczysko, sanatorium"@pl .
 
 [ rdf:type owl:Axiom ;
@@ -19227,8 +19227,8 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
                             ontohgis:seeAlsoIRI <http://vocab.getty.edu/aat/300379281> ,
                                                 <https://pzgik.geoportal.gov.pl/ontologies/prng/uroczysko> ,
                                                 <https://pzgik.geoportal.gov.pl/ontologies/prng/uroczysko-dawnaMiejsc> ,
-                                                <https://www.wikidata.org/wiki/Q1434274> ,
-                                                "s. 57-80: uroczyska to cała gama pojęć, stale łąki i lokacje straży leśnej, czasem synonimy borów i ostępów, zjawiska terenowe zasadniczo rozległe o wielce zróżniczkowanej, a raczej nieuchwytnej i zatraconej już, treści. Można tylko utrzymywać, że uroczyska to teren eksploatacji par excellence."@pl ,
+                                                <https://www.wikidata.org/wiki/Q1434274> ;
+                             ontohgis:seeAlsoLiteral                   "s. 57-80: uroczyska to cała gama pojęć, stale łąki i lokacje straży leśnej, czasem synonimy borów i ostępów, zjawiska terenowe zasadniczo rozległe o wielce zróżniczkowanej, a raczej nieuchwytnej i zatraconej już, treści. Można tylko utrzymywać, że uroczyska to teren eksploatacji par excellence."@pl ,
                                                 "t. 15, s. 34: nazwa kopca lub miejsca granicznego nieosiedlonego. Według Chodakowskiego, uroczyska, na Rusi horodyszczami zwane, były to w Słowiańszczyźnie przedchrześcijańskiej place, czyli świątyń posady, do sprawowania uroczystych pogańskich ofiar przeznaczone i nie mające śladu opisania wałami, byleby oddzielna, właściwe imię mająca, przywiązana do nich była jakaś pamiątka."@pl ,
                                                 "t. 6, s. 80: uroczysko, uroczyszcze -- (Rs. urocziszcze, = powiat, kraina); kopiec, mieysce graniczne. Tr. Gränzstein, Mohlhausen."@pl ,
                                                 "t. 7, s. 348: 1. starożytny , z czasów pogańskich nasyp ziemny w postaci mogiły a. okopu, kopiec, kurhan; miejsce graniczne. Troc. 2. miejsce odludne, tajemnicze – 3. miejscowość nie zamieszkana, nosząca jakie oddzielne charakterystyczne miano – 4. pewna część gruntu a. gruntów kilku posiadaczy w jednym miejscu, nosząca pewną nazwę – 5. miejsce w polu, składające się z gruntu i łąk, dawniej zarosłe lasem. 6. bart. okręg bartniczy --, 7. leśn. część lasu, oddzielona od innych części naturalnymi granicami, jako oto: wzgórzami, strumykami, łąkami, drogami i.t.p. albo też różniąca się drzewostanem"@pl ,
@@ -19478,8 +19478,8 @@ ontohgis:settlement_type_69 rdfs:comment "Brak oficjalnej definicji w \"Ustawie 
                             ontohgis:isDefinedByLiteral "Forest settlement of a village is a forest settlement which is an integral part of  a village."@en ,
                                                         "Osada leśna wsi to osada leśna stanowiąca integralną część wsi."@pl ;
                             ontohgis:seeAlsoIRI <https://pzgik.geoportal.gov.pl/ontologies/prng/osadaLesnaWsi> ,
-                                                <https://www.wikidata.org/wiki/Q41970180> ,
-                                                "t. 20. s.47: Osady przemysłowe - osiedla dla robotników i rzemieślników zakładane XVIII – XIX w. w związku z dokonującym się procesem uprzemysłowienia, niekiedy zwane osadami fabrycznymi; zwykle osady przemysłowe obejmowały zarówno zakłady przemysłowe jak i związane z nimi kolonie domów mieszkalnych. Na ziemiach polskich powstawały od końca XVIII wieku jako osady prywatne bądź rządowe i stopniowo uzyskiwały prawa miejskie;  w drugiej połowie XIX wieku termin „osady przemysłowe” zaczęto używać do wszelkich osiedli rozwijających się wokół zakładów przemysłowych; dzielnice mieszkaniowe, zwane koloniami lub domami fabrycznymi wznoszono w drugiej połowie XIX i w XX wieku przez wielkie zakłady przemysłowe w już istniejących miejscowościach dla robotników i urzędników niższego szczebla, zwykle o niskim standardzie i niewysokich czynszach."@pl .
+                                                <https://www.wikidata.org/wiki/Q41970180> ;
+                            ontohgis:seeAlsoLiteral                    "t. 20. s.47: Osady przemysłowe - osiedla dla robotników i rzemieślników zakładane XVIII – XIX w. w związku z dokonującym się procesem uprzemysłowienia, niekiedy zwane osadami fabrycznymi; zwykle osady przemysłowe obejmowały zarówno zakłady przemysłowe jak i związane z nimi kolonie domów mieszkalnych. Na ziemiach polskich powstawały od końca XVIII wieku jako osady prywatne bądź rządowe i stopniowo uzyskiwały prawa miejskie;  w drugiej połowie XIX wieku termin „osady przemysłowe” zaczęto używać do wszelkich osiedli rozwijających się wokół zakładów przemysłowych; dzielnice mieszkaniowe, zwane koloniami lub domami fabrycznymi wznoszono w drugiej połowie XIX i w XX wieku przez wielkie zakłady przemysłowe w już istniejących miejscowościach dla robotników i urzędników niższego szczebla, zwykle o niskim standardzie i niewysokich czynszach."@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_69 ;
