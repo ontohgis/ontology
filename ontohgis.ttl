@@ -12845,15 +12845,15 @@ ontohgis:administrative_system_29 rdf:type owl:NamedIndividual ,
                                              "Kościół ewangelicko-augsburski w Rzeczypospolitej Obojga Narodów"@pl ;
                                   <http://www.w3.org/2004/02/skos/core#altLabel> "Kościół luterański w Rzeczypospolitej Obojga Narodów"@pl ,
                                                                                  "Lutheran Church in the Polish-Lithuanian Commonwealth"@en ;
-                                  ontohgis:seeAlsoIRI <http://dbpedia.org/page/Evangelical_Church_of_the_Augsburg_Confession_in_Poland> ,
-                                                      ontohgis:document_108 ,
+                                  ontohgis:seeAlsoIRI <http://dbpedia.org/page/Evangelical_Church_of_the_Augsburg_Confession_in_Poland> ;
+                                   ontohgis:seeAlsoEntity                   ontohgis:document_108 ,
                                                       ontohgis:document_109 ,
                                                       ontohgis:document_120 ,
                                                       ontohgis:document_121 ,
                                                       ontohgis:document_127 ,
                                                       ontohgis:document_128 ,
-                                                      ontohgis:document_129 ,
-                                                      <https://www.wikidata.org/wiki/Q1379796> .
+                                                      ontohgis:document_129 ;
+                                   ontohgis:seeAlsoIRI                   <https://www.wikidata.org/wiki/Q1379796> .
 
 
 ###  https://onto.kul.pl/ontohgis/administrative_system_3
