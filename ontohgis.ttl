@@ -17030,8 +17030,8 @@ ontohgis:settlement_type_113 rdfs:comment "At least untill the 13th century, a g
                              ontohgis:isDefinedByLiteral "Gord is a medieval or – in eastern territories – early modern settlement with revetments and stockades."@en ,
                                                          "Średniowieczna lub, na terenach wschodnich, wczesnonowożytna osada z obwarowaniami drewniano-ziemnymi."@pl ;
                              ontohgis:seeAlsoIRI <http://dbpedia.org/page/Gord_(archaeology)> ,
-                                                 <https://www.wikidata.org/wiki/Q88598> ,
-                                                 "t. 2, s. 637: \"pierwotnie osada obronna, ogrodzona palisadą lub obwałowana\""@pl ,
+                                                 <https://www.wikidata.org/wiki/Q88598> ;
+                              ontohgis:seeAlsoLiteral                   "t. 2, s. 637: \"pierwotnie osada obronna, ogrodzona palisadą lub obwałowana\""@pl ,
                                                  "t. 6, s. 22: \"miejsce obronne w znaczeniu późniejszym tyle co \"zamek\", \"miasto\"\""@pl ;
                              ontohgis:seeAlsoLiteral "t. 2, s. 168 (hasło \"Grodzisko\"): \"Grody to obiekty sztucznie ogrodzone w celach obronnych. Pojęcie to obejmuje wszelkiego rodzaju miejsca obronne, jak wsie, miasta, ośrodki administracyjne, wojskowe i inne schronienia przygotowane do obrony. W średniowieczu grodami nazywano też miasta\"."^^rdfs:Literal ,
                                                      "t. 2, s. 637: \"pierwotnie osada obronna, ogrodzona palisadą lub obwałowana\""^^rdfs:Literal ,
@@ -17082,8 +17082,8 @@ ontohgis:settlement_type_114 rdfs:comment "Chronologically, a castle with its fu
                              ontohgis:seeAlsoIRI <http://dbpedia.org/ontology/Castle> ,
                                                  <http://linkedgeodata.org/page/ontology/Castle> ,
                                                  <http://vocab.getty.edu/aat/300006891> ,
-                                                 <https://www.wikidata.org/wiki/Q23413> ,
-                                                 "miejsce obronne, twierdza"@pl ,
+                                                 <https://www.wikidata.org/wiki/Q23413> ;
+                             ontohgis:seeAlsoLiteral                    "miejsce obronne, twierdza"@pl ,
                                                  "od średniowiecza do w. XVII obronna siedziba pana feudalnego, ośrodek władzy; w XVII w. i później królewska, książęca lub magnacka rezydencja miejska lub pozamiejska"@pl .
 
 [ rdf:type owl:Axiom ;
@@ -17113,8 +17113,8 @@ ontohgis:settlement_type_115 rdfs:comment "Port morski określa funkcję, jako p
                              ontohgis:isDefinedByLiteral "Port morski to przybrzeżny obszar wodny wraz z infrastrukturą przeznaczony dla obsługi statków."@pl ,
                                                          "Sea harbour is an area consisting of coastal waters together with artificial structures designed for the ship service."@en ;
                              ontohgis:seeAlsoIRI <http://dbpedia.org/ontology/Port> ,
-                                                 <https://www.wikidata.org/wiki/Q15310171> ,
-                                                 "przybrzeżny obszar wodny, odpowiednio pogłębiony, osłonięty przed wiatrem i falą, przeznaczony dla postoju statków, wyposażony w specjalne urządzenia służące do ich załadowywania, wyładowywania, zaopatrzenia i naprawy; miasto  nabrzeżne, w którym jest także miejsce postoju statków."@pl ,
+                                                 <https://www.wikidata.org/wiki/Q15310171> ;
+                             ontohgis:seeAlsoLiteral                    "przybrzeżny obszar wodny, odpowiednio pogłębiony, osłonięty przed wiatrem i falą, przeznaczony dla postoju statków, wyposażony w specjalne urządzenia służące do ich załadowywania, wyładowywania, zaopatrzenia i naprawy; miasto  nabrzeżne, w którym jest także miejsce postoju statków."@pl ,
                                                  "t. 2, cz. 2. s. 929: część można między ziemią zamknięta, do którey okręty wchodzą o od burzy morskiey bezpieczeństwo znayduią"@pl .
 
 [ rdf:type owl:Axiom ;
@@ -17760,8 +17760,8 @@ If it has its a particular (proper) name, it can be treated as a separate locali
                              ontohgis:seeAlsoIRI <http://dbpedia.org/ontology/Lighthouse> ,
                                                  <http://linkedgeodata.org/ontology/Lighthouse> ,
                                                  <http://vocab.getty.edu/aat/300007741> ,
-                                                 <https://www.wikidata.org/wiki/Q39715> ,
-                                                 "wysoka, widoczna z morza wieża, służąca jako punkt orientacyjny dla statków"@pl .
+                                                 <https://www.wikidata.org/wiki/Q39715> ;
+                             ontohgis:seeAlsoLiteral                    "wysoka, widoczna z morza wieża, służąca jako punkt orientacyjny dla statków"@pl .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_131 ;
@@ -17953,8 +17953,8 @@ ontohgis:settlement_type_135 rdfs:comment "At the very beginning, breweries had 
                                                          "Browar jest to zakład wytwarzający piwo jak również zespół budynków przeznaczonych na cele produkcyjne i mieszkalne dla obsługi zakladu."@pl ;
                              ontohgis:seeAlsoIRI <http://dbpedia.org/ontology/Brewery> ,
                                                  <http://vocab.getty.edu/aat/300006341> ,
-                                                 <https://www.wikidata.org/wiki/Q131734> ,
-                                                 "t. 1, cz.12, s. 272: Browar, budynek, gdzie się piwo warzy, piwowarnia, mielcuch"@pl ,
+                                                 <https://www.wikidata.org/wiki/Q131734> ;
+                              ontohgis:seeAlsoLiteral                   "t. 1, cz.12, s. 272: Browar, budynek, gdzie się piwo warzy, piwowarnia, mielcuch"@pl ,
                                                  "t. 2, s. 455-456: budynek, w którym się warzy piwo, piwowarnia"@pl ,
                                                  "zakład produkujący piwo"@pl ,
                                                  "zakład przemysłowy, w którym wyrabia się piwo; wytwórnia piwa"@pl .
@@ -18007,8 +18007,8 @@ ontohgis:settlement_type_136 rdfs:comment "In each case analysed, a brickyard wi
                              ontohgis:isDefinedByLiteral "Brickyard is a factory where bricks and other ceramic building materials and elements are being produced together with a complex of buildings established for production and houses for factory workers."@en ,
                                                          "Cegielnia jest to zakład wytwarzający cegły oraz ew. inne ceramiczne elementy budowlane jak również zespół budynków przeznaczonych na cele produkcyjne i mieszkalne dla obsługi zakładu."@pl ;
                              ontohgis:seeAlsoIRI <http://vocab.getty.edu/aat/300006278> ,
-                                                 <https://www.wikidata.org/wiki/Q198632> ,
-                                                 "t. 1, cz. 1, s. 221: Cegielnia, Cegielnica, budynek z piecem od palenia cegieł, die Ziegelscheune, der Ziegelofen"@pl ,
+                                                 <https://www.wikidata.org/wiki/Q198632> ;
+                              ontohgis:seeAlsoLiteral                   "t. 1, cz. 1, s. 221: Cegielnia, Cegielnica, budynek z piecem od palenia cegieł, die Ziegelscheune, der Ziegelofen"@pl ,
                                                  "t. 3, s. 142: cegielnia – miejsce wyrobu cegieł"@pl ,
                                                  "wytwórnia cegly oraz innych materiałów budowlanych z gliny: dachówek, sączków (drenów), kafli, klinkierów, płytek itp."@pl ,
                                                  "wytwórnia cegły oraz innych materiałów budowlanych z gliny"@pl .
@@ -18164,8 +18164,8 @@ ontohgis:settlement_type_139 rdfs:comment "Distillery may have its own name - us
                              ontohgis:isDefinedByLiteral "Distillery is a factory where alcohol and spirits requiring distillation whilst manufacturing are produced."@en ,
                                                          "Gorzelnia jest to zakład wytwarzający spirytus oraz napoje alkoholowe o wysokiej zawartości alkoholu, wymagające w trakcie procesu produkcyjnego destylacji."@pl ;
                              ontohgis:seeAlsoIRI <http://vocab.getty.edu/aat/300006346> ,
-                                                 <https://www.wikidata.org/wiki/Q1251750> ,
-                                                 "t. 1, cz. 2, s. 54: Gorzalnia, gorzelnia, budowanie do palenia gorzałki (pospolicie zowią: browarem, ale borwar na piwo iest.)"@pl ,
+                                                 <https://www.wikidata.org/wiki/Q1251750> ;
+                             ontohgis:seeAlsoLiteral                    "t. 1, cz. 2, s. 54: Gorzalnia, gorzelnia, budowanie do palenia gorzałki (pospolicie zowią: browarem, ale borwar na piwo iest.)"@pl ,
                                                  "zakład przemysłowy produkujący alkohol etylowy"@pl ,
                                                  "zakład przemysłowy produkujący spirytus i wódki głównie z kartofli lub zboża"@pl .
 
