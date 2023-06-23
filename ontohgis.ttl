@@ -10284,8 +10284,8 @@ ontohgis:object_23 rdf:type owl:Class ;
                    rdfs:label "budynek"@pl ,
                               "building"@en ;
                    ontohgis:isDefinedByLiteral "Budynek jest to przedmiot trwający w czasie, który został wytworzony lub wykorzystany w celu odgraniczenia pewnej przestrzeni (“wewnątrz\") od innej przestrzeni (“zewnątrz”)."@pl ;
-                   ontohgis:seeAlsoIRI <http://gov.genealogy.net/types.owl#17> ;
-                    ontohgis:seeAlsoLiteral                   "http://encyklopedia.pwn.pl/szukaj/budynek.html" .
+                   ontohgis:seeAlsoIRI <http://gov.genealogy.net/types.owl#17> ,
+                                      <http://encyklopedia.pwn.pl/szukaj/budynek.html> .
 
 
 ###  https://onto.kul.pl/ontohgis/object_30
