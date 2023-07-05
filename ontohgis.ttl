@@ -16842,7 +16842,7 @@ ontohgis:settlement_type_117 rdfs:comment "Although tourist shelter is nowadays 
    owl:annotatedSource ontohgis:settlement_type_117 ;
    owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "budynek na szlaku turystycznym służący jako miejsce odpoczynku i noclegu dla turystów (kategorie: budynki, budowle i urządzenia; kompleksu użytkowania terenu, miejscowości)"@pl ;
-   rdfs:comment ontohgis:document_9
+   ontohgis:isDefinedByIRI ontohgis:document_9
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -17620,7 +17620,7 @@ ontohgis:settlement_type_136 rdfs:comment "In each case analysed, a brickyard wi
    owl:annotatedSource ontohgis:settlement_type_136 ;
    owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 3, s. 142: cegielnia – miejsce wyrobu cegieł"@pl ;
-   rdfs:comment ontohgis:document_2
+   ontohgis:isDefinedByIRI ontohgis:document_2
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -17989,7 +17989,7 @@ ontohgis:settlement_type_20 rdfs:comment "Colony is usually a part of another lo
    owl:annotatedSource ontohgis:settlement_type_20 ;
    owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 2,  s. 240: zabudowa, osiedle, domy znajdujące się z dala od miasta, wsi, osady; kolonia mieszkaniowa na przedmieściach, kolonia położona daleko za wsią, gospodarstwo rolne położone za wsią, posiadłość ziemska z dala od innych."@pl ;
-   rdfs:comment ontohgis:document_20
+   ontohgis:isDefinedByIRI ontohgis:document_20
  ] .
 
 [ rdf:type owl:Axiom ;
@@ -18469,7 +18469,7 @@ ontohgis:settlement_type_37 rdfs:comment "Osada miejska to miejscowość."@pl ,
    owl:annotatedSource ontohgis:settlement_type_37 ;
    owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "t. 20. s.47: od 1867 nazwa „osada miejska” jest używana dla niewielkich osiedli pozbawionych praw miejskich, które nie są wsiami."@enpl ;
-   rdfs:comment ontohgis:document_21
+   ontohgis:isDefinedByIRI ontohgis:document_21
  ] .
 
 
@@ -19043,7 +19043,7 @@ ontohgis:settlement_type_7 rdfs:comment "Usually, a manor house was located away
    owl:annotatedSource ontohgis:settlement_type_7 ;
    owl:annotatedProperty ontohgis:seeAlsoLiteral ;
    owl:annotatedTarget "s. 9: -- desygnatem dworu jest tzw. gródek stożkowaty, czyli stanowisko archeologiczne mające wyodrębnioną formę terenową, najczęściej w postaci kopca lub przestrzeni zamkniętej dookolnymi obronnymi wałami"@pl ;
-   rdfs:comment ontohgis:document_13
+   ontohgis:isDefinedByIRI ontohgis:document_13
  ] .
 
 
