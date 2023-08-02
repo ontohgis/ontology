@@ -10402,7 +10402,8 @@ ontohgis:settlement_type_104 rdf:type owl:Class ;
                                                owl:onProperty <http://www.geonames.org/ontology#featureCode> ;
                                                owl:hasValue <http://www.geonames.org/ontology#S.MFG>
                                              ] ;
-                             rdfs:label "fabryka" ;
+                             rdfs:label "fabryka"@pl ,
+                                        "factory"@en ;
                              ontohgis:seeAlsoIRI <http://dbpedia.org/ontology/Factory> ,
                                                  <http://linkedgeodata.org/ontology/Factory> .
 
@@ -11497,7 +11498,8 @@ ontohgis:settlement_type_83 rdf:type owl:Class ;
                                                   rdf:type owl:Class
                                                 ] ;
                             rdfs:subClassOf ontohgis:settlement_type_2 ;
-                            rdfs:label "wieś kościelna" ;
+                            rdfs:label "church village"@en ,
+                                       "wieś kościelna"@pl ;
                             ontohgis:seeAlsoIRI <http://gov.genealogy.net/types.owl#66> .
 
 
@@ -17211,24 +17213,29 @@ ontohgis:settlement_type_132 ontohgis:seeAlsoLiteral "1. zgromadzenie zakonne; z
 
 
 ontohgis:settlement_type_133 <http://www.w3.org/2004/02/skos/core#prefLabel> "sawmill"@en ;
+                             <http://www.w3.org/2004/02/skos/core#hiddenLabel> "młyn"@pl ;
                              ontohgis:seeAlsoLiteral "«zakład zajmujący się rozpiłowywaniem kłód na tarcicę oraz przerobem tarcicy na różne elementy»"@pl ;
                              rdfs:comment "In most analysed cases, if the sawmill was morphologically distinct, it had the same name as the neighboring village or another locality, such as: forester's lodge. Occasionally it had its particular name."@en ;
+                             <http://www.w3.org/2004/02/skos/core#hiddenLabel> "osada młyńska"@pl ;
                              ontohgis:hasLanguageVerificator ontohgis:person_1 ;
                              ontohgis:seeAlsoLiteral "t. 3, s. 607: młyn do tarcia drzew na tarcice, dyle"@pl ,
-                                                     "zakład przemysłowy zajmujący się przecieraniem drewna na tarcicę"@pl ;
-                             <http://www.w3.org/2004/02/skos/core#altLabel> "das Sägewerk (de), lesopilnyi zawod (ru)" ;
-                             ontohgis:seeAlsoLiteral "t. 7, s. 29: Pilarnia, młyn do tarcia drzewa na tarcice, dyle: Tartak wodny, parowy"@pl ;
+                                                     "zakład przemysłowy zajmujący się przecieraniem drewna na tarcicę"@pl ,
+                                                     "t. 7, s. 29: Pilarnia, młyn do tarcia drzewa na tarcice, dyle: Tartak wodny, parowy"@pl ;
+                             <http://www.w3.org/2004/02/skos/core#hiddenLabel> "piła"@pl ;
                              rdfs:label "tartak - obiekt"@pl ;
                              ontohgis:seeAlsoLiteral "#Orgelbrand, t. 14, s. 412: pilarnia, machina do piłowania drzewa, której główną częścią składową jest piła, poruszana siłą wody lub pary. Tartaki istnieją już od wieku XIV, a obecnie stanowią machiny niekiedy bardzo zawiłe, które robotę wykonywają szybko i dokładnie"@pl ;
+                             <http://www.w3.org/2004/02/skos/core#hiddenLabel> "die Säge"@de ;
                              <http://www.w3.org/2004/02/skos/core#prefLabel> "tartak"@pl ;
                              rdfs:comment "W większości analizowanych przypadków, jeżeli tartak był odrębny morfologicznie, to miał tę samą nazwę, co sąsiadująca wieś lub inna miejscowość, np. leśniczówka. Sporadycznie cechowała go odrębność nazewnicza."@pl ;
                              rdfs:label "sawmill"@en ;
-                             <http://www.w3.org/2004/02/skos/core#hiddenLabel> "młyn (pl), piła (pl),die Säge (de), osada młyńska (pl), osada leśna (pl)" ;
                              dct:creator ontohgis:person_6 ;
                              ontohgis:hasOntologicalVerificator ontohgis:person_10 ;
+                             <http://www.w3.org/2004/02/skos/core#hiddenLabel> "osada leśna"@pl ;
                              ontohgis:hasTranslator ontohgis:person_5 ;
                              ontohgis:isDefinedByLiteral "Obiekt lub zespół obiektów gospodarczych często zlokalizowanych w lesie lub jego pobliżu, gdzie dokonuje się przerobu drewna okrągłego na tarcicę w procesie przecierania (tarcia)."@pl ,
-                                                         "Sawmill is an industrial facility often located within or near the forest, where wood is processed into sawn timber in the wiping process."@en .
+                                                         "Sawmill is an industrial facility often located within or near the forest, where wood is processed into sawn timber in the wiping process."@en ;
+                             <http://www.w3.org/2004/02/skos/core#altLabel> "лесопильный завод"@ru ,
+                                                                            "das Sägewerk"@de .
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource ontohgis:settlement_type_133 ;
@@ -18513,7 +18520,6 @@ ontohgis:settlement_type_50 dct:creator ontohgis:person_6 ;
                             <http://www.w3.org/2004/02/skos/core#hiddenLabel> "die Säge"@de ;
                             <http://www.w3.org/2004/02/skos/core#prefLabel> "tartak"@pl ;
                             ontohgis:hasLanguageVerificator ontohgis:person_1 ;
-                            <http://www.w3.org/2004/02/skos/core#altLabel> "das Sägewerk (de), lesopilnyi zawod (ru)" ;
                             ontohgis:isDefinedByLiteral "Tartak (miejscowość) to miejscowość, w której główną rolę odgrywa tartak (obiekt)."@pl ;
                             rdfs:label "tartak"@pl ;
                             rdfs:comment "Jeżeli wokół tartaku utrwaliła się zabudowa mieszkalna to tartak mógł stanowić rodzaj odrębnej osady leśnej lub osady młyńskiej. Granica między tartakiem jako obiektem gospodarczym a tartakiem jako rodzajem osady była płynna. Była uzależniona od sezonowości i stałości zamieszkiwania."@pl ;
@@ -18523,7 +18529,9 @@ ontohgis:settlement_type_50 dct:creator ontohgis:person_6 ;
                             rdfs:comment "piła"@pl ;
                             <http://www.w3.org/2004/02/skos/core#hiddenLabel> "osada młyńska"@pl ,
                                                                               "osada leśna"@pl ;
+                            <http://www.w3.org/2004/02/skos/core#altLabel> "лесопильный завод"@ru ;
                             rdfs:comment "If residential buildings emerged around a sawmill, then it could be a kind of a separate forest settlement or a mill settlement. The distinction between the sawmill as an industrial facility and the sawmill as a kind of locality was blurry. It depended on the seasonality or permanence of habitation."@en ;
+                            <http://www.w3.org/2004/02/skos/core#altLabel> "das Sägewerk"@de ;
                             ontohgis:hasOntologicalVerificator ontohgis:person_10 ;
                             <http://www.w3.org/2004/02/skos/core#prefLabel> "sawmill"@en .
 
@@ -18802,6 +18810,7 @@ ontohgis:settlement_type_63 <http://www.w3.org/2004/02/skos/core#hiddenLabel> "D
 
 
 ontohgis:settlement_type_64 <http://www.w3.org/2004/02/skos/core#hiddenLabel> "kolonizacja"@pl ;
+                            ontohgis:isDefinedByLiteral "Kolonia kolonii to kolonia zależna od kolonii."@pl ;
                             ontohgis:hasOntologicalVerificator ontohgis:person_10 ;
                             <http://www.w3.org/2004/02/skos/core#hiddenLabel> "wybudowanie"@pl ;
                             rdfs:comment "Kolonia kolonii jest odrębną jednostką osadniczą, rodzajem miejscowości, zawsze ma swoją nazwę własną. Kolonia kolonii występują w większości w woj. lubelskim i woj. podlaskim. W sumie jest ich obecnie w Polsce 31."@pl ;
@@ -18824,9 +18833,8 @@ ontohgis:settlement_type_64 <http://www.w3.org/2004/02/skos/core#hiddenLabel> "k
                             <http://www.w3.org/2004/02/skos/core#prefLabel> "kolonia kolonii"@pl ;
                             ontohgis:hasLanguageVerificator ontohgis:person_1 ;
                             rdfs:comment "Colony of a colony is a separate settlement unit, a kind of locality, and always has its particular name. They occur most often in the Lubelskie and Podlaskie voivodships. In total, there are 31 colonies of colony at the moment."@en ;
-                            <http://www.w3.org/2004/02/skos/core#hiddenLabel> "housing estate"@en ;
-                            ontohgis:isDefinedByLiteral "Kolonia osady to kolonia zależna od kolonii."@pl ;
-                            <http://www.w3.org/2004/02/skos/core#hiddenLabel> "die Kolonie"@de .
+                            <http://www.w3.org/2004/02/skos/core#hiddenLabel> "housing estate"@en ,
+                                                                              "die Kolonie"@de .
 
 
 ontohgis:settlement_type_65 ontohgis:seeAlsoIRI <https://pzgik.geoportal.gov.pl/ontologies/prng/koloniaOsady> ,
