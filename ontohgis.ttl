@@ -14182,9 +14182,9 @@ ontohgis:document_29 rdf:type owl:NamedIndividual ,
                               <http://www.cidoc-crm.org/cidoc-crm/E31_Document> ;
                      dc:creator "Brodesser, S." ;
                      dc:date 1968 ;
-                     dc:title "Moravskoslezské gubernium v letech 1783-1849"@cz ;
+                     dc:title "Moravskoslezské gubernium v letech 1783-1849"@cs ;
                      rdfs:label "Brodesser S., Moravskoslezske gubernium v letech 1783-1849"@en ,
-                                "Brodesser S., Moravskoslezské gubernium v letech 1783-1849"@cz .
+                                "Brodesser S., Moravskoslezské gubernium v letech 1783-1849"@cs .
 
 
 ###  https://onto.kul.pl/ontohgis/document_3
@@ -14696,7 +14696,7 @@ ontohgis:document_79 rdf:type owl:NamedIndividual ,
                                 "Klípa, J." ,
                                 "Stolárová, L." ;
                      dc:date 2008 ;
-                     dc:title "Slezsko - země Koruny české. Historie a kultura 1300-1740. Díl A a B"@cz ;
+                     dc:title "Slezsko - země Koruny české. Historie a kultura 1300-1740. Díl A a B"@cs ;
                      rdfs:label "Slezsko - země Koruny české. Historie a kultura 1300-1740" .
 
 
@@ -14741,7 +14741,7 @@ ontohgis:document_82 rdf:type owl:NamedIndividual ,
                                 "Prix, D." ,
                                 "Čapský, M." ;
                      dc:date 2012 ;
-                     dc:title "Slezsko v dějinách českého státu, I: od pravěku do roku 1490"@cz ;
+                     dc:title "Slezsko v dějinách českého státu, I: od pravěku do roku 1490"@cs ;
                      rdfs:label "Slezsko v dějinách českého státu, I: od pravěku do roku 1490" .
 
 
@@ -14755,7 +14755,7 @@ ontohgis:document_83 rdf:type owl:NamedIndividual ,
                                 "Uhlíř, D." ,
                                 "Žáček, R." ;
                      dc:date 2012 ;
-                     dc:title "Slezsko v dějinách českého státu. II. 1490-1763"@cz ;
+                     dc:title "Slezsko v dějinách českého státu. II. 1490-1763"@cs ;
                      rdfs:label "Slezsko v dějinách českého státu. II. 1490-1763" .
 
 
