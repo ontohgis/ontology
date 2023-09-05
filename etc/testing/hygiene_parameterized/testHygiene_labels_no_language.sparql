@@ -1,0 +1,19 @@
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:   <http://www.w3.org/2002/07/owl#>
+
+
+##
+# banner The label has no language
+
+
+SELECT DISTINCT (concat ("PRODERROR: The label <", str(?label), "> in the resource <",str(?resource),"> has no language.") AS ?warning)
+WHERE
+{
+  ?resource rdf:type ?type.
+	FILTER regex(str(?resource), <HYGIENE_TESTS_FILTER_PARAMETER>).
+	VALUES ?type {owl:Class owl:ObjectProperty owl:DatatypeProperty}
+
+  ?resource rdfs:label ?label.
+	FILTER (str(LANG(?label)) = "")
+}
