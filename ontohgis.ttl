@@ -11029,7 +11029,7 @@ ontohgis:settlement_type_45 rdf:type owl:Class ;
 ###  https://onto.kul.pl/ontohgis/settlement_type_46
 ontohgis:settlement_type_46 rdf:type owl:Class ;
                             rdfs:subClassOf ontohgis:object_100 ;
-                            rdfs:label "pustkowie" ;
+                            rdfs:label "pustkowie"@pl ;
                             ontohgis:isDefinedByLiteral "abandoned place"@en ;
                             ontohgis:seeAlsoIRI <http://gov.genealogy.net/types.owl#90> .
 
@@ -19159,7 +19159,6 @@ ontohgis:settlement_type_76 rdfs:comment "W BDOT10k schronisko turystyczne wyró
                             rdfs:label "schronisko turystyczne"@pl ;
                             rdfs:comment "In BDTO10k a tourist shelter is distinguished as a [1] building, [2] hotel services' complex, and [3] locality; in PRNG as a \"tourist shelter\". On MGI maps - a shelter [developed or undeveloped were depicted using different symbols] (\"schr.\"), on German maps - Jugenherberge (youth hostel, \"Jg. Hb.\"), Winterhutte (winter shelter, \"Wint. H.\"), Schutzhutte (hostel). Tourist shelters are not included in Bystrzycki's register."@en ;
                             ontohgis:seeAlsoIRI <http://linkedgeodata.org/ontology/Shelter> ;
-                            rdfs:label "schronisko turystyczne" ;
                             ontohgis:isDefinedByLiteral "Tourist shelter (locality) is a settlement where the main role is played by a tourist shelter (object)."@en ,
                                                         "Schronisko turystyczne (miejscowość) to miejscowość, w której główną rolę pełni schronisko turystyczne (obiekt)."@pl ;
                             ontohgis:hasTranslator ontohgis:person_5 ;
