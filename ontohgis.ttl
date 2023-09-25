@@ -22,7 +22,7 @@
                                               "Ontology was developed thanks to the Ontological Foundations for Building Historical Geoinformation Systems (2bH 15 0216 83) grant funded by National Programme for the Development of Humanities (http://nprh.org/)."@en ,
                                               "This ontology uses the min 0 cardinality constraints to convey the possibility of a given restriction. The intent here is to identify properties that typically have a value for a given concept, although there are situations in which they would be undefined. This follows the pattern described in https://github.com/edmcouncil/fibo/blob/master/ONTOLOGY_GUIDE.md#overarching-principles."@en ,
                                               "This version of ontohgis was founded on CIDOC CRM as specified in http://www.cidoc-crm.org/sites/default/files/cidoc_crm_v6.2.1-2018April.rdfs. We extended it with the labels in Polish."@en ;
-                                 owl:versionInfo 3.3 .
+                                 owl:versionInfo 3.2 .
 
 #################################################################
 #    Annotation properties
