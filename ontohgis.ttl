@@ -10040,12 +10040,8 @@ ontohgis:object_30 rdf:type owl:Class ;
                                    ] ;
                    rdfs:label "human settlement"@en ,
                               "jednostka osadnicza"@pl ;
-                   ontohgis:isDefinedByLiteral """Human settlement is area such that:
-1. it has a proper name and
-2. it is or it was in the past a locality"""@en ,
-                                               """Jednostka osadnicza:
-1. obszar posiadający nazwę własną i
-2. obszar, który jest lub był w przeszłości miejscowością"""@pl ;
+                   ontohgis:isDefinedByLiteral "Human settlement is area such that: 1. it has a proper name and 2. it is or it was in the past a locality"@en ,
+                                               "Jednostka osadnicza: 1. obszar posiadający nazwę własną i 2. obszar, który jest lub był w przeszłości miejscowością"@pl ;
                    ontohgis:seeAlsoIRI <http://encyklopedia.pwn.pl/haslo/jednostka-osadnicza;3917491.html> .
 
 
