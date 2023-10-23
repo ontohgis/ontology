@@ -18027,7 +18027,7 @@ ontohgis:settlement_type_114
 		;
 	rdfs:subClassOf ontohgis:object_50 ;
 	rdfs:label
-		"castle"@en ,
+		"castle - object"@en ,
 		"zamek - obiekt"@pl
 		;
 	rdfs:comment
@@ -18079,7 +18079,7 @@ ontohgis:settlement_type_115
 	rdfs:subClassOf ontohgis:object_23 ;
 	rdfs:label
 		"port morski - obiekt"@pl ,
-		"sea harbour"@en
+		"sea harbour - object"@en
 		;
 	rdfs:comment
 		"Port morski określa funkcję, jako pełni miejscowość, np. Gdynia jest miastem portowym (określenie z Bystrzyckiego), ale „port” (niekoniecznie morski) również może być miejscowością (patrz: Koeniglicher Hafen k. Torunia). Niektóre portowe miasta niemieckie zawierają „port” (niem. „-hafen”) w nazwie własnej (np. Osternothafen dziś: Chorzelin, id prng: 178058)."@pl ,
@@ -18118,7 +18118,7 @@ ontohgis:settlement_type_117
 	rdfs:subClassOf ontohgis:object_50 ;
 	rdfs:label
 		"schronisko turystyczne - obiekt"@pl ,
-		"tourist shelter"@en
+		"tourist shelter - object"@en
 		;
 	rdfs:comment
 		"Although tourist shelter is nowadays classified as a kind of village (PRNG, DBTO10k), it seems that the tourist shelters were not considered localites in the period of our interest. This is due to the lack of this category in Bystrzycki's register, as well as the way of presentation on the maps: without the particular name, only symbol and explanatory abbreviation. Conceptually, this category is similar to shepherd's huts and inns (see: example)."@en ,
@@ -18162,7 +18162,7 @@ ontohgis:settlement_type_118
 		;
 	rdfs:subClassOf ontohgis:object_23 ;
 	rdfs:label
-		"railway station"@en ,
+		"railway station - object"@en ,
 		"stacja kolejowa - obiekt"@pl
 		;
 	rdfs:comment
@@ -18197,7 +18197,7 @@ ontohgis:settlement_type_119
 	rdfs:subClassOf ontohgis:object_23 ;
 	rdfs:label
 		"przystanek kolejowy - obiekt"@pl ,
-		"train stop"@en
+		"train stop - object"@en
 		;
 	rdfs:comment
 		"Functional distinctivness - clearly defined (passenger services).Morphological distinctiveness - most often on topographic maps as a non-scale symbol or an explanatory annotation, usually without a proper name (only an abbreviation).Spatial distinctivness - depending on the location of the railway line with respect to the locality, the stops are either located at a distance (then they often have a proper name, the same as a locality) or within the area of the locality (no particular name, only symbol or an explanatory annotation). A railway station should rather not be treated as a locality, unless in exceptional cases, when all the constitutive conditions of localities are met."@en ,
@@ -18282,7 +18282,7 @@ ontohgis:settlement_type_120
 		;
 	rdfs:subClassOf ontohgis:object_23 ;
 	rdfs:label
-		"church"@en ,
+		"church - object"@en ,
 		"kościół - obiekt"@pl
 		;
 	rdfs:comment
@@ -18324,7 +18324,7 @@ ontohgis:settlement_type_121
 	rdfs:subClassOf ontohgis:object_50 ;
 	rdfs:label
 		"plebania - obiekt"@pl ,
-		"rectory"@en
+		"rectory - object"@en
 		;
 	rdfs:comment
 		"In each analysed case, a rectory being a separate settlement, lays in a vicinity of a village, or a town/city with the same name. In cartographical sources, one can find it presented separately, with its proper name, an abbreviation of a category (i.e. pol “pleb.”, which is “rect.”), and distinguished by its morphology. A rectory differs slightly from the house of a provost, but we leave this difference aside."@en ,
@@ -18378,7 +18378,7 @@ ontohgis:settlement_type_122
 		;
 	rdfs:subClassOf ontohgis:object_23 ;
 	rdfs:label
-		"chapel"@en ,
+		"chapel - object"@en ,
 		"kaplica - obiekt"@pl
 		;
 	rdfs:comment
@@ -18420,7 +18420,7 @@ ontohgis:settlement_type_123
 	rdfs:subClassOf ontohgis:object_23 ;
 	rdfs:label
 		"smolarnia - obiekt"@pl ,
-		"tar pitch"@en
+		"tar pitch - object"@en
 		;
 	rdfs:comment
 		"In most analysed cases, if the tar pitch was morphologically distinct, it had the same name as the neighbouring village or another locality. Occasionally it had its proper name."@en ,
@@ -18454,7 +18454,7 @@ ontohgis:settlement_type_124
 		;
 	rdfs:subClassOf ontohgis:object_23 ;
 	rdfs:label
-		"inn"@en ,
+		"inn - object"@en ,
 		"karczma - obiekt"@pl
 		;
 	rdfs:comment
@@ -18554,7 +18554,7 @@ ontohgis:settlement_type_126
 		;
 	rdfs:subClassOf ontohgis:object_23 ;
 	rdfs:label
-		"ironworks"@en ,
+		"ironworks - object"@en ,
 		"kuźnica - obiekt"@pl
 		;
 	dct:creator ontohgis:person_3 ;
@@ -18634,7 +18634,7 @@ ontohgis:settlement_type_128
 		;
 	rdfs:subClassOf ontohgis:object_23 ;
 	rdfs:label
-		"glassworks"@en ,
+		"glassworks - object"@en ,
 		"huta - obiekt"@pl
 		;
 	rdfs:comment
@@ -18670,7 +18670,7 @@ ontohgis:settlement_type_129
 		;
 	rdfs:subClassOf ontohgis:object_50 ;
 	rdfs:label
-		"forester's lodge"@en ,
+		"forester's lodge - object"@en ,
 		"leśniczówka - obiekt"@pl
 		;
 	rdfs:comment
@@ -18717,7 +18717,7 @@ ontohgis:settlement_type_130
 		;
 	rdfs:subClassOf ontohgis:object_50 ;
 	rdfs:label
-		"forest-guard's lodge"@en ,
+		"forest-guard's lodge - object"@en ,
 		"gajówka - obiekt"@pl
 		;
 	rdfs:comment
@@ -18764,7 +18764,7 @@ ontohgis:settlement_type_131
 	rdfs:subClassOf ontohgis:object_50 ;
 	rdfs:label
 		"latarnia morska - obiekt"@pl ,
-		"lighthouse"@en
+		"lighthouse - object"@en
 		;
 	rdfs:comment
 		"""Functional distinctivness - distinguished as a kind of locality in Bystrzycki's register, and on topographic maps as distinct symbol, sometimes with the proper name.
@@ -18805,7 +18805,7 @@ ontohgis:settlement_type_132
 	rdfs:subClassOf ontohgis:object_50 ;
 	rdfs:label
 		"klasztor - obiekt"@pl ,
-		"monastery"@en
+		"monastery - object"@en
 		;
 	rdfs:comment
 		"In the analysed cases, the monastery could have been a locality which was separate in terms of name and mophology from the neighbouring ones. The monastery could have been a beginning (a stem) of a larger locality, which would develop around it and transform into a monastery settlement, village, city etc."@en ,
@@ -18856,7 +18856,7 @@ ontohgis:settlement_type_133
 		;
 	rdfs:subClassOf ontohgis:object_23 ;
 	rdfs:label
-		"sawmill"@en ,
+		"sawmill - object"@en ,
 		"tartak - obiekt"@pl
 		;
 	rdfs:comment
@@ -18902,7 +18902,7 @@ ontohgis:settlement_type_134
 		;
 	rdfs:subClassOf ontohgis:object_23 ;
 	rdfs:label
-		"peat mine"@en ,
+		"peat mine - object"@en ,
 		"torfiarnia - obiekt"@pl
 		;
 	rdfs:comment
@@ -18935,7 +18935,7 @@ ontohgis:settlement_type_135
 		;
 	rdfs:subClassOf ontohgis:object_23 ;
 	rdfs:label
-		"brewery"@en ,
+		"brewery - object"@en ,
 		"browar - obiekt"@pl
 		;
 	rdfs:comment
@@ -18986,7 +18986,7 @@ ontohgis:settlement_type_136
 		;
 	rdfs:subClassOf ontohgis:object_23 ;
 	rdfs:label
-		"brickyard"@en ,
+		"brickyard - object"@en ,
 		"cegielnia - obiekt"@pl
 		;
 	rdfs:comment
@@ -19082,7 +19082,7 @@ ontohgis:settlement_type_138
 	rdfs:subClassOf ontohgis:object_23 ;
 	rdfs:label
 		"cukrownia - obiekt"@pl ,
-		"sugar factory"@en
+		"sugar factory - object"@en
 		;
 	rdfs:comment
 		"Cukrownia może mieć własną nazwę, najczęściej powiązaną z nazwą firmy lub znakiem firmowym, ale nie musi. Rzadko zaznaczana na mapach."@pl ,
@@ -19115,7 +19115,7 @@ ontohgis:settlement_type_139
 		;
 	rdfs:subClassOf ontohgis:object_23 ;
 	rdfs:label
-		"distillery"@en ,
+		"distillery - object"@en ,
 		"gorzelnia - obiekt"@pl
 		;
 	rdfs:comment
