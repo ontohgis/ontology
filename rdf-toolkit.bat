@@ -27,7 +27,7 @@ echo INFO: %P%
 echo.
 
 comp "%1" "%TMP%\%~n0.ttl" /M
-if ERRORLEVEL 1 echo WARN: move "%TMP%\%~n0.ttl" "%1"&move /-Y "%TMP%\%~n0.ttl" "%1"
+if ERRORLEVEL 1 echo WARN: move "%TMP%\%~n0.ttl" "%1"&move "%TMP%\%~n0.ttl" "%1"
 del /q /f "%TMP%\%~n0.ttl" 2>nul
 
 pause

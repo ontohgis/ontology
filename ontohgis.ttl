@@ -32,11 +32,17 @@
 	.
 
 oc:NonVariableEntity
+	a owl:Class ;
 	rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item> ;
 	.
 
 oc:VariableEntity
+	a owl:Class ;
 	rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State> ;
+	.
+
+oc:VariableEntityManifestation
+	a owl:Class ;
 	.
 
 oc:hasManifestation
@@ -7813,7 +7819,7 @@ ontohgis:administrative_system_1
 		;
 	rdfs:label
 		"Rzeczpospolita Polska (1918-1939)"@pl ,
-		"The Second Polish Republic"@en
+		"The Second Polish Republic (1918-1939)"@en
 		;
 	rdfs:comment
 		"Chronologia obowiązywania systemu administracyjnego ma charakter generalny. Obejmuje także okres kształtowania się systemu administracyjnego w okresie przejściowym po odzyskaniu niepodległości."@pl ,
@@ -7898,6 +7904,7 @@ ontohgis:administrative_system_12
 		"Królestwo Saksonii (1815-1918)"@pl ,
 		"The Kingdom of Saxony (1815-1918)"@en
 		;
+	rdfs:comment "Königreich Sachsen (1815-1918)"@de ;
 	dct:creator ontohgis:person_4 ;
 	ontohgis:endsDominationAt "1918-12-31"^^xsd:date ;
 	ontohgis:hasBeginning "1815-01-01"^^xsd:date ;
@@ -7914,6 +7921,7 @@ ontohgis:administrative_system_13
 		;
 	rdfs:label
 		"Królestwo Prus (1713-1805)"@pl ,
+		"Königreich Preußen (1713-1805)"@de ,
 		"The Kingdom of Prussia (1713-1805)"@en
 		;
 	rdfs:comment
@@ -8016,6 +8024,7 @@ ontohgis:administrative_system_17
 		;
 	rdfs:label
 		"Królestwo Galicji i Lodomerii (1772-1848)"@pl ,
+		"Königreich Galizien und Lodomerien (1772-1848)"@de ,
 		"The Kingdom of Galitia and Lodomeria (1772-1848)"@en
 		;
 	rdfs:comment
@@ -8076,6 +8085,7 @@ ontohgis:administrative_system_19
 		ontohgis:object_21
 		;
 	rdfs:label
+		"Schlesien (1372-1782)"@de ,
 		"Silesia (1372-1782)"@en ,
 		"Śląsk (1372-1782)"@pl
 		;
@@ -8141,6 +8151,7 @@ ontohgis:administrative_system_21
 		;
 	rdfs:label
 		"Marchia Brandenburska (1540-1713)"@pl ,
+		"Mark Brandenburg (1540-1713)"@de ,
 		"The Margraviate of Branderburg (1540-1713)"@en
 		;
 	rdfs:comment "W 1535 Nowa Marchia przeszła pod panowanie margrafa Jana i jako wydzielona prowincja uzyskała odrębną strukturę administracyjną (patrz. Nowa Marchia). Ponownie włączona w 1571 zachowała jednak swoją odrębność administracyjną. Po przejściu na luteranizm (1.11.1539) w roku następnym stany państwa brandenburskiego przejęły spłatę elektorskich długów i same utworzyły organ kontrolny i wykonawczy do sciągania danin i podatków."@pl ;
@@ -8784,8 +8795,8 @@ ontohgis:administrative_system_4
 		ontohgis:object_21
 		;
 	rdfs:label
-		"Freistaat Preußen"@de ,
-		"The Free State of Prussia"@en ,
+		"Freistaat Preußen (1920-1945)"@de ,
+		"The Free State of Prussia (1920-1945)"@en ,
 		"Wolne Państwo Prusy (1920-1945)"@pl
 		;
 	rdfs:comment
@@ -8966,6 +8977,7 @@ ontohgis:administrative_system_45
 		ontohgis:object_21
 		;
 	rdfs:label
+		"Herzogtum Preußen (1525-1701)"@de ,
 		"Prusy Książęce (1525-1701)"@pl ,
 		"The Duchy of Prussia (1525-1701)"@en
 		;
@@ -9184,7 +9196,7 @@ ontohgis:administrative_system_8
 	rdfs:label
 		"Cesarstwo Rosyjskie (1775-1917)"@pl ,
 		"Russian Empire (1775-1917)"@en ,
-		"Российская империя"@ru
+		"Российская империя (1775-1917)"@ru
 		;
 	rdfs:comment
 		"Dekret Piotra I z dnia 18 grudnia 1708 r.; ukaz Piotra I z dnia 29 maja 1719 r.; dekret Katarzyny II z 7 listopada 1775 r.; dekret Pawa I z 12 grudnia 1796 r.; 1861: reforma uwłaszczeniowa i wprowadzenie gmin"@pl ,
@@ -9236,9 +9248,9 @@ ontohgis:administrative_type_1
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_24 ;
 	rdfs:label
-		"Stadtgemeinde (Freistaat Preußen)"@de ,
+		"Stadtgemeinde (Freistaat Preußen (1920-1945))"@de ,
 		"gmina miejska (Wolne Państwo Prusy (1920-1945))"@pl ,
-		"town commune (The Free State of Prussia)"@en
+		"town commune (The Free State of Prussia (1920-1945))"@en
 		;
 	rdfs:comment '''"1808: Städte-Ordnung.
 Gminy miejskie i gminy wiejskie były jednostkami organizacji samorządowej (komunalnej), ale równocześnie pełniły funkcje podstawowych jednostek administracji terytorialnej. M. Bär, s. 228: „Die Landgemeinde ist außer einem Kommunalverband auch ein Bezirk der allgemeinen Landesverwaltung für die mannigfachen Geschäfte des staatlichen Polizei- und Finanzwesens, insbesondere für die Handhabung der Ortspolizei, und der Gemeindevorsteher ist das Organ des Amtsvorstehers für die örtliche Polizeiverwaltung“. W. Roger W.Frotscher, „Überblick über die Verwaltungsorganisation in den Bundesstaaten, w: Deutsche Verwaltungsgeschichte, Bd. 3 hrsg. von K.G.A. Jeserich, H. Pohl und G. Ch. v. Unruh, Stuttgart 1984, S. 417: „Der preußische Staat endete beim Landrat. In diesem oft zitierten Satz kommt zum Ausdruck, dass Gemeindeorgane, auch soweit sie staatliche Angelegenheiten wahrnahmen, nicht als staatliche, sondern als kommunale Behörden tätig wurden. Sie handelten, etwa als Ortspolizei `für den Staat` in einem ihnen übertragenen Wirkungskreis."'''@de ;
@@ -9257,7 +9269,7 @@ ontohgis:administrative_type_10
 		]
 		;
 	rdfs:label
-		"land district (The Second Polish Republic)"@en ,
+		"land district (The Second Polish Republic (1918-1939))"@en ,
 		"powiat (Rzeczpospolita Polska (1918-1939))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_1 ;
@@ -9272,7 +9284,7 @@ ontohgis:administrative_type_11
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3014 ;
 	rdfs:label
-		"voivodeship (The Second Polish Republic)"@en ,
+		"voivodeship (The Second Polish Republic (1918-1939))"@en ,
 		"województwo (Rzeczpospolita Polska (1918-1939))"@pl
 		;
 	rdfs:comment "Ustawy z lat 1919-1925 decydowały o utworzeniu poszczególnych województw (jako ostatnie zostało utworzone woj. wileńskie); na poziomie województwa (III stopień) klasyfikowane było także w ramach podziału terytorialnego administracji zespolonej miasto Warszawa, Mielcarek, s. 52."@pl ;
@@ -9288,7 +9300,7 @@ ontohgis:administrative_type_111
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3014 ;
 	rdfs:label
-		"Kreis"@de ,
+		"Kreis (Schlesien (1372-1782))"@de ,
 		"district (Silesia (1372-1782))"@en ,
 		"powiat (Śląsk (1372-1782))"@pl ,
 		"terra"@la
@@ -9373,7 +9385,7 @@ ontohgis:administrative_type_121
 		]
 		;
 	rdfs:label
-		"Kreis"@de ,
+		"Kreis (Mark Brandenburg (1540-1713))"@de ,
 		"rural district (The Margraviate of Branderburg (1540-1713))"@en ,
 		"urząd dominialny (Marchia Brandenburska (1540-1713))"@pl
 		;
@@ -9411,11 +9423,12 @@ ontohgis:administrative_type_123
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3014 ;
 	rdfs:label
-		"Kreis"@de ,
 		"Province (The Margraviate of Branderburg (1540-1713))"@en ,
+		"Provinz (Mark Brandenburg (1540-1713))"@de ,
 		"prowincja (Marchia Brandenburska (1540-1713))"@pl
 		;
 	owl:equivalentClass ontohgis:administrative_type_30 ;
+	<http://www.w3.org/2004/02/skos/core#altLabel> "Kreis (Mark Brandenburg (1540-1713))"@de ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_21 ;
 	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_60 ;
 	.
@@ -9479,9 +9492,9 @@ ontohgis:administrative_type_13
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_24 ;
 	rdfs:label
-		"Landgemeinde"@de ,
+		"Landgemeinde (Freistaat Preußen 1920-1945))"@de ,
 		"gmina wiejska (Wolne Państwo Prusy (1920-1945))"@pl ,
-		"rural commune (The Free State of Prussia)"@en
+		"rural commune (The Free State of Prussia 1920-1945))"@en
 		;
 	rdfs:comment "1818: Edykt o urzędach sołtysów w gminach wiejskich i obszarach dworskich."@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_4 ;
@@ -9492,7 +9505,7 @@ ontohgis:administrative_type_132
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3014 ;
 	rdfs:label
-		"district"@en ,
+		"district (Medieval system (to the 14th c.))"@en ,
 		"dzielnica (System średniowieczny (do XIV w.))"@pl
 		;
 	rdfs:comment "Kasztelania, opole, żupa, pagast; tutaj należy szukać genezy polskich powiatów; inne terytoria zależne nie posiadające statusu księstwa czy marchii (ziemie, miasta, część księstw, regiony)"@pl ;
@@ -9562,8 +9575,8 @@ ontohgis:administrative_type_14
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_24 ;
 	rdfs:label
-		"Gutsbezirk"@de ,
-		"manorial demesne (The Free State of Prussia)"@en ,
+		"Gutsbezirk (Freistaat Preußen (1920-1945))"@de ,
+		"manorial demesne (The Free State of Prussia (1920-1945))"@en ,
 		"obszar dworski (Wolne Państwo Prusy (1920-1945))"@pl
 		;
 	rdfs:comment """1818: Edykt o urzędach sołtysów w gminach wiejskich i obszarach dworskich.
@@ -10888,7 +10901,7 @@ ontohgis:administrative_type_2
 	rdfs:subClassOf ontohgis:administrative_type_9 ;
 	rdfs:label
 		"gmina miejska (Rzeczpospolita Polska (1918-1939))"@pl ,
-		"town commune (The Second Polish Republic)"@en
+		"town commune (The Second Polish Republic (1918-1939))"@en
 		;
 	rdfs:comment 'Zgodnie z treścią konstytucji marcowej (1921) "Dla celów administracyjnych Państwo Polskie podzielone będzie w drodze ustawodawczej na województwa, powiaty i gminy miejskie i wiejskie, które będą równocześnie jednostkami samorządu terytorjalnego". Faktycznie cały okres międzywojenny charakteryzuje proces unifikacji terytorialnej administracji ogólnej, której celem jest likwidacja różnic między byłymi zaborami. Ostatnim ważnym aktem była likwidacja obszarów dworskich na terenie woj. poznańskiego oraz pomorskiego na mocy tzw. ustawy scaleniowej z 1933 r.'@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_1 ;
@@ -11450,7 +11463,7 @@ ontohgis:administrative_type_226
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3014 ;
 	rdfs:label
-		"Kreis"@de ,
+		"Kreis (Königreich Sachsen (1815-1918))"@de ,
 		"district (The Kingdom of Saxony (1815-1918))"@en ,
 		"powiat (Królestwo Saksonii (1815-1918))"@pl
 		;
@@ -11489,7 +11502,7 @@ ontohgis:administrative_type_228
 		]
 		;
 	rdfs:label
-		"Gemeinde"@de ,
+		"Gemeinde (Königreich Sachsen (1815-1918))"@de ,
 		"gmina (Królestwo Saksonii (1815-1918))"@pl ,
 		"municipality (The Kingdom of Saxony (1815-1918))"@en
 		;
@@ -11554,7 +11567,7 @@ ontohgis:administrative_type_231
 		"department (The Duchy of Warsaw (1807-1815))"@en
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_42 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_42 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_40 ;
 	.
 
 ontohgis:administrative_type_232
@@ -11664,7 +11677,7 @@ ontohgis:administrative_type_240
 		;
 	rdfs:label "diecezja (Kościół katolicki ob. ormiańskiego)"@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_46 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_46 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_200 ;
 	.
 
 ontohgis:administrative_type_241
@@ -11967,8 +11980,8 @@ ontohgis:administrative_type_26
 		]
 		;
 	rdfs:label
-		"Kreis"@de ,
-		"district (The Free State of Prussia)"@en ,
+		"Kreis (Freistaat Preußen (1920-1945))"@de ,
+		"district (The Free State of Prussia (1920-1945))"@en ,
 		"powiat (Wolne Państwo Prusy (1920-1945))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_4 ;
@@ -12120,9 +12133,9 @@ ontohgis:administrative_type_27
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_26 ;
 	rdfs:label
-		"Landkreis"@de ,
+		"Landkreis Kreis (Freistaat Preußen (1920-1945))"@de ,
 		"powiat ziemski (Wolne Państwo Prusy (1920-1945))"@pl ,
-		"rural district (The Free State of Prussia) (The Duchy of Prussia (1525-1701))"@en
+		"rural district  (Freistaat Preußen (1920-1945))"@en
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_4 ;
 	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_30 ;
@@ -12165,7 +12178,7 @@ ontohgis:administrative_type_271
 		]
 		;
 	rdfs:label
-		"Kreis"@de ,
+		"Kreis (Herzogtum Preußen (1525-1701))"@de ,
 		"district (The Duchy of Prussia (1525-1701))"@en ,
 		"okręg (Prusy Książęce (1525-1701))"@pl
 		;
@@ -12200,7 +12213,7 @@ ontohgis:administrative_type_274
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "circle"@en ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_16 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_16 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_40 ;
 	.
 
 ontohgis:administrative_type_275
@@ -12294,9 +12307,9 @@ ontohgis:administrative_type_28
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_26 ;
 	rdfs:label
-		"Stadtkreis"@de ,
+		"Stadtkreis (Freistaat Preußen (1920-1945))"@de ,
 		"powiat miejski (Wolne Państwo Prusy (1920-1945))"@pl ,
-		"urban district (The Free State of Prussia)"@en
+		"urban district (The Free State of Prussia (1920-1945))"@en
 		;
 	rdfs:comment "Równorzędny z powiatem ziemskim ale nie dzielił się już na mniejsze wójtostwa"@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_4 ;
@@ -12501,8 +12514,8 @@ ontohgis:administrative_type_3
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_9 ;
 	rdfs:label
-		"gmina wiejska "@pl ,
-		"rural commune"@en
+		"gmina wiejska (Rzeczpospolita Polska (1918-1939))"@pl ,
+		"rural commune (The Second Polish Republic (1918-1939))"@en
 		;
 	rdfs:comment 'Zgodnie z treścią konstytucji marcowej (1921) "Dla celów administracyjnych Państwo Polskie podzielone będzie w drodze ustawodawczej na województwa, powiaty i gminy miejskie i wiejskie, które będą równocześnie jednostkami samorządu terytorjalnego". Faktycznie cały okres międzywojenny charakteryzuje proces unifikacji terytorialnej administracji ogólnej, której celem jest likwidacja różnic między byłymi zaborami. Ostatnim ważnym aktem była likwidacja obszarów dworskich na terenie woj. poznańskiego oraz pomorskiego na mocy tzw. ustawy scaleniowej z 1933 r.'@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_1 ;
@@ -12541,7 +12554,7 @@ ontohgis:administrative_type_35
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_37 ;
 	rdfs:label
-		"Landgemeinde"@de ,
+		"Landgemeinde (Königreich Preußen (1806-1919))"@de ,
 		"gmina wiejska (Królestwo Prus (1806-1919))"@pl ,
 		"rural commune (The Kingdom of Prussia (1806-1919))"@en
 		;
@@ -12555,7 +12568,7 @@ ontohgis:administrative_type_36
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_37 ;
 	rdfs:label
-		"Gutsbezirk"@de ,
+		"Gutsbezirk (Königreich Preußen (1806-1919))"@de ,
 		"manorial demesne (The Kingdom of Prussia (1806-1919))"@en ,
 		"obszar dworski (Królestwo Prus (1806-1919))"@pl
 		;
@@ -12584,7 +12597,7 @@ ontohgis:administrative_type_37
 		]
 		;
 	rdfs:label
-		"Gemeinde"@de ,
+		"Gemeinde (Königreich Preußen (1806-1919))"@de ,
 		"commune (The Kingdom of Prussia (1806-1919))"@en ,
 		"gmina (Królestwo Prus (1806-1919))"@pl
 		;
@@ -12631,7 +12644,7 @@ ontohgis:administrative_type_39
 		]
 		;
 	rdfs:label
-		"Kreis"@de ,
+		"Kreis (Königreich Preußen (1806-1919))"@de ,
 		"district (The Kingdom of Prussia (1806-1919))"@en ,
 		"powiat (Królestwo Prus (1806-1919))"@pl
 		;
@@ -12648,8 +12661,8 @@ ontohgis:administrative_type_4
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_9 ;
 	rdfs:label
-		"manorial demesne"@en ,
-		"obszar dworski"@pl
+		"manorial demesne (The Second Polish Republic (1918-1939))"@en ,
+		"obszar dworski (Rzeczpospolita Polska (1918-1939))"@pl
 		;
 	rdfs:comment "Obszary dworskie utrzymały się najdłużej na Śląsku oraz w województwach zachodnich, pomorskim i poznańskim, gdzie zostały zniesione na podstawie tzw. ustawy scaleniowej z 1933 r. oraz rozporządzeń wykonawczych z 1934 r."@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_1 ;
@@ -12664,7 +12677,7 @@ ontohgis:administrative_type_40
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_39 ;
 	rdfs:label
-		"Landkreis"@de ,
+		"Landkreis (Königreich Preußen (1806-1919))"@de ,
 		"powiat ziemski (Królestwo Prus (1806-1919))"@pl ,
 		"rural district (The Kingdom of Prussia (1806-1919))"@en
 		;
@@ -12680,7 +12693,7 @@ ontohgis:administrative_type_41
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_39 ;
 	rdfs:label
-		"Stadtkreis"@de ,
+		"Stadtkreis (Königreich Preußen (1806-1919))"@de ,
 		"powiat miejski (Królestwo Prus (1806-1919))"@pl ,
 		"urban district (The Kingdom of Prussia (1806-1919))"@en
 		;
@@ -12810,7 +12823,7 @@ ontohgis:administrative_type_49
 	rdfs:label
 		"gmina (Cesarstwo Rosyjskie (1775-1917))"@pl ,
 		"volost (Russian Empire (1775-1917))"@en ,
-		"волость"@ru
+		"волость (Российская империя (1775-1917))"@ru
 		;
 	rdfs:comment
 		"Jednostka najniższego rzędu wprowadzona na skutek reformy włościańskiej w 1861 r."@pl ,
@@ -12829,8 +12842,8 @@ ontohgis:administrative_type_5
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_10 ;
 	rdfs:label
-		"district"@en ,
-		"powiat"@pl
+		"district (The Second Polish Republic 1918-1939))"@en ,
+		"powiat (Rzeczpospolita Polska (1918-1939))"@pl
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "county"@en ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_1 ;
@@ -12907,9 +12920,9 @@ ontohgis:administrative_type_52
 		]
 		;
 	rdfs:label
-		"gubernia (Cesarstwo Rosyjskie (1775-1917))"@pl ,
-		"guberniya (Russian Empire (1775-1917))"@en ,
-		"губерния"@ru
+		"gubernia-namiestnictwo-obwód (Cesarstwo Rosyjskie (1775-1917))"@pl ,
+		"guberniya-vicegerency-oblast (Russian Empire (1775-1917))"@en ,
+		"губерния-наместничество-область (Российская империя (1775-1917))"@ru
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "governorate"@en ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_8 ;
@@ -12927,7 +12940,7 @@ ontohgis:administrative_type_53
 	rdfs:label
 		"gubernia (Cesarstwo Rosyjskie (1775-1917))"@pl ,
 		"guberniya (Russian Empire (1775-1917))"@en ,
-		"губерния"@ru
+		"губерния (Российская империя (1775-1917))"@ru
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "governorate"@en ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_8 ;
@@ -12945,7 +12958,7 @@ ontohgis:administrative_type_54
 	rdfs:label
 		"oblast (Russian Empire (1775-1917))"@en ,
 		"obwód (Cesarstwo Rosyjskie (1775-1917))"@pl ,
-		"область"@ru
+		"область (Российская империя (1775-1917))"@ru
 		;
 	rdfs:comment "Obwody na prawach guberni"@pl ;
 	<http://www.w3.org/2004/02/skos/core#altLabel>
@@ -12967,7 +12980,7 @@ ontohgis:administrative_type_55
 	rdfs:label
 		"namiestnictwo (Cesarstwo Rosyjskie (1775-1917))"@pl ,
 		"vicegerency (Russian Empire (1775-1917))"@en ,
-		"наместничество"@ru
+		"наместничество (Российская империя (1775-1917))"@ru
 		;
 	rdfs:comment "Nazwa jednostki administracyjnej odpowiadającej guberni, która funkcjonowała głównie w latach 1775-1796"@pl ;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "viceroyalty"@en ;
@@ -12985,7 +12998,7 @@ ontohgis:administrative_type_56
 	rdfs:label
 		"generalne gubernatorstwo (Cesarstwo Rosyjskie (1775-1917))"@pl ,
 		"governorate-general (Russian Empire (1775-1917))"@en ,
-		"генерал-губернаторство"@ru
+		"генерал-губернаторство (Российская империя (1775-1917))"@ru
 		;
 	rdfs:comment "Była to jednostka skupiająca kilka guberni. Poziom ten nie obejmował całego państwa, gdyż generalne gubernatorstwa były organizowane głównie na teranach przygranicznych; jednostką równoważną na tym poziomie było namiestnictwo kaukaskie"@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_8 ;
@@ -13197,7 +13210,7 @@ ontohgis:administrative_type_74
 		]
 		;
 	rdfs:label
-		"Kreis"@de ,
+		"Kreis (Königreich Preußen (1713-1805))"@de ,
 		"district (The Kingdom of Prussia (1713-1805))"@en ,
 		"powiat (Królestwo Prus (1713-1805))"@pl
 		;
@@ -13213,7 +13226,7 @@ ontohgis:administrative_type_75
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_74 ;
 	rdfs:label
-		"Landkreis"@de ,
+		"Landkreis (Königreich Preußen (1713-1805))"@de ,
 		"powiat ziemski (Królestwo Prus (1713-1805))"@pl ,
 		"rural district (The Kingdom of Prussia (1713-1805))"@en
 		;
@@ -13416,8 +13429,8 @@ ontohgis:administrative_type_9
 		]
 		;
 	rdfs:label
-		"gmina"@pl ,
-		"municipality"@en
+		"gmina (Rzeczpospolita Polska (1918-1939))"@pl ,
+		"municipality (The Second Polish Republic (1918-1939))"@en
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "community"@en ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_1 ;
@@ -13467,7 +13480,7 @@ ontohgis:administrative_type_93
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3014 ;
 	rdfs:label
-		"Kreis"@de ,
+		"Kreis (Königreich Galizien und Lodomerien (1772-1848))"@de ,
 		"cyrkuł (Królestwo Galicji i Lodomerii (1772-1848))"@pl ,
 		"tsyrkul (The Kingdom of Galitia and Lodomeria (1772-1848))"@en
 		;
