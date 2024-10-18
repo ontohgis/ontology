@@ -18012,11 +18012,9 @@ ontohgis:settlement_type_113
 		<https://www.wikidata.org/wiki/Q88598>
 		;
 	ontohgis:seeAlsoLiteral
-		't. 2, s. 168 (hasło "Grodzisko"): "Grody to obiekty sztucznie ogrodzone w celach obronnych. Pojęcie to obejmuje wszelkiego rodzaju miejsca obronne, jak wsie, miasta, ośrodki administracyjne, wojskowe i inne schronienia przygotowane do obrony. W średniowieczu grodami nazywano też miasta".'^^rdfs:Literal ,
+		't. 2, s. 168 (hasło "Grodzisko"): "Grody to obiekty sztucznie ogrodzone w celach obronnych. Pojęcie to obejmuje wszelkiego rodzaju miejsca obronne, jak wsie, miasta, ośrodki administracyjne, wojskowe i inne schronienia przygotowane do obrony. W średniowieczu grodami nazywano też miasta".'@pl ,
 		't. 2, s. 637: "pierwotnie osada obronna, ogrodzona palisadą lub obwałowana"'@pl ,
-		't. 2, s. 637: "pierwotnie osada obronna, ogrodzona palisadą lub obwałowana"'^^rdfs:Literal ,
-		't. 6, s. 22: "miejsce obronne w znaczeniu późniejszym tyle co "zamek", "miasto""'@pl ,
-		't. 6, s. 22: "miejsce obronne w znaczeniu późniejszym tyle co "zamek", "miasto""'^^rdfs:Literal
+		't. 6, s. 22: "miejsce obronne w znaczeniu późniejszym tyle co "zamek", "miasto""'@pl
 		;
 	.
 
@@ -22061,8 +22059,8 @@ ontohgis:settlement_type_8
 	ontohgis:hasOntologicalVerificator ontohgis:person_10 ;
 	ontohgis:hasTranslator ontohgis:person_9 ;
 	ontohgis:isDefinedByLiteral
-		"A demesne (en: manor, pl: folwark, de: Volwerk) is a locality with an industrial function, often located near the manor (a building) or separate."^^rdfs:Literal ,
-		"Folwark (niem: Volwerk) to miejscowość o charakterze gospodarczym, często funkcjonująca obok dworu lub osobno."^^rdfs:Literal
+		"A demesne (en: manor, pl: folwark, de: Volwerk) is a locality with an industrial function, often located near the manor (a building) or separate."@pl ,
+		"Folwark (niem: Volwerk) to miejscowość o charakterze gospodarczym, często funkcjonująca obok dworu lub osobno."@pl
 		;
 	ontohgis:seeAlsoIRI
 		<http://dbpedia.org/page/Demesne> ,
@@ -22118,8 +22116,8 @@ ontohgis:settlement_type_80
 	ontohgis:hasLanguageVerificator ontohgis:person_1 ;
 	ontohgis:hasOntologicalVerificator ontohgis:person_10 ;
 	ontohgis:isDefinedByLiteral
-		'"Holendry" (a Dutch type locality) is a colony established on an empty territory, in areas not very useful for agriculture. It was a type of locality characteristic for a "Dutch colonisation", which was a specific form of a settlement movement - widespread in the Commonwealth of Poland and Lithuania from 16th to 18th century. Granting uncongenial land difficult to cultivate or for animal husbandry to local people or (more often) immigrants inflowing from Flanders, German countries and Silesia was the core element of this process.'^^rdfs:Literal ,
-		"Holendry to kolonia zakładana na obszarach nieobjętych osadnictwem z powodu nikłej przydatności rolniczej, właściwa dla tzw. kolonizacji olęderskiej, czyli specyficznej formy ruchu osadniczego – charakterystycznego dla Rzeczypospolitej XVII–XVIII wieku – polegającego na nadaniu ludności rodzimej – lub częściej – imigrantom pochodzącym z Flandrii, państw niemieckich lub Śląska, trudnej (w uprawie lub hodowli) ziemi."^^rdfs:Literal
+		'"Holendry" (a Dutch type locality) is a colony established on an empty territory, in areas not very useful for agriculture. It was a type of locality characteristic for a "Dutch colonisation", which was a specific form of a settlement movement - widespread in the Commonwealth of Poland and Lithuania from 16th to 18th century. Granting uncongenial land difficult to cultivate or for animal husbandry to local people or (more often) immigrants inflowing from Flanders, German countries and Silesia was the core element of this process.'@en ,
+		"Holendry to kolonia zakładana na obszarach nieobjętych osadnictwem z powodu nikłej przydatności rolniczej, właściwa dla tzw. kolonizacji olęderskiej, czyli specyficznej formy ruchu osadniczego – charakterystycznego dla Rzeczypospolitej XVII–XVIII wieku – polegającego na nadaniu ludności rodzimej – lub częściej – imigrantom pochodzącym z Flandrii, państw niemieckich lub Śląska, trudnej (w uprawie lub hodowli) ziemi."@pl
 		;
 	.
 
@@ -23403,7 +23401,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 	a owl:Axiom ;
 	owl:annotatedProperty ontohgis:seeAlsoLiteral ;
 	owl:annotatedSource ontohgis:settlement_type_54 ;
-	owl:annotatedTarget "1. teren trudno dostępny, najczęściej bagnisty, leśny; też: miejsce odludne, 2. część terenu otoczona naturalnymi granicami, wyodrębniona za pomocą nazwy topograficznej, 3. u dawnych Słowian: miejsce w głębi puszczy związane z kultem bóstwa, odbywaniem narad lub uważane za siedzibę złych duchów"^^rdfs:Literal ;
+	owl:annotatedTarget "1. teren trudno dostępny, najczęściej bagnisty, leśny; też: miejsce odludne, 2. część terenu otoczona naturalnymi granicami, wyodrębniona za pomocą nazwy topograficznej, 3. u dawnych Słowian: miejsce w głębi puszczy związane z kultem bóstwa, odbywaniem narad lub uważane za siedzibę złych duchów"@pl ;
 	ontohgis:isDefinedByEntity ontohgis:document_3 ;
 	ontohgis:isDefinedByIRI <http://sjp.pwn.pl/sjp/uroczysko;2533316.html> ;
 	.
