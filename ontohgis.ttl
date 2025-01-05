@@ -20295,7 +20295,7 @@ ontohgis:settlement_type_37
 		<https://www.wikidata.org/wiki/Q18432972> ,
 		<https://www.wikidata.org/wiki/Q2989457>
 		;
-	ontohgis:seeAlsoLiteral "t. 20. s.47: od 1867 nazwa „osada miejska” jest używana dla niewielkich osiedli pozbawionych praw miejskich, które nie są wsiami."@enpl ;
+	ontohgis:seeAlsoLiteral "t. 20. s.47: od 1867 nazwa „osada miejska” jest używana dla niewielkich osiedli pozbawionych praw miejskich, które nie są wsiami."@pl ;
 	.
 
 ontohgis:settlement_type_38
