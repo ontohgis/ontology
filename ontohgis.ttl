@@ -17440,7 +17440,7 @@ ontohgis:seeAlsoLiteral
 		"see also a literal"@en ,
 		"zobacz też tekst"@pl
 		;
-	rdfs:range rdfs:Literal ;
+	rdfs:range rdf:langString ;
 	.
 
 ontohgis:settlementHasSettlementPart
