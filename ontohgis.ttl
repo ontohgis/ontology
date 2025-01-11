@@ -23353,7 +23353,7 @@ t. 8, s. 106 hasło zajazd, gdzie ‘dom zajezdny, gospoda, austerja, karczma, d
 	a owl:Axiom ;
 	owl:annotatedProperty ontohgis:seeAlsoLiteral ;
 	owl:annotatedSource ontohgis:settlement_type_37 ;
-	owl:annotatedTarget "t. 20. s.47: od 1867 nazwa „osada miejska” jest używana dla niewielkich osiedli pozbawionych praw miejskich, które nie są wsiami."@enpl ;
+	owl:annotatedTarget "t. 20. s.47: od 1867 nazwa „osada miejska” jest używana dla niewielkich osiedli pozbawionych praw miejskich, które nie są wsiami."@pl ;
 	ontohgis:isDefinedByEntity ontohgis:document_21 ;
 	.
 
