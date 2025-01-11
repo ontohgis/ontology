@@ -138,7 +138,7 @@ dc:identifier
 	a owl:AnnotationProperty ;
 	rdfs:label "Identifier"@en ;
 	rdfs:comment "An unambiguous reference to the resource within a given context."@en ;
-	dct:description "Recommended best practice is to identify the resource by means of a string conforming to a formal identification system. "@en ;
+	dct:description "Recommended best practice is to identify the resource by means of a string conforming to a formal identification system."@en ;
 	dct:hasVersion <http://dublincore.org/usage/terms/history/#identifier-006> ;
 	dct:issued "1999-07-02"^^xsd:date ;
 	dct:modified "2008-01-14"^^xsd:date ;
@@ -162,7 +162,7 @@ dc:relation
 	a owl:AnnotationProperty ;
 	rdfs:label "Relation"@en ;
 	rdfs:comment "A related resource."@en ;
-	dct:description "Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system. "@en ;
+	dct:description "Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system."@en ;
 	dct:hasVersion <http://dublincore.org/usage/terms/history/#relation-006> ;
 	dct:issued "1999-07-02"^^xsd:date ;
 	dct:modified "2008-01-14"^^xsd:date ;
@@ -924,7 +924,7 @@ dct:identifier
 	rdfs:subPropertyOf dc:identifier ;
 	rdfs:label "Identifier"@en ;
 	rdfs:comment "An unambiguous reference to the resource within a given context."@en ;
-	dct:description "Recommended best practice is to identify the resource by means of a string conforming to a formal identification system. "@en ;
+	dct:description "Recommended best practice is to identify the resource by means of a string conforming to a formal identification system."@en ;
 	dct:hasVersion <http://dublincore.org/usage/terms/history/#identifierT-001> ;
 	dct:issued "2008-01-14"^^xsd:date ;
 	dct:modified "2008-01-14"^^xsd:date ;
@@ -1138,7 +1138,7 @@ dct:relation
 	rdfs:subPropertyOf dc:relation ;
 	rdfs:label "Relation"@en ;
 	rdfs:comment "A related resource."@en ;
-	dct:description "Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system. "@en ;
+	dct:description "Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system."@en ;
 	dct:hasVersion <http://dublincore.org/usage/terms/history/#relationT-001> ;
 	dct:issued "2008-01-14"^^xsd:date ;
 	dct:modified "2008-01-14"^^xsd:date ;
@@ -1808,7 +1808,7 @@ The relationship of a physical copy of a book to the text it contains is modelle
 		<http://www.cidoc-crm.org/cidoc-crm/E41_Appellation>
 		;
 	rdfs:label
-		" Τίτλος"@el ,
+		"Τίτλος"@el ,
 		"Titel"@de ,
 		"Title"@en ,
 		"Titre"@fr ,
@@ -2552,7 +2552,7 @@ A gathering of people becomes an E74 Group when it exhibits organizational chara
 	rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
 	rdfs:label
 		"Appellation d'objet conceptuel"@fr ,
-		"Begriff- oder Konzeptbenennung "@de ,
+		"Begriff- oder Konzeptbenennung"@de ,
 		"Conceptual Object Appellation"@en ,
 		"Designação de Objeto Conceitual"@pt ,
 		"Opis obiektu pojęciowego"@pl ,
@@ -2880,7 +2880,7 @@ Note, that the class E9 Move inherits the property P7 took place at (witnessed):
 	rdfs:label
 		"Tod von"@de ,
 		"a été la mort de"@fr ,
-		"foi a morte para "@pt ,
+		"foi a morte para"@pt ,
 		"was death of"@en ,
 		"ήταν θάνατος του/της"@el ,
 		"был смертью для"@ru ,
@@ -3046,7 +3046,7 @@ The Right is held by an E39 Actor as described by P75 possesses (is possessed by
 		"Rechte stehen zu"@de ,
 		"droit détenu par"@fr ,
 		"right held by"@en ,
-		"são direitos de "@pt ,
+		"são direitos de"@pt ,
 		"δικαίωμα κατέχεται από"@el ,
 		"право принадлежит"@ru ,
 		"有权限持有者"@zh
@@ -3077,7 +3077,7 @@ P105 right held by (has right on) is a shortcut of the fully developed path from
 <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of>
 	a owl:ObjectProperty ;
 	rdfs:label
-		" ist zusammengesetzt aus"@de ,
+		"ist zusammengesetzt aus"@de ,
 		"est composé de"@fr ,
 		"is composed of"@en ,
 		"é composto de"@pt ,
@@ -4298,7 +4298,7 @@ Destruction implies the end of an item’s life as a subject of cultural documen
 		"присвоил атрибут для"@ru ,
 		"指定属性给"@zh
 		;
-	rdfs:comment "This property indicates the item to which an attribute or relation is assigned. "@en ;
+	rdfs:comment "This property indicates the item to which an attribute or relation is assigned."@en ;
 	rdfs:domain <http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment> ;
 	rdfs:range <http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity> ;
 	.
@@ -4684,7 +4684,7 @@ In contrast to P156  occupies, the property P53 has former or current location i
 	a owl:ObjectProperty ;
 	rdfs:label
 		"a été influencée par"@fr ,
-		"foi influenciado por "@pt ,
+		"foi influenciado por"@pt ,
 		"was influenced by"@en ,
 		"wurde beeinflußt durch"@de ,
 		"επηρεάστηκε από"@el ,
@@ -4821,7 +4821,7 @@ A digital photograph of a manuscript page incorporates the text of the manuscrip
 
 <http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by>
 	a owl:DatatypeProperty ;
-	rdfs:label "place is defined by "@en ;
+	rdfs:label "place is defined by"@en ;
 	rdfs:comment """This property associates an instance of E53 Place with an instance of E94 Space Primitive that defines it. Syntactic variants or use of different scripts may result in multiple instances of E94 Space Primitive defining exactly the same place. Transformations between different reference systems in general result in new definitions of places approximating each other and not in alternative definitions. Note that it is possible for a place to be defined by phenomena causal to it or other forms of identification rather than by an instance of E94 Space Primitive. In this case, this property must not be used for approximating the respective instance of E53 Place with an instance of E94 Space Primitive. 
 	"""@en ;
 	rdfs:domain <http://www.cidoc-crm.org/cidoc-crm/E53_Place> ;
@@ -4909,7 +4909,7 @@ For example, the discovery of a large hoard of treasure may call for a celebrati
 	a owl:ObjectProperty ;
 	rdfs:label
 		"era prevista a utilização de"@pt ,
-		"war beabsichtigteter Gebrauch von "@de ,
+		"war beabsichtigteter Gebrauch von"@de ,
 		"was intended use of"@en ,
 		"était l'utilisation prévue de"@fr ,
 		"ήταν προορισμένη χρήση του"@el ,
@@ -5599,7 +5599,7 @@ An Identifier might be created prior to an assignment.
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf <http://www.cidoc-crm.org/cidoc-crm/P141_assigned> ;
 	rdfs:label
-		" hob Zuweisung auf von"@de ,
+		"hob Zuweisung auf von"@de ,
 		"a désattribué"@fr ,
 		"deassigned"@en ,
 		"retirou a atribuição do"@pt ,
@@ -5834,7 +5834,7 @@ An instance of E54 Dimension is specific to an instance of E70 Thing.
 		"a pour état matériel"@fr ,
 		"has condition"@en ,
 		"hat Zustand"@de ,
-		"tem estado material "@pt ,
+		"tem estado material"@pt ,
 		"έχει κατάσταση"@el ,
 		"имеет условие"@ru ,
 		"有状态"@zh
@@ -6090,7 +6090,7 @@ The related E52 Time-Span is understood as the real Time-Span during which the p
 	rdfs:label
 		"est ou a été possédée par"@fr ,
 		"has former or current owner"@en ,
-		"hat früheren oder derzeitigen Besitzer "@de ,
+		"hat früheren oder derzeitigen Besitzer"@de ,
 		"é ou foi propriedade de"@pt ,
 		"έχει ή είχε ιδιοκτήτη"@el ,
 		"имеет бывшего или текущего владельца"@ru ,
@@ -6529,7 +6529,7 @@ This property is part of the fully developed path from E24 Physical Man-Made Thi
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to> ;
 	rdfs:label
-		" sieht den Gebrauch vor von"@de ,
+		"sieht den Gebrauch vor von"@de ,
 		"foresees use of"@en ,
 		"normalmente emprega"@pt ,
 		"utilise habituellement"@fr ,
@@ -6655,7 +6655,7 @@ Documents may describe any conceivable entity, hence the link to the highest-lev
 		"est en langue"@fr ,
 		"has language"@en ,
 		"hat Sprache"@de ,
-		"é da língua "@pt ,
+		"é da língua"@pt ,
 		"έχει γλώσσα"@el ,
 		"имеет язык"@ru ,
 		"使用语言"@zh
@@ -6820,7 +6820,7 @@ The residence may be either the Place where the Actor resides, or a legally regi
 		"est identifiée par"@fr ,
 		"is identified by"@en ,
 		"wird bezeichnet als"@de ,
-		"é identificado por "@pt ,
+		"é identificado por"@pt ,
 		"αναγνωρίζεται ως"@el ,
 		"идентифицируется посредством"@ru ,
 		"有识别称号"@zh
@@ -7190,7 +7190,7 @@ It addresses spatial containment only, and does not imply any relationship betwe
 	a owl:ObjectProperty ;
 	rdfs:label
 		"a eu lieu sur ou dans"@fr ,
-		"fand statt auf oder innerhalb von "@de ,
+		"fand statt auf oder innerhalb von"@de ,
 		"ocorreu em ou dentro"@pt ,
 		"took place on or within"@en ,
 		"έλαβε χώρα σε ή εντός"@el ,
@@ -7955,7 +7955,7 @@ ontohgis:administrative_system_14
 	ontohgis:endsDominationAt "1791-12-31"^^xsd:date ;
 	ontohgis:hasBeginning "1569-01-01"^^xsd:date ;
 	ontohgis:hasEnd "1795-12-31"^^xsd:date ;
-	ontohgis:hasLegalBasis "Akt unii lubelskiej z dnia 1 lipca 1569 r.; Konstytucja 3 maja 1791 r.; " ;
+	ontohgis:hasLegalBasis "Akt unii lubelskiej z dnia 1 lipca 1569 r.; Konstytucja 3 maja 1791 r.;" ;
 	ontohgis:hasScope "terytorium Rzeczypospolitej Obojga Narodów" ;
 	ontohgis:seeAlsoEntity
 		ontohgis:document_65 ,
@@ -8316,7 +8316,7 @@ ontohgis:administrative_system_27
 	ontohgis:endsDominationAt "1939-12-31"^^xsd:date ;
 	ontohgis:hasBeginning "1596-01-01"^^xsd:date ;
 	ontohgis:hasEnd "1939-12-31"^^xsd:date ;
-	ontohgis:hasLegalBasis "1596, akt unii brzeskiej; 1720, synod w Zamościu " ;
+	ontohgis:hasLegalBasis "1596, akt unii brzeskiej; 1720, synod w Zamościu" ;
 	ontohgis:hasScope "terytorium Polski, zwłaszcza wschodniej" ;
 	ontohgis:isCreatedBy
 		ontohgis:object_106 ,
@@ -8754,7 +8754,7 @@ ontohgis:administrative_system_38
 	ontohgis:endsDominationAt "1918-12-31"^^xsd:date ;
 	ontohgis:hasBeginning "1781-01-01"^^xsd:date ;
 	ontohgis:hasEnd "1918-12-31"^^xsd:date ;
-	ontohgis:hasLegalBasis "Od 1861 r. powołany oficjalnie " ;
+	ontohgis:hasLegalBasis "Od 1861 r. powołany oficjalnie" ;
 	ontohgis:hasScope "Galicja" ;
 	ontohgis:isCreatedBy
 		ontohgis:object_102 ,
@@ -12501,7 +12501,7 @@ ontohgis:administrative_type_3
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_9 ;
 	rdfs:label
-		"gmina wiejska "@pl ,
+		"gmina wiejska"@pl ,
 		"rural commune"@en
 		;
 	rdfs:comment 'Zgodnie z treścią konstytucji marcowej (1921) "Dla celów administracyjnych Państwo Polskie podzielone będzie w drodze ustawodawczej na województwa, powiaty i gminy miejskie i wiejskie, które będą równocześnie jednostkami samorządu terytorjalnego". Faktycznie cały okres międzywojenny charakteryzuje proces unifikacji terytorialnej administracji ogólnej, której celem jest likwidacja różnic między byłymi zaborami. Ostatnim ważnym aktem była likwidacja obszarów dworskich na terenie woj. poznańskiego oraz pomorskiego na mocy tzw. ustawy scaleniowej z 1933 r.'@pl ;
@@ -21874,7 +21874,7 @@ ontohgis:settlement_type_74
 		;
 	rdfs:comment
 		"Przysiółek osady jest odrębną jednostką osadniczą, rodzajem miejscowości, zawsze ma swoją nazwę własną. Przysiółki osady występują główniezachodnio-pomorskim, pomorskim, warmińsko-mazurskim. W sumie jest 80 takich obiektów."@pl ,
-		"The hamlet of a settlement is a separate settlement unit, a kind of locality, always has its particular name. Hamlets of settlements occur mainly in the Zachodniopomorskie, Pomorskie, and Warmińsko-Mazurskie voivodships. In total, there are 80 hamlets of settlements in Poland. "@en
+		"The hamlet of a settlement is a separate settlement unit, a kind of locality, always has its particular name. Hamlets of settlements occur mainly in the Zachodniopomorskie, Pomorskie, and Warmińsko-Mazurskie voivodships. In total, there are 80 hamlets of settlements in Poland."@en
 		;
 	dct:creator ontohgis:person_8 ;
 	owl:equivalentClass [
@@ -21937,7 +21937,7 @@ ontohgis:settlement_type_75
 		'Brak oficjalnej definicji w "Ustawie o nazwach urzędowych miejscowości i jednostek fizjograficznych".'@pl ,
 		'No official definition in the "Act on official names of localities and physiographic units".'@en ,
 		"Przysiółek wsi jest odrębną jednostką osadniczą, rodzajem miejscowości, zawsze ma swoją nazwę własną. Przysiółki wsi występują głównie w woj. podkarpackim, małopolskim oraz w świętokrzyskim. W sumie jest ich 11580."@pl ,
-		"The hamlet of a village is a separate settlement unit, a kind of locality, always has its particular name. Hamlets of villages occur mainly in Podkarpackie, Małopolskie, and Świętokrzyskie voivodships. In total, there are 11 580 hamlets of villages in Poland. "@en
+		"The hamlet of a village is a separate settlement unit, a kind of locality, always has its particular name. Hamlets of villages occur mainly in Podkarpackie, Małopolskie, and Świętokrzyskie voivodships. In total, there are 11 580 hamlets of villages in Poland."@en
 		;
 	dct:creator ontohgis:person_8 ;
 	owl:equivalentClass [
