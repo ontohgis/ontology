@@ -2457,7 +2457,7 @@ The decision to document an object as destroyed, transformed or modified is cont
 	a owl:Class ;
 	rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item> ;
 	rdfs:label
-		""@ru ,
+		"Вещь"@ru ,
 		"Chose"@fr ,
 		"Coisa"@pt ,
 		"Rzecz"@pl ,
@@ -7073,7 +7073,7 @@ It allows an E52 Time-Span to be associated with an E54 Dimension representing i
 <http://www.cidoc-crm.org/cidoc-crm/P84i_was_maximum_duration_of>
 	a owl:ObjectProperty ;
 	rdfs:label
-		""@zh ,
+		"是的最大持续时间"@zh ,
 		"a été la durée maximum de"@fr ,
 		"foi a duração máxima de"@pt ,
 		"war längste Dauer von"@de ,
@@ -17440,7 +17440,7 @@ ontohgis:seeAlsoLiteral
 		"see also a literal"@en ,
 		"zobacz też tekst"@pl
 		;
-	rdfs:range rdfs:Literal ;
+	rdfs:range rdf:langString ;
 	.
 
 ontohgis:settlementHasSettlementPart
@@ -20295,7 +20295,7 @@ ontohgis:settlement_type_37
 		<https://www.wikidata.org/wiki/Q18432972> ,
 		<https://www.wikidata.org/wiki/Q2989457>
 		;
-	ontohgis:seeAlsoLiteral "t. 20. s.47: od 1867 nazwa „osada miejska” jest używana dla niewielkich osiedli pozbawionych praw miejskich, które nie są wsiami."@enpl ;
+	ontohgis:seeAlsoLiteral "t. 20. s.47: od 1867 nazwa „osada miejska” jest używana dla niewielkich osiedli pozbawionych praw miejskich, które nie są wsiami."@pl ;
 	.
 
 ontohgis:settlement_type_38
