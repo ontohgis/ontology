@@ -1808,12 +1808,12 @@ The relationship of a physical copy of a book to the text it contains is modelle
 		<http://www.cidoc-crm.org/cidoc-crm/E41_Appellation>
 		;
 	rdfs:label
-		"Τίτλος"@el ,
 		"Titel"@de ,
 		"Title"@en ,
 		"Titre"@fr ,
 		"Tytuł"@pl ,
 		"Título"@pt ,
+		"Τίτλος"@el ,
 		"Заголовок"@ru ,
 		"题目"@zh
 		;
@@ -2457,13 +2457,13 @@ The decision to document an object as destroyed, transformed or modified is cont
 	a owl:Class ;
 	rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item> ;
 	rdfs:label
-		"Вещь"@ru ,
 		"Chose"@fr ,
 		"Coisa"@pt ,
 		"Rzecz"@pl ,
 		"Sache"@de ,
 		"Thing"@en ,
 		"Πράγμα"@el ,
+		"Вещь"@ru ,
 		"万物"@zh
 		;
 	rdfs:comment """This general class comprises discrete, identifiable, instances of E77 Persistent Item that are documented as single units, that either consist of matter or depend on being carried by matter and are characterized by relative stability.
@@ -3077,9 +3077,9 @@ P105 right held by (has right on) is a shortcut of the fully developed path from
 <http://www.cidoc-crm.org/cidoc-crm/P106_is_composed_of>
 	a owl:ObjectProperty ;
 	rdfs:label
-		"ist zusammengesetzt aus"@de ,
 		"est composé de"@fr ,
 		"is composed of"@en ,
+		"ist zusammengesetzt aus"@de ,
 		"é composto de"@pt ,
 		"αποτελείται από"@el ,
 		"составлен из"@ru ,
@@ -5599,9 +5599,9 @@ An Identifier might be created prior to an assignment.
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf <http://www.cidoc-crm.org/cidoc-crm/P141_assigned> ;
 	rdfs:label
-		"hob Zuweisung auf von"@de ,
 		"a désattribué"@fr ,
 		"deassigned"@en ,
+		"hob Zuweisung auf von"@de ,
 		"retirou a atribuição do"@pt ,
 		"ακύρωσε"@el ,
 		"отменил назначение"@ru ,
@@ -6529,9 +6529,9 @@ This property is part of the fully developed path from E24 Physical Man-Made Thi
 	a owl:ObjectProperty ;
 	rdfs:subPropertyOf <http://www.cidoc-crm.org/cidoc-crm/P67_refers_to> ;
 	rdfs:label
-		"sieht den Gebrauch vor von"@de ,
 		"foresees use of"@en ,
 		"normalmente emprega"@pt ,
+		"sieht den Gebrauch vor von"@de ,
 		"utilise habituellement"@fr ,
 		"συνήθως χρησιμοποιεί"@el ,
 		"обычно применяет"@ru ,
@@ -7073,13 +7073,13 @@ It allows an E52 Time-Span to be associated with an E54 Dimension representing i
 <http://www.cidoc-crm.org/cidoc-crm/P84i_was_maximum_duration_of>
 	a owl:ObjectProperty ;
 	rdfs:label
-		"是的最大持续时间"@zh ,
 		"a été la durée maximum de"@fr ,
 		"foi a duração máxima de"@pt ,
 		"war längste Dauer von"@de ,
 		"was maximum duration of"@en ,
 		"είναι μέγιστη διάρκεια του/της"@el ,
-		"был максимальной длительностью для"@ru
+		"был максимальной длительностью для"@ru ,
+		"是的最大持续时间"@zh
 		;
 	rdfs:domain <http://www.cidoc-crm.org/cidoc-crm/E54_Dimension> ;
 	rdfs:range <http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span> ;
@@ -13574,10 +13574,8 @@ ontohgis:document_103
 		;
 	rdfs:label "Sitarz, Parafia"@pl ;
 	dc:creator "Sitarz, M." ;
-	dc:date
-		"1973-2014" ,
-		"Encyklopedia katolicka, t. 14, Lublin 1973-2014, s. 1324–1326"@pl
-		;
+	dc:date "1973-2014" ;
+	dc:identifier "Encyklopedia katolicka, t. 14, Lublin 1973-2014, s. 1324–1326"@pl ;
 	dc:title "Parafia"@pl ;
 	.
 
