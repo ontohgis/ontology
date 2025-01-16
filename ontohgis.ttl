@@ -14355,10 +14355,8 @@ ontohgis:document_162
 		<http://www.cidoc-crm.org/cidoc-crm/E31_Document>
 		;
 	rdfs:label "Geneza i znaczenie hołdu pruskiego 1525 roku"@pl ;
-	dc:date
-		"1975"^^xsd:integer ,
-		"Biskup, M."
-		;
+	dc:creator "Biskup, M." ;
+	dc:date "1975"^^xsd:integer ;
 	dc:identifier '"Komunikaty Mazursko-Warmińskie" 1975, nr 4, s. 407-424'@pl ;
 	dc:title "Geneza i znaczenie hołdu pruskiego 1525 roku"@pl ;
 	.
