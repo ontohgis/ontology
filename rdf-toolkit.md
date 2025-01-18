@@ -6,13 +6,14 @@
   - `java`: install at least **version 11** of the Java JRE e.g. from [Eclipse Temurin](https://adoptium.net/temurin/releases/) project
 
 # How to start:
-  - on windows: drag the ontology file to the `rdf-toolkit.bat` file
-    or start the `cmd.exe` in the current directory
-    run the `rdf-toolkit.bat` script with the ontology file as an argument, e.g.:
+  - on windows: run the `rdf-toolkit.bat` or ...
+    drag the ontology file to the `rdf-toolkit.bat` file or ...
+    start the `cmd.exe` in the current directory and run the `rdf-toolkit.bat` script with the ontology file as an argument, e.g.:
     ```
     rdf-toolkit.bat ontohgis.ttl
     ```
-  - on Unix-like systems: run the `rdf-toolkit.sh` script with the ontology file as an argument, e.g.:
+  - on Unix-like systems: run the `rdf-toolkit.sh` or ...
+    run the `rdf-toolkit.sh` script with the ontology file as an argument, e.g.:
     ```bash
     ./rdf-toolkit.sh ontohgis.ttl
     ```
