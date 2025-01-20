@@ -13515,7 +13515,7 @@ ontohgis:document_1
 		<http://www.cidoc-crm.org/cidoc-crm/E31_Document>
 		;
 	rdfs:label "Słownik języka polskiego (Linde)"@pl ;
-	dc:date "1807-1814" ;
+	dc:date "1807/1814" ;
 	dc:identifier <http://kpbc.umk.pl/dlibra/publication?id=8173> ;
 	dc:title "Słownik języka polskiego"@pl ;
 	dct:creator ontohgis:person_21 ;
@@ -13538,7 +13538,7 @@ ontohgis:document_100
 		;
 	rdfs:label "Pawluk, Dekanat"@pl ;
 	dc:creator "Pawluk, T." ;
-	dc:date "1973-2014" ;
+	dc:date "1973/2014" ;
 	dc:identifier "Encyklopedia katolicka, t. 3, Lublin 1973-2014, s. 1114–1115"@pl ;
 	dc:title "Dekanat"@pl ;
 	.
@@ -13550,7 +13550,7 @@ ontohgis:document_101
 		;
 	rdfs:label "Kumor, Archidiakonat"@pl ;
 	dc:creator "Kumor, B." ;
-	dc:date "1973-2014" ;
+	dc:date "1973/2014" ;
 	dc:identifier "Encyklopedia katolicka, t. 1, Lublin 1973-2014, s. 869–873"@pl ;
 	dc:title "Archidiakonat"@pl ;
 	.
@@ -13562,7 +13562,7 @@ ontohgis:document_102
 		;
 	rdfs:label "Rybczyński, Diecezja"@pl ;
 	dc:creator "Rybczyński, H." ;
-	dc:date "1973-2014" ;
+	dc:date "1973/2014" ;
 	dc:identifier "Encyklopedia katolicka, t. 3, Lublin 1973-2014, s. 1307–1309" ;
 	dc:title "Diecezja"@pl ;
 	.
@@ -13574,7 +13574,7 @@ ontohgis:document_103
 		;
 	rdfs:label "Sitarz, Parafia"@pl ;
 	dc:creator "Sitarz, M." ;
-	dc:date "1973-2014" ;
+	dc:date "1973/2014" ;
 	dc:identifier "Encyklopedia katolicka, t. 14, Lublin 1973-2014, s. 1324–1326"@pl ;
 	dc:title "Parafia"@pl ;
 	.
@@ -13653,7 +13653,7 @@ ontohgis:document_11
 		<http://www.cidoc-crm.org/cidoc-crm/E31_Document>
 		;
 	rdfs:label "Wielka encyklopedia powszechna PWN"@pl ;
-	dct:date "1962-1970"@pl ;
+	dct:date "1962/1970"@pl ;
 	.
 
 ontohgis:document_110
@@ -13692,7 +13692,7 @@ ontohgis:document_112
 		;
 	rdfs:label "Bieńkowski, Organizacja Kościoła wschodniego"@pl ;
 	dc:creator "Bieńkowski, L." ;
-	dc:date "1969-1970" ;
+	dc:date "1969/1970" ;
 	dc:identifier "Kościół w Polsce, t. 2, red. J. Kłoczowski, Kraków 1969-1970, s. 779–1049"@pl ;
 	dc:title "Organizacja Kościoła wschodniego w Polsce"@pl ;
 	.
@@ -13995,7 +13995,7 @@ ontohgis:document_134
 		"Janczak, J." ,
 		"Ładogórski, T."
 		;
-	dc:date "1976-1984" ;
+	dc:date "1976/1984" ;
 	dc:description
 		"Atlas historyczny Polski: Mapy XVIII wieku, 1-2"@pl ,
 		"t. 1-2"@pl
@@ -14036,7 +14036,7 @@ ontohgis:document_137
 		;
 	rdfs:label "Praktyczny słownik współczesnej polszczyzny"@pl ;
 	dc:creator "Zgółkowa, H." ;
-	dc:date "1994–2005" ;
+	dc:date "1994/2005" ;
 	dc:description "t. 1–50, Wydawnictwo Kurpisz, Poznań"@pl ;
 	dc:title "Praktyczny słownik współczesnej polszczyzny"@pl ;
 	.
@@ -14047,7 +14047,7 @@ ontohgis:document_138
 		<http://www.cidoc-crm.org/cidoc-crm/E31_Document>
 		;
 	rdfs:label "Nowa encyklopedia powszechna PWN"@pl ;
-	dc:date "1995-1996"@pl ;
+	dc:date "1995/1996"@pl ;
 	dc:title "Nowa encyklopedia powszechna PWN"@pl ;
 	.
 
@@ -14057,7 +14057,7 @@ ontohgis:document_139
 		<http://www.cidoc-crm.org/cidoc-crm/E31_Document>
 		;
 	rdfs:label "Słownik starożytności słowiańskich"@pl ;
-	dc:date "1961-1996" ;
+	dc:date "1961/1996" ;
 	dc:title "Słownik starożytności słowiańskich: encyklopedyczny zarys kultury Słowian od czasów najdawniejszych"@pl ;
 	.
 
@@ -14079,7 +14079,7 @@ ontohgis:document_140
 		<http://www.cidoc-crm.org/cidoc-crm/E31_Document>
 		;
 	rdfs:label "Wielka ilustrowana encyklopedia powszechna (Wydawnictwa Gutenberga)"@pl ;
-	dc:date "1929-1938" ;
+	dc:date "1929/1938" ;
 	dc:title "Wielka ilustrowana encyklopedia powszechna (Wydawnictwa Gutenberga)"@pl ;
 	.
 
@@ -14180,7 +14180,7 @@ ontohgis:document_149
 		<http://www.cidoc-crm.org/cidoc-crm/E31_Document>
 		;
 	rdfs:label "Jabłonowski A., Podlasie (Województwo)"@pl ;
-	dc:date "1908-1910" ;
+	dc:date "1908/1910" ;
 	dc:identifier "Źródła Dziejowe, t. 17, cz. 1-3" ;
 	dc:title "Podlasie (Województwo)"@pl ;
 	.
@@ -14192,7 +14192,7 @@ ontohgis:document_15
 		;
 	rdfs:label "Orgelbrand, Encyklopedja powszechna"@pl ;
 	dc:creator "Orgelbrand, Samuel" ;
-	dc:date "1898-1912" ;
+	dc:date "1898/1912" ;
 	dc:title "S. Orgelbranda Encyklopedja powszechna z ilustracjami i mapami. T. 1 - T. 18"@pl ;
 	ontohgis:seeAlsoIRI "http://cybra.lodz.pl/dlibra/publication/721"@pl ;
 	.
@@ -14217,7 +14217,7 @@ ontohgis:document_151
 		"Vialiki histaryčny atlas Bielarusi"@en ,
 		"Вялікі гістарычны атлас Беларусі"@be
 		;
-	dc:date "2013-2016" ;
+	dc:date "2013/2016" ;
 	dc:title "Вялікі гістарычны атлас Беларусі, t. 1-3,"@be ;
 	.
 
@@ -14228,7 +14228,7 @@ ontohgis:document_152
 		;
 	rdfs:label "Łowmiański H., Studja nad początkami społeczeństwa i państwa litewskiego"@pl ;
 	dc:creator "Łowmiański, H." ;
-	dc:date "1931-1932" ;
+	dc:date "1931/1932" ;
 	dc:identifier "Rozprawy Wydziału III Towarzystwa Przyjaciół Nauk w Wilnie, t. 5-6"@pl ;
 	dc:title "Studja nad początkami społeczeństwa i państwa litewskiego."@pl ;
 	.
@@ -14555,7 +14555,7 @@ ontohgis:document_18
 		;
 	rdfs:label "Słownik języka polskiego (Trzaska)"@pl ;
 	dc:creator "Lehr-Spławiński, Tadeusz" ;
-	dc:date "1938-1939" ;
+	dc:date "1938/1939" ;
 	dc:publisher "Księgarnia i Dom Wydawniczy Trzaska, Evert i Michalski"@pl ;
 	dc:title "Słownik języka polskiego"@pl ;
 	.
@@ -14600,7 +14600,7 @@ ontohgis:document_19
 		;
 	rdfs:label "Słownik języka polskiego PWN (Szymczak)"@pl ;
 	dc:creator "Szymczak, Mieczysław" ;
-	dc:date "1995-1998" ;
+	dc:date "1995/1998" ;
 	dc:publisher "Wydawnictwo Naukowe PWN"@pl ;
 	dc:title "Słownik języka polskiego PWN"@pl ;
 	.
@@ -14616,7 +14616,7 @@ ontohgis:document_2
 		"Mayenowa, Maria Renata" ,
 		"Pepłowski, Franciszek"
 		;
-	dc:date "1956-" ;
+	dc:date "1956/" ;
 	dc:title "Słownik polszczyzny XVI wieku"@pl ;
 	ontohgis:seeAlsoIRI <http://kpbc.umk.pl/dlibra/publication/17781?tab=1> ;
 	.
@@ -14639,7 +14639,7 @@ ontohgis:document_21
 		;
 	rdfs:label "Wielka Encyklopedia PWN (2001-2005)"@pl ;
 	dc:creator "Wojnowski, Jan" ;
-	dc:date "2001-2005" ;
+	dc:date "2001/2005" ;
 	dc:title "Wielka Encyklopedia PWN"@pl ;
 	.
 
@@ -14650,7 +14650,7 @@ ontohgis:document_22
 		;
 	rdfs:label "Rozporządzenie EMUiA (2012)"@pl ;
 	dc:creator "Minister Administracji i Cyfryzacji RP"@pl ;
-	dc:date "2.02.2012" ;
+	dc:date "2012-02-02" ;
 	dc:title "Rozporządzenie Ministra Administracji i Cyfryzacji z dnia 9 stycznia 2012 r. w sprawie ewidencji miejscowości, ulic i adresów"@pl ;
 	ontohgis:seeAlsoIRI <http://prawo.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20120000125> ;
 	.
@@ -14890,7 +14890,7 @@ ontohgis:document_4
 	rdfs:label "Słownik języka polskiego (Doroszewski)"@pl ;
 	dc:title "Słownik języka polskiego"@pl ;
 	dct:creator ontohgis:person_20 ;
-	dct:date "1958–1969" ;
+	dct:date "1958/1969" ;
 	dct:identifier <http://doroszewski.pwn.pl/> ;
 	.
 
@@ -14912,7 +14912,7 @@ ontohgis:document_41
 		;
 	rdfs:label "Gajsler J.F., Dzieje Węgier w zarysie"@pl ;
 	dc:creator "Gajsler, J.F" ;
-	dc:date "1900-2002" ;
+	dc:date "1900/2002" ;
 	dc:title "Dzieje Węgier w zarysie, t. 2-3"@pl ;
 	.
 
@@ -15025,7 +15025,7 @@ ontohgis:document_5
 		"Kryński, Adam" ,
 		"Niedźwiedzki, Władysław"
 		;
-	dct:date "1900-1927" ;
+	dct:date "1900/1927" ;
 	ontohgis:seeAlsoIRI <http://ebuw.uw.edu.pl/publication/254> ;
 	.
 
@@ -15161,7 +15161,7 @@ ontohgis:document_6
 		;
 	rdfs:label "Słownik staropolski"@pl ;
 	dc:creator "Urbańczyk, Stanisław" ;
-	dct:date "1953–2002" ;
+	dct:date "1953/2002" ;
 	ontohgis:seeAlsoIRI <https://pjs.ijp.pan.pl/sstp.html> ;
 	.
 
@@ -15283,7 +15283,7 @@ ontohgis:document_7
 		;
 	rdfs:label "Encyklopedia Katolicka"@pl ;
 	dc:title "Encyklopedia Katolicka"@pl ;
-	dct:date "1973-2014" ;
+	dct:date "1973/2014" ;
 	ontohgis:seeAlsoIRI <http://www.kul.pl/encyklopedia-katolicka,art_9929.html> ;
 	.
 
@@ -15583,7 +15583,7 @@ ontohgis:document_91
 		<http://www.cidoc-crm.org/cidoc-crm/E31_Document>
 		;
 	rdfs:label "Skorowidz miejscowości Rzeczpospolitej Polskiej 1921. Województwo Pomorskie"@pl ;
-	dc:date "1921-1926" ;
+	dc:date "1921/1926" ;
 	dc:title "Skorowidz miejscowości Rzeczpospolitej Polskiej opracowany na podstawie wyników pierwszego powszechnego spisu ludności z dn. 30 września 1921 roku, tom XI: Województwo Pomorskie"@pl ;
 	.
 
