@@ -32,11 +32,18 @@
 	.
 
 oc:NonVariableEntity
+	a owl:Class ;
 	rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item> ;
 	.
 
 oc:VariableEntity
+	a owl:Class ;
 	rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State> ;
+	.
+
+oc:VariableEntityManifestation
+	a owl:Class ;
+	rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item> ;
 	.
 
 oc:hasManifestation
@@ -13507,6 +13514,19 @@ ontohgis:administrative_type_97
 		"http://gov.genealogy.net/types.owl#113" ,
 		"https://www.wikidata.org/wiki/Q852231"
 		;
+	.
+
+ontohgis:continuesAs
+	a owl:ObjectProperty ;
+	rdfs:label
+		"continues as"@en ,
+		"istnieje jako"@pl
+		;
+	rdfs:comment "This property allows to say that one entity exists as a continuation of another entity."@en ;
+	owl:propertyChainAxiom (
+		<http://www.cidoc-crm.org/cidoc-crm/P124i_was_transformed_by>
+		<http://www.cidoc-crm.org/cidoc-crm/P123_resulted_in>
+	) ;
 	.
 
 ontohgis:document_1
