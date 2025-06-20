@@ -11413,7 +11413,7 @@ ontohgis:administrative_type_222
 		"wołość (Wielkie Księstwo Litewskie (1385-1569))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_40 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_40 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_30 ;
 	ontohgis:seeAlsoIRI
 		"http://dbpedia.org/page/Volost" ,
 		"https://www.wikidata.org/wiki/Q687121"
@@ -11435,7 +11435,7 @@ ontohgis:administrative_type_223
 		"ziemia (Wielkie Księstwo Litewskie (1385-1569))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_40 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_40 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_40 ;
 	.
 
 ontohgis:administrative_type_224
@@ -11446,7 +11446,7 @@ ontohgis:administrative_type_224
 		"księstwo (Wielkie Księstwo Litewskie (1385-1569))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_40 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_40 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_70 ;
 	ontohgis:seeAlsoIRI
 		"http://gov.genealogy.net/types.owl#60" ,
 		"https://www.wikidata.org/wiki/Q208500"
@@ -11462,7 +11462,7 @@ ontohgis:administrative_type_226
 		"powiat (Królestwo Saksonii (1815-1918))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_12 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_12 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_30 ;
 	.
 
 ontohgis:administrative_type_227
@@ -11482,7 +11482,7 @@ ontohgis:administrative_type_227
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "county"@en ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_12 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_12 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_20 ;
 	.
 
 ontohgis:administrative_type_228
@@ -11502,7 +11502,7 @@ ontohgis:administrative_type_228
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "commume"@en ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_12 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_12 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_10 ;
 	ontohgis:seeAlsoIRI
 		"http://dbpedia.org/page/Gemeinde" ,
 		"http://gov.genealogy.net/types.owl#group_31" ,
@@ -11525,7 +11525,7 @@ ontohgis:administrative_type_229
 		"gmina (Księstwo Warszawskie (1807-1815))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_42 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_42 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_10 ;
 	.
 
 ontohgis:administrative_type_230
@@ -11543,7 +11543,7 @@ ontohgis:administrative_type_230
 		"powiat (Księstwo Warszawskie (1807-1815))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_42 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_42 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_30 ;
 	.
 
 ontohgis:administrative_type_231
@@ -11561,7 +11561,7 @@ ontohgis:administrative_type_231
 		"department (The Duchy of Warsaw (1807-1815))"@en
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_42 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_42 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_40 ;
 	.
 
 ontohgis:administrative_type_232
@@ -11572,7 +11572,7 @@ ontohgis:administrative_type_232
 		"księstwo (Księstwo Warszawskie (1807-1815))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_42 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_42 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_70 ;
 	ontohgis:seeAlsoIRI
 		"http://gov.genealogy.net/types.owl#60" ,
 		"https://www.wikidata.org/wiki/Q208500"
@@ -11588,7 +11588,7 @@ ontohgis:administrative_type_234
 		;
 	rdfs:comment "najniższa jednostka administracyjna, bez rozróżnienia na miejską i wiejską (niewprowadzone w życie) (M. Kallas, s. 212)"@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_42 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_42 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_10 ;
 	.
 
 ontohgis:administrative_type_235
@@ -11600,7 +11600,7 @@ ontohgis:administrative_type_235
 		;
 	rdfs:comment "dekret królewski z 19.12.1807 (J. Goclon, s. 107)"@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_42 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_42 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_10 ;
 	.
 
 ontohgis:administrative_type_236
@@ -11612,7 +11612,7 @@ ontohgis:administrative_type_236
 		;
 	rdfs:comment "od 23.02.1809 (M. Kallas, s. 212)"@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_42 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_42 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_10 ;
 	.
 
 ontohgis:administrative_type_237
@@ -11624,7 +11624,7 @@ ontohgis:administrative_type_237
 		;
 	rdfs:comment "od 23.02.1809 (M. Kallas, s. 212)"@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_42 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_42 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_10 ;
 	.
 
 ontohgis:administrative_type_239
@@ -11632,7 +11632,7 @@ ontohgis:administrative_type_239
 	rdfs:subClassOf ontohgis:object_3012 ;
 	rdfs:label "metropolia (Kościół katolicki ob. ormiańskiego)"@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_46 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_46 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_220 ;
 	.
 
 ontohgis:administrative_type_24
@@ -11671,7 +11671,7 @@ ontohgis:administrative_type_240
 		;
 	rdfs:label "diecezja (Kościół katolicki ob. ormiańskiego)"@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_46 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_46 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_200 ;
 	.
 
 ontohgis:administrative_type_241
@@ -11686,7 +11686,7 @@ ontohgis:administrative_type_241
 		;
 	rdfs:label "parafia (Kościół katolicki ob. ormiańskiego)"@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_46 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_46 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_210 ;
 	.
 
 ontohgis:administrative_type_242
@@ -11705,7 +11705,7 @@ ontohgis:administrative_type_242
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "municipality"@en ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_43 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_43 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_10 ;
 	.
 
 ontohgis:administrative_type_243
@@ -11716,7 +11716,7 @@ ontohgis:administrative_type_243
 		"powiat (Królestwo Polskie (1815-1836))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_43 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_43 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_20 ;
 	.
 
 ontohgis:administrative_type_244
@@ -11734,7 +11734,7 @@ ontohgis:administrative_type_244
 		"obwód (Królestwo Polskie (1815-1836))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_43 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_43 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_30 ;
 	.
 
 ontohgis:administrative_type_245
@@ -11754,7 +11754,7 @@ ontohgis:administrative_type_245
 	rdfs:comment "W 1815 wprowadzono podział na województwa, który pokrywał się z Departamentami z Księstwa Warszawskiego (M. Kallas, s. 238). W 1837 na mocy ukazu carskiego wprowadzono gubernie w miejsce województw."@pl ;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "province"@en ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_43 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_43 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_50 ;
 	.
 
 ontohgis:administrative_type_246
@@ -11765,7 +11765,7 @@ ontohgis:administrative_type_246
 		"królestwo (Królestwo Polskie (1815-1836)) (Królestwo Polskie (1815-1836))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_43 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_43 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_70 ;
 	ontohgis:seeAlsoIRI
 		"http://gov.genealogy.net/types.owl#group_26" ,
 		"https://www.wikidata.org/wiki/Q417175"
@@ -11780,7 +11780,7 @@ ontohgis:administrative_type_247
 		"town commune (Kingdom of Poland (1815-1837))"@en
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_43 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_43 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_10 ;
 	.
 
 ontohgis:administrative_type_248
@@ -11791,7 +11791,7 @@ ontohgis:administrative_type_248
 		"rural commune (Kingdom of Poland (1815-1837))"@en
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_43 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_43 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_10 ;
 	.
 
 ontohgis:administrative_type_25
@@ -11835,7 +11835,7 @@ ontohgis:administrative_type_250
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "municipality"@en ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_47 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_47 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_10 ;
 	.
 
 ontohgis:administrative_type_251
@@ -11846,7 +11846,7 @@ ontohgis:administrative_type_251
 		"town commune (Congress Poland (1867-1918))"@en
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_47 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_47 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_10 ;
 	.
 
 ontohgis:administrative_type_252
@@ -11857,7 +11857,7 @@ ontohgis:administrative_type_252
 		"rural commune (Congress Poland (1867-1918))"@en
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_47 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_47 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_10 ;
 	.
 
 ontohgis:administrative_type_253
@@ -11875,7 +11875,7 @@ ontohgis:administrative_type_253
 		"powiat (Królestwo Polskie (1867-1918))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_47 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_47 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_30 ;
 	.
 
 ontohgis:administrative_type_254
@@ -11893,7 +11893,7 @@ ontohgis:administrative_type_254
 		"province (Congress Poland (1867-1918))"@en
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_47 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_47 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_50 ;
 	.
 
 ontohgis:administrative_type_255
@@ -11910,7 +11910,7 @@ ontohgis:administrative_type_255
 		"land"@en
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_47 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_47 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_60 ;
 	.
 
 ontohgis:administrative_type_257
@@ -11928,7 +11928,7 @@ ontohgis:administrative_type_257
 		"gmina (Wolne Miasto Gdańsk (1920-1939))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_5 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_5 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_10 ;
 	ontohgis:seeAlsoIRI
 		"http://dbpedia.org/page/Gemeinde" ,
 		"http://gov.genealogy.net/types.owl#group_31" ,
@@ -11948,7 +11948,7 @@ ontohgis:administrative_type_258
 		"town"@en
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_5 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_5 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_10 ;
 	.
 
 ontohgis:administrative_type_259
@@ -11960,7 +11960,7 @@ ontohgis:administrative_type_259
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "rural municipality"@en ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_5 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_5 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_10 ;
 	.
 
 ontohgis:administrative_type_26
@@ -11994,7 +11994,7 @@ ontohgis:administrative_type_260
 		"obszar dworski (Wolne Miasto Gdańsk (1920-1939))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_5 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_5 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_10 ;
 	ontohgis:seeAlsoIRI
 		"http://gov.genealogy.net/types.owl#109" ,
 		"https://www.wikidata.org/wiki/Q451019"
@@ -12009,7 +12009,7 @@ ontohgis:administrative_type_261
 		"powiat (Wolne Miasto Gdańsk (1920-1939))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_5 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_5 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_30 ;
 	ontohgis:seeAlsoIRI
 		"http://gov.genealogy.net/types.owl#32" ,
 		"https://www.wikidata.org/wiki/Q106658"
@@ -12024,7 +12024,7 @@ ontohgis:administrative_type_262
 		"urban district (The Free City of Danzig (1920-1939))"@en
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_5 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_5 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_30 ;
 	ontohgis:seeAlsoIRI "http://gov.genealogy.net/types.owl#32" ;
 	.
 
@@ -12036,7 +12036,7 @@ ontohgis:administrative_type_263
 		"rural district (The Free City of Danzig (1920-1939))"@en
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_5 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_5 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_30 ;
 	.
 
 ontohgis:administrative_type_264
@@ -12054,7 +12054,7 @@ ontohgis:administrative_type_264
 		"powiat (Królestwo Polskie (1370-1568))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_44 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_44 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_30 ;
 	.
 
 ontohgis:administrative_type_265
@@ -12072,7 +12072,7 @@ ontohgis:administrative_type_265
 		"ziemia (Królestwo Polskie (1370-1568))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_44 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_44 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_40 ;
 	.
 
 ontohgis:administrative_type_266
@@ -12094,7 +12094,7 @@ ontohgis:administrative_type_266
 		"province"@en
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_44 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_44 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_50 ;
 	.
 
 ontohgis:administrative_type_267
@@ -12105,7 +12105,7 @@ ontohgis:administrative_type_267
 		"prowincja (Królestwo Polskie (1370-1568))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_44 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_44 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_60 ;
 	.
 
 ontohgis:administrative_type_269
@@ -12120,7 +12120,7 @@ ontohgis:administrative_type_269
 		;
 	rdfs:label "komornictwo (Prusy Książęce (1525-1701))"@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_45 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_45 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_20 ;
 	.
 
 ontohgis:administrative_type_27
@@ -12158,7 +12158,7 @@ ontohgis:administrative_type_270
 Rybaków nosił tytuł wójta Sambii (Vogt von Samland). Niektóre starostwa dzieliły się na komornictwa: komornictwo Dolno w starostwie Przezmark, komornictwo Orzysz w starostwie Ryn, komornictwo Laptau (i inne) w starostwie Rybaki. Wg ustaleń J. Skibińskiego ""Najniższymi ogniwami pruskiej administracji terenowej w pierwszej połowie XVII wieku były komornictwa (urzędy kameralne), zwane w późniejszym okresie urzędami domenalnymi (Domänenämter)"". Starostwo Wystruć ze względu na dużą powierzchnię i brak wielkiej własności ziemskiej podzielono na 13 starostw sołtysich (Schulzenämter). Liczba starostw nie była stała: Jerzy Skibiński wylicza, że wg recesu sejmu krajowego z 1566 roku było ich łącznie 39, dane z diariuszy sejmowych z 1663 roku wskazują 47 starostw, na początku XVIII wieku z kolei doliczono się 45 starostw."'''@pl ;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "Amt"@de ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_45 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_45 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_30 ;
 	.
 
 ontohgis:administrative_type_271
@@ -12178,7 +12178,7 @@ ontohgis:administrative_type_271
 		;
 	rdfs:comment "Sambia, Natangia, Górne Prusy; podział ten miał charakter głównie polityczny, związany z organizacją zjazdów okręgu i wysyłaniem poselstw"@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_45 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_45 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_50 ;
 	.
 
 ontohgis:administrative_type_272
@@ -12191,7 +12191,7 @@ ontohgis:administrative_type_272
 		;
 	rdfs:comment "lenno do 1657 - traktaty welawsko-bydgoskie zrywały stosunki lenne między Koroną i Prusami Książęcymi"@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_45 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_45 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_70 ;
 	ontohgis:seeAlsoIRI
 		"http://gov.genealogy.net/types.owl#60" ,
 		"https://www.wikidata.org/wiki/Q208500"
@@ -12207,7 +12207,7 @@ ontohgis:administrative_type_274
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "circle"@en ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_16 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_16 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_40 ;
 	.
 
 ontohgis:administrative_type_275
@@ -12226,7 +12226,7 @@ ontohgis:administrative_type_275
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "municipality"@en ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_9 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_9 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_10 ;
 	ontohgis:seeAlsoIRI
 		"http://dbpedia.org/page/Gemeinde" ,
 		"http://gov.genealogy.net/types.owl#group_31" ,
@@ -12249,7 +12249,7 @@ ontohgis:administrative_type_276
 		"powiat sądowy (Księstwo Górnego i Dolnego Śląska (1849-1918))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_9 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_9 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_20 ;
 	.
 
 ontohgis:administrative_type_277
@@ -12264,7 +12264,7 @@ ontohgis:administrative_type_277
 		"it pertains to the towns, which previously, as early as the 19th c., had a town council. In the area in question such city was Bielsko"@en
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_9 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_9 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_30 ;
 	.
 
 ontohgis:administrative_type_278
@@ -12275,7 +12275,7 @@ ontohgis:administrative_type_278
 		"starostwo (Księstwo Siewierskie (1443-1790))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_22 ;
-	ontohgis:isSymbolisedByMeansOf ontohgis:administrative_system_22 ;
+	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_30 ;
 	.
 
 ontohgis:administrative_type_279
@@ -18029,8 +18029,11 @@ ontohgis:settlement_type_113
 		;
 	ontohgis:seeAlsoLiteral
 		't. 2, s. 168 (hasło "Grodzisko"): "Grody to obiekty sztucznie ogrodzone w celach obronnych. Pojęcie to obejmuje wszelkiego rodzaju miejsca obronne, jak wsie, miasta, ośrodki administracyjne, wojskowe i inne schronienia przygotowane do obrony. W średniowieczu grodami nazywano też miasta".'@pl ,
+		't. 2, s. 168 (hasło "Grodzisko"): "Grody to obiekty sztucznie ogrodzone w celach obronnych. Pojęcie to obejmuje wszelkiego rodzaju miejsca obronne, jak wsie, miasta, ośrodki administracyjne, wojskowe i inne schronienia przygotowane do obrony. W średniowieczu grodami nazywano też miasta".'^^rdfs:Literal ,
 		't. 2, s. 637: "pierwotnie osada obronna, ogrodzona palisadą lub obwałowana"'@pl ,
-		't. 6, s. 22: "miejsce obronne w znaczeniu późniejszym tyle co "zamek", "miasto""'@pl
+		't. 2, s. 637: "pierwotnie osada obronna, ogrodzona palisadą lub obwałowana"'^^rdfs:Literal ,
+		't. 6, s. 22: "miejsce obronne w znaczeniu późniejszym tyle co "zamek", "miasto""'@pl ,
+		't. 6, s. 22: "miejsce obronne w znaczeniu późniejszym tyle co "zamek", "miasto""'^^rdfs:Literal
 		;
 	.
 
@@ -20938,6 +20941,7 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
 		<https://www.wikidata.org/wiki/Q1434274>
 		;
 	ontohgis:seeAlsoLiteral
+		"1. teren trudno dostępny, najczęściej bagnisty, leśny; też: miejsce odludne, 2. część terenu otoczona naturalnymi granicami, wyodrębniona za pomocą nazwy topograficznej, 3. u dawnych Słowian: miejsce w głębi puszczy związane z kultem bóstwa, odbywaniem narad lub uważane za siedzibę złych duchów"@pl ,
 		"1. teren trudno dostępny, najczęściej bagnisty, leśny; też: miejsce odludne, 2. część terenu otoczona naturalnymi granicami, wyodrębniona za pomocą nazwy topograficznej, 3. u dawnych Słowian: miejsce w głębi puszczy związane z kultem bóstwa, odbywaniem narad lub uważane za siedzibę złych duchów"^^rdfs:Literal ,
 		"s. 57-80: uroczyska to cała gama pojęć, stale łąki i lokacje straży leśnej, czasem synonimy borów i ostępów, zjawiska terenowe zasadniczo rozległe o wielce zróżniczkowanej, a raczej nieuchwytnej i zatraconej już, treści. Można tylko utrzymywać, że uroczyska to teren eksploatacji par excellence."@pl ,
 		"t. 15, s. 34: nazwa kopca lub miejsca granicznego nieosiedlonego. Według Chodakowskiego, uroczyska, na Rusi horodyszczami zwane, były to w Słowiańszczyźnie przedchrześcijańskiej place, czyli świątyń posady, do sprawowania uroczystych pogańskich ofiar przeznaczone i nie mające śladu opisania wałami, byleby oddzielna, właściwe imię mająca, przywiązana do nich była jakaś pamiątka."@pl ,
