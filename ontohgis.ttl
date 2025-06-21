@@ -18029,11 +18029,8 @@ ontohgis:settlement_type_113
 		;
 	ontohgis:seeAlsoLiteral
 		't. 2, s. 168 (hasło "Grodzisko"): "Grody to obiekty sztucznie ogrodzone w celach obronnych. Pojęcie to obejmuje wszelkiego rodzaju miejsca obronne, jak wsie, miasta, ośrodki administracyjne, wojskowe i inne schronienia przygotowane do obrony. W średniowieczu grodami nazywano też miasta".'@pl ,
-		't. 2, s. 168 (hasło "Grodzisko"): "Grody to obiekty sztucznie ogrodzone w celach obronnych. Pojęcie to obejmuje wszelkiego rodzaju miejsca obronne, jak wsie, miasta, ośrodki administracyjne, wojskowe i inne schronienia przygotowane do obrony. W średniowieczu grodami nazywano też miasta".'^^rdfs:Literal ,
 		't. 2, s. 637: "pierwotnie osada obronna, ogrodzona palisadą lub obwałowana"'@pl ,
-		't. 2, s. 637: "pierwotnie osada obronna, ogrodzona palisadą lub obwałowana"'^^rdfs:Literal ,
-		't. 6, s. 22: "miejsce obronne w znaczeniu późniejszym tyle co "zamek", "miasto""'@pl ,
-		't. 6, s. 22: "miejsce obronne w znaczeniu późniejszym tyle co "zamek", "miasto""'^^rdfs:Literal
+		't. 6, s. 22: "miejsce obronne w znaczeniu późniejszym tyle co "zamek", "miasto""'@pl
 		;
 	.
 
@@ -20942,7 +20939,6 @@ Podstawowym kryterium wyodrębniającym uroczysko od innych miejscowości lub je
 		;
 	ontohgis:seeAlsoLiteral
 		"1. teren trudno dostępny, najczęściej bagnisty, leśny; też: miejsce odludne, 2. część terenu otoczona naturalnymi granicami, wyodrębniona za pomocą nazwy topograficznej, 3. u dawnych Słowian: miejsce w głębi puszczy związane z kultem bóstwa, odbywaniem narad lub uważane za siedzibę złych duchów"@pl ,
-		"1. teren trudno dostępny, najczęściej bagnisty, leśny; też: miejsce odludne, 2. część terenu otoczona naturalnymi granicami, wyodrębniona za pomocą nazwy topograficznej, 3. u dawnych Słowian: miejsce w głębi puszczy związane z kultem bóstwa, odbywaniem narad lub uważane za siedzibę złych duchów"^^rdfs:Literal ,
 		"s. 57-80: uroczyska to cała gama pojęć, stale łąki i lokacje straży leśnej, czasem synonimy borów i ostępów, zjawiska terenowe zasadniczo rozległe o wielce zróżniczkowanej, a raczej nieuchwytnej i zatraconej już, treści. Można tylko utrzymywać, że uroczyska to teren eksploatacji par excellence."@pl ,
 		"t. 15, s. 34: nazwa kopca lub miejsca granicznego nieosiedlonego. Według Chodakowskiego, uroczyska, na Rusi horodyszczami zwane, były to w Słowiańszczyźnie przedchrześcijańskiej place, czyli świątyń posady, do sprawowania uroczystych pogańskich ofiar przeznaczone i nie mające śladu opisania wałami, byleby oddzielna, właściwe imię mająca, przywiązana do nich była jakaś pamiątka."@pl ,
 		"t. 6, s. 80: uroczysko, uroczyszcze -- (Rs. urocziszcze, = powiat, kraina); kopiec, mieysce graniczne. Tr. Gränzstein, Mohlhausen."@pl ,
@@ -22418,7 +22414,7 @@ ontohgis:startsDominationAt
 	a owl:Axiom ;
 	owl:annotatedProperty ontohgis:seeAlsoLiteral ;
 	owl:annotatedSource ontohgis:settlement_type_113 ;
-	owl:annotatedTarget 't. 2, s. 168 (hasło "Grodzisko"): "Grody to obiekty sztucznie ogrodzone w celach obronnych. Pojęcie to obejmuje wszelkiego rodzaju miejsca obronne, jak wsie, miasta, ośrodki administracyjne, wojskowe i inne schronienia przygotowane do obrony. W średniowieczu grodami nazywano też miasta".'^^rdfs:Literal ;
+	owl:annotatedTarget 't. 2, s. 168 (hasło "Grodzisko"): "Grody to obiekty sztucznie ogrodzone w celach obronnych. Pojęcie to obejmuje wszelkiego rodzaju miejsca obronne, jak wsie, miasta, ośrodki administracyjne, wojskowe i inne schronienia przygotowane do obrony. W średniowieczu grodami nazywano też miasta".'@pl ;
 	ontohgis:isDefinedByEntity ontohgis:document_139 ;
 	.
 
@@ -22426,7 +22422,7 @@ ontohgis:startsDominationAt
 	a owl:Axiom ;
 	owl:annotatedProperty ontohgis:seeAlsoLiteral ;
 	owl:annotatedSource ontohgis:settlement_type_113 ;
-	owl:annotatedTarget 't. 2, s. 637: "pierwotnie osada obronna, ogrodzona palisadą lub obwałowana"'^^rdfs:Literal ;
+	owl:annotatedTarget 't. 2, s. 637: "pierwotnie osada obronna, ogrodzona palisadą lub obwałowana"'@pl ;
 	ontohgis:isDefinedByEntity ontohgis:document_138 ;
 	.
 
@@ -22434,7 +22430,7 @@ ontohgis:startsDominationAt
 	a owl:Axiom ;
 	owl:annotatedProperty ontohgis:seeAlsoLiteral ;
 	owl:annotatedSource ontohgis:settlement_type_113 ;
-	owl:annotatedTarget 't. 6, s. 22: "miejsce obronne w znaczeniu późniejszym tyle co "zamek", "miasto""'^^rdfs:Literal ;
+	owl:annotatedTarget 't. 6, s. 22: "miejsce obronne w znaczeniu późniejszym tyle co "zamek", "miasto""'@pl ;
 	ontohgis:isDefinedByEntity ontohgis:document_140 ;
 	.
 
