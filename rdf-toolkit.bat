@@ -30,7 +30,8 @@ echo INFO: %P%
 echo.
 
 comp %F% "%TMP%\%~n0.ttl" /M
-if ERRORLEVEL 1 echo WARN: move "%TMP%\%~n0.ttl" %F%&move /-Y "%TMP%\%~n0.ttl" %F%
+if ERRORLEVEL 1 echo INFO: changing %F%&move /Y "%TMP%\%~n0.ttl" %F%
+if ERRORLEVEL 1 echo ERR: file %F% cannot be overwritten..&echo INFO: creating %F%.new&move /Y "%TMP%\%~n0.ttl" %F%.new
 del /q /f "%TMP%\%~n0.ttl" 2>nul
 
 pause
