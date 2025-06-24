@@ -27,7 +27,14 @@ ${P}
 
 echo ""
 
-diff -u "${F}" "${TMPDIR}/rdf-toolkit.ttl" &>/dev/null || { echo "WARN: move \"${TMPDIR}/rdf-toolkit.ttl\" \"${F}\"" ; mv -i -v "${TMPDIR}/rdf-toolkit.ttl" "${F}" ; }
+if ! diff -u "${F}" "${TMPDIR}/rdf-toolkit.ttl" &>/dev/null ; then
+ echo "INFO: changing \"${F}\" ..."
+ if ! mv -f -v "${TMPDIR}/rdf-toolkit.ttl" "${F}" &>/dev/null ; then
+  echo "ERR: file \"${F}\" cannot be overwritten"
+  echo "INFO: creating \"${F}.new\" ..."
+  mv -f -v "${TMPDIR}/rdf-toolkit.ttl" "${F}.new"
+ fi
+fi
 rm -f "${TMPDIR}/rdf-toolkit.ttl"
 
 read -n 1 -s -r -p "Press any key to continue...."
