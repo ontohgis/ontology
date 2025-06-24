@@ -7922,17 +7922,17 @@ ontohgis:administrative_system_13
 		ontohgis:object_21
 		;
 	rdfs:label
-		"Królestwo Prus (1713-1805)"@pl ,
-		"Königreich Preußen (1713-1805)"@de ,
-		"The Kingdom of Prussia (1713-1805)"@en
+		"Królestwo Prus (1713-1808)"@pl ,
+		"Königreich Preußen (1713-1808)"@de ,
+		"The Kingdom of Prussia (1713-1808)"@en
 		;
 	rdfs:comment
-		"After Frederic William's ascension to the throne (1713-1740) a lengthy process of administrative system reform starts. In 1814, the interim period, when the Frederick's system was connected with the new one intorduced by Stein'. in 1723 - the General Directorate (Das Generaldirektorium) was established."@en ,
-		"Edykt królewski z 13.08.1713 o niepodzielności wszystkich terytoriów Hohenzollernów tworzących integralne terytorium Królestwa Prus. Instrukcja królewska z 19 stycznia 1723 r. o utworzeniu General- Ober- Finanz- Kriegs- und Domänen-Direktorium."@pl ,
-		"Po wstąpieniu na tron Fryderyk Wilhelm I (1713-1740) rozpoczyna długotrwały proces reform administracyjnych swego państwa. 1814 - koniec okresu przejściowego, w którym stary system fryderycjański łączył się z nowym, wprowadzonym przez reformy Steina. 1723 - Utworzenie Generalnego Dyrektorium (Das Generaldirektorium)"@pl
+		"After Frederic William's ascension to the throne (1713-1740) a lengthy process of administrative system reform starts. In 1807 abolished the central General Directory, replacing it with modern ministries, while a royal decree of December 26, 1808 made a fundamental change at the provincial level - the Cameras of War and Domains were transformed into districts (German: Regierungsbezirk), i.e. unified government offices in the field. In 1814, the interim period, when the Frederick's system was connected with the new one intorduced by Stein'. In 1723 - the General Directorate (Das Generaldirektorium) was established."@en ,
+		
+		"Po wstąpieniu na tron Fryderyk Wilhelm I (1713-1740) rozpoczyna długotrwały proces reform administracyjnych swego państwa. 1807 zlikwidowano centralne Generalne Dyrektorium, zastępując je nowoczesnymi ministerstwami, zaś na mocy dekretu królewskiego z 26 grudnia 1808 dokonano zasadniczej zmiany na poziomie prowincji – Kamery Wojny i Domen przekształcono w rejencje (niem. Regierungsbezirk) czyli jednolite urzędy administracji rządowej w terenie. 1814 - koniec okresu przejściowego, w którym stary system fryderycjański łączył się z nowym, wprowadzonym przez reformy Steina. 1723 - Utworzenie Generalnego Dyrektorium (Das Generaldirektorium)"@pl
 		;
 	dct:creator ontohgis:person_11 ;
-	ontohgis:endsDominationAt "1806-12-31"^^xsd:date ;
+	ontohgis:endsDominationAt "1808-12-26"^^xsd:date ;
 	ontohgis:hasBeginning "1713-01-01"^^xsd:date ;
 	ontohgis:hasEnd "1814-12-31"^^xsd:date ;
 	ontohgis:hasLegalBasis "Edykt królewski z 13.08.1713 o niepodzielności wszystkich terytoriów Hohenzollernów tworzących integralne terytorium Królestwa Prus. Instrukcja królewska z 19 stycznia 1723 r. o utworzeniu General- Ober- Finanz- Kriegs- und Domänen-Direktorium." ;
@@ -8945,7 +8945,7 @@ ontohgis:administrative_system_43
 		;
 	rdfs:label
 		"Kingdom of Poland (1815-1837)"@en ,
-		"Królestwo Polskie (1815-1836)"@pl ,
+		"Królestwo Polskie (1815-1837)"@pl ,
 		"Царство Польское (1815-1837)"@ru
 		;
 	dct:creator ontohgis:person_5 ;
