@@ -7769,10 +7769,10 @@ foaf:mbox
 	a owl:AnnotationProperty ;
 	.
 
-ontohgis:ofSimpleDedicationName 
+ontohgis:hasSimpleDedicationName 
   a owl:ObjectProperty ;
-  rdfs:domain ontohgis:compositeDedicationName ;
-  rdfs:range ontohgis:simpleDedicationName ;
+  rdfs:domain ontohgis:CompositeDedicationName ;
+  rdfs:range ontohgis:SimpleDedicationName ;
   rdfs:label 
     "has simple dedication name"@en , 
     "ma wezwanie proste"@pl ;
@@ -7793,9 +7793,9 @@ ontohgis:hasDedicationName
     ;
   .
 
-ontohgis:compositeDedicationName
+ontohgis:CompositeDedicationName
 	a owl:Class ;
-	rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ;
+	rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
 	rdfs:label
 		"Composite Dedication Name"@en ,
 		"Wezwanie złożone"@pl
@@ -7811,9 +7811,9 @@ ontohgis:InverseIAO_0000136
 	rdfs:label "about in"@en ;
 	.
 
-ontohgis:simpleDedicationName
+ontohgis:SimpleDedicationName
 	a owl:Class ;
-	rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E55_Type> ;
+	rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
 	rdfs:label
 		"Simple Dedication Name"@en ,
 		"Wezwanie proste"@pl
@@ -7825,8 +7825,8 @@ ontohgis:simpleDedicationName
 	.
 
 ontohgis:dedicationOrder 
-  a owl:AnnotationProperty ;
-  rdfs:domain ontohgis:compositeDedicationName ;
+  a owl:DatatypeProperty ;
+  rdfs:domain ontohgis:CompositeDedicationName ;
   rdfs:range xsd:integer ;
   rdfs:label 
     "dedication order"@en , 
