@@ -7770,10 +7770,73 @@ foaf:mbox
 	a owl:AnnotationProperty ;
 	.
 
+ontohgis:hasSimpleDedicationName 
+  a owl:ObjectProperty ;
+  rdfs:domain ontohgis:CompositeDedicationName ;
+  rdfs:range ontohgis:SimpleDedicationName ;
+  rdfs:label 
+    "has simple dedication name"@en , 
+    "ma wezwanie proste"@pl ;
+  rdfs:comment 
+    "Wskazuje, które wezwania proste wchodzą w skład wezwania złożonego."@pl, 
+    "Indicates which simple dedication names are part of a composite dedication name."@en 
+      ;
+    .
+
+ontohgis:hasDedicationName 
+  a owl:ObjectProperty ;
+  rdfs:label 
+    "has dedication name"@en , 
+    "ma wezwanie"@pl ;
+  rdfs:comment 
+    "Określa wezwanie przypisane do dowolnej jednostki kościelnej (np. kościoła, parafii, katedry)."@pl ,
+    "Specifies the dedication name assigned to any ecclesiastical unit (e.g. church, parish, cathedral)."@en 
+    ;
+  .
+
+ontohgis:CompositeDedicationName
+	a owl:Class ;
+	rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+	rdfs:label
+		"Composite Dedication Name"@en ,
+		"Wezwanie złożone"@pl
+		;
+	ontohgis:isDefinedByLiteral
+		"A composite dedication of a church or parish (invocation, patronage name)."@en ,
+		"Złożone wezwanie kościoła lub parafii."@pl
+		;
+	.
+
 ontohgis:InverseIAO_0000136
 	a owl:ObjectProperty ;
 	rdfs:label "about in"@en ;
 	.
+
+ontohgis:SimpleDedicationName
+	a owl:Class ;
+	rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+	rdfs:label
+		"Simple Dedication Name"@en ,
+		"Wezwanie proste"@pl
+		;
+	ontohgis:isDefinedByLiteral
+		"A simple dedication of a church or parish (invocation, patronage name)."@en ,
+		"Proste wezwanie kościoła lub parafii."@pl
+		;
+	.
+
+ontohgis:dedicationOrder 
+  a owl:DatatypeProperty ;
+  rdfs:domain ontohgis:CompositeDedicationName ;
+  rdfs:range xsd:integer ;
+  rdfs:label 
+    "dedication order"@en , 
+    "kolejność wezwania"@pl ;
+  rdfs:comment 
+    "Wskazuje kolejność elementu wezwania prostego w ramach wezwania złożonego."@pl ,
+    "Indicates the order of a simple dedication name element within a composite dedication name."@en
+    ;
+  .
 
 ontohgis:administersOver
 	a
