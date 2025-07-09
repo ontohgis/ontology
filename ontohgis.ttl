@@ -1150,6 +1150,7 @@ dct:relation
 	dct:issued "2008-01-14"^^xsd:date ;
 	dct:modified "2008-01-14"^^xsd:date ;
 	rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+	<http://www.w3.org/2004/02/skos/core#altLabel> "district"@en ;
 	<http://www.w3.org/2004/02/skos/core#note> "This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration."@en ;
 	.
 
@@ -7883,7 +7884,7 @@ ontohgis:administrative_system_1
 		;
 	rdfs:label
 		"Rzeczpospolita Polska (1918-1939)"@pl ,
-		"The Second Polish Republic"@en
+		"The Second Polish Republic (1918-1939)"@en
 		;
 	rdfs:comment
 		"Chronologia obowiązywania systemu administracyjnego ma charakter generalny. Obejmuje także okres kształtowania się systemu administracyjnego w okresie przejściowym po odzyskaniu niepodległości."@pl ,
@@ -7966,6 +7967,7 @@ ontohgis:administrative_system_12
 		;
 	rdfs:label
 		"Królestwo Saksonii (1815-1918)"@pl ,
+		"Königreich Sachsen (1815-1918)"@de ,
 		"The Kingdom of Saxony (1815-1918)"@en
 		;
 	dct:creator ontohgis:person_4 ;
@@ -7983,16 +7985,17 @@ ontohgis:administrative_system_13
 		ontohgis:object_21
 		;
 	rdfs:label
-		"Królestwo Prus (1713-1805)"@pl ,
-		"The Kingdom of Prussia (1713-1805)"@en
+		"Królestwo Prus (1713-1808)"@pl ,
+		"Königreich Preußen (1713-1808)"@de ,
+		"The Kingdom of Prussia (1713-1808)"@en
 		;
 	rdfs:comment
-		"After Frederic William's ascension to the throne (1713-1740) a lengthy process of administrative system reform starts. In 1814, the interim period, when the Frederick's system was connected with the new one intorduced by Stein'. in 1723 - the General Directorate (Das Generaldirektorium) was established."@en ,
-		"Edykt królewski z 13.08.1713 o niepodzielności wszystkich terytoriów Hohenzollernów tworzących integralne terytorium Królestwa Prus. Instrukcja królewska z 19 stycznia 1723 r. o utworzeniu General- Ober- Finanz- Kriegs- und Domänen-Direktorium."@pl ,
-		"Po wstąpieniu na tron Fryderyk Wilhelm I (1713-1740) rozpoczyna długotrwały proces reform administracyjnych swego państwa. 1814 - koniec okresu przejściowego, w którym stary system fryderycjański łączył się z nowym, wprowadzonym przez reformy Steina. 1723 - Utworzenie Generalnego Dyrektorium (Das Generaldirektorium)"@pl
+		"After Frederic William's ascension to the throne (1713-1740) a lengthy process of administrative system reform starts. In 1807 abolished the central General Directory, replacing it with modern ministries, while a royal decree of December 26, 1808 made a fundamental change at the provincial level - the Cameras of War and Domains were transformed into districts (German: Regierungsbezirk), i.e. unified government offices in the field. In 1814, the interim period, when the Frederick's system was connected with the new one intorduced by Stein'. In 1723 - the General Directorate (Das Generaldirektorium) was established."@en ,
+		
+		"Po wstąpieniu na tron Fryderyk Wilhelm I (1713-1740) rozpoczyna długotrwały proces reform administracyjnych swego państwa. 1807 zlikwidowano centralne Generalne Dyrektorium, zastępując je nowoczesnymi ministerstwami, zaś na mocy dekretu królewskiego z 26 grudnia 1808 dokonano zasadniczej zmiany na poziomie prowincji – Kamery Wojny i Domen przekształcono w rejencje (niem. Regierungsbezirk) czyli jednolite urzędy administracji rządowej w terenie. 1814 - koniec okresu przejściowego, w którym stary system fryderycjański łączył się z nowym, wprowadzonym przez reformy Steina. 1723 - Utworzenie Generalnego Dyrektorium (Das Generaldirektorium)"@pl
 		;
 	dct:creator ontohgis:person_11 ;
-	ontohgis:endsDominationAt "1806-12-31"^^xsd:date ;
+	ontohgis:endsDominationAt "1808-12-26"^^xsd:date ;
 	ontohgis:hasBeginning "1713-01-01"^^xsd:date ;
 	ontohgis:hasEnd "1814-12-31"^^xsd:date ;
 	ontohgis:hasLegalBasis "Edykt królewski z 13.08.1713 o niepodzielności wszystkich terytoriów Hohenzollernów tworzących integralne terytorium Królestwa Prus. Instrukcja królewska z 19 stycznia 1723 r. o utworzeniu General- Ober- Finanz- Kriegs- und Domänen-Direktorium." ;
@@ -8086,6 +8089,7 @@ ontohgis:administrative_system_17
 		;
 	rdfs:label
 		"Królestwo Galicji i Lodomerii (1772-1848)"@pl ,
+		"Königreich Galizien und Lodomerien (1772-1848)"@de ,
 		"The Kingdom of Galitia and Lodomeria (1772-1848)"@en
 		;
 	rdfs:comment
@@ -8146,6 +8150,7 @@ ontohgis:administrative_system_19
 		ontohgis:object_21
 		;
 	rdfs:label
+		"Schlesien (1372-1782)"@de ,
 		"Silesia (1372-1782)"@en ,
 		"Śląsk (1372-1782)"@pl
 		;
@@ -8211,6 +8216,7 @@ ontohgis:administrative_system_21
 		;
 	rdfs:label
 		"Marchia Brandenburska (1540-1713)"@pl ,
+		"Mark Brandenburg (1540-1713)"@de ,
 		"The Margraviate of Branderburg (1540-1713)"@en
 		;
 	rdfs:comment "W 1535 Nowa Marchia przeszła pod panowanie margrafa Jana i jako wydzielona prowincja uzyskała odrębną strukturę administracyjną (patrz. Nowa Marchia). Ponownie włączona w 1571 zachowała jednak swoją odrębność administracyjną. Po przejściu na luteranizm (1.11.1539) w roku następnym stany państwa brandenburskiego przejęły spłatę elektorskich długów i same utworzyły organ kontrolny i wykonawczy do sciągania danin i podatków."@pl ;
@@ -8331,8 +8337,10 @@ ontohgis:administrative_system_26
 		ontohgis:object_21
 		;
 	rdfs:label
+		"Ecclesia Catholica Romana"@la ,
 		"Kościół katolicki ob. łacińskiego"@pl ,
-		"Latin Church"@en
+		"Latin Church"@en ,
+		"Römisch-katholische Kirche"@de
 		;
 	<http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ontohgis:administrative_system_50 ;
 	<http://www.w3.org/2004/02/skos/core#altLabel>
@@ -8374,8 +8382,11 @@ ontohgis:administrative_system_27
 		ontohgis:object_21
 		;
 	rdfs:label
+		"Ecclesia Catholica Graeco-Catholica"@la ,
 		"Greek Catholic Church"@en ,
-		"Kościół katolicki ob. greckiego"@pl
+		"Katholische Kirche des griechischen Ritus"@de ,
+		"Kościół katolicki ob. greckiego"@pl ,
+		"Католическая церковь византийского обряда"@ru
 		;
 	<http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ontohgis:administrative_system_50 ;
 	<http://www.w3.org/2004/02/skos/core#altLabel>
@@ -8423,7 +8434,9 @@ ontohgis:administrative_system_28
 		;
 	rdfs:label
 		"Kościół prawosławny"@pl ,
-		"Orthodox Church"@en
+		"Orthodox Church"@en ,
+		"Orthodoxe Kirche"@de ,
+		"Православная Церковь"@ru
 		;
 	ontohgis:endsDominationAt "1939-12-31"^^xsd:date ;
 	ontohgis:hasBeginning "1000-01-01"^^xsd:date ;
@@ -8461,6 +8474,7 @@ ontohgis:administrative_system_29
 		;
 	rdfs:label
 		"Evangelical Augsburg Church in the Polish-Lithuanian Commonwealth"@en ,
+		"Evangelisch-Augsburgische Kirche in der Adelsrepublik Polen-Litauen"@de ,
 		"Kościół ewangelicko-augsburski w Rzeczypospolitej Obojga Narodów"@pl
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel>
@@ -8531,6 +8545,7 @@ ontohgis:administrative_system_30
 		ontohgis:object_21
 		;
 	rdfs:label
+		"Böhmische Brüder"@de ,
 		"Jednota Braci Czeskich w Polsce"@pl ,
 		"Unity of Brethren in Poland"@en
 		;
@@ -8570,7 +8585,8 @@ ontohgis:administrative_system_31
 		;
 	rdfs:label
 		"Calvinist Church in the Polish-Lithuanian Commonwealth"@en ,
-		"Kościół kalwiński w Rzeczypospolitej Obojga Narodów"@pl
+		"Kościół kalwiński w Rzeczypospolitej Obojga Narodów"@pl ,
+		"Reformierte Kirche in der Adelsrepublik Polen-Litauen"@de
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel>
 		"Evangelical Reformed Church in the Polish-Lithuanian Commonwealth"@en ,
@@ -8610,6 +8626,7 @@ ontohgis:administrative_system_32
 		;
 	rdfs:label
 		"Evangelical Augsburg Church in Prussia 1525-1817"@en ,
+		"Evangelisch-Lutherische Kirche in Preußen 1525–1817"@de ,
 		"Kościół ewangelicko-augsburski w Prusach 1525-1817"@pl
 		;
 	rdfs:comment
@@ -8726,6 +8743,7 @@ ontohgis:administrative_system_35
 		;
 	rdfs:label
 		"Evangelical Church in Kingdom of Poland 1828-1849"@en ,
+		"Evangelische General-Konsistorium zu Warschau 1828-1849"@de ,
 		"Kościół ewangelicki w Królestwie Polskim 1828-1849"@pl
 		;
 	rdfs:comment "Pominięte zostały dość dynamiczne zmiany dotyczące rozwoju struktur luterańskich na ziemiach polskich w latach 1772-1828 (w tym na obszarze Księstwa Warszawskiego), związane z włączaniem ich do systemu państw zaborczych oraz tendencjami unijnymi (próby powołania wspólnego konsystorza dla luteran i reformowanych)."@pl ;
@@ -8755,6 +8773,7 @@ ontohgis:administrative_system_36
 		;
 	rdfs:label
 		"Evangelical Augsburg Church in Poland 1849-1939"@en ,
+		"Evangelisch-Augsburgische Kirche in Polen 1849-1939"@de ,
 		"Kościół ewangelicko-augsburski w Polsce 1849-1939"@pl
 		;
 	rdfs:comment "pominięty został wąski skrawek na wschodzie należący do Rosji (konsystorz kurlandzki i petersburski); tamtejsze struktury Kościoła luterańskiego oparte były na przepisach rosyjskich z 1832 r. ale niewiele różniły się od tych obowiązujących z Królestwie od 1849 r.; jedna z różnic polegała na tym, że w Rosji były dwa typy konsystorzy: szereg prowincjonalnych i jeden generalny w Petersburgu"@pl ;
@@ -8790,6 +8809,7 @@ ontohgis:administrative_system_37
 		;
 	rdfs:label
 		"Evangelical Reformed Church in Poland 1849-1939"@en ,
+		"Evangelisch-Reformierte Kirche in Polen 1849–1939"@de ,
 		"Kościół ewangelicko-reformowany w Polsce 1849-1939"@pl
 		;
 	ontohgis:endsDominationAt "1936-12-31"^^xsd:date ;
@@ -8820,7 +8840,10 @@ ontohgis:administrative_system_38
 		owl:NamedIndividual ,
 		ontohgis:object_21
 		;
-	rdfs:label "Kościół ewangelicki w Galicji 1781-1918"@pl ;
+	rdfs:label
+		"Evangelische Kirche in Galizien 1781–1918"@de ,
+		"Kościół ewangelicki w Galicji 1781-1918"@pl
+		;
 	ontohgis:endsDominationAt "1918-12-31"^^xsd:date ;
 	ontohgis:hasBeginning "1781-01-01"^^xsd:date ;
 	ontohgis:hasEnd "1918-12-31"^^xsd:date ;
@@ -8854,8 +8877,8 @@ ontohgis:administrative_system_4
 		ontohgis:object_21
 		;
 	rdfs:label
-		"Freistaat Preußen"@de ,
-		"The Free State of Prussia"@en ,
+		"Freistaat Preußen (1920-1945)"@de ,
+		"The Free State of Prussia (1920-1945)"@en ,
 		"Wolne Państwo Prusy (1920-1945)"@pl
 		;
 	rdfs:comment
@@ -8985,7 +9008,8 @@ ontohgis:administrative_system_43
 		;
 	rdfs:label
 		"Kingdom of Poland (1815-1837)"@en ,
-		"Królestwo Polskie (1815-1836)"@pl
+		"Królestwo Polskie (1815-1837)"@pl ,
+		"Царство Польское (1815-1837)"@ru
 		;
 	dct:creator ontohgis:person_5 ;
 	ontohgis:endsDominationAt "1837-12-31"^^xsd:date ;
@@ -9036,6 +9060,7 @@ ontohgis:administrative_system_45
 		ontohgis:object_21
 		;
 	rdfs:label
+		"Herzogtum Preußen (1525-1701)"@de ,
 		"Prusy Książęce (1525-1701)"@pl ,
 		"The Duchy of Prussia (1525-1701)"@en
 		;
@@ -9254,7 +9279,7 @@ ontohgis:administrative_system_8
 	rdfs:label
 		"Cesarstwo Rosyjskie (1775-1917)"@pl ,
 		"Russian Empire (1775-1917)"@en ,
-		"Российская империя"@ru
+		"Российская империя (1775-1917)"@ru
 		;
 	rdfs:comment
 		"Dekret Piotra I z dnia 18 grudnia 1708 r.; ukaz Piotra I z dnia 29 maja 1719 r.; dekret Katarzyny II z 7 listopada 1775 r.; dekret Pawa I z 12 grudnia 1796 r.; 1861: reforma uwłaszczeniowa i wprowadzenie gmin"@pl ,
@@ -9306,9 +9331,9 @@ ontohgis:administrative_type_1
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_24 ;
 	rdfs:label
-		"Stadtgemeinde (Freistaat Preußen)"@de ,
+		"Stadtgemeinde (Freistaat Preußen (1920-1945))"@de ,
 		"gmina miejska (Wolne Państwo Prusy (1920-1945))"@pl ,
-		"town commune (The Free State of Prussia)"@en
+		"town commune (The Free State of Prussia (1920-1945))"@en
 		;
 	rdfs:comment '''"1808: Städte-Ordnung.
 Gminy miejskie i gminy wiejskie były jednostkami organizacji samorządowej (komunalnej), ale równocześnie pełniły funkcje podstawowych jednostek administracji terytorialnej. M. Bär, s. 228: „Die Landgemeinde ist außer einem Kommunalverband auch ein Bezirk der allgemeinen Landesverwaltung für die mannigfachen Geschäfte des staatlichen Polizei- und Finanzwesens, insbesondere für die Handhabung der Ortspolizei, und der Gemeindevorsteher ist das Organ des Amtsvorstehers für die örtliche Polizeiverwaltung“. W. Roger W.Frotscher, „Überblick über die Verwaltungsorganisation in den Bundesstaaten, w: Deutsche Verwaltungsgeschichte, Bd. 3 hrsg. von K.G.A. Jeserich, H. Pohl und G. Ch. v. Unruh, Stuttgart 1984, S. 417: „Der preußische Staat endete beim Landrat. In diesem oft zitierten Satz kommt zum Ausdruck, dass Gemeindeorgane, auch soweit sie staatliche Angelegenheiten wahrnahmen, nicht als staatliche, sondern als kommunale Behörden tätig wurden. Sie handelten, etwa als Ortspolizei `für den Staat` in einem ihnen übertragenen Wirkungskreis."'''@de ;
@@ -9327,7 +9352,7 @@ ontohgis:administrative_type_10
 		]
 		;
 	rdfs:label
-		"land district (The Second Polish Republic)"@en ,
+		"land district (The Second Polish Republic (1918-1939))"@en ,
 		"powiat (Rzeczpospolita Polska (1918-1939))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_1 ;
@@ -9342,7 +9367,7 @@ ontohgis:administrative_type_11
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3014 ;
 	rdfs:label
-		"voivodeship (The Second Polish Republic)"@en ,
+		"voivodeship (The Second Polish Republic (1918-1939))"@en ,
 		"województwo (Rzeczpospolita Polska (1918-1939))"@pl
 		;
 	rdfs:comment "Ustawy z lat 1919-1925 decydowały o utworzeniu poszczególnych województw (jako ostatnie zostało utworzone woj. wileńskie); na poziomie województwa (III stopień) klasyfikowane było także w ramach podziału terytorialnego administracji zespolonej miasto Warszawa, Mielcarek, s. 52."@pl ;
@@ -9358,7 +9383,7 @@ ontohgis:administrative_type_111
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3014 ;
 	rdfs:label
-		"Kreis"@de ,
+		"Kreis (Schlesien (1372-1782))"@de ,
 		"district (Silesia (1372-1782))"@en ,
 		"powiat (Śląsk (1372-1782))"@pl ,
 		"terra"@la
@@ -9443,7 +9468,7 @@ ontohgis:administrative_type_121
 		]
 		;
 	rdfs:label
-		"Kreis"@de ,
+		"Kreis (Mark Brandenburg (1540-1713))"@de ,
 		"rural district (The Margraviate of Branderburg (1540-1713))"@en ,
 		"urząd dominialny (Marchia Brandenburska (1540-1713))"@pl
 		;
@@ -9481,8 +9506,8 @@ ontohgis:administrative_type_123
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3014 ;
 	rdfs:label
-		"Kreis"@de ,
 		"Province (The Margraviate of Branderburg (1540-1713))"@en ,
+		"Provinz (Mark Brandenburg (1540-1713))"@de ,
 		"prowincja (Marchia Brandenburska (1540-1713))"@pl
 		;
 	owl:equivalentClass ontohgis:administrative_type_30 ;
@@ -9549,9 +9574,9 @@ ontohgis:administrative_type_13
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_24 ;
 	rdfs:label
-		"Landgemeinde"@de ,
+		"Landgemeinde (Freistaat Preußen 1920-1945))"@de ,
 		"gmina wiejska (Wolne Państwo Prusy (1920-1945))"@pl ,
-		"rural commune (The Free State of Prussia)"@en
+		"rural commune (The Free State of Prussia 1920-1945))"@en
 		;
 	rdfs:comment "1818: Edykt o urzędach sołtysów w gminach wiejskich i obszarach dworskich."@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_4 ;
@@ -9562,7 +9587,7 @@ ontohgis:administrative_type_132
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3014 ;
 	rdfs:label
-		"district"@en ,
+		"district (Medieval system (to the 14th c.))"@en ,
 		"dzielnica (System średniowieczny (do XIV w.))"@pl
 		;
 	rdfs:comment "Kasztelania, opole, żupa, pagast; tutaj należy szukać genezy polskich powiatów; inne terytoria zależne nie posiadające statusu księstwa czy marchii (ziemie, miasta, część księstw, regiony)"@pl ;
@@ -9581,8 +9606,8 @@ ontohgis:administrative_type_136
 		]
 		;
 	rdfs:label
-		"bailiwick (The State of the Teutonic Order (1226-1525))"@en ,
-		"wójtostwo (Państwo Krzyżackie (1226-1525))"@pl
+		"pfleger's dominion-bailiwick (The State of the Teutonic Order (1226-1525))"@en ,
+		"wójtostwo-prokuratorstwo (Państwo Krzyżackie (1226-1525))"@pl
 		;
 	rdfs:comment 'Od XIV w. J. Tandecki, Struktury i podziały administracyjne w zakonie krzyżackim w Inflantach, [w:] Zakon Krzyżacki w Prusach i Inflantach. Podziały admiinistracyjne i kościelne w XIII-XVI wieku, red. R. Czaja, A. Radzimiński, Toruń 2013, s. 171: "Od samego początku istnienia terytorium zakonnego w Inflantach podstawowymi jednostkami jego ustroju administracyjnego były wójtostwa (Vogtei) i komturstwa (Komturei), będące zarazem siedzibami krzyżackich konwentów zakonnych"'@pl ;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "district"@en ;
@@ -9619,8 +9644,8 @@ ontohgis:administrative_type_139
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3014 ;
 	rdfs:label
-		"commandery (The State of the Teutonic Order (1226-1525))"@en ,
-		"komturstwo (Państwo Krzyżackie (1226-1525))"@pl
+		"commandery-chapter lands (The State of the Teutonic Order (1226-1525))"@en ,
+		"komturstwo-władztwo biskupa (Państwo Krzyżackie (1226-1525))"@pl
 		;
 	rdfs:comment 'Do 1309 roku właściwie jedyny podział terytorialny; w latach 20. i 30. XIV w. - w wyniku likwidacji komturstwa ziemi chełmińskiej - powstały wójtostwo lipienieckie i nowomiejskie (potem bratiańskie), zaś w wyniku likwidacji komturstw unisławskiego i rogozińskiego powstały prokuratorstwo unisławskie i wójtostwo rogozińskie; wójtostwa istniały też na innych obszarach państwa. J. Tandecki, Podziały administracyjne państwa zakonnego w Prusach, [w:] Zakon Krzyżacki w Prusach i Inflantach. Podziały admiinistracyjne i kościelne w XIII-XVI wieku, red. R. Czaja, A. Radzimiński, Toruń 2013, s. 30: "Od początku istnienia państwa zakonnego w Prusach podstawowymi jednostkami ustroju terytorialnego były komturstwa (Komturei), będące jednocześnie siedzibami krzyżackich konwentów zakonnych".'@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_25 ;
@@ -9632,8 +9657,8 @@ ontohgis:administrative_type_14
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_24 ;
 	rdfs:label
-		"Gutsbezirk"@de ,
-		"manorial demesne (The Free State of Prussia)"@en ,
+		"Gutsbezirk (Freistaat Preußen (1920-1945))"@de ,
+		"manorial demesne (The Free State of Prussia (1920-1945))"@en ,
 		"obszar dworski (Wolne Państwo Prusy (1920-1945))"@pl
 		;
 	rdfs:comment """1818: Edykt o urzędach sołtysów w gminach wiejskich i obszarach dworskich.
@@ -9698,7 +9723,7 @@ ontohgis:administrative_type_144
 		]
 		;
 	rdfs:label
-		"Pfarre"@de ,
+		"Pfarre (Die römisch-katholische Kirche)"@de ,
 		"parafia (Kościół katolicki ob. łacińskiego)"@pl ,
 		"parish (Latin Church)"@en ,
 		"parochia"@la ,
@@ -9775,10 +9800,10 @@ ontohgis:administrative_type_147
 		]
 		;
 	rdfs:label
-		"Diözese"@de ,
+		"Diözese (Römisch-katholische Kirche)"@de ,
 		"diecezja (Kościół katolicki ob. łacińskiego)"@pl ,
 		"diocese (Latin Church)"@en ,
-		"dioecesis"@la
+		"dioecesis (Ecclesia Catholica Romana)"@la
 		;
 	rdfs:comment "szczególną kategorią diecezji, jest diecezja metropolitalna zwana inaczej archidiecezją, pozostałe diecezje w metropolii nazywane są sufraganiami"@pl ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel>
@@ -9802,7 +9827,7 @@ ontohgis:administrative_type_148
 	rdfs:subClassOf ontohgis:object_3012 ;
 	rdfs:label
 		"metropolia (Kościół katolicki ob. łacińskiego)"@pl ,
-		"metropolis"@la ,
+		"metropolis (Ecclesia Catholica Romana)"@la ,
 		"metropoly (Latin Church)"@en
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel>
@@ -9823,7 +9848,7 @@ ontohgis:administrative_type_150
 	rdfs:subClassOf ontohgis:administrative_type_145 ;
 	rdfs:label
 		"deanery (Latin Church)"@en ,
-		"decanatus"@la ,
+		"decanatus ruralis"@la ,
 		"dekanat (Kościół katolicki ob. łacińskiego)"@pl
 		;
 	rdfs:comment "podział na dekanaty był wprowadzany od XII wieku"@pl ;
@@ -9982,7 +10007,7 @@ ontohgis:administrative_type_157
 		]
 		;
 	rdfs:label
-		"Pfarre"@de ,
+		"Pfarre (Katholische Kirche des griechischen Ritus)"@de ,
 		"parafia (Kościół katolicki ob. greckiego)"@pl ,
 		"parish (Greek Catholic Church)"@en ,
 		"парафия"@ru
@@ -10048,7 +10073,7 @@ ontohgis:administrative_type_160
 	rdfs:label
 		"eparchia (Kościół katolicki ob. greckiego)"@pl ,
 		"eparchy (Greek Catholic Church)"@en ,
-		"епархия"@ru
+		"епархия (Католическая церковь византийского обряда)"@ru
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel>
 		"diecezja"@pl ,
@@ -10069,9 +10094,9 @@ ontohgis:administrative_type_161
 	rdfs:subClassOf ontohgis:object_3012 ;
 	rdfs:label
 		"metropolia (Kościół katolicki ob. greckiego)"@pl ,
-		"metropolis"@la ,
+		"metropolis (Ecclesia Catholica Graeco-Catholica)"@la ,
 		"metropoly (Greek Catholic Church)"@en ,
-		"митрополия"@ru
+		"митрополия (Католическая церковь византийского обряда)"@ru
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel>
 		"ecclesiastical province"@en ,
@@ -10092,7 +10117,7 @@ ontohgis:administrative_type_163
 	rdfs:label
 		"protopopia (Kościół katolicki ob. greckiego)"@pl ,
 		"protopopy"@en ,
-		"протопопия"@ru
+		"протопопия (Католическая церковь византийского обряда)"@ru
 		;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel>
 		"dekanat"@pl ,
@@ -10113,7 +10138,7 @@ ontohgis:administrative_type_164
 	rdfs:label
 		"governorship (Greek Catholic Church)"@en ,
 		"namiestnictwo (Kościół katolicki ob. greckiego)"@pl ,
-		"наместничество"@ru
+		"наместничество (Католическая церковь византийского обряда)"@ru
 		;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel>
 		"dekanat"@pl ,
@@ -10208,9 +10233,9 @@ ontohgis:administrative_type_169
 		]
 		;
 	rdfs:label
-		"Pfarre"@de ,
+		"Pfarre (Orthodoxe Kirche)"@de ,
 		"parafia (Kościół prawosławny)"@pl ,
-		"приход"@ru
+		"приход (Православная Церковь)"@ru
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "парафия"@ru ;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel> "community"@en ;
@@ -10253,7 +10278,7 @@ ontohgis:administrative_type_171
 	rdfs:label
 		"eparchia (Kościół prawosławny)"@pl ,
 		"eparchy (Orthodox Church)"@en ,
-		"епархия"@ru
+		"епархия (Православная Церковь)"@ru
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel>
 		"diecezja"@pl ,
@@ -10282,7 +10307,7 @@ ontohgis:administrative_type_172
 	rdfs:label
 		"metropolia (Kościół prawosławny)"@pl ,
 		"metropoly (Orthodox Church)"@en ,
-		"митрополия"@ru
+		"митрополия (Православная Церковь)"@ru
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel>
 		"ecclesiastical province"@en ,
@@ -10320,7 +10345,7 @@ ontohgis:administrative_type_174
 	rdfs:label
 		"protopopia (Kościół prawosławny)"@pl ,
 		"protopopy (Orthodox Church)"@en ,
-		"протопопия"@ru
+		"протопопия (Православная Церковь)"@ru
 		;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel>
 		"namiestnictwo"@pl ,
@@ -10341,7 +10366,7 @@ ontohgis:administrative_type_175
 	rdfs:label
 		"governorship (Orthodox Church)"@en ,
 		"namiestnictwo (Kościół prawosławny)"@pl ,
-		"наместничество"@ru
+		"наместничество (Православная Церковь)"@ru
 		;
 	<http://www.w3.org/2004/02/skos/core#hiddenLabel>
 		"okręg"@pl ,
@@ -10384,7 +10409,7 @@ ontohgis:administrative_type_177
 		]
 		;
 	rdfs:label
-		"Pfarre"@de ,
+		"Pfarre (Evangelisch-Augsburgische Kirche in der Adelsrepublik Polen-Litauen)"@de ,
 		"parafia (Kościół ewangelicko-augsburski w Rzeczypospolitej Obojga Narodów)"@pl ,
 		"parish (Evangelical Augsburg Church in the Polish-Lithuanian Commonwealth)"@en
 		;
@@ -10415,7 +10440,7 @@ ontohgis:administrative_type_178
 		]
 		;
 	rdfs:label
-		"Superintendentur"@de ,
+		"Superintendentur (Evangelisch-Augsburgische Kirche in der Adelsrepublik Polen-Litauen)"@de ,
 		"district (Evangelical Augsburg Church in the Polish-Lithuanian Commonwealth)"@en ,
 		"dystrykt (Kościół ewangelicko-augsburski w Rzeczypospolitej Obojga Narodów)"@pl
 		;
@@ -10433,7 +10458,7 @@ ontohgis:administrative_type_179
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3012 ;
 	rdfs:label
-		"Kirchenverband"@de ,
+		"Kirchenverband (Evangelisch-Augsburgische Kirche in der Adelsrepublik Polen-Litauen)"@de ,
 		"Union (Evangelical Augsburg Church in the Polish-Lithuanian Commonwealth)"@en ,
 		"jednota (Kościół ewangelicko-augsburski w Rzeczypospolitej Obojga Narodów)"@pl
 		;
@@ -10457,7 +10482,7 @@ ontohgis:administrative_type_180
 		]
 		;
 	rdfs:label
-		"Pfarre"@de ,
+		"Pfarre (Böhmische Brüder)"@de ,
 		"parafia (Jednota Braci Czeskich w Polsce)"@pl ,
 		"parish (Unity of Brethren in Poland)"@en
 		;
@@ -10488,7 +10513,7 @@ ontohgis:administrative_type_181
 		]
 		;
 	rdfs:label
-		"Distrikt"@de ,
+		"Distrikt (Böhmische Brüder)"@de ,
 		"district (Unity of Brethren in Poland)"@en ,
 		"dystrykt (Jednota Braci Czeskich w Polsce)"@pl
 		;
@@ -10506,7 +10531,7 @@ ontohgis:administrative_type_182
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3012 ;
 	rdfs:label
-		"Kirchenverband"@de ,
+		"Kirchenverband (Böhmische Brüder)"@de ,
 		"Union (Unity of Brethren in Poland)"@en ,
 		"jednota (Jednota Braci Czeskich w Polsce)"@pl
 		;
@@ -10535,7 +10560,7 @@ ontohgis:administrative_type_183
 		]
 		;
 	rdfs:label
-		"Pfarre"@de ,
+		"Pfarre (Reformierte Kirche in der Adelsrepublik Polen-Litauen)"@de ,
 		"parafia (Kościół kalwiński w Rzeczypospolitej Obojga Narodów)"@pl ,
 		"parish (Calvinist Church in the Polish-Lithuanian Commonwealth)"@en
 		;
@@ -10566,7 +10591,7 @@ ontohgis:administrative_type_184
 		]
 		;
 	rdfs:label
-		"Distrikt"@de ,
+		"Distrikt (Reformierte Kirche in der Adelsrepublik Polen-Litauen)"@de ,
 		"district (Calvinist Church in the Polish-Lithuanian Commonwealth)"@en ,
 		"dystrykt (Kościół kalwiński w Rzeczypospolitej Obojga Narodów)"@pl
 		;
@@ -10585,7 +10610,7 @@ ontohgis:administrative_type_185
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3012 ;
 	rdfs:label
-		"Kirchenverband"@de ,
+		"Kirchenverband (Reformierte Kirche in der Adelsrepublik Polen-Litauen)"@de ,
 		"Union (Calvinist Church in the Polish-Lithuanian Commonwealth)"@en ,
 		"jednota (Kościół kalwiński w Rzeczypospolitej Obojga Narodów)"@pl
 		;
@@ -10609,7 +10634,7 @@ ontohgis:administrative_type_186
 		]
 		;
 	rdfs:label
-		"Pfarre"@de ,
+		"Pfarre (Evangelisch-Lutherische Kirche in Preußen 1525–1817)"@de ,
 		"parafia (Kościół ewangelicko-augsburski w Prusach 1525-1817)"@pl ,
 		"parish (Evangelical Augsburg Church in Prussia 1525-1817)"@en
 		;
@@ -10641,8 +10666,8 @@ ontohgis:administrative_type_187
 		]
 		;
 	rdfs:label
-		"Seniorat"@de ,
 		"Seniorat (Evangelical Augsburg Church in Prussia 1525-1817)"@en ,
+		"Seniorat (Evangelisch-Lutherische Kirche in Preußen 1525–1817)"@de ,
 		"seniorat (Kościół ewangelicko-augsburski w Prusach 1525-1817)"@pl
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "Lutheran Church district"@en ;
@@ -10685,7 +10710,7 @@ ontohgis:administrative_type_189
 		]
 		;
 	rdfs:label
-		"Konsistorium"@de ,
+		"Konsistorium (Evangelisch-Lutherische Kirche in Preußen 1525–1817)"@de ,
 		"consistory (Evangelical Augsburg Church in Prussia 1525-1817)"@en ,
 		"konsystorz prowincjonalny (Kościół ewangelicko-augsburski w Prusach 1525-1817)"@pl
 		;
@@ -10704,7 +10729,7 @@ ontohgis:administrative_type_190
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3012 ;
 	rdfs:label
-		"Oberkonsistorium"@de ,
+		"Oberkonsistorium (Evangelisch-Lutherische Kirche in Preußen 1525–1817)"@de ,
 		"general consistory (Evangelical Augsburg Church in Prussia 1525-1817)"@en ,
 		"konsystorz generalny (Kościół ewangelicko-augsburski w Prusach 1525-1817)"@pl
 		;
@@ -10721,7 +10746,7 @@ ontohgis:administrative_type_191
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_188 ;
 	rdfs:label
-		"Inspektion"@de ,
+		"Inspektion (Evangelisch-Lutherische Kirche in Preußen 1525–1817)"@de ,
 		"inspection (Evangelical Augsburg Church in Prussia 1525-1817)"@en ,
 		"inspekcja (Kościół ewangelicko-augsburski w Prusach 1525-1817)"@pl
 		;
@@ -10739,7 +10764,7 @@ ontohgis:administrative_type_192
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_188 ;
 	rdfs:label
-		"Superintendentur"@de ,
+		"Superintendentur (Evangelisch-Lutherische Kirche in Preußen 1525–1817)"@de ,
 		"superintendency (Evangelical Augsburg Church in Prussia 1525-1817)"@en ,
 		"superintendentura (Kościół ewangelicko-augsburski w Prusach 1525-1817)"@pl
 		;
@@ -10788,7 +10813,7 @@ ontohgis:administrative_type_194
 		]
 		;
 	rdfs:label
-		"Pfarre"@de ,
+		"Pfarre (Reformierte Kirche in Preußen 1713-1817)"@de ,
 		"parafia (Kościół ewangelicko-reformowany w Prusach 1713-1817)"@pl ,
 		"parish (Evangelical Reformed Church in Prussia 1713-1817)"@en
 		;
@@ -10819,7 +10844,7 @@ ontohgis:administrative_type_195
 		]
 		;
 	rdfs:label
-		"Inspektion"@de ,
+		"Inspektion (Reformierte Kirche in Preußen 1713-1817)"@de ,
 		"inspection (Evangelical Reformed Church in Prussia 1713-1817)"@en ,
 		"inspekcja (Kościół ewangelicko-reformowany w Prusach 1713-1817)"@pl
 		;
@@ -10840,7 +10865,7 @@ ontohgis:administrative_type_196
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3012 ;
 	rdfs:label
-		"Oberkonsistorium"@de ,
+		"Oberkonsistorium (Reformierte Kirche in Preußen 1713-1817)"@de ,
 		"general consistory (Evangelical Reformed Church in Prussia 1713-1817)"@en ,
 		"konsystorz generalny (Kościół ewangelicko-reformowany w Prusach 1713-1817)"@pl
 		;
@@ -10868,7 +10893,7 @@ ontohgis:administrative_type_197
 		]
 		;
 	rdfs:label
-		"Pfarre"@de ,
+		"Pfarre (Evangelische Kirche in Preußen 1817-1939)"@de ,
 		"parafia (Kościół ewangelicki w Prusach 1817-1939)"@pl ,
 		"parish (Evangelical Church in Prussia 1817-1939)"@en
 		;
@@ -10900,7 +10925,7 @@ ontohgis:administrative_type_198
 		]
 		;
 	rdfs:label
-		"Superintendentur"@de ,
+		"Superintendentur (Evangelische Kirche in Preußen 1817-1939)"@de ,
 		"superintendency (Evangelical Church in Prussia 1817-1939)"@en ,
 		"superintendentura (Kościół ewangelicki w Prusach 1817-1939)"@pl
 		;
@@ -10928,7 +10953,7 @@ ontohgis:administrative_type_199
 		]
 		;
 	rdfs:label
-		"Superintendentur"@de ,
+		"Superintendentur (Evangelische Kirche in Preußen 1817-1939)"@de ,
 		"district (Evangelical Church in Prussia 1817-1939)"@en ,
 		"okręg kościelny (Kościół ewangelicki w Prusach 1817-1939)"@pl
 		;
@@ -10958,7 +10983,7 @@ ontohgis:administrative_type_2
 	rdfs:subClassOf ontohgis:administrative_type_9 ;
 	rdfs:label
 		"gmina miejska (Rzeczpospolita Polska (1918-1939))"@pl ,
-		"town commune (The Second Polish Republic)"@en
+		"town commune (The Second Polish Republic (1918-1939))"@en
 		;
 	rdfs:comment 'Zgodnie z treścią konstytucji marcowej (1921) "Dla celów administracyjnych Państwo Polskie podzielone będzie w drodze ustawodawczej na województwa, powiaty i gminy miejskie i wiejskie, które będą równocześnie jednostkami samorządu terytorjalnego". Faktycznie cały okres międzywojenny charakteryzuje proces unifikacji terytorialnej administracji ogólnej, której celem jest likwidacja różnic między byłymi zaborami. Ostatnim ważnym aktem była likwidacja obszarów dworskich na terenie woj. poznańskiego oraz pomorskiego na mocy tzw. ustawy scaleniowej z 1933 r.'@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_1 ;
@@ -11054,7 +11079,7 @@ ontohgis:administrative_type_203
 		]
 		;
 	rdfs:label
-		"Pfarre"@de ,
+		"Pfarre (Evangelische General-Konsistorium zu Warschau 1828-1849)"@de ,
 		"parafia (Kościół ewangelicki w Królestwie Polskim 1828-1849)"@pl ,
 		"parish (Evangelical Church in Kingdom of Poland 1828-1849)"@en
 		;
@@ -11086,7 +11111,7 @@ ontohgis:administrative_type_204
 		]
 		;
 	rdfs:label
-		"Diözese"@de ,
+		"Diözese (Evangelische General-Konsistorium zu Warschau 1828-1849)"@de ,
 		"diecezja (Kościół ewangelicki w Królestwie Polskim 1828-1849)"@pl ,
 		"diocese (Evangelical Church in Kingdom of Poland 1828-1849)"@en
 		;
@@ -11135,7 +11160,7 @@ ontohgis:administrative_type_206
 		]
 		;
 	rdfs:label
-		"Pfarre"@de ,
+		"Pfarre (Evangelisch-Augsburgische Kirche in Polen 1849-1939)"@de ,
 		"parafia (Kościół ewangelicko-augsburski w Polsce 1849-1939)"@pl ,
 		"parish (Evangelical Augsburg Church in Poland 1849-1939)"@en
 		;
@@ -11167,7 +11192,7 @@ ontohgis:administrative_type_207
 		]
 		;
 	rdfs:label
-		"Superintendentur"@de ,
+		"Superintendentur (Evangelisch-Augsburgische Kirche in Polen 1849-1939)"@de ,
 		"superintendecy (Evangelical Augsburg Church in Poland 1849-1939)"@en ,
 		"superintendentura (Kościół ewangelicko-augsburski w Polsce 1849-1939)"@pl
 		;
@@ -11191,7 +11216,7 @@ ontohgis:administrative_type_208
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3012 ;
 	rdfs:label
-		"Oberkonsistorium"@de ,
+		"Oberkonsistorium (Evangelisch-Augsburgische Kirche in Polen 1849-1939)"@de ,
 		"general consistory (Evangelical Augsburg Church in Poland 1849-1939)"@en ,
 		"konsystorz generalny (Kościół ewangelicko-augsburski w Polsce 1849-1939)"@pl
 		;
@@ -11225,7 +11250,7 @@ ontohgis:administrative_type_209
 		]
 		;
 	rdfs:label
-		"Pfarre"@de ,
+		"Pfarre (Evangelisch-Reformierte Kirche in Polen 1849–1939)"@de ,
 		"parafia (Kościół ewangelicko-reformowany w Polsce 1849-1939)"@pl ,
 		"parish (Evangelical Reformed Church in Poland 1849-1939)"@en
 		;
@@ -11295,7 +11320,7 @@ ontohgis:administrative_type_212
 		]
 		;
 	rdfs:label
-		"Gemeinde"@de ,
+		"Gemeinde (Evangelische Kirche in Galizien 1781–1918)"@de ,
 		"gmina (Kościół ewangelicki w Galicji 1781-1918)"@pl
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel>
@@ -11320,7 +11345,7 @@ ontohgis:administrative_type_213
 		]
 		;
 	rdfs:label
-		"Seniorat"@de ,
+		"Seniorat (Evangelische Kirche in Galizien 1781–1918)"@de ,
 		"seniorat (Kościół ewangelicki w Galicji 1781-1918)"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_38 ;
@@ -11338,7 +11363,7 @@ ontohgis:administrative_type_214
 		]
 		;
 	rdfs:label
-		"Superintendentur"@de ,
+		"Superintendentur (Evangelische Kirche in Galizien 1781–1918)"@de ,
 		"superintendentura (Kościół ewangelicki w Galicji 1781-1918)"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_38 ;
@@ -11349,7 +11374,7 @@ ontohgis:administrative_type_215
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3012 ;
 	rdfs:label
-		"Konsistorium"@de ,
+		"Konsistorium (Evangelische Kirche in Galizien 1781–1918)"@de ,
 		"konsystorz (Kościół ewangelicki w Galicji 1781-1918)"@pl
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "General Superintendentur"@de ;
@@ -11399,8 +11424,8 @@ ontohgis:administrative_type_218
 		]
 		;
 	rdfs:label
-		"galil"@he ,
-		"kahał okręgowy (Żydzi w Rzeczypospolitej Obojga Narodów)"@pl
+		"galil mishneh"@he ,
+		"kahał podokręgowy (Żydzi w Rzeczypospolitej Obojga Narodów)"@pl
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "podokręg"@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_39 ;
@@ -11520,7 +11545,7 @@ ontohgis:administrative_type_226
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3014 ;
 	rdfs:label
-		"Kreis"@de ,
+		"Kreis (Königreich Sachsen (1815-1918))"@de ,
 		"district (The Kingdom of Saxony (1815-1918))"@en ,
 		"powiat (Królestwo Saksonii (1815-1918))"@pl
 		;
@@ -11559,7 +11584,7 @@ ontohgis:administrative_type_228
 		]
 		;
 	rdfs:label
-		"Gemeinde"@de ,
+		"Gemeinde (Königreich Sachsen (1815-1918))"@de ,
 		"gmina (Królestwo Saksonii (1815-1918))"@pl ,
 		"municipality (The Kingdom of Saxony (1815-1918))"@en
 		;
@@ -11709,8 +11734,8 @@ ontohgis:administrative_type_24
 		]
 		;
 	rdfs:label
-		"Gemeinde"@de ,
-		"commune (The Free State of Prussia)"@en ,
+		"Gemeinde (Freistaat Preußen (1920-1945))"@de ,
+		"commune (The Free State of Prussia (1920-1945))"@en ,
 		"gmina (Wolne Państwo Prusy (1920-1945))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_4 ;
@@ -11773,9 +11798,16 @@ ontohgis:administrative_type_242
 
 ontohgis:administrative_type_243
 	a owl:Class ;
-	rdfs:subClassOf ontohgis:object_3014 ;
+	rdfs:subClassOf
+		ontohgis:object_3014 ,
+		[
+			a owl:Restriction ;
+			owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P46i_forms_part_of> ;
+			owl:someValuesFrom ontohgis:administrative_type_244 ;
+		]
+		;
 	rdfs:label
-		"district (Kingdom of Poland (1815-1837))"@en ,
+		"county (Kingdom of Poland (1815-1837))"@en ,
 		"powiat (Królestwo Polskie (1815-1836))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_43 ;
@@ -11794,7 +11826,8 @@ ontohgis:administrative_type_244
 		;
 	rdfs:label
 		"district (Kingdom of Poland (1815-1837))"@en ,
-		"obwód (Królestwo Polskie (1815-1836))"@pl
+		"obwód (Królestwo Polskie (1815-1836))"@pl ,
+		"область (Царство Польское (1815-1837))"@ru
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_43 ;
 	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_30 ;
@@ -11868,8 +11901,8 @@ ontohgis:administrative_type_25
 		]
 		;
 	rdfs:label
-		"Amtsbezirk"@de ,
-		"bailiwick (The Free State of Prussia)"@en ,
+		"Amtsbezirk (Freistaat Preußen (1920-1945))"@de ,
+		"bailiwick (The Free State of Prussia (1920-1945))"@en ,
 		"wójtostwo (Wolne Państwo Prusy (1920-1945))"@pl
 		;
 	rdfs:comment '''"Od 1.01. 1873 z wyłączeniem Prowincji Poznańskiej.
@@ -12003,8 +12036,8 @@ ontohgis:administrative_type_258
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_257 ;
 	rdfs:label
-		"commune (The Free City of Danzig (1920-1939))"@en ,
-		"gmina miejska (Wolne Miasto Gdańsk (1920-1939))"@pl
+		"gmina miejska (Wolne Miasto Gdańsk (1920-1939))"@pl ,
+		"municipal commune (The Free City of Danzig (1920-1939))"@en
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel>
 		"municipality"@en ,
@@ -12037,8 +12070,8 @@ ontohgis:administrative_type_26
 		]
 		;
 	rdfs:label
-		"Kreis"@de ,
-		"district (The Free State of Prussia)"@en ,
+		"Kreis (Freistaat Preußen (1920-1945))"@de ,
+		"district (The Free State of Prussia (1920-1945))"@en ,
 		"powiat (Wolne Państwo Prusy (1920-1945))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_4 ;
@@ -12190,9 +12223,9 @@ ontohgis:administrative_type_27
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_26 ;
 	rdfs:label
-		"Landkreis"@de ,
+		"Landkreis Kreis (Freistaat Preußen (1920-1945))"@de ,
 		"powiat ziemski (Wolne Państwo Prusy (1920-1945))"@pl ,
-		"rural district (The Free State of Prussia) (The Duchy of Prussia (1525-1701))"@en
+		"rural district  (The Free State of Prussia (1920-1945))"@en
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_4 ;
 	ontohgis:isSymbolisedByMeansOf ontohgis:map_symbol_30 ;
@@ -12235,7 +12268,7 @@ ontohgis:administrative_type_271
 		]
 		;
 	rdfs:label
-		"Kreis"@de ,
+		"Kreis (Herzogtum Preußen (1525-1701))"@de ,
 		"district (The Duchy of Prussia (1525-1701))"@en ,
 		"okręg (Prusy Książęce (1525-1701))"@pl
 		;
@@ -12364,9 +12397,9 @@ ontohgis:administrative_type_28
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_26 ;
 	rdfs:label
-		"Stadtkreis"@de ,
+		"Stadtkreis (Freistaat Preußen (1920-1945))"@de ,
 		"powiat miejski (Wolne Państwo Prusy (1920-1945))"@pl ,
-		"urban district (The Free State of Prussia)"@en
+		"urban district (The Free State of Prussia (1920-1945))"@en
 		;
 	rdfs:comment "Równorzędny z powiatem ziemskim ale nie dzielił się już na mniejsze wójtostwa"@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_4 ;
@@ -12571,8 +12604,8 @@ ontohgis:administrative_type_3
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_9 ;
 	rdfs:label
-		"gmina wiejska"@pl ,
-		"rural commune"@en
+		"gmina wiejska (Rzeczpospolita Polska (1918-1939))"@pl ,
+		"rural commune (The Second Polish Republic (1918-1939))"@en
 		;
 	rdfs:comment 'Zgodnie z treścią konstytucji marcowej (1921) "Dla celów administracyjnych Państwo Polskie podzielone będzie w drodze ustawodawczej na województwa, powiaty i gminy miejskie i wiejskie, które będą równocześnie jednostkami samorządu terytorjalnego". Faktycznie cały okres międzywojenny charakteryzuje proces unifikacji terytorialnej administracji ogólnej, której celem jest likwidacja różnic między byłymi zaborami. Ostatnim ważnym aktem była likwidacja obszarów dworskich na terenie woj. poznańskiego oraz pomorskiego na mocy tzw. ustawy scaleniowej z 1933 r.'@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_1 ;
@@ -12583,8 +12616,8 @@ ontohgis:administrative_type_30
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3014 ;
 	rdfs:label
-		"Provinz"@de ,
-		"province (The Free State of Prussia)"@en ,
+		"Provinz (Freistaat Preußen (1920-1945))"@de ,
+		"province The Free State of Prussia (1920-1945)"@en ,
 		"prowincja (Wolne Państwo Prusy (1920-1945))"@pl
 		;
 	owl:equivalentClass
@@ -12611,7 +12644,7 @@ ontohgis:administrative_type_35
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_37 ;
 	rdfs:label
-		"Landgemeinde"@de ,
+		"Landgemeinde (Königreich Preußen (1806-1919))"@de ,
 		"gmina wiejska (Królestwo Prus (1806-1919))"@pl ,
 		"rural commune (The Kingdom of Prussia (1806-1919))"@en
 		;
@@ -12625,7 +12658,7 @@ ontohgis:administrative_type_36
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_37 ;
 	rdfs:label
-		"Gutsbezirk"@de ,
+		"Gutsbezirk (Königreich Preußen (1806-1919))"@de ,
 		"manorial demesne (The Kingdom of Prussia (1806-1919))"@en ,
 		"obszar dworski (Królestwo Prus (1806-1919))"@pl
 		;
@@ -12654,7 +12687,7 @@ ontohgis:administrative_type_37
 		]
 		;
 	rdfs:label
-		"Gemeinde"@de ,
+		"Gemeinde (Königreich Preußen (1806-1919))"@de ,
 		"commune (The Kingdom of Prussia (1806-1919))"@en ,
 		"gmina (Królestwo Prus (1806-1919))"@pl
 		;
@@ -12679,7 +12712,7 @@ ontohgis:administrative_type_38
 		]
 		;
 	rdfs:label
-		"Amtsbezirk"@de ,
+		"Amtsbezirk (Königreich Preußen (1806-1919))"@de ,
 		"bailiwick (The Kingdom of Prussia (1806-1919))"@en ,
 		"wójtostwo (Królestwo Prus (1806-1919))"@pl
 		;
@@ -12701,7 +12734,7 @@ ontohgis:administrative_type_39
 		]
 		;
 	rdfs:label
-		"Kreis"@de ,
+		"Kreis (Königreich Preußen (1806-1919))"@de ,
 		"district (The Kingdom of Prussia (1806-1919))"@en ,
 		"powiat (Królestwo Prus (1806-1919))"@pl
 		;
@@ -12718,8 +12751,8 @@ ontohgis:administrative_type_4
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_9 ;
 	rdfs:label
-		"manorial demesne"@en ,
-		"obszar dworski"@pl
+		"manorial demesne (The Second Polish Republic (1918-1939))"@en ,
+		"obszar dworski (Rzeczpospolita Polska (1918-1939))"@pl
 		;
 	rdfs:comment "Obszary dworskie utrzymały się najdłużej na Śląsku oraz w województwach zachodnich, pomorskim i poznańskim, gdzie zostały zniesione na podstawie tzw. ustawy scaleniowej z 1933 r. oraz rozporządzeń wykonawczych z 1934 r."@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_1 ;
@@ -12734,7 +12767,7 @@ ontohgis:administrative_type_40
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_39 ;
 	rdfs:label
-		"Landkreis"@de ,
+		"Landkreis (Königreich Preußen (1806-1919))"@de ,
 		"powiat ziemski (Królestwo Prus (1806-1919))"@pl ,
 		"rural district (The Kingdom of Prussia (1806-1919))"@en
 		;
@@ -12750,7 +12783,7 @@ ontohgis:administrative_type_41
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_39 ;
 	rdfs:label
-		"Stadtkreis"@de ,
+		"Stadtkreis (Königreich Preußen (1806-1919))"@de ,
 		"powiat miejski (Królestwo Prus (1806-1919))"@pl ,
 		"urban district (The Kingdom of Prussia (1806-1919))"@en
 		;
@@ -12788,7 +12821,7 @@ ontohgis:administrative_type_43
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3014 ;
 	rdfs:label
-		"Provinz"@de ,
+		"Provinz (Königreich Preußen (1806-1919))"@de ,
 		"province (The Kingdom of Prussia (1806-1919))"@en ,
 		"prowincja (Królestwo Prus (1806-1919))"@pl
 		;
@@ -12880,7 +12913,7 @@ ontohgis:administrative_type_49
 	rdfs:label
 		"gmina (Cesarstwo Rosyjskie (1775-1917))"@pl ,
 		"volost (Russian Empire (1775-1917))"@en ,
-		"волость"@ru
+		"волость (Российская империя (1775-1917))"@ru
 		;
 	rdfs:comment
 		"Jednostka najniższego rzędu wprowadzona na skutek reformy włościańskiej w 1861 r."@pl ,
@@ -12899,8 +12932,8 @@ ontohgis:administrative_type_5
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_10 ;
 	rdfs:label
-		"district"@en ,
-		"powiat"@pl
+		"district (The Second Polish Republic 1918-1939))"@en ,
+		"powiat (Rzeczpospolita Polska (1918-1939))"@pl
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "county"@en ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_1 ;
@@ -12950,7 +12983,7 @@ ontohgis:administrative_type_51
 	rdfs:label
 		"oblast (Russian Empire (1775-1917))"@en ,
 		"obwód (Cesarstwo Rosyjskie (1775-1917))"@pl ,
-		"область"@ru
+		"область (Российская империя (1775-1917))"@ru
 		;
 	rdfs:comment "Obwody występowały jako jednostka pośrednia między namiestnictwem lub gubernią a powiatem w przypadku rozległych jednostek terytorialnych"@pl ;
 	<http://www.w3.org/2004/02/skos/core#altLabel>
@@ -12977,9 +13010,9 @@ ontohgis:administrative_type_52
 		]
 		;
 	rdfs:label
-		"gubernia (Cesarstwo Rosyjskie (1775-1917))"@pl ,
-		"guberniya (Russian Empire (1775-1917))"@en ,
-		"губерния"@ru
+		"gubernia-namiestnictwo-obwód (Cesarstwo Rosyjskie (1775-1917))"@pl ,
+		"guberniya-vicegerency-oblast (Russian Empire (1775-1917))"@en ,
+		"губерния-наместничество-область (Российская империя (1775-1917))"@ru
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "governorate"@en ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_8 ;
@@ -12997,7 +13030,7 @@ ontohgis:administrative_type_53
 	rdfs:label
 		"gubernia (Cesarstwo Rosyjskie (1775-1917))"@pl ,
 		"guberniya (Russian Empire (1775-1917))"@en ,
-		"губерния"@ru
+		"губерния (Российская империя (1775-1917))"@ru
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "governorate"@en ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_8 ;
@@ -13013,9 +13046,9 @@ ontohgis:administrative_type_54
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_52 ;
 	rdfs:label
-		"oblast (Russian Empire (1775-1917))"@en ,
-		"obwód (Cesarstwo Rosyjskie (1775-1917))"@pl ,
-		"область"@ru
+		"Oblast with the rights of a governorate (Russian Empire (1775-1917))"@en ,
+		"obwód na prawach guberni (Cesarstwo Rosyjskie (1775-1917))"@pl ,
+		"область на правах губернии (Российская империя (1775-1917))"@ru
 		;
 	rdfs:comment "Obwody na prawach guberni"@pl ;
 	<http://www.w3.org/2004/02/skos/core#altLabel>
@@ -13037,7 +13070,7 @@ ontohgis:administrative_type_55
 	rdfs:label
 		"namiestnictwo (Cesarstwo Rosyjskie (1775-1917))"@pl ,
 		"vicegerency (Russian Empire (1775-1917))"@en ,
-		"наместничество"@ru
+		"наместничество (Российская империя (1775-1917))"@ru
 		;
 	rdfs:comment "Nazwa jednostki administracyjnej odpowiadającej guberni, która funkcjonowała głównie w latach 1775-1796"@pl ;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "viceroyalty"@en ;
@@ -13055,7 +13088,7 @@ ontohgis:administrative_type_56
 	rdfs:label
 		"generalne gubernatorstwo (Cesarstwo Rosyjskie (1775-1917))"@pl ,
 		"governorate-general (Russian Empire (1775-1917))"@en ,
-		"генерал-губернаторство"@ru
+		"генерал-губернаторство (Российская империя (1775-1917))"@ru
 		;
 	rdfs:comment "Była to jednostka skupiająca kilka guberni. Poziom ten nie obejmował całego państwa, gdyż generalne gubernatorstwa były organizowane głównie na teranach przygranicznych; jednostką równoważną na tym poziomie było namiestnictwo kaukaskie"@pl ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_8 ;
@@ -13205,7 +13238,7 @@ ontohgis:administrative_type_68
 		]
 		;
 	rdfs:label
-		"district (Congress Poland (1837-1866))"@en ,
+		"circuit (Congress Poland (1837-1866))"@en ,
 		"okręg (Królestwo Polskie (1837-1866))"@pl
 		;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_11 ;
@@ -13267,7 +13300,7 @@ ontohgis:administrative_type_74
 		]
 		;
 	rdfs:label
-		"Kreis"@de ,
+		"Kreis (Königreich Preußen (1713-1805))"@de ,
 		"district (The Kingdom of Prussia (1713-1805))"@en ,
 		"powiat (Królestwo Prus (1713-1805))"@pl
 		;
@@ -13283,7 +13316,7 @@ ontohgis:administrative_type_75
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:administrative_type_74 ;
 	rdfs:label
-		"Landkreis"@de ,
+		"Landkreis (Königreich Preußen (1713-1805))"@de ,
 		"powiat ziemski (Królestwo Prus (1713-1805))"@pl ,
 		"rural district (The Kingdom of Prussia (1713-1805))"@en
 		;
@@ -13331,7 +13364,7 @@ ontohgis:administrative_type_78
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3014 ;
 	rdfs:label
-		"Provinz"@de ,
+		"Provinz (Königreich Preußen (1713-1805))"@de ,
 		"province (The Kingdom of Prussia (1713-1805))"@en ,
 		"prowincja (Królestwo Prus (1713-1805))"@pl
 		;
@@ -13486,8 +13519,8 @@ ontohgis:administrative_type_9
 		]
 		;
 	rdfs:label
-		"gmina"@pl ,
-		"municipality"@en
+		"gmina (Rzeczpospolita Polska (1918-1939))"@pl ,
+		"municipality (The Second Polish Republic (1918-1939))"@en
 		;
 	<http://www.w3.org/2004/02/skos/core#altLabel> "community"@en ;
 	ontohgis:isDefinedByEntity ontohgis:administrative_system_1 ;
@@ -13521,7 +13554,7 @@ ontohgis:administrative_type_92
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3014 ;
 	rdfs:label
-		"Distrikt"@de ,
+		"Distrikt (Königreich Galizien und Lodomerien (1772-1848))"@de ,
 		"district (The Kingdom of Galitia and Lodomeria (1772-1848))"@en ,
 		"okręg (Królestwo Galicji i Lodomerii (1772-1848))"@pl
 		;
@@ -13537,7 +13570,7 @@ ontohgis:administrative_type_93
 	a owl:Class ;
 	rdfs:subClassOf ontohgis:object_3014 ;
 	rdfs:label
-		"Kreis"@de ,
+		"Kreis (Königreich Galizien und Lodomerien (1772-1848))"@de ,
 		"cyrkuł (Królestwo Galicji i Lodomerii (1772-1848))"@pl ,
 		"tsyrkul (The Kingdom of Galitia and Lodomeria (1772-1848))"@en
 		;
