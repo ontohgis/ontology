@@ -7770,6 +7770,17 @@ foaf:mbox
 	a owl:AnnotationProperty ;
 	.
 
+ontohgis:isAffiliatedTo
+  a owl:ObjectProperty ;
+    rdfs:label 
+    "is affiliated to"@en , 
+    "jest afiliowane do"@pl ;
+  rdfs:comment 
+    "Wskazuje na relację afiliacji osoby lub instytucji do instytucji lub organizacji, np. unię (unio)jednej parafii z inną parafią lub inkorporację (incorporatio) parafii do kapituły katedralnej. Jako podmiot wskazuje się najczęściej jednostkę podrzędną (np. parochia filialis), natomiast jako obiekt jednostkę nadrzędną (np. parochia matrix). W przypadku relacji na równym poziomie (unio aeque principalis) własność należy wprowadzać dla obu łączonych elementów."@pl, 
+    "Indicates a relationship of affiliation of a person or institution to another institution or organization, e.g., a union (unio) of one parish with another parish, or the incorporation (incorporatio) of a parish into a cathedral chapter. The subject is usually the subordinate entity (e.g., parochia filialis), while the object is the superior entity (e.g., parochia matrix). In the case of a relationship at the same level (e.g., unio aeque principalis), the property should be assigned to both connected elements."@en 
+      ;
+    .
+
 ontohgis:hasSimpleDedicationName 
   a owl:ObjectProperty ;
   rdfs:domain ontohgis:CompositeDedicationName ;
