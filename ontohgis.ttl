@@ -7770,30 +7770,6 @@ foaf:mbox
 	a owl:AnnotationProperty ;
 	.
 
-ontohgis:hasSimpleDedicationName 
-  a owl:ObjectProperty ;
-  rdfs:domain ontohgis:CompositeDedicationName ;
-  rdfs:range ontohgis:SimpleDedicationName ;
-  rdfs:label 
-    "has simple dedication name"@en , 
-    "ma wezwanie proste"@pl ;
-  rdfs:comment 
-    "Wskazuje, które wezwania proste wchodzą w skład wezwania złożonego."@pl, 
-    "Indicates which simple dedication names are part of a composite dedication name."@en 
-      ;
-    .
-
-ontohgis:hasDedicationName 
-  a owl:ObjectProperty ;
-  rdfs:label 
-    "has dedication name"@en , 
-    "ma wezwanie"@pl ;
-  rdfs:comment 
-    "Określa wezwanie przypisane do dowolnej jednostki kościelnej (np. kościoła, parafii, katedry)."@pl ,
-    "Specifies the dedication name assigned to any ecclesiastical unit (e.g. church, parish, cathedral)."@en 
-    ;
-  .
-
 ontohgis:CompositeDedicationName
 	a owl:Class ;
 	rdfs:subClassOf <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
@@ -7824,19 +7800,6 @@ ontohgis:SimpleDedicationName
 		"Proste wezwanie kościoła lub parafii."@pl
 		;
 	.
-
-ontohgis:dedicationOrder 
-  a owl:DatatypeProperty ;
-  rdfs:domain ontohgis:CompositeDedicationName ;
-  rdfs:range xsd:integer ;
-  rdfs:label 
-    "dedication order"@en , 
-    "kolejność wezwania"@pl ;
-  rdfs:comment 
-    "Wskazuje kolejność elementu wezwania prostego w ramach wezwania złożonego."@pl ,
-    "Indicates the order of a simple dedication name element within a composite dedication name."@en
-    ;
-  .
 
 ontohgis:administersOver
 	a
@@ -7991,7 +7954,6 @@ ontohgis:administrative_system_13
 		;
 	rdfs:comment
 		"After Frederic William's ascension to the throne (1713-1740) a lengthy process of administrative system reform starts. In 1807 abolished the central General Directory, replacing it with modern ministries, while a royal decree of December 26, 1808 made a fundamental change at the provincial level - the Cameras of War and Domains were transformed into districts (German: Regierungsbezirk), i.e. unified government offices in the field. In 1814, the interim period, when the Frederick's system was connected with the new one intorduced by Stein'. In 1723 - the General Directorate (Das Generaldirektorium) was established."@en ,
-		
 		"Po wstąpieniu na tron Fryderyk Wilhelm I (1713-1740) rozpoczyna długotrwały proces reform administracyjnych swego państwa. 1807 zlikwidowano centralne Generalne Dyrektorium, zastępując je nowoczesnymi ministerstwami, zaś na mocy dekretu królewskiego z 26 grudnia 1808 dokonano zasadniczej zmiany na poziomie prowincji – Kamery Wojny i Domen przekształcono w rejencje (niem. Regierungsbezirk) czyli jednolite urzędy administracji rządowej w terenie. 1814 - koniec okresu przejściowego, w którym stary system fryderycjański łączył się z nowym, wprowadzonym przez reformy Steina. 1723 - Utworzenie Generalnego Dyrektorium (Das Generaldirektorium)"@pl
 		;
 	dct:creator ontohgis:person_11 ;
@@ -13625,6 +13587,20 @@ ontohgis:continuesAs
 	) ;
 	.
 
+ontohgis:dedicationOrder
+	a owl:DatatypeProperty ;
+	rdfs:label
+		"dedication order"@en ,
+		"kolejność wezwania"@pl
+		;
+	rdfs:comment
+		"Indicates the order of a simple dedication name element within a composite dedication name."@en ,
+		"Wskazuje kolejność elementu wezwania prostego w ramach wezwania złożonego."@pl
+		;
+	rdfs:domain ontohgis:CompositeDedicationName ;
+	rdfs:range xsd:integer ;
+	.
+
 ontohgis:document_1
 	a
 		owl:NamedIndividual ,
@@ -16018,6 +15994,18 @@ ontohgis:hasBoundary
 	owl:inverseOf ontohgis:isBoundaryOf ;
 	.
 
+ontohgis:hasDedicationName
+	a owl:ObjectProperty ;
+	rdfs:label
+		"has dedication name"@en ,
+		"ma wezwanie"@pl
+		;
+	rdfs:comment
+		"Określa wezwanie przypisane do dowolnej jednostki kościelnej (np. kościoła, parafii, katedry)."@pl ,
+		"Specifies the dedication name assigned to any ecclesiastical unit (e.g. church, parish, cathedral)."@en
+		;
+	.
+
 ontohgis:hasEnd
 	a
 		owl:DatatypeProperty ,
@@ -16112,6 +16100,20 @@ ontohgis:hasScope
 		"has scope"@en ,
 		"ma zasięg"@pl
 		;
+	.
+
+ontohgis:hasSimpleDedicationName
+	a owl:ObjectProperty ;
+	rdfs:label
+		"has simple dedication name"@en ,
+		"ma wezwanie proste"@pl
+		;
+	rdfs:comment
+		"Indicates which simple dedication names are part of a composite dedication name."@en ,
+		"Wskazuje, które wezwania proste wchodzą w skład wezwania złożonego."@pl
+		;
+	rdfs:domain ontohgis:CompositeDedicationName ;
+	rdfs:range ontohgis:SimpleDedicationName ;
 	.
 
 ontohgis:hasTranslator
